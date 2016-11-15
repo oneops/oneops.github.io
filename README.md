@@ -5,3 +5,5 @@ To view and edit the website you can use standard Jekyll, or you can use the Jav
 ```
 ./jekyll.sh
 ```
+
+Please feel free to make PRs to improve the site.
