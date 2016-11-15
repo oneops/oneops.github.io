@@ -1,0 +1,25 @@
+/*Flexo Regular*/
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=52120a9f-ff18-4080-87b8-84bd26da1f7d");
+@font-face{
+    font-family:"Flexo W01 Regular";
+    src:url("a59e14a0-89b3-447d-95c6-86461dc6933b.eot?#iefix");
+    src:url("a59e14a0-89b3-447d-95c6-86461dc6933b.eot?#iefix") format("eot"),url("5433731e-c968-4f84-9ee9-38f49d68163e.woff2")
+    format("woff2"),url("7007db6d-aa5c-4737-860b-1ca584fd95a3.woff")
+    format("woff"),url("ecc3e238-63e4-443b-ad81-d18d92de8974.ttf")
+    format("truetype"),url("30b523a8-29f0-4d82-95a1-23cdee84cd0b.svg#30b523a8-29f0-4d82-95a1-23cdee84cd0b")
+    format("svg");
+}
+
+/*Flexo-Medium Custom Font*/
+@font-face {
+    font-family: 'flexomedium';
+    src: url('flexo-medium-webfont.eot');
+    src: url('flexo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('flexo-medium-webfont.woff2') format('woff2'),
+         url('flexo-medium-webfont.woff') format('woff'),
+         url('flexo-medium-webfont.ttf') format('truetype'),
+         url('flexo-medium-webfont.svg#flexomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

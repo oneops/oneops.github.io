@@ -1,0 +1,83 @@
+    #wizard ul.steps {
+        position:        relative;
+        float:           left;
+        padding-left:         15px;
+        margin:          0px;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    #wizard ul.steps>li {
+        float:       left;
+        position:    relative;
+        display:     block;
+        margin: 0px 5px;
+        width:       200px;
+        padding: 0px 5px;
+        font-size: 12px;
+        line-height: 18px;
+        white-space: nowrap;
+    }
+    #wizard .step-title {
+        position: relative;
+        float: left;
+        font-size:      16px;
+        vertical-align: top;
+        padding:        8px;
+        font-weight:    bold;
+    }
+    #wizard .step-title a {
+    }
+    #wizard .step-title a:hover {
+        text-decoration: underline;
+    }
+    #wizard ul.tasks {
+        position:        relative;
+        float:           left;
+        padding-left:         10px;
+        margin:          0px;
+        width: 135px;
+        list-style-type: none;
+    }
+    #wizard ul.tasks li.task {
+        float:       left;
+        position:    relative;
+        display:     block;
+        margin: 0px;
+        padding: 2px 5px;
+        font-size: 13px;
+    }
+    #wizard ul.tasks li.task a {
+    }
+    #wizard ul.tasks li.task a:hover {
+        text-decoration: underline;
+    }
+    #wizard .step-number {
+        position: relative;
+        float: right;
+        font-size:    64px;
+        height: 40px;
+        margin-top: 15px;
+        font-weight:  bold;
+        color:        inherit;
+        opacity: 0.1;
+        padding:      0px 2px;
+        text-shadow:  0px 1px 1px rgba(255, 255, 255, 0.7);
+    }
+    .alert-info {
+        background-color: #d9edf7;
+        border-color: #bce8f1;
+        color: #3a87ad;
+    }
+    .alert-success {
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+        color: #468847;
+    }
+    #wizard {
+       clear: both;
+       position: relative;
+       float: left;
+       width: 922px;
+       margin: 5px 10px;
+   }

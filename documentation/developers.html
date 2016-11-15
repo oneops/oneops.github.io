@@ -1,0 +1,39 @@
+---
+layout: dev-doc
+title:  Developers
+---
+
+<!-- Projects -->
+<div class="row margin-bottom-50">
+  <div id="project-content">
+    <div class="col-md-12">
+      <h1 class="primary">Overview</h1>
+      
+      <h1>OneOps</h1>
+      
+      <p>OneOps enables continuous lifecycle management of complex, business-critical application workloads on any cloud-based infrastructure. OneOps at its foundation has <strong>core</strong> (comprising of the backend app)
+and <strong>content</strong> (packs and circuits) which can be added to product anytime.</p>
+
+      <blockquote>
+        <p>A developer documentation that explains about OneOps pack structure and how to develop new pack for a platform.</p>
+      </blockquote>
+
+      <ul>
+        <li>Get familiar with <a href="javascript:loadContent('/documentation/developer/key-concepts/index.html');">key-concepts</a>.</li>
+        <li>Get going <a href="javascript:loadContent('/documentation/developer/getting-started/index.html');">getting started</a>.</li>
+        <li>We can help, contact us <span class="button icon-slack"><a href="{{ site.slack_url }}" target="_blank">{{ site.slack_channel }}</a></span></li>
+      </ul>
+
+      {{ content }}
+
+      <!--
+      {% for project in site.projects %}
+        <div class="col-xs-6 col-sm-4 col-md-2 project" align="center">
+          <a href="javascript:loadContent('/user/overview/index.html');"><div class="{{project.id}}">Nexus</div></a>
+        </div>
+      {% endfor %}
+      -->
+
+    </div>
+  </div>
+</div><!-- END row -->

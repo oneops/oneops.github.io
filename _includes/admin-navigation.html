@@ -1,0 +1,83 @@
+            <!--left sub navigation-->
+            <nav id="sidenav">
+              <h2>DOCUMENTATION</h2>
+   
+              <ul class="nav">
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/overview/index.html');">Overview</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/key-concepts/index.html');">Key Concepts</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/prerequisites/index.html');">Prerequisites</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/getting-started/index.html');">Getting Started</a>
+                </li>
+                <li>
+                  <a onclick="$('#admin-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
+                  <span class="caret"></span></a>
+                  <ul id="admin-typical-usage-scenarios" class="hidden">
+                    {% for link in site.admin-typical-usage-scenarios %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/admin/typical-scenarios/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul> 
+                </li>
+                <li>
+                  <a onclick="$('#admin-best-practices').toggleClass('hidden');">Best Practices
+                  <span class="caret"></span></a>
+                  <ul id="admin-best-practices" class="hidden">
+                    {% for link in site.admin-best-practices %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/admin/best-practices/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul> 
+                </li>
+                <li>
+                  <a onclick="$('#admin-references').toggleClass('hidden');">References
+                  <span class="caret"></span></a>
+                  <ul id="admin-references" class="hidden">
+                    {% for link in site.admin-references %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/admin/references/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul> 
+                </li>
+                <li>
+                  <a onclick="$('#admin-how-to').toggleClass('hidden');">How To
+                  <span class="caret"></span></a>
+                  <ul id="admin-how-to" class="hidden">
+                    {% for link in site.admin-how-to %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/admin/how-to/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul> 
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/tools/index.html');">Tools</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/testing/index.html');">Testing & Debugging</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/updates/index.html');">Updates</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/admin/contribution/index.html');">Contribution</a>
+                </li>
+              </ul>
+            </nav>

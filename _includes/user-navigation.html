@@ -1,0 +1,84 @@
+            <!--left sub navigation-->
+            <nav id="sidenav">
+              <h2>DOCUMENTATION</h2>
+   
+              <ul class="nav">
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/overview/index.html');">Overview</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/key-concepts/index.html');">Key Concepts</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/prerequisites/index.html');">Prerequisites</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/getting-started/index.html');">Getting Started</a>
+                </li>
+                <li>
+                  <a onclick="$('#user-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
+                  <span class="caret"></span></a>
+                  <ul id="user-typical-usage-scenarios" class="hidden">
+                    {% for link in site.user-typical-usage-scenarios %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/user/typical-scenarios/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul> 
+                </li>
+                <li>
+                  <a onclick="$('#user-best-practices').toggleClass('hidden');">Best Practices
+                  <span class="caret"></span></a>
+                  <ul id="user-best-practices" class="hidden">
+                    {% for link in site.user-best-practices %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/user/best-practices/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                <li>
+                  <a onclick="$('#user-references').toggleClass('hidden');">References 
+                  <span class="caret"></span></a>
+                  <ul id="user-references" class="hidden">
+                    {% for link in site.user-references %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/user/references/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                <li>
+                  <a onclick="$('#user-how-to').toggleClass('hidden');">How To 
+                  <span class="caret"></span></a>
+                  <ul id="user-how-to" class="hidden">
+                    {% for link in site.user-how-to %}
+                    {% assign current = nil %}
+                    {% if page.url contains link.url %}
+                      {% assign current = 'active' %}
+                    {% endif %}
+                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/user/how-to/{{ link.url }}');">{{ link.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/tools/index.html');">Tools 
+                  <span class="caret"></span></a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/testing/index.html');">Testing & Debugging</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/updates/index.html');">Updates</a>
+                </li>
+                <li>
+                  <a onclick="javascript:loadContent('/documentation/user/contribution/index.html');">Contribution</a>
+                </li>
+              </ul>
+            </nav>

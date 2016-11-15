@@ -1,0 +1,25 @@
+<!--header-->
+<section id="page-head">
+  <!--logo-->
+  <header id="logo">
+    <a href="http://oneops.com"><img class="oneopsl" src="{{ site.context }}/assets/docs/shared/images/oneopslogo.png" alt=""></a>
+  </header>
+  <!--menu-->
+  <nav id="topnav">
+    <ul>
+      {% for link in site.documentation %}
+      {% assign current = nil %}
+      {% if page.url contains link.url %}
+        {% assign current = 'active' %}
+      {% endif %}
+      <li>
+        <a href="{{ link.url }}" class="{{current}}">{{ link.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+	<div class="global-search">
+        <span class="icon-search gsi"></span>
+        <input data-name="search" data-search-types="all" type="text" value="Search" class="global-search-input"/>
+      </div>
+  </nav>
+</section>
