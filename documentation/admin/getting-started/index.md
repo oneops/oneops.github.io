@@ -58,7 +58,7 @@ Yes you will have to do it for each one of them which is pain, but what if you w
 
 ## Deploy Simple Assembly
 
-We have pre-created a simple assembly named *SimpleApache*. This assembly has just one Apache platform with all 
+We have pre-created a simple assembly named *SimpleApache*. This assembly has just one Apache platform with all
 out-of-the-box default configuration values. You can examine it by clicking Assemblies (left nav) and then on SimpleApache. This will take you to the Assembly summary page which will have nothing since no activity has been performed on this assembly yet. Click on "Design" (left nav) and you will get to the Assembly Design page where you can review platforms your assembly is composed of (just one in this case). If you click on the platform you will get to the "Platform Design Page". Just browse around.
 Next step is to try to deploy this simple assembly: </br>
 
@@ -104,7 +104,7 @@ up cloud and services The steps described to create an assembly,platform refers 
        1. Create Platform
        2. Create Environment
        3. Deploy an Environment
-   
+
 
 # Vagrant up
 1. Install the required software for Vagrant.
@@ -126,7 +126,7 @@ The setup does the following :
   * Bootstraps the  circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
 
 ~~~ bash
-# After the successful install , you wills see this in console.
+# After the successful install , you will see this in console.
   ==> default: Done with admin
   ==> default: OneOps should be up on http://localhost:3000
   ==> default: Configure your port forwarding and shut down iptables service (or configure it) if needed
@@ -138,14 +138,13 @@ If step fails refer <a href="javascript:loadContent('/documentation/admin/testin
 > UI should be up [here](http://localhost:9090/users/sign_in).
 
 # Set Up your Organization, Clouds, Cloud Services  
- 
+
 * Refer <a href="javascript:loadContent('/documentation/user/getting-started/index.html');">User</a> or see screen cast below.
-   
 
 # Check Inductor  <a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">Inductor</a>
 
-> This section is for informative purpose only, The vagrant image has pre-installed and configured inducor ready to 
-execute workorder. 
+> This section is for informative purpose only, The vagrant image has pre-installed and configured inductor ready to
+execute workorder.
 
 
 Inductor executes the **workoders/actionOrders** pushed by **controller** to
@@ -157,14 +156,14 @@ cloud location specified at cloud creation. Refer <a href="javascript:loadConten
 vagrant ssh
 sudo su
 cd /opt/oneops/inductor
-inductor status 
-indcutor tail 
-## should show inductor successfuly connected to amq. 
+inductor status
+inductor tail
+## should show inductor successfuly connected to amq.
 
 ~~~
 
 ## Inductor directory Structure
->The directory structure after you have created inductor successfully will look like this, 
+>The directory structure after you have created inductor successfully will look like this,
 
 ~~~ bash
 cd /opt/oneops/inductor
