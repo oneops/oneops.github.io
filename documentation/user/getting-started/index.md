@@ -13,8 +13,8 @@ id: "getting-started"
         <li class="alert account alert-success">
             <span class="step-title alert-heading">Account</span>
             <ul class="tasks">
-                <li class="task"> <a href="#create-cloud">create clouds</a></span></li>
-                <li class="task"> <a href="#create-an-assembly">create assembly</a></span></li>
+                <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
+                <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
             </ul>
             <span class="step-number">1</span>
         </li>
@@ -243,4 +243,3 @@ Refer to the following documentation as you work.
 * **<a href="javascript:loadContent('/documentation/user/testing/index.html');">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
 * **<a href="javascript:loadContent('/documentation/user/updates/index.html');">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
 * **<a href="javascript:loadContent('/documentation/user/contribution/index.html');">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
-

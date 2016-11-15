@@ -74,6 +74,9 @@ Note: all calls will use the api token - see [Get Auth Token](#account-profile):
 ## GET a list of all bom Computes
 `https://<your-server>/services/organization/search.json?ns_path=/services&class_name=bom.Compute`
 
+## GET a Compute by IP Address
+ `https://<your-server>/<ORGANIZATION-NAME>/organization/search.json?source=es&query=ciAttributes.private_ip:<IP>`
+
 ## GET a list of all environments
 `https://<your-server>/services/organization/search.json?ns_path=/services&package=manifest&class_name=manifest.Environment`
 `Add: attr_name=<name>  and attr_value=<value>`

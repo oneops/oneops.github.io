@@ -51,7 +51,7 @@ The Inductor will put logs where the conf.dir's log4j.xml specifies. The gem red
 
 The inductor logs are shipped using logstash forwarder to backe end elastic search cluster.
 
-The UI uses the daq api (Spring based) PerfAndLogController to get data.
+The UI uses the daq api (Spring based) PerfController to get data.
 
 # All Components
 
