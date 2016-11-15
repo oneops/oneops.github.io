@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Cost Management
+title: Cost Tracking
 id: "How Cost Tracking and Reporting Works"
 ---
 
