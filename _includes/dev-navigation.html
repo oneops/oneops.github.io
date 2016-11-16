@@ -4,16 +4,16 @@
    
               <ul class="nav">
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/overview/index.html');">Overview</a>
+                  <a href="/documentation/developer/overview/index.html">Overview</a>
                 </li>
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/key-concepts/index.html');">Key Concepts</a>
+                  <a href="/documentation/developer/key-concepts/index.html">Key Concepts</a>
                 </li>
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/prerequisites/index.html');">Prerequisites</a>
+                  <a href="/documentation/developer/prerequisites/index.html">Prerequisites</a>
                 </li>
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/getting-started/index.html');">Getting Started</a>
+                  <a href="/documentation/developer/getting-started/index.html">Getting Started</a>
                 </li>
                 <li>
                   <a onclick="$('#dev-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
@@ -24,7 +24,7 @@
                     {% if page.url contains link.url %}
                       {% assign current = 'active' %}
                     {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/developer/typical-scenarios/{{ link.url }}');">{{ link.title }}</a></li>
+                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/typical-scenarios/{{ link.url }}">{{ link.title }}</a></li>
                     {% endfor %}
                   </ul> 
                 </li>
@@ -37,7 +37,7 @@
                     {% if page.url contains link.url %}
                       {% assign current = 'active' %}
                     {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/developer/best-practices/{{ link.url }}');">{{ link.title }}</a></li>
+                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/best-practices/{{ link.url }}">{{ link.title }}</a></li>
                     {% endfor %}
                   </ul> 
                 </li>
@@ -50,7 +50,7 @@
                     {% if page.url contains link.url %}
                       {% assign current = 'active' %}
                     {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/developer/references/{{ link.url }}');">{{ link.title }}</a></li>
+                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/references/{{ link.url }}">{{ link.title }}</a></li>
                     {% endfor %}
                   </ul> 
                 </li>
@@ -63,22 +63,21 @@
                     {% if page.url contains link.url %}
                       {% assign current = 'active' %}
                     {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="javascript:loadContent('/documentation/developer/how-to/{{ link.url }}');">{{ link.title }}</a></li>
+                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/how-to/{{ link.url }}">{{ link.title }}</a></li>
                     {% endfor %}
                   </ul> 
                 </li>
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/tools/index.html');">Tools 
-                  <span class="caret"></span></a>
+                  <a href="/documentation/developer/tools/index.html">Tools</a>
                 </li>
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/testing/index.html');">Testing & Debugging</a>
+                  <a href="/documentation/developer/testing/index.html">Testing & Debugging</a>
                 </li>
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/updates/index.html');">Updates</a>
+                  <a href="/documentation/developer/updates/index.html">Updates</a>
                 </li>
                 <li>
-                  <a onclick="javascript:loadContent('/documentation/developer/contribution/index.html');">Contribution</a>
+                  <a href="/documentation/developer/contribution/index.html">Contribution</a>
                 </li>
               </ul>
             </nav>
