@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Upgrading OneOps
 id: upgrading-one-ops
 ---

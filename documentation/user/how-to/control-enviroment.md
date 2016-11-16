@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Control Environment
 id: control-environment
 ---

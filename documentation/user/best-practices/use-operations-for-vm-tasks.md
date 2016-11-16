@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Use Operations for VM Tasks
 id: "use-operations-for-vm-tasks"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Pack Development
 id: "pack Development"
 ---
@@ -22,5 +22,5 @@ Some of the use case for variables would be:
 
 See also:
 
-* <a href="javascript:loadContent('/documentation/user/references/variables.html');">Variables</a>
+* <a href="/documentation/user/references/variables.html">Variables</a>
  

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deploy Multiple Clouds in Parallel
 id: deploy-multple-clouds-in-parallel
 ---

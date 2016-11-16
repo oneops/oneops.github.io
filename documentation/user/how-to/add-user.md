@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a User
 id: "add-a-user"
 ---

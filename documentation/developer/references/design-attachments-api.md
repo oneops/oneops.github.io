@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Design Attachments API
 id: design-attachments-api
 ---

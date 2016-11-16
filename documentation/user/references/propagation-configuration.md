@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Propagation
 id: "propagation"
 ---

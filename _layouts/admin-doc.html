@@ -76,6 +76,7 @@
         <!--CONTENT right-->
         <section id="rightpage">
           <article id="{{ page.title }}" class="reference">
+           <h1 class="primary">{{page.title}}</h1>
            
            {{ content }}
 
@@ -85,10 +86,10 @@
         <!--CONTENT left sidebar-->
         <aside>
           <div id="nav-container">
-            <article id="page-search">
+            <!--<article id="page-search">
               <h4>Search</h4>
               <input data-name="search" data-search-types="section" data-search-name="{{ site.searchname }}{{ context }}" type="text" value="Search" class="side-nav-search-input"/>
-            </article>
+            </article>-->
             
             {% include admin-navigation.html %}
             

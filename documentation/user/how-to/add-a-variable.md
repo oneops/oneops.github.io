@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a Variable
 id: add-a-variable
 ---
@@ -45,4 +45,4 @@ There are 3 implicit variables available which can be directly used in any compo
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/how-to/avoid-override-variables.html');">Variable Override</a>
+* <a href="/documentation/user/how-to/avoid-override-variables.html">Variable Override</a>

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Enable Platform to Auto Replace Unhealthy Components
 id: enable-platform-auto-replace-unhealthy-components
 ---

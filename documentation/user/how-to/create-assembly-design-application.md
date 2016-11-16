@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Create Assemblies to Design Applications
 id: create-assemblies-to-design-application
 ---
@@ -29,5 +29,5 @@ To add an assembly, follow these steps:
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/how-to/add-platform-to-design.html');">Add a Platform to a Design</a>
-* <a href="javascript:loadContent('/documentation/user/key-concepts/index.html');">More on the lifecycle of an Assembly</a>
+* <a href="/documentation/user/how-to/add-platform-to-design.html">Add a Platform to a Design</a>
+* <a href="/documentation/user/key-concepts/index.html">More on the lifecycle of an Assembly</a>

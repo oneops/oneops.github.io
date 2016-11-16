@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Operations Best Practices
 id: "operations-best-practices"
 ---

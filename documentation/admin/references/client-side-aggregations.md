@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Client-Side Aggregations
 id: client-side-aggregations
 ---

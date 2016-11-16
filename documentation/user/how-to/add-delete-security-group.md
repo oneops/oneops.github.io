@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add or Delete a Security Group to Open or Close an Additional Port
 id: "add-or-delete-a-security-group-to-open-or-close-an-additional-port"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: View, Add, or Edit Environment Profiles
 id: view-add-edit-environment-profiles
 ---

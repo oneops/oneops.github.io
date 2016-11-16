@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: OneOps Policy Management
 id: oneops-policy-management
 ---

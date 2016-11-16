@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a New Azure Cloud
 id: "add-a-new-azure-cloud"
 ---

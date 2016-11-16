@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Enable NTP
 id: enable-ntp
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Specify an Email Address or Distribution List for Notifications
 id: specify-email-address-distribution-list-for-notifications
 ---
@@ -16,5 +16,5 @@ id: specify-email-address-distribution-list-for-notifications
 # See Also
 
 
-* <a href="javascript:loadContent('/documentation/user/how-to/watch-notification.html');">Watch a Notification</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/manage-assemblies.html');">Manage Assemblies Video</a>
+* <a href="/documentation/user/how-to/watch-notification.html">Watch a Notification</a>
+* <a href="/documentation/user/how-to/manage-assemblies.html">Manage Assemblies Video</a>

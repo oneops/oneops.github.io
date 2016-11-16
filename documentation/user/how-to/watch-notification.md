@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Watch a Notification
 id: watch-a-notification
 ---
@@ -19,6 +19,6 @@ To watch a notification, follow these steps:
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/how-to/specify-email-address-or-distribution-list-for-notifications.html');">Specify an Email Address or Distribution List for Notifications</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/manage-assemblies.html');">Manage Assemblies Video</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/set-up-notifications.html');">Set Up and Watch Notifications Video</a>
+* <a href="/documentation/user/how-to/specify-email-address-or-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notifications</a>
+* <a href="/documentation/user/how-to/manage-assemblies.html">Manage Assemblies Video</a>
+* <a href="/documentation/user/how-to/set-up-notifications.html">Set Up and Watch Notifications Video</a>

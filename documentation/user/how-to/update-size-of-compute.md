@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Update the Size of a Compute
 id: update-size-of-compute
 ---

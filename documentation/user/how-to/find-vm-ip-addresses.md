@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Find VM IP Addresses
 id: find-vm-ip-addresses
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Enable HTTPS on Apache HTTP On OneOps
 id: "https-apache-http"
 ---

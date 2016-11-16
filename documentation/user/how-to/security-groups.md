@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Security Groups
 id: security-groups
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Metrics Collection
 id: metrics-collection
 ---

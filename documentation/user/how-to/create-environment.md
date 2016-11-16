@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Create an Environment
 id: create-an-environment
 ---
@@ -18,7 +18,7 @@ To create an environment, follow these steps:
 
 1. Go to the assembly.
 2. In the Transition phase, click **create environment.**
-3. Select the appropriate <a href="javascript:loadContent('/documentation/user/references/environment-profiles.html');">environment profile</a>
+3. Select the appropriate <a href="/documentation/user/references/environment-profiles.html">environment profile</a>
 4. Click **New Environment.**
 
     ![User Create Environment](/assets/docs/local/images/user-create-environment.png)
@@ -43,14 +43,14 @@ To create an environment, follow these steps:
     >For a new environment, "Provision" is the correct status value. Other values should be used after the environment is created and functioning. This status value is used only for administrative purpose by NOC or OneOps admins to understand the state of the environment.
 
 7. Configure the availability.
-    * <a href="javascript:loadContent('/documentation/user/references/availability-modes.html');">Availability mode</a>:
+    * <a href="/documentation/user/references/availability-modes.html">Availability mode</a>:
         * **Single:** Generates an environment without load balancers, clusters, etc.  
         * **Redundant:** Inserts and configures clusters, load balancers, rings, etc., depending on what the best practice is for each platform.  
         * **High-Availability:** Adds multi-provider or multi-region to a redundant environment. Availability can only be changed when creating the environment.
 
     ![User Create Environment](/assets/docs/local/images/user-create-environment2.png)
 
-8. Select one or more primary and secondary <a href="javascript:loadContent('/documentation/user/how-to/add-new-cloud.html');">clouds</a> from the list of available options.
+8. Select one or more primary and secondary <a href="/documentation/user/how-to/add-new-cloud.html">clouds</a> from the list of available options.
 
     ![User Create Environment](/assets/docs/local/images/user-create-environment3.png)
 
@@ -69,5 +69,5 @@ To create an environment, follow these steps:
 
 # See Also
 
-* To get details for your instances, check logs and health, or for controls, go to <a href="javascript:loadContent('/documentation/user/references/operations.html');">Operations</a>.
+* To get details for your instances, check logs and health, or for controls, go to <a href="/documentation/user/references/operations.html">Operations</a>.
 

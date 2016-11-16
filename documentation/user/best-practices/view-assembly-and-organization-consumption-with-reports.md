@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: View Assembly and Organization Consumption with Reports
 id: "view-assembly-and-organization-consumption-with-reports"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Set Up Your User Account
 id: set-up-your-user-account
 ---

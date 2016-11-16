@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a New Cloud
 id: "add-a-new-cloud"
 ---

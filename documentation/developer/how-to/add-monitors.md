@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Add Monitors
 id: add-monitors
 ---
@@ -80,4 +80,4 @@ fi
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/developer/how-to/add-new-chef-cookbook-pack.html');">Add a New Chef Cookbook and Pack to OneOps</a>
+* <a href="/documentation/developer/how-to/add-new-chef-cookbook-pack.html">Add a New Chef Cookbook and Pack to OneOps</a>

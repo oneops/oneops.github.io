@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Assess the Health of Applications, Platforms and Clouds
 id: "assess-health-applications-platforms-clouds"
 ---
@@ -53,5 +53,5 @@ To monitor the health of applications, platforms and clouds, follow these steps:
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/how-to/control-environment.html');">Control Your Environment Through Operations Video</a>
+* <a href="/documentation/user/how-to/control-environment.html">Control Your Environment Through Operations Video</a>
 

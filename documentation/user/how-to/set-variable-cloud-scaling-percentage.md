@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Set Variable Cloud Scaling Percentage
 id: set-variable-cloud-scaling-percentage
 ---

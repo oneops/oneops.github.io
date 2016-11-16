@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Load Content
 id: load-content-model-images
 ---

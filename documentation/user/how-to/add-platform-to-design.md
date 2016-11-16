@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a Platform to a Design
 id: "add-a-platform-to-a-design"
 ---
@@ -40,6 +40,6 @@ When you are done and ready to save the Design, click **Commit**.
 # See Also
 
 
-* <a href="javascript:loadContent('/documentation/user/how-to/add-a-variable.html');">Add a Variable</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/deploy-application-for-first-time.html');">Deploy an Application for the First Time</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/deploy-multiple-clouds-in-parallel.html');">Deploy Multiple Clouds in Parallel</a>
+* <a href="/documentation/user/how-to/add-a-variable.html">Add a Variable</a>
+* <a href="/documentation/user/how-to/deploy-application-for-first-time.html">Deploy an Application for the First Time</a>
+* <a href="/documentation/user/how-to/deploy-multiple-clouds-in-parallel.html">Deploy Multiple Clouds in Parallel</a>

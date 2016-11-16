@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Pack policy
 id: pack-policy
 ---

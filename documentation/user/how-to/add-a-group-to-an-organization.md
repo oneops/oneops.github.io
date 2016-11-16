@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a Group to an Organization
 id: add-a-group-to-an-organization
 ---

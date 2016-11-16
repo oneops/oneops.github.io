@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: How To 
 id: how-to
 ---

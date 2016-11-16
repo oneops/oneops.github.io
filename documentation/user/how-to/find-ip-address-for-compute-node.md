@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Find the IP Address for a Compute Node
 id: find-ip-address-for-compute-node
 ---
@@ -19,4 +19,4 @@ CAUTION: A node's IP Address may change, so you need to make sure that you do no
 
 # See also
 
-* <a href="javascript:loadContent('/documentation/user/testing/index.html');">Find the URL for Your App</a>
+* <a href="/documentation/user/testing/index.html">Find the URL for Your App</a>

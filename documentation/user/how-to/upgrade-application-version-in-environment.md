@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Upgrade an Application Version in an Environment
 id: upgrade-application-version-in-environment
 ---
@@ -29,4 +29,4 @@ To upgrade an application version in an environment, follow these steps:
 
 # See Also
 
-<a href="javascript:loadContent('/documentation/user/how-to/avoid-override-variables.html');">Variables Override Prevention</a>
+<a href="/documentation/user/how-to/avoid-override-variables.html">Variables Override Prevention</a>

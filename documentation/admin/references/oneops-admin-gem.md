@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: oneops-admin gem
 id: oneops-admin-gem
 ---

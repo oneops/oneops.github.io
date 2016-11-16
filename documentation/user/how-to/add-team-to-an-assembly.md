@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a Team to an Assembly
 id: "add-team-to-assembly"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Metric Data Source Type
 id: metric-data-source-type
 ---

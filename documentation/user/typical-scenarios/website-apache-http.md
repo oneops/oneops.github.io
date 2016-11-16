@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deploy a Website with Apache HTTP on OneOps
 id: "website-apache-http"
 ---

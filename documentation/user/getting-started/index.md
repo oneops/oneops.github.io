@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Getting Started
 id: "getting-started"
 ---
@@ -90,18 +90,18 @@ or towards the end of listing.
 
 To learn about additional Account activities for assemblies, teams, users and notifications refer to:
 
-* <a href="javascript:loadContent('/documentation/user/how-to/create-a-team-in-an-organization.html');">Teams in Organization</a>
-    * <a href="javascript:loadContent('/documentation/user/how-to/add-user-to-a-team.html');">Add a User to a Team</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/manage-assemblies.html');">Manage Assemblies</a>
-    * <a href="javascript:loadContent('/documentation/user/how-to/add-team-to-an-assembly.html');">Adding a Team to an Assembly</a>
-    * <a href="javascript:loadContent('/documentation/user/how-to/watch-notification.html');">Watch Notification</a>
-    * <a href="javascript:loadContent('/documentation/user/how-to/specify-email-address-distribution-list-for-notifications.html');">Specify an Email Address or Distribution List for Notification</a>
-    * <a href="javascript:loadContent('/documentation/user/how-to/create-assembly-design-application.html');">Create an Assembly -- Design an Application</a>
+* <a href="/documentation/user/how-to/create-a-team-in-an-organization.html">Teams in Organization</a>
+    * <a href="/documentation/user/how-to/add-user-to-a-team.html">Add a User to a Team</a>
+* <a href="/documentation/user/how-to/manage-assemblies.html">Manage Assemblies</a>
+    * <a href="/documentation/user/how-to/add-team-to-an-assembly.html">Adding a Team to an Assembly</a>
+    * <a href="/documentation/user/how-to/watch-notification.html">Watch Notification</a>
+    * <a href="/documentation/user/how-to/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notification</a>
+    * <a href="/documentation/user/how-to/create-assembly-design-application.html">Create an Assembly -- Design an Application</a>
 
 
 # OneOps Design Phase
 
-In the design phase, one can create <a href="javascript:loadContent('/documentation/user/how-to/add-platform-to-design.html');">platforms</a> (building blocks) from existing available *packs*.
+In the design phase, one can create <a href="/documentation/user/how-to/add-platform-to-design.html">platforms</a> (building blocks) from existing available *packs*.
 In this example, we will create simple application (Tomcat) which talks to back end database.
 
 
@@ -124,12 +124,12 @@ In this example, we will create simple application (Tomcat) which talks to back 
 
 See also:
 
-* <a href="javascript:loadContent('/documentation/user/key-concepts/index.html');">Platforms</a>  
-* <a href="javascript:loadContent('/documentation/user/how-to/add-platform-to-design.html');">Add a platform</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/add-specific-component-to-design.html');">Add a component</a>
-* <a href="javascript:loadContent('/documentation/user/references/platform-links-reference.html');">Platform Dependency</a>
-* <a href="javascript:loadContent('/documentation/user/references/platform-packs.html');">Packs/Circuits</a>
-* <a href="javascript:loadContent('/documentation/user/references/view-design-releases.html');">View Design Releases</a>
+* <a href="/documentation/user/key-concepts/index.html">Platforms</a>  
+* <a href="/documentation/user/how-to/add-platform-to-design.html">Add a platform</a>
+* <a href="/documentation/user/how-to/add-specific-component-to-design.html">Add a component</a>
+* <a href="/documentation/user/references/platform-links-reference.html">Platform Dependency</a>
+* <a href="/documentation/user/references/platform-packs.html">Packs/Circuits</a>
+* <a href="/documentation/user/references/view-design-releases.html">View Design Releases</a>
 
 # Transition Phase
 
@@ -139,25 +139,25 @@ Transition is where you define environment specific attributes as needed. The de
 1. Click environment (icon) from left nav or top nav or wizard.
 2. Click **New Environment** .
 3. Select availability mode for your environment either at platform.
-4. Modify any attributes of *<a href="javascript:loadContent('/documentation/user/key-concepts/index.html');">components</a>* which may differ from design.
+4. Modify any attributes of *<a href="/documentation/user/key-concepts/index.html">components</a>* which may differ from design.
 
 For example *qa* environment compute size requirements may differ from **development/test** or **production** environment, in such scenario you may choose default compute size based on what matches most of the environment requirements.
 
 It's not uncommon to choose **development** environment compute size as default for design which allows you to create multiple test environments without changing design.
 
-This helps in creating environments faster without changing too many attributes at design level. As a best practice try to have most used configuration in design. Also see <a href="javascript:loadContent('/documentation/user/reference/variables.html');">variables</a>
+This helps in creating environments faster without changing too many attributes at design level. As a best practice try to have most used configuration in design. Also see <a href="/documentation/user/reference/variables.html">variables</a>
 
 **Lock** any environment specific attributes to prevent the environment changes
 to be override from design pulls.
 
-5. Click **review** and **commit and deploy** your changes. Next **<a href="javascript:loadContent('/documentation/user/how-to/deploy-multiple-clouds-in-parallel.html');">Deploy</a>**.
+5. Click **review** and **commit and deploy** your changes. Next **<a href="/documentation/user/how-to/deploy-multiple-clouds-in-parallel.html">Deploy</a>**.
 
 See also:
 
-* <a href="javascript:loadContent('/documentation/user/references/environment.html');">Environment</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/upgrade-application-version-in-environment.html');">Upgrade an Application Version in an Environment</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/environment-releases.html');">Environment Releases</a>
-* <a href="javascript:loadContent('/documentation/user/references/environment-profiles.html');">Environment-profiles</a>
+* <a href="/documentation/user/references/environment.html">Environment</a>
+* <a href="/documentation/user/how-to/upgrade-application-version-in-environment.html">Upgrade an Application Version in an Environment</a>
+* <a href="/documentation/user/how-to/environment-releases.html">Environment Releases</a>
+* <a href="/documentation/user/references/environment-profiles.html">Environment-profiles</a>
 
 ## Deploy an Application
 
@@ -173,11 +173,11 @@ At this time One Ops is executing actual work orders on the cloud of your choice
 
 See also:
 
-* <a href="javascript:loadContent('/documentation/user/how-to/deploy-multiple-clouds-in-parallel.html');">Multi Cloud deployment</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/view-deployment-status.html');">Check Deployment Status</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/deploy-provision-application-environment-first-time.html');">Deploy and Provision an Application and Environment for the First Time</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/deploy-application-after-design-changes.html');">Doing regular releases</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/add-a-doc-url-to-a-monitor.html');">Common Deployment errors</a>
+* <a href="/documentation/user/how-to/deploy-multiple-clouds-in-parallel.html">Multi Cloud deployment</a>
+* <a href="/documentation/user/how-to/view-deployment-status.html">Check Deployment Status</a>
+* <a href="/documentation/user/how-to/deploy-provision-application-environment-first-time.html">Deploy and Provision an Application and Environment for the First Time</a>
+* <a href="/documentation/user/how-to/deploy-application-after-design-changes.html">Doing regular releases</a>
+* <a href="/documentation/user/how-to/add-a-doc-url-to-a-monitor.html">Common Deployment errors</a>
 
 # Operate Phase
 
@@ -192,11 +192,11 @@ The successful deployment will *create* actual instances of components (computes
 ## Control Environment
 
 
-1. Perform operational activities on <a href="javascript:loadContent('/documentation/user/key-concepts/index.html');">components</a> level, like restart of all tomcats.
+1. Perform operational activities on <a href="/documentation/user/key-concepts/index.html">components</a> level, like restart of all tomcats.
 Some of the commonly used operations but not limited to these
     1. Replace of compute in case of hardware failures.
     2. Restart of services.(tomcat, Cassandra, elastic search)
-    3. Some of <a href="javascript:loadContent('/documentation/user/references/attachments.html');">attachments</a> can be exposed as operations. Some of the
+    3. Some of <a href="/documentation/user/references/attachments.html">attachments</a> can be exposed as operations. Some of the
     popular one used are taking nodes out of traffic.
     4. Redeploy artifacts.
     5. Log Searches on volume components.
@@ -205,16 +205,16 @@ Some of the commonly used operations but not limited to these
 
 See also:
 
-* <a href="javascript:loadContent('/documentation/user/how-to/assess-health-applications-platforms-clouds.html');">Assess the Health of Applications, Platforms and Clouds</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/operations-summary.html');">Operations Summary</a>
-* <a href="javascript:loadContent('/documentation/user/references/graph-colors.html');">Graphs</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/control-environment.html');">Control Environment</a>
+* <a href="/documentation/user/how-to/assess-health-applications-platforms-clouds.html">Assess the Health of Applications, Platforms and Clouds</a>
+* <a href="/documentation/user/how-to/operations-summary.html">Operations Summary</a>
+* <a href="/documentation/user/references/graph-colors.html">Graphs</a>
+* <a href="/documentation/user/how-to/control-environment.html">Control Environment</a>
 
 
 ## Monitoring
 
 
-* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify state. see <a href="javascript:loadContent('/documentation/user/reference/monitoring-reference.html');">Monitoring</a>
+* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify state. see <a href="/documentation/user/reference/monitoring-reference.html">Monitoring</a>
 * If auto-repair is enabled, OneOps will auto-repair the instance. The actions taken to recover an instance are prescribed by `repair recipe` of the component. For example, if Compute is alerting for missing *heartbeat* by default Computes repair action involves the following
     * Check the ssh port  
     * If not able to connect after timeout, it will attempt *reboot*.
@@ -227,19 +227,19 @@ See also:
 
 Before you start with OneOps, it is recommended that you read the following documentation. It is the most essential information you need to begin well.
 
-* **<a href="javascript:loadContent('/documentation/user/overview/index.html');">Overview:</a>** OneOps business-level description of main benefits versus alternative solutions
-* **<a href="javascript:loadContent('/documentation/user/key-concepts/index.html');">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
-* **<a href="javascript:loadContent('/documentation/user/tools/index.html');">Tools:</a>** List of supporting tools and services that can be used with OneOps
-* **<a href="javascript:loadContent('/documentation/user/getting-started/index.html');">Getting Started:</a>** How to start using OneOps (this section)
-* **<a href="javascript:loadContent('/documentation/user/best-practices/design-best-practices.html');">Best Practices:</a>** How you should use OneOps for best results
+* **<a href="/documentation/user/overview/index.html">Overview:</a>** OneOps business-level description of main benefits versus alternative solutions
+* **<a href="/documentation/user/key-concepts/index.html">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
+* **<a href="/documentation/user/tools/index.html">Tools:</a>** List of supporting tools and services that can be used with OneOps
+* **<a href="/documentation/user/getting-started/index.html">Getting Started:</a>** How to start using OneOps (this section)
+* **<a href="/documentation/user/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
 
 ## What You Will Need When You Work with OneOps
 
 Refer to the following documentation as you work.
 
-* **<a href="javascript:loadContent('/documentation/user/typical-scenarios/cost-management.html');">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios  
-* **<a href="javascript:loadContent('/documentation/user/references/.html');">Reference:</a>** Detailed code usage descriptions.
-* **<a href="javascript:loadContent('/documentation/user/how-to/actions-reference.html');">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
-* **<a href="javascript:loadContent('/documentation/user/testing/index.html');">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
-* **<a href="javascript:loadContent('/documentation/user/updates/index.html');">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
-* **<a href="javascript:loadContent('/documentation/user/contribution/index.html');">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
+* **<a href="/documentation/user/typical-scenarios/cost-management.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios  
+* **<a href="/documentation/user/references/actions-reference.html">Reference:</a>** Detailed code usage descriptions
+* **<a href="/documentation/user/how-to/actions-reference.html">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
+* **<a href="/documentation/user/testing/index.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
+* **<a href="/documentation/user/updates/index.html">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
+* **<a href="/documentation/user/contribution/index.html">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

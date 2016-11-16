@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add CNAME
 id: "add-cname"
 ---

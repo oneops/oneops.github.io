@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: What compute sizes are available
 id: compute-sizes
 ---

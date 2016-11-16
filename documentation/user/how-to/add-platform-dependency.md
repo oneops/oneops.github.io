@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a Platform Dependency
 id: "add-a-platform-dependency"
 ---
@@ -14,5 +14,5 @@ TBD
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/how-to/add-platform-to-design.html');">Add a Platform to a Design</a>
+* <a href="/documentation/user/how-to/add-platform-to-design.html">Add a Platform to a Design</a>
 

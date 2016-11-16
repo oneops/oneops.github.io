@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Key Concepts
 id: key-concepts
 ---
@@ -73,7 +73,7 @@ Antenna is responsible for persisiting/serving OneOps notifications into Cassand
 
 *  [source](https://github.com/oneops/antenna)
 
-### Configuration Management Database
+## Configuration Management Database
 
 * System of records for all assemblies,enviroments,deployments.
 
@@ -142,8 +142,8 @@ Inductor can be installed via oneops-admin gem  .
 
 See Also
 
-* <a href="javascript:loadContent('/documentation/admin/how-to/build-install-and-configure-an-inductor.html');">Installing Inductor</a>
-* <a href="javascript:loadContent('/documentation/admin/references/inductor.html');">CookBook execution</a>
+* <a href="/documentation/admin/how-to/build-install-configure-inductor.html">Installing Inductor</a>
+* <a href="/documentation/admin/references/inductor.html">CookBook execution</a>
 
 ## Workorders
 

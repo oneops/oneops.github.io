@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Inductor
 id: inductor
 ---
@@ -55,4 +55,4 @@ The UI uses the daq api (Spring based) PerfController to get data.
 
 # All Components
 
-* See the <a href="javascript:loadContent('/documtentation/admin/key-concepts/index.html">OneOps System Architecture Diagram</a>
+* See the <a href="/documtentation/admin/key-concepts/index.html">OneOps System Architecture Diagram</a>

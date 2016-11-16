@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Ports by Platform
 id: ports-by-platform
 ---

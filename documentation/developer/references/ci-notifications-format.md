@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: CI Notification Format
 id: CI Notification Format
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Environment Releases
 id: environment-releases
 ---

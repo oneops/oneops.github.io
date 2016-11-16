@@ -1,12 +1,12 @@
 ---
-layout: project
+layout: user-doc
 title: Add CNAME in Azure DNS
 id: "add-cname-to-azure-dns"
 ---
 
 # Solution
 
-The hostname, by default, is provided by the OneOps system and follows a pattern that is described in [Find the Hostname of a VM.](../howto/#find-the-hostname-of-a-vm)
+The hostname, by default, is provided by the OneOps system and follows a pattern that is described in [Find the Hostname of a VM.](/documentation/user/how-to/find-hostname-of-vm.html)
 
 You can create your own endpoints by adding short or full CNAMEs.
 

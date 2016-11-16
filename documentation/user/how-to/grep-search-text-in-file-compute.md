@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Grep or Search Text in Files on Computes
 id: grep-or-search-text-in-files-on-computes
 ---

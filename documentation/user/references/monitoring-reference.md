@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Monitoring
 id: monitoring-reference
 ---
@@ -33,8 +33,8 @@ The operation view provides the trending of metric values along with the health 
 
 * Every component can be monitored
 * Out of the box, OneOps monitors the most important Components.
-* Users can set up <a href="javascript:loadContent('/documentation/user/references/threshold-definitions.html');">Threshold</a> on monitors to <a href="javascript:loadContent('/documentation/user/references/auto-scale.html');">scale</a>, <a href="javascript:loadContent('/documentation/user/references/auto-repair.html');">repair</a> or <a href="javascript:loadContent('/documentation/user/how-to/set-up-notifications.html');">notify</a>.
+* Users can set up <a href="/documentation/user/references/threshold-definitions.html">Threshold</a> on monitors to <a href="/documentation/user/references/auto-scale.html');">scale</a>, <a href="/documentation/user/references/auto-repair.html">repair</a> or <a href="/documentation/user/how-to/set-up-notifications.html">notify</a>.
 
-There is a predefined set of default <a href="javascript:loadContent('/documentation/user/references/threshold-definitions.html');">Thresholds</a> that is provided by OneOps which comes implicitly with any environment deployment. The app owner has the flexibility to add a new threshold definition that is suitable for the app or to edit an existing <a href="javascript:loadContent('/documentation/user/how-to/threshold-definitions.html');">threshold</a>.
+There is a predefined set of default <a href="/documentation/user/references/threshold-definitions.html">Thresholds</a> that is provided by OneOps which comes implicitly with any environment deployment. The app owner has the flexibility to add a new threshold definition that is suitable for the app or to edit an existing <a href="/documentation/user/how-to/threshold-definitions.html">threshold</a>.
 
-To review, add, or edit a threshold, go to your environment in the transition phase, select the specific component (e.g. compute/tomcat). Get more details on <a href="javascript:loadContent('/documentation/user/how-to/default-monitor-thresholds.html');">Default Monitor Thresholds</a>
+To review, add, or edit a threshold, go to your environment in the transition phase, select the specific component (e.g. compute/tomcat). Get more details on <a href="/documentation/user/how-to/default-monitor-thresholds.html">Default Monitor Thresholds</a>

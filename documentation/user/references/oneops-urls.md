@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: OneOps URLs
 id: oneops-urls
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: View a Reports Summary
 id: view-a-reports-summary
 ---

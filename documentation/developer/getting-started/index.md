@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Getting Started
 id: "getting-started"
 ---
@@ -8,11 +8,11 @@ Use this section to set up your environment for OneOps pack (circuits)/cookbook 
 
 # Prerequisite
 
-For both API and Circuit development you need access to a running OneOps deployment. To build your own deployment, start with the <a href="javascript:loadContent('/documentation/admin/getting-started/index.html');">OneOps Admin Getting Started</a> section.
+For both API and Circuit development you need access to a running OneOps deployment. To build your own deployment, start with the <a href="/documentation/admin/getting-started/index.html">OneOps Admin Getting Started</a> section.
 
 # API Developer
 
-For API development, refer to the API documentation in the <a href="javascript:loadContent('/documentation/dev/references/oneops-api-documentation.html');">Reference</a> section.
+For API development, refer to the API documentation in the <a href="/documentation/developer/references/api-documentation.html">Reference</a> section.
 
 # Circuit Developer
 
@@ -22,8 +22,8 @@ For Circuit development, follow the instructions below.
 
 There is two installation options.  
 
-* (Recommended) Use a pre-configured Vagrant image, described in the <a href="javascript:loadContent('/documentation/admin/getting-started/index.html');">OneOps Admin Getting Started</a> section
-* <a href="javascript:loadContent('/documentation/developer/how-to/manually-build-from-source.html');">Manually build from source</a>
+* (Recommended) Use a pre-configured Vagrant image, described in the <a href="/documentation/admin/getting-started/index.html">OneOps Admin Getting Started</a> section
+* <a href="/documentation/developer/how-to/manually-build-from-source.html">Manually build from source</a>
 
 # Setup and Configuration
 
@@ -56,7 +56,7 @@ $ vi components/cookbooks/mycomp/metadata.rb
 4. After you complete the cookbook design, create the pack under the `/packs` directory.
 5. Define its resources (components) and relationship between them. For more details, refer to an existing pack (for example, Tomcat).
 
-### Create a Pack
+## Create a Pack
 
 To create a pack, follow these steps:
 
@@ -70,14 +70,14 @@ $ vi mypack.rb
 
 > As in the case of chef recipes, a OneOps pack is also defined using a custom Ruby DSL with syntax like variable, resource, relation, etc. Because the Pack DSL is a Ruby DSL, anything that can be done using Ruby can also be done in a Pack, including if and case statements, using the include? Ruby method, etc. For detailed information on how to develop a pack, see [Add a Platform](../howto/#add-a-platform).
 
-### Create a Circuit
+## Create a Circuit
 
 To create a circuit, refer to:
 
-* <a href="javascript:loadContent('/documentation/developer/how-to/add-a-new-component.html');">Add a New Component</a>
-* <a href="javascript:loadContent('/documentation/developer/how-to/create-a-circuit.html');">Create a Circuit</a>
-* <a href="javascript:loadContent('/documentation/developer/how-to/modify-a-component.html');">Modify a Component</a>
-* <a href="javascript:loadContent('/documentation/developer/how-to/modify-a-cicuit.html');">Modify a Circuit</a>
+* <a href="/documentation/developer/how-to/add-new-component.html">Add a New Component</a>
+* <a href="/documentation/developer/how-to/create-a-circuit.html">Create a Circuit</a>
+* <a href="/documentation/developer/typical-scenarios/modify-component.html">Modify a Component</a>
+* <a href="/documentation/developer/how-to/modify-a-cicuit.html">Modify a Circuit</a>
 
 # Confirming it Works
 
@@ -117,7 +117,7 @@ curl http://<yourOneOpsinstance>:8080/transistor/rest/cache/md/clear
 
  cd circuit-oneops-1
 
-#Copy the Cookbook to the Corresponding Repo in the Inductor (/opt/oneops)
+# Copy the Cookbook to the Corresponding Repo in the Inductor (/opt/oneops)
 
  scp -r components/cookbooks/mycomp ooadmin@<your OneOps instance inductor>:/opt/oneops/circuit-oneops-1/current/components/cookbooks/
 
@@ -126,11 +126,11 @@ curl http://<yourOneOpsinstance>:8080/transistor/rest/cache/md/clear
  scp packs/mypack.rb ooadmin@<your OneOps instance inductor>:/opt/oneops/circuit-oneops-1/current/packs/
 ~~~  
 
-#Add an icon image for the pack
-* Component Icon : **128x128 PNG** graphic - Add to circuit-oneops-1/components/cookbooks/<mycomp>/doc (ex. apache_cassandra)
+# Add an icon image for the pack
 
+* Component Icon : **128x128 PNG** graphic - Add to circuit-oneops-1/components/cookbooks/<mycomp>/doc (ex. apache_cassandra)
 * Pack(Platform) Icon : **128x128 PNG** graphic - Add to circuit-oneops-1/packs/doc/
-# see https://github.com/oneops/circuit-oneops-1/tree/master/packs/doc
+* see https://github.com/oneops/circuit-oneops-1/tree/master/packs/doc
 
 # Testing via GUI
 1. Create a new *Assembly* and **environment**.
@@ -145,18 +145,18 @@ curl http://<yourOneOpsinstance>:8080/transistor/rest/cache/md/clear
 Before you code, read the following documentation. It is the most essential information you need before you start.
 
 * **[Overview:](/documentation/developer.html)** OneOps business-level description of its main benefits versus alternative solutions
-* **<a href="javascript:loadContent('/documentation/developer/key-concepts/index.html');">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
-* **<a href="javascript:loadContent('/documentation/developer/tools/index.html');">Tools:</a>** List of supporting tools and services that can be used with OneOps
-* **<a href="javascript:loadContent('/documentation/developer/getting-started/index.html');">Getting Started:</a>** How to start using OneOps (this section)
-* **<a href="javascript:loadContent('/documentation/developer/best-practices/index.html');">Best Practices:</a>** How you should develop for OneOps for best results
+* **<a href="/documentation/developer/key-concepts/index.html">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
+* **<a href="/documentation/developer/tools/index.html">Tools:</a>** List of supporting tools and services that can be used with OneOps
+* **<a href="/documentation/developer/getting-started/index.html">Getting Started:</a>** How to start using OneOps (this section)
+* **<a href="/documentation/developer/best-practices/pack-development.html">Best Practices:</a>** How you should develop for OneOps for best results
 
 # What You Will Need When You Code
 
 Refer to the following documentation as you work.
 
-* **<a href="javascript:loadContent('/documentation/developer/typical-usage-scenarios/modify-component.html');">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
-* **<a href="javascript:loadContent('/documentation/developer/references/api-documentation.html');">References:</a>** Detailed code usage descriptions with code snippets
-* **<a href="javascript:loadContent('/documentation/developer/how-to/add-monitors.html');">How To:</a>** Instructional articles that solve a specific problem or achieve a specific solution
-* **<a href="javascript:loadContent('/documentation/developer/testing/index.html');">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
-* **<a href="javascript:loadContent('/documentation/developer/updates/index.html');">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
-* **<a href="javascript:loadContent('/documentation/developer/contribution/index.html');">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
+* **<a href="/documentation/developer/typical-usage-scenarios/modify-component.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
+* **<a href="/documentation/developer/references/api-documentation.html">References:</a>** Detailed code usage descriptions with code snippets
+* **<a href="/documentation/developer/how-to/add-monitors.html">How To:</a>** Instructional articles that solve a specific problem or achieve a specific solution
+* **<a href="/documentation/developer/testing/index.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
+* **<a href="/documentation/developer/updates/index.html">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
+* **<a href="/documentation/developer/contribution/index.html">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

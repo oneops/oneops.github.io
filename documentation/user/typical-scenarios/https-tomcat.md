@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: How to enable HTTPS on Tomcat in OneOps
 id: "https-tomcat"
 ---

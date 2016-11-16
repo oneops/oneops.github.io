@@ -1,16 +1,16 @@
 ---
-layout: project
+layout: dev-doc
 title: Add a Platform
 id: add-a-platform
 ---
 
 To create a new Platform type so it can be used via the UI, follow the steps listed below.
 
-For this example, JBoss is an example of a new platform. Before a pack can use JBoss, a <a href="javascript:loadContent('/documentation/developer/key-concepts/index.html');">component</a> for JBoss must be added. Since Tomcat is an application server like JBoss, we can use that as a template.
+For this example, JBoss is an example of a new platform. Before a pack can use JBoss, a <a href="/documentation/developer/key-concepts/index.html">component</a> for JBoss must be added. Since Tomcat is an application server like JBoss, we can use that as a template.
 
 1. `cd packer/packs/platform ; cp tomcat.rb JBoss.rb`
 2. Edit the JBoss.rb by changing the names and monitors accordingly.
-3. <a href="javascript:loadContent('/documentation/developer/how-to/cms-sync.html');">Sync</a> to the CMS.
+3. <a href="/documentation/developer/how-to/cms-sync.html">Sync</a> to the CMS.
 
 The following is a sample platform pack file for Tomcat:
 

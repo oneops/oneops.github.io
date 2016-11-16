@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Add a New Chef Cookbook and Pack to OneOps
 id: add-new-chef-cookbook-pack
 ---

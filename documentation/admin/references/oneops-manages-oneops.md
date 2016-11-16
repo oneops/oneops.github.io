@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: OneOps Manages OneOps
 id: oneops-manages-oneops
 ---

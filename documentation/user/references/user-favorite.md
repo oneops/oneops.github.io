@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: User Favorite
 id: user-favorite
 ---

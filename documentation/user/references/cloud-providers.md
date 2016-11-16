@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Cloud Providers
 id: cloud-providers
 ---

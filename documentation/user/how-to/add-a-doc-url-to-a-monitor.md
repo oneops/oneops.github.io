@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a Doc URL to a Monitor
 id: add-a-doc-url-to-a-monitor
 ---

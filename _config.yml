@@ -227,7 +227,7 @@ user-how-to:
  - title: Environment Releases
    url: environment-releases.html
  - title: Find the hostname of a VM
-   url: fint-hostname-of-vm.html
+   url: find-hostname-of-vm.html
  - title: Find the IP Address for a Compute Node
    url: find-ip-address-for-compute-node.html
  - title: Find a Platform VIP Name
@@ -393,6 +393,11 @@ dev-how-to:
  - title: Override Platform Attributes
    url: override-platform-attributes.html
          
+sources:
+ confluence:
+  server: https://confluence.walmart.com
+  pages: [PGPTOOLS/Test]
+
 # ----------------------------------------------------------------------------------------------------------------------
 # Theme
 # ----------------------------------------------------------------------------------------------------------------------
@@ -403,5 +408,7 @@ bootstrapVersion: 3.3.1
 # ----------------------------------------------------------------------------------------------------------------------
 # Jekyll
 # ----------------------------------------------------------------------------------------------------------------------
-markdown: kramdown
-exclude: [_tools/jekyll.jar, Gemfile]
+markdown: redcarpet-prettify
+redcarpet:
+  extensions: [with_toc_data, prettify]
+exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-stage-serve.sh, jekyll-stage-build.sh]

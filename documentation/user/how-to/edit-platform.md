@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Edit a Platform
 id: edit-a-platform
 ---

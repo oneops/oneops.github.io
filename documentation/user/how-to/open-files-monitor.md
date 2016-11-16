@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Open Files Monitor
 id: open-files-monitor
 ---

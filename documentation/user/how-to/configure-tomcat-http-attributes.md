@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Configure Tomcat HttpConnector Attributes in Oneops
 id: configure-tomcat-httpconnector-attributes-in-oneops
 ---
@@ -59,10 +59,10 @@ clientAuth="false"  sslProtocol="TLSv1" sslEnabledProtocols="TLSv1,TLSv1.1,TLSv1
 
 >Currently you can not add multiple connectors to Tomcat. It is important to test performance on these settings in the lower environment before you do it in production.
 
-The SSL connector is only configured if you have KeyStore and certificate optional component. For instructions on how to enable SSL, refer to <a href="javascript:loadContent('/documentation/user/how-to/add-certs-to-compute-to-enable-ssl.html');">Add Certs to Compute to Enable SSL</a>
+The SSL connector is only configured if you have KeyStore and certificate optional component. For instructions on how to enable SSL, refer to <a href="/documentation/user/how-to/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
 
 # See Also
 
 
-* <a href="javascript:loadContent('/documentation/user/how-to/add-certs-to-compute-to-enable-ssl.html');">Add Certs to Compute to Enable SSL</a>
-* <a href="javascript:loadContent('/documentation/user/references/catalina-out-in-tomcat.html');">catalina-out in Tomcat</a>
+* <a href="/documentation/user/how-to/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
+* <a href="/documentation/user/references/catalina-out-in-tomcat.html">catalina-out in Tomcat</a>

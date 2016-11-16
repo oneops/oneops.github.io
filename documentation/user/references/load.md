@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Load
 id: "load"
 ---
@@ -7,13 +7,13 @@ id: "load"
 `Load` feature can be used to bulk update an assembly design using a YAML file defining global variables, platforms, local variables, components and attachments. The file can be loaded using any of the following:
 
 * **UI** page for design load by uploading the yaml file or posting the yaml content directly in the text area. To get to the design load page in the UI go to the assembly design and click on the `Load` button in the header.
-* **CLI** command `oneops design load`. The defaults path for the Design file is `./oneops-design.yaml`. For additional information see <a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">CLI</a> section.
-* **API** call for design load. For additional information see <a href="javascript:loadContent('/documentation/developer/references/design-attachments-api.html');">Design API</a> reference.
+* **CLI** command `oneops design load`. The defaults path for the Design file is `./oneops-design.yaml`. For additional information see <a href="/documentation/admin/key-concepts/index.html">CLI</a> section.
+* **API** call for design load. For additional information see <a href="/documentation/developer/references/design-attachments-api.html">Design API</a> reference.
 
 
 # Global Variables
 
-Variables that can be used anywhere in the design and are referenced via `$OO_GLOBAL{...}` syntax. For additional information on global variables see <a href="javascript:loadContent('/documentation/user/references/variables.html');">variables</a> reference page.
+Variables that can be used anywhere in the design and are referenced via `$OO_GLOBAL{...}` syntax. For additional information on global variables see <a href="/documentation/user/references/variables.html">variables</a> reference page.
 
 ```
 variables:
@@ -31,7 +31,7 @@ This section contains a list of all configuration options supported by a platfor
 
 ## pack
 
-A string in the form of `<source>/<name>:<version>` declaring the pack to be used for this platform. For additional information on packs see <a href="javascript:loadContent('/documentation/user/references/platform-packs.html');">platform packs</a>.
+A string in the form of `<source>/<name>:<version>` declaring the pack to be used for this platform. For additional information on packs see <a href="/documentation/user/references/platform-packs.html">platform packs</a>.
 
 ```
 pack: oneops/tomcat:1
@@ -47,7 +47,7 @@ major_version: '1'
 
 ## links
 
-Links are used to describe dependencies between platforms. For additional information on links between platforms see <a href="javascript:loadContent('/documentation/user/references/platform-links.html');">platform links</a>.
+Links are used to describe dependencies between platforms. For additional information on links between platforms see <a href="/documentation/user/references/platform-links.html">platform links</a>.
 
 ```
 links:
@@ -57,7 +57,7 @@ links:
 
 ## platform variables
 
-Platform variables that can be used inside the specified platform in design and are referenced via `$OO_LOCAL{...}` syntax. For additional information on platform variables see <a href="javascript:loadContent('/documentation/user/references/variables.html');">variables</a> reference page.
+Platform variables that can be used inside the specified platform in design and are referenced via `$OO_LOCAL{...}` syntax. For additional information on platform variables see <a href="/documentation/user/references/variables.html">variables</a> reference page.
 
 ```
 variables:

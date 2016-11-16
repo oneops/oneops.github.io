@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Set Up Notifications
 id: set-up-notifications
 ---
@@ -34,4 +34,4 @@ To receive notifications, follow these steps to subscribe:
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/how-to/manage-assemblies.html');">Manage Assemblies Video</a>
+* <a href="/documentation/user/how-to/manage-assemblies.html">Manage Assemblies Video</a>

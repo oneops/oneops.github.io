@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Available Platforms List
 id: "available-platforms-list"
 ---

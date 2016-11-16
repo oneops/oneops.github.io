@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Update Oracle JDK/JRE Version on Java-based Platforms
 id: update-oracle-jdk-jre-version-java-based-platforms
 ---

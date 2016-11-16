@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Shutdown a Cloud
 id: shutdown-cloud
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Start and Stop an Instance
 id: start-stop-instance
 ---

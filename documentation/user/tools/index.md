@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: User Tools
 id: user-tools 
 ---

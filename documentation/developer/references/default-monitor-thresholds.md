@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Default Monitor Thresholds
 id: default-monitor-thresholds
 ---

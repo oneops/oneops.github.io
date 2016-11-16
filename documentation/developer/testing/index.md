@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Testing and Debugging
 id: "testing-and-debugging" 
 ---
@@ -22,7 +22,7 @@ The default URL for your webapp that is deployed in OneOps is made up of the dep
 | testing        | organization name
 | OneOps QA Server | zone in Infoblox for the cloud
 
-See also [Find the IP Address for a Compute Node](../howto/#find-the-ip-address-for-a-compute-node).
+See also [Find the IP Address for a Compute Node](/documentation/user/how-to/find-ip-address-for-compute-node.html).
 
 ## View the Number of VMs in Use
 
@@ -67,7 +67,7 @@ Transition > environment > deployment tab
 
 >The logs display in chronological order, newest to oldest and are stated in Chef coding language.
 
-![](../../assets/local/images/troubleshoot-logs.png)
+![troubleshoot logs](/assets/docs/local/images/troubleshoot-logs.png)
 
 
 

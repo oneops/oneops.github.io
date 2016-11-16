@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: View Deployment Status
 id: view-deployment-status
 ---

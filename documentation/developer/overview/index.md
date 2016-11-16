@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Overview
 id: "overview"
 ---
@@ -13,6 +13,6 @@ and **content**( packs and circuits) which can be added to product anytime.
 > how to develop new pack for a platform.
 
 
-* Get familiar with <a href="javascript:loadContent('/documentation/developer/key-concepts/index.html');">key-concepts</a>.
-* Get going <a href="javascript:loadContent('/documentation/developer/getting-started/index.html');">getting started</a>
+* Get familiar with <a href="/documentation/developer/key-concepts/index.html">key-concepts</a>.
+* Get going <a href="/documentation/developer/getting-started/index.html">getting started</a>
 * We can help, contact us <span class="button icon-slack"><a href="{{ site.slack_url }}" target="_blank">{{ site.slack_channel }}</a></span>

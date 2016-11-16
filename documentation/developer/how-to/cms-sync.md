@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: CMS Sync
 id: cms-sync
 ---

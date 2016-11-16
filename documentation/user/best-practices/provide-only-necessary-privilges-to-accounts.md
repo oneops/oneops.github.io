@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Provide Only Necessary Privileges to Accounts
 id: "provide-only-necessary-privileges-to-accounts"
 ---

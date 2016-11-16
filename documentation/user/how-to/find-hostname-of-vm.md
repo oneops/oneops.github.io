@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Find the hostname of a VM
 id: find-hostname-of-vm
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Delete an Environment
 id: delete-an-environment
 ---

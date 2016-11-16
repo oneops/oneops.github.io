@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add Certs to Compute to Enable SSL
 id: "add-certs-to-compute-to-enable-ssl"
 ---

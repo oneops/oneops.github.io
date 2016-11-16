@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Import and Export Catalog
 id: import-and-export-catalog
 ---

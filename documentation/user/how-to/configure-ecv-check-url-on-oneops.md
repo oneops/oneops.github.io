@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Configure ECV Check URL on OneOps
 id: configure-ecv-check-url-on-oneops
 ---

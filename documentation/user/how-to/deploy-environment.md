@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deploy an Environment
 id: deploy-environment
 ---

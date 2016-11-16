@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: View Design Releases
 id: view-design-releases
 ---

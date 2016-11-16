@@ -1,7 +1,7 @@
 ---
-layout: project
+layout: user-doc
 title: Contribution
 id: "contribution"
 ---
-Help us with your <a onclick="javascript:loadContent('/documentation/developer/contribution/index.html');">contributions</a>.
+Help us with your <a onclick="/documentation/developer/contribution/index.html">contributions</a>.
 

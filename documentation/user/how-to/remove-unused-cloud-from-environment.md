@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Remove an Unused Cloud from an Environment
 id: remove-unused-cloud-from-environment
 ---

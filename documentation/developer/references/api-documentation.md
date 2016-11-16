@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: OneOps API Documentation
 id: oneops-api-documentation
 ---

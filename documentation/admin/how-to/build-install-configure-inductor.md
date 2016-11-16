@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Build, Install, and Configure an Inductor
 id: build-install-configure-an-inductor
 ---

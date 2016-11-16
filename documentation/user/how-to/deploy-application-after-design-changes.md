@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deploy Application after Design Changes
 id: deploy-application-after-design-changes
 ---

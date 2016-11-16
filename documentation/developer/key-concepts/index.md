@@ -1,12 +1,12 @@
 ---
-layout: project
+layout: dev-doc
 title: Key Concepts
 id: "key-concepts"
 ---
 
 # OneOps System Architecture
 
-As a pack developer, you don't need to know the details of **system architecture**, but if you want to learn more refer <a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">System Architecture</a>.
+As a pack developer, you don't need to know the details of **system architecture**, but if you want to learn more refer <a href="/documentation/admin/key-concepts/index.html">System Architecture</a>.
 
 # Model Overview
 
@@ -161,7 +161,7 @@ Packs also contain configuration for:
   * `managed_via`
   * `secured_by`
 
-Packs are used to define OneOps platforms. For example: <a href="{{site.baseurl}}/{{site.contexts.user}}#platform-packs" target="_blank">Tomcat, Apache, NodeJS, Couchbase, Postgres,</a> etc.
+Packs are used to define OneOps platforms. For example: <a href="/documentation/user/references/platform-packs.html" target="_blank">Tomcat, Apache, NodeJS, Couchbase, Postgres,</a> etc.
 
 ![Packs](/assets/docs/local/images/packs.png)
 

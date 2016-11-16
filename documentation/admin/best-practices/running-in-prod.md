@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Running OneOps in Production
 id: "running-OneOps-In-Production"
 ---
@@ -8,7 +8,7 @@ Use **OneOps to deploy OneOps in production**, so you get all the benefits of On
 
 See also:
 
-  * Follow these general prescribed <a href="javascript:loadContent('/documentation/user/best-practices/index.html');">practices</a>
+  * Follow these general prescribed <a href="/documentation/user/best-practices/index.html">practices</a>
   * We can help , contact us <span class="button icon-slack"><a href="{{ site.slack_url }}" target="_blank">{{ site.slack_channel }}</a></span>
   
 
@@ -30,7 +30,7 @@ You can deploy like
 |opsmq|OpsMQ|
 |daq|Cassandra|
 
-See also <a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">architecture-diagram</a>
+See also <a href="/documentation/admin/key-concepts/index.html">architecture-diagram</a>
 
 
 ## Use Command Line Interface

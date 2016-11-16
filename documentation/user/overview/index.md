@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Overview
 id: "overview"
 ---
@@ -89,39 +89,39 @@ For a list of platforms available in OneOps, go to the [Available Platforms List
 [admin]:/documentation/admin.html
 [developer]:/documentation/developer.html
 [user]:/documentation/user.html
-[Design]:/documentation/user.html/key-concepts/index.html#design-in-oneops
-[Transition]:{{site.context}}/documentation/user/key-concepts/#transition-in-oneops
-[Operations]:{{site.context}}/documentation/user/key-concepts/#operations-in-oneops
-[Add a Platform]:{{site.context}}/documentation/user/howto/#add-a-platform-to-a-design
-[platforms]:{{site.context}}/documentation/user/key-concepts/#platform
-[Platform Dependency]:{{site.context}}/documentation/user/references/#platform-links-reference
-[Environment]:{{site.context}}/documentation/user/key-concepts/#environment
-[Components]:{{site.context}}/documentation/user/key-concepts/#component
-[catalogs]:{{site.context}}/documentation/user/recipe#catalogs
-[Packs/Circuits]:{{site.context}}/documentation/user/references/#platform-packs
-[Availability Modes]:{{site.context}}/documentation/user/references/#availability-modes
-[Environment Profiles]:{{site.context}}/documentation/user/references/#environment-profiles
-[Detailed Environment]:{{site.context}}/documentation/user/references/#environment
-[Detailed Transition]:{{site.context}}/documentation/user/references/#transition
-[Monitoring]:{{site.context}}/documentation/user/references/#monitoring
-[Assembly]:{{site.context}}/documentation/user/key-concepts/#Assembly
-[deployment-architecture-overview]:{{site.context}}/documentation/user/key-concepts/#deployment-architecture-overview
-[Account]:{{site.context}}/documentation/user/howto/#set-up-your-user-account
-[clouds]:{{site.context}}/documentation/user/reference/#cloud
-[platforms]:{{site.context}}/documentation/user/reference/#platform-packs
-[create assembly]:{{site.context}}/documentation/user/howto/#create-assemblies-to-design-applications
-[create design]:{{site.context}}/documentation/user/howto/#add-a-new-cloud
-[create platform]:{{site.context}}/documentation/user/howto/#add-a-platform-to-a-design
-[commit design]:{{site.context}}/documentation/user/howto/#add-a-platform-to-a-design
-[create environment]:{{site.context}}/documentation/user/howto/#create-an-environment
-[deploy to cloud]:{{site.context}}/documentation/user/howto/deploy-to-cloud
-[view status]:{{site.context}}/documentation/user/howto/#create-an-environment
-[view status]:{{site.context}}/documentation/user/howto/#control-environment
-[initial set up]:{{site.context}}/documentation/user/getting-started/index.html
-[Teams in Organization]:{{site.context}}/documentation/user/howto/#create-a-team-in-an-organization
-[Add a User to a Team]:{{site.context}}/documentation/user/howto/#add-a-user-to-a-team
-[lifecycle]:{{site.context}}/documentation/user/key-concepts/#oneops-lifecycle-phases
-[clouds]:{{site.context}}/documentation/user/references/#cloud
-[auto-scale]:{{site.context}}/documentation/user/references/#auto-scale
-[Compliance]:{{site.context}}/documentation/user/references/#compliance
-[Available Platforms List]:{{site.context}}/documentation/user/references/#available-platforms-list
+[Design]:/documentation/user/key-concepts/#design-in-oneops
+[Transition]:/documentation/user/key-concepts/#transition-in-oneops
+[Operations]:/documentation/user/key-concepts/#operations-in-oneops
+[Add a Platform]:/documentation/user/how-to/add-a-platform-to-a-design.html
+[platforms]:/documentation/user/key-concepts/#platform
+[Platform Dependency]:/documentation/user/references/#platform-links-reference.html
+[Environment]:/documentation/user/key-concepts/#environment
+[Components]:/documentation/user/key-concepts/#component
+[catalogs]:/documentation/user/how-to/catalogs.html
+[Packs/Circuits]:/documentation/user/references/platform-packs.html
+[Availability Modes]:/documentation/user/references/availability-modes.html
+[Environment Profiles]:/documentation/user/references/environment-profiles.html
+[Detailed Environment]:/documentation/user/references/environment.html
+[Detailed Transition]:/documentation/user/references/transition.html
+[Monitoring]:/documentation/user/references/monitoring.html
+[Assembly]:/documentation/user/key-concepts/#assembly
+[deployment-architecture-overview]:/documentation/user/key-concepts/#deployment-architecture-overview
+[Account]:/documentation/user/how-to/set-up-your-user-account.html
+[clouds]:/documentation/user/references/cloud.html
+[platforms]:/documentation/user/references/platform-packs.html
+[create assembly]:/documentation/user/how-to/create-assemblies-to-design-applications.html
+[create design]:/documentation/user/how-to/add-a-new-cloud.html
+[create platform]:/documentation/user/how-to/add-a-platform-to-a-design.html
+[commit design]:/documentation/user/how-to/add-a-platform-to-a-design.html
+[create environment]:/documentation/user/how-to/create-an-environment.html
+[deploy to cloud]:/documentation/user/how-to/deploy-to-cloud.html
+[view status]:/documentation/user/how-to/create-an-environment.html
+[view status]:/documentation/user/how-to/control-environment.html
+[initial set up]:/documentation/user/getting-started/index.html
+[Teams in Organization]:/documentation/user/how-to/create-a-team-in-an-organization.html
+[Add a User to a Team]:/documentation/user/how-to/add-a-user-to-a-team.html
+[lifecycle]:/documentation/user/key-concepts/#oneops-lifecycle-phases
+[clouds]:/documentation/user/references/cloud.html
+[auto-scale]:/documentation/user/references/auto-scale.html
+[Compliance]:/documentation/user/references/compliance.html
+[Available Platforms List]:/documentation/user/references/available-platforms-list.html

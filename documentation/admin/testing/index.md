@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Testing and Debugging
 id: "testing-and-debugging"
 ---

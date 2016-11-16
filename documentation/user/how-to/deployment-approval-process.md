@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deployment Approval Process
 id: deployment-approval-process
 ---

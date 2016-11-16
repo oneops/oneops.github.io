@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deploy an Application for the First Time
 id: deploy-application-for-first-time
 ---

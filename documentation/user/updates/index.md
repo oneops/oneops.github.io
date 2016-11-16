@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title:  Updates
 publication-date: "2016-01-26"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Developer Prerequisites
 id: "developer-prerequisites"
 ---
@@ -23,7 +23,7 @@ rvm use --default ruby-1.9.3
 
 
 * Get [circuit-oneops](https://github.com/oneops/circuit-oneops-1) source
-* Install <a href="javascript:loadContent('/documentation/developer/key-concepts/index.html');">circuit</a>
+* Install <a href="/documentation/developer/key-concepts/index.html">circuit</a>
 
 ~~~ruby
  gem install --local oneops-admin-1.0.0.gem

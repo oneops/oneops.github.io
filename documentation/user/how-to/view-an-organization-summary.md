@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: View an Organization Summary
 id: view-an-organization-summary
 ---

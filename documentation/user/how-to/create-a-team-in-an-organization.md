@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Create a Team in an Organization
 id: create-a-team-in-an-organization
 ---

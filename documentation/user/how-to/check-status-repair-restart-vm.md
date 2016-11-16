@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Check Status, Repair and Restart a VM
 id: check-status-repair-restart-vm
 ---

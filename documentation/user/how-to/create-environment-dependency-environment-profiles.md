@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Create Environment Dependency with Environment Profiles
 id: create-environment-dependency-environment-profiles
 ---
@@ -19,5 +19,5 @@ Consider the following when creating environment dependencies with environment p
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/references/environment-profiles.html');">Environment Profiles</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/create-environment.html');">View, Add, or Edit Environment Profiles</a>
+* <a href="/documentation/user/references/environment-profiles.html">Environment Profiles</a>
+* <a href="/documentation/user/how-to/create-environment.html">View, Add, or Edit Environment Profiles</a>

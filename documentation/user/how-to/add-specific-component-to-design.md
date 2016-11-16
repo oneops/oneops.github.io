@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a Specific Component to a Design
 id: "add-specific-component-to-a-design"
 ---

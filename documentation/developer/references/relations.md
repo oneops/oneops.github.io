@@ -1,10 +1,10 @@
 ---
-layout: project
+layout: dev-doc
 title: Relations
 id: relations
 ---
 
-The following model diagrams describe the relationships for Design, Transition, and Operations in the OneOps UI. <a onclick="javascript:loadContent('/documentation/developer/key-concepts/index.html');">Relationships</a> also have attributes, some of which are used to scale.
+The following model diagrams describe the relationships for Design, Transition, and Operations in the OneOps UI. <a href="/documentation/developer/key-concepts/index.html">Relationships</a> also have attributes, some of which are used to scale.
 
 # Design
 

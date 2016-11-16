@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Contribution
 id: "contribution"
 ---

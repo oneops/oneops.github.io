@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Platform Links
 id: platform-links-reference
 ---

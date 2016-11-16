@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Metadata
 id: metadata
 ---
@@ -57,7 +57,7 @@ recipe "repair", "Repair Apache"
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/developer/key-concepts/index.html');">Component</a>
-* <a href="javascript:loadContent('/documentation/developer/key-concepts/index.html');">Recipes</a>
-* <a href="javascript:loadContent('/documentation/developer/references/attachments.html');">Attachments</a>
+* <a href="/documentation/developer/key-concepts/index.html">Component</a>
+* <a href="/documentation/developer/key-concepts/index.html">Recipes</a>
+* <a href="/documentation/developer/references/attachments.html">Attachments</a>
 

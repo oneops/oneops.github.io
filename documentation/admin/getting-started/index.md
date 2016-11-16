@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Getting Started
 id: "getting-started"
 ---
@@ -78,9 +78,9 @@ While the deployment is in progress you can click on the steps to expand to work
 
 ## Troubleshooting
 
- * <a href="javascript:loadContent('/documentation/admin/testing/index.html');">Trouble connecting to port 3000</a>
- * <a href="javascript:loadContent('/documentation/admin/testing/index.html');">Deployment fails</a>
- * Not here, look <a href="javascript:loadContent('/documentation/admin/testing/index.html');">here</a>
+ * <a href="/documentation/admin/testing/index.html">Trouble connecting to port 3000</a>
+ * <a href="/documentation/admin/testing/index.html">Deployment fails</a>
+ * Not here, look <a href="/documentation/admin/testing/index.html">here</a>
  * We can help :<span class="button icon-slack"><a href="{{ site.slack_url }}" target="_blank">{{ site.slack_channel }}</a></span>
 
 
@@ -94,7 +94,7 @@ up cloud and services The steps described to create an assembly,platform refers 
 ## Outline
 
 2. Setup Vagrant [here](#vagrant-up)
-1. Set up *clouds*. Refer screen cast below. For more details refer to <a href="javascript:loadContent('/documentation/user/gestting-started/index.html');">user</a>
+1. Set up *clouds*. Refer screen cast below. For more details refer to <a href="/documentation/user/gestting-started/index.html">user</a>
    1. Create Clouds
     1. Create Cloud Services
        1. Compute Cloud Service
@@ -120,9 +120,9 @@ up cloud and services The steps described to create an assembly,platform refers 
 
 The setup does the following :
 
-  * Installs all required software see <a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">here</a>
+  * Installs all required software see <a href="/documentation/admin/key-concepts/index.html">here</a>
   * Sets up minimal data set required for OneOps to work.
-  * Clones, Builds and Deploys all the required components to run <a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">OneOps</a>
+  * Clones, Builds and Deploys all the required components to run <a href="/documentation/admin/key-concepts/index.html">OneOps</a>
   * Bootstraps the  circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
 
 ~~~ bash
@@ -133,22 +133,22 @@ The setup does the following :
   ==> default: All done at : 15:28:54
 ~~~
 
-If step fails refer <a href="javascript:loadContent('/documentation/admin/testing/index.html');">troubleshooting</a>.
+If step fails refer <a href="/documentation/admin/testing/index.html">troubleshooting</a>.
 
 > UI should be up [here](http://localhost:9090/users/sign_in).
 
 # Set Up your Organization, Clouds, Cloud Services  
 
-* Refer <a href="javascript:loadContent('/documentation/user/getting-started/index.html');">User</a> or see screen cast below.
+* Refer <a href="/documentation/user/getting-started/index.html">User</a> or see screen cast below.
 
-# Check Inductor  <a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">Inductor</a>
+# Check Inductor  <a href="/documentation/admin/key-concepts/index.html">Inductor</a>
 
 > This section is for informative purpose only, The vagrant image has pre-installed and configured inductor ready to
 execute workorder.
 
 
 Inductor executes the **workoders/actionOrders** pushed by **controller** to
-cloud location specified at cloud creation. Refer <a href="javascript:loadContent('/documentation/admin/references/inductor.html');">this</a> for overall flow.
+cloud location specified at cloud creation. Refer <a href="/documentation/admin/references/inductor.html">this</a> for overall flow.
 
 ## Log on to Vagrant Image
 
@@ -189,7 +189,7 @@ cd /opt/oneops/inductor
 
 # Validate Set up
 
-Create Assembly, Platforms and environment to test it out. Refer <a href="javascript:loadContent('/documentation/user/getting-started/index.html');">User</a>
+Create Assembly, Platforms and environment to test it out. Refer <a href="/documentation/user/getting-started/index.html">User</a>
 Or
 See screen cast below (might work better on the full screen, we are working on improving this).
 
@@ -201,18 +201,18 @@ See screen cast below (might work better on the full screen, we are working on i
 
 Before you begin, read the following documentation. It is the most essential information you need to start well.
 
-* **<a href="javascript:loadContent('/documentation/admin/overview/index.html');">Overview:** OneOps business-level description of main benefits versus alternative solutions
-* **<a href="javascript:loadContent('/documentation/admin/key-concepts/index.html');">Key Concepts:</a>** Conceptual description and diagram of how OneOps works
-* **<a href="javascript:loadContent('/documentation/admin/tools/index.html');">Tools:</a>** List of supporting tools and services that can be used with OneOps
-* **<a href="javascript:loadContent('/documentation/admin/getting-started/index.html');">Getting Started:</a>** How to start using OneOps (this section)
-* **<a href="javascript:loadContent('/documentation/admin/best-practices/design-best-practices.html');">Best Practices:</a>** How you should use OneOps for best results
+* **<a href="/documentation/admin/overview/index.html">Overview:** OneOps business-level description of main benefits versus alternative solutions
+* **<a href="/documentation/admin/key-concepts/index.html">Key Concepts:</a>** Conceptual description and diagram of how OneOps works
+* **<a href="/documentation/admin/tools/index.html">Tools:</a>** List of supporting tools and services that can be used with OneOps
+* **<a href="/documentation/admin/getting-started/index.html">Getting Started:</a>** How to start using OneOps (this section)
+* **<a href="/documentation/admin/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
 
 # What You Will Need When You Work
 
 Refer to the following documentation as you work.
 
-* **<a href="javascript:loadContent('/documentation/admin/typical-scenarios/cost-management.html');">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
-* **<a href="javascript:loadContent('/documentation/admin/references/actionorder.html');">References:</a>** Detailed code usage descriptions with code snippets
-* **<a href="javascript:loadContent('/documentation/admin/testing/index.html');">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
-* **<a href="javascript:loadContent('/documentation/admin/updates/index.html');">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
-* **<a href="javascript:loadContent('/documentation/admin/contribution/index.html');">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
+* **<a href="/documentation/admin/typical-scenarios/cost-management.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
+* **<a href="/documentation/admin/references/action-order.html">References:</a>** Detailed code usage descriptions with code snippets
+* **<a href="/documentation/admin/testing/index.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
+* **<a href="/documentation/admin/updates/index.html">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
+* **<a href="/documentation/admin/contribution/index.html">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Find a Platform VIP Name
 id: find-platform-vip-name
 ---

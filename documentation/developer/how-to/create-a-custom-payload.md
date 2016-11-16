@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Create a Custom Payload
 id: create-a-custom-payload
 ---

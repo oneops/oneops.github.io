@@ -1,10 +1,10 @@
 ---
-layout: project
+layout: user-doc
 title: Take a Node out of Traffic (ECV Disable)
 id: take-node-out-of-traffic-ecv-disable
 ---
 
-In general, the LB (load balancer) determines the health of an individual instance (back-end server) by monitoring a health URL that is configured for the app. If the health URL is an http monitor and it returns an HTTP 200 OK response, then the LB considers the instance to be healthy and traffic gets routed to the instance. Otherwise, no traffic goes to this instance. The standard ECV check in Tomcat is "/" which needs to be changed as prescribed in <a href="javascript:loadContent('/documentation/user/how-to/configure-ecv-check-url-on-oneops.html');">Configure ECV Check URL on OneOpsa</a>. (See the diagram below.)
+In general, the LB (load balancer) determines the health of an individual instance (back-end server) by monitoring a health URL that is configured for the app. If the health URL is an http monitor and it returns an HTTP 200 OK response, then the LB considers the instance to be healthy and traffic gets routed to the instance. Otherwise, no traffic goes to this instance. The standard ECV check in Tomcat is "/" which needs to be changed as prescribed in <a href="/documentation/user/how-to/configure-ecv-check-url-on-oneops.html">Configure ECV Check URL on OneOpsa</a>. (See the diagram below.)
 
 # Solution
 
@@ -28,7 +28,7 @@ In general, the LB (load balancer) determines the health of an individual instan
 
     ![ECV disable debug tomcat](/assets/docs/local/images/ecv-disable-debug-tomcat.png)
 
-9. The default jpda port is 8000. To open the ports, refer to <a href="javascript:loadContent('/documentation/user/how-to/add-delete-security-group.html');">Add or Delete a Security Group to Open or Close an Additional Port</a>.
+9. The default jpda port is 8000. To open the ports, refer to <a href="/documentation/user/how-to/add-delete-security-group.html">Add or Delete a Security Group to Open or Close an Additional Port</a>.
 10. If you are using eclipse, conf. looks like this:
 
     ![ECV disable eclipse debug conf](/assets/docs/local/images/ecv-disable-eclipse-debug-conf.png)

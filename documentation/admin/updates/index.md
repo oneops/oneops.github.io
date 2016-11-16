@@ -1,9 +1,11 @@
 ---
-layout: project
-title:  "2016-01-26"
+layout: admin-doc
+title:  Updates
 publication-date: "2016-01-26"
 ---
 
-# Summary
+# 2016-01-26
+
+## Summary
 
 OneOps initial open source release read more [here](http://www.oneops.com)

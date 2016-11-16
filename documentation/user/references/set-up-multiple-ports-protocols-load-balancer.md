@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Set Up Multiple Ports/Protocols in Load Balancer
 id: set-up-multiple-ports-protocols-load-balancer
 ---

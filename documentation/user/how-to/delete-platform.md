@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Delete a Platform
 id: delete-platform
 ---
@@ -19,5 +19,5 @@ To delete a platform, follow these steps:
 # See Also
 
 
-* <a href="javascript:loadContent('/documentation/user/how-to/manage-assemblies.html');">Manage Assemblies Video</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/edit-platform.html');">Edit or Delete a Platform Video</a>
+* <a href="/documentation/user/how-to/manage-assemblies.html">Manage Assemblies Video</a>
+* <a href="/documentation/user/how-to/edit-platform.html">Edit or Delete a Platform Video</a>

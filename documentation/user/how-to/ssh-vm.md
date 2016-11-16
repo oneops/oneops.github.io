@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: ssh a VM
 id: ssh-vm
 ---

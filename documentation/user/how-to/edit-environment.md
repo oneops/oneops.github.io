@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Edit an Environment
 id: edit-environment
 ---
@@ -26,7 +26,7 @@ To edit an environment, follow these steps:
         * Global DNS: Can be updated
     * Availability
         * Monitoring: Cannot changed
-        * <a href="javascript:loadContent('/documentation/user/references/availability-modes.html');">Availability Mode</a>: Cannot changed
+        * <a href="/documentation/user/references/availability-modes.html">Availability Mode</a>: Cannot changed
     * Others
         * Debug: This is not used by users. It is used to debug openstack issues.
         * Primary Cloud: Can be updated

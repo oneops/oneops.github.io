@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Upgrade Specific OS Packages on a Compute
 id: upgrade-specific-os-package-on-compute
 ---
@@ -25,8 +25,8 @@ NOTE: All Kernel-related patch updates require a compute reboot. After the packa
 ## See Also
 
 
-* <a href="javascript:loadContent('/documentation/user/how-to/reboot-computes.html');">Reboot Computes</a>
-* To query the Kernel pkgs that are installed as part of this activity, use the <a href="javascript:loadContent('/documentation/user/how-to/grep-search-text-in-file-compute.html');">Grep or Search Text in Files on Computes</a>
+* <a href="/documentation/user/how-to/reboot-computes.html">Reboot Computes</a>
+* To query the Kernel pkgs that are installed as part of this activity, use the <a href="/documentation/user/how-to/grep-search-text-in-file-compute.html">Grep or Search Text in Files on Computes</a>
 
 
 

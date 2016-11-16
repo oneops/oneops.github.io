@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Monitor
 id: monitor
 ---
@@ -40,4 +40,4 @@ resource "tomcat",
        ...
 ~~~
 
-[Metric Data Source Type]:{{site.baseurl}}/{{site.contexts.admin}}references/#metric-data-source-type
+[Metric Data Source Type]:/documentation/admin/references/metric-data-source-type.html

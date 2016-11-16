@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: SSH to a Compute Node
 id: ssh-to-a-compute-node
 ---

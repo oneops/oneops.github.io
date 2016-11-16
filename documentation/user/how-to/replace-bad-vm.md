@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Replace a Bad VM
 id: replace-a-bad-vm
 ---

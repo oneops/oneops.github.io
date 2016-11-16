@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: dev-doc
 title: Component List
 id: component-list
 ---

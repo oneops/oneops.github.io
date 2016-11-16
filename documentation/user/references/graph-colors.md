@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Graph Colors
 id: graph-colors
 ---

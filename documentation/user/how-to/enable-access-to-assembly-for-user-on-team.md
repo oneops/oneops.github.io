@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Enable Access to an Assembly for a User on a Team
 id: enable-access-to-an-assembly-for-a-user-on-a-team
 ---
@@ -17,4 +17,4 @@ After a user is added to a team within an organization, that team needs to be ad
 
 # See Also
 
-* <a href="javascript:loadContent('/documentation/user/best-practices/restrict-access-with-teams.html');">Restrict Access with Teams</a>
+* <a href="/documentation/user/best-practices/restrict-access-with-teams.html">Restrict Access with Teams</a>

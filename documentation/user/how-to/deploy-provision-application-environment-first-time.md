@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deploy and Provision an Application and Environment for the First Time
 id: deploy-provision-application-environment-first-time
 ---

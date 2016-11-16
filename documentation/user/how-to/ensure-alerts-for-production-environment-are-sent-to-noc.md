@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Ensure that Alerts for Production Environment are Sent to NOC
 id: ensure-that-alerts-for-production-environment-are-sent-to-noc
 ---
@@ -21,4 +21,4 @@ If you want to enable NOC alerts for your production environment so that NOC can
 
 # See Also
 
-<a href="javascript:loadContent('/documentation/user/how-to/watch-notification.html');">Getting Alerts in OneOps Video</a>
+<a href="/documentation/user/how-to/watch-notification.html">Getting Alerts in OneOps Video</a>

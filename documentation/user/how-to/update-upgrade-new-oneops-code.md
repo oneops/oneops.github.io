@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Update or Upgrade New OneOps Code
 id: update-upgrade-new-oneops-code
 ---

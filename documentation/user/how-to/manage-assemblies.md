@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Manage Assemblies
 id: manage-assemblies
 ---
@@ -31,5 +31,5 @@ To manage assemblies, follow these steps:
 # See Also
 
 
-* <a href="javascript:loadContent('/documentation/user/how-to/create-assembly-design-application.html');">Create Assemblies to Design Applications</a>
-* <a href="javascript:loadContent('/documentation/user/how-to/add-team-to-an-assembly.html');">Add a Team to an Assembly</a>
+* <a href="/documentation/user/how-to/create-assembly-design-application.html">Create Assemblies to Design Applications</a>
+* <a href="/documentation/user/how-to/add-team-to-an-assembly.html">Add a Team to an Assembly</a>

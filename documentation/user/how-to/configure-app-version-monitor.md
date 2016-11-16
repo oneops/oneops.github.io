@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Configure App Version Monitor
 id: configure-app-version-monitor
 ---

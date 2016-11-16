@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add a User To a Group
 id: "add-a-user-to-a-group"
 ---

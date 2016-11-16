@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Manage OneOps User Accounts
 id: manage-oneops-user-accounts
 ---

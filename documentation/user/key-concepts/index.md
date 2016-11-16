@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Key Concepts
 id: "key-concepts"
 ---
@@ -131,34 +131,34 @@ Environment profiles are templates that are used to derive concrete environments
 
 
 
-[Account]:../howto/#set-up-your-user-account
-[Add a component]:../howto/#add-a-specific-component-to-a-design
-[Add a Platform]:../howto/#add-a-platform-to-a-design
+[Account]:/documentation/user/how-to/set-up-your-user-account.html
+[Add a component]:/documentation/user/how-to/add-a-specific-component-to-a-design.html
+[Add a Platform]:/documentation/user/how-to/add-a-platform-to-a-design.html
 [Assembly]:../key-concepts/#assembly
-[attachments]:../references/#attachments
-[auto-scale]:../reference#auto-scale
-[Availability Modes]:../references/#availability-modes
-[catalogs]:../howto/#catalogs
-[clouds]:../reference/#cloud
-[commit design]:../howto/#add-a-platform-to-a-design
+[attachments]:/documentation/user/references/attachments.html
+[auto-scale]:/documentation/user/references/auto-scale.html
+[Availability Modes]:/documentation/user/references/availability-modes.html
+[catalogs]:/documentation/user/how-to/catalogs.html
+[clouds]:/documentation/user/references/cloud.html
+[commit design]:/documentation/user/how-to/add-a-platform-to-a-design.html
 [Components]:../key-concepts/#component
-[create assembly]:../howto/#create-assemblies-to-design-applications
-[create design]:../howto/#add-a-new-cloud
-[create environment]:../howto/#create-an-environment
-[create platform]:../howto/#add-a-platform-to-a-design
-[deploy to cloud]:../howto/deploy-to-cloud
+[create assembly]:/documentation/user/how-to/create-assemblies-to-design-applications.html
+[create design]:/documentation/user/how-to/add-a-new-cloud.html
+[create environment]:/documentation/user/how-to/create-an-environment.html
+[create platform]:/documentation/user/how-to/add-a-platform-to-a-design.html
+[deploy to cloud]:/documentation/user/how-to/deploy-to-cloud.html
 [Design]:../key-concepts/#design-in-oneops
-[Detailed Environment]:../references/#environment
-[Detailed Transition]:../references/#transition
-[Environment Profiles]:../references/#environment-profiles
+[Detailed Environment]:/documentation/user/references/environment.html
+[Detailed Transition]:/documentation/user/references/transition.html
+[Environment Profiles]:/documentation/user/references/environment-profiles.html
 [Environment]:../key-concepts/#environment
-[initial set up]:{{site.contexts.admin}}getting-started
-[Monitoring]:../references/#monitoring
+[initial set up]:/documentation/admin/getting-started/index.html
+[Monitoring]:/documentation/user/references/monitoring.html
 [Operations]:../key-concepts/#operations-in-oneops
-[Packs/Circuits]:../references/#platform-packs
-[Platform Dependency]:../references/#platform-links-reference
+[Packs/Circuits]:/documentation/user/references/platform-packs.html
+[Platform Dependency]:/documentation/user/references/platform-links-reference.html
 [platforms]:../key-concepts/#platform
 [Transition]:../key-concepts/#transition-in-oneops
-[User]:{{site.contexts.developer}}key-concepts/#deployment-architecture-overview
-[variables]:../reference#variables
-[view status]:../howto/#control-environment
+[User]:/documentation/developer/key-concepts/index.html
+[variables]:/documentation/user/references/variables.html
+[view status]:/documentation/user/how-to/control-environment.html

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Enable https for a Service (LB Certs)
 id: enable-https-for-service-lbcerts
 ---

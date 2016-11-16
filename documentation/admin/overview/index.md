@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: admin-doc
 title: Overview
 id: "overview"
 ---
@@ -19,10 +19,10 @@ for the end [Users][] to configure  and deploy their applications.
 
 See also
 
-* Installing OneOps using [OneOps](./references/#oneops-manages-oneops)
+* Installing OneOps using [OneOps](/documentation/admin/references/oneops-manages-oneops.html)
 
-[getting started]: /documentation/admin/getting-started
-[Clouds]: /documentation/user/key-concepts#clouds
-[key concepts]: /documentation/user/key-concepts
+[getting started]: /documentation/admin/getting-started/index.html
+[Clouds]: /documentation/user/key-concepts/#clouds
+[key concepts]: /documentation/user/key-concepts/index.html
 [Organizations]: /documentation/user/key-concepts/#organization
 [Users]: /documentation/user.html

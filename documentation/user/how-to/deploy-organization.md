@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Deploy an Organization
 id: deploy-an-organization
 ---

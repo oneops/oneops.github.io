@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: user-doc
 title: Add or Edit Primary and Secondary Clouds
 id: "edit-primary-secondary-clouds"
 ---
