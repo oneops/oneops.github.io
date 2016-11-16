@@ -408,7 +408,7 @@ bootstrapVersion: 3.3.1
 # ----------------------------------------------------------------------------------------------------------------------
 # Jekyll
 # ----------------------------------------------------------------------------------------------------------------------
-markdown: redcarpet-prettify
+markdown: kramdown
 redcarpet:
   extensions: [with_toc_data, prettify]
 exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-stage-serve.sh, jekyll-stage-build.sh]
