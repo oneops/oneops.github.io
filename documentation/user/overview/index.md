@@ -106,7 +106,7 @@ For a list of platforms available in OneOps, go to the [Available Platforms List
 [Monitoring]:{{site.context}}/documentation/user/references/#monitoring
 [Assembly]:{{site.context}}/documentation/user/key-concepts/#Assembly
 [deployment-architecture-overview]:{{site.context}}/documentation/user/key-concepts/#deployment-architecture-overview
-[Account]:{{{site.context}}/documentation/user/howto/#set-up-your-user-account
+[Account]:{{site.context}}/documentation/user/howto/#set-up-your-user-account
 [clouds]:{{site.context}}/documentation/user/reference/#cloud
 [platforms]:{{site.context}}/documentation/user/reference/#platform-packs
 [create assembly]:{{site.context}}/documentation/user/howto/#create-assemblies-to-design-applications
