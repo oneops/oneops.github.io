@@ -87,7 +87,7 @@ Monitor and control your environments to maintain the required operational level
 For a list of platforms available in OneOps, go to the [Available Platforms List][]
 
 [admin]:/documentation/admin.html
-[developer]:/documentation/developer.html
+[developer]:/documentation/developers.html
 [user]:/documentation/user.html
 [Design]:/documentation/user/key-concepts/#design-in-oneops
 [Transition]:/documentation/user/key-concepts/#transition-in-oneops
@@ -103,7 +103,7 @@ For a list of platforms available in OneOps, go to the [Available Platforms List
 [Environment Profiles]:/documentation/user/references/environment-profiles.html
 [Detailed Environment]:/documentation/user/references/environment.html
 [Detailed Transition]:/documentation/user/references/transition.html
-[Monitoring]:/documentation/user/references/monitoring.html
+[Monitoring]:/documentation/user/references/monitoring-reference.html
 [Assembly]:/documentation/user/key-concepts/#assembly
 [deployment-architecture-overview]:/documentation/user/key-concepts/#deployment-architecture-overview
 [Account]:/documentation/user/how-to/set-up-your-user-account.html

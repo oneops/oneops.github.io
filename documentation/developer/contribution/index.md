@@ -80,7 +80,7 @@ To decrease the back and forth in issues, and to help us get to the bottom of th
 
 ~~~
 
-### Useful Github Queries
+## Useful Github Queries
 
 Contributions go through a review process to improve code quality and avoid regressions. Managing a large number of contributions requires a workflow to provide queues for work such as triage, code review, and merging. A semi-formal process has evolved over the life of the project. Chef maintains this process pending community development and acceptance of an [RFC](https://github.com/chef/chef-rfc). These queries help track contributions through this process:
 

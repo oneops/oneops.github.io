@@ -141,7 +141,7 @@ If step fails refer <a href="/documentation/admin/testing/index.html">troublesho
 
 * Refer <a href="/documentation/user/getting-started/index.html">User</a> or see screen cast below.
 
-# Check Inductor  <a href="/documentation/admin/key-concepts/index.html">Inductor</a>
+# Check Inductor <a href="/documentation/admin/key-concepts/index.html">Inductor</a>
 
 > This section is for informative purpose only, The vagrant image has pre-installed and configured inductor ready to
 execute workorder.

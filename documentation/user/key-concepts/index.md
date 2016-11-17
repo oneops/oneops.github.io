@@ -153,7 +153,7 @@ Environment profiles are templates that are used to derive concrete environments
 [Environment Profiles]:/documentation/user/references/environment-profiles.html
 [Environment]:../key-concepts/#environment
 [initial set up]:/documentation/admin/getting-started/index.html
-[Monitoring]:/documentation/user/references/monitoring.html
+[Monitoring]:/documentation/user/references/monitoring-reference.html
 [Operations]:../key-concepts/#operations-in-oneops
 [Packs/Circuits]:/documentation/user/references/platform-packs.html
 [Platform Dependency]:/documentation/user/references/platform-links-reference.html

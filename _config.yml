@@ -15,6 +15,12 @@ googlePlus: #
 slack_url: https://oneops.slack.com/
 slack_channel: oneops
 
+# Parameters for CorpusSearch
+searchurl: http://search.oneops.com/search
+searchname: 'site-oneops-'
+authurl: http://auth.oneops.com/auth
+feedbackurl: http://feedback.oneops.com/feedback
+
 navigation:
  - title: Benefits
    url: /benefits.html
@@ -103,7 +109,7 @@ user-references:
  - title: OneOps Policy Management
    url: oneops-policy-management.html
  - title: OneOps URLs
-   url: oneops-url.html
+   url: oneops-urls.html
  - title: Operations
    url: operations-reference.html
  - title: Platform Links
@@ -411,4 +417,4 @@ bootstrapVersion: 3.3.1
 markdown: kramdown
 redcarpet:
   extensions: [with_toc_data, prettify]
-exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-stage-serve.sh, jekyll-stage-build.sh]
+exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-stage-serve.sh, jekyll-stage-build.sh, linkcheck.sh, linkcheck-results.log]

@@ -15,8 +15,7 @@ id: "getting-started"
             <ul class="tasks">
                 <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
                 <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
-            </ul>
-            <span class="step-number">1</span>
+develop            <span class="step-number">1</span>
         </li>
         <li class="alert alert-info design">
             <span class="step-title alert-heading">Design</span>

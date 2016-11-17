@@ -1,0 +1,724 @@
+LinkChecker 9.3              Copyright (C) 2000-2014 Bastian Kleineidam
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it
+under certain conditions. Look at the file `LICENSE' within this
+distribution.
+Get the newest version at http://wummel.github.io/linkchecker/
+Write comments and bugs to https://github.com/wummel/linkchecker/issues
+Support this project at http://wummel.github.io/linkchecker/donations.html
+
+Start checking at 2016-11-16 16:44:12-007
+
+URL        `https://stackstorm.typeform.com/to/K76GRP'
+Name       `\n                                sign up\n                            '
+Parent URL http://localhost:4000/contribute.html, line 236, col 29
+Real URL   https://stackstorm.typeform.com/to/K76GRP
+Info       The URL is outside of the domain filter, checked only
+           syntax.
+Warning    [url-whitespace] Leading or trailing whitespace in URL
+           ` https://stackstorm.typeform.com/to/K76GRP'.
+Result     Valid: filtered
+
+URL        `../fonts/glyphicons-halflings-regular.eot'
+Parent URL http://localhost:4000/assets/css/vendor/bootstrap.min.css, line 1, col 2901
+Real URL   http://localhost:4000/assets/css/fonts/glyphicons-halflings-regular.eot
+Check time 2.724 seconds
+Size       327B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.eot?#iefix'
+Parent URL http://localhost:4000/assets/css/vendor/bootstrap.min.css, line 1, col 2952
+Real URL   http://localhost:4000/assets/css/fonts/glyphicons-halflings-regular.eot#iefix
+Check time 3.017 seconds
+Size       327B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.woff2'
+Parent URL http://localhost:4000/assets/css/vendor/bootstrap.min.css, line 1, col 3034
+Real URL   http://localhost:4000/assets/css/fonts/glyphicons-halflings-regular.woff2
+Check time 3.376 seconds
+Size       329B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.woff'
+Parent URL http://localhost:4000/assets/css/vendor/bootstrap.min.css, line 1, col 3099
+Real URL   http://localhost:4000/assets/css/fonts/glyphicons-halflings-regular.woff
+Check time 3.616 seconds
+Size       328B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.ttf'
+Parent URL http://localhost:4000/assets/css/vendor/bootstrap.min.css, line 1, col 3162
+Real URL   http://localhost:4000/assets/css/fonts/glyphicons-halflings-regular.ttf
+Check time 4.036 seconds
+Size       327B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular'
+Parent URL http://localhost:4000/assets/css/vendor/bootstrap.min.css, line 1, col 3228
+Real URL   http://localhost:4000/assets/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+Check time 4.040 seconds
+Size       327B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-start-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 472, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-start-small.png
+Check time 3.875 seconds
+Size       319B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-start-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 930, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-start-small.png
+Check time 3.875 seconds
+Size       319B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-end-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 477, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-end-small.png
+Check time 3.709 seconds
+Size       317B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-start-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 550, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-start-small.png
+Check time 3.733 seconds
+Size       319B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-end-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 555, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-end-small.png
+Check time 3.840 seconds
+Size       317B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-start-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 653, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-start-small.png
+Check time 3.727 seconds
+Size       319B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-end-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 658, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-end-small.png
+Check time 3.589 seconds
+Size       317B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-start-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 751, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-start-small.png
+Check time 3.432 seconds
+Size       319B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-end-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 756, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-end-small.png
+Check time 3.369 seconds
+Size       317B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-start-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 845, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-start-small.png
+Check time 3.615 seconds
+Size       319B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-end-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 850, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-end-small.png
+Check time 3.445 seconds
+Size       317B
+Result     Error: 404 Not Found
+
+URL        `../img/hero/wcs/quote-end-small.png'
+Parent URL http://localhost:4000/assets/css/device.css, line 935, col 21
+Real URL   http://localhost:4000/assets/img/hero/wcs/quote-end-small.png
+Check time 3.439 seconds
+Size       317B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user.html/key-concepts/#design-in-oneops'
+Name       `Design'
+Parent URL http://localhost:4000/documentation/user.html, line 137, col 70
+Real URL   http://localhost:4000/documentation/user.html/key-concepts/#design-in-oneops
+Check time 3.858 seconds
+Size       315B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/#auto-scale'
+Name       `auto-scale'
+Parent URL http://localhost:4000/documentation/user.html, line 141, col 64
+Real URL   http://localhost:4000/documentation/user/references/#auto-scale
+Check time 3.758 seconds
+Size       308B
+Result     Error: 403 Forbidden
+
+URL        `/documentation/user/references/compliance.html'
+Name       `Compliance'
+Parent URL http://localhost:4000/documentation/user.html, line 142, col 29
+Real URL   http://localhost:4000/documentation/user/references/compliance.html
+Check time 3.637 seconds
+Size       323B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/compliance.html'
+Name       `Compliance'
+Parent URL http://localhost:4000/documentation/user/overview/index.html, line 128, col 23
+Real URL   http://localhost:4000/documentation/user/references/compliance.html
+Check time 3.637 seconds
+Size       323B
+Result     Error: 404 Not Found
+
+URL        `../references/#monitor-types'
+Name       `Monitor Types'
+Parent URL http://localhost:4000/documentation/user/how-to/control-environment.html, line 128, col 115
+Real URL   http://localhost:4000/documentation/user/references/#auto-scale
+Check time 3.758 seconds
+Size       308B
+Result     Error: 403 Forbidden
+
+URL        `../references/#ports-by-platform'
+Name       `List of Ports by Platform.'
+Parent URL http://localhost:4000/documentation/user/how-to/security-groups.html, line 119, col 180
+Real URL   http://localhost:4000/documentation/user/references/#auto-scale
+Check time 3.758 seconds
+Size       308B
+Result     Error: 403 Forbidden
+
+URL        `../fonts/glyphicons-halflings-regular.eot'
+Parent URL http://localhost:4000/assets/docs/shared/css/bootstrap.min.css, line 1, col 2901
+Real URL   http://localhost:4000/assets/docs/shared/fonts/glyphicons-halflings-regular.eot
+Check time 3.662 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.eot?#iefix'
+Parent URL http://localhost:4000/assets/docs/shared/css/bootstrap.min.css, line 1, col 2952
+Real URL   http://localhost:4000/assets/docs/shared/fonts/glyphicons-halflings-regular.eot#iefix
+Check time 3.609 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.woff2'
+Parent URL http://localhost:4000/assets/docs/shared/css/bootstrap.min.css, line 1, col 3034
+Real URL   http://localhost:4000/assets/docs/shared/fonts/glyphicons-halflings-regular.woff2
+Check time 3.531 seconds
+Size       337B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.woff'
+Parent URL http://localhost:4000/assets/docs/shared/css/bootstrap.min.css, line 1, col 3099
+Real URL   http://localhost:4000/assets/docs/shared/fonts/glyphicons-halflings-regular.woff
+Check time 3.439 seconds
+Size       336B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.ttf'
+Parent URL http://localhost:4000/assets/docs/shared/css/bootstrap.min.css, line 1, col 3162
+Real URL   http://localhost:4000/assets/docs/shared/fonts/glyphicons-halflings-regular.ttf
+Check time 3.101 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular'
+Parent URL http://localhost:4000/assets/docs/shared/css/bootstrap.min.css, line 1, col 3228
+Real URL   http://localhost:4000/assets/docs/shared/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular
+Check time 3.015 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/add-a-platform-to-a-design.html'
+Name       `Add a platform'
+Parent URL http://localhost:4000/documentation/user/key-concepts/#oneops-lifecycle-phase, line 127, col 15
+Real URL   http://localhost:4000/documentation/user/how-to/add-a-platform-to-a-design.html
+Check time 3.971 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/add-a-specific-component-to-a-design.html'
+Name       `Add a component'
+Parent URL http://localhost:4000/documentation/user/key-concepts/#oneops-lifecycle-phase, line 128, col 15
+Real URL   http://localhost:4000/documentation/user/how-to/add-a-specific-component-to-a-design.html
+Check time 3.836 seconds
+Size       345B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/add-a-platform-to-a-design.html'
+Name       `Add a platform'
+Parent URL http://localhost:4000/documentation/user/key-concepts/index.html, line 127, col 15
+Real URL   http://localhost:4000/documentation/user/how-to/add-a-platform-to-a-design.html
+Check time 3.971 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/add-a-specific-component-to-a-design.html'
+Name       `Add a component'
+Parent URL http://localhost:4000/documentation/user/key-concepts/index.html, line 128, col 15
+Real URL   http://localhost:4000/documentation/user/how-to/add-a-specific-component-to-a-design.html
+Check time 3.836 seconds
+Size       345B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/add-a-platform-to-a-design.html'
+Name       `Add a platform'
+Parent URL http://localhost:4000/documentation/user/key-concepts/#operations-in-oneops, line 127, col 15
+Real URL   http://localhost:4000/documentation/user/how-to/add-a-platform-to-a-design.html
+Check time 3.714 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/add-a-specific-component-to-a-design.html'
+Name       `Add a component'
+Parent URL http://localhost:4000/documentation/user/key-concepts/#operations-in-oneops, line 128, col 15
+Real URL   http://localhost:4000/documentation/user/how-to/add-a-specific-component-to-a-design.html
+Check time 4.033 seconds
+Size       345B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/auto-scale.html');'
+Name       `scale'
+Parent URL http://localhost:4000/documentation/user/references/monitoring-reference.html, line 135, col 121
+Real URL   http://localhost:4000/documentation/user/references/auto-scale.html%27)
+Check time 4.029 seconds
+Size       327B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/threshold-definitions.html'
+Name       `threshold'
+Parent URL http://localhost:4000/documentation/user/references/monitoring-reference.html, line 136, col 332
+Real URL   http://localhost:4000/documentation/user/how-to/threshold-definitions.html
+Check time 3.747 seconds
+Size       330B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/default-monitor-thresholds.html'
+Name       `Default Monitor Thresholds'
+Parent URL http://localhost:4000/documentation/user/references/monitoring-reference.html, line 136, col 575
+Real URL   http://localhost:4000/documentation/user/how-to/default-monitor-thresholds.html
+Check time 3.829 seconds
+Size       335B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/cloud.html'
+Name       `clouds'
+Parent URL http://localhost:4000/documentation/user/overview/index.html, line 130, col 70
+Real URL   http://localhost:4000/documentation/user/references/cloud.html
+Check time 3.941 seconds
+Size       318B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/view-design-releases.html'
+Name       `View Design Releases'
+Parent URL http://localhost:4000/documentation/user/getting-started/index.html, line 208, col 7
+Real URL   http://localhost:4000/documentation/user/references/view-design-releases.html
+Check time 3.752 seconds
+Size       333B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/reference/variables.html'
+Name       `variables'
+Parent URL http://localhost:4000/documentation/user/getting-started/index.html, line 215, col 651
+Real URL   http://localhost:4000/documentation/user/reference/variables.html
+Check time 3.754 seconds
+Size       321B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/reference/monitoring-reference.html'
+Name       `Monitoring'
+Parent URL http://localhost:4000/documentation/user/getting-started/index.html, line 261, col 134
+Real URL   http://localhost:4000/documentation/user/reference/monitoring-reference.html
+Check time 3.545 seconds
+Size       332B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/actions-reference.html'
+Name       `How To:'
+Parent URL http://localhost:4000/documentation/user/getting-started/index.html, line 279, col 15
+Real URL   http://localhost:4000/documentation/user/how-to/actions-reference.html
+Check time 3.551 seconds
+Size       326B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/variables.html'
+Name       `variables'
+Parent URL http://localhost:4000/documentation/user/best-practices/design-best-practices.html, line 120, col 38
+Real URL   http://localhost:4000/documentation/user/how-to/variables.html
+Check time 3.302 seconds
+Size       318B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/ssh-to-compute-mode.html'
+Name       `SSH key'
+Parent URL http://localhost:4000/documentation/user/best-practices/design-best-practices.html, line 123, col 35
+Real URL   http://localhost:4000/documentation/user/how-to/ssh-to-compute-mode.html
+Check time 3.394 seconds
+Size       328B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/set-monitor-thresholds.html'
+Name       `monitor thresholds'
+Parent URL http://localhost:4000/documentation/user/best-practices/transition-best-practices.html, line 113, col 591
+Real URL   http://localhost:4000/documentation/user/how-to/set-monitor-thresholds.html
+Check time 3.364 seconds
+Size       331B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/platform-links.html'
+Name       `platform links'
+Parent URL http://localhost:4000/documentation/user/references/load.html, line 126, col 175
+Real URL   http://localhost:4000/documentation/user/references/platform-links.html
+Check time 3.236 seconds
+Size       327B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/operations.html'
+Name       `operations'
+Parent URL http://localhost:4000/documentation/user/references/run-actions-in-operations.html, line 113, col 73
+Real URL   http://localhost:4000/documentation/user/references/operations.html
+Check time 2.906 seconds
+Size       323B
+Result     Error: 404 Not Found
+
+URL        `../howto/#find-the-hostname-of-a-vm'
+Name       `Find the Hostname of a VM.'
+Parent URL http://localhost:4000/documentation/user/how-to/add-cname.html, line 113, col 174
+Real URL   http://localhost:4000/documentation/user/howto/#find-the-hostname-of-a-vm
+Check time 3.251 seconds
+Size       303B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/reference/threshold-definitions.html'
+Name       `threshold'
+Parent URL http://localhost:4000/documentation/user/how-to/auto-scale.html, line 119, col 52
+Real URL   http://localhost:4000/documentation/user/reference/threshold-definitions.html
+Check time 3.879 seconds
+Size       333B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/references/operations.html'
+Name       `Operations'
+Parent URL http://localhost:4000/documentation/user/how-to/create-environment.html, line 156, col 88
+Real URL   http://localhost:4000/documentation/user/references/operations.html
+Check time 2.906 seconds
+Size       323B
+Result     Error: 404 Not Found
+
+URL        `/assets/docs/local/images/lb.png'
+Name       `LB'
+Parent URL http://localhost:4000/documentation/user/how-to/enable-https-for-service-lbcerts.html, line 125, col 49
+Real URL   http://localhost:4000/assets/docs/local/images/lb.png
+Check time 4.086 seconds
+Size       309B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/udpate-os-packages-on-compute.html'
+Name       `Update OS Packages on a Compute'
+Parent URL http://localhost:4000/documentation/user/how-to/fix-unresponsive-compute.html, line 120, col 7
+Real URL   http://localhost:4000/documentation/user/how-to/udpate-os-packages-on-compute.html
+Check time 3.443 seconds
+Size       338B
+Result     Error: 404 Not Found
+
+URL        `../howto/#add-or-delete-a-security-group-to-open-or-close-an-additional-port'
+Name       `Add or Delete a Security Group to Open or Close an Additional Port.'
+Parent URL http://localhost:4000/documentation/user/how-to/security-groups.html, line 116, col 72
+Real URL   http://localhost:4000/documentation/user/howto/#find-the-hostname-of-a-vm
+Check time 3.251 seconds
+Size       303B
+Result     Error: 404 Not Found
+
+URL        `../howto/#add-or-delete-a-security-group-to-open-or-close-an-additional-port'
+Name       `Add or Delete a Security Group to Open or Close an Additional Port'
+Parent URL http://localhost:4000/documentation/user/how-to/security-groups.html, line 153, col 85
+Real URL   http://localhost:4000/documentation/user/howto/#find-the-hostname-of-a-vm
+Check time 3.251 seconds
+Size       303B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/howto/#find-the-ip-address-for-a-compute-node'
+Name       `Find the IP Address for a Compute Node'
+Parent URL http://localhost:4000/documentation/user/testing/index.html, line 143, col 21
+Real URL   http://localhost:4000/documentation/user/howto/#find-the-hostname-of-a-vm
+Check time 3.251 seconds
+Size       303B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/how-to/specify-email-address-or-distribution-list-for-notifications.html'
+Name       `Specify an Email Address or Distribution List for Notifications'
+Parent URL http://localhost:4000/documentation/user/how-to/watch-notification.html, line 120, col 7
+Real URL   http://localhost:4000/documentation/user/how-to/specify-email-address-or-distribution-list-for-notifications.html
+Check time 3.201 seconds
+Size       369B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/gestting-started/index.html'
+Name       `user'
+Parent URL http://localhost:4000/documentation/admin/getting-started/index.html, line 134, col 82
+Real URL   http://localhost:4000/documentation/user/gestting-started/index.html
+Check time 3.653 seconds
+Size       324B
+Result     Error: 404 Not Found
+
+URL        `/documentation/admin/best-practices/design-best-practices.html'
+Name       `Best Practices:'
+Parent URL http://localhost:4000/documentation/admin/getting-started/index.html, line 217, col 15
+Real URL   http://localhost:4000/documentation/admin/best-practices/design-best-practices.html
+Check time 3.594 seconds
+Size       339B
+Result     Error: 404 Not Found
+
+URL        `/documentation/admin/typical-scenarios/cost-management.html'
+Name       `Typical Usage Scenarios:'
+Parent URL http://localhost:4000/documentation/admin/getting-started/index.html, line 220, col 15
+Real URL   http://localhost:4000/documentation/admin/typical-scenarios/cost-management.html
+Check time 3.500 seconds
+Size       336B
+Result     Error: 404 Not Found
+
+URL        `/documentation/admin/references/action-order.html'
+Name       `References:'
+Parent URL http://localhost:4000/documentation/admin/getting-started/index.html, line 221, col 15
+Real URL   http://localhost:4000/documentation/admin/references/action-order.html
+Check time 3.650 seconds
+Size       326B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/best-practices/index.html'
+Name       `practices'
+Parent URL http://localhost:4000/documentation/admin/best-practices/running-in-prod.html, line 116, col 39
+Real URL   http://localhost:4000/documentation/user/best-practices/index.html
+Check time 3.590 seconds
+Size       322B
+Result     Error: 404 Not Found
+
+URL        `/documtentation/admin/key-concepts/index.html'
+Name       `OneOps System Architecture Diagram'
+Parent URL http://localhost:4000/documentation/admin/references/inductor.html, line 120, col 15
+Real URL   http://localhost:4000/documtentation/admin/key-concepts/index.html
+Check time 3.666 seconds
+Size       322B
+Result     Error: 404 Not Found
+
+URL        `/documentation/admin/references/action-order.html'
+Name       `References:'
+Parent URL http://localhost:4000/documentation/admin/getting-started/#getting-started, line 221, col 15
+Real URL   http://localhost:4000/documentation/admin/references/action-order.html
+Check time 3.650 seconds
+Size       326B
+Result     Error: 404 Not Found
+
+URL        `/documentation/admin/typical-scenarios/cost-management.html'
+Name       `Typical Usage Scenarios:'
+Parent URL http://localhost:4000/documentation/admin/getting-started/#getting-started, line 220, col 15
+Real URL   http://localhost:4000/documentation/admin/typical-scenarios/cost-management.html
+Check time 3.500 seconds
+Size       336B
+Result     Error: 404 Not Found
+
+URL        `/documentation/admin/best-practices/design-best-practices.html'
+Name       `Best Practices:'
+Parent URL http://localhost:4000/documentation/admin/getting-started/#getting-started, line 217, col 15
+Real URL   http://localhost:4000/documentation/admin/best-practices/design-best-practices.html
+Check time 3.594 seconds
+Size       339B
+Result     Error: 404 Not Found
+
+URL        `/documentation/user/gestting-started/index.html'
+Name       `user'
+Parent URL http://localhost:4000/documentation/admin/getting-started/#getting-started, line 134, col 82
+Real URL   http://localhost:4000/documentation/user/gestting-started/index.html
+Check time 3.653 seconds
+Size       324B
+Result     Error: 404 Not Found
+
+URL        `../#assemblies-api'
+Name       `Assemblies'
+Parent URL http://localhost:4000/documentation/developer/key-concepts/index.html, line 118, col 7
+Real URL   http://localhost:4000/documentation/developer/#assemblies-api
+Check time 3.432 seconds
+Size       302B
+Result     Error: 403 Forbidden
+
+URL        `../howto/#add-a-new-component'
+Name       `Add a New Component.'
+Parent URL http://localhost:4000/documentation/developer/key-concepts/index.html, line 167, col 61
+Real URL   http://localhost:4000/documentation/developer/howto/#add-a-new-component
+Check time 3.050 seconds
+Size       308B
+Result     Error: 404 Not Found
+
+URL        `../#assemblies-api'
+Name       `Assemblies'
+Parent URL http://localhost:4000/documentation/developer/key-concepts/index.html, line 118, col 7
+Real URL   http://localhost:4000/documentation/developer/#assemblies-api
+Check time 3.432 seconds
+Size       302B
+Result     Error: 403 Forbidden
+
+URL        `../howto/#add-a-new-component'
+Name       `Add a New Component.'
+Parent URL http://localhost:4000/documentation/developer/key-concepts/index.html, line 167, col 61
+Real URL   http://localhost:4000/documentation/developer/howto/#add-a-new-component
+Check time 3.050 seconds
+Size       308B
+Result     Error: 404 Not Found
+
+URL        `../#platform-management-pack'
+Name       `Platform Management Packs.'
+Parent URL http://localhost:4000/documentation/developer/key-concepts/index.html, line 167, col 314
+Real URL   http://localhost:4000/documentation/developer/#assemblies-api
+Check time 3.432 seconds
+Size       302B
+Result     Error: 403 Forbidden
+
+URL        `../#platform-management-pack'
+Name       `Platform Management Packs.'
+Parent URL http://localhost:4000/documentation/developer/key-concepts/index.html, line 167, col 314
+Real URL   http://localhost:4000/documentation/developer/#platform-management-pack
+Check time 2.783 seconds
+Size       302B
+Result     Error: 403 Forbidden
+
+URL        `../howto/#add-a-platform'
+Name       `Add a Platform'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 151, col 381
+Real URL   http://localhost:4000/documentation/developer/howto/#add-a-new-component
+Check time 3.050 seconds
+Size       308B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/manually-build-from-source.html'
+Name       `Manually build from source'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 117, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/manually-build-from-source.html
+Check time 3.224 seconds
+Size       340B
+Result     Error: 404 Not Found
+
+URL        `../howto/#add-a-platform'
+Name       `Add a Platform'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 151, col 381
+Real URL   http://localhost:4000/documentation/developer/howto/#add-a-platform
+Check time 3.212 seconds
+Size       308B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/add-new-component.html'
+Name       `Add a New Component'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 154, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/add-new-component.html
+Check time 3.268 seconds
+Size       331B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/create-a-circuit.html'
+Name       `Create a Circuit'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 155, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/create-a-circuit.html
+Check time 3.568 seconds
+Size       330B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/modify-a-cicuit.html'
+Name       `Modify a Circuit'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 157, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/modify-a-cicuit.html
+Check time 3.419 seconds
+Size       329B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/typical-usage-scenarios/modify-component.html'
+Name       `Typical Usage Scenarios:'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 220, col 15
+Real URL   http://localhost:4000/documentation/developer/typical-usage-scenarios/modify-component.html
+Check time 3.616 seconds
+Size       347B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/manually-build-from-source.html'
+Name       `Manually build from source'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 117, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/manually-build-from-source.html
+Check time 3.778 seconds
+Size       340B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/add-new-component.html'
+Name       `Add a New Component'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 154, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/add-new-component.html
+Check time 3.914 seconds
+Size       331B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/create-a-circuit.html'
+Name       `Create a Circuit'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 155, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/create-a-circuit.html
+Check time 3.728 seconds
+Size       330B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/modify-a-cicuit.html'
+Name       `Modify a Circuit'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 157, col 7
+Real URL   http://localhost:4000/documentation/developer/how-to/modify-a-cicuit.html
+Check time 3.737 seconds
+Size       329B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/typical-usage-scenarios/modify-component.html'
+Name       `Typical Usage Scenarios:'
+Parent URL http://localhost:4000/documentation/developer/getting-started/index.html, line 220, col 15
+Real URL   http://localhost:4000/documentation/developer/typical-usage-scenarios/modify-component.html
+Check time 3.664 seconds
+Size       347B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/references/attachments.html'
+Name       `Attachments'
+Parent URL http://localhost:4000/documentation/developer/references/metadata.html, line 159, col 7
+Real URL   http://localhost:4000/documentation/developer/references/attachments.html
+Check time 4.383 seconds
+Size       329B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developer/how-to/add-a-platform.html'
+Name       `Add a Platform'
+Parent URL http://localhost:4000/documentation/developer/references/platform-management-pack.html, line 119, col 194
+Real URL   http://localhost:4000/documentation/developer/how-to/add-a-platform.html
+Check time 4.307 seconds
+Size       328B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developers/key-concepts/#component'
+Name       `components'
+Parent URL http://localhost:4000/documentation/developer/references/relationships.html, line 118, col 40
+Real URL   http://localhost:4000/documentation/developers/key-concepts/#component
+Check time 4.219 seconds
+Size       316B
+Result     Error: 404 Not Found
+
+URL        `/documentation/developers/references/relations.html'
+Name       `Relations'
+Parent URL http://localhost:4000/documentation/developer/references/relationships.html, line 118, col 272
+Real URL   http://localhost:4000/documentation/developers/references/relations.html
+Check time 4.254 seconds
+Size       328B
+Result     Error: 404 Not Found
+
+Statistics:
+Downloaded: 6.76MB.
+Content types: 875 image, 24950 text, 0 video, 0 audio, 2033 application, 6 mail and 1658 other.
+URL lengths: min=15, max=267, avg=71.
+
+That's it. 29522 links in 487 URLs checked. 1 warning found. 90 errors found.
+Stopped checking at 2016-11-16 16:47:23-007 (3 minutes, 11 seconds)

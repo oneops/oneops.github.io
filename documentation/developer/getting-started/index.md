@@ -144,7 +144,7 @@ curl http://<yourOneOpsinstance>:8080/transistor/rest/cache/md/clear
 
 Before you code, read the following documentation. It is the most essential information you need before you start.
 
-* **[Overview:](/documentation/developer.html)** OneOps business-level description of its main benefits versus alternative solutions
+* **[Overview:](/documentation/developers.html)** OneOps business-level description of its main benefits versus alternative solutions
 * **<a href="/documentation/developer/key-concepts/index.html">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
 * **<a href="/documentation/developer/tools/index.html">Tools:</a>** List of supporting tools and services that can be used with OneOps
 * **<a href="/documentation/developer/getting-started/index.html">Getting Started:</a>** How to start using OneOps (this section)
