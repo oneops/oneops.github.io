@@ -1,1 +1,4 @@
 /book/04-lifecycle.html /book/40-lifecycle.html
+/admin /documentation/admin.html
+/user /documentation/user.html
+/developer /documentation/developers.html
