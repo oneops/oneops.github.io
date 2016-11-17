@@ -12,7 +12,7 @@ As a pack developer, you don't need to know the details of **system architecture
 
 * [Components](#component): are the lowest level building blocks
 * [Platforms](#platform): consist of components and relationships for dependencies and management
-* [Assemblies](../#assemblies-api): consist of platforms with interdependencies
+* [Assemblies](/documentation/developer/references/assemblies-api.html): consist of platforms with interdependencies
 * Environments: consist of assemblies plus availability mode components inserted for you
 
 The UI allows customization of components, platforms, assemblies, and environments.
@@ -22,12 +22,12 @@ The UI allows customization of components, platforms, assemblies, and environmen
 # Model and Schema
 
 * Classes
-  * All of the metadata in the OneOps system is class-like
-  * Class metadata is loaded into the Configuration Management System (CMS) by the Packer
-  * Class methods are backed by Recipes
-  * Classes are identified by names and attributes
-  * Classes belong to packages
-  * Packages are related to workflow
+    * All of the metadata in the OneOps system is class-like
+    * Class metadata is loaded into the Configuration Management System (CMS) by the Packer
+    * Class methods are backed by Recipes
+    * Classes are identified by names and attributes
+    * Classes belong to packages
+    * Packages are related to workflow
 * Catalog.* = Design Phase
 * Manifest.* = Transition Phase
 * Bill of Materials (BOM.*) = Operational Phase
@@ -39,7 +39,7 @@ In the Design aspect, we model the base application with:
 * No environmental
 * No operational components
 
-For a Design relations diagram, see [Relations](#relations) in the Reference section.
+For a Design relations diagram, see [Relations](/documentation/developer/references/relations.html) in the Reference section.
 
 ## Transition Relations
 
@@ -48,21 +48,21 @@ In the Transition aspect, we model two additional objects:
 * **IaaS components:** Can be load balancers (`haproxy`) or DNS (`djbdns`). Can also use provider-based ones like `route-53`, `dyndns`, `elb`, etc.
 * **Monitors:** Use to customize monitors for each environment
 
-For a Transition relations diagram, see [Relations](#transition) in the Reference section.
+For a Transition relations diagram, see [Relations](/documentation/developer/references/relations.html) in the Reference section.
 
 ## Bill of Materials Operational Relations
 
-In the Operations aspect, we create `bom` components for the manifest components with relation to the Binding (cloud provider). For a operational relations diagram, see [Relations](#operations) in the Reference section.
+In the Operations aspect, we create `bom` components for the manifest components with relation to the Binding (cloud provider). For a operational relations diagram, see [Relations](/documentation/developer/references/relations.html) in the Reference section.
 
 # Component
 
 A Component is a cookbook directory and the lowest level building block that is modeled. There are three aspects of a Component:
 
 * **Component Class:** Attribute and idempotent `add`, `update`, `delete`, `start`, `stop` logical operators
-* **Component Resource:** Used in a [Platform Management Pack](#platform-management-pack) to map the Component class to a component in a platform that is available in the UI
+* **Component Resource:** Used in a [Platform Management Pack](/documentation/developer/references/platform-management-pack.html) to map the Component class to a component in a platform that is available in the UI
 * **Component Instance:** Component instance in an Environment.
 
-The [Relational Model](#relationships) shows how a Component is modeled in Design, Transition, and Operations with regard to aspects of the OneOps UI.
+The [Relational Model](/documentation/developer/references/relationships.html) shows how a Component is modeled in Design, Transition, and Operations with regard to aspects of the OneOps UI.
 
 A Component is a basic building block of a OneOps platform. A OneOps component is a chef-solo cookbook with its UI components and actions defined in a cookbook's `metadata.rb`.  For example: Compute, Secgroup, Volume, User, Java, Tomcat, Artifact, etc.
 
@@ -99,7 +99,7 @@ Component Class is the lowest-level configuration entity of OneOps metadata and:
 * Has attributes and idempotent control code (chef recipes) to manage its lifecycle
 * Has control/recipes: `add`, `update`, `delete`, `start`, `stop`, `restart`, `status`, `repair`, `custom`
 
-Example components are: `cassandra`, `compute`, `rabbitmq`, `storage`, `php`. For more detail, view [the full component list](#component-list).
+Example components are: `cassandra`, `compute`, `rabbitmq`, `storage`, `php`. For more detail, view [the full component list](/documentation/developer/references/component-list.html).
 
 A Component Class must have:
 
@@ -107,24 +107,24 @@ A Component Class must have:
 * [Metadata:](#metadata) Model that describes attributes, help, default values
 * [Recipes:](#recipe) `add`, `update`, `delete`, `start`, `stop`, `restart`, `repair`
 
-For instructions on how to add a new component, see [Add a New Component.](../howto/#add-a-new-component)
+For instructions on how to add a new component, see [Add a New Component.](/documentation/developer/how-to/add-new-component.html)
 
 ## Component Resource
 
-Component resource mappings are covered in the sections, [Platforms](#platform) and [Platform Management Packs.](../#platform-management-pack).
+Component resource mappings are covered in the sections, [Platforms](#platform) and [Platform Management Packs.](/documentation/developer/references/platform-management-pack.html).
 
 ## Metadata
 
 Metadata models a [component.](#component) The metadata.rb file contains information that is primarily used for the OneOps UI to provide information to the user and collect configuration information from the user. The file has several parts:
 
 * `base/required` Attributes (name, description, etc.)
-* `grouping` Sub-groups of attributes CMS models. For an example, see [Metadata.](#metadata)
+* `grouping` Sub-groups of attributes CMS models. For an example, see [Metadata.](/documentation/developer/references/metadata.html)
 * `attributes` Defaults, format: UI metadata
 * `recipes` Default actions. Add, update and delete are assumed and do not need to be added. Actions can also be added via the UI as on-demand attachments.
 
 ## Relationships
 
-We also model relationships. A relationship describes a dependency order between components. For additional detail, refer to [Relations.](#relations)
+We also model relationships. A relationship describes a dependency order between components. For additional detail, refer to [Relations](/documentation/developer/references/relations.html).
 
 
 ## Relation Class
@@ -134,11 +134,11 @@ The Relation Class defines which [Component](#component) types that it can estab
 # Platform
 
 A Platform is a collection of [components](#component) that are grouped for reusability.
-These are building blocks to create applications via the UI by adding platforms to an [assembly](#assemblies-api).
+These are building blocks to create applications via the UI by adding platforms to an [assembly](/documentation/developer/references/assemblies-api.html).
 
 # Circuit
 
-Circuit is a ruby application (packaged as gem) that loads Component Classes,Relation Classes and Platform Templates defined in pack files into the Configuration Management System (CMS) database.
+Circuit is a ruby application (packaged as gem) that loads Component Classes, Relation Classes and Platform Templates defined in pack files into the Configuration Management System (CMS) database.
 
 # Platform Pack
 
@@ -157,9 +157,9 @@ Packs also contain configuration for:
 * Custom payload details
 * Flex relations
 * Entry point information and different relationships like:
-  * `depends_on`
-  * `managed_via`
-  * `secured_by`
+    * `depends_on`
+    * `managed_via`
+    * `secured_by`
 
 Packs are used to define OneOps platforms. For example: <a href="/documentation/user/references/platform-packs.html" target="_blank">Tomcat, Apache, NodeJS, Couchbase, Postgres,</a> etc.
 

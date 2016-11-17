@@ -11,9 +11,9 @@ There are two primary relationships used in packs:
 * `depends_on` Sets the order of deployment and dependency tree for escalation
 * `managed_via` How to know where to connect for management. In most cases, this is a compute, but in some, it is a cluster or ring.
 
-Relationships are modeled like [components](/documentation/developers/key-concepts/#component), with the same directory structure. Relationships also have attributes.
+Relationships are modeled like [components](/documentation/developer/key-concepts/#component), with the same directory structure. Relationships also have attributes.
 
-For more detail regarding relations for Design, Transition and Operations, see [Relations](/documentation/developers/references/relations.html).
+For more detail regarding relations for Design, Transition and Operations, see [Relations](/documentation/developer/references/relations.html).
 
 List of relationships:
 

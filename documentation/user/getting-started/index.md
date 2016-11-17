@@ -9,38 +9,39 @@ id: "getting-started"
 
 <div id="wizard" class="rounded">
   <div class="inner rounded">
-      <ul class="steps">
-        <li class="alert account alert-success">
-            <span class="step-title alert-heading">Account</span>
-            <ul class="tasks">
-                <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
-                <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
-develop            <span class="step-number">1</span>
-        </li>
-        <li class="alert alert-info design">
-            <span class="step-title alert-heading">Design</span>
-            <ul class="tasks">
-                <li class="task"><a href="#create-a-platform">create platform</a></li>
-                <li class="task"><a href="#commit-a-design">commit design</a></li>
-            </ul>
-            <span class="step-number">2</span>
-        </li>
-        <li class="alert alert-info transition">
-            <span class="step-title alert-heading">Transition</span>
-            <ul class="tasks">
-                <li class="task"><a href="#create-an-environment">create environment</a></li>
-                <li class="task"><a href="#deploy-an-application">deploy to cloud</a></li>
-            </ul>
-            <span class="step-number">3</span>
-        </li>
-        <li class="alert alert-info operate">
-            <span class="step-title alert-heading">Operate</span>
-            <ul class="tasks">
-                <li class="task"><a href="#view-operations">view status</a></li>
-                <li class="task"><a href="#control-environment">control environment</a></li>
-            </ul>
-            <span class="step-number">4</span>
-        </li>
+    <ul class="steps">
+      <li class="alert account alert-success">
+        <span class="step-title alert-heading">Account</span>
+        <ul class="tasks">
+          <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
+          <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
+        </ul>
+        <span class="step-number">1</span>
+      </li>
+      <li class="alert alert-info design">
+        <span class="step-title alert-heading">Design</span>
+        <ul class="tasks">
+          <li class="task"><a href="#create-a-platform">create platform</a></li>
+          <li class="task"><a href="#commit-a-design">commit design</a></li>
+        </ul>
+        <span class="step-number">2</span>
+      </li>
+      <li class="alert alert-info transition">
+        <span class="step-title alert-heading">Transition</span>
+        <ul class="tasks">
+          <li class="task"><a href="#create-an-environment">create environment</a></li>
+          <li class="task"><a href="#deploy-an-application">deploy to cloud</a></li>
+        </ul>
+        <span class="step-number">3</span>
+      </li>
+      <li class="alert alert-info operate">
+        <span class="step-title alert-heading">Operate</span>
+        <ul class="tasks">
+          <li class="task"><a href="#view-operations">view status</a></li>
+          <li class="task"><a href="#control-environment">control environment</a></li>
+        </ul>
+        <span class="step-number">4</span>
+      </li>
     </ul>
   </div>
 </div>

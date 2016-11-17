@@ -4,15 +4,15 @@ title: Platform Management Pack
 id: platform-management-pack
 ---
 
-A platform is added to the system by creating a Platform Management Pack (`Pack`) file and loading it into the <a href="/documentation/developer/how-to/cms-sync.html">CMS</a>. A Pack is a Ruby DSL file that models a platform. It exists in the packer directory structure.
+A platform is added to the system by creating a Platform Management Pack (`Pack`) file and loading it into the [CMS](/documentation/developer/how-to/cms-sync.html). A Pack is a Ruby DSL file that models a platform. It exists in the packer directory structure.
 
 The file contains:
 
-* Component Resources: Named resources with the type (cookbook attribute) and the <a href="/documentation/developer/key-concepts/index.html">Component Class</a> name
-* <a href="/documentation/developer/key-concepts/index.html">Relationships/dependencies</a> with flexing/scaling attributes
-* <a href="/documentation/developer/references/monitor.html">Metrics/Thresholds</a> (optional) 
+* Component Resources: Named resources with the type (cookbook attribute) and the [Component Class](/documentation/developer/key-concepts/index.html) name
+* [Relationships/dependencies](/documentation/developer/key-concepts/index.html) with flexing/scaling attributes
+* [Metrics/Thresholds](/documentation/developer/references/monitor.html) (optional) 
 
 A Pack can extend another Pack, which keeps the model clean and manageable. Packs are versioned to match a set of recipes.
 
-For instructions on how to add a new platform, refer to <a href="/documentation/developer/how-to/add-a-platform.html">Add a Platform</a>.
+For instructions on how to add a new platform, refer to [Add a Platform](/documentation/developer/how-to/add-platform.html).
 

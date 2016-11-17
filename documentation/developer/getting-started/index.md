@@ -154,7 +154,7 @@ Before you code, read the following documentation. It is the most essential info
 
 Refer to the following documentation as you work.
 
-* **<a href="/documentation/developer/typical-usage-scenarios/modify-component.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
+* **<a href="/documentation/developer/typical-scenarios/modify-component.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
 * **<a href="/documentation/developer/references/api-documentation.html">References:</a>** Detailed code usage descriptions with code snippets
 * **<a href="/documentation/developer/how-to/add-monitors.html">How To:</a>** Instructional articles that solve a specific problem or achieve a specific solution
 * **<a href="/documentation/developer/testing/index.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
