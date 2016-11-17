@@ -69,7 +69,7 @@ Now you are ready to test your cookbook and pack. You need to push your model (c
     $ curl http://cms.<your-server>.com:8080/transistor/rest/cache/md/clear
     ~~~
 
-7. Test the component configurations in the [OneOps GUI](https://web.dev.<your-server>.com/)   
+7. Test the component configurations in the OneOps GUI 'https://web.dev.<your-server>.com/'  
 8. To make sure that your platform and cookbook are working.
 9. Set up a local inductor.
 10. Do a deployment.

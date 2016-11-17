@@ -19,13 +19,13 @@ Here is the logical flow from CMS:
 
 # Inductor Details
 
-The inductor is Java core with Ruby for control.  The Java side is standard maven + spring,basically a Spring `DefaultMessageListenerContainer` using Apache Commons DefaultExecutor
+The inductor is Java core with Ruby for control. The Java side is standard maven + spring,basically a Spring `DefaultMessageListenerContainer` using Apache Commons DefaultExecutor
 to spawn either **local** chef-solo (for IaaS or non-managed via orders) or a **remote**
 via SSH chef-solo execution.
 
 The image below shows a logical view of the classes in `com.oneops.inductor`.
 
-![Inductor WorkOrder Executor ](/assets/docs/local/images/inductor.png)
+![Inductor WorkOrder Executor](/assets/docs/local/images/inductor.png)
 
 
 There is a ruby gem to simplify setup and control.
@@ -55,4 +55,4 @@ The UI uses the daq api (Spring based) PerfController to get data.
 
 # All Components
 
-* See the <a href="/documtentation/admin/key-concepts/index.html">OneOps System Architecture Diagram</a>
+* See the <a href="/documentation/admin/key-concepts/index.html">OneOps System Architecture Diagram</a>

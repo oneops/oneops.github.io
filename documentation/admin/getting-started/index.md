@@ -20,6 +20,7 @@ On your EC2 Dashboard make sure you have selected the N.Virginia region
 in the IMAGES/AMIs tab, and make sure you select "Public images" in the drop down and search for OneOps. The image with the name OneOps-basic-preconf-v1.* is the right one (pick the latest version).
 
 ## Launch your instance
+
 1. On the `Choose AMI` tab select the OneOps AMI and hit Launch. </br>
 2. On the `Instance Type` tab make sure you select m4.large or bigger. OneOps needs at least 8GB of RAM. </br>
 3. On the `Instance Details` tab if you want a public IP enable Auto-assign Public IP. </br>
@@ -94,7 +95,7 @@ up cloud and services The steps described to create an assembly,platform refers 
 ## Outline
 
 2. Setup Vagrant [here](#vagrant-up)
-1. Set up *clouds*. Refer screen cast below. For more details refer to <a href="/documentation/user/gestting-started/index.html">user</a>
+1. Set up *clouds*. Refer screen cast below. For more details refer to <a href="/documentation/user/getting-started/index.html">user</a>
    1. Create Clouds
     1. Create Cloud Services
        1. Compute Cloud Service
@@ -126,7 +127,7 @@ The setup does the following :
   * Bootstraps the  circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
 
 ~~~ bash
-# After the successful install , you will see this in console.
+# After the successful install, you will see this in console.
   ==> default: Done with admin
   ==> default: OneOps should be up on http://localhost:3000
   ==> default: Configure your port forwarding and shut down iptables service (or configure it) if needed
@@ -205,14 +206,14 @@ Before you begin, read the following documentation. It is the most essential inf
 * **<a href="/documentation/admin/key-concepts/index.html">Key Concepts:</a>** Conceptual description and diagram of how OneOps works
 * **<a href="/documentation/admin/tools/index.html">Tools:</a>** List of supporting tools and services that can be used with OneOps
 * **<a href="/documentation/admin/getting-started/index.html">Getting Started:</a>** How to start using OneOps (this section)
-* **<a href="/documentation/admin/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
+* **<a href="/documentation/user/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
 
 # What You Will Need When You Work
 
 Refer to the following documentation as you work.
 
-* **<a href="/documentation/admin/typical-scenarios/cost-management.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
-* **<a href="/documentation/admin/references/action-order.html">References:</a>** Detailed code usage descriptions with code snippets
+* **<a href="/documentation/user/typical-scenarios/cost-management.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
+* **<a href="/documentation/admin/references/actionorder.html">References:</a>** Detailed code usage descriptions with code snippets
 * **<a href="/documentation/admin/testing/index.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
 * **<a href="/documentation/admin/updates/index.html">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
 * **<a href="/documentation/admin/contribution/index.html">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
