@@ -83,7 +83,7 @@ Note: all calls will use the api token - see [Get Auth Token](#account-profile):
 
 # Account Profile
 
-## GET Auth Token via UI in your browswer (not via curl or api)
+## GET Auth Token via UI in your browser (not via curl or api)
 
 `https://<your-server>/account/profile#authentication`
 
