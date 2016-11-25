@@ -106,11 +106,14 @@
     </div><!-- END holder -->
     
     <!-- JavaScripts -->
-    <script>
-       function loadContent(url) {
-          $( "#project-content" ).load(url);
-        } 
-    </script>
+<script>
+    $(document).ready(function() {
+        corpus.init();
+        CorpusSpy.init();
+
+
+    });
+</script>
     
   </body>
 </html>	

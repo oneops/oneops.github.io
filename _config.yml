@@ -35,103 +35,11 @@ navigation:
 
 documentation:
  - title: USERS
-   url: /documentation/user.html
+   url: /user/overview/
  - title: ADMINS
-   url: /documentation/admin.html
+   url: /admin/overview/
  - title: DEVELOPERS
-   url: /documentation/developers.html
-
-user-typical-usage-scenarios:
- - title: Cost Management
-   url: cost-management.html
- - title: Enable HTTPS on Apache HTTP On OneOps
-   url: https-apache-http.html
- - title: How to enable HTTPS on Tomcat in OneOps
-   url: https-tomcat.html
- - title: Deploy a Website with Apache HTTP on OneOps
-   url: website-apache-http.html
-
-user-best-practices:
- - title: Design Best Practices
-   url: design-best-practices.html
- - title: Naming Conventions
-   url: naming-conventions.html
- - title: Operations Best Practices
-   url: operations-best-practices.html
- - title: Provide Only Necessary Privileges to Accounts
-   url: provide-only-necessary-privilges-to-accounts.html
- - title: Restrict Access with Teams
-   url: restrict-access-with-teams.html
- - title: Transition Best Practices
-   url: transition-best-practices.html
- - title: Use Operations for VM Tasks
-   url: use-operations-for-vm-tasks.html
- - title: View Assembly and Organization Consumption with Reports
-   url: view-assembly-and-organization-consumption-with-reports.html
-
-user-references:
- - title: Actions
-   url: actions-reference.html
- - title: Attachments
-   url: attachments.html
- - title: Auto Repair
-   url: auto-repair.html
- - title: Auto Replace
-   url: auto-replace.html
- - title: Auto Scale
-   url: auto-scale.html
- - title: Availability Modes
-   url: availability-modes.html
- - title: Available Platforms List
-   url: available-platforms-list.html
- - title: Azure Setup
-   url: azure-setup.html
- - title: Azure
-   url: azure.html
- - title: catalina.out in Tomcat
-   url: catalina-out-in-tomcat.html
- - title: Cloud Providers
-   url: cloud-providers.html
- - title: DSL
-   url: dsl.html
- - title: Envrionment Profiles
-   url: environment-profiles.html
- - title: Environment
-   url:  environment.html
- - title: Graph Colors
-   url: graph-colors.html
- - title: Heartbeat Monitors
-   url: heartbeat-monitors.html
- - title: Load
-   url: load.html
- - title: Monitoring
-   url: monitoring-reference.html
- - title: OneOps Policy Management
-   url: oneops-policy-management.html
- - title: OneOps URLs
-   url: oneops-urls.html
- - title: Operations
-   url: operations-reference.html
- - title: Platform Links
-   url: platform-links-reference.html
- - title: Platform Packs
-   url: platform-packs.html
- - title: Ports by Platform
-   url:  ports-by-platform.html
- - title: Propagation
-   url: propagation-configuration.html
- - title: Run Actions in Operations
-   url: run-actions-in-operations.html
- - title: Set Up Multiple Ports/Protocols in Load Balancer
-   url: set-up-multiple-ports-protocols-load-balancer.html
- - title: Threshold Definitions
-   url: threshold-definitions.html
- - title: Transition
-   url: transition.html
- - title: User Favorite
-   url: user-favorite.html
- - title: Variables
-   url: variables.html
+   url: /developer/overview/
 
 user-how-to:
  - title: Add a Doc URL to a Monitor
@@ -142,34 +50,34 @@ user-how-to:
    url: add-a-variable.html
  - title: Add Cert to Compute to Enable SSL
    url: add-certs-to-compute-to-enable-ssl.html
- - title: Add CNAME Azure
-   url: add-cname-azure.html
+ - title: Add CNAME in Azure DNS
+   url: add-cname-to-azure-dns.html
  - title: Add CNAME
    url: add-cname.html
  - title: Add or Delete a Security Group to Open or Close an Additional Port
-   url: add-delete-security-group.html
+   url: add-or-delete-a-security-group-to-open-or-close-an-additional-port.html
  - title: Add or Edit Primary and Secondary Clouds
    url: add-edit-primary-secondary-clouds.html
  - title: Add a New Azure Cloud
-   url: add-new-azure-cloud.html
+   url: add-a-new-azure-cloud.html
  - title: Add a New Cloud
-   url: add-new-cloud.html
+   url: add-a-new-cloud.html
  - title: Add a Platform Dependency
-   url: add-platform-dependency.html
+   url: add-a-platform-dependency.html
  - title: Add a Platform to a Design
-   url: add-platform-to-design.html
+   url: add-a-platform-to-a-design.html
  - title: Add or Reduce Capacity
    url: add-reduce-capacity.html
  - title: Add a Specific Component to a Design
-   url: add-specific-component-to-design.html
+   url: add-specific-component-to-a-design.html
  - title: Add a Team to an Assembly
-   url: add-team-to-an-assembly.html
+   url: add-team-to-assembly.html
  - title: Add a User to a Team
-   url: add-user-to-a-team.html
+   url: add-user-to-team.html
  - title: Add a User To a Group
-   url: add-user-to-group.html
+   url: add-a-user-to-a-group.html
  - title: Add a User
-   url: add-user.html
+   url: add-a-user.html
  - title: Assess the Health of Applications, Platforms and Clouds
    url: assess-health-applications-platforms-clouds.html
  - title: Auto Replace
@@ -187,19 +95,19 @@ user-how-to:
  - title: Configure ECV Check URL on OneOps
    url: configure-ecv-check-url-on-oneops.html
  - title: Configure Tomcat HttpConnector Attributes in OneOps
-   url: configure-tomcat-http-attributes.html
+   url: configure-tomcat-httpconnector-attributes-in-oneops.html
  - title: Control Environment
    url: control-environment.html
  - title: Create a Team in an Organization
    url: create-a-team-in-an-organization.html
  - title: Create Assemblies to Design Application
-   url: create-assembly-design-application.html
+   url: create-assemblies-to-design-application.html
  - title: Create Environment Dependency with Environment Profiles
    url: create-environment-dependency-environment-profiles.html
  - title: Create an Environment
-   url: create-environment.html
+   url: create-an-environment.html
  - title: Delete an Environment
-   url: delete-environment.html
+   url: delete-an-environment.html
  - title: Delete a Platform
    url: delete-platform.html
  - title: Deploy Application after Design Changes
@@ -211,25 +119,25 @@ user-how-to:
  - title: Deploy Multiple Clouds in Parallel
    url: deploy-multiple-clouds-in-parallel.html
  - title: Deploy an Organization
-   url: deploy-organization.html
+   url: deploy-an-organization.html
  - title: Deploy and Provision an Application and Environment for the First Time
    url: deploy-provision-application-environment-first-time.html
  - title: Deployment Approval Process
    url: deployment-approval-process.html
  - title: What compute sizes are available
-   url: determine-compute-size.html
+   url: compute-sizes.html
  - title: Edit an Environment
    url: edit-environment.html
  - title: Edit a Platform
-   url: edit-platform.html
+   url: edit-a-platform.html
  - title: Enable Access to an Assembly for a User on a Team
-   url: enable-access-to-assembly-for-user-on-team.html
+   url: enable-access-to-an-assembly-for-a-user-on-a-team.html
  - title: Enable https for a Service (LB Certs)
    url: enable-https-for-service-lbcerts.html
  - title: Enable Platform to Auto Replace Unhealthy Components
    url: enable-platform-auto-replace-unhealthy-components.html
  - title: Ensure that Alerts for Production Environment are Sent to NOC
-   url: ensure-alerts-for-production-environment-are-sent-to-noc.html
+   url: ensure-that-alerts-for-production-environment-are-sent-to-noc.html
  - title: Environment Releases
    url: environment-releases.html
  - title: Find the hostname of a VM
@@ -243,9 +151,9 @@ user-how-to:
  - title: Fix Unresponsive Compute
    url: fix-unresponsive-compute.html
  - title: Grep or Search Text in Files on Computes
-   url: grep-search-text-in-file-compute.html
+   url: grep-or-search-text-in-files-on-computes.html
  - title: Import and Export Catalog
-   url: import-export-catalog.html
+   url: import-and-export-catalog.html
  - title: Manage Assemblies
    url: manage-assemblies.html
  - title: Manage OneOps User Accounts
@@ -261,7 +169,7 @@ user-how-to:
  - title: Remove an Unused Cloud from an Environment
    url: remove-unused-cloud-from-environment.html
  - title: Replace a Bad VM
-   url: replace-bad-vm.html
+   url: replace-a-bad-vm.html
  - title: Reports Summary
    url: reports-summary.html
  - title: Rollback Code
@@ -271,7 +179,7 @@ user-how-to:
  - title: Security Groups
    url: security-groups.html
  - title: Set Up a Custom Action
-   url: set-up-custom-action.html
+   url: set-up-a-custom-action.html
  - title: Set Up Notifications
    url: set-up-notifications.html
  - title: Set Up Your User Account
@@ -283,7 +191,7 @@ user-how-to:
  - title: Specify an Email Address or Distribution List for Notifications
    url: specify-email-address-distribution-list-for-notifications.html
  - title: SSH to a Compute Node
-   url: ssh-to-compute-node.html
+   url: ssh-to-a-compute-node.html
  - title: SSH a VM
    url: ssh-vm.html
  - title: Start and Stop an Instance
@@ -293,7 +201,7 @@ user-how-to:
  - title: Update Oracle JDK/JRE Version on Java-based Platforms
    url: update-oracle-jdk-jre-version-java-based-platforms.html
  - title: Update OS Packages on a Compute
-   url: update-os-packages-on-compute.html
+   url: update-os-packages-on-a-compute.html
  - title: Update the Size of a Compute
    url: update-size-of-compute.html
  - title: Update or Upgrade New OneOps Code
@@ -315,89 +223,8 @@ user-how-to:
  - title: View Design Releases
    url: view-design-releases.html
  - title: Watch a Notification
-   url: watch-notification.html
+   url: watch-a-notification.html
                                          
-admin-typical-usage-scenarios:     
- - title: Upgrading OneOps
-   url: upgrading-one-ops.html
-
-admin-best-practices:
- - title: Running OneOps in Production
-   url: running-in-prod.html
-   
-admin-references:
- - title: Client-Side Aggregations
-   url: client-side-aggregations.html
- - title: Inductor
-   url: inductor.html
- - title: Metric Data Source Type
-   url: metric-data-source-type.html
- - title: Metrics Collection
-   url: metrics-collection.html
- - title: oneops-admin gem
-   url: oneops-admin-gem.html
- - title: OneOps Manages OneOps
-   url: oneops-manages-oneops.html
-   
-admin-how-to:
- - title: Build, Install, and Configure an Inductor
-   url: build-install-configure-inductor.html
- - title: Load Content
-   url: load-content-model-images.html
- - title: Sensors
-   url: sensors.html
- - title: Set Up Log Forwarding to ES with Logstash
-   url: set-up-log-forwarding-to-es-with-logstash.html
-
-dev-typical-usage-scenarios:
- - title: Modify Existing Component
-   url: modify-component.html
-   
-dev-best-practices:
- - title: Pack Development
-   url: pack-development.html
-   
-dev-references:
- - title: OneOps API Documentation
-   url: api-documentation.html
- - title: CI Notification Format
-   url: ci-notifications-format.html
- - title: Component List
-   url: component-list.html
- - title: Default Monitor Thresholds
-   url: default-monitor-thresholds.html
- - title: Metadata
-   url: metadata.html
- - title: Monitor
-   url: monitor.html
- - title: Pack Policy
-   url: pack-policy.html
- - title: Platform Management Pack
-   url: platform-management-pack.html
- - title: Platforms
-   url: platforms.html
- - title: Relations
-   url: relations.html
- - title: Relationships
-   url: relationships.html
-  
-dev-how-to:
- - title: Add Monitors
-   url: add-monitors.html
- - title: Add a New Chef Cookbook and Pack to OneOps
-   url: add-new-chef-cookbook-pack.html
- - title: Add a New Platform Pack
-   url: add-new-platform-pack.html
- - title: Add a Platform
-   url: add-platform.html
- - title: CMS Sync
-   url: cms-sync.html
- - title: Create a Custom Payload
-   url: create-a-custom-payload.html
- - title: Create Parameterized Component Actions
-   url: create-parameterized-component-actions.html
- - title: Override Platform Attributes
-   url: override-platform-attributes.html
          
 sources:
  confluence:
@@ -415,6 +242,9 @@ bootstrapVersion: 3.3.1
 # Jekyll
 # ----------------------------------------------------------------------------------------------------------------------
 markdown: kramdown
-redcarpet:
-  extensions: [with_toc_data, prettify]
+kramddown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
 exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-stage-serve.sh, jekyll-stage-build.sh, linkcheck.sh, linkcheck-results.log]

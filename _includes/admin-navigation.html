@@ -1,83 +1,73 @@
+<!--<article id="page-search">
+   <h4>Search</h4>
+   <input data-name="search" data-search-types="section" data-search-name="{{ site.searchname }}{{ context }}" type="text" value="Search" class="side-nav-search-input"/>
+</article>-->
+            
             <!--left sub navigation-->
             <nav id="sidenav">
               <h2>DOCUMENTATION</h2>
    
               <ul class="nav">
                 <li>
-                  <a href="/documentation/admin/overview/index.html">Overview</a>
+                  <a href="/admin/overview/">Overview</a>
                 </li>
                 <li>
-                  <a href="/documentation/admin/key-concepts/index.html">Key Concepts</a>
+                  <a href="/admin/key-concepts/">Key Concepts</a>
                 </li>
                 <li>
-                  <a href="/documentation/admin/prerequisites/index.html">Prerequisites</a>
+                  <a href="/admin/prerequisites/">Prerequisites</a>
                 </li>
                 <li>
-                  <a href="/documentation/admin/getting-started/index.html">Getting Started</a>
+                  <a href="/admin/getting-started/">Getting Started</a>
                 </li>
                 <li>
                   <a onclick="$('#admin-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
                   <span class="caret"></span></a>
                   <ul id="admin-typical-usage-scenarios" class="hidden">
-                    {% for link in site.admin-typical-usage-scenarios %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/admin/typical-scenarios/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/admin/typical-scenarios/#upgrading-one-ops">Upgrading OneOps</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#admin-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
                   <ul id="admin-best-practices" class="hidden">
-                    {% for link in site.admin-best-practices %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/admin/best-practices/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/admin/best-practices/#running-OneOps-In-Production">Running OneOps in Production</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#admin-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
                   <ul id="admin-references" class="hidden">
-                    {% for link in site.admin-references %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/admin/references/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/admin/references/#actionorder">Action Order</a></li>
+                    <li class="sub-menu-item"><a href="/admin/references/#client-side-aggregations">Client-Side Aggregations</a></li>
+                    <li class="sub-menu-item"><a href="/admin/references/#inductor">Inductor</a></li>
+                    <li class="sub-menu-item"><a href="/admin/references/#metric-data-source-type">Metric Data Source Type</a></li>
+                    <li class="sub-menu-item"><a href="/admin/references/#metrics-collection">Metrics Collection</a></li>
+                    <li class="sub-menu-item"><a href="/admin/references/#oneops-admin-gem">oneops-admin gem</a></li>
+                    <li class="sub-menu-item"><a href="/admin/references/#oneops-manages-oneops">OneOps Manages OneOps</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#admin-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="admin-how-to" class="hidden">
-                    {% for link in site.admin-how-to %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/admin/how-to/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/admin/howto/#build-install-configure-an-inductor">Build, Install, and Configure an Inductor</a></li>
+                    <li class="sub-menu-item"><a href="/admin/howto/#load-content-model-images">Load Content</a></li>
+                    <li class="sub-menu-item"><a href="/admin/howto/#sensors">Sensors</a></li>
+                    <li class="sub-menu-item"><a href="/admin/howto/#set-up-log-forwarding-to-es-with-logstash">Set Up Log Forwarding to ES with Logstash</a></li>
                   </ul> 
                 </li>
                 <li>
-                  <a href="/documentation/admin/tools/index.html">Tools</a>
+                  <a href="/admin/tools/">Tools</a>
                 </li>
                 <li>
-                  <a href="/documentation/admin/testing/index.html">Testing & Debugging</a>
+                  <a href="/admin/testing/">Testing & Debugging</a>
                 </li>
                 <li>
-                  <a href="/documentation/admin/updates/index.html">Updates</a>
+                  <a href="/admin/updates/">Updates</a>
                 </li>
                 <li>
-                  <a href="/documentation/admin/contribution/index.html">Contribution</a>
+                  <a href="/admin/contribution/">Contribution</a>
                 </li>
               </ul>
             </nav>
