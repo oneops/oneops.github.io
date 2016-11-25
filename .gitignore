@@ -4,4 +4,4 @@ _site/
 _content/
 Gemfile.lock
 .project
-.
+linkcheck-results.log
