@@ -41,7 +41,7 @@ Go to the pack where you want to add the monitor.
 
 For adding to existing directories :
 
-3. Create Directories `“template/default”` in Zookeeper oneops pack in the zookeeper component and add your script file with the extension of `filename.extn.erb`
+3. Create Directories `“template/default”` in Zookeeper OneOps pack in the zookeeper component and add your script file with the extension of `filename.extn.erb`
 4. Add the following code to your add.rb `"packer/components/cookbooks/zookeeper/recipes/add.rb"`. This is used to copy your `.erb` file in the `/opt/nagios/libexec` and nagios will read from there.
 
 ~~~ruby
@@ -408,7 +408,7 @@ Let's start with an sample payload that gets all the computes in an environment 
 >
   * You can browse cms-admin using a "/" nspath starting point:
 http://localhost:8080/cms-admin/ci.do?nspath=%2F&classname=&ciname=&Search=Search
-  * You can use the instance /ci id in the url of oneops ui to go directly to the ci:
+  * You can use the instance /ci id in the url of OneOps ui to go directly to the ci:
 http://localhost:8080/cms-admin/ci.do?id=482717
 
 There are many examples of payloads in the circuits.  Most likely there is an existing payload you can reuse by changing a few classes.

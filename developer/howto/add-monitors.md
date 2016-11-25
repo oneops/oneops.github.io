@@ -41,7 +41,7 @@ Go to the pack where you want to add the monitor.
 
 For adding to existing directories :
 
-3. Create Directories `“template/default”` in Zookeeper oneops pack in the zookeeper component and add your script file with the extension of `filename.extn.erb`
+3. Create Directories `“template/default”` in Zookeeper Oneops pack in the zookeeper component and add your script file with the extension of `filename.extn.erb`
 4. Add the following code to your add.rb `"packer/components/cookbooks/zookeeper/recipes/add.rb"`. This is used to copy your `.erb` file in the `/opt/nagios/libexec` and nagios will read from there.
 
 ~~~ruby

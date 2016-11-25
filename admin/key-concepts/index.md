@@ -117,7 +117,7 @@ Sensor consumes metrics coming from collector and generate events if thresholds 
 
 ## Opamp
 
-Its an oneops **event processor** to trigger auto-healing, auto-replace,or generate notifications.
+Its an OneOps **event processor** to trigger auto-healing, auto-replace,or generate notifications.
 
 *  [source](https://github.com/oneops/opamp)
 

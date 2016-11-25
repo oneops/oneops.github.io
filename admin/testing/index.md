@@ -28,7 +28,7 @@ if using apache
 
 ## Deployments failing
   * Check if all consumers can connect to messaging bus.
-  * All the oneops webapps (adapter,transistor) expose health check /rest/<context>/ecv/status.. so check if all web contexts are up.
+  * All the OneOps webapps (adapter,transistor) expose health check /rest/<context>/ecv/status.. so check if all web contexts are up.
 
 ## Inductor not coming up
   * Make sure the *auth-key* is same which you used for setting up the cloud.

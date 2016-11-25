@@ -49,7 +49,7 @@ Let's start with an sample payload that gets all the computes in an environment 
 >
   * You can browse cms-admin using a "/" nspath starting point:
 http://localhost:8080/cms-admin/ci.do?nspath=%2F&classname=&ciname=&Search=Search
-  * You can use the instance /ci id in the url of oneops ui to go directly to the ci:
+  * You can use the instance /ci id in the url of OneOps ui to go directly to the ci:
 http://localhost:8080/cms-admin/ci.do?id=482717
 
 There are many examples of payloads in the circuits.  Most likely there is an existing payload you can reuse by changing a few classes.
