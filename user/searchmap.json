@@ -1,0 +1,17 @@
+---
+layout: null
+---
+{% assign url_parts = page.url | split: '/' %}
+{% assign context = url_parts[1] | prepend: '/' | append: '/' %}
+{% assign context_path = url_parts[1] | prepend: '/'  %}
+{% assign counter = 1 %}
+[
+{% for p in site.pages %}
+{% if p.url contains context %}
+{% if counter != 1 %},{% endif %}
+{% assign counter = counter | plus:'1' %}
+{% if p.url != "/searchmap.json" %}
+{"title":"{{ p.title | replace:'\','%5C' | replace:'"','\"' }}","url":"{{ site.baseurl }}{{ p.url | remove: context_path }}","content":"{{ p.content | strip_newlines | replace:'\','%5C' | replace:'"','\"' }}"}
+{% endif %}
+{% endif %}
+{% endfor %}]
