@@ -59,8 +59,8 @@ Yes you will have to do it for each one of them which is pain, but what if you w
 
 ## Deploy Simple Assembly
 
-We have pre-created a simple assembly named *SimpleApache*. This assembly has just one Apache platform with all
-out-of-the-box default configuration values. You can examine it by clicking Assemblies (left nav) and then on SimpleApache. This will take you to the Assembly summary page which will have nothing since no activity has been performed on this assembly yet. Click on "Design" (left nav) and you will get to the Assembly Design page where you can review platforms your assembly is composed of (just one in this case). If you click on the platform you will get to the "Platform Design Page". Just browse around.
+We have pre-created a simple assembly named *SimpleApache*. This assembly has just one Apache platform with all out-of-the-box default configuration values. You can examine it by clicking Assemblies (left nav) and then on SimpleApache. This will take you to the Assembly summary page which will have nothing since no activity has been performed on this assembly yet. Click on "Design" (left nav) and you will get to the Assembly Design page where you can review platforms your assembly is composed of (just one in this case). If you click on the platform you will get to the "Platform Design Page". Just browse around.
+
 Next step is to try to deploy this simple assembly: </br>
 
 Go to "transition" page (left nav). You will see there is one environment already pre-created call `test-env`. Click on it and get to the Environment detail page. There is same one platform here as it was in design, but it's in the disabled state, in order to deploy it you need to enable it. In little drop down menu you can do this.
