@@ -119,18 +119,18 @@ Create some application in Azure's Active Directory (AD).  This will be the clie
 
 This will return a few things:
 
-
-	results
-    	info:    Executing command ad app create
-    	+ Creating application someapp
-    	data:    AppId:                   {CLIENT_ID}
-    	data:    ObjectId:                abcd1234-bbbb-cccc-dddd-654321fedcba
-    	data:    DisplayName:             someapp
-    	data:    IdentifierUris:          0=https://someapp.azure.example.com/someapp <https://someapp.azure.example.com/cliapp>
-   	 	data:    ReplyUrls:
-    	data:    AvailableToOtherTenants:  False
-	    info:    ad app create command OK
-
+```
+  results
+      info:    Executing command ad app create
+      + Creating application someapp
+      data:    AppId:                   {CLIENT_ID}
+      data:    ObjectId:                abcd1234-bbbb-cccc-dddd-654321fedcba
+      data:    DisplayName:             someapp
+      data:    IdentifierUris:          0=https://someapp.azure.example.com/someapp <https://someapp.azure.example.com/cliapp>
+      data:    ReplyUrls:
+      data:    AvailableToOtherTenants:  False
+      info:    ad app create command OK
+```
 
 App ID is your **client ID**.  The password you supplied is your **client secret**.  The application can be found in Azure's AD now.
 
@@ -139,23 +139,24 @@ App ID is your **client ID**.  The password you supplied is your **client secret
 
 Use the App ID (Client ID) to create a service principal.
 
-
-	azure ad sp create {CLIENT_ID}
-
+```
+azure ad sp create {CLIENT_ID}
+```
 
 Again, this returns the following:
 
 
-	results
-    	info:    Executing command ad sp create
-    	+ Creating service principal for application {CLIENT_ID}
-    	data:    Object Id:               {SP_ID}
-    	data:    Display Name:            someapp
-    	data:    Service Principal Names:
-    	data:                             {CLIENT_ID}
-    	data:                             https://someapp.azure.example.com/someapp <https://someapp.azure.example.com/someapp>
-    	info:    ad sp create command OK
-
+```
+  results
+    info:    Executing command ad sp create
+      + Creating service principal for application {CLIENT_ID}
+      data:    Object Id:               {SP_ID}
+      data:    Display Name:            someapp
+      data:    Service Principal Names:
+      data:                             {CLIENT_ID}
+      data:                             https://someapp.azure.example.com/someapp <https://someapp.azure.example.com/someapp>
+      info:    ad sp create command OK
+```
 
 This has added a key to the application in Azure AD.  You won't be able to see its value.
 

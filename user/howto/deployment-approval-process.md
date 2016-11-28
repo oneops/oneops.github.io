@@ -58,16 +58,16 @@ Method: PUT
 URL: <OneOps-URL>/<ORG-NAME>/assemblies/<ASSEMBLIY-NAME>/transition/environments/<ENVIRONMENT-NAME>/deployments/<DEPLOYMENT-ID>/approvals/settle
 Body:
 {
-	"approvals": [{
-		"state": "approved",
-		"expiresIn": 5,
-		"approvalId": "<APPROVAL-ID-1>",
-		"comments": "approved by luke"
-	}, {
-		"state": "approved",
-		"expiresIn": 5,
-		"approvalId": "<APPROVAL-ID-2>",
-		"comments": "approved by luke"
-	}]
+  "approvals": [{
+    "state": "approved",
+    "expiresIn": 5,
+    "approvalId": "<APPROVAL-ID-1>",
+    "comments": "approved by luke"
+  }, {
+    "state": "approved",
+    "expiresIn": 5,
+    "approvalId": "<APPROVAL-ID-2>",
+    "comments": "approved by luke"
+  }]
 }
 ~~~

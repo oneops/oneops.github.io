@@ -8,57 +8,57 @@ Note: all calls will use the api token - see [Get Auth Token](#account-profile):
 
 
 - [Top Level](#top-level)
-	- [GET list of manifest (transition) Lb components](#get-list-of-manifest-transition-lb-components)
-	- [GET a list of bom (operations) Lb components](#get-a-list-of-bom-operations-lb-components)
-	- [GET a list of bom Fqdn components](#get-a-list-of-bom-fqdn-components)
-	- [GET a list of all bom Computes](#get-a-list-of-all-bom-computes)
-	- [GET a list of all environments](#get-a-list-of-all-environments)
+  - [GET list of manifest (transition) Lb components](#get-list-of-manifest-transition-lb-components)
+  - [GET a list of bom (operations) Lb components](#get-a-list-of-bom-operations-lb-components)
+  - [GET a list of bom Fqdn components](#get-a-list-of-bom-fqdn-components)
+  - [GET a list of all bom Computes](#get-a-list-of-all-bom-computes)
+  - [GET a list of all environments](#get-a-list-of-all-environments)
 - [Account Profile](#account-profile)
-	- [GET Auth Token](#get-auth-token)
-	- [GET all organizations](#get-all-organizations)
+  - [GET Auth Token](#get-auth-token)
+  - [GET all organizations](#get-all-organizations)
 - [Organization](#organization)
-	- [GET clouds](#get-clouds)
-	- [GET cloud by name](#get-cloud-by-name)
-	- [POST cloud by name](#post-cloud-by-name)
-	- [GET Supported locations](#get-supported-locations)
-	- [GET Supported Services](#get-supported-services)
-	- [GET Cloud Service By Name](#get-cloud-service-by-name)
-	- [POST New Service](#post-new-service)
-	- [PUT Update to Service](#put-update-to-service)
-	- [GET Compute report](#get-compute-report)
+  - [GET clouds](#get-clouds)
+  - [GET cloud by name](#get-cloud-by-name)
+  - [POST cloud by name](#post-cloud-by-name)
+  - [GET Supported locations](#get-supported-locations)
+  - [GET Supported Services](#get-supported-services)
+  - [GET Cloud Service By Name](#get-cloud-service-by-name)
+  - [POST New Service](#post-new-service)
+  - [PUT Update to Service](#put-update-to-service)
+  - [GET Compute report](#get-compute-report)
 - [Assembly](#assembly)
-	- [GET List of assemblies for organization](#get-list-of-assemblies-for-organization)
-	- [GET Assembly by name](#get-assembly-by-name)
-	- [POST A new assembly](#post-a-new-assembly)
-	- [PUT an updated assembly](#put-an-updated-assembly)
-	- [DELETE An assembly by name](#delete-an-assembly-by-name)
+  - [GET List of assemblies for organization](#get-list-of-assemblies-for-organization)
+  - [GET Assembly by name](#get-assembly-by-name)
+  - [POST A new assembly](#post-a-new-assembly)
+  - [PUT an updated assembly](#put-an-updated-assembly)
+  - [DELETE An assembly by name](#delete-an-assembly-by-name)
 - [Platform](#platform)
-	- [GET List of platforms](#get-list-of-platforms)
-	- [GET Platform by name](#get-platform-by-name)
-	- [POST a platform](#post-a-platform)
-	- [PUT and updated design component attribute](#put-and-updated-design-component-attribute)
-	- [PUT an updated design platform variable](#put-an-updated-design-platform-variable)
-	- [DELETE a Platform](#delete-a-platform)
+  - [GET List of platforms](#get-list-of-platforms)
+  - [GET Platform by name](#get-platform-by-name)
+  - [POST a platform](#post-a-platform)
+  - [PUT and updated design component attribute](#put-and-updated-design-component-attribute)
+  - [PUT an updated design platform variable](#put-an-updated-design-platform-variable)
+  - [DELETE a Platform](#delete-a-platform)
 - [Environment](#environment)
-	- [GET Transition by name](#get-transition-by-name)
-	- [POST a new transition](#post-a-new-transition)
-	- [PUT Cloud configuration for environment platform](#put-cloud-configuration-for-environment-platform)
+  - [GET Transition by name](#get-transition-by-name)
+  - [POST a new transition](#post-a-new-transition)
+  - [PUT Cloud configuration for environment platform](#put-cloud-configuration-for-environment-platform)
 - [Commit & Deploy](#commit-and-deploy)
-	- [POST a commit to an environment](#post-a-commit-to-an-environment)
-	- [GET Latest release id](#get-latest-release-id)
-	- [POST A new deploy](#post-a-new-deploy)
-	- [GET deployment status](#get-deployment-status)
-	- [PUT Disable environment](#put-disable-environment)
-	- [GET Pull Latest](#get-pull-latest)
-	- [DELETE Environment](#delete-environment)
-	- [POST Discard a release by ID](#post-discard-a-release-by-id)
+  - [POST a commit to an environment](#post-a-commit-to-an-environment)
+  - [GET Latest release id](#get-latest-release-id)
+  - [POST A new deploy](#post-a-new-deploy)
+  - [GET deployment status](#get-deployment-status)
+  - [PUT Disable environment](#put-disable-environment)
+  - [GET Pull Latest](#get-pull-latest)
+  - [DELETE Environment](#delete-environment)
+  - [POST Discard a release by ID](#post-discard-a-release-by-id)
 - [Operations](#operations)
-	- [PUT Replace Component Instance](#put-replace-component-instance)
-	- [GET All available actions](#get-all-available-actions)
-	- [GET Instance ids](#get-instance-ids)
-	- [POST Request to execute action](#post-request-to-execute-action)
-	- [GET status](#get-status)
-	- [GET Computes for a Platform](#get-computes-for-a-platform)
+  - [PUT Replace Component Instance](#put-replace-component-instance)
+  - [GET All available actions](#get-all-available-actions)
+  - [GET Instance ids](#get-instance-ids)
+  - [POST Request to execute action](#post-request-to-execute-action)
+  - [GET status](#get-status)
+  - [GET Computes for a Platform](#get-computes-for-a-platform)
 
 # Top Level
 
@@ -329,13 +329,13 @@ Body:
 Body:
 
 {
-	"cloud_id": "<cloud ci-id>",
-	"attributes": {
-		"adminstatus": "active OR inactive OR offline",
-		"priority": "1 OR 2",
-		"pct_scale": ...,
-		"dpmt_order": ...
-	}
+  "cloud_id": "<cloud ci-id>",
+  "attributes": {
+    "adminstatus": "active OR inactive OR offline",
+    "priority": "1 OR 2",
+    "pct_scale": ...,
+    "dpmt_order": ...
+  }
 }
 ~~~
 

@@ -36,7 +36,7 @@ If not - check the [troubleshooting](#troubleshooting) section.
 The AMI has a preregistered user *oneops/oneops* within the organization `OneOps`. We have also created simple assembly called **SimpleApache**. You can start browsing around. </br>
 But if you want to deploy this test assembly to EC2 cloud you need to provide your credentials.
 
-##	Configure Cloud
+## Configure Cloud
 
 In the left nav click on Clouds - you will be taken to the list of clouds configured in the system.</br>
 

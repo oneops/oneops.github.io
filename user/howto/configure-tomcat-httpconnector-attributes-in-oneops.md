@@ -37,7 +37,7 @@ To add attributes to a connector element or change the default value of a connec
                connectionTimeout="20000"
                redirectPort="8443"
               maxKeepAliveRequests="100"
-               <!--  All additional Attributes go here eg below	-->
+               <!--  All additional Attributes go here eg below -->
                />
 
     <!-- Define a SSL HTTP/1.1 Connector on port 8443
@@ -53,7 +53,7 @@ keystoreFile="/app/certs/keystore.jks"
 keystorePass="changeit"
 scheme="https" secure="true"
 clientAuth="false"  sslProtocol="TLSv1" sslEnabledProtocols="TLSv1,TLSv1.1,TLSv1.2"
- <!--  All additional Attributes go here eg below	-->
+ <!--  All additional Attributes go here eg below -->
  />
 ~~~
 

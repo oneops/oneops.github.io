@@ -14,24 +14,24 @@ Go to the pack where you want to add the monitor.
 
 ~~~ruby
 :monitors => {  
-    	'Log' => {:description => 'Log',
-          	:source => '',
-          	:chart => {'min' => 0, 'unit' => ''},
-          	:cmd => 'check_logfiles!logtomcat!#{cmd_options[:logfile]}!#{cmd_options[:warningpattern]}!#{cmd_options[:criticalpattern]}',
-          	:cmd_line => '/opt/nagios/libexec/check_logfiles   --noprotocol --tag=$ARG1$ --logfile=$ARG2$ --warningpattern="$ARG3$" --criticalpattern="$ARG4$"'
-          	:cmd_options => {
-                	'logfile' => '/var/log/tomcat6/catalina.out',
-                	'warningpattern' => 'WARNING',
-                	'criticalpattern' => 'CRITICAL'
+    'Log' => {:description => 'Log',
+          :source => '',
+          :chart => {'min' => 0, 'unit' => ''},
+          :cmd => 'check_logfiles!logtomcat!#{cmd_options[:logfile]}!#{cmd_options[:warningpattern]}!#{cmd_options[:criticalpattern]}',
+          :cmd_line => '/opt/nagios/libexec/check_logfiles   --noprotocol --tag=$ARG1$ --logfile=$ARG2$ --warningpattern="$ARG3$" --criticalpattern="$ARG4$"'
+          :cmd_options => {
+                'logfile' => '/var/log/tomcat6/catalina.out',
+                'warningpattern' => 'WARNING',
+                'criticalpattern' => 'CRITICAL'
 }, :metrics => {
-               	'logtomcat_lines' => metric(:unit => 'lines', :description => 'Scanned Lines', :dstype => 'GAUGE'),
+               'logtomcat_lines' => metric(:unit => 'lines', :description => 'Scanned Lines', :dstype => 'GAUGE'),
                    'logtomcat_warnings' => metric(:unit => 'warnings', :description => 'Warnings', :dstype => 'GAUGE'),
-               	'logtomcat_criticals' => metric(:unit => 'criticals', :description => 'Criticals', :dstype => 'GAUGE'),
-               	'logtomcat_unknowns' => metric(:unit => 'unknowns', :description => 'Unknowns', :dstype => 'GAUGE')
+               'logtomcat_criticals' => metric(:unit => 'criticals', :description => 'Criticals', :dstype => 'GAUGE'),
+               'logtomcat_unknowns' => metric(:unit => 'unknowns', :description => 'Unknowns', :dstype => 'GAUGE')
 }, :thresholds => {
-            	'CriticalLogException' => threshold('15m', 'avg', 'logtomcat_criticals', trigger('>=', 1, 15, 1), reset('<', 1, 15, 1)),
-           	}
- 	},          
+            'CriticalLogException' => threshold('15m', 'avg', 'logtomcat_criticals', trigger('>=', 1, 15, 1), reset('<', 1, 15, 1)),
+           }
+ },
 }
 ~~~
 
@@ -59,17 +59,17 @@ end
 
 ~~~ruby
 'zookeepernode' => {:description => 'ZookeeperNode',
-                       	:source => '',
-                       	:chart => {'min' => '0', 'max' => '100', 'unit' => 'Percent'},
-                       	:cmd => 'check_zk',
-                       	:cmd_line => '/opt/nagios/libexec/check_zk.py',
-                       	:metrics => {
-                           	'up' => metric(:unit => '%', :description => 'Percent Up'),
-                       	},
-                       	:thresholds => {
-                           	'ZookeeperProcessDown' => threshold('1m', 'avg', 'up', trigger('<', 90, 1, 1), reset('>', 90, 1, 1))
-                       	}
-         	}
+                       :source => '',
+                       :chart => {'min' => '0', 'max' => '100', 'unit' => 'Percent'},
+                       :cmd => 'check_zk',
+                       :cmd_line => '/opt/nagios/libexec/check_zk.py',
+                       :metrics => {
+                           'up' => metric(:unit => '%', :description => 'Percent Up'),
+                       },
+                       :thresholds => {
+                           'ZookeeperProcessDown' => threshold('1m', 'avg', 'up', trigger('<', 90, 1, 1), reset('>', 90, 1, 1))
+                       }
+         }
 LOG Format:
 if [ $ec != 0 ]; then
 echo "$1 down |up=0"

@@ -32,12 +32,7 @@ A second approach is to add a full CNAME with the following steps:
 
 1. In the Transition view of your platform, go to the FQDN component.
 2. Click **edit.**
-3. Enter a Full CNAME alias, for example, `test.qa.<your server>`. (Before using this feature, know the correct domain name.)
-	
-    The following domains are supported:
-    
-    `dev|qa|prod.<your server>`
-	  
+3. Enter a Full CNAME alias, for example, `test.qa.<your server>`. Before using this feature, know the correct domain name. The following domains  `dev|qa|prod.<your server>` are supported.
 4. Save the change.
 5. Commit and deploy.
 
