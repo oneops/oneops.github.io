@@ -1,10 +1,13 @@
 ---
 layout: user-doc
-title: Load
-id: "load"
+title: Load/Extract
+id: "load/extract"
 ---
 
 `Load` feature can be used to bulk update an assembly design using a YAML file defining global variables, platforms, local variables, components and attachments. The file can be loaded using any of the following:
+
+`Extract` can be used to convert a design created in OneOps into a yaml file. The yaml file generated will have all the platforms, variables(global and local), optional components, platform links, attachments.
+A lock button is available next to every component attribute and variables. Enable locking to extract any specific attributes into the yaml file.  
 
 * **UI** page for design load by uploading the yaml file or posting the yaml content directly in the text area. To get to the design load page in the UI go to the assembly design and click on the `Load` button in the header.
 * **CLI** command `oneops design load`. The defaults path for the Design file is `./oneops-design.yaml`. For additional information see <a href="/admin/key-concepts/index.html">CLI</a> section.
@@ -19,7 +22,10 @@ Variables that can be used anywhere in the design and are referenced via `$OO_GL
 variables:
    MYGLOBALVAR1: "foo"
    MYGLOBALVAR2: "bar"
+   MYENCRYPTEDVAR1: "::ENCRYPTED::<foobar>"
 ```
+
+Encrypted variables can either be provided into yaml in plain text using above format(e.g. MYENCRYPTEDVAR1) OR load of yaml with encrypted variable/attribute would require a manual override on load.
 
 # Platforms
 
@@ -119,6 +125,7 @@ platforms:
           version: '1.0'
       tomcat/Tomcat:
         tomcat:
+          tomcat_install_dir: '/opt'
           attachments:
             myscript:
               path: /tmp/myscript.sh
