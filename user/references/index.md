@@ -13,15 +13,6 @@ title: References
 
 # All In One Page Content
 
-<h1 class="primary" id="Actions">Actions</h1>
-
-Actions can be run ad hoc against Components by using the <a href="/user/references/#operations-reference">operations</a> page.
-
-![Design tomcat 1](/assets/docs/local/images/design-tomcat1.png)
-![Design tomcat 2](/assets/docs/local/images/design-tomcat2.png)
-
-<br><br>
-
 <h1 class="primary" id="attachments">Attachments</h1>
 
 Attachments create files or perform custom actions with your code or command lines. An Attachment can be assigned to execute any combination of the following Component actions:
