@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Load/Extract
-id: "load/extract"
 ---
 
 The main purpose of  Design Extract/Load feature is two-fold:
