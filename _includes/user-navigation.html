@@ -46,7 +46,9 @@
                   <ul id="user-references-new" >
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "user/references" %}
-                      <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
