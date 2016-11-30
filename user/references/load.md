@@ -47,7 +47,7 @@ major_version: '1'
 
 ## links
 
-Links are used to describe dependencies between platforms. For additional information on links between platforms see <a href="/user/references/platform-links.html">platform links</a>.
+Links are used to describe dependencies between platforms. For additional information on links between platforms see <a href="/user/references/platform-links-reference.html">platform links</a>.
 
 ```
 links:

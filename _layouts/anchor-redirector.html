@@ -1,13 +1,7 @@
 <html>
   <head>
-    <script>
-    var loc = window.location.href;
-    var hash = window.location.hash.substring(1);
-    var newLoc = loc.substring(0, loc.length - (hash.length + 1)) + hash + ".html";
-    if (hash) {
-    	window.location.replace(newLoc);
-    }
-    </script>
+    <script type="text/javascript" src="{{site.context}}/assets/js/anchor-redirect.js"></script>
+    <script>anchorRedirect();</script>
   </head>
   <body></body>
-</html>	
+</html>

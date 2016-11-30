@@ -34,7 +34,7 @@ Record-Sets are assembled together in a single zone and will use any of two valu
 
 As a result the deployment has a DNS created with hostname mapping and domain alias if configured.
 
-For more details on DNS see: <a href="/user/howto/add-cname-azure.html">Azure DNS</a>  
+For more details on DNS see: <a href="/user/howto/add-cname-to-azure-dns.html">Azure DNS</a>  
  
 ## Load Balancer
  
