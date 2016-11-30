@@ -1,8 +1,19 @@
 ---
 layout: user-doc
-title: Actions
-id: actions-reference
+title: References
 ---
+
+# Table Of Contents
+
+{% for p in site.pages %}
+{% if p.url contains page.url %}
+- [{{ p.title }}]({{ p.url }})
+{% endif %}
+{% endfor %}
+
+# All In One Page Content
+
+<h1 class="primary" id="Actions">Actions</h1>
 
 Actions can be run ad hoc against Components by using the <a href="/user/references/#operations-reference">operations</a> page.
 
