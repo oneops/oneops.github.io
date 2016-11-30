@@ -41,14 +41,13 @@
                 </li>
 
                 <li>
-                  <a onclick="$('#user-references-new').toggleClass('hidden');">References New
+                  <a onclick="$('#user-references-new').toggleClass('hidden');" href="/user/references">References New
                   <span class="caret"></span></a>
                   <ul id="user-references-new" >
-                    <li class="sub-menu-item"><a href="/user/references/actions-reference.html">Actions</a></li>
-                    <li class="sub-menu-item"><a href="/user/references/attachments.html">Attachments</a></li>
-                    <li class="sub-menu-item"><a href="/user/references/auto-repair.html">Auto Repair</a></li>
                     {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "user/references" %}
                       <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
