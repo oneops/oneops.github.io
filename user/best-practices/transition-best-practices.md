@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Transition Best Practices
-id: "transition-best-practices"
 ---
 
 In the Transition phase, use the following best practices:

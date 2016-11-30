@@ -26,20 +26,18 @@
                   </ul> 
                 </li>
                 <li>
-                  <a onclick="$('#user-best-practices').toggleClass('hidden');">Best Practices
+                  <a onclick="$('#user-best-practices').toggleClass('hidden');" href="/user/best-practices">Best Practices
                   <span class="caret"></span></a>
-                  <ul id="user-best-practices" class="hidden">
-                    <li class="sub-menu-item"><a href="/user/best-practices/#design-best-practices">Design Best Practices</a></li>
-                    <li class="sub-menu-item"><a href="/user/best-practices/#naming-conventions">Naming Conventions</a></li>
-                    <li class="sub-menu-item"><a href="/user/best-practices/#operations-best-practices">Operations Best Practices</a></li>
-                    <li class="sub-menu-item"><a href="/user/best-practices/#provide-only-necessary-privileges-to-accounts">Provide Only Necessary Privileges to Accounts</a></li>
-                    <li class="sub-menu-item"><a href="/user/best-practices/#restrict-access-with-teams">Restrict Access with Teams</a></li>
-                    <li class="sub-menu-item"><a href="/user/best-practices/#transition-best-practices">Transition Best Practices</a></li>
-                    <li class="sub-menu-item"><a href="/user/best-practices/#use-operations-for-vm-tasks">Use Operations for VM Tasks</a></li>
-                    <li class="sub-menu-item"><a href="/user/best-practices/#view-assembly-and-organization-consumption-with-reports">View Assembly and Organization Consumption with Reports</a></li>
+                  <ul id="user-best-practices" >
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "user/best-practices" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
                   </ul>
                 </li>
-
                 <li>
                   <a onclick="$('#user-references').toggleClass('hidden');" href="/user/references">References
                   <span class="caret"></span></a>

@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Operations Best Practices
-id: "operations-best-practices"
 ---
 
 In the Operations phase, use the following best practices:

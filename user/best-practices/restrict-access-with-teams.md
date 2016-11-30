@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Restrict Access with Teams
-id: "restrict-access-with-teams"
 ---
 
 Use Teams to restrict user access to an organization. Create <a href="/user/howto/create-a-team-in-an-organization.html">teams</a>, add users to those teams, and then provide only the necessary privileges to each team.

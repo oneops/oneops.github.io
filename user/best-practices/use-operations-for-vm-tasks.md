@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Use Operations for VM Tasks
-id: "use-operations-for-vm-tasks"
 ---
 
 Use Operations for most of the tasks you need to perform on a VM.

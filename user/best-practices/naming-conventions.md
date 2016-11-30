@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Naming Conventions
-id: "naming-conventions"
 ---
 
 Follow these naming conventions for assemblies, platforms and environments.

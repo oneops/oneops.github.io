@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Design Best Practices
-id: "design-best-practices"
 ---
 
 In the Design phase, follow these best practices:
