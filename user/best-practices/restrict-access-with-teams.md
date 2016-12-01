@@ -13,4 +13,4 @@ This should be done by the organization admin. After creating a team, it can be 
 
 # See Also
 
-<a href="/user/howto/enable-access-to-assembly-for-user-on-team.html">Enable Access to an Assembly for a User on a Team</a>
+<a href="/user/howto/enable-access-to-an-assembly-for-a-user-on-a-team.html">Enable Access to an Assembly for a User on a Team</a>

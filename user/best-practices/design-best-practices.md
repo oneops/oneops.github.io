@@ -14,6 +14,6 @@ In the Design phase, follow these best practices:
 * Edit the default values of the <a href="/user/references/variables.html">variables</a> of each platform, as needed
 * Review the default values of each component
 * If an additional port support is required, add the secgroup component
-* To SSH into the VM, add the <a href="/user/howto/ssh-to-compute-node.html">SSH key</a> to the user component
+* To SSH into the VM, add the <a href="/user/howto/ssh-to-a-compute-node.html">SSH key</a> to the user component
 * To ensure that the platform dependency is correct, review the design diagram
 * After creating or making changes to a design, remember to commit the design
