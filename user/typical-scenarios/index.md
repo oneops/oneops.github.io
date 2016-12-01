@@ -1,4 +1,3 @@
-
 ---
 layout: user-doc
 title: Typical Scenarios
