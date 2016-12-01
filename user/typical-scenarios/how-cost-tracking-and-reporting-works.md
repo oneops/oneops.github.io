@@ -1,7 +1,6 @@
 ---
 layout: user-doc
-title: Cost Tracking
-id: "How Cost Tracking and Reporting Works"
+title: How Cost Tracking and Reporting Works
 ---
 
 Key concepts involved here are:
