@@ -4,80 +4,76 @@
    
               <ul class="nav">
                 <li>
-                  <a href="/documentation/developer/overview/index.html">Overview</a>
+                  <a href="/developer/overview/">Overview</a>
                 </li>
                 <li>
-                  <a href="/documentation/developer/key-concepts/index.html">Key Concepts</a>
+                  <a href="/developer/key-concepts/">Key Concepts</a>
                 </li>
                 <li>
-                  <a href="/documentation/developer/prerequisites/index.html">Prerequisites</a>
+                  <a href="/developer/prerequisites/">Prerequisites</a>
                 </li>
                 <li>
-                  <a href="/documentation/developer/getting-started/index.html">Getting Started</a>
+                  <a href="/developer/getting-started/">Getting Started</a>
                 </li>
                 <li>
                   <a onclick="$('#dev-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
                   <span class="caret"></span></a>
                   <ul id="dev-typical-usage-scenarios" class="hidden">
-                    {% for link in site.dev-typical-usage-scenarios %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/typical-scenarios/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/developer/typical-scenarios/#modify-a-component">Modify existing component</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#dev-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
                   <ul id="dev-best-practices" class="hidden">
-                    {% for link in site.dev-best-practices %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/best-practices/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/developer/best-practices/#pack-development">Pack Development</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#dev-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
                   <ul id="dev-references" class="hidden">
-                    {% for link in site.dev-references %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/references/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/developer/references/#oneops-api-documentation">OneOps API Documentation</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#assemblies-api">Assemblies API</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#ci-notification-format">CI Notification Format</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#component-list">Component List</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#default-monitor-thresholds">Default Monitor Thresholds</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#design-attachments-api">Design Attachments API</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#metadata">Metadata</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#monitor">Monitor</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#pack-policy">Pack Policy</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#packs-api">Packs API</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#platform-management-pack">Platform Management Pack</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#platforms">Platforms</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#relations">Relations</a></li>
+                    <li class="sub-menu-item"><a href="/developer/references/#relationships">Relationships</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#dev-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="dev-how-to" class="hidden">
-                    {% for link in site.dev-how-to %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/documentation/developer/how-to/{{ link.url }}">{{ link.title }}</a></li>
-                    {% endfor %}
+                    <li class="sub-menu-item"><a href="/developer/howto/#add-monitors">Add Monitors</a></li>
+                    <li class="sub-menu-item"><a href="/developer/howto/#add-new-chef-cookbook-pack">Add a New Chef Cookbook and Pack to OneOps</a></li>
+                    <li class="sub-menu-item"><a href="/developer/howto/#add-new-platform-pack">Add a New Platform Pack</a></li>
+                    <li class="sub-menu-item"><a href="/developer/howto/#add-a-platform">Add a Platform</a></li>
+                    <li class="sub-menu-item"><a href="/developer/howto/#cms-sync">CMS Sync</a></li>
+                    <li class="sub-menu-item"><a href="/developer/howto/#create-a-custom-payload">Create a Custom Payload</a></li>
+                    <li class="sub-menu-item"><a href="/developer/howto/#create-parameterized-component-actions">Create Parameterized Component Actions</a></li>
+                    <li class="sub-menu-item"><a href="/developer/howto/#override-platform-attributes">Override Platform Attributes</a></li>
                   </ul> 
                 </li>
                 <li>
-                  <a href="/documentation/developer/tools/index.html">Tools</a>
+                  <a href="/developer/tools/">Tools</a>
                 </li>
                 <li>
-                  <a href="/documentation/developer/testing/index.html">Testing & Debugging</a>
+                  <a href="/developer/testing/">Testing & Debugging</a>
                 </li>
                 <li>
-                  <a href="/documentation/developer/updates/index.html">Updates</a>
+                  <a href="/developer/updates/">Updates</a>
                 </li>
                 <li>
-                  <a href="/documentation/developer/contribution/index.html">Contribution</a>
+                  <a href="/developer/contribution/">Contribution</a>
                 </li>
               </ul>
             </nav>
