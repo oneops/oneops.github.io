@@ -1,6 +1,12 @@
 ---
-layout: anchor-redirector
-title:  Anchor Redirector
+layout: user-doc
+title: How To
 ---
 
-# Anchor Redirector
+The user how to section includes the following topics:
+
+{% for p in site.pages %}
+{% if p.url contains page.url and p.url != page.url %}
+- [{{ p.title }}]({{ p.url }})
+{% endif %}
+{% endfor %}

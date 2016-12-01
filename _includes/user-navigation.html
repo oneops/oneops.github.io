@@ -55,15 +55,15 @@
                   </ul>
                 </li>
                 <li>
-                  <a onclick="$('#user-how-to').toggleClass('hidden');">How To 
+                  <a onclick="$('#user-how-to').toggleClass('hidden');" href="/user/howto/index.html">References
                   <span class="caret"></span></a>
-                  <ul id="user-how-to" class="hidden">
-                    {% for link in site.user-how-to %}
-                    {% assign current = nil %}
-                    {% if page.url contains link.url %}
-                      {% assign current = 'active' %}
-                    {% endif %}
-                    <li class="sub-menu-item {{current}}"><a href="/user/howto/{{ link.url }}">{{ link.title }}</a></li>
+                  <ul id="user-how-to" >
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/user/howto/" and currentpage.url != "/user/howto/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
