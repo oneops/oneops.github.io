@@ -19,6 +19,9 @@
                   <a onclick="$('#user-typical-usage-scenarios').toggleClass('hidden');">Typical Scenarios
                   <span class="caret"></span></a>
                   <ul id="user-typical-usage-scenarios" >
+                      <li class="sub-menu-item{% if page.url == '/user/typical-scenarios/' %} {{ " active" }} {% endif %}">
+                        <a href="/user/typical-scenarios/index.html">Index</a>
+                      </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/user/typical-scenarios/" and currentpage.url != "/user/typical-scenarios/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
@@ -32,6 +35,9 @@
                   <a onclick="$('#user-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
                   <ul id="user-best-practices" >
+                      <li class="sub-menu-item{% if page.url == '/user/best-practices/' %} {{ " active" }} {% endif %}">
+                        <a href="/user/best-practices/index.html">Index</a>
+                      </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/user/best-practices/" and currentpage.url != "/user/best-practices/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
@@ -45,6 +51,9 @@
                   <a onclick="$('#user-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
                   <ul id="user-references" >
+                      <li class="sub-menu-item{% if page.url == '/user/references/' %} {{ " active" }} {% endif %}">
+                        <a href="/user/references/index.html">Index</a>
+                      </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/user/references/" and currentpage.url != "/user/references/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
@@ -55,9 +64,12 @@
                   </ul>
                 </li>
                 <li>
-                  <a onclick="$('#user-how-to').toggleClass('hidden');">References
+                  <a onclick="$('#user-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="user-how-to" >
+                      <li class="sub-menu-item{% if page.url == '/user/howto/' %} {{ " active" }} {% endif %}">
+                        <a href="/user/howto/index.html">Index</a>
+                      </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/user/howto/" and currentpage.url != "/user/howto/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
