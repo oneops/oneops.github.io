@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Contribution
-id: "contribution"
 ---
 
 Our code is publicly available in several repos on GitHub at [https://github.com/oneops](https://github.com/oneops)
@@ -14,19 +13,22 @@ We utilize GitHub for issue tracking and contributions. You can contribute in tw
 
 # Contributing Code or Documentation
 
-For small changes — little bug fixes, correcting typos, and the like — please just submit pull requests to any of our
-projects. For larger changes, though, we have to ask you to electronically sign a statement that indicates two things:
+For small changes — little bug fixes, correcting typos, and the like — please submit pull requests to any of our 
+projects. For larger changes, we have to ask you to electronically sign a statement that indicates two things:
 
 1. You are willingly licensing your contributions under the terms of the open source license of the project that
 you are contributing to.
 2. You are legally able to license your contributions as stated.
 
-Once you sign the Contributor License Agreement (the “CLA”), we will  be able to merge your contributions with a 
-clear conscience and with only the friction that results from the usual technical back-and-forth of a vibrant open 
-source project. More details are on the [Sign the CLA page](https://github.com/oneops/OneOps/blob/master/sign-cla.md).
+Once you sign this Contributor License Agreement (the “CLA”), we will  be able to merge your contributions and with only
+the friction that results from the usual technical back-and-forth of a vibrant open source project. More details are on
+the [Sign the CLA page](https://github.com/oneops/OneOps/blob/master/sign-cla.md).
 
 Create [Pull-Requests](https://help.github.com/articles/creating-a-pull-request/) on your branch from master and we 
 will review and merge.
+
+The website is the main documentation for OneOps and we welcome pull requests for it as well. Further information can 
+be found in the [/developer/contribution/doc-guideline.html](documentation guideline).
 
 # Code Review Process
 
@@ -39,15 +41,12 @@ via github.com pull request page. When ready, your pull request will be tagged w
 3. Your patch will be merged into `master` including necessary documentation updates and you will be included in 
 `CHANGELOG.md`.
 
-
 # Apache 2.0 License
 
 OneOps uses the [Apache 2.0 license](https://github.com/oneops/oneops/blob/master/LICENSE) and any changes or
-enhancements will also use that license.
+enhancements have to use the same license.
 
-# <a name="issues"></a> OneOps Issue Tracking
-
-OneOps Issue Tracking is handled using GitHub Issues.
+# <a name="issues"></a> OneOps Issue Tracking in GitHub
 
 If you are familiar with OneOps and know the repository that is causing you a problem or if you have a feature request
 on a specific component, you can file an issue in the corresponding GitHub project. All of our Open Source Software 
@@ -62,7 +61,6 @@ below. You can copy/paste this template into the issue you are opening and edit 
 <a name="issuetemplate"></a>
 
 ~~~
-
 ### Version:
 [Version of the project installed]
 
@@ -80,7 +78,6 @@ below. You can copy/paste this template into the issue you are opening and edit 
 
 ### Actual Result:
 [What actually happens after the reproduction steps?]
-
 ~~~
 
 ## Useful GitHub Queries
