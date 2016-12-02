@@ -43,9 +43,11 @@ import:
 - https://raw.githubusercontent.com/oneops/setup/master/design/wire-design.yaml
 - https://raw.githubusercontent.com/oneops/setup/master/design/antenna-design.yaml
 ...
+
 variables:
   VAR1: "foor"
   VAR2: "bar"
+...
 
 platforms:
  db:
@@ -62,6 +64,7 @@ platforms:
            dbname: cool_app
            username: $OO_LOCAL{db-user}
            password: $OO_LOCAL{db-pass}
+...
 ```
 
 The file can be loaded using any of the following:
