@@ -1,6 +1,7 @@
 ---
 layout: admin-doc
 title: How To 
+---
 
 The admin how to section includes the following topics:
 
