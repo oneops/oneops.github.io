@@ -53,8 +53,8 @@ platforms:
  db:
      pack: oneops/postgresql:1
      variables:
-        db-user: $OO_GLOBAL{CMS-DB-USER}
-        db-pass: $OO_GLOBAL{CMS-DB-PASS}
+        db-user: $OO_GLOBAL{VAR1}
+        db-pass: $OO_GLOBAL{VAR2}
      components:
        compute/oneops.1.Compute:
           compute:
