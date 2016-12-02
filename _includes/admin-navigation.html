@@ -21,41 +21,68 @@
                   <a href="/admin/getting-started/">Getting Started</a>
                 </li>
                 <li>
-                  <a onclick="$('#admin-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
+                  <a onclick="$('#admin-typical-usage-scenarios').toggleClass('hidden');">Typical Scenarios
                   <span class="caret"></span></a>
                   <ul id="admin-typical-usage-scenarios" class="hidden">
-                    <li class="sub-menu-item"><a href="/admin/typical-scenarios/#upgrading-one-ops">Upgrading OneOps</a></li>
-                  </ul> 
+                      <li class="sub-menu-item{% if page.url == '/admin/typical-scenarios/' %} {{ " active" }} {% endif %}">
+                        <a href="/admin/typical-scenarios/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/admin/typical-scenarios/" and currentpage.url != "/admin/typical-scenarios/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
                 </li>
                 <li>
                   <a onclick="$('#admin-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
                   <ul id="admin-best-practices" class="hidden">
-                    <li class="sub-menu-item"><a href="/admin/best-practices/#running-OneOps-In-Production">Running OneOps in Production</a></li>
-                  </ul> 
+                      <li class="sub-menu-item{% if page.url == '/admin/best-practices/' %} {{ " active" }} {% endif %}">
+                        <a href="/admin/best-practices/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/admin/best-practices/" and currentpage.url != "/admin/best-practices/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
                 </li>
-                <li>
+                 <li>
                   <a onclick="$('#admin-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
                   <ul id="admin-references" class="hidden">
-                    <li class="sub-menu-item"><a href="/admin/references/#actionorder">Action Order</a></li>
-                    <li class="sub-menu-item"><a href="/admin/references/#client-side-aggregations">Client-Side Aggregations</a></li>
-                    <li class="sub-menu-item"><a href="/admin/references/#inductor">Inductor</a></li>
-                    <li class="sub-menu-item"><a href="/admin/references/#metric-data-source-type">Metric Data Source Type</a></li>
-                    <li class="sub-menu-item"><a href="/admin/references/#metrics-collection">Metrics Collection</a></li>
-                    <li class="sub-menu-item"><a href="/admin/references/#oneops-admin-gem">oneops-admin gem</a></li>
-                    <li class="sub-menu-item"><a href="/admin/references/#oneops-manages-oneops">OneOps Manages OneOps</a></li>
-                  </ul> 
+                      <li class="sub-menu-item{% if page.url == '/admin/references/' %} {{ " active" }} {% endif %}">
+                        <a href="/admin/references/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/admin/references/" and currentpage.url != "/admin/references/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
                 </li>
                 <li>
                   <a onclick="$('#admin-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="admin-how-to" class="hidden">
-                    <li class="sub-menu-item"><a href="/admin/howto/#build-install-configure-an-inductor">Build, Install, and Configure an Inductor</a></li>
-                    <li class="sub-menu-item"><a href="/admin/howto/#load-content-model-images">Load Content</a></li>
-                    <li class="sub-menu-item"><a href="/admin/howto/#sensors">Sensors</a></li>
-                    <li class="sub-menu-item"><a href="/admin/howto/#set-up-log-forwarding-to-es-with-logstash">Set Up Log Forwarding to ES with Logstash</a></li>
-                  </ul> 
+                      <li class="sub-menu-item{% if page.url == '/admin/howto/' %} {{ " active" }} {% endif %}">
+                        <a href="/user/howto/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/admin/howto/" and currentpage.url != "/admin/howto/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
                 </li>
                 <li>
                   <a href="/admin/tools/">Tools</a>
