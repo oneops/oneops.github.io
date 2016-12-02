@@ -27,8 +27,8 @@ the [Sign the CLA page](https://github.com/oneops/OneOps/blob/master/sign-cla.md
 Create [Pull-Requests](https://help.github.com/articles/creating-a-pull-request/) on your branch from master and we 
 will review and merge.
 
-The website is the main documentation for OneOps and we welcome pull requests for it as well. Further information can 
-be found in the [documentation guideline](/developer/contribution/doc-guideline.html).
+The website is the main documentation for OneOps and we welcome issues and pull requests for it as well. If you want to
+help, check out our [documentation guideline](/developer/contribution/doc-guideline.html).
 
 # Code Review Process
 
