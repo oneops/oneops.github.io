@@ -70,7 +70,27 @@ platforms:
 The file can be loaded using any of the following:
 * **UI** page for design load by uploading the yaml file or posting the yaml content directly in the text area. To get to the design load page in the UI go to the assembly design and click on the `Load` button in the header.
 * **CLI** command `oneops design load`. The defaults path for the Design file is `./oneops-design.yaml`. For additional information see <a href="/admin/key-concepts/index.html">CLI</a> section.
-* **API** call for design load. For additional information see <a href="/developer/references/design-attachments-api.html">Design API</a> reference.
+* **API** request for design load. Some examples using _cURL_:
+
+GET request to extract design in YAML format:
+```
+curl -u API_TOKEN:  .../assemblies/:assembly/design/extract.yaml
+```
+
+GET request to extract design in JSON format:
+```
+curl -u API_TOKEN:  .../assemblies/:assembly/design/extract.json
+```
+
+PUT request to load design from YAML file:
+```
+curl -u API_TOKEN:  .../assemblies/:assembly/design/load.json -X PUT -F "data_file=@design.yaml"
+```
+
+PUT requst to validate design load (no design release will be created) from JSON string:
+```
+curl -u API_TOKEN:  .../assemblies/:assembly/design/load.json -X PUT -d "preview=true&data=..."
+```
 
 
 # Global Variables
