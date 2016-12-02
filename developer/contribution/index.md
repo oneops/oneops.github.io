@@ -96,4 +96,4 @@ acceptance of an [RFC](https://github.com/chef/chef-rfc). These queries help tra
 # Provide Feedback or Contact Us
 
 You can provide feedback or contact us by sending email to support@oneops.com or by using one of the corresponding 
-Slack channels of the oneops.slack.com team: #admin, #devel, or #user.
+Slack channels of the [oneops.slack.com](https://oneops.slack.com) team: #admin, #devel, or #user.
