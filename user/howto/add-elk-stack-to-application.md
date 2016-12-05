@@ -11,9 +11,9 @@ This page details how to add [Elasticsearch](https://www.elastic.co/products/ela
 
 1. Add a new platform for Elasticsearch using the 'Elasticsearch with LB' pack.
 
-1. If required, edit the configuration under the Elasticsearch component  .
+1. If required, edit the configuration under the Elasticsearch component.
 
-1. Commit the design changes and deploy the new platform changes.
+1. Commit the design changes and deploy the new platform.
 
 1. Once Elasticsearch deployed successfully, you can access the user interface at http://ipaddress:9200
 
@@ -33,7 +33,7 @@ This page details how to add [Elasticsearch](https://www.elastic.co/products/ela
 
 The following steps are an example on how to configure Logstash to collect the Tomcat access log.
 
-1. Add a Logstash component under the Tomcat platform. 
+1. Add a Logstash component under the Tomcat platform.
 
 1. Edit the inputs, filters and outputs option as required.
 
