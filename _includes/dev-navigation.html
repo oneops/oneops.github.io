@@ -19,48 +19,46 @@
                   <a onclick="$('#dev-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
                   <span class="caret"></span></a>
                   <ul id="dev-typical-usage-scenarios" class="hidden">
-                    <li class="sub-menu-item"><a href="/developer/typical-scenarios/#modify-a-component">Modify existing component</a></li>
+                    <li class="sub-menu-item"><a href="/developer/typical-scenarios/modify-a-component.html">Modify Existing Component</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#dev-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
                   <ul id="dev-best-practices" class="hidden">
-                    <li class="sub-menu-item"><a href="/developer/best-practices/#pack-development">Pack Development</a></li>
+                    <li class="sub-menu-item"><a href="/developer/best-practices/pack-development.html">Pack Development</a></li>
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#dev-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
                   <ul id="dev-references" class="hidden">
-                    <li class="sub-menu-item"><a href="/developer/references/#oneops-api-documentation">OneOps API Documentation</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#assemblies-api">Assemblies API</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#ci-notification-format">CI Notification Format</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#component-list">Component List</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#default-monitor-thresholds">Default Monitor Thresholds</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#design-attachments-api">Design Attachments API</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#metadata">Metadata</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#monitor">Monitor</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#pack-policy">Pack Policy</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#packs-api">Packs API</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#platform-management-pack">Platform Management Pack</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#platforms">Platforms</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#relations">Relations</a></li>
-                    <li class="sub-menu-item"><a href="/developer/references/#relationships">Relationships</a></li>
+                     <li class="sub-menu-item{% if page.url == '/developer/references/' %} {{ "active" }} {% endif %}">
+                        <a href="/developer/references/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/developer/references/" and currentpage.url != "/developer/references/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ "active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
                   </ul> 
                 </li>
                 <li>
                   <a onclick="$('#dev-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="dev-how-to" class="hidden">
-                    <li class="sub-menu-item"><a href="/developer/howto/#add-monitors">Add Monitors</a></li>
-                    <li class="sub-menu-item"><a href="/developer/howto/#add-new-chef-cookbook-pack">Add a New Chef Cookbook and Pack to OneOps</a></li>
-                    <li class="sub-menu-item"><a href="/developer/howto/#add-new-platform-pack">Add a New Platform Pack</a></li>
-                    <li class="sub-menu-item"><a href="/developer/howto/#add-a-platform">Add a Platform</a></li>
-                    <li class="sub-menu-item"><a href="/developer/howto/#cms-sync">CMS Sync</a></li>
-                    <li class="sub-menu-item"><a href="/developer/howto/#create-a-custom-payload">Create a Custom Payload</a></li>
-                    <li class="sub-menu-item"><a href="/developer/howto/#create-parameterized-component-actions">Create Parameterized Component Actions</a></li>
-                    <li class="sub-menu-item"><a href="/developer/howto/#override-platform-attributes">Override Platform Attributes</a></li>
+                    <li class="sub-menu-item{% if page.url == '/developer/howto/' %} {{ "active" }} {% endif %}">
+                        <a href="/developer/howto/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/developer/howto/" and currentpage.url != "/developer/howto/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ "active" }} {% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
                   </ul> 
                 </li>
                 <li>
