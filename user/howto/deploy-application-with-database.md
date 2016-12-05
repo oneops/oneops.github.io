@@ -1,8 +1,6 @@
 ---
 layout: user-doc
-title: Deploy Application With database
-
-
+title: Deploy Application With Database
 ---
 
 # Purpose

@@ -1,11 +1,11 @@
 ---
 layout: user-doc
-title: Add ELK stack
+title: Add ELK Stack to an Application
 ---
 
 This page details how to add [Elasticsearch](https://www.elastic.co/products/elasticsearch),
 [Logstash](https://www.elastic.co/products/logstash) and [Kibana](https://www.elastic.co/products/kibana)
-- the Elastic stack or ELK stack - to your application.
+- the Elastic stack or ELK stack - to an application.
 
 # Elasticsearch Setup
 
@@ -35,7 +35,7 @@ The following steps are an example on how to configure Logstash to collect the T
 
 1. Add a Logstash component under the Tomcat platform.
 
-1. Edit the inputs, filters and outputs option as required.
+1. Edit the inputs, filters and outputs options as required.
 
 1. Deploy the Logstash component.
 
@@ -44,7 +44,7 @@ The following steps are an example on how to configure Logstash to collect the T
 
 # Validation
 
-1. Verify that indices are created on Elasticsearch after Logstash deployment at http://ipaddress:9200/_cat/indices and
-status is green.
+1. After the Logstash deployment, verify that indices are created on Elasticsearch at http://ipaddress:9200/_cat/indices
+and that the status is green.
 
 1. Now that logs are parsed and stored in Elasticsearch, you can configure Kibana to generate reports as required.
