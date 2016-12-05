@@ -10,7 +10,7 @@ database.
 
 # Highlevel Overview
 
-1.Setup MySQL database on OneOps.
+1. Setup MySQL database on OneOps.
 
 1. Create a schema on MySQL.
 
@@ -33,7 +33,7 @@ database.
 1. Go to the transition tab and create a new environment. The newly created environment will pull all the design 
 changes.
 
-1. Once the design pull is completed, click on the commit and deploy butto. It shows the deployment plan. If no changes
+1. Once the design pull is completed, click on the commit and deploy button. It shows the deployment plan. If no changes
 are required, click on the "Deploy" button. This action acquires a new VM, installs MySQL, configures the database and
 starts MySQL.
 
