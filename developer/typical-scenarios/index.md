@@ -1,14 +1,15 @@
 ---
 layout: dev-doc
-title: Modify existing component
-id: modify-a-component
+title: Typical Scenarios
+id: typical-scenarios
 ---
 
-# Scenario Context
+The Developer Typical Scenarios section includes the following topics:
 
-Adding a new *attribute* to component is done routinely. For example you want to add support for *pre shut down* command in *apache* webserver.  You can do by the following
-
-* Modify the component's **metadata.rb** file to add the attribute details.
-* Modify the recipe's to use **prestart** attribute to execute the pre shut down command.
-
-* To upload the metadata and test follow the instructions on <a href="/developer/getting-started/">getting-started</a>
+<ul>
+{% for p in site.pages %}
+{% if p.url contains page.url and p.url != page.url %}
+  <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
