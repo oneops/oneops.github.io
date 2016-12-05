@@ -4,16 +4,16 @@
    
               <ul class="nav">
                 <li>
-                  <a href="/developer/overview/">Overview</a>
+                  <a href="/developer/overview/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Overview</a>
                 </li>
                 <li>
-                  <a href="/developer/key-concepts/">Key Concepts</a>
+                  <a href="/developer/key-concepts/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Key Concepts</a>
                 </li>
                 <li>
-                  <a href="/developer/prerequisites/">Prerequisites</a>
+                  <a href="/developer/prerequisites/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Prerequisites</a>
                 </li>
                 <li>
-                  <a href="/developer/getting-started/">Getting Started</a>
+                  <a href="/developer/getting-started/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Getting Started</a>
                 </li>
                 <li>
                   <a onclick="$('#dev-typical-usage-scenarios').toggleClass('hidden');">Typical Usage Scenarios
@@ -62,16 +62,16 @@
                   </ul> 
                 </li>
                 <li>
-                  <a href="/developer/tools/">Tools</a>
+                  <a href="/developer/tools/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Tools</a>
                 </li>
                 <li>
-                  <a href="/developer/testing/">Testing & Debugging</a>
+                  <a href="/developer/testing/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Testing & Debugging</a>
                 </li>
                 <li>
-                  <a href="/developer/updates/">Updates</a>
+                  <a href="/developer/updates/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Updates</a>
                 </li>
                 <li>
-                  <a href="/developer/contribution/">Contribution</a>
+                  <a href="/developer/contribution/" {% if page.url contains '/developer/' %} {{ 'class= "active"' }} {% endif %}>Contribution</a>
                 </li>
               </ul>
             </nav>
