@@ -34,12 +34,12 @@ navigation:
    url: /documentation.html
 
 documentation:
- - title: USERS
-   url: /user/overview/
- - title: ADMINS
-   url: /admin/overview/
- - title: DEVELOPERS
-   url: /developer/overview/
+ - title: user
+   url: /overview/
+ - title: admin
+   url: /overview/
+ - title: developer
+   url: /overview/
 
 sources:
  confluence:
