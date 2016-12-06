@@ -8,7 +8,7 @@ layout: null
 {
   "title":"{{ p.title | replace:'\','%5C' | replace:'"','\"' }}",
   "url":"{{ site.baseurl }}{{ p.url | remove: context_path }}",
-  "content":"{{ p.content | strip_newlines | replace:'\','%5C' | replace:'"','\"' }}"
+  "content":"{{ p.content | strip_newlines | strip_html | replace:'\','%5C' | replace:'"','\"' }}"
 },{% endunless %}{% endif %}{% endfor %}
 {
   "title":"",
