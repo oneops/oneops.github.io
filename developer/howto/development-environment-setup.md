@@ -1,207 +1,256 @@
 ---
 layout: dev-doc
-title: Development Environment Setup (OSX / Linux)
+title: Development Environment Setup
 ---
-* [Prerequisites](#prerequisites)
-* [Step by Step guide](#step-by-step-guide)
-    * [Core Steps](#core-steps)
-    * [Inductor Setup](#inductor-setup)
-    * [Run Applications on Tomcat](#run-applications-on-tomcat)
-    * [Circuit Setup](#circuit-setup)
-    * [Run OneOps](#run-oneops)
-    * [Additional](#additional)
-        * [ElasticSearch](#elasticsearch)
+
+# Introduction
+
+This page details the steps to start development on OneOps. The instructions are aimed for OSX and Linux operating
+system usage.
 
 # Prerequisites
+
 - Java
-- Maven
+- Apache Maven 3.1.1
 - Ruby
 - Gems
 - Git
-- Favorite IDE like eclipse or STS
-- Create an **install** directory inside your home directory ($ mkdir ~/install)
-- Download the following open-source softwares from the web into the **install** directory:
+- Favorite IDE like EclipseIDE or STS
+- Create an `install` directory inside your home directory.
+- Download the following open-source softwares into the `install` directory:
     * [Active-MQ version 5.11.1](http://activemq.apache.org/activemq-5111-release.html)
     * [Apache Tomcat 6](http://mirrors.gigenet.com/apache/tomcat/tomcat-6/v6.0.48/bin/apache-tomcat-6.0.48.tar.gz)
     * [Apache Cassandra](http://archive.apache.org/dist/cassandra/1.2.6/apache-cassandra-1.2.6-bin.tar.gz)
-    * [Apache Maven](http://www.trieuvan.com/apache/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz)
     * [PostgreSQL 9.2](https://www.postgresql.org/download/)
-    * [Spring Tool Suite](http://download.springsource.com/milestone/STS/3.5.0.M1/dist/e4.3/spring-tool-suite-3.5.0.M1-e4.3.1-macosx-cocoa-x86_64-installer.dmg) (or) Any IDE
     * [Elasticsearch 1.7.1](https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.zip)
-    * `curl -sSL https://get.rvm.io | bash` (RVM installation step) [Ensure to run this in your home directory]
+- [RVM](https://rvm.io/)
 
-# Step by Step guide
-## Core Steps
-1. Fork, clone and import below projects into your favorite IDE into any directory (eg: ~/work/projects/walmart)
-    - [cmsdal](https://github.com/oneops/cmsdal) 
-    - [oo-commons](https://github.com/oneops/oo-commons) 
-    - [amq-plugin](https://github.com/oneops/amq-plugin)
-    - [adapter](https://github.com/oneops/adapter)
-    - [antenna](https://github.com/oneops/antenna)
-    - [cms-admin](https://github.com/oneops/cms-admin)
-    - [controller](https://github.com/oneops/controller)
-    - [opamp](https://github.com/oneops/opamp)
-    - [sensor](https://github.com/oneops/sensor)
-    - [transistor](https://github.com/oneops/transistor)
-    - [transmitter](https://github.com/oneops/transmitter)
-    - [inductor](https://github.com/oneops/inductor)
-    - [search](https://github.com/oneops/search)
-    - [circuit-oneops-1](https://github.com/oneops/circuit-oneops-1)
-    - [db-schema](https://github.com/oneops/db-schema)
-    - [display](https://github.com/oneops/display)
-    - [oneops-admin](https://github.com/oneops/oneops-admin)
+# Get Sources
 
-2. Do `mvn clean install` in this specific order : **cmsdal, oo-common, amq-plugin, adapter, antenna, cms-admin, controller, opamp, sensor, transistor, transmitter, inductor**
+Fork, clone and import the following projects into your favorite IDE. Use a common directory such as
+`~/work/projects/walmart`.
 
-3. Verify environment variables as per your local folder path.
-```shell
-    export OO_HOME=~/work/projects/walmart
-    export CASSANDRA_HOME=~/install/apache-cassandra-1.2.6/
-    export AMQ_HOME=~/install/apache-activemq-5.11.1
-    export AMQ_PLUGIN_HOME=$OO_HOME/amq-plugin
-    export PG_HOME=/Library/PostgreSQL/9.2
-    export KLOOPZDB_HOME=$OO_HOME/db-schema/db
-```
-> It might be useful to add these variables to `~/.bash_profile`
-	
-4. Edit below entry in `etc/hosts` file.
-```shell
-    #Before
-    127.0.0.1       localhost
-    #After
-    127.0.0.1       localhost api antenna opsmq daq kloopzappdb kloopzcmsdb cmsapi sensor activitidb kloopzmq kloopzapp search searchmq opsdb activemqdb
-```
+- [cmsdal - https://github.com/oneops/cmsdal](https://github.com/oneops/cmsdal)
+- [oo-commons - https://github.com/oneops/oo-commons](https://github.com/oneops/oo-commons)
+- [amq-plugin - https://github.com/oneops/amq-plugin](https://github.com/oneops/amq-plugin)
+- [adapter - https://github.com/oneops/adapter](https://github.com/oneops/adapter)
+- [antenna - https://github.com/oneops/antenna](https://github.com/oneops/antenna)
+- [cms-admin - https://github.com/oneops/cms-admin](https://github.com/oneops/cms-admin)
+- [controller - https://github.com/oneops/controller](https://github.com/oneops/controller)
+- [opamp - https://github.com/oneops/opamp](https://github.com/oneops/opamp)
+- [sensor - https://github.com/oneops/sensor](https://github.com/oneops/sensor)
+- [transistor - https://github.com/oneops/transistor](https://github.com/oneops/transistor)
+- [transmitter - https://github.com/oneops/transmitter](https://github.com/oneops/transmitter)
+- [inductor - https://github.com/oneops/inductor](https://github.com/oneops/inductor)
+- [search - https://github.com/oneops/search](https://github.com/oneops/search)
+- [circuit-oneops-1 - https://github.com/oneops/circuit-oneops-1](https://github.com/oneops/circuit-oneops-1)
+- [db-schema - https://github.com/oneops/db-schema](https://github.com/oneops/db-schema)
+- [display - https://github.com/oneops/display](https://github.com/oneops/display)
+- [oneops-admin - https://github.com/oneops/oneops-admin](https://github.com/oneops/oneops-admin)
 
-5. Create database schema.
-    - Navigate to $OO_HOME/db-schema/db
-    - Connect to local postgres database via command line as shown below
-        - $sudo -u postgres psql postgres
-        - Execute the script
-            - postgres=# \i single_db_schemas.sql
-            - postgres=# /q
-    - ./install-db.sh
-    - ./install-activitidb.sh
+# Build Projects
 
-6. Validate database setup by connecting to all 3 databases : **user, cms & activity**
+Run a build on the projects with `mvn clean install` in this specific order:
 
-    | Database    |                             Jdbc URL        |  Credentials        |
-    | ----------- |:-------------                               |       -----         |
-    | User DB     | jdbc:postgresql://127.0.0.1:5432/kloopzapp  | kloopz / kloopz     |
-    | CMS DB      | jdbc:postgresql://127.0.0.1:5432/kloopzdb   | kloopzcm / kloopzcm |
-    | Activiti DB | jdbc:postgresql://127.0.0.1:5432/activitidb | activiti / activiti |
+1. cmsdal
+1. oo-common
+1. amq-plugin
+1. adapter
+1. antenna
+1. cms-admin
+1. controller
+1. opamp
+1. sensor
+1. transistor
+1. transmitter
+1. inductor
 
-7. Copy `amqplugin-1.0.0-fat.jar` to ActiveMQ's lib folder (We can find this at maven repository. Eg: **~/.m2/repository/com/oneops/amqplugin/1.0.0/amqplugin-1.0.0-fat.jar**).
+# Environment Setup
 
-8. Copy activemq.xml to activemq conf folder.
-```shell
-    $ cd $AMQ_HOME/conf
-    $ curl -o activemq.xml https://raw.githubusercontent.com/oneops/amq-plugin/master/src/main/resources/conf/amq_local_kahadb.xml
-```
+Configure the required environment variables as per your local setup.
 
-9. Set environment variable KLOOPZ_AMQ_PASS for successfully startup of activemq (`export KLOOPZ_AMQ_PASS=kloopzamqpass`)
+{% highlight shell %}
+export OO_HOME=~/work/projects/walmart
+export CASSANDRA_HOME=~/install/apache-cassandra-1.2.6/
+export AMQ_HOME=~/install/apache-activemq-5.11.1
+export AMQ_PLUGIN_HOME=$OO_HOME/amq-plugin
+export PG_HOME=/Library/PostgreSQL/9.2
+export KLOOPZDB_HOME=$OO_HOME/db-schema/db
+{% endhighlight %}
 
-10. Now start activemq server.
-```shell
-    $ cd $AMQ_HOME/bin
+Optionally configure these variables in a script or even in your shell startup in `~/.bash_profile` or
+`~/.profile`.
+  
+Add a number of host names for OneOps in your `etc/hosts` file in addition to `localhost`:
+
+{% highlight shell %}
+#Before
+127.0.0.1       localhost
+#After
+127.0.0.1       localhost api antenna opsmq daq kloopzappdb kloopzcmsdb cmsapi sensor activitidb kloopzmq kloopzapp search searchmq opsdb activemqdb
+{% endhighlight %}
+
+
+# Database Schema
+
+Create the database schema:
+
+1. Navigate to $OO_HOME/db-schema/db
+1. Connect to the local postgres database via command line with - `$sudo -u postgres psql postgres`
+1. Execute the scripts
+
+
+{% highlight bash %}
+postgres=# \i single_db_schemas.sql
+postgres=# /q
+./install-db.sh
+./install-activitidb.sh
+{% endhighlight %}
+
+Validate database setup by connecting to all 3 databases - `user`, `cms` and `activity`.
+
+{% highlight bash %}
+| Database    |                             Jdbc URL        |  Credentials        |
+| ----------- |:-------------                               |       -----         |
+| User DB     | jdbc:postgresql://127.0.0.1:5432/kloopzapp  | kloopz / kloopz     |
+| CMS DB      | jdbc:postgresql://127.0.0.1:5432/kloopzdb   | kloopzcm / kloopzcm |
+| Activiti DB | jdbc:postgresql://127.0.0.1:5432/activitidb | activiti / activiti |
+{% endhighlight%}
+
+# ActiveMQ Setup
+
+Copy the file `amqplugin-1.0.0-fat.jar` from `~/.m2/repository/com/oneops/amqplugin/1.0.0/` to ActiveMQ's `lib`
+folder.
+
+Copy activemq.xml to the ActiveMP `conf` folder.
+
+{% highlight bash %}
+$ cd $AMQ_HOME/conf
+$ curl -o activemq.xml https://raw.githubusercontent.com/oneops/amq-plugin/master/src/main/resources/conf/amq_local_kahadb.xml
+{% endhighlight %}
+
+Set environment variable `KLOOPZ_AMQ_PASS` with `export KLOOPZ_AMQ_PASS=kloopzamqpass`
+
+Now start ActivemqMQ server with
+
+{% highlight bash %}
+$ cd $AMQ_HOME/bin
     
-    # Based on OS environment, go to specific folder i.e macosx or linux-x86-64 or linux-x86-32 
-    $ cd /macosx
-    $ ./activemq restart && tail -100f ../../data/wrapper.log
-```
-> Once server is started successfully. Open http://localhost:8161/admin with default credentials **admin/admin**
+# Based on OS environment, go to specific folder i.e macosx or linux-x86-64 or linux-x86-32 
+$ cd /macosx
+$ ./activemq restart && tail -100f ../../data/wrapper.log
+{% endhighlight %}
+
+Once the server started successfully, check the user interface at
+ [http://localhost:8161/admin](http://localhost:8161/admin) and log in with the default credentials
+ **admin/admin**.
 
 
-## Inductor Setup
+# Inductor Setup
 
-1. Setup stub for inductor
-```shell
-    $ cd $OO_HOME/dev-tools/inductor-stub
-    $ mvn clean install
-```
+Setup the stub for inductor:
 
-2. **Prepare:** Inductor gem
-```shell
-    $ cd $OO_HOME/oneops-admin
-    $ mkdir target
-    $ cp $OO_HOME/inductor/target/inductor-1.1.0.jar target/
-    $ gem build oneops-admin.gemspec
-```
+{% highlight bash %}
+$ cd $OO_HOME/dev-tools/inductor-stub
+$ mvn clean install
+{% endhighlight %}
 
-3. **Install:** Inductor via gem
-```shell
-    $ gem install oneops-admin-1.0.0.gem
-```
-> This step might take 2-3 mins.
-	
-4. **Validate:** Execute `inductor help`
+Prepare and install the Inductor gem:
 
-    > In case of error, provide complete permission to rvm or rubies folder.
+{% highlight bash %}
+$ cd $OO_HOME/oneops-admin
+$ mkdir target
+$ cp $OO_HOME/inductor/target/inductor-1.1.0.jar target/
+$ gem build oneops-admin.gemspec
+$ gem install oneops-admin-1.0.0.gem
+{% endhighlight %}
 
-5. Create one inductor for each cloud like aws, azure, openstack, etc..
-```shell
-    $ cd ~/install
-    $ inductor create
-    $ cd inductor
-    $ inductor add
-        Queue? /public/oneops/clouds/aws
-        What is the authorization key? awssecretkey
-```
+This step might take 2-3 mins.
+  
+You can validate a successful install with the command `inductor help`.  In case of any errors, it can be helpful
+to provide complete permissions to rvm or rubies folder.
 
-6. Edit cloud related information in `~/install/inductor/clouds-enabled/public.oneops.clouds.aws/conf/inductor.properties` as shown below
-```
-    max_consumers = 10
-    local_max_consumers = 10
-    amq.authkey = awssecretkey
-    amq.zone = /public/oneops/clouds:aws
+Create one inductor for each cloud like aws, azure, openstack, etc..
+
+{% highlight bash %}
+$ cd ~/install
+$ inductor create
+$ cd inductor
+$ inductor add
+Queue? /public/oneops/clouds/aws
+What is the authorization key? awssecretkey
+{% endhighlight %}
+
+
+Edit cloud related information in
+`~/install/inductor/clouds-enabled/public.oneops.clouds.aws/conf/inductor.properties` as shown below
+
+{% highlight bash %}
+max_consumers = 10
+local_max_consumers = 10
+amq.authkey = awssecretkey
+amq.zone = /public/oneops/clouds:aws
         
-    # Following needs to be uncommented in case if we want to stub the cloud
-    #stub.clouds=dev-dfwstg2 #This is the cloud we create through OneOps display UI.
-    #stub.responseTimeInSeconds=1
-    #stubResultCode=0
-```
+# Following needs to be uncommented in case if we want to stub the cloud
+#stub.clouds=dev-dfwstg2 #This is the cloud we create through OneOps display UI.
+#stub.responseTimeInSeconds=1
+#stubResultCode=0
+{% endhighlight %}
 
-7. Provide trustStore as vm argument for proper activeMQ connection in `~/install/inductor/clouds-enabled/public.oneops.clouds.aws/conf/vmargs`.
+Provide `trustStore` as JVM startup argument for proper activeMQ connection in
+`~/install/inductor/clouds-enabled/public.oneops.clouds.aws/conf/vmargs`.
 
-        -Djavax.net.ssl.trustStore=$AMQ_HOME/conf/client.ts
+{% highlight bash %}
+-Djavax.net.ssl.trustStore=$AMQ_HOME/conf/client.ts
+{% endhighlight %}
 
-8. Link circuit-oneops-1 inside inductor.
-```shell
-    $ cd ~/install/inductor
-    $ ln -s $OO_HOME/circuit-oneops-1 circuit-oneops-1
-```
+Link circuit-oneops-1 inside inductor.
 
-9. Start the inductor.
-```shell
-    $ inductor start
-```
-> Command to check inductor status: `inductor status` (or) `ps –ef | grep inductor`
+{% highlight bash %}
+$ cd ~/install/inductor
+$ ln -s $OO_HOME/circuit-oneops-1 circuit-oneops-1
+{% endhighlight %}
 
-## Run Applications on Tomcat
+Start the inductor.
 
-1. Start cassandra.
-```shell
-    $ cd $CASSANDRA_HOME/bin
-    $ sudo -S ./cassandra -f
-```
-> Stop Cassandra: `sudo -S pgrep -f cassandra | xargs -n 1 sudo kill -9`
+{% highlight bash %}
+$ inductor start
+{% endhighlight %}
 
-2. Add below projects to tomcat server.
+You can check the status of Inductor with `inductor status` (or) `ps –ef | grep inductor`
 
-    ![ServerProjects](/assets/docs/local/images/environment-setup-tomcat-projects.png)
+# Running the Applications on Tomcat
 
-3. Add below as additional vm args to tomcat server.
-```
+Start Cassandra.
+
+{% highlight bash %}
+$ cd $CASSANDRA_HOME/bin
+$ sudo -S ./cassandra -f
+{% endhighlight %}
+
+You can stop Cassandra with `sudo -S pgrep -f cassandra | xargs -n 1 sudo kill -9`
+
+Add the following projects to Tomcat server.
+
+![ServerProjects](/assets/docs/local/images/environment-setup-tomcat-projects.png)
+
+Add the additional JVM arguments to Tomcat server startup parameters
+
+{% highlight bash %}
 -Doneops.url="http://localhost:3000" -Dcom.oneops.sensor.chdowntime=315360000 -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -Xms512M -Xmx1024M -XX:MaxPermSize=512m -Dcom.sensor.cistates.cl=ONE
-```
+{% endhighlight %}
 
-4. Execute below command from $OO_HOME
-```shell
-    $ cd $OO_HOME
-    $ dd if=/dev/random count=24 bs=1 | xxd -ps > oo.des
-```
+Create a file with 24 byte random string in `$OO_HOME`:
 
-5. Add below environment variables to tomcat server.
-```
+{% highlight bash %}
+$ cd $OO_HOME
+$ dd if=/dev/random count=24 bs=1 | xxd -ps > oo.des
+{% endhighlight %}
+
+
+Add environment variables to Tomcat server.
+
+{% highlight bash %}
 ACTIVITI_DB_HOST=kloopzcmsdb
 ACTIVITI_DB_USER=activiti
 ACTIVITI_DB_PASS=activiti
@@ -231,36 +280,31 @@ SEARCH_PUBLISH_ASYNC=false
 SEARCHMQ_USER=superuser
 SEARCHMQ_PASS=kloopzamqpass
 TRANSMITTER_SEARCH_PUBLISH_POOLSIZE=30
-```
+{% endhighlight %}
+
 > Replace **$OO_HOME** value as the expression is not evaluated here.
 > We provided **default credentials**. Relace those according to yours.
 
-6. Create missing directories.
-```shell
-    $ mkdir -p /opt/oneops/controller/antenna/retry
-    $ mkdir -p /opt/oneops/opamp/antenna/retry
-    $ mkdir -p /opt/oneops/cms-publisher/antenna/retry
-    $ mkdir -p /opt/oneops/transmitter/antenna/retry
-    $ mkdir -p /opt/oneops/transmitter/search/retry
-    $ mkdir -p /opt/oneops/controller/search/retry
-    $ mkdir -p /opt/oneops/opamp/search/retry
-```
+Create missing `retry` directories.
 
-7. Start tomcat server. All applications should be deployed without any error in console.
+{% highlight bash %}
+$ mkdir -p /opt/oneops/controller/antenna/retry
+$ mkdir -p /opt/oneops/opamp/antenna/retry
+$ mkdir -p /opt/oneops/cms-publisher/antenna/retry
+$ mkdir -p /opt/oneops/transmitter/antenna/retry
+$ mkdir -p /opt/oneops/transmitter/search/retry
+$ mkdir -p /opt/oneops/controller/search/retry
+$ mkdir -p /opt/oneops/opamp/search/retry
+{% endhighlight %}
 
-## Circuit Setup
-Run below command to install circuit component.
+Start the Tomcat server. All applications should be deployed without any error in console.
 
-```shell
+# Circuit Setup
+
+Run below command to install the Circuit component after installing Inductor.
+
+{% highlight bash %}
 ----Optional start-------------------
-#Only if inductor gems needs any update
-$ cd $OO_HOME/oneops-admin
-$ gem uninstall -x oneops-admin
-$ gem build oneops-admin.gemspec
-$ gem install oneops-admin-1.0.0.gem --no-ri --no-rdoc  
-#This step might take 2-3 mins
------Optional end-----------------
-
 $ export CMS_API=http://localhost:8080
 $ export CMSAPI=http://localhost:8080
 $ mkdir -p  $OO_HOME/circuit-install
@@ -272,67 +316,78 @@ $ circuit init
 $ cd $OO_HOME/circuit-oneops-1
 $ bundle install
 $ circuit install
-```
-> In case if you face any errors try  `bundle exec circuit create`. Make sure tomcat is running
+{% endhighlight %}
 
-## Run OneOps
-1. Add below environment variables to `~/.bash_profile`.
-```shell
-    export OODB_HOST=localhost
-    export OODB_USERNAME=********
-    export OODB_PASSWORD=********
-```
+In case if you face any errors try `bundle exec circuit create` and ensure that Tomcat is running
 
-2. Install bundler
-```shell
-    $ cd $OO_HOME/display
-    $ gem install bundler
-    $ bundle install
-```
+# Running OneOps
 
-3. Setup database's DDL & DML
-```shell
-    $ cd $OO_HOME/display
-    $ bundle exec rake db:schema:load
-    $ bundle exec rake db:migrate  
-```
+Add below environment variables to `~/.bash_profile`.
 
-4. Run Ruby on Rails server
-```shell
-    $ cd $OO_HOME/display
-    $ rails server
-```
+{% highlight bash %}
+export OODB_HOST=localhost
+export OODB_USERNAME=********
+export OODB_PASSWORD=********
+{% endhighlight %}
+
+Install bundler
+
+{% highlight bash %}
+$ cd $OO_HOME/display
+$ gem install bundler
+$ bundle install
+{% endhighlight %}
+
+Set up the database's DDL & DML
+
+{% highlight bash %}
+$ cd $OO_HOME/display
+$ bundle exec rake db:schema:load
+$ bundle exec rake db:migrate
+{% endhighlight %}
+
+Start the Ruby on Rails server
+
+{% highlight bash %}
+$ cd $OO_HOME/display
+$ rails server
+{% endhighlight %}
+
 > If the above gives error, try with `bundle exec rails server`
 
-5. Now, OneOps UI should be available at http://localhost:3000
+Now, the OneOps UI is available at [http://localhost:3000](http://localhost:3000)
 
-## Additional
 
-### ElasticSearch
+# ElasticSearch
 
-1. As part of development environment elasticsearch is already downloaded at ~/install/elasticsearch1.7.1.
+As part of development environment setup Elasticsearch is already downloaded at `~/install/elasticsearch1.7.1`.
 
-2. Change cluster name to oneops in `~/install/elasticsearch1.7.1/config/elasticsearch.yml`
-```
-    cluster.name: oneops
-```
+Change cluster name to `oneops` in `~/install/elasticsearch1.7.1/config/elasticsearch.yml`
 
-3. Start elasticsearch. Elasticsearch URL :  http://localhost:9200/
-```shell
-    $ cd ~/install/elasticsearch1.7.1/bin
-    $ ./elasticsearch
-```
+{% highlight bash %}
+cluster.name: oneops
+{% endhighlight %}
 
-4. Setup OneOps related templates & data. Refer to [README](https://github.com/oneops/search).
-```shell
-    $ cd $OO_HOME/search/src/main/resources/es/templates
-    $ curl -d @./cms_template.json -X PUT http://localhost:9200/_template/cms_template
-    $ curl -d @./event_template.json -X PUT http://localhost:9200/_template/event_template
-    $ curl -d @./cost_template.json -X PUT http://localhost:9200/_template/cost_template
-    $ cd $OO_HOME/search
-```
+Start Elasticsearch and access the UI at http://localhost:9200/
+
+{% highlight bash %}
+$ cd ~/install/elasticsearch1.7.1/bin
+$ ./elasticsearch
+{% endhighlight %}
+
+Setup OneOps related templates & data. Refer to [README](https://github.com/oneops/search).
+
+{% highlight bash %}
+$ cd $OO_HOME/search/src/main/resources/es/templates
+$ curl -d @./cms_template.json -X PUT http://localhost:9200/_template/cms_template
+$ curl -d @./event_template.json -X PUT http://localhost:9200/_template/event_template
+$ curl -d @./cost_template.json -X PUT http://localhost:9200/_template/cost_template
+$ cd $OO_HOME/search
+{% endhighlight %}
 
 5. Run SearchListener
-```shell
-    $ java -jar -Dnodes=localhost:9300 -Dindex.name=cms-all -Damq.user=system -Damq.pass=abcd -Dcluster.name=oneops target/search.jar -Dsun.net.spi.nameservice.provider.1=dns,sun -Dsun.net.spi.nameservice.provider.2=default
-```
+
+{% highlight bash %}
+$ java -jar -Dnodes=localhost:9300 -Dindex.name=cms-all -Damq.user=system -Damq.pass=abcd -Dcluster.name=oneops target/search.jar -Dsun.net.spi.nameservice.provider.1=dns,sun -Dsun.net.spi.nameservice.provider.2=default
+{% endhighlight %}
+
