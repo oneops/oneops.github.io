@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Attachments
-id: attachments
 ---
 
 Attachments create files or perform custom actions with your code or command lines. An Attachment can be assigned to execute any combination of the following Component actions:
