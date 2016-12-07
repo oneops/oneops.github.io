@@ -385,7 +385,7 @@ $ curl -d @./cost_template.json -X PUT http://localhost:9200/_template/cost_temp
 $ cd $OO_HOME/search
 {% endhighlight %}
 
-5. Run SearchListener
+Run SearchListener
 
 {% highlight bash %}
 $ java -jar -Dnodes=localhost:9300 -Dindex.name=cms-all -Damq.user=system -Damq.pass=abcd -Dcluster.name=oneops target/search.jar -Dsun.net.spi.nameservice.provider.1=dns,sun -Dsun.net.spi.nameservice.provider.2=default
