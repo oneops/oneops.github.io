@@ -7,15 +7,15 @@
   <!--menu-->
   <nav id="topnav">
     <ul>
-      {% for link in site.documentation %}
+    {% for link in site.documentation %}
       {% assign current = nil %}
-      {% if page.url contains link.url %}
+      {% if page.url contains link.title %}
         {% assign current = 'active' %}
       {% endif %}
       <li>
-        <a href="{{ link.url }}" class="{{current}}">{{ link.title }}</a>
+        <a href="/{{ link.title }}/{{ link.url }}" class="{{ current }}">{{ link.title | upcase }}S</a>
       </li>
-      {% endfor %}
+    {% endfor %}
     </ul>
 	<div class="global-search">
         <span class="icon-search gsi"></span>
@@ -23,3 +23,4 @@
       </div>
   </nav>
 </section>
+
