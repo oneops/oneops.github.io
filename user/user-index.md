@@ -46,5 +46,6 @@ title: User Documentation Index
   </li>
   <li><a href="/user/tools/">Tools</a></li>
   <li><a href="/user/testing/">Testing & Debugging</a></li>
-  <li><a href="/user/updates/" >Updates</a></li>
+  <li><a href="/developer/updates/">Updates</a></li>
+  <li><a href="/developer/contribution/">Contribution</a></li>
 </ul>
