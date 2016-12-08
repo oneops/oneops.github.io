@@ -7,7 +7,7 @@ layout: null
 [{% for p in site.pages %}{% unless p.url contains "/searchmap.json" %}
 {
   "title":"{{ p.title }}",
-  "url":"{{ site.baseurl }}{{ p.url }}",
+  "url":"{{ site.url }}{{ p.url }}",
   "content":"{{ p.content | strip_newlines | strip_html }}"
 },{% endunless %}{% endfor %}
 {
