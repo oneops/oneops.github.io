@@ -8,7 +8,7 @@ layout: null
 {
   "title":"{{ p.title }}",
   "url":"{{ site.url }}{{ p.url }}",
-  "content":"{{ p.content | strip_newlines | strip_html }}"
+  "content":"{{ p.content | strip_newlines | strip_html | replace:'\','%5C' | replace:'"','\"'}}"
 },{% endunless %}{% endfor %}
 {
   "title":"",
