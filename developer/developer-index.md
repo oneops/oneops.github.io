@@ -46,6 +46,5 @@ title: Developer Documentation Index
   </li>
   <li><a href="/developer/tools/">Tools</a></li>
   <li><a href="/developer/testing/">Testing & Debugging</a></li>
-  <li><a href="/developer/updates/">Updates</a></li>
   <li><a href="/developer/contribution/">Contribution</a></li>
 </ul>

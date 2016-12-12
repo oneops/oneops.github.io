@@ -28,5 +28,4 @@ Refer to the following documentation as you work.
 * **<a href="/user/typical-scenarios/">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
 * **<a href="/admin/references/">References:</a>** Detailed code usage descriptions with code snippets
 * **<a href="/admin/testing/">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
-* **<a href="/admin/updates/">Updates:</a>** Release and patch announcements as well as articles of interest to OneOps users
 * **<a href="/admin/contribution/">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
