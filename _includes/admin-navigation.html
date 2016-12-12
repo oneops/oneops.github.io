@@ -2,96 +2,94 @@
    <h4>Search</h4>
    <input data-name="search" data-search-types="section" data-search-name="{{ site.searchname }}{{ context }}" type="text" value="Search" class="side-nav-search-input"/>
 </article>-->
-            
             <!--left sub navigation-->
             <nav id="sidenav">
               <h2>DOCUMENTATION</h2>
-   
               <ul class="nav">
-                <li>
-                  <a href="/admin/overview/" {% if page.url contains '/admin/' %} {{ class="active" }} {% endif %}>Overview</a>
+                <li{% if page.url contains "/admin/overview/" %} class="active" {% endif %}>
+                  <a href="/admin/overview/">Overview</a>
                 </li>
-                <li>
-                  <a href="/admin/admin-index.html" {% if page.url contains '/admin/' %} {{ class="active" }} {% endif %}>Index</a>
+                <li{% if page.url contains "/admin/admin-index.html" %} class="active" {% endif %}>
+                  <a href="/admin/admin-index.html">Index</a>
                 </li>
-                <li>
-                  <a href="/admin/key-concepts/" {% if page.url contains '/admin/' %} {{ class="active" }} {% endif %}>Key Concepts</a>
+                <li{% if page.url contains "/admin/key-concepts/" %} class="active" {% endif %}>
+                  <a href="/admin/key-concepts/">Key Concepts</a>
                 </li>
-                <li>
-                  <a href="/admin/prerequisites/" {% if page.url contains '/admin/' %} {{ class="active" }} {% endif %}>Prerequisites</a>
+                <li{% if page.url contains "/admin/prerequisites/" %} class="active" {% endif %}>
+                  <a href="/admin/prerequisites/">Prerequisites</a>
                 </li>
-                <li>
-                  <a href="/admin/getting-started/" {% if page.url contains '/admin/' %} {{ class="active" }} {% endif %}>Getting Started</a>
+                <li{% if page.url contains "/admin/getting-started/" %} class="active" {% endif %}>
+                  <a href="/admin/getting-started/">Getting Started</a>
                 </li>
                 <li>
                   <a onclick="$('#admin-typical-usage-scenarios').toggleClass('hidden');">Typical Scenarios
                   <span class="caret"></span></a>
-                  <ul id="admin-typical-usage-scenarios" class="hidden">
-                      <li class="sub-menu-item{% if page.url == '/admin/typical-scenarios/' %} {{ " active" }} {% endif %}">
+                  <ul id="admin-typical-usage-scenarios"{% unless page.url contains "/admin/typical-scenarios/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/admin/typical-scenarios/' %} active{% endif %}">
                         <a href="/admin/typical-scenarios/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/admin/typical-scenarios/" and currentpage.url != "/admin/typical-scenarios/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
-                <li>
+                <li{% if page.url contains "/admin/best-practices/" %} class="active" {% endif %}>
                   <a onclick="$('#admin-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
-                  <ul id="admin-best-practices" class="hidden">
-                      <li class="sub-menu-item{% if page.url == '/admin/best-practices/' %} {{ " active" }} {% endif %}">
+                  <ul id="admin-best-practices"{% unless page.url contains "/admin/best-practices/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/admin/best-practices/' %} active{% endif %}">
                         <a href="/admin/best-practices/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/admin/best-practices/" and currentpage.url != "/admin/best-practices/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
-                 <li>
+                 <li{% if page.url contains "/admin/references/" %} class="active" {% endif %}>
                   <a onclick="$('#admin-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
-                  <ul id="admin-references" class="hidden">
-                      <li class="sub-menu-item{% if page.url == '/admin/references/' %} {{ " active" }} {% endif %}">
+                  <ul id="admin-references"{% unless page.url contains "/admin/references/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/admin/references/' %} active{% endif %}">
                         <a href="/admin/references/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/admin/references/" and currentpage.url != "/admin/references/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
-                <li>
+                <li{% if page.url contains "/admin/howto/" %} class="active" {% endif %}>
                   <a onclick="$('#admin-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
-                  <ul id="admin-how-to" class="hidden">
-                      <li class="sub-menu-item{% if page.url == '/admin/howto/' %} {{ " active" }} {% endif %}">
+                  <ul id="admin-how-to"{% unless page.url contains "/admin/howto/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/admin/howto/' %} active{% endif %}">
                         <a href="/admin/howto/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/admin/howto/" and currentpage.url != "/admin/howto/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} {{ " active" }} {% endif %}">
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
-                <li>
-                  <a href="/admin/tools/" {% if page.url contains '/admin/' %} {{ class="active" }} {% endif %}>Tools</a>
+                <li{% if page.url contains "/admin/tools/" %} class="active" {% endif %}>
+                  <a href="/admin/tools/">Tools</a>
                 </li>
-                <li>
-                  <a href="/admin/testing/" {% if page.url contains '/admin/' %} {{ class="active" }} {% endif %}>Testing & Debugging</a>
+                <li{% if page.url contains "/admin/testing/" %} class="active" {% endif %}>
+                  <a href="/admin/testing/">Testing & Debugging</a>
                 </li>
                 <li>
                   <a href="/developer/contribution/">Contribution</a>
