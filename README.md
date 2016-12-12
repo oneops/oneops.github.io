@@ -28,7 +28,8 @@ The search feature on the site uses the file http://oneops.com/searchmap-es.json
 via some Liquid code in the source searchmap-es.json. This file has no newline characters in it to make it suitable
 for bullk-loading into Elasticsearch via the REST API on the server.
 
-Helper scripts used on the server can be found in the `scripts\elasticsearch` directory. For server and access
+Helper scripts used on the server can be found in the `scripts\elasticsearch` directory. The `updateOneOpsIndex.sh` script
+is currently run manually whenever desired. We might run it daily via CRON in the future. For server and access
 detail, contact the contributor team.
 
 
