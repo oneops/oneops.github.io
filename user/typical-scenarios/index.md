@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Typical Scenarios
+title: User Typical Scenarios
 ---
 
 The user typical scenarios section includes the following topics:

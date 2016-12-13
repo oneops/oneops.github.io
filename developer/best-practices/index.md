@@ -1,6 +1,6 @@
 ---
 layout: dev-doc
-title: Best Practives
+title: Developer Best Practives
 id: "best-practices"
 ---
  

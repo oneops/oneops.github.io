@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Key Concepts
+title: Administrator Key Concepts
 id: key-concepts
 ---
 

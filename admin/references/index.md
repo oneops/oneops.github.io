@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: References
+title: Administrator References
 ---
 
 The admin references section includes the following topics:

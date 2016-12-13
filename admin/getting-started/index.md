@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Getting Started
+title: Administrator Getting Started
 id: "getting-started"
 ---
 

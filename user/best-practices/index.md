@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Best Practices
+title: User Best Practices
 ---
 
 The user best practices section includes the following topics:

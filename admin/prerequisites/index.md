@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Admin Prerequisites
+title: Administrator Prerequisites
 id: "admin-prerequisites"
 ---
 

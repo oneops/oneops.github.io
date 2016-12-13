@@ -1,6 +1,6 @@
 ---
 layout: dev-doc
-title: Typical Scenarios
+title: Developer Typical Scenarios
 id: typical-scenarios
 ---
 

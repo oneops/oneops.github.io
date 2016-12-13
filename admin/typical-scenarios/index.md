@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Typical Scenarios
+title: Administrator Typical Scenarios
 ---
 
 The admin typical scenarios section includes the following topics:

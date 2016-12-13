@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Testing and Debugging
+title: Administrator Testing and Debugging
 id: "testing-and-debugging"
 ---
 As an admin become familiar with OneOps architecture

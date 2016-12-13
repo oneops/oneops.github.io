@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Getting Started
+title: User Getting Started
 id: "getting-started"
 ---
 

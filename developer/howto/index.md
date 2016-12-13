@@ -1,6 +1,6 @@
 ---
 layout: dev-doc
-title: How To
+title: Developer How To
 ---
 
 The Developer How To section includes the following topics:

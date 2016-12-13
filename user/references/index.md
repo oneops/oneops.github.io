@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: References
+title: User References
 ---
 
 The user references section includes the following topics:

@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Best Practices
+title: Administrator Best Practices
 ---
 
 The admin best practices section includes the following topics:

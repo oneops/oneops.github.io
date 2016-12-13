@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Admin Documentation Index
+title: Administrator Documentation Index
 ---
 
 <ul>

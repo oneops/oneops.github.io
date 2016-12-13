@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Key Concepts
+title: User Key Concepts
 id: "key-concepts"
 ---
 

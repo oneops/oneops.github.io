@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Admin Tools
+title: Administrator Tools
 id: "admin-tools"
 ---
 

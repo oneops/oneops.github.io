@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: How To
+title: User How To
 ---
 
 The user how to section includes the following topics:
