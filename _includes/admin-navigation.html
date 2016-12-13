@@ -37,7 +37,7 @@
                     {% endfor %}
                   </ul>
                 </li>
-                <li{% if page.url contains "/admin/best-practices/" %} class="active" {% endif %}>
+                <li>
                   <a onclick="$('#admin-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
                   <ul id="admin-best-practices"{% unless page.url contains "/admin/best-practices/" %} class="hidden"{% endunless %}>
@@ -53,7 +53,7 @@
                     {% endfor %}
                   </ul>
                 </li>
-                 <li{% if page.url contains "/admin/references/" %} class="active" {% endif %}>
+                 <li>
                   <a onclick="$('#admin-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
                   <ul id="admin-references"{% unless page.url contains "/admin/references/" %} class="hidden"{% endunless %}>
@@ -69,7 +69,7 @@
                     {% endfor %}
                   </ul>
                 </li>
-                <li{% if page.url contains "/admin/howto/" %} class="active" {% endif %}>
+                <li>
                   <a onclick="$('#admin-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="admin-how-to"{% unless page.url contains "/admin/howto/" %} class="hidden"{% endunless %}>

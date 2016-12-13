@@ -17,10 +17,10 @@
                 <li{% if page.url contains "/developer/getting-started/" %} class="active" {% endif %}>
                   <a href="/developer/getting-started/">Getting Started</a>
                 </li>
-                <li{% if page.url contains "/developer/typical-scenarios/" %} class="active" {% endif %}>
+                <li>
                   <a onclick="$('#dev-typical-usage-scenarios').toggleClass('hidden');">Typical Scenarios
                   <span class="caret"></span></a>
-                  <ul id="dev-typical-usage-scenarios"{% unless page.url contains "/developers/typical-scenarios/" %} class="hidden"{% endunless %}>
+                  <ul id="dev-typical-usage-scenarios"{% unless page.url contains "/developer/typical-scenarios/" %} class="hidden"{% endunless %}>
                     <li class="sub-menu-item{% if page.url == '/developer/typical-scenarios/' %} active{% endif %}">
                         <a href="/developer/typical-scenarios/index.html">Index</a>
                       </li>  
@@ -33,7 +33,7 @@
                     {% endfor %}
                   </ul> 
                 </li>
-                <li{% if page.url contains "/developer/best-practices/" %} class="active" {% endif %}>
+                <li>
                   <a onclick="$('#dev-best-practices').toggleClass('hidden');">Best Practices
                   <span class="caret"></span></a>
                   <ul id="dev-best-practices"{% unless page.url contains "/developer/best-practices/" %} class="hidden"{% endunless %}>
@@ -49,7 +49,7 @@
                     {% endfor %}
                   </ul> 
                 </li>
-                <li{% if page.url contains "/developer/references/" %} class="active" {% endif %}>
+                <li>
                   <a onclick="$('#dev-references').toggleClass('hidden');">References
                   <span class="caret"></span></a>
                   <ul id="dev-references"{% unless page.url contains "/developer/references/" %} class="hidden"{% endunless %}>
@@ -65,7 +65,7 @@
                     {% endfor %}
                   </ul> 
                 </li>
-                <li{% if page.url contains "/developer/howto/" %} class="active" {% endif %}>
+                <li>
                   <a onclick="$('#dev-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="dev-how-to"{% unless page.url contains "/developer/howto/" %} class="hidden"{% endunless %}>
