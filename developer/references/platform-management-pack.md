@@ -14,5 +14,5 @@ The file contains:
 
 A Pack can extend another Pack, which keeps the model clean and manageable. Packs are versioned to match a set of recipes.
 
-For instructions on how to add a new platform, refer to [Add a Platform](/developer/howto/add-platform.html).
+For instructions on how to add a new platform, refer to [Add a Platform](/developer/howto/add-a-platform.html).
 

@@ -241,4 +241,4 @@ Refer to the following documentation as you work.
 * **<a href="/user/references/">Reference:</a>** Detailed code usage descriptions
 * **<a href="/user/howto/add-a-doc-url-to-a-monitor.html">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
 * **<a href="/user/testing/">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
-* **<a href="/user/contribution/">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
+* **<a href="/developer/contribution/">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us
