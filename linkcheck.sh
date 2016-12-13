@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "Running linkchecker on http://localhost:4000"
-linkchecker http://localhost:4000 > linkcheck-results.log
+linkchecker http://localhost:4000 --anchors > linkcheck-results.log
 cat linkcheck-results.log
 echo "Completed. Results also stored in linkcheck-results.log"
