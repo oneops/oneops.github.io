@@ -1,14 +1,15 @@
-##Ignoring this, till we add util
-
+---
+layout: admin-doc
 title: Add a New Component
-id: add-a-new-component
+---
 
 
-To add a new [Component](../key-concepts/#component) Class to a model so it can be used by [Platforms,](../key-concepts/#platform) follow these steps:
+To add a new [Component](../key-concepts/index.html#component) Class to a model so it can be used by 
+[Platforms,](../key-concepts/index.html#platform) follow these steps:
 
 In this example, we use *Jboss* as an example of a new component.
 
-1. Clone the initial packer directory from [git@github.com:kloopz/packer.git](git@github.com:kloopz/packer.git).
+1. Clone the initial packer directory from git@github.com:kloopz/packer.git
 
     ~~~bash
     cd packer; util/new_component.rb Jboss
@@ -30,7 +31,7 @@ In this example, we use *Jboss* as an example of a new component.
 4. Create an add.rb and update.rb that only has: include_recipe "Jboss::default". There is no delete recipe, that must be added.
 5. Update relationships metadata for: `depends_on`, `deployed_to`, `escorted_by`,`managed_via`, `realized_as`, `requires`, and `watched_by`.
 6. `cd ../<relationship>` and edit metadata.rb adding Jboss accordingly.
-7. <a href="/developer/how-to/cms-sync.html">Sync</a> to CMS.
+7. <a href="/developer/howto/cms-sync.html">Sync</a> to CMS.
 8. Add the Jboss image for the UI: kloopz-app repo `public/images/cms/Jboss.png`
 
 > new_component.rb Jboss output:
@@ -66,7 +67,7 @@ done.
 # See Also
 
 * <a href="/developer/key-concepts/index.html">Platforms</a> in Key Concepts
-* <a href="/developer/how-to/add-platform.html">Add a Platform</a>
+* <a href="/developer/howto/add-a-platform.html">Add a Platform</a>
 
 # New Component Screens
 

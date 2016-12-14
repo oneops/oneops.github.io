@@ -19,10 +19,10 @@ end [Users][] to configure and deploy their applications.
 
 See also
 
-* Installing OneOps using [OneOps](/admin/references/#oneops-manages-oneops)
+* Installing OneOps using [OneOps](/admin/references/oneops-manages-oneops.html)
 
 [getting started]: /admin/getting-started/
-[Clouds]: /user/key-concepts/#clouds
+[Clouds]: /user/key-concepts/index.html#clouds
 [key concepts]: /user/key-concepts/
-[Organizations]: /user/key-concepts/#organization
+[Organizations]: /user/key-concepts/index.html#organization
 [Users]: /user/overview/

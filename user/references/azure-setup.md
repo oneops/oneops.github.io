@@ -6,7 +6,7 @@ id: "azure-setup"
 
 How to Set Up Azure for OneOps
 
-Roughly follow these directions <https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/#authenticate-with-password---azure-cli>, but you don't need all of it.  This is the abridged version.
+Roughly follow [these directions](https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal), but you don't need all of it.  This is the abridged version.
 
 ## Prerequisites
 

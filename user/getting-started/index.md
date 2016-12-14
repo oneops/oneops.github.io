@@ -127,8 +127,8 @@ See also:
 * <a href="/user/key-concepts/">Platforms</a>  
 * <a href="/user/howto/add-a-platform-to-a-design.html">Add a platform</a>
 * <a href="/user/howto/add-specific-component-to-a-design.html">Add a component</a>
-* <a href="/user/references/#platform-links-reference">Platform Dependency</a>
-* <a href="/user/references/#platform-packs">Packs/Circuits</a>
+* <a href="/user/references/platform-links-reference.html">Platform Dependency</a>
+* <a href="/user/references/platform-packs.html">Packs/Circuits</a>
 * <a href="/user/howto/view-design-releases.html">View Design Releases</a>
 
 # Transition Phase
@@ -145,7 +145,8 @@ For example *qa* environment compute size requirements may differ from **develop
 
 It's not uncommon to choose **development** environment compute size as default for design which allows you to create multiple test environments without changing design.
 
-This helps in creating environments faster without changing too many attributes at design level. As a best practice try to have most used configuration in design. Also see <a href="/user/references/#variables">variables</a>
+This helps in creating environments faster without changing too many attributes at design level. As a best practice try 
+to have most used configuration in design. Also see <a href="/user/references/variables.html">variables</a>
 
 **Lock** any environment specific attributes to prevent the environment changes
 to be override from design pulls.
@@ -154,10 +155,10 @@ to be override from design pulls.
 
 See also:
 
-* <a href="/user/references/#environment">Environment</a>
+* <a href="/user/references/environment.html">Environment</a>
 * <a href="/user/howto/upgrade-application-version-in-environment.html">Upgrade an Application Version in an Environment</a>
 * <a href="/user/howto/environment-releases.html">Environment Releases</a>
-* <a href="/user/references/#environment-profiles">Environment-profiles</a>
+* <a href="/user/references/environment-profiles.html">Environment-profiles</a>
 
 ## Deploy an Application
 
@@ -196,7 +197,7 @@ The successful deployment will *create* actual instances of components (computes
 Some of the commonly used operations but not limited to these
     1. Replace of compute in case of hardware failures.
     2. Restart of services.(tomcat, Cassandra, elastic search)
-    3. Some of <a href="/user/references/#attachments">attachments</a> can be exposed as operations. Some of the
+    3. Some of <a href="/user/references/attachments.html">attachments</a> can be exposed as operations. Some of the
     popular one used are taking nodes out of traffic.
     4. Redeploy artifacts.
     5. Log Searches on volume components.
@@ -207,14 +208,15 @@ See also:
 
 * <a href="/user/howto/assess-health-applications-platforms-clouds.html">Assess the Health of Applications, Platforms and Clouds</a>
 * <a href="/user/howto/operations-summary.html">Operations Summary</a>
-* <a href="/user/references/#graph-colors">Graphs</a>
+* <a href="/user/references/graph-colors.html">Graphs</a>
 * <a href="/user/howto/control-environment.html">Control Environment</a>
 
 
 ## Monitoring
 
 
-* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify state. see <a href="/user/references/#monitoring-reference">Monitoring</a>
+* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify 
+state. see <a href="/user/references/monitoring-reference.html">Monitoring</a>
 * If auto-repair is enabled, OneOps will auto-repair the instance. The actions taken to recover an instance are prescribed by `repair recipe` of the component. For example, if Compute is alerting for missing *heartbeat* by default Computes repair action involves the following
     * Check the ssh port  
     * If not able to connect after timeout, it will attempt *reboot*.
@@ -231,7 +233,7 @@ Before you start with OneOps, it is recommended that you read the following docu
 * **<a href="/user/key-concepts/">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
 * **<a href="/user/tools/">Tools:</a>** List of supporting tools and services that can be used with OneOps
 * **<a href="/user/getting-started/">Getting Started:</a>** How to start using OneOps (this section)
-* **<a href="/user/best-practices/#design-best-practices">Best Practices:</a>** How you should use OneOps for best results
+* **<a href="/user/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
 
 ## What You Will Need When You Work with OneOps
 

@@ -17,4 +17,4 @@ After a user is added to a team within an organization, that team needs to be ad
 
 # See Also
 
-* <a href="/user/best-practices/#restrict-access-with-teams">Restrict Access with Teams</a>
+* <a href="/user/best-practices/restrict-access-with-teams.html">Restrict Access with Teams</a>

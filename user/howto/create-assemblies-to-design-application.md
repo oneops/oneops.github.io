@@ -22,7 +22,7 @@ To add an assembly, follow these steps:
     * This can be a distribution list, but it can only be a single email address.
 5. Optionally, select a Design from the drop-down list.
     * To find a design, navigate the catalogs by clicking the arrows.
-    * The available designs here in the list is also called as [Catalog](#catalogs)
+    * The available designs here in the list is also called as Catalog
 6. Click **Save.**
 
 ![Assembly New](/assets/docs/local/images/assembly-new.png)
@@ -30,4 +30,4 @@ To add an assembly, follow these steps:
 # See Also
 
 * <a href="/user/howto/add-a-platform-to-a-design.html">Add a Platform to a Design</a>
-* <a href="/user/key-concepts/#assembly">More on the lifecycle of an Assembly</a>
+* <a href="/user/key-concepts/index.html#assembly">More on the lifecycle of an Assembly</a>

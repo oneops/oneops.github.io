@@ -1,7 +1,6 @@
 ---
 layout: admin-doc
 title: Administrator Getting Started
-id: "getting-started"
 ---
 
 To get started with OneOps installation, you can start with

@@ -16,7 +16,7 @@ OneOps includes a **self service portal** for users to administer the applicatio
 
 OneOps has a **back end loop** to **monitor** resources and can trigger  **auto-repairs**, **auto-scales** or  **notifications**
 
-# OneOps System Architecture
+# System Architecture
 
 The diagram below depicts a detailed system architecture .
 
@@ -142,8 +142,8 @@ Inductor can be installed via oneops-admin gem  .
 
 See Also
 
-* <a href="/admin/howto/#build-install-configure-inductor">Installing Inductor</a>
-* <a href="/admin/references/#inductor">CookBook execution</a>
+* <a href="/admin/howto/build-install-configure-an-inductor.html">Installing Inductor</a>
+* <a href="/admin/references/inductor.html">CookBook execution</a>
 
 ## Workorders
 

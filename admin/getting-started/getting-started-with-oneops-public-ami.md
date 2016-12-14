@@ -71,8 +71,8 @@ While the deployment is in progress you can click on the steps to expand to work
 
 ## Troubleshooting
 
- * <a href="/admin/testing/#ui-does-not-come-up">Trouble connecting to port 3000</a>
- * <a href="/admin/testing/#deployment-fails">Deployment fails</a>
+ * <a href="/admin/testing/index.html#ui-does-not-come-up">Trouble connecting to port 3000</a>
+ * <a href="/admin/testing/index.html#deployment-fails">Deployment fails</a>
  * Not here, look <a href="/admin/testing/">here</a>
  * We can help :<span class="button icon-slack"><a href="{{ site.slack_url }}" target="_blank">{{ site.slack_channel }}</a></span>
 

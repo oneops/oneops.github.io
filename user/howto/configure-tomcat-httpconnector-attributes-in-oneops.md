@@ -65,4 +65,4 @@ The SSL connector is only configured if you have KeyStore and certificate option
 
 
 * <a href="/user/howto/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
-* <a href="/user/references/#catalina-out-in-tomcat">catalina-out in Tomcat</a>
+* <a href="/user/references/catalina-out-in-tomcat.html">catalina-out in Tomcat</a>

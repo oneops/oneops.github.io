@@ -9,7 +9,7 @@ Consider the following when creating environment dependencies with environment p
 
 * When a user attempts to create a new environment, a drop-down menu is shown to enable (and require) the user to choose from a list of predefined environment profiles.
 * The selected profile is used to pre-fill the environment attribute values (including cloud association).
-* Select the correct [Administrative Status.](../key-concepts/#administrative-status)
+* Select the correct Administrative Status.
 * The user has the ability to keep the default configuration settings “as is” (typical scenario) or edit some or all of the values, if required, before saving this new environment.
 * The environment profiles are not meant to restrict the user while selecting the choices available to create environment. Instead the profiles are meant to pre-fill the most commonly used values for a typical environment setup.
 * After a new environment is saved, it has an attribute (“profile”) that points to the underlying environment profile by referencing the profile's name.

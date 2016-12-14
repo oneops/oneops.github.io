@@ -23,7 +23,7 @@ rvm use --default ruby-1.9.3
 
 
 * Get [circuit-oneops](https://github.com/oneops/circuit-oneops-1) source
-* Install <a href="/developer/key-concepts/#circuit">circuit</a>
+* Install <a href="/developer/key-concepts/index.html#circuit">circuit</a>
 
 ~~~ruby
  gem install --local oneops-admin-1.0.0.gem

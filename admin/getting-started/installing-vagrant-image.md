@@ -11,7 +11,7 @@ Install OneOps using vagrant from [here](https://github.com/oneops/setup)
 ## Outline
 
 2. Setup Vagrant [here](#vagrant-up)
-1. Set up *clouds*. Refer screen cast below. For more details refer to <a href="/user/getting-started/#create-cloud">user</a>
+1. Set up *clouds* as detailed in [the documentation](/user/getting-started/index.html#create-cloud) or check out the screen cast below. 
    1. Create Clouds
    1. Create Cloud Services
        1. Compute Cloud Service
@@ -38,9 +38,9 @@ Install OneOps using vagrant from [here](https://github.com/oneops/setup)
 
 The setup does the following :
 
-  * Installs all required software see <a href="/admin/key-concepts/#oneops-system-architecture">here</a>
+  * Installs all required software see <a href="/admin/key-concepts/index.html#oneops-system-architecture">here</a>
   * Sets up minimal data set required for OneOps to work.
-  * Clones, Builds and Deploys all the required components to run <a href="/admin/key-concepts/#oneops-system-architecture">OneOps</a>
+  * Clones, Builds and Deploys all the required components to run <a href="/admin/key-concepts/index.html#oneops-system-architecture">OneOps</a>
   * Bootstraps the  circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
 
 ~~~ bash
@@ -57,16 +57,16 @@ If step fails refer <a href="/admin/testing/">troubleshooting</a>.
 
 # Set Up your Organization, Clouds, Cloud Services  
 
-* Refer <a href="/user/getting-started/#create-cloud">User</a> or see screen cast below.
+* Refer <a href="/user/getting-started/index.html#create-cloud">User</a> or see screen cast below.
 
-# Check Inductor <a href="/admin/key-concepts/#inductor">Inductor</a>
+# Check Inductor <a href="/admin/key-concepts/index.html#inductor">Inductor</a>
 
 > This section is for informative purpose only, The vagrant image has pre-installed and configured inductor ready to
 execute workorder.
 
 
 Inductor executes the **workoders/actionOrders** pushed by **controller** to
-cloud location specified at cloud creation. Refer <a href="/admin/references/#inductor">this</a> for overall flow.
+cloud location specified at cloud creation. Refer <a href="/admin/references/inductor.html">this</a> for overall flow.
 
 ## Log on to Vagrant Image
 

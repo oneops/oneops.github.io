@@ -12,7 +12,7 @@ To enable auto scale for a platform, follow these steps:
 2. Select your environment.
 3. Select the platform and look for the "Automation Status" section under the summary tab.
 4. If the platform did not have auto scale enabled, click the button to enable it.
-5. Go to Transition and add or edit the monitor <a href="/user/references/#threshold-definitions">threshold</a> for all those components which have metrics that can indicate if a resource is over or under-utilized. There are four states that you can assign to a Threshold to define when the trigger condition is met:
+5. Go to Transition and add or edit the monitor <a href="/user/references/threshold-definitions.html">threshold</a> for all those components which have metrics that can indicate if a resource is over or under-utilized. There are four states that you can assign to a Threshold to define when the trigger condition is met:
     * **Over-utilized:** Used to scale up
     * **Under-utilized:** Used to scale down
     * **Unhealthy:** Used to repair and replace
