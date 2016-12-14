@@ -27,6 +27,7 @@ To work with the controls for an environment, follow these steps:
     * Artifact: Repair, Redeploy, Custom User Attachment
     * And more...
 * Configuration: Displays the latest configuration deployed on the compute. It is possible to Replace or Cancel the Active deployment here.
-* Monitors: Displays the graphs for the monitors that are associated with the component. Read more details at [Monitor Types](../references/#monitor-types).
+* Monitors: Displays the graphs for the monitors that are associated with the component. Read more details at 
+[Monitor Types](/user/references/monitoring-reference.html).
 * Logs: TBD
 * Procedures: Displays the procedures that are called from Operations.
