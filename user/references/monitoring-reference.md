@@ -33,7 +33,7 @@ The operation view provides the trending of metric values along with the health 
 
 * Every component can be monitored
 * Out of the box, OneOps monitors the most important Components.
-* Users can set up <a href="/user/references/threshold-definitions.html">Threshold</a> on monitors to <a href="/user/references/auto-scale.html">scale</a>, <a href="/user/references/auto-repair.html">repair</a> or <a href="/documentation/user/howto/set-up-notifications.html">notify</a>.
+* Users can set up <a href="/user/references/threshold-definitions.html">Threshold</a> on monitors to <a href="/user/references/auto-scale.html">scale</a>, <a href="/user/references/auto-repair.html">repair</a> or <a href="/user/howto/set-up-notifications.html">notify</a>.
 
 There is a predefined set of default <a href="/user/references/threshold-definitions.html">Thresholds</a> that is provided by OneOps which comes implicitly with any environment deployment. The app owner has the flexibility to add a new threshold definition that is suitable for the app or to edit an existing <a href="/user/references/threshold-definitions.html">threshold</a>.
 

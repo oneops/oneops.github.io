@@ -77,4 +77,4 @@ Now you are ready to test your cookbook and pack. You need to push your model (c
 
 # See Also
 
-Need a jump start on Ruby coding? Just enough <a href="http://docs.opscode.com/just_enough_ruby_for_chef.html" target="_blank">Ruby for chef</a>.
+Need a jump start on Ruby coding? Check out the [Chef Ruby reference page](https://docs.chef.io/ruby.html).
