@@ -9,8 +9,6 @@ Use **OneOps to deploy OneOps in production**, so you get all the benefits of On
 See also:
 
   * Follow these general prescribed <a href="/user/best-practices/design-best-practices.html">practices</a>
-  * We can help , contact us <span class="button icon-slack"><a href="{{ site.slack_url }}" target="_blank">{{ site.slack_channel }}</a></span>
-  
 
 ## Deploy in redundant mode.
 

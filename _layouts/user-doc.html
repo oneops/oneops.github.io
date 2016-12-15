@@ -90,14 +90,8 @@
               <h4>Search</h4>
               <input data-name="search" data-search-types="section" data-search-name="{{ site.searchname }}{{ context }}" type="text" value="Search" class="side-nav-search-input"/>
             </article>-->
-            
             {% include user-navigation.html %}
-            
-            <article>
-              <h4 style="color: #2D2D2D;">Contact the team</h4>
-              <span class="button icon-slack"><a href="{{ site.slack_url }}" target="_blank">{{ site.slack_channel }}</a></span>
-            </article>
-            
+            {% include contact.html %}
           </div><!-- END nav-container -->
         </aside>
       </section><!-- END onebar -->

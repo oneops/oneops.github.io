@@ -14,6 +14,9 @@ googleId: UA-72734811-2
 googlePlus: #
 slack_url: https://oneops.slack.com/
 slack_channel: oneops
+slack_register: https://oneops.typeform.com/to/fudwo5
+twitter_url: https://twitter.com/One_Ops
+github_url: https://github.com/oneops
 
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search
