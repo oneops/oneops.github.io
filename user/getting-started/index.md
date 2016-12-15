@@ -4,8 +4,8 @@ title: User Getting Started
 id: "getting-started"
 ---
 
->This getting started guide assumes that you have a **_running_ _OneOps_ _instance_**, if not refer to [initial set up][]
-
+>This getting started guide assumes that you have access to a **_running_ _OneOps_ _instance_**. If this is not the case, 
+refer to the [Administrator documentation](/admin/overview).
 
 <div id="wizard" class="rounded">
   <div class="inner rounded">
