@@ -7,9 +7,8 @@ title: User Overview
 * This document provides an overview of the OneOps product from an *end user* deploying application in cloud using
 an already running **OneOps instance**.
 * If you are someone who wants to set up OneOps for an organization or want to try locally OneOps refer to the
-[/admin/overview][Administrator Overview].
-* Looking for developing or contributing content to OneOps please refer to the
-  [/developer/overview][Developer Overview].
+[Administrator Overview](/admin/overview).
+* Looking for developing or contributing content to OneOps please refer to the [Developer Overview](/developer/overview).
 
 OneOps enables continuous lifecycle management of complex, business-critical application workloads on any
 cloud-based infrastructure. You can expect:
