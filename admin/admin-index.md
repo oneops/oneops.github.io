@@ -44,7 +44,6 @@ title: Administrator Documentation Index
       {% endfor %}
     </ul>
   </li>
-  <li><a href="/admin/tools/">Tools</a></li>
   <li><a href="/admin/testing/">Testing & Debugging</a></li>
   <li><a href="/developer/contribution/">Contribution</a></li>
 </ul>

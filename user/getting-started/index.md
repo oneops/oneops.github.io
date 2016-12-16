@@ -231,7 +231,6 @@ Before you start with OneOps, it is recommended that you read the following docu
 
 * **<a href="/user/overview/">Overview:</a>** OneOps business-level description of main benefits versus alternative solutions
 * **<a href="/user/key-concepts/">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
-* **<a href="/user/tools/">Tools:</a>** List of supporting tools and services that can be used with OneOps
 * **<a href="/user/getting-started/">Getting Started:</a>** How to start using OneOps (this section)
 * **<a href="/user/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
 

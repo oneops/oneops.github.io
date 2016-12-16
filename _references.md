@@ -1,1 +1,0 @@
-[oo]: http://oneops.com

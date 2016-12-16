@@ -16,7 +16,6 @@ The following documentation provides essential information for your start.
 * **<a href="/admin/overview/">Overview</a>**: OneOps business-level description of main benefits versus alternative 
 solutions
 * **<a href="/admin/key-concepts/">Key Concepts:</a>** Conceptual description and diagram of how OneOps works
-* **<a href="/admin/tools/">Tools:</a>** List of supporting tools and services that can be used with OneOps
 * **<a href="/user/best-practices/">Best Practices:</a>** How you should use OneOps for best results
 
 # What You Will Need When You Work

@@ -44,7 +44,6 @@ title: Developer Documentation Index
       {% endfor %}
     </ul>
   </li>
-  <li><a href="/developer/tools/">Tools</a></li>
   <li><a href="/developer/testing/">Testing & Debugging</a></li>
   <li><a href="/developer/contribution/">Contribution</a></li>
 </ul>

@@ -156,7 +156,6 @@ Before you code, read the following documentation. It is the most essential info
 
 * **[Overview:](/developers.html)** OneOps business-level description of its main benefits versus alternative solutions
 * **<a href="/developer/key-concepts/">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
-* **<a href="/developer/tools/">Tools:</a>** List of supporting tools and services that can be used with OneOps
 * **<a href="/developer/getting-started/">Getting Started:</a>** How to start using OneOps (this section)
 * **<a href="/developer/best-practices/pack-development.html">Best Practices:</a>** How you should develop for OneOps for best results
 
