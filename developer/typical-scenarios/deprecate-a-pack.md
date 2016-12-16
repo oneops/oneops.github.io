@@ -19,4 +19,6 @@ The flag is used before loading of the pack. If ignore flag is set to **true**, 
 This flag defines the visibility of pack during create platform. If enabled flag is set to **false**, the pack will not be visible to user for creating new platforms
 The pack can still be used to create platform using API even when this flag is false
 
-Note: If there are existing environments using such sunset packs, they will continue to function.  
+#
+
+*Note: If there are existing environments using such sunset packs, they will continue to function. * 
