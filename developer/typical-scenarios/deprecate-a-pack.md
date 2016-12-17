@@ -18,9 +18,9 @@ place.
 
 # `enabled`
 
-This flag defines the visibility of pack during the creation of a platform. If `enabled` flag is set to `false`,
-the pack will not be visible to a user while creating platform.
+The `enabled` flag defines the visibility of pack during the creation of a platform. If it is set to
+`false`, the pack will not be visible to a user when creating a platform.
 
-The pack can however still be used to create platform using API even when this flag is set to `false`.
+The pack can however still be used to create a platform with the API even when this flag is set to `false`.
 
-*Note: If an existing environments uses a deprecated pack, it will not be affected and continue to function.*
+*Note: If an existing environment uses a deprecated pack, it will not be affected and continue to function.*
