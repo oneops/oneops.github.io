@@ -12,7 +12,7 @@ Before you begin with the installation process, it can be useful to familiarize 
 
 OneOps can be installed with different methods:
 
-- [On a VM in VirtualBox installed by Vagrant](./installing-vagrant-image.html)
+- [On a VM installed by Vagrant](./installing-vagrant-image.html)
 - [In Amazon EC2 via an Amazon Machine Image AMI](./getting-started-with-oneops-public-ami.html)
 
 
