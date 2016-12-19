@@ -1,116 +1,125 @@
 ---
 layout: admin-doc
-title: Installing OneOps Vagrant Image
+title: Installing OneOps with Vagrant
 ---
 
-Install OneOps using vagrant from [here](https://github.com/oneops/setup)
+# Introduction
 
->Note : As an **admin** you will be responsible for primarily installing OneOps in your **organization** or also responsible for setting up cloud and services The steps described to create an assembly, platform refers to [User](/user/overview/) section.
+OneOps installation with [Vagrant](http://www.vagrantup.com) is a convenient, automated process. It can be used to
+install OneOps on a variety of virtual machine runtime environments. The following instructions details the
+process for an installation with [VirtualBox](https://www.virtualbox.org/) on your local machine.
 
+# Prerequisites
 
-## Outline
+- <a href="https://www.virtualbox.org/" target="_blank">VirtualBox 5 or newer</a>
+- <a href="https://www.vagrantup.com/" target="_blank">Vagrant 1.7.4 or newer</a>
+- <a href="https://git-scm.com/" target="_blank">Git</a>
+- Modern operating system as required for VirtualBox and Vagrant
+- Minimum of 12Gb memory, 16Gb or more recommended
+- Minimum of 40Gb disk storage
+- Minimum of 4 CPU cores, 8 core or more recommended
+- Internet connection that allows access to GitHub and a number of repositories
 
-2. Setup Vagrant [here](#vagrant-up)
-1. Set up *clouds* as detailed in [the documentation](/user/getting-started/index.html#create-cloud) or check out the screen cast below. 
-   1. Create Clouds
-   1. Create Cloud Services
-       1. Compute Cloud Service
-       2. DNS Cloud Service
-       3. GNS Cloud Service
-  1. Create Assembly
-       1. Create Platform
-       2. Create Environment
-       3. Deploy an Environment
+# Installation Process
 
+After you have installed the prerequisites, you can proceed with the installation process:
 
-# Vagrant up
+Clone the OneOps `setup` repository from GitHub:
 
-1. Install the required software for Vagrant.
-   1. [Virtal Box 5](https://www.virtualbox.org/).
-   2. [Vagrant](https://www.vagrantup.com/)
-2. Execute the following
+```
+git clone https://github.com/oneops/setup
+``` 
 
-~~~ bash
-   git clone https://github.com/oneops/setup
-   cd setup/vagrant
-   vagrant up
-~~~
+or
 
-The setup does the following :
+```
+git clone git@github.com:oneops/setup.git
+```
 
-  * Installs all required software see <a href="/admin/key-concepts/index.html#oneops-system-architecture">here</a>
-  * Sets up minimal data set required for OneOps to work.
-  * Clones, Builds and Deploys all the required components to run <a href="/admin/key-concepts/index.html#oneops-system-architecture">OneOps</a>
-  * Bootstraps the  circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
+Alternatively you can [download the repository as a zip file](https://github.com/oneops/setup/archive/master.zip)
+from the repository on GitHub and extract it.
 
-~~~ bash
-# After the successful install, you will see this in console.
-  ==> default: Done with admin
-  ==> default: OneOps should be up on http://localhost:3000
-  ==> default: Configure your port forwarding and shut down iptables service (or configure it) if needed
-  ==> default: All done at : 15:28:54
-~~~
+Start the installation process with vagrant
 
-If step fails refer <a href="/admin/testing/">troubleshooting</a>.
+```
+cd setup/vagrant-centos7
+vagrant up
+```
 
-> UI should be up [here](http://localhost:9090/users/sign_in).
+The setup process takes at least 20 minutes and preforms numerous steps including:
 
-# Set Up your Organization, Clouds, Cloud Services  
+- Install all required components.
+- Set up minimal data set.
+- Bootstraps circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
 
-* Refer <a href="/user/getting-started/index.html#create-cloud">User</a> or see screen cast below.
+A successful installation ends with a message similar to
 
-# Check Inductor <a href="/admin/key-concepts/index.html#inductor">Inductor</a>
+```
+==> default: OneOps installation completed."
+==> default: The user interface is ...."
+==> default: All done at : 15:28:54
+```
 
-> This section is for informative purpose only, The vagrant image has pre-installed and configured inductor ready to
-execute workorder.
+At this stage the OneOps web application is up and running on the VM port 3000. It is mapped to port
+9090 on the host machine.
 
+You have completed the OneOps installation.
 
-Inductor executes the **workoders/actionOrders** pushed by **controller** to
-cloud location specified at cloud creation. Refer <a href="/admin/references/inductor.html">this</a> for overall flow.
+Go to [http://localhost:9090](http://localhost:9090) to access the user interface and start by signing up for an
+account.
 
-## Log on to Vagrant Image
+# Next Steps
 
-~~~ bash
+- Checkout out the [troubleshooting section](/admin/testing/), if something went wrong.
+- Proceed with the [user configuration of an organization, clouds and more](/user/overview).
+
+# Managing the OneOps VM
+
+Vagrant can be used to manage the OneOps VM after the installation with executing commands in the
+`setup/vagrant-centos7` directory.
+
+Suspend the VM
+
+```
+vagrant suspend
+```
+
+and subsequently start it again with
+
+```
+vagrant resume
+```
+
+Alternatively you can use `halt` and `up` for a clean shutdown:
+
+```
+vagrant halt
+```
+
+and later a reboot:
+
+```
+vagrant up
+```
+
+In order to inspect the VM content itself, you can connect via SSH with vagrant. The following example connects
+and then checks the status of the [inductor](/admin/references/inductor.html) component of OneOps.
+
+```
 vagrant ssh
 sudo su
 cd /opt/oneops/inductor
 inductor status
 inductor tail
-## should show inductor successfuly connected to amq.
+```
 
-~~~
+Find further information about the vagrant command with ```vagrant help``` as well as in the
+[Vagrant documentation](https://www.vagrantup.com/docs/).
 
-## Inductor directory Structure
->The directory structure after you have created inductor successfully will look like this,
+# Demo
 
-~~~ bash
-cd /opt/oneops/inductor
-├── circuit-oneops-1 -> /home/oneops/build/circuit-oneops-1 from (https://github.com/oneops/circuit-oneops-1)
-├── clouds-available # All inductor which are created will go in this
-│   └── public.oneops.clouds.aws
-├── clouds-enabled
-│   └── public.oneops.clouds.aws -> ../clouds-available/public.oneops.clouds.aws
-├── Gemfile
-├── Gemfile.lock
-├── init.d
-│   └── inductor
-├── lib
-│   └── client.ts
-├── log
-└── shared ## Refer (https://github.com/oneops/oneops-admin/tree/master/lib/shared)
-    ├── cookbooks
-    ├── exec-gems.yaml
-    ├── exec-order.rb
-    └── hiera.yaml
-
-~~~
-
-# Validate Set up
-
-Create Assembly, Platforms and environment to test it out. Refer <a href="/user/getting-started/">User</a>
-Or
-See screen cast below (might work better on the full screen, we are working on improving this).
-
+The video below showcases a quick installation and initial configuration of OneOps:
 
 <iframe src="https://player.vimeo.com/video/154112203" width="200 " height="253" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
