@@ -8,12 +8,12 @@ components.
 
 Available resources for administrators:
 
+- [Key Concepts][admin/key-concepts]: Key concepts for OneOps administrators
 - [Getting Started](/admin/getting-started): Installation instruction.
 - [Administrator Index](/admin/admin-index.html): Index of all relevant administrator documentation
 
-
-Once the application is running the administrator or users can configure clouds, organizations and other components.
-This allows the creation of assemblies that contain applications and allow their deployment.
+Once OneOps is running the administrator or users can configure clouds, organizations and other components.
+This enables the creation of assemblies that contain applications and allow their deployment and management.
 
 All these activities and concepts and the relevant terminology are described in the
 [user documentation](/user/overview/).
