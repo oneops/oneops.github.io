@@ -5,8 +5,8 @@ title: Installing OneOps with Vagrant
 
 # Introduction
 
-OneOps installation with [Vagrant](http://www.vagrantup.com) is a convenient, automated process. It can be used to
-install OneOps on a variety of virtual machine runtime environments. The following instructions details the
+OneOps installation with [Vagrant](http://www.vagrantup.com) is a convenient, automated process. Vagrant can be used to
+install OneOps on a variety of virtual machine runtime environments. The following instructions detail the
 process for an installation with [VirtualBox](https://www.virtualbox.org/) on your local machine.
 
 # Prerequisites
@@ -50,7 +50,7 @@ The setup process takes at least 20 minutes and preforms numerous steps includin
 
 - Install all required components.
 - Set up minimal data set.
-- Bootstraps circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
+- Bootstrap circuits from [circuit-oneops](https://github.com/oneops/circuit-oneops-1/)
 
 A successful installation ends with a message similar to
 
@@ -60,10 +60,8 @@ A successful installation ends with a message similar to
 ==> default: All done at : 15:28:54
 {% endhighlight %}
 
-At this stage the OneOps web application is up and running on the VM port 3000. It is mapped to port
-9090 on the host machine.
-
-You have completed the OneOps installation.
+At this stage the OneOps web application is up and running on the VM with the web apllication available on port 3000.
+It is mapped to port 9090 on the host machine.
 
 Go to [http://localhost:9090](http://localhost:9090) to access the user interface and start by signing up for an
 account.
