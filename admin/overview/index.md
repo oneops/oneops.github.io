@@ -8,7 +8,7 @@ components.
 
 Available resources for administrators:
 
-- [Key Concepts][admin/key-concepts]: Key concepts for OneOps administrators
+- [Key Concepts](/admin/key-concepts): Key concepts for OneOps administrators
 - [Getting Started](/admin/getting-started): Installation instruction.
 - [Administrator Index](/admin/admin-index.html): Index of all relevant administrator documentation
 
