@@ -3,26 +3,17 @@ layout: admin-doc
 title: Administrator Overview
 ---
 
-> * For general Overview of what OneOps does refer [OneOps](/about.html)
- * An *administrator* is responsible for managing and deploying *OneOps*.
+A OneOps **administrator** is responsible for **installing, updating and managing** the **OneOps** application and its
+components. 
 
-OneOps OneOps enables continuous lifecycle management of complex, business-critical application workloads on any
-cloud-based infrastructure.
+Available resources for administrators:
 
-# OneOps Administrator
+- [Key Concepts](/admin/key-concepts): Key concepts for OneOps administrators.
+- [Getting Started](/admin/getting-started): Installation instructions.
+- [Administrator Index](/admin/admin-index.html): Index of all relevant administrator documentation.
 
-The OneOps Administrator deploys and configures One Ops software for the organization. Initial bootstrapping of
-one ops can be done following the [getting started][].
+Once OneOps is running the administrator or users can configure clouds, organizations and other components.
+This enables the creation of assemblies that contain applications and allow their deployment and management.
 
-By configuring [Clouds][], [Organizations][] and other components, the building blocks are put in place for the
-end [Users][] to configure and deploy their applications.
-
-See also
-
-* Installing OneOps using [OneOps](/admin/references/oneops-manages-oneops.html)
-
-[getting started]: /admin/getting-started/
-[Clouds]: /user/key-concepts/index.html#clouds
-[key concepts]: /user/key-concepts/
-[Organizations]: /user/key-concepts/index.html#organization
-[Users]: /user/overview/
+All these activities and concepts and the relevant terminology are described in the
+[user documentation](/user/overview/).

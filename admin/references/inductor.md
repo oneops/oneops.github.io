@@ -1,7 +1,6 @@
 ---
 layout: admin-doc
 title: Inductor
-id: inductor
 ---
 
 The **Inductor** consumes WorkOrders (rfc / configuration change) or ActionOrders
@@ -53,6 +52,30 @@ The inductor logs are shipped using logstash forwarder to backe end elastic sear
 
 The UI uses the daq api (Spring based) PerfController to get data.
 
-# All Components
 
-* See the <a href="/admin/key-concepts/index.html">OneOps System Architecture Diagram</a>
+# Inductor Directory Structure
+
+The directory structure after you have created inductor successfully will look like this,
+
+```
+cd /opt/oneops/inductor
+├── circuit-oneops-1 -> /home/oneops/build/circuit-oneops-1 from (https://github.com/oneops/circuit-oneops-1)
+├── clouds-available # All inductor which are created will go in this
+│   └── public.oneops.clouds.aws
+├── clouds-enabled
+│   └── public.oneops.clouds.aws -> ../clouds-available/public.oneops.clouds.aws
+├── Gemfile
+├── Gemfile.lock
+├── init.d
+│   └── inductor
+├── lib
+│   └── client.ts
+├── log
+└── shared ## Refer (https://github.com/oneops/oneops-admin/tree/master/lib/shared)
+    ├── cookbooks
+    ├── exec-gems.yaml
+    ├── exec-order.rb
+    └── hiera.yaml
+```
+
+
