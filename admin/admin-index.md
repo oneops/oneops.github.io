@@ -6,7 +6,6 @@ title: Administrator Documentation Index
 <ul>
   <li><a href="/admin/overview/">Overview</a></li>
   <li><a href="/admin/key-concepts/" >Key Concepts</a></li>
-  <li><a href="/admin/prerequisites/" >Prerequisites</a></li>
   <li><a href="/admin/getting-started/" >Getting Started</a></li>
   <li>Typical Scenarios: 
     <ul>
