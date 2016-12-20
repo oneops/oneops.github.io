@@ -744,12 +744,6 @@ img.ti-img-chev {
 
 .circuits-table {margin-left: -25px;}
 
-.partners-mid-row {max-width: 120px;}
-
-.partners-table {
-    margin: 10px 10px 0 10px;
-    padding: 1px 10px 10px 10px;
-}
 
 .span-partner-align {
     display: table;
@@ -762,27 +756,13 @@ span.span-partner-align {
     display: table-cell;
     vertical-align: middle;
 }
-
-.table-partner-align {
-    display: table;
-    width: 250px;
-    height: 58px;
-}
-
-span.table-partner-align {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .partner-single {margin-top: 37px;}
 
-.partners-table-image {
-    width: 138px;
-    margin: 16px 10px 0 -20px;
-    padding: 1px 10px 10px 10px;
+.partner-image {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-
-.partners-table-center {max-width: 200px;}
 
 .partner-table-heading {text-transform: uppercase;}
 
@@ -796,9 +776,10 @@ span.table-partner-align {
 .table-partners>tfoot>tr>th,
 .table-partners>thead>tr>td,
 .table-partners>thead>tr>th {
-    border-bottom: 1px solid #ddd!important;
-    border-right: 1px solid #ddd!important;
-    border-top: 0;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
 }
 
 .contribute-container-two {
