@@ -37,6 +37,8 @@ navigation:
    url: /documentation.html
 
 documentation:
+ - title: general
+   url: /
  - title: user
    url: /overview/
  - title: admin
