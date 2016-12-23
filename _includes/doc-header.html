@@ -13,11 +13,11 @@
         {% assign current = 'active' %}
       {% endif %}
       <li>
-        <a href="/{{ link.title }}{{ link.url }}" class="{{ current }}">{{ link.title | upcase }}S</a>
+        <a href="{{ link.url }}" class="{{ current }}">{{ link.title | upcase }}</a>
       </li>
     {% endfor %}
     </ul>
-	<div class="global-search">
+    <div class="global-search">
         <span class="icon-search gsi"></span>
         <input data-name="search" data-search-types="all" type="text" value="Search" class="global-search-input"/>
       </div>

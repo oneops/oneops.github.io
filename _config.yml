@@ -37,12 +37,14 @@ navigation:
    url: /documentation.html
 
 documentation:
+ - title: general
+   url: /general/about.html
  - title: user
-   url: /overview/
+   url: /user/overview/index.html
  - title: admin
-   url: /overview/
+   url: /admin/overview/index.html
  - title: developer
-   url: /overview/
+   url: /developer/overview/index.html
 
 sources:
  confluence:
