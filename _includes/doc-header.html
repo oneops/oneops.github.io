@@ -13,7 +13,7 @@
         {% assign current = 'active' %}
       {% endif %}
       <li>
-        <a href="/{{ link.title }}{{ link.url }}" class="{{ current }}">{{ link.title | upcase }}</a>
+        <a href="{{ link.url }}" class="{{ current }}">{{ link.title | upcase }}</a>
       </li>
     {% endfor %}
     </ul>
