@@ -6,7 +6,7 @@ title: Documentation Guideline
 # Documentation Guideline
 
 The OneOps documentation is part of the publicly available web site at [http://www.oneops.com](http://www.oneops.com). 
-Contributions are welcome and managed in the [same manner as code contributions](./index.html).
+Contributions are welcome and managed in the [same manner as code contributions](./contribute.html).
 
 ## Technical Details
 
