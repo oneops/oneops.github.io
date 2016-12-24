@@ -2,8 +2,8 @@
 
 This is the source code of the OneOps website available at [http://oneops.com](http://oneops.com).
 
-Please feel free to make PRs to improve the site. Read out [contribution](http://oneops.com/developer/contribution/)
-and [documentation guidelines](http://oneops.com/developer/contribution/doc-guideline.html) for more information.
+Please feel free to make PRs to improve the site. Read out [contribution](http://oneops.com/general/contribute.html)
+and [documentation guidelines](http://oneops.com/general/doc-guideline.html) for more information.
 
 ## Building
 
