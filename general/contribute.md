@@ -28,7 +28,7 @@ Create [Pull-Requests](https://help.github.com/articles/creating-a-pull-request/
 will review and merge.
 
 The website is the main documentation for OneOps and we welcome issues and pull requests for it as well. If you want to
-help, check out our [documentation guideline](/developer/contribution/doc-guideline.html).
+help, check out our [documentation guideline](./doc-guideline.html).
 
 # Code Review Process
 
