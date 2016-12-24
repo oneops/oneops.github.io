@@ -3,7 +3,10 @@ layout: general-doc
 title: Contribution
 ---
 
-Our code is publicly available in several repos on GitHub at [https://github.com/oneops](https://github.com/oneops)
+# Contribute
+
+Our code is publicly available in several repos on GitHub at
+[https://github.com/oneops](https://github.com/oneops)
 
 We utilize GitHub for issue tracking and contributions. You can contribute in two ways:
 
