@@ -46,11 +46,6 @@ documentation:
  - title: developer
    url: /developer/overview/index.html
 
-sources:
- confluence:
-  server: https://confluence.walmart.com
-  pages: [PGPTOOLS/Test]
-
 # ----------------------------------------------------------------------------------------------------------------------
 # Theme
 # ----------------------------------------------------------------------------------------------------------------------
