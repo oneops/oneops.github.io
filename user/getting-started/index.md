@@ -67,7 +67,8 @@ This section describes how to set up your account, organization, assemblies.
 
 ## Create Cloud
 
->Noramally administrator of the organization creates a cloud, it may require creating an [inductor][] or adding cloud to an exiting inductor.  
+>Noramally administrator of the organization creates a cloud, it may require creating an
+[inductor](/admin/references/inductor.html) or adding cloud to an exiting inductor.
 
 1. Create [Organization](#create-organization) if one does not exist.
 2. Click **clouds** link on left nav bar .
