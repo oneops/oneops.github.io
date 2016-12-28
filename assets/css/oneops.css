@@ -12,8 +12,6 @@
 .grey {color: #f5f5f5}
 .grey-bg {background-color: #f5f5f5}
 
-.bottom-spacer-small {padding-bottom: 30px;}
-
 .center-text {text-align: center;}
 
 .headline-one {font-size: 48px}
@@ -45,29 +43,11 @@
     z-index: 1;
 }
 
-/*
-.border-top {
-    border-top: 1px #dddddd solid;
+.footer-element {
+  border-top: 1px #dddddd solid;
+  padding-top: 30px;
+  background-color: #ffffff;
 }
-
-.footer-content {
-    max-height: 300px;
-    min-height: 100px;
-}
-
-.footer-logo {
-    height: 0;
-    padding-top: 23px;
-}
-.footer-copyright {
-    font-size: 12px;
-    font-weight: bold;
-    color: #717171;
-    padding-top: 40px;
-    margin-top: -5px;
-    margin-left: 2px;
-}
-
 .footer-link-spacer {
     margin-right: 20px;
 }
@@ -114,5 +94,5 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-*/
+
 
