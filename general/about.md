@@ -3,7 +3,17 @@ layout: general-doc
 title: About OneOps
 ---
 
-# About OneOps - Cloud Application Lifecycle Management
+
+<div class="about-hero-unit">
+  <div class="hero-info hero-headline-one">
+    <br>
+    <br>
+    <div class="yellow">About OneOps</div>
+    <div class="white">Cloud Application</div>
+    <div class="white">Lifecycle Management</div>
+  </div>
+</div>
+<br>
 
 OneOps is a cloud management and application lifecycle management platform that developers use to both develop and
 launch new products faster, and to more easily maintain them throughout their entire lifecycle. OneOps enables
@@ -12,13 +22,17 @@ developers to code their products in a hybrid, multi-cloud environment.
 This means developers can switch between different cloud providers to take advantage of better pricing, technology
 or scalability – without being locked into one cloud provider.
 
-# Mission
+
+<div class="center-text headline-one bottom-spacer-small blue">
+Mission
+</div>
 
 Our mission is to give our customers the most agile, cost-effective, flexible application lifecycle management
 solution for enterprise class workloads in the cloud.
 
-
-# History
+<div class="center-text headline-one bottom-spacer-small blue">
+History
+</div>
 
 OneOps was founded in the spring of 2011 by three industry veterans experienced in running some of the largest web
 environments. It is through this experience that they re-invented how applications should be provisioned and
@@ -28,7 +42,9 @@ several eCommerce properties within the <strong>Walmart</strong> portfolio inclu
 Club. In January 2016, __@WalmartLabs__ released OneOps as open source software project under the
 Apache 2.0 license.
 
-# Contact Us
+<div class="center-text headline-one bottom-spacer-small blue">
+Contact Us
+</div>
 
 We are seeking to build a robust community around this product. If you are a cloud provider, infrastructure
 hardware vendor, software vendor, represent an open source product or are a consultancy, we’d enjoy hearing from

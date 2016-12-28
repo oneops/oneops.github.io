@@ -1,0 +1,46 @@
+/* A copy of select styles from main.csss to be used within the docs. */
+/* main.css interferes too much and will be removed at some stage */
+ 
+.white {color: #ffffff}
+.white-bg {background-color: #ffffff}
+.black {color: #000000}
+.black-bg {background-color: #000000}
+.yellow {color: #fcb813}
+.yellow-bg {background-color: #fcb813}
+.blue {color: #1992d0}
+.blue-bg {background-color: #1992d0}
+.grey {color: #f5f5f5}
+.grey-bg {background-color: #f5f5f5}
+
+.bottom-spacer-small {padding-bottom: 30px;}
+
+.center-text {text-align: center;}
+
+.headline-one {font-size: 48px}
+
+.headline-one,
+.headline-two,
+.headline-benefits {
+    font-family: 'Flexo W01 Regular','flexomedium', Arial, sans-serif;
+    text-rendering: geometricPrecision;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.hero-headline-one {
+    font-family: 'Flexo W01 Regular','flexomedium', Arial, sans-serif;
+    text-rendering: geometricPrecision;
+    line-height: 1.2;
+    font-size: 48px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+.about-hero-unit {
+    background-image: url('/assets/img/hero/about/about.jpg');
+    height: 370px;
+}
+
+.hero-info {
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
