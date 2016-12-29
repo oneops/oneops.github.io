@@ -15,6 +15,7 @@
 .center-text {text-align: center;}
 
 .headline-one {font-size: 48px}
+.headline-two {font-size: 28px;}
 
 .headline-one,
 .headline-two,
@@ -41,6 +42,25 @@
     text-align: center;
     width: 100%;
     z-index: 1;
+}
+
+.documentation-hero-unit {
+    background-size: cover;
+    background-color: #EEEEEE;
+    background-image: url('/assets/img/hero/documents/documents.jpg');
+    height: 370px;
+}
+.oo-content-icons {
+    font-size: 120px;
+    padding-bottom: -145px;
+    margin-bottom: -35px;
+    display: block;
+}
+.ti-image {padding-bottom: 30px;}
+
+.contribute-hero-unit {
+    background-image: url('/assets/img/hero/contribute/contribute.jpg');
+    height: 370px;
 }
 
 .footer-element {
