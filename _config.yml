@@ -32,7 +32,7 @@ navigation:
  - title: Contribute
    url: /general/contribute.html
  - title: About
-   url: /about.html
+   url: /general/about.html
  - title: Documentation
    url: /general/documentation.html
 
