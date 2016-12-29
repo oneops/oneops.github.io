@@ -3,7 +3,7 @@ layout: general-doc
 title: Contribution
 ---
 
-# Contribute
+# Contribution Details
 
 Our code is publicly available in several repos on GitHub at
 [https://github.com/oneops](https://github.com/oneops)
