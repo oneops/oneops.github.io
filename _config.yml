@@ -30,11 +30,11 @@ navigation:
  - title: Integrations
    url: /integrations.html
  - title: Contribute
-   url: /contribute.html
+   url: /general/contribute.html
  - title: About
    url: /about.html
  - title: Documentation
-   url: /documentation.html
+   url: /general/documentation.html
 
 documentation:
  - title: general

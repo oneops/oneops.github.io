@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+  <head>
+    <title>{{site.name}} | {{page.title}}</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{site.description}}" />
+    <meta name="author" content="{{site.domain}}" />
+    
+    <!-- Favicon -->
+    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="{{site.context}}/assets/docs/shared/images/favicon.png" type="image/x-icon">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/reset.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/prism.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/oosteps.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{site.context}}/assets/css/oneops.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{site.context}}/assets/font/oo-icon-pack/oo-icon-pack.css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Roboto:300,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- JavaScript -->
+    <script>
+        window.CorpusSettings = {
+            searchUrl: "{{ site.searchurl }}",
+            searchName: "{{ site.searchname }}",
+            feedbackUrl: "{{ site.feedbackurl }}",
+            authUrl: "{{ site.authurl }}"
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/corpus-auth.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="{{site.context}}/assets/js/back-to-top.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/respond.min.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/prism.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/corpus-search.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/corpus-feedback.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/corpus-sidebar.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/corpus-general.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/corpus-animation.js"></script>
+    <script src="{{site.context}}/assets/docs/shared/js/simple-modal.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{{site.googleId}}', '{{site.domain}}');
+      ga('send', 'pageview');
+
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="{{site.context}}/assets/shared/js/html5.js"></script>
+    <![endif]-->
+    
+  </head>
