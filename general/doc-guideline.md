@@ -1,5 +1,5 @@
 ---
-layout: dev-doc
+layout: general-doc
 title: Documentation Guideline
 ---
 
