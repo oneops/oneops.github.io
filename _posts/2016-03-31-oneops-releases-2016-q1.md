@@ -5,22 +5,21 @@ published: true
 ---
 
 {{ page.date | date: "%-d %B %Y" }}
-
-# OneOps Releases 2016 Q1
+<div class="blogtitle">OneOps Releases 2016 Q1</div>
 
 went open source in january and did not rest
 
 <!--more-->
 
 
-## Release 2016.03.30
+# Release 2016.03.30
 
 Circuit Updates:
 - Java 8 support added fore solrcloud.rb
 - Cloud RDBMS pack available
 - Added Jboss version 6.4.0
 
-## Release 2016.03.24
+# Release 2016.03.24
 
 Circuit Updates:
 
@@ -28,14 +27,14 @@ Circuit Updates:
 - Add Carbonate tool to Graphite pack
 - Added kafka-hdfs pack
 
-## Release 2016.03.16
+# Release 2016.03.16
 
 Circuit Updates:
 
 - Added configurable repo path for main source apache pack. Users are free to use any available apache version 
 - Added Dependency download to user
 
-## Release 2016.03.09
+# Release 2016.03.09
 
 - Ability to define pack level defaults for platform attributes like auto replace or auto scale configs. Follow here to know how to set the configs for your pack
 
@@ -44,7 +43,7 @@ Circuit Updates:
 - add auto-start and monitoring for memcached
 - cargovan-storm updated
 
-## Release 2016.03.02
+# Release 2016.03.02
 
 - OS package update action is available https://confluence.walmart.com/display/PGPPAAS/How+to+update+specific+OS+packages+on+a+compute. This action execution is required to be performed by all app owners
 
@@ -58,7 +57,7 @@ Circuit Updates:
 - Added storm version 0.10.0
 - RHEL/CentOS 6.7 is now availbale and Default to Cloud setting is pointed to 6.7 image
 
-## Release 2016.02.24
+# Release 2016.02.24
 
 Circuit Updates:
 
@@ -67,7 +66,7 @@ Open Source release for packs:
 - Redisio
 - NodeJs
 
-## Release 2016.02.17
+# Release 2016.02.17
 
 Circuit Updates:
 
@@ -75,7 +74,7 @@ Circuit Updates:
 - Added new Redisio version 3.0.4 and 3.0.7
 - Added support for Graphite 0.9.15
 
-## Release 2016.02.10
+# Release 2016.02.10
 
 - New settings tab added to assembly view. Delete assembly button moved under this tab
 
@@ -85,25 +84,25 @@ Circuit Updates:
 - Apache Cassandra version 2.1.12 is available
 - Enabled Ganglia monitoring in lola-spark pack
 
-## Release 2016.02.03
+# Release 2016.02.03
 
 - [Cost Management](/user/typical-scenarios/cost-management.html)
 - [Auto-Scale](user/references/auto-scale.html) event severity update
 - Inactivity login session timeout pop-up is replaced with top warning bar
 
-## Release 2016.01.27
+# Release 2016.01.27
 
 Circuit Updates:
 
 - Upgraded zookeeper jdk to 8
 - Added SolrMonitoring pack
 
-## Release 2016.01.20
+# Release 2016.01.20
 
 - Custom Monitoring
 - Collapsible banner
 
-## Release 2016.01.13
+# Release 2016.01.13
 
 - LB horizontal scaling
   - Every existing environment platform will undergo compute/fqdn/lb component update associated with any deployment post 13/01/2016

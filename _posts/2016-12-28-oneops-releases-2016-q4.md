@@ -5,16 +5,13 @@ published: true
 ---
 
 {{ page.date | date: "%-d %B %Y" }}
-
-# OneOps Releases 2016 Q4
-
-{{ post.date | date: "%-d %B %Y" }}
+<div class="blogtitle">OneOps Releases 2016 Q4</div>
 
 Closing off the first year .. not slowing down - but on code freeze since 20 Oct.. so wait for January 2017!
 
 <!--more-->
 
-## Release 2016.10.20
+# Release 2016.10.20
 
  Sensor counter API revival to identify state change
  Improve performance of CI delete by enabling aggressive caching to save huge DB calls
@@ -24,7 +21,7 @@ UI bug fix for deployment overlay
 Git Release Reference tag
 OneOps Core
 
-## Release 2016.10.12
+# Release 2016.10.12
 
 Exponential delay for auto repair
 Ability to highlight and share log lines
