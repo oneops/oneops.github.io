@@ -4,6 +4,8 @@ title:  OneOps Releases 2016 Q2
 published: true
 ---
 
+{{ page.date | date: "%-d %B %Y" }}
+
 # OneOps Releases 2016 Q2
 
 Off to a good start - continued into the sumer

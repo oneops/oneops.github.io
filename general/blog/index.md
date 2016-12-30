@@ -12,7 +12,6 @@ You might also want to check out what happens [In The Press and Elsewhere](/gene
 But now, here is the latest from the OneOps team:
 
 {% for post in site.posts %}
-<div>{{ post.date | date: "%-d %B %Y" }}</div>
 {{ post.excerpt }}
 __[Read more ... ]({{ post.url }})__
 <br><br>

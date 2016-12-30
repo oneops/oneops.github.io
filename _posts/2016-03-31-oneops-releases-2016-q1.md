@@ -4,6 +4,8 @@ title:  OneOps Releases 2016 Q1
 published: true
 ---
 
+{{ page.date | date: "%-d %B %Y" }}
+
 # OneOps Releases 2016 Q1
 
 went open source in january and did not rest
