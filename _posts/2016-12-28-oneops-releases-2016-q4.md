@@ -2,7 +2,7 @@
 layout: post
 title:  OneOps Releases 2016 Q4
 published: true
-author: ooteam
+authors: [ooteam, klohia, mmoser]
 ---
 
 Closing off the first year .. not slowing down - but on code freeze since 20 Oct.. so wait for January 2017!

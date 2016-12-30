@@ -14,8 +14,13 @@
            <br>
            {{ page.date | date: "%-d %B %Y" }}
            <div class="blogtitle">{{ page.title}}</div>
-           {% assign author = site.authors[page.author] %}
-           <a href="{{ author.web }}">{{ author.name }}</a>
+           {% for author in page.authors %}
+              {% assign current = site.authors[author] %}
+              <a href="{{ current.web }}">{{ current.name }}</a>
+              {% unless forloop.last %}
+              ,
+              {% endunless%}
+           {% endfor %}
            <br><br>
            {{ content }}
           </article>
