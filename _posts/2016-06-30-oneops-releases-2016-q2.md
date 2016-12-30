@@ -1,5 +1,5 @@
 ---
-layout: general-doc
+layout: post
 title:  OneOps Releases 2016 Q2
 published: true
 ---
