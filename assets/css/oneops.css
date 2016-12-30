@@ -1,5 +1,12 @@
 /* A copy of select styles from main.css to be used within the docs look and feel. */
 /* main.css interferes too much and will be removed at some stage */
+/* also adding new styles here */
+
+.blogtitle {
+  font-size: 30px;
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
 
 .white {color: #ffffff}
 .white-bg {background-color: #ffffff}
