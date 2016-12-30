@@ -13,6 +13,6 @@ But now, here is the latest from the OneOps team:
 
 {% for post in site.posts %}
 {{ post.excerpt }}
-__[Read more ... ]({{ post.url }})__
-<br><br>
+<a href="{{ post.url }}">Read more ...</a>
+<hr>
 {% endfor %}
