@@ -4,9 +4,6 @@ title:  OneOps Releases 2016 Q1
 published: true
 ---
 
-{{ page.date | date: "%-d %B %Y" }}
-<div class="blogtitle">OneOps Releases 2016 Q1</div>
-
 Wow. What a busy quarter we had. went open source in january and did not rest
 
 <!--more-->

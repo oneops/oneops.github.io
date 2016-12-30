@@ -4,9 +4,6 @@ title:  OneOps Releases 2016 Q4
 published: true
 ---
 
-{{ page.date | date: "%-d %B %Y" }}
-<div class="blogtitle">OneOps Releases 2016 Q4</div>
-
 Closing off the first year .. not slowing down - but on code freeze since 20 Oct.. so wait for January 2017!
 
 <!--more-->

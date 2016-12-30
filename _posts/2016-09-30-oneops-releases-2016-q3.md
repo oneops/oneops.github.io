@@ -4,9 +4,6 @@ title:  OneOps Releases 2016 Q3
 published: true
 ---
 
-{{ page.date | date: "%-d %B %Y" }}
-<div class="blogtitle">OneOps Releases 2016 Q3</div>
-
 Despite holidays and a hot summer .. we are on it. 
 
 <!--more-->

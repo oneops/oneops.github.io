@@ -11,6 +11,8 @@
         <section id="rightpage">
           <article id="{{ page.title }}" class="reference">
            {% include breadcrumbs.html %}
+           {{ page.date | date: "%-d %B %Y" }}
+           <div class="blogtitle">{{ page.title}}</div>
            {{ content }}
           </article>
         </section><!-- END rightpage -->
