@@ -49,6 +49,20 @@ documentation:
  - title: developer
    url: /developer/overview/index.html
 
+authors:
+  ooteam:
+    name: The OneOps Team
+    web: http://oneops.com
+  klohia:
+    name: Khushboo Lohia
+    web: tbd
+  ksaroya:
+    name: Kulwinder Saroya
+    web: tbd
+  mmoser:
+    name: Manfred Moser
+    web: http://twitter.com/simpligility
+
 # ----------------------------------------------------------------------------------------------------------------------
 # Theme
 # ----------------------------------------------------------------------------------------------------------------------

@@ -2,6 +2,7 @@
 layout: post
 title:  OneOps Releases 2016 Q2
 published: true
+author: ooteam
 ---
 
 Off to a good start - continued into the sumer
