@@ -17,6 +17,7 @@ slack_channel: oneops
 slack_register: https://oneops.typeform.com/to/fudwo5
 twitter_url: https://twitter.com/One_Ops
 github_url: https://github.com/oneops
+github_site_url: https://github.com/oneops.github.io
 
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search

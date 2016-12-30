@@ -3,12 +3,12 @@ layout: general-doc
 title: In The Press
 ---
 
-# In The Press
+# In The Press and Elsewhere
 
 Whether OneOps was mentioned on our own blog or an external site - here is where we try to collect those references.
 You can also find audio, video and slide presentation related resources and links here.
 
-If you have a relevant link to be added - let us know!
+If you have a relevant link to be added - let us know or [send a pull request]({{ site.github_site_url }})!
 
 December 29th, 2016 - tech better (Audio): [Open Source Cloud  asdfasdfat Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
 
@@ -20,7 +20,23 @@ December 22nd, 2016 - tech better: [Open Source Innovation Delivers an Unforgett
 
 November 30th, 2016 - tech better: [Four Things You Didn’t Know About Black Friday at Walmart Tech](http://www.techbetter.com/4-things-didnt-know-black-friday-walmart-tech/)
 
+October 26th, 2016 - All Things Open 2016 (Slides): [Avoiding the Pitfalls of Being Locked into One Cloud Provider](https://www.youtube.com/watch?v=F04ha4oU-l8)
+
+October 25th, 2016 - OpenStack Summit 2016 (Video): [How Walmart is Building a Successful Open Source Culture with Megan Rossetti and Andrew Mitry](https://www.youtube.com/watch?v=waeuzMXJgUo)
+
+October 25th, 2016 2016, OpenStack Days Barcelona, 2016 (Video): [Building Large Scale Private Clouds with OpenStack and Ceph with Andrew Mitry and Anton Thaker](https://www.youtube.com/watch?v=dO2LAklak74)
+
+October 14th, 2016 2016, OpenStack Days Seattle 2016 (Video): [Transforming Walmart with Sean Roberts](https://www.youtube.com/watch?v=Yt6Oxlbh-vA)
+
+September 28th, 2016 2016, OpenStack Days East 2016 (Video): [Case Study: OpenStack at Walmart with Kire Filipovski and Andrew Mitry](https://www.youtube.com/watch?v=pdWSWs08LMg)
+
 September 22nd, 2016 - WalmartLabs: [Application Deployment on OpenStack via OneOps by our team member, Dr. Ning Zhang](https://medium.com/walmartlabs/application-deployment-on-openstack-via-oneops-9c08e561530b#.19tyy752r)
+
+
+August 17th, 2016, OpenStack Days Silicon Valley 2016 (Video): [What’s Next for OpenStack at Walmart](https://www.youtube.com/watch?v=KMtiEikWJHI)
+
+
+August 9th, 2016 2016, OpenStack Days Silicon Valley 2016 (Video): [The Cube Interview with Sean Roberts](https://www.youtube.com/watch?v=1rbDLB78FXM)
 
 February 24th, 2016 - InfoQ: [@WalmartLabs Open-Sources OneOps PaaS](http://www.infoq.com/news/2016/02/walmart-labs-oneops-paas)
 
