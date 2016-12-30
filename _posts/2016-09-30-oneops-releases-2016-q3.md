@@ -2,7 +2,7 @@
 layout: post
 title:  OneOps Releases 2016 Q3
 published: true
-authors: [ooteam, klohia, mmoser]
+authors: [klohia, ksaroya, mmoser]
 ---
 
 Despite holidays and a hot summer .. we are on it. 

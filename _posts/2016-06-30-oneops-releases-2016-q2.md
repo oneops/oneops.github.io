@@ -2,7 +2,7 @@
 layout: post
 title:  OneOps Releases 2016 Q2
 published: true
-authors: [ooteam, klohia, mmoser]
+authors: [klohia, ksaroya, mmoser]
 ---
 
 Off to a good start - continued into the sumer

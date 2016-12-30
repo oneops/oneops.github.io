@@ -2,7 +2,7 @@
 layout: post
 title:  OneOps Releases 2016 Q1
 published: true
-authors: [ooteam, klohia, mmoser]
+authors: [klohia, ksaroya, mmoser]
 ---
 
 Wow. What a busy quarter we had. went open source in january and did not rest
