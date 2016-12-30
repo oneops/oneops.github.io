@@ -8,7 +8,10 @@ title: In The Press
 Whether OneOps was mentioned on our own blog or an external site - here is where we try to collect those references.
 You can also find audio, video and slide presentation related resources and links here.
 
-If you have a relevant link to be added - let us know or [send a pull request]({{ site.github_site_url }})!
+If you have a relevant link to be added - [let us know](/general/contribute.html) or 
+<a href="https://github.com/oneops/oneops.github.io" target="_blank">send a pull request</a>!
+
+# 2016
 
 December 29th, 2016 - tech better (Audio): [Open Source Cloud at Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
 
@@ -72,6 +75,8 @@ January 26th, 2016 - Fortune: [Walmart Says it Can Cut Your Cloud Costs](http://
 
 January 25th, 2016 - WalmartLabs: [OneOps Open-Source PaaS now available!](http://www.walmartlabs.com/2016/01/oneops-now-available/)
 
+# 2015 and Earlier
+
 October 16th, 2015 - GeekWire: [Walmart plans to release OneOps as open source, targeting AWS and Azure](http://www.geekwire.com/2015/walmart-plans-to-release-oneops-cloud-technology-as-open-source-targeting-aws-and-azure/)
 
 October 15th, 2015 - ITProPortal: [Walmart OneOps cloud platform goes open source](http://www.itproportal.com/2015/10/15/walmart-oneops-cloud-platform-goes-open-source/)
@@ -87,7 +92,4 @@ October 14th, 2015 - CIO: [Walmart decries cloud lock-in, plans to open-source O
 October 14th, 2015 - WalmartLabs: [OneOps - We're Going Open Source](http://www.walmartlabs.com/2015/10/walmartlabs-oneops-open-source/)
 
 May 14th, 2013 - WalmartLabs: [OneOps is joining WalmartLabs](http://www.walmartlabs.com/2013/05/oneops-is-joining-walmartlabs/)
-
-
-
 
