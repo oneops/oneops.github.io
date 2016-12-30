@@ -15,9 +15,10 @@ went open source in january and did not rest
 # Release 2016.03.30
 
 Circuit Updates:
-- Java 8 support added fore solrcloud.rb
+
+- Java 8 support added for solrcloud.rb
 - Cloud RDBMS pack available
-- Added Jboss version 6.4.0
+- Added JBoss version 6.4.0
 
 # Release 2016.03.24
 
@@ -45,7 +46,7 @@ Circuit Updates:
 
 # Release 2016.03.02
 
-- OS package update action is available https://confluence.walmart.com/display/PGPPAAS/How+to+update+specific+OS+packages+on+a+compute. This action execution is required to be performed by all app owners
+- OS package update action is available.
 
 GUI updates:
 
@@ -62,6 +63,7 @@ Circuit Updates:
 Circuit Updates:
 
 Open Source release for packs:
+
 - Zookeeper
 - Redisio
 - NodeJs
@@ -104,19 +106,23 @@ Circuit Updates:
 
 # Release 2016.01.13
 
-- LB horizontal scaling
-  - Every existing environment platform will undergo compute/fqdn/lb component update associated with any deployment post 13/01/2016
-- Auto healing flags moved from environment configuration in transition to platform in operate phase
-  - 3 new buttons are now visible on platform operation page[auto-repair, auto-replace and auto-scale(visible only to redundant platforms)]
-  - The flags can no longer be configured on environment create/update
-  - This allows certain platforms to have auto replace enabled e.g web based platforms like tomcat while others can keep them disabled e.g. data based platforms like couchbase
-  - Only auto-repair will be turned ON by default for all platforms.
-- UI additions/improvements
-  - Security: User session inactivity timeout of 30mins 
-  - Security: Only one simultaneous session is allowed
-  - Notification graph now available on assembly, environment operation pages along with notification report page
-  - Improved performance of page loading
-  - Pagination for notification report with ability to filter on text in the subject as well as in the body
+LB horizontal scaling:
+- Every existing environment platform will undergo compute/fqdn/lb component update associated with any deployment post 13/01/2016
+
+Auto healing flags moved from environment configuration in transition to platform in operate phase:
+
+- 3 new buttons are now visible on platform operation page[auto-repair, auto-replace and auto-scale(visible only to redundant platforms)]
+- The flags can no longer be configured on environment create/update
+- This allows certain platforms to have auto replace enabled e.g web based platforms like tomcat while others can keep them disabled e.g. data based platforms like couchbase
+- Only auto-repair will be turned ON by default for all platforms.
+
+UI additions/improvements:
+
+- Security: User session inactivity timeout of 30mins 
+- Security: Only one simultaneous session is allowed
+- Notification graph now available on assembly, environment operation pages along with notification report page
+- Improved performance of page loading
+- Pagination for notification report with ability to filter on text in the subject as well as in the body
 
 Circuit updates:
 
