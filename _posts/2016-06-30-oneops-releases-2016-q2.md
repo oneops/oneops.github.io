@@ -18,8 +18,7 @@ so here are the releases of Q2
 
 - Design pull feature is completely async. On design pull failure, an error message will be displayed on environment summary page
 - Ability to browse logs in full screen. On deployment log, click on lookup icon to view formatted or unformatted log in a separate browser tab 
-
-[OneOps Core release tag 16.06.24-RC1](https://github.com/oneops/display/releases/tag/16.06.24-RC1)
+- [OneOps Core release tag 16.06.24-RC1](https://github.com/oneops/display/releases/tag/16.06.24-RC1)
 
 # Release 2016.06.08
 
