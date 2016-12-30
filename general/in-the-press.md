@@ -6,8 +6,21 @@ title: In The Press
 # In The Press
 
 Whether OneOps was mentioned on our own blog or an external site - here is where we try to collect those references.
+You can also find audio, video and slide presentation related resources and links here.
 
 If you have a relevant link to be added - let us know!
+
+December 29th, 2016 - tech better (Audio): [Open Source Cloud  asdfasdfat Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
+
+December 25th, 2016 - eWeek: [How Walmart is Embracing the Open Source OpenStack Model](http://www.eweek.com/cloud/how-walmart-is-embracing-the-open-source-openstack-model.html)
+
+December 20th, 2016 - tech better: [How Walmart Technology’s Big Bet on OpenStack Is Paying ooOff](http://www.techbetter.com/walmart-technologys-big-bet-openstack-paying-off/)
+
+December 22nd, 2016 - tech better: [Open Source Innovation Delivers an Unforgettable Christmas to 100+ Children](http://www.techbetter.com/open-source-innovation-delivers-unforgettable-christmas-100-children/)
+
+November 30th, 2016 - tech better: [Four Things You Didn’t Know About Black Friday at Walmart Tech](http://www.techbetter.com/4-things-didnt-know-black-friday-walmart-tech/)
+
+September 22nd, 2016 - WalmartLabs: [Application Deployment on OpenStack via OneOps by our team member, Dr. Ning Zhang](https://medium.com/walmartlabs/application-deployment-on-openstack-via-oneops-9c08e561530b#.19tyy752r)
 
 February 24th, 2016 - InfoQ: [@WalmartLabs Open-Sources OneOps PaaS](http://www.infoq.com/news/2016/02/walmart-labs-oneops-paas)
 
