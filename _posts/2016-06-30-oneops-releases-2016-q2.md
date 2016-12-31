@@ -5,9 +5,9 @@ published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
-Sticking to our weekly release cycle, we implemented a whole bunch of new features as well as got bugs and problems
-eliminated. Among others, we added a typeahead feature for lists and other UI elements and a few other improvements on
-user interface. Numerous packs also got a refresh treatment.
+Sticking to our weekly release cycle, we implemented a whole bunch of new features as well as got bugs and
+problems eliminated. Among others, we added a typeahead feature for lists and other UI elements and a few other
+improvements on user interface. Numerous packs also got a refresh treatment.
 
 <!--more-->
 
@@ -16,14 +16,18 @@ so here are the releases of Q2
 
 # Release 2016.06.22
 
-- Design pull feature is completely async. On design pull failure, an error message will be displayed on environment summary page
-- Ability to browse logs in full screen. On deployment log, click on lookup icon to view formatted or unformatted log in a separate browser tab 
+- Design pull feature is completely async. On design pull failure, an error message will be displayed on
+  environment summary page
+- Ability to browse logs in full screen. On deployment log, click on lookup icon to view formatted or unformatted
+  log in a separate browser tab
 - [OneOps Core release tag 16.06.24-RC1](https://github.com/oneops/display/releases/tag/16.06.24-RC1)
 
 # Release 2016.06.08
 
-- Added prompt/placeholder display in the form attribute input to help user with form input entry especially for structured attributes like hash and array.
-- Added "health" tab to platform operations page. Extended instance list filtering and sorting with "namespace" and "component type". Improved generic list filtering typeahead usability.
+- Added prompt/placeholder display in the form attribute input to help user with form input entry especially for
+  structured attributes like hash and array.
+- Added "health" tab to platform operations page. Extended instance list filtering and sorting with "namespace"
+  and "component type". Improved generic list filtering typeahead usability.
 - [OneOps Core release tag 16.06.08-RC1](https://github.com/oneops/display/releases/tag/16.06.08-RC1)
 
 # Release 2016.06.01
@@ -35,7 +39,8 @@ so here are the releases of Q2
 
 # Release 2016.05.25
 
-- Enhanced RFC history view for any DJ resource. The history will show the list of historical RFCs for committed releases for a given CI and linked relations 
+- Enhanced RFC history view for any DJ resource. The history will show the list of historical RFCs for committed
+  releases for a given CI and linked relations
 - [OneOps Core release tag 16.05.25-RC2](https://github.com/oneops/display/releases/tag/16.05.25-RC2)
 
 # Release 2016.05.18
@@ -87,7 +92,8 @@ Circuit Update
 - Added  carogoavan-0.2 version support for EC Pipeline
 - Enable/disable available Apache modules
 - Added process to verify solrcloud is up and running
-- Changing default value for phi_convict_threshold from 8 to 12 to reduce the floppiness of the node availability on ops-center.PGPDBAAS-4449
+- Changing default value for `phi_convict_threshold` from 8 to 12 to reduce the floppiness of the node
+  availability on ops-center.PGPDBAAS-4449
 - Sensu plug in support added from Central Monitoring component for Cassandra
 
 - [OneOps Core 16.04.27-RC1](https://github.com/oneops/display/tree/16.04.27-RC1)

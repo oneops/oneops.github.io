@@ -5,14 +5,17 @@ published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
-Closing off our first year as open source project, we slowed down on the releases a bit for a code freeze towards the end of year. The two October releases provided some rich enhancements and a stable base. With the year coming to an end we are lined up well for a great release coming in January. Stay tuned for more on that right here on the blog.
+Closing off our first year as open source project, we slowed down on the releases a bit for a code freeze towards
+the end of year. The two October releases provided some rich enhancements and a stable base. With the year coming
+to an end we are lined up well for a great release coming in January. Stay tuned for more on that right here on
+the blog.
 
 <!--more-->
 
 # Release 2016.10.20
 
 - Sensor counter API revival to identify state change
--  Improve performance of CI delete by enabling aggressive caching to save huge DB calls
+- Improve performance of CI delete by enabling aggressive caching to save huge DB calls
 - Search module clean up and performance optimization
 - CMS variable caching
 - UI bug fix for deployment overlay
