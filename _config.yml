@@ -18,6 +18,9 @@ slack_register: https://oneops.typeform.com/to/fudwo5
 twitter_url: https://twitter.com/One_Ops
 github_url: https://github.com/oneops
 
+excerpt_separator: <!--more-->
+permalink: /general/blog/:year-:month-:day-:title.html
+
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search
 searchname: 'site-oneops-'
@@ -45,6 +48,20 @@ documentation:
    url: /admin/overview/index.html
  - title: developer
    url: /developer/overview/index.html
+
+authors:
+  ooteam:
+    name: The OneOps Team
+    web: http://oneops.com
+  klohia:
+    name: Khushboo Lohia
+    web: http://twitter.com/KhushbooLohia
+  ksaroya:
+    name: Kulwinder Saroya
+    web: http://github.com/kulgh
+  mmoser:
+    name: Manfred Moser
+    web: http://twitter.com/simpligility
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Theme
