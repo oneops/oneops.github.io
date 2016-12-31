@@ -14,8 +14,10 @@ You might also want to check out what happens [In The Press and Elsewhere](/gene
 But now, here is the latest from the OneOps team:
 
 {% for post in site.posts %}
-{% assign author = site.authors[post.author] %}
-{{ post.date | date: "%-d %B %Y" }} - <a href="{{ author.web }}">{{ author.name }}</a>
+{{ post.date | date: "%-d %B %Y" }} -
+{% for author in post.authors %}{% assign current = site.authors[author] %}<a href="{{ current.web }}">{{ current.name }}</a>
+{% unless forloop.last %},{% endunless%}
+{% endfor %}
 <div class="blogtitle">{{ post.title}}</div>
 {{ post.excerpt }}
 <a href="{{ post.url }}">Read more ...</a>
