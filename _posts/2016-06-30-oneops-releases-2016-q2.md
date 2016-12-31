@@ -5,7 +5,9 @@ published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
-Off to a good start - continued into the sumer
+Sticking to our weekly release cycle, we implemented a whole bunch of new features as well as got bugs and problems
+eliminated. Among others, we added a typeahead feature for lists and other UI elements and a few other improvements on
+user interface. Numerous packs also got a refresh treatment.
 
 <!--more-->
 

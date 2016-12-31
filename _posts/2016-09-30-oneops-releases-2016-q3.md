@@ -5,7 +5,7 @@ published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
-Despite holidays and a hot summer .. we are on it. 
+Despite summer holidays and the desire to be outside, we kept improving OneOps for our users in regular releases.
 
 <!--more-->
 

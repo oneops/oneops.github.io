@@ -5,7 +5,7 @@ published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
-Wow. What a busy quarter we had. went open source in january and did not rest
+Wow - what a busy quarter we had! Of course our highlight was the open sourcing of OneOps, but we did not rest after either. As you can see below we introduced many new features with a weekly release cycle. 
 
 <!--more-->
 
