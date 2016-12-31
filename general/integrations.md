@@ -30,10 +30,7 @@ title: Integrations
     <!--END - TABLE HEADING-->
     <!--ROW -->
     <tr>
-        <td><div class="partners-table partners-table-image">
-              <img class="integration-img-sizer" src="/assets/img/logos/integrations/openstack.png"/>
-            </div>
-        </td>
+        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/openstack.png"/></td>
         <td>@WalmartLabs</td>
         <td>Private Cloud
             <br><br>
@@ -44,10 +41,7 @@ title: Integrations
     </tr>
     <!--ROW -->
     <tr>
-        <td><div class="partners-table partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/rackspace.png"/>
-            </div>
-        </td>
+        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/rackspace.png"/></td>
         <td>Rackspace</td>
         <td>Public & Private Cloud
             <br><br>
@@ -56,32 +50,20 @@ title: Integrations
     </tr>
     <!--ROW -->
     <tr>
-        <td>
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/azure.png"/>
-        </td>
-        <td>
-                Azure
-        </td>
-        <td>
-                Public & Private Cloud
-                <br><br>
-                Virtual Machines, Storage, ExpressRoute, Azure DNS, Virtual Network, Load Balancer
+        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/azure.png"/></td>
+        <td>Azure</td>
+        <td>Public & Private Cloud
+            <br><br>
+            Virtual Machines, Storage, ExpressRoute, Azure DNS, Virtual Network, Load Balancer
         </td>
     </tr>
     <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/amazon.png"/>
-            </div>
-        </td>
-        <td>
-                @WalmartLabs
-        </td>
-        <td>
-                Public Cloud
-                <br><br>
-                EC2, ELB, EBS, Route 53
+        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/amazon.png"/></td>
+        <td>@WalmartLabs</td>
+        <td>Public Cloud
+            <br><br>
+            EC2, ELB, EBS, Route 53
         </td>
     </tr>
     </tbody>
@@ -97,348 +79,323 @@ If your company is interested in integrating your cloud in to the OneOps product
 </p>
 
 
-  <div id="software"></div>
- <!--Circuits Container-->
-  <div class="container-fluid">
-      <div class="container circuits-container">
-          <div class="center-text headline-one top-spacer bottom-spacer-small blue">
-              Supported Products
-          </div>
-
-        <div class="container center-text">
-            <p>
-                <strong>@WalmartLabs</strong> has many products integrated with <strong>OneOps</strong> which will
-                be released  within the first few months after having made <strong>OneOps</strong> open source.
-                We’ve launched <strong>OneOps</strong> with a verified capability to manage Node, Java and LAMP
-                based applications on all the supported cloud providers. The other products included in this initial
-                release are required for <strong>OneOps</strong> to be deployed and to manage itself. They’re part
-                of the building blocks of the <strong>OneOps</strong> technology. 
-                The <a href="https://github.com/oneops/circuit-oneops-1">source of the circuit</a> is the
-                authoritative reference for available integrations.
-            </p>
-            <br>
-            <br>
-        </div>
-
-        <!--Full Width-->
-        <div class="container table-responsive">
-            <table class="table table-partners">
-
-                <!--TABLE HEADING-->
-                <tbody>
-                <tr>
-                    <td></td>
-                    <td>
-                        <div class="partners-table partner-table-heading">Supported Versions</div>
-                    </td>
-                    <td>
-                        <div class="partners-table partner-table-heading">Supported By</div>
-                    </td>
-                </tr>
-                <!--END - TABLE HEADING-->
-
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/couchbase.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align">2.2.0, 2.5.2, 4.0</span></td>
-                    <td><span class="span-partner-align">Couchbase</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/tomcat.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"></span></td>
-                    <td><span class="span-partner-align"> @WalmartLabs </span></td>
-                 </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/node.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 0.10.17, 0.10.26, 0.10.33, 0.10.35 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/docker.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 1.9 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/cassandra.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 1.2, 2.0, 2.1, 2.2 </span></td>
-                    <td><span class="span-partner-align"> @WalmartLabs </span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/postgresql.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 9.1, 9.4.* </span></td>
-                    <td><span class="span-partner-align"> @WalmartLabs </span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/tomcat.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 6, 7 </span></td>
-                    <td><span class="span-partner-align"> @WalmartLabs </span></td>
-               </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/ubuntu.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 14.04 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/centos.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 7 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/ruby.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 1.8.7, 1.9.3, 2.0.0 <br> 2.2.* with Rails 4.2.*
-                    </span></td>
-                    <td><span class="span-partner-align"> @WalmartLabs </span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/php.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align">5.6.* </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/apache.png"/>
-                        </div>
-                    </td>
-                     <td><span class="span-partner-align"> 2.2.21, 2.4.* </span></td>
-                     <td><span class="span-partner-align"> @WalmartLabs </span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/elastic-search.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 1.1.1, 1.3.2, 1.4.1, 1.4.4 </span></td>
-                    <td><span class="span-partner-align"> @WalmartLabs </span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/play-framework.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 2.1.0 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/zoo-keeper.png"/>
-                            <div class="integration-item">Apache ZooKeeper</div>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 3.4.5 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/mySQL.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 5.1.73, 5.7.* </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/redis.svg"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 2.6.16, 3.0.1 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/squid-cache.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 2.6.16, 3.0.1 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/RabbitMQ-new.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 2.8.5, 3.4.2, 3.4.2 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/active-mq.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 5.5.1, 5.9.1, 5.10.0, 5.12.* </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/java.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 6, 7, 8 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/jboss.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 5.1.2 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer"  src="/assets/img/logos/integrations/solr.svg"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 4.10.3 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/go-gopher-A.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> 1.1.2 </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/hap-roxy.png"/>
-                        </div>
-                    </td>
-                    <td><span class="span-partner-align"> </span></td>
-                    <td><span class="span-partner-align">@WalmartLabs</span></td>
-                </tr>
-                <!--END - ROW-->
-                </tbody>
-            </table>
-        </div>
-
-        <div class="center-text">
-            If you or your company are interested in contributing support for a software product
-            or open source project to OneOps, then please ...
-        </div>
-   <p class="button-padding center-text">
-    <a href="mailto:partners@oneops.com"><button class="btn btn-help">Email Us</button></a>
-   </p>
-  </div>
+<div id="software"></div>
+<div class="center-text headline-one top-spacer bottom-spacer-small blue">
+    Supported Products
 </div>
+
+<p>
+    <strong>@WalmartLabs</strong> has many products integrated with <strong>OneOps</strong> which will
+    be released  within the first few months after having made <strong>OneOps</strong> open source.
+    We’ve launched <strong>OneOps</strong> with a verified capability to manage Node, Java and LAMP
+    based applications on all the supported cloud providers. The other products included in this initial
+    release are required for <strong>OneOps</strong> to be deployed and to manage itself. They’re part
+    of the building blocks of the <strong>OneOps</strong> technology. 
+    The <a href="https://github.com/oneops/circuit-oneops-1">source of the circuit</a> is the
+    authoritative reference for available integrations.
+</p>
+<br>
+<br>
+
+<table class="table table-partners">
+
+    <!--TABLE HEADING-->
+    <tbody>
+    <tr>
+        <td></td>
+        <td>
+            <div class="partners-table partner-table-heading">Supported Versions</div>
+        </td>
+        <td>
+            <div class="partners-table partner-table-heading">Supported By</div>
+        </td>
+    </tr>
+    <!--END - TABLE HEADING-->
+
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/couchbase.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align">2.2.0, 2.5.2, 4.0</span></td>
+        <td><span class="span-partner-align">Couchbase</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/node.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 0.10.17, 0.10.26, 0.10.33, 0.10.35 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/docker.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 1.9 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/cassandra.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 1.2, 2.0, 2.1, 2.2 </span></td>
+        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/postgresql.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 9.1, 9.4.* </span></td>
+        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/tomcat.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 6, 7 </span></td>
+        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+   </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/ubuntu.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 14.04 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/centos.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 7 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/ruby.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 1.8.7, 1.9.3, 2.0.0 <br> 2.2.* with Rails 4.2.*
+        </span></td>
+        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/php.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align">5.6.* </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/apache.png"/>
+            </div>
+        </td>
+         <td><span class="span-partner-align"> 2.2.21, 2.4.* </span></td>
+         <td><span class="span-partner-align"> @WalmartLabs </span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/elastic-search.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 1.1.1, 1.3.2, 1.4.1, 1.4.4 </span></td>
+        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/play-framework.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 2.1.0 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/zoo-keeper.png"/>
+                <div class="integration-item">Apache ZooKeeper</div>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 3.4.5 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/mySQL.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 5.1.73, 5.7.* </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/redis.svg"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 2.6.16, 3.0.1 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/squid-cache.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 2.6.16, 3.0.1 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/RabbitMQ-new.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 2.8.5, 3.4.2, 3.4.2 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/active-mq.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 5.5.1, 5.9.1, 5.10.0, 5.12.* </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/java.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 6, 7, 8 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/jboss.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 5.1.2 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer"  src="/assets/img/logos/integrations/solr.svg"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 4.10.3 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/go-gopher-A.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> 1.1.2 </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <tr>
+        <td>
+            <div class="partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/hap-roxy.png"/>
+            </div>
+        </td>
+        <td><span class="span-partner-align"> </span></td>
+        <td><span class="span-partner-align">@WalmartLabs</span></td>
+    </tr>
+    <!--END - ROW-->
+    </tbody>
+</table>
+
+<div class="center-text">
+    If you or your company are interested in contributing support for a software product
+    or open source project to OneOps, then please ...
+</div>
+<p class="button-padding center-text">
+  <a href="mailto:partners@oneops.com"><button class="btn btn-help">Email Us</button></a>
+</p>
 
 <div id="help"></div>
 <!--Help Container-->
-<div class="container-fluid grey-bg">
-    <div class="container clouds-container">
-        <!--Header-->
-        <div class="center-text headline-one top-spacer bottom-spacer-small blue">
-            Getting Help
-        </div>
-        <p class="center-text">Consulting and Professional Services</p>
-        <p class="center-text">
-          <span class="partner-image">
-          <a href="http://www.avalonconsult.com/" target="_blank">
-            <img src="/assets/img/logos/avalon.png" alt="Avalon Consulting"/></a>
-          </span>
-          <span class="partner-image">
-          <a href="http://www.nisum.com/" target="_blank">
-            <img src="/assets/img/logos/nisum.png" alt="Nisum Technologies"/></a>
-          </span>
-          <span class="partner-image">
-          <a href="http://www.developintelligence.com/catalog/devops/oneops/introduction-to-oneops" target="_blank">
-            <img src="/assets/img/logos/Develop-Intelligence-logo.png" alt="DevelopIntelligence LLC"/></a>
-          </span>
-        </p>
-        <!--Full Screen-->
-        <div class="center-text">
-            If you’re interested in providing consulting or professional services to companies
-            interested in using OneOps, then please ...
-        </div>
-        <p class="button-padding center-text">
-            <a href="mailto:partners@oneops.com">
-                <button class="btn btn-help">
-                    Email Us
-                </button>
-            </a>
-        </p>
-    </div>
+<!--Header-->
+<div class="center-text headline-one top-spacer bottom-spacer-small blue">
+    Getting Help
 </div>
-<!--End Help Container-->
+<p class="center-text">Consulting and Professional Services</p>
+<p class="center-text">
+  <span class="partner-image">
+  <a href="http://www.avalonconsult.com/" target="_blank">
+    <img src="/assets/img/logos/avalon.png" alt="Avalon Consulting"/></a>
+  </span>
+  <span class="partner-image">
+  <a href="http://www.nisum.com/" target="_blank">
+    <img src="/assets/img/logos/nisum.png" alt="Nisum Technologies"/></a>
+  </span>
+  <span class="partner-image">
+  <a href="http://www.developintelligence.com/catalog/devops/oneops/introduction-to-oneops" target="_blank">
+    <img src="/assets/img/logos/Develop-Intelligence-logo.png" alt="DevelopIntelligence LLC"/></a>
+  </span>
+</p>
+<!--Full Screen-->
+<div class="center-text">
+    If you’re interested in providing consulting or professional services to companies
+    interested in using OneOps, then please ...
+</div>
+<p class="button-padding center-text">
+    <a href="mailto:partners@oneops.com">
+        <button class="btn btn-help">
+            Email Us
+        </button>
+    </a>
+</p>
 
