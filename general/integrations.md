@@ -5,144 +5,97 @@ title: Integrations
 
 <!--HERO CONTAINER-->
 <div class="integrations-hero-unit">
-    <div class="hero-info hero-info-integrations hero-headline-one">
-        <div class="yellow">Integrations</div>
-        <div class="white">OneOps is a marketplace of</div>
-        <div class="white">cloud providers and software products</div>
-        <div class="white">designed for DevOps developers.</div>
-    </div>
-    <div class="hero-overlay-darker"></div>
+  <div class="hero-info hero-info-integrations hero-headline-one">
+    <br>
+    <div class="yellow">Integrations</div>
+    <div class="white">OneOps is a marketplace of</div>
+    <div class="white">cloud providers and software products</div>
+    <div class="white">designed for DevOps developers.</div>
+  </div>
+  <div class="hero-overlay-darker"></div>
 </div>
-
-<!--Clouds Container-->
-<div class="container-fluid grey-bg">
-    <div class="container clouds-container">
-
-        <div id="clouds"></div>
+<br>
 
 <div class="center-text headline-one bottom-spacer-small blue">Supported Clouds</div>
 
+<!--Full Screen-->
+<table class="integrations-table">
+    <!--TABLE HEADING-->
+    <tbody>
+    <tr>
+        <td></td>
+        <td>Supported By</td>
+        <td>Notes</td>
+    </tr>
+    <!--END - TABLE HEADING-->
+    <!--ROW -->
+    <tr>
+        <td><div class="partners-table partners-table-image">
+              <img class="integration-img-sizer" src="/assets/img/logos/integrations/openstack.png"/>
+            </div>
+        </td>
+        <td>@WalmartLabs</td>
+        <td>Private Cloud
+            <br><br>
+            Nova, Neutron, Swift, Cinder, Glance
+            <br><br>
+            Liberty, Kilo and Juno Releases
+        </td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td><div class="partners-table partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/rackspace.png"/>
+            </div>
+        </td>
+        <td>Rackspace</td>
+        <td>Public & Private Cloud
+            <br><br>
+            Cloud Servers, Cloud Images, Cloud Load Balancers, Cloud DNS, Cloud Network
+        </td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/azure.png"/>
+        </td>
+        <td>
+                Azure
+        </td>
+        <td>
+                Public & Private Cloud
+                <br><br>
+                Virtual Machines, Storage, ExpressRoute, Azure DNS, Virtual Network, Load Balancer
+        </td>
+    </tr>
+    <!--ROW -->
+    <tr>
+        <td>
+            <div class="partners-table partners-table-image">
+                <img class="integration-img-sizer" src="/assets/img/logos/integrations/amazon.png"/>
+            </div>
+        </td>
+        <td>
+                @WalmartLabs
+        </td>
+        <td>
+                Public Cloud
+                <br><br>
+                EC2, ELB, EBS, Route 53
+        </td>
+    </tr>
+    </tbody>
+</table>
 
-        <!--Full Screen-->
-        <div class="container table-responsive">
-            <table class="table table-partners">
 
-                <!--TABLE HEADING-->
-                <tbody>
-                <tr>
-                    <td></td>
-                    <td>
-                        <div class="partners-table partner-table-heading">
-                            Supported By
-                        </div>
-                    </td>
-                    <td>
-                        <div class="partners-table partner-table-heading">
-                            Notes
-                        </div>
-                    </td>
-                </tr>
-                <!--END - TABLE HEADING-->
+If your company is interested in integrating your cloud in to the OneOps product, then please ...
 
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/openstack.png"/>
-                        </div>
-                    </td>
-                    <td>
-                       <span class="span-partner-align">
-                           @WalmartLabs
-                       </span>
-                    </td>
-                    <td>
-                        <div class="partners-table partner-single">
-                            Private Cloud
-                            <br><br>
-                            Nova, Neutron, Swift, Cinder, Glance
-                            <br><br>
-                            Liberty, Kilo and Juno Releases
-                        </div>
-                    </td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/rackspace.png"/>
-                        </div>
-                    </td>
-                    <td>
-                       <span class="span-partner-align">
-                           Rackspace
-                       </span>
-                    </td>
-                    <td>
-                        <div class="partners-table partner-single">
-                            Public & Private Cloud
-                            <br><br>
-                            Cloud Servers, Cloud Images, Cloud Load Balancers, Cloud DNS, Cloud Network
-                        </div>
-                    </td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/azure.png"/>
-                        </div>
-                    </td>
-                    <td>
-                       <span class="span-partner-align">
-                            Azure
-                       </span>
-                    </td>
-                    <td>
-                        <div class="partners-table partner-single">
-                            Public & Private Cloud
-                            <br><br>
-                            Virtual Machines, Storage, ExpressRoute, Azure DNS, Virtual Network, Load Balancer
-                        </div>
-                    </td>
-                </tr>
-                <!--ROW -->
-                <tr>
-                    <td>
-                        <div class="partners-table partners-table-image">
-                            <img class="integration-img-sizer" src="/assets/img/logos/integrations/amazon.png"/>
-                        </div>
-                    </td>
-                    <td>
-                       <span class="span-partner-align">
-                            @WalmartLabs
-                       </span>
-                    </td>
-                    <td>
-                        <div class="partners-table partner-single">
-                            Public Cloud
-                            <br><br>
-                            EC2, ELB, EBS, Route 53
-                        </div>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+<p class="center-text">
+  <a href="mailto:partners@oneops.com">
+    <button class="btn btn-help">Email Us</button>
+  </a>
+</p>
 
-          <div class="center-text">
-              If your company is interested in integrating your cloud in to the OneOps product, then
-              please ...
-          </div>
-          <p class="button-padding center-text">
-              <a href="mailto:partners@oneops.com">
-                  <button class="btn btn-help">
-                      Email Us
-                  </button>
-              </a>
-          </p>
-      </div>
-  </div>
 
   <div id="software"></div>
  <!--Circuits Container-->
