@@ -14,8 +14,8 @@ title: Integrations
   </div>
   <div class="hero-overlay-darker"></div>
 </div>
-<br>
 
+<br><br>
 <div class="center-text headline-one bottom-spacer-small blue">Supported Clouds</div>
 
 <!--Full Screen-->
@@ -30,7 +30,7 @@ title: Integrations
     <!--END - TABLE HEADING-->
     <!--ROW -->
     <tr>
-        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/openstack.png"/></td>
+        <td><img src="/assets/img/logos/integrations/openstack.png"/></td>
         <td>@WalmartLabs</td>
         <td>Private Cloud
             <br><br>
@@ -41,7 +41,7 @@ title: Integrations
     </tr>
     <!--ROW -->
     <tr>
-        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/rackspace.png"/></td>
+        <td><img src="/assets/img/logos/integrations/rackspace.png"/></td>
         <td>Rackspace</td>
         <td>Public & Private Cloud
             <br><br>
@@ -50,7 +50,7 @@ title: Integrations
     </tr>
     <!--ROW -->
     <tr>
-        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/azure.png"/></td>
+        <td><img src="/assets/img/logos/integrations/azure.png"/></td>
         <td>Azure</td>
         <td>Public & Private Cloud
             <br><br>
@@ -59,7 +59,7 @@ title: Integrations
     </tr>
     <!--ROW -->
     <tr>
-        <td><img class="integration-img-sizer" src="/assets/img/logos/integrations/amazon.png"/></td>
+        <td><img src="/assets/img/logos/integrations/amazon.png"/></td>
         <td>@WalmartLabs</td>
         <td>Public Cloud
             <br><br>
@@ -78,7 +78,7 @@ If your company is interested in integrating your cloud in to the OneOps product
   </a>
 </p>
 
-
+<br><br>
 <div id="software"></div>
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
     Supported Products
@@ -98,262 +98,135 @@ If your company is interested in integrating your cloud in to the OneOps product
 <br>
 
 <table class="table table-partners">
-
     <!--TABLE HEADING-->
     <tbody>
     <tr>
         <td></td>
-        <td>
-            <div class="partners-table partner-table-heading">Supported Versions</div>
-        </td>
-        <td>
-            <div class="partners-table partner-table-heading">Supported By</div>
-        </td>
+        <td>Supported Versions</td>
+        <td>>Supported By</td>
     </tr>
     <!--END - TABLE HEADING-->
-
-    <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/couchbase.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align">2.2.0, 2.5.2, 4.0</span></td>
-        <td><span class="span-partner-align">Couchbase</span></td>
+        <td><img src="/assets/img/logos/integrations/couchbase.png"/></td>
+        <td>2.2.0, 2.5.2, 4.0</td>
+        <td>Couchbase</td>
     </tr>
-    <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/node.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 0.10.17, 0.10.26, 0.10.33, 0.10.35 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
+        <td><img src="/assets/img/logos/integrations/node.png"/></td>
+        <td> 0.10.17, 0.10.26, 0.10.33, 0.10.35 </td>
+        <td>@WalmartLabs</td>
     </tr>
-    <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/docker.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 1.9 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
+        <td><img src="/assets/img/logos/integrations/docker.png"/></td>
+        <td> 1.9 </td>
+        <td>@WalmartLabs</td>
     </tr>
-    <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/cassandra.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 1.2, 2.0, 2.1, 2.2 </span></td>
-        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+        <td><img src="/assets/img/logos/integrations/cassandra.png"/></td>
+        <td> 1.2, 2.0, 2.1, 2.2 </td>
+        <td> @WalmartLabs </td>
     </tr>
-    <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/postgresql.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 9.1, 9.4.* </span></td>
-        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+        <td><img src="/assets/img/logos/integrations/postgresql.png"/></td>
+        <td> 9.1, 9.4.* </td>
+        <td> @WalmartLabs </td>
     </tr>
-    <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/tomcat.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 6, 7 </span></td>
-        <td><span class="span-partner-align"> @WalmartLabs </span></td>
+        <td><img src="/assets/img/logos/integrations/tomcat.png"/></td>
+        <td> 6, 7 </td>
+        <td> @WalmartLabs </td>
    </tr>
-    <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/ubuntu.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 14.04 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
+        <td><img src="/assets/img/logos/integrations/ubuntu.png"/></td>
+        <td> 14.04 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/centos.png"/></td>
+        <td> 7 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/ruby.png"/></td>
+        <td> 1.8.7, 1.9.3, 2.0.0 <br> 2.2.* with Rails 4.2.*</td>
+        <td> @WalmartLabs </td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/php.png"/></td>
+        <td>5.6.* </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/apache.png"/></td>
+         <td> 2.2.21, 2.4.* </td>
+         <td> @WalmartLabs </td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/elastic-search.png"/></td>
+        <td> 1.1.1, 1.3.2, 1.4.1, 1.4.4 </td>
+        <td> @WalmartLabs </td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/play-framework.png"/></td>
+        <td> 2.1.0 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/zoo-keeper.png"/> <br>Apache ZooKeeper</td>
+        <td> 3.4.5 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/mySQL.png"/></td>
+        <td> 5.1.73, 5.7.* </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/redis.png"/></td>
+        <td> 2.6.16, 3.0.1 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/squid-cache.png"/></td>
+        <td> 2.6.16, 3.0.1 </td>
+        <td>@WalmartLabs</td>
     </tr>
     <!--ROW -->
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/centos.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 7 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/ruby.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 1.8.7, 1.9.3, 2.0.0 <br> 2.2.* with Rails 4.2.*
-        </span></td>
-        <td><span class="span-partner-align"> @WalmartLabs </span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/php.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align">5.6.* </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/apache.png"/>
-            </div>
-        </td>
-         <td><span class="span-partner-align"> 2.2.21, 2.4.* </span></td>
-         <td><span class="span-partner-align"> @WalmartLabs </span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/elastic-search.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 1.1.1, 1.3.2, 1.4.1, 1.4.4 </span></td>
-        <td><span class="span-partner-align"> @WalmartLabs </span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/play-framework.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 2.1.0 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/zoo-keeper.png"/>
-                <div class="integration-item">Apache ZooKeeper</div>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 3.4.5 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/mySQL.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 5.1.73, 5.7.* </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/redis.svg"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 2.6.16, 3.0.1 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/squid-cache.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 2.6.16, 3.0.1 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/RabbitMQ-new.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 2.8.5, 3.4.2, 3.4.2 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/active-mq.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 5.5.1, 5.9.1, 5.10.0, 5.12.* </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/java.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 6, 7, 8 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/jboss.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 5.1.2 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer"  src="/assets/img/logos/integrations/solr.svg"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 4.10.3 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
-    </tr>
-    <!--ROW -->
-    <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/go-gopher-A.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> 1.1.2 </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
+        <td><img src="/assets/img/logos/integrations/RabbitMQ-new.png"/></td>
+        <td> 2.8.5, 3.4.2, 3.4.2 </td>
+        <td>@WalmartLabs</td>
     </tr>
     <tr>
-        <td>
-            <div class="partners-table-image">
-                <img class="integration-img-sizer" src="/assets/img/logos/integrations/hap-roxy.png"/>
-            </div>
-        </td>
-        <td><span class="span-partner-align"> </span></td>
-        <td><span class="span-partner-align">@WalmartLabs</span></td>
+        <td><img src="/assets/img/logos/integrations/active-mq.png"/></td>
+        <td> 5.5.1, 5.9.1, 5.10.0, 5.12.* </td>
+        <td>@WalmartLabs</td>
     </tr>
-    <!--END - ROW-->
+    <tr>
+        <td><img src="/assets/img/logos/integrations/java.png"/></td>
+        <td> 6, 7, 8 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/jboss.png"/></td>
+        <td> 5.1.2 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img  src="/assets/img/logos/integrations/solr.png"/></td>
+        <td> 4.10.3 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/go-gopher-A.png"/></td>
+        <td> 1.1.2 </td>
+        <td>@WalmartLabs</td>
+    </tr>
+    <tr>
+        <td><img src="/assets/img/logos/integrations/hap-roxy.png"/></td>
+        <td> </td>
+        <td>@WalmartLabs</td>
+    </tr>
     </tbody>
 </table>
 
@@ -365,8 +238,9 @@ If your company is interested in integrating your cloud in to the OneOps product
   <a href="mailto:partners@oneops.com"><button class="btn btn-help">Email Us</button></a>
 </p>
 
+<br><br>
 <div id="help"></div>
-<!--Help Container-->
+
 <!--Header-->
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
     Getting Help
