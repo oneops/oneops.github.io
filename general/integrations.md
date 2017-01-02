@@ -51,7 +51,7 @@ title: Integrations
     <!--ROW -->
     <tr>
         <td><img src="/assets/img/logos/integrations/azure.png"/></td>
-        <td>Azure</td>
+        <td>@WalmartLabs & Microsoft</td>
         <td>Public & Private Cloud
             <br><br>
             Virtual Machines, Storage, ExpressRoute, Azure DNS, Virtual Network, Load Balancer
@@ -65,6 +65,11 @@ title: Integrations
             <br><br>
             EC2, ELB, EBS, Route 53
         </td>
+    </tr>
+     <tr>
+        <td><img src="/assets/img/logos/integrations/google-cloud-platform.png"/></td>
+        <td>@WalmartLabs & Google</td>
+        <td>Public Cloud</td>
     </tr>
     </tbody>
 </table>
@@ -94,8 +99,6 @@ If your company is interested in integrating your cloud in to the OneOps product
     The <a href="https://github.com/oneops/circuit-oneops-1">source of the circuit</a> is the
     authoritative reference for available integrations.
 </p>
-<br>
-<br>
 
 <table class="table table-partners">
     <!--TABLE HEADING-->
