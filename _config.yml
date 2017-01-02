@@ -29,7 +29,7 @@ feedbackurl: http://feedback.oneops.com/feedback
 
 navigation:
  - title: Benefits
-   url: /benefits.html
+   url: /general/benefits.html
  - title: Integrations
    url: /general/integrations.html
  - title: Contribute
