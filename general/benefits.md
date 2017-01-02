@@ -3,88 +3,61 @@ layout: general-doc
 title: Benefits
 ---
 
----
-layout: default
-title:  Benefits
----
-
 <!--HERO CONTAINER-->
-<a name="Business"></a>
 <div class="benefits-hero-unit">
-    <div class="hero-info hero-headline-one">
-        <div class="yellow">Benefits</div>
-        <div class="white">OneOps shortens time to market</div>
-        <div class="white">and fosters a true devops culture.</div>
-    </div>
-    <div class="hero-overlay"></div>
+  <div class="hero-info hero-headline-one">
+    <br>
+    <br>
+    <div class="yellow">Benefits</div>
+    <div class="white">OneOps shortens time to market</div>
+    <div class="white">and fosters a true devops culture.</div>
+  </div>
+  <div class="hero-overlay"></div>
 </div>
 
+<a name="Business"></a>
+<div id="business-benefits"></div>
+<div class="center-text headline-one top-spacer bottom-spacer-small blue">
+Business Benefits
+</div>
 
-        <div id="business-benefits"></div>
-        <!--BUSINESS CONTAINER-->
-        <div class="container-fluid">
-            <div class="hero-container headline-one center-text center-text container-pad">
-                <div class="black">Business Benefits</div>
-            </div>
-            <div class="container text-justify">
-                <p>
-                    <strong>Application Lifecycle Management</strong> (<strong>ALM</strong>) products seek to
-                    alleviate the friction between business, technology and operations groups in organizations
-                    entering the Digital Economy and adopting cloud computing. <strong>OneOps</strong> redefines
-                    <strong>PaaS 2.0</strong> capabilities by being the most comprehensive open-source ALM product
-                    available, backed by <strong>@WalmartLabs.</strong>
-                </p>
-                <br>
-                <p>
-                    OneOps is an application lifecycle management platform that
-                    developers can use to develop and launch new products faster, forklift legacy applications
-                    to the cloud easily and maintain them throughout their entire lifecycle with advanced auto-healing
-                    and auto-scaling capabilities. OneOps enables developers to code their products once and run them
-                    in a hybrid, multi-cloud environment. This means they can test and switch between different cloud
-                    providers to take advantage of better pricing, technology and scalability – without being locked
-                    into one cloud provider.
-                </p>
-                <br>
-                <p>
-                    <strong>OneOps enables rapid innovation with no barriers</strong> meaning developers can quickly
-                    spin up
-                    infrastructure in a matter of minutes, in public or private clouds, enabling nearly instantaneous
-                    time to market. That’s business agility!
-                </p>
-                <br>
-                <p>
-                    <strong>OneOps provides continuous lifecycle management</strong> — Once a developer launches their
-                    application through OneOps, it can run that app on “auto-pilot.” OneOps automatically scales,
-                    heals/repairs and even replaces infrastructure when needed if unforeseen things go awry in the
-                    cloud.
-                </p>
-                <br>
-                <p>
-                    <strong>OneOps delivers cloud portability</strong> enabling developers to move applications,
-                    databases or even entire environments freely from one cloud or provider to another. Developers
-                    are able to “cloud shop” and take advantage of better technology, capacity, scalability, security,
-                    customer service or lower costs on demand.
-                </p>
-                <br>
-                <p>
-                    <strong>OneOps delivers control of cloud environments back to the developers and IT operations
-                    teams</strong>. Instead of cloud providers dictating what proprietary tools and technologies have
-                    to be used, suffering with expensive vendor integrations, or cobbling together multiple solutions,
-                    OneOps is the one-stop shop to bring the application’s requirements to the cloud.
-                </p>
-                <br>
-                <br>
-            </div>
-        </div>
+__Application Lifecycle Management__ (__ALM__) products seek to alleviate the friction between business,
+technology and operations groups in organizations entering the Digital Economy and adopting cloud
+computing. __OneOps__ redefines __PaaS 2.0__ capabilities by being the most comprehensive open-source ALM product
+available, backed by __@WalmartLabs__.
+
+OneOps is an application lifecycle management platform that developers can use to develop and launch new products
+faster, forklift legacy applications to the cloud easily and maintain them throughout their entire lifecycle with
+advanced auto-healing and auto-scaling capabilities. OneOps enables developers to code their products once and run
+them in a hybrid, multi-cloud environment. This means they can test and switch between different cloud providers
+to take advantage of better pricing, technology and scalability – without being locked into one cloud provider.
+
+__OneOps enables rapid innovation with no barriers__ meaning developers can quickly spin up infrastructure in a
+matter of minutes, in public or private clouds, enabling nearly instantaneous time to market. That’s business
+agility!
+
+__OneOps provides continuous lifecycle management__ — Once a developer launches their application through OneOps,
+it can run that app on “auto-pilot.” OneOps automatically scales, heals/repairs and even replaces infrastructure
+when needed if unforeseen things go awry in the cloud.
+
+__OneOps delivers cloud portability__ enabling developers to move applications, databases or even entire
+environments freely from one cloud or provider to another. Developers are able to “cloud shop” and take advantage
+of better technology, capacity, scalability, security, customer service or lower costs on demand.
+
+__OneOps delivers control of cloud environments back to the developers and IT operations teams__. Instead of cloud
+providers dictating what proprietary tools and technologies have to be used, suffering with expensive vendor
+integrations, or cobbling together multiple solutions, OneOps is the one-stop shop to bring the application’s
+requirements to the cloud.
 
 
         <div id="developer-benefits"></div>
         <!--DEVELOPER CONTAINER-->
         <a name="Developer"></a>
-        <div class="container-fluid grey-bg">
-            <div class="hero-container headline-one center-text center-text container-pad">
-                <div class="black">Developer Benefits</div>
-            </div>
+
+<div class="center-text headline-one top-spacer bottom-spacer-small blue">
+Developer Benefits
+</div>
+
             <div class="container ti-container">
                 <div class="col-md-4 di-item">
                     <div class="ti-image">
