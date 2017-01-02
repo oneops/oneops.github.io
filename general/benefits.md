@@ -53,7 +53,6 @@ requirements to the cloud.
 <div id="developer-benefits"></div>
 <!--DEVELOPER CONTAINER-->
 <a name="Developer"></a>
-
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
 Developer Benefits
 </div>
@@ -274,12 +273,9 @@ Developer Benefits
   </div>
 </div>
 
-
-
 <div id="it-operations-benefits"></div>
 <!--IT OPERATIONS CONTAINER-->
-<a name="IT"></a>
-
+<a name="itops"></a>
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
 IT Operations Benefits
 </div>
