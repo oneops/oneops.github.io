@@ -86,6 +86,10 @@
     background-image: url('/assets/img/hero/integrations/integrations.jpg');
     height: 370px;
 }
+.benefits-hero-unit {
+    background-image: url('/assets/img/hero/benefits/benefits.jpg');
+    height: 370px;
+}
 .partner-image {
   display: inline-block;
   padding-right: 10px;
