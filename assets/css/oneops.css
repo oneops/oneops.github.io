@@ -77,7 +77,6 @@
     display: block;
 }
 .icons-blue {color: #1992d0;}
-.ti-image {padding-bottom: 30px;}
 
 .contribute-hero-unit {
     background-image: url('/assets/img/hero/contribute/contribute.jpg');
@@ -147,7 +146,7 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-.di-item {
+.di-item, .bf-item {
     text-align: center;
     padding: 12px;
     min-height: 400px;
@@ -157,5 +156,7 @@
     -ms-transition: background-color 400ms linear;
     transition: background-color 400ms linear;
 }
+.ti-image {padding-bottom: 30px;}
+
 
 

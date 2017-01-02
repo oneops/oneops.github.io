@@ -256,10 +256,25 @@ Developer Benefits
           environments always in the same cloud? Use profiles to so configure new environments with one click.
       </div>
   </div>
+  <div class="col-md-4 di-item">
+      <div class="ti-image">
+      </div>
+      <div class="headline-two black">
+      </div>
+      <div class="benefits-description">
+      </div>
+  </div>
+  <div class="col-md-4 di-item">
+      <div class="ti-image">
+      </div>
+      <div class="headline-two black">
+      </div>
+      <div class="benefits-description">
+      </div>
+  </div>
 </div>
 
 
-<br><br>
 
 <div id="it-operations-benefits"></div>
 <!--IT OPERATIONS CONTAINER-->
@@ -279,218 +294,235 @@ scalability, security, customer service or lower costs.
 
 
 <div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_69903_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Monitoring
-        </div>
-        <div class="benefits-description">
-            All automated software is setup to feed critical metrics to the
-            <strong>OneOps</strong> monitoring sub-system. Best practices metric
-            thresholds determine when it’s time to heal, replace, scale, or notify
-            a human to step in.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68266_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Alerting
-        </div>
-        <div class="benefits-description">
-            OneOps has an extensible alerting framework. Configure deployment
-            notifications so the operations center can see what’s changing, or send
-            an email or SMS when a monitor crosses a critical threshold.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_69644_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            LDAP/AD Identity integration
-        </div>
-        <div class="benefits-description">
-            Configure OneOps to use your corporate LDAP/AD service to make new
-            developer on-boarding trivial.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68394_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Configuration Management System
-        </div>
-        <div class="benefits-description">
-            OneOps is the system of record for all aspects of deployed applications
-            system, environment and cloud infrastructure configuration. Gain visibility into cloud utilization, and should a data center disappear, re-create your environments in minutes.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_69871_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            OneOps is Naturally Compliance-Ready
-        </div>
-        <div class="benefits-description">
-            OneOps has the necessary features, such as role-based authorization, for
-            managing PCI workloads within compliant infrastructure.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68039_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Cross-Cloud Showback
-        </div>
-        <div class="benefits-description">
-            Understanding cloud usage and cost is a daunting problem the more complex
-            cloud-specific cost models are in play. OneOps delivers great insights by estimating the cost of utilized cloud resources across heterogeneous cost models/clouds by dimensions such as org, team, product, provider, software type,
-            etc.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_67758_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Cross-Cloud Quota
-        </div>
-        <div class="benefits-description">
-            Budgets are impossible to manage in a hybrid cloud architecture without controls
-            existing at the next higher level in the stack. OneOps is that layer and will soon use showback data to ensure cloud costs are not just visible, but manageable.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_69669_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Configuration Policy Governance
-        </div>
-        <div class="benefits-description">
-            Proactively avoid cloud technical debt! As your company's cloud workload configuration management system, OneOps helps you easily govern all application design, software configuration, environments, clouds, and resource utilization settings.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68222_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Custom-Defined Clouds
-        </div>
-        <div class="benefits-description">
-            Mix and match technologies to define your own cloud. Leverage fully IaaS
-            compliant infrastructure, or mix in some enterprise hardware. As long as
-            there’s a way to programmatically manage the device, OneOps can automate it!
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68737_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Cloud Migration Made Easy
-        </div>
-        <div class="benefits-description">
-            OneOps is a pure automation solution and remains outside of the application’s
-            codebase. Applications needn't know they're being managed by OneOps, so moving legacy or proprietary applications to the cloud is easy.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68025_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Extensive Cloud Usage Reporting
-        </div>
-        <div class="benefits-description">
-            Leveraging the ELK stack, it’s possible to visualize many aspects of your
-            company’s cloud operations.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_67565_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            OneOps managing OneOps
-        </div>
-        <div class="benefits-description">
-            OneOps contains a design for itself that allows an administrator to easily
-            grow and manage the OneOps infrastructure up to extreme scale, simply and
-            easily the same way your DevOps teams will manage theirs.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_69666_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Automation Technology Agnostic
-        </div>
-        <div class="benefits-description">
-            OneOps application lifecycle management operates on top of lower level
-            automation that can be implemented in any of the popular frameworks
-            such as Chef, Puppet or Ansible.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68236_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            SaaS-Ready at Birth
-        </div>
-        <div class="benefits-description">
-            OneOps was designed from the ground up as a SaaS product. You can run it as a publicly available product, or setup departments as
-            independent organizations with their own cloud definitions, policies,
-            and isolated workspaces.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_68055_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Designed – and Proven – to Scale
-        </div>
-        <div class="benefits-description">
-            Backed by @WalmartLabs, you can trust that OneOps can scale to handle the
-            largest data centers, application clusters, and do it with resiliency
-            and availability.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_69701_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            Commitment to Open Source
-        </div>
-        <div class="benefits-description">
-            Very soon, all @WalmartLabs development will be done in our GitHub repositories and released regularly. The only aspects of OneOps to remain proprietary will be integrations to proprietary components, products or systems and
-            therefore of no value to the community. This small portion of the codebase will continue to shrink.
-        </div>
-    </div>
-    <div class="col-md-4 bf-item">
-        <div class="ti-image">
-            <i class="icon-noun_69759_cc oo-content-icons icons-blue"></i>
-        </div>
-        <div class="headline-two black">
-            OneOps has a Bright Future
-        </div>
-        <div class="benefits-description">
-            OneOps is the way to the cloud at Walmart and is supported by @WalmartLabs.
-            We are looking to build a vibrant community to help extend the core feature
-            set, add support for more cloud providers, and automate lifecycle for more
-            ISV products.
-        </div>
-    </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_69903_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Monitoring
+      </div>
+      <div class="benefits-description">
+          All automated software is setup to feed critical metrics to the
+          <strong>OneOps</strong> monitoring sub-system. Best practices metric
+          thresholds determine when it’s time to heal, replace, scale, or notify
+          a human to step in.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68266_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Alerting
+      </div>
+      <div class="benefits-description">
+          OneOps has an extensible alerting framework. Configure deployment
+          notifications so the operations center can see what’s changing, or send
+          an email or SMS when a monitor crosses a critical threshold.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_69644_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          LDAP/AD Identity integration
+      </div>
+      <div class="benefits-description">
+          Configure OneOps to use your corporate LDAP/AD service to make new
+          developer on-boarding trivial.
+      </div>
+  </div>
+
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68394_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Configuration Management System
+      </div>
+      <div class="benefits-description">
+          OneOps is the system of record for all aspects of deployed applications
+          system, environment and cloud infrastructure configuration. Gain visibility into cloud utilization, 
+          and should a data center disappear, re-create your environments in minutes.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_69871_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          OneOps is Naturally Compliance-Ready
+      </div>
+      <div class="benefits-description">
+          OneOps has the necessary features, such as role-based authorization, for
+          managing PCI workloads within compliant infrastructure.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68039_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Cross-Cloud Showback
+      </div>
+      <div class="benefits-description">
+          Understanding cloud usage and cost is a daunting problem the more complex
+          cloud-specific cost models are in play. OneOps delivers great insights by estimating the cost 
+          of utilized cloud resources across heterogeneous cost models/clouds by dimensions such as org, 
+          team, product, provider, software type, etc.
+      </div>
+  </div>
+  
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_67758_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Cross-Cloud Quota
+      </div>
+      <div class="benefits-description">
+          Budgets are impossible to manage in a hybrid cloud architecture without controls
+          existing at the next higher level in the stack. OneOps is that layer and will soon use 
+          show data to ensure cloud costs are not just visible, but manageable.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_69669_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Configuration Policy Governance
+      </div>
+      <div class="benefits-description">
+          Proactively avoid cloud technical debt! As your company's cloud workload configuration management system, OneOps helps you easily govern all application design, software configuration, environments, clouds, and resource utilization settings.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68222_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Custom-Defined Clouds
+      </div>
+      <div class="benefits-description">
+          Mix and match technologies to define your own cloud. Leverage fully IaaS
+          compliant infrastructure, or mix in some enterprise hardware. As long as
+          there’s a way to programmatically manage the device, OneOps can automate it!
+      </div>
+  </div>
+
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68737_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Cloud Migration Made Easy
+      </div>
+      <div class="benefits-description">
+          OneOps is a pure automation solution and remains outside of the application’s
+          codebase. Applications needn't know they're being managed by OneOps, so moving legacy or proprietary applications to the cloud is easy.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68025_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Extensive Cloud Usage Reporting
+      </div>
+      <div class="benefits-description">
+          Leveraging the ELK stack, it’s possible to visualize many aspects of your
+          company’s cloud operations.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_67565_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          OneOps managing OneOps
+      </div>
+      <div class="benefits-description">
+          OneOps contains a design for itself that allows an administrator to easily
+          grow and manage the OneOps infrastructure up to extreme scale, simply and
+          easily the same way your DevOps teams will manage theirs.
+      </div>
+  </div>
+
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_69666_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Automation Technology Agnostic
+      </div>
+      <div class="benefits-description">
+          OneOps application lifecycle management operates on top of lower level
+          automation that can be implemented in any of the popular frameworks
+          such as Chef, Puppet or Ansible.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68236_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          SaaS-Ready at Birth
+      </div>
+      <div class="benefits-description">
+          OneOps was designed from the ground up as a SaaS product. You can run it as a publicly available product, or setup departments as
+          independent organizations with their own cloud definitions, policies,
+          and isolated workspaces.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_68055_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Designed – and Proven – to Scale
+      </div>
+      <div class="benefits-description">
+          Backed by @WalmartLabs, you can trust that OneOps can scale to handle the
+          largest data centers, application clusters, and do it with resiliency
+          and availability.
+      </div>
+  </div>
+
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_69701_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          Commitment to Open Source
+      </div>
+      <div class="benefits-description">
+          Very soon, all @WalmartLabs development will be done in our GitHub repositories and released regularly. The only aspects of OneOps to remain proprietary will be integrations to proprietary components, products or systems and
+          therefore of no value to the community. This small portion of the codebase will continue to shrink.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+          <i class="icon-noun_69759_cc oo-content-icons icons-blue"></i>
+      </div>
+      <div class="headline-two black">
+          OneOps has a Bright Future
+      </div>
+      <div class="benefits-description">
+          OneOps is the way to the cloud at Walmart and is supported by @WalmartLabs.
+          We are looking to build a vibrant community to help extend the core feature
+          set, add support for more cloud providers, and automate lifecycle for more
+          ISV products.
+      </div>
+  </div>
+  <div class="col-md-4 bf-item">
+      <div class="ti-image">
+      </div>
+      <div class="headline-two black">
+      </div>
+      <div class="benefits-description">
+      </div>
+  </div>
+
 </div>
