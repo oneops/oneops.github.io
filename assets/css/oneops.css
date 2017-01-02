@@ -33,6 +33,18 @@
     line-height: 1.2;
     text-transform: uppercase;
 }
+
+.hero-unit,
+.benefits-hero-unit,
+.video-hero-unit,
+.partner-hero-unit,
+.contribute-hero-unit,
+.integrations-hero-unit,
+.about-hero-unit,
+.documentation-hero-unit {
+    background-size: cover;
+    background-color: white;
+}
 .hero-headline-one {
     font-family: 'Flexo W01 Regular','flexomedium', Arial, sans-serif;
     text-rendering: geometricPrecision;
@@ -70,7 +82,15 @@
     background-image: url('/assets/img/hero/contribute/contribute.jpg');
     height: 370px;
 }
-
+.integrations-hero-unit {
+    background-image: url('/assets/img/hero/integrations/integrations.jpg');
+    height: 370px;
+}
+.partner-image {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 .footer-element {
   border-top: 1px #dddddd solid;
   padding-top: 30px;
