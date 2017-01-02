@@ -76,6 +76,7 @@
     margin-bottom: -35px;
     display: block;
 }
+.icons-blue {color: #1992d0;}
 .ti-image {padding-bottom: 30px;}
 
 .contribute-hero-unit {
@@ -145,6 +146,16 @@
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+}
+.di-item {
+    text-align: center;
+    padding: 12px;
+    min-height: 400px;
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
 }
 
 
