@@ -154,7 +154,7 @@ scp -r components/cookbooks/mycomp ooadmin@<your OneOps instance inductor>:/opt/
 
 Before you code, read the following documentation. It is the most essential information you need before you start.
 
-* **[Overview:](/developers.html)** OneOps business-level description of its main benefits versus alternative solutions
+* **[Overview:](/developer/overview/index.html)** OneOps business-level description of its main benefits versus alternative solutions
 * **<a href="/developer/key-concepts/">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
 * **<a href="/developer/getting-started/">Getting Started:</a>** How to start using OneOps (this section)
 * **<a href="/developer/best-practices/pack-development.html">Best Practices:</a>** How you should develop for OneOps for best results
