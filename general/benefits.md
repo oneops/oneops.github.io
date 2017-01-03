@@ -15,10 +15,10 @@ title: Benefits
   <div class="hero-overlay"></div>
 </div>
 
-<a name="Business"></a>
+
 <div id="business-benefits"></div>
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
-Business Benefits
+<a name="Business"></a>Business Benefits
 </div>
 
 __Application Lifecycle Management__ (__ALM__) products seek to alleviate the friction between business,
@@ -51,10 +51,8 @@ requirements to the cloud.
 
 
 <div id="developer-benefits"></div>
-<!--DEVELOPER CONTAINER-->
-<a name="Developer"></a>
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
-Developer Benefits
+<a name="Developer"></a>Developer Benefits
 </div>
 
 <div>
@@ -274,10 +272,8 @@ Developer Benefits
 </div>
 
 <div id="it-operations-benefits"></div>
-<!--IT OPERATIONS CONTAINER-->
-<a name="itops"></a>
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
-IT Operations Benefits
+<a name="itops"></a>IT Operations Benefits
 </div>
 
 __Greater control of cloud environment__ means that instead of cloud providers dictating what proprietary tools
@@ -391,7 +387,9 @@ scalability, security, customer service or lower costs.
           Configuration Policy Governance
       </div>
       <div class="benefits-description">
-          Proactively avoid cloud technical debt! As your company's cloud workload configuration management system, OneOps helps you easily govern all application design, software configuration, environments, clouds, and resource utilization settings.
+          Proactively avoid cloud technical debt! As your company's cloud workload configuration management system,
+          OneOps helps you easily govern all application design, software configuration, environments, clouds, and
+          resource utilization settings.
       </div>
   </div>
   <div class="col-md-4 bf-item">
@@ -416,8 +414,9 @@ scalability, security, customer service or lower costs.
           Cloud Migration Made Easy
       </div>
       <div class="benefits-description">
-          OneOps is a pure automation solution and remains outside of the application’s
-          codebase. Applications needn't know they're being managed by OneOps, so moving legacy or proprietary applications to the cloud is easy.
+          OneOps is a pure automation solution and remains outside of the application’s codebase. Applications 
+          needn't know they're being managed by OneOps, so moving legacy or proprietary applications to the cloud 
+          is easy.
       </div>
   </div>
   <div class="col-md-4 bf-item">
@@ -467,8 +466,8 @@ scalability, security, customer service or lower costs.
           SaaS-Ready at Birth
       </div>
       <div class="benefits-description">
-          OneOps was designed from the ground up as a SaaS product. You can run it as a publicly available product, or setup departments as
-          independent organizations with their own cloud definitions, policies,
+          OneOps was designed from the ground up as a SaaS product. You can run it as a publicly available 
+          product, or setup departments as independent organizations with their own cloud definitions, policies,
           and isolated workspaces.
       </div>
   </div>
@@ -494,8 +493,10 @@ scalability, security, customer service or lower costs.
           Commitment to Open Source
       </div>
       <div class="benefits-description">
-          Very soon, all @WalmartLabs development will be done in our GitHub repositories and released regularly. The only aspects of OneOps to remain proprietary will be integrations to proprietary components, products or systems and
-          therefore of no value to the community. This small portion of the codebase will continue to shrink.
+          Very soon, all @WalmartLabs development will be done in our GitHub repositories and released regularly.
+          The only aspects of OneOps to remain proprietary will be integrations to proprietary components, 
+          products or systems and therefore of no value to the community. This small portion of the codebase
+          will continue to shrink.
       </div>
   </div>
   <div class="col-md-4 bf-item">
