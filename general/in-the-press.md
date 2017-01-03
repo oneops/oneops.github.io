@@ -17,7 +17,7 @@ December 29th, 2016 - tech better (Audio): [Open Source Cloud at Walmart: A Stor
 
 December 25th, 2016 - eWeek: [How Walmart is Embracing the Open Source OpenStack Model](http://www.eweek.com/cloud/how-walmart-is-embracing-the-open-source-openstack-model.html)
 
-December 20th, 2016 - tech better: [How Walmart Technology’s Big Bet on OpenStack Is Paying ooOff](http://www.techbetter.com/walmart-technologys-big-bet-openstack-paying-off/)
+December 20th, 2016 - tech better: [How Walmart Technology’s Big Bet on OpenStack Is Paying Off](http://www.techbetter.com/walmart-technologys-big-bet-openstack-paying-off/)
 
 December 22nd, 2016 - tech better: [Open Source Innovation Delivers an Unforgettable Christmas to 100+ Children](http://www.techbetter.com/open-source-innovation-delivers-unforgettable-christmas-100-children/)
 
