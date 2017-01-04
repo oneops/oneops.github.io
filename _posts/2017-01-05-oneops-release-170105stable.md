@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  It's a Big One - OneOps Release `17.01.05-STABLE`
+title:  It's a Big One - OneOps Release 17.01.05-STABLE
 published: true
 authors: [klohia, ksaroya, mmoser]
 ---
