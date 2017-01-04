@@ -5,7 +5,7 @@ This is the source code of the OneOps website available at [http://oneops.com](h
 Please feel free to make PRs to improve the site. Read out [contribution](http://oneops.com/general/contribute.html)
 and [documentation guidelines](http://oneops.com/general/doc-guideline.html) for more information.
 
-## Building
+# Building
 
 To view and edit the website you can use standard Jekyll
 
@@ -21,6 +21,18 @@ Or you can use the Java implementation included here which only requires a JVM b
 
 This local build allows you to see the rendered site and access it at
 [http://localhost:4000](http://localhost:4000).
+
+# Blog posts
+
+Blog posts are written in the `_drafts` folder and dated correctly for the planned publishing date. Then when publishing 
+should happen, the file is moved to `_posts`.
+
+During review and development of the blog post you have to start jekyll with drafts and future enabled so you can see 
+them as rendered.
+
+```
+jekyll serve --future --drafts
+````
 
 # Search
 
