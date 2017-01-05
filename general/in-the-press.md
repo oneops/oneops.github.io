@@ -22,7 +22,7 @@ are looking for you  to contribute something here.
 
 # 2016
 
-December 29th, 2016 - tech better (Audio): [Open Source Cloud at Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
+December 29th, 2016 - Tech Better [Podcast] [Open Source Cloud at Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
 
 December 25th, 2016 - eWeek: [How Walmart is Embracing the Open Source OpenStack Model](http://www.eweek.com/cloud/how-walmart-is-embracing-the-open-source-openstack-model.html)
 
