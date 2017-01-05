@@ -8,10 +8,17 @@ title: In The Press
 Whether OneOps was mentioned in the press, another blog or a conference site - here is where we try to collect those references.
 You can also find audio, video and slide presentation related resources and links here.
 
-If you have a relevant link to be added - [let us know](/general/contribute.html) or 
+If you have a relevant link to be added - [let us know]({{ site.baseurl }}/general/contribute.html) or 
 <a href="https://github.com/oneops/oneops.github.io" target="_blank">send a pull request</a>!
 
-And of course you should not forget to check out our own (OneOps Team Blog](/general/blog/index.html)
+And of course you should not forget to check out our own 
+[OneOps Team Blog]({{ site.baseurl }}/general/blog/index.html).
+
+# 2017
+
+Its early in the year, but we got a 
+[new release out already]({{ site.baseurl }}/general/blog/2017-01-05-oneops-release-170105stable.html). Now we 
+are looking for you  to contribute something here.
 
 # 2016
 
