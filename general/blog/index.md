@@ -7,7 +7,7 @@ title: Blog
 # OneOps Team Blog
 
 Whether we are planning an event, make a new release available, present at a conference or user group meeting
-or have something cool to share. The OneOps Team Blog here is the place to beo for the latest news and more on OneOps.
+or have something cool to share. The OneOps Team Blog here is the place to be for the latest news and more on OneOps.
 
 You might also be curious about what happens [In The Press and Elsewhere](/general/in-the-press.html).
 

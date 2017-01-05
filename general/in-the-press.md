@@ -5,11 +5,13 @@ title: In The Press
 
 # In The Press and Elsewhere
 
-Whether OneOps was mentioned on our own blog or an external site - here is where we try to collect those references.
+Whether OneOps was mentioned in the press, another blog or a conference site - here is where we try to collect those references.
 You can also find audio, video and slide presentation related resources and links here.
 
 If you have a relevant link to be added - [let us know](/general/contribute.html) or 
 <a href="https://github.com/oneops/oneops.github.io" target="_blank">send a pull request</a>!
+
+And of course you should not forget to check out our own (OneOps Team Blog](/general/blog/index.html)
 
 # 2016
 
