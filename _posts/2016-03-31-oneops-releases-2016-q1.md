@@ -10,7 +10,6 @@ after either. As you can see below we introduced many new features with a weekly
 
 <!--more-->
 
-
 # Release 2016.03.30
 
 Circuit Updates:

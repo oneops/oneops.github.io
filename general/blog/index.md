@@ -18,7 +18,7 @@ But now, here is the latest from the OneOps team:
 {% for author in post.authors %}{% assign current = site.authors[author] %}<a href="{{ current.web }}">{{ current.name }}</a>
 {% unless forloop.last %},{% endunless%}
 {% endfor %}
-<div class="blogtitle">{{ post.title}}</div>
+<a href="{{ post.url }}" class="blogtitle">{{ post.title}}</a>
 {{ post.excerpt }}
 <a href="{{ post.url }}">Read more ...</a>
 <hr>
