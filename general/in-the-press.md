@@ -30,9 +30,9 @@ December 20th, 2016 - Tech Better: [How Walmart Technology’s Big Bet on OpenSt
 
 December 22nd, 2016 - Tech Better: [Open Source Innovation Delivers an Unforgettable Christmas to 100+ Children](http://www.techbetter.com/open-source-innovation-delivers-unforgettable-christmas-100-children/)
 
-December 9, 2016 - WalmartLabs (Blog) [Kafka Ecosystem on Walmart’s Cloud] (https://medium.com/walmartlabs/kafka-ecosystem-on-walmarts-cloud-983570dff1f2#.vcq9ubvhq)
+December 9, 2016 - WalmartLabs (Blog) [Kafka Ecosystem on Walmart’s Cloud](https://medium.com/walmartlabs/kafka-ecosystem-on-walmarts-cloud-983570dff1f2#.vcq9ubvhq)
 
-December 5, 2016 - DevOps in Walmart Meetup (Slides): [How We Do DevOps at Walmart: OneOps OSS Application Lifecycle Management Platform] (http://www.slideshare.net/WalmartLabs/how-we-do-devops-at-walmart-oneops-oss-application-lifecycle-management-platform) 
+December 5, 2016 - DevOps in Walmart Meetup (Slides): [How We Do DevOps at Walmart: OneOps OSS Application Lifecycle Management Platform](http://www.slideshare.net/WalmartLabs/how-we-do-devops-at-walmart-oneops-oss-application-lifecycle-management-platform) 
 
 November 30th, 2016 - Tech Better: [Four Things You Didn’t Know About Black Friday at Walmart Tech](http://www.techbetter.com/4-things-didnt-know-black-friday-walmart-tech/)
 
