@@ -13,6 +13,8 @@ You might also be curious about what happens [In The Press and Elsewhere](/gener
 
 But now, here is the latest from the OneOps team:
 
+<hr>
+
 {% for post in site.posts %}
 {{ post.date | date: "%-d %B %Y" }} -
 {% for author in post.authors %}{% assign current = site.authors[author] %}<a href="{{ current.web }}">{{ current.name }}</a>
