@@ -5,6 +5,9 @@ published: true
 authors: [mmoser]
 ---
 
+
+<img src="/assets/img/blog/one-year-birthday.jpg" align="right"/>
+
 Exactly one year ago today, OneOps became
 [available to the open source community](http://www.walmartlabs.com/2016/01/oneops-now-available/). It has been a great
 journey since then. Some things stayed the same, other things changed. We learned a lot and we are still in the process
