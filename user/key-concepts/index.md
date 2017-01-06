@@ -38,10 +38,8 @@ comprises of [platforms](#platforms) containing optional or required [components
 
 **See also**
 
- * **[Add a platform][]**
-  * **[Add a component][]**
-  * **[Platform Dependency][]**
- * **[Packs/Circuits][]**
+ * **[Add a platform](/developer/howto/add-a-platform.html)**
+  * **[Add a component](/developer/howto/add-new-component.html)**
 
 # Transition in OneOps
 
