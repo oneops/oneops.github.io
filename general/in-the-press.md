@@ -30,11 +30,13 @@ December 20th, 2016 - Tech Better: [How Walmart Technology’s Big Bet on OpenSt
 
 December 22nd, 2016 - Tech Better: [Open Source Innovation Delivers an Unforgettable Christmas to 100+ Children](http://www.techbetter.com/open-source-innovation-delivers-unforgettable-christmas-100-children/)
 
-December 9, 2016 - WalmartLabs (Blog) [Kafka Ecosystem on Walmart’s Cloud by Ning Zhang](https://medium.com/walmartlabs/kafka-ecosystem-on-walmarts-cloud-983570dff1f2#.vcq9ubvhq)
+December 9, 2016 - WalmartLabs (Blog) [Kafka Ecosystem on Walmart’s Cloud] (https://medium.com/walmartlabs/kafka-ecosystem-on-walmarts-cloud-983570dff1f2#.vcq9ubvhq)
+
+December 5, 2016 - DevOps in Walmart Meetup (Slides): [How We Do DevOps at Walmart: OneOps OSS Application Lifecycle Management Platform] (http://www.slideshare.net/WalmartLabs/how-we-do-devops-at-walmart-oneops-oss-application-lifecycle-management-platform) 
 
 November 30th, 2016 - Tech Better: [Four Things You Didn’t Know About Black Friday at Walmart Tech](http://www.techbetter.com/4-things-didnt-know-black-friday-walmart-tech/)
 
-November 1, 2016 - WalmartLabs (Blog) [Tech Transformation: Real-time Messaging at Walmart by Ning Zhang](https://medium.com/walmartlabs/tech-transformation-real-time-messaging-at-walmart-8787f5ab19e8#.2lmshpma6)
+November 1, 2016 - WalmartLabs (Blog) [Tech Transformation: Real-time Messaging at Walmart](https://medium.com/walmartlabs/tech-transformation-real-time-messaging-at-walmart-8787f5ab19e8#.2lmshpma6)
 
 October 26th, 2016 - All Things Open 2016 (Slides): [Avoiding the Pitfalls of Being Locked into One Cloud Provider](https://www.youtube.com/watch?v=F04ha4oU-l8)
 
@@ -46,7 +48,7 @@ October 14th, 2016 2016, OpenStack Days Seattle 2016 (Video): [Transforming Walm
 
 September 28th, 2016 2016, OpenStack Days East 2016 (Video): [Case Study: OpenStack at Walmart with Kire Filipovski and Andrew Mitry](https://www.youtube.com/watch?v=pdWSWs08LMg)
 
-September 22, 2016 - WalmartLabs (Blog) [Application Deployment on OpenStack via OneOps by Ning Zhang](https://medium.com/walmartlabs/application-deployment-on-openstack-via-oneops-9c08e561530b#.dgnc5vxz7)
+September 22, 2016 - WalmartLabs (Blog) [Application Deployment on OpenStack via OneOps](https://medium.com/walmartlabs/application-deployment-on-openstack-via-oneops-9c08e561530b#.dgnc5vxz7)
 
 August 17th, 2016, OpenStack Days Silicon Valley 2016 (Video): [What’s Next for OpenStack at Walmart](https://www.youtube.com/watch?v=KMtiEikWJHI)
 
