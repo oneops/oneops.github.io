@@ -17,7 +17,7 @@ and other events and presenting about OneOps and various use cases we encounter 
 
 <!--more-->
 
-In terms of the code we certainly did not keep still either over the year. We released nearly __40 new versions_ of
+In terms of the code we certainly did not keep still either over the year. We released nearly __40 new versions__ of
 OneOps including many improvements on the user interface and the various core components of OneOps. We also added many
 new packs for supporting new applications and frameworks and improved the existing ones. Check out the release notes in
 the [OneOps Team Blog](/blog) for more details. Just in this short month alone we created two significant release adding
