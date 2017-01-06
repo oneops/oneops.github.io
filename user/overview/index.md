@@ -3,12 +3,29 @@ layout: user-doc
 title: User Overview
 ---
 
->* For a general overview of What OneOps does see [oneops.com](http://www.oneops.com)
-* This document provides an overview of the OneOps product from an *end user* deploying application in cloud using
-an already running **OneOps instance**.
-* If you are someone who wants to set up OneOps for an organization or want to try locally OneOps refer to the
-[Administrator Overview](/admin/overview).
-* Looking for developing or contributing content to OneOps please refer to the [Developer Overview](/developer/overview).
+A OneOps __user__ typically interacts with __OneOps web application__ via the user interface and potentially via the API.
+
+Activities performed depend on the security access level and are typically focussed around __application lifecycle 
+management__ with OneOps including design, deployment and operation of cloud-based applications.
+
+__Administrative users__ perform tasks in OneOps itself that __enable other users__ to manage their applications by 
+configuring security, clouds and other aspects of OneOps, potentially working 
+with [administrators](/admin/overview/index.html).
+
+Available resources for developers include:
+
+- [Key Concepts](/developer/key-concepts): Key concepts for OneOps administrators.
+- [Getting Started](/developer/getting-started): Installation instructions.
+- [Administrator Index](/developer/developer-index.html): Index of all relevant administrator documentation.
+- [All source code on GitHub]({{ site.github_url }})
+
+At a minimum a developer needs to understand the basic concepts of [OneOps itself](/general/about.html) and
+for [OneOps users](/user/overview/). Depending on the development task, [OneOps administrator](/admin/overview)
+knowledge is potentially required as well.
+
+
+> If you don't have access to a OneOps installation you can get started with the installation instructions and more in 
+the [administrator documentation](/admin/overview).
 
 OneOps enables continuous lifecycle management of complex, business-critical application workloads on any
 cloud-based infrastructure. You can expect:
