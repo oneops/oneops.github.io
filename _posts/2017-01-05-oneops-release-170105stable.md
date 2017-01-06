@@ -20,7 +20,7 @@ let's not get ahead of ourselves. Check out what is in the new  `17.01.05-STABLE
 - Auto-pause feature for deployment before deployment steps
 - New _Timeline_ tab in the _Design_ section showing releases
 - New _Timeline_ tab in the environment transition section showing releases
-- Support of Windows images via openstack cloud
+- Beta release of support of Windows images via openstack cloud
 - Ability to execute attachments around actions e.g. execute attachment after restart
 - Phase 1 for version controlled configuration with backend APIs
 - Option to suppress load alerts during compute replacement
