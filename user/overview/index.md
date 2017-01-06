@@ -94,8 +94,3 @@ Monitor and control your environments to maintain the required operational level
 * View configuration, metrics and logs
 * Enable auto repair, auto scale and auto replace
 * Perform manual control actions
-
-# Platforms Available in OneOps
-
-For a list of platforms available in OneOps, go to the
-[Available Platforms List](/user/references/available-platforms-list.html)
