@@ -6,7 +6,6 @@ title: User Documentation Index
 <ul>
   <li><a href="/user/overview/">Overview</a></li>
   <li><a href="/user/key-concepts/" >Key Concepts</a></li>
-  <li><a href="/user/prerequisites/" >Prerequisites</a></li>
   <li><a href="/user/getting-started/" >Getting Started</a></li>
   <li>Typical Scenarios: 
     <ul>
