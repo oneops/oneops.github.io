@@ -3,17 +3,26 @@ layout: user-doc
 title: User Overview
 ---
 
->* For a general overview of What OneOps does see [oneops.com](http://www.oneops.com)
-* This document provides an overview of the OneOps product from an *end user* deploying application in cloud using
-an already running **OneOps instance**.
-* If you are someone who wants to set up OneOps for an organization or want to try locally OneOps refer to the
-[Administrator Overview](/admin/overview).
-* Looking for developing or contributing content to OneOps please refer to the [Developer Overview](/developer/overview).
+A OneOps __user__ typically desires to __manage__ applications deployed to 
+[virtual environments](https://en.wikipedia.org/wiki/Virtual_environment_software), called __cloud applications__.
+The user interacts with __OneOps web application__ via the user interface and potentially via the API.
+
+Activities performed depend on the security access level and are typically focussed around __application lifecycle 
+management__ with OneOps including design, deployment and operation of cloud-based applications.
+
+__Administrative users__ perform tasks in OneOps itself that __enable other users__ to manage their applications by 
+configuring security, clouds and other aspects of OneOps, potentially working 
+with [administrators](/admin/overview/index.html).
+
+Available resources for users include:
+
+- [Key Concepts](/user/key-concepts): Key concepts for OneOps users.
+- [Getting Started](/user/getting-started): Installation instructions.
+- [User Index](/user/user-index.html): Index of all relevant user documentation.
+
 
 OneOps enables continuous lifecycle management of complex, business-critical application workloads on any
 cloud-based infrastructure. You can expect:
-
-<iframe src="https://player.vimeo.com/video/44430261" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
 
 * Agility and speed
 * Faster SDLC due to consistency between environments ,see [Design Phase](#design-phase)
@@ -25,60 +34,14 @@ and [Monitoring](/user/references/monitoring-reference.html)
 * Application-driven access control policies, see [Teams in Organization](/user/howto/create-a-team-in-an-organization.html)
 * Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/references/cloud-providers.html)
 
-# OneOps Continuous Lifecycle
+The following video provides an introduction:
 
-With OneOps, your design becomes much more than a simple template. It's a continually maintained dataset where the
-notion of change is always recognized.
+<iframe src="https://player.vimeo.com/video/44430261" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
 
-In fact, OneOps was created from the ground up to manage the issues that arise with continuous change. In
-addition, OneOps automatically scales and repairs your application to ensure high availability and optimal
-utilization of your cloud infrastructure.
+> If you don't have access to a OneOps installation you can get started with the installation instructions and more in 
+the [administrator documentation](/admin/overview).
 
-<video width="720" height="480" preload="metadata" controls="" class="grovo-video">
-    <source src="http://videos.grovo.com/0515_walmart-what-is-oneops_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video.
-    </video>
 
-# OneOps Lifecycle Phases
 
-![OneOps Product Overview](/assets/docs/local/images/oneops-product-overview.png)
 
-OneOps streamlines the three phases of the lifecycle – **design, transition** and **operations.**
 
-## Design Phase
-
-![Basic Introduction Continuous Lifecycle Design](/assets/docs/local/images/basic-introduction-continuous-lifecycle-design.png)
-
-Define your application workload based on your architectural and application requirements.
-
-* Visually assemble your application
-* Select from a library of platform packs
-* Fine-tune components inside each platform
-* Modify your design with version control
-
-## Transition Phase
-
-![Basic Introduction Transition Lifecycle Transition](/assets/docs/local/images/basic-introduction-continuous-lifecycle-transition.png)
-
-Provision environments by mapping the design output against operational requirements.
-
-* Create and customize multiple environments
-* Specify availability requirements
-* Bind to your cloud provider of choice
-* Deploy with effortless automation
-
-## Operations Phase
-
-![Basic Introduction Continuous Lifecycle Operations](/assets/docs/local/images/basic-introduction-continuous-lifecycle-operations.png)
-
-Monitor and control your environments to maintain the required operational levels.
-
-* Monitor the health of your application
-* View configuration, metrics and logs
-* Enable auto repair, auto scale and auto replace
-* Perform manual control actions
-
-# Platforms Available in OneOps
-
-For a list of platforms available in OneOps, go to the
-[Available Platforms List](/user/references/available-platforms-list.html)

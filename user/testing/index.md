@@ -4,11 +4,7 @@ title: User Testing and Debugging
 id: "testing-and-debugging" 
 ---
 
-# Testing
-
-REPLACE WITH guidance on testing.
-
-# Debugging
+# User Testing and Debugging
 
 ## Find the URL for Your App
 
