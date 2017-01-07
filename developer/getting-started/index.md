@@ -166,5 +166,4 @@ Refer to the following documentation as you work.
 * **<a href="/developer/typical-scenarios/modify-a-component.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
 * **<a href="/developer/references/">References:</a>** Detailed code usage descriptions with code snippets
 * **<a href="/developer/howto/add-monitors.html">How To:</a>** Instructional articles that solve a specific problem or achieve a specific solution
-* **<a href="/developer/testing/">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
 * **<a href="/general/contribute.html">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

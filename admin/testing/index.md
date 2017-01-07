@@ -3,10 +3,11 @@ layout: admin-doc
 title: Administrator Testing and Debugging
 id: "testing-and-debugging"
 ---
-As an admin become familiar with OneOps architecture
 
-# Testing
-* Build a *test* environment where you can test any new OneOps code changes and also validate any or new *pack* changes your organization might do.
+# Administrator Testing and Debugging
+
+Build a *test* environment where you can test any new OneOps code changes and also validate any or new *pack* changes 
+your organization might do.
 
 # Debugging
 
