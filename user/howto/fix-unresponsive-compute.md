@@ -21,6 +21,3 @@ To fix an unresponsive compute, follow these steps to reboot the compute:
 
 * <a href="/user/howto/update-os-packages-on-a-compute.html">Update OS Packages on a Compute</a>
 * <a href="/user/howto/reboot-computes.html">Reboot Computes</a>
-* <a href="/user/key-concepts/">Key Concepts</a>
-* <a href="/user/prerequisites/">Prerequisites</a>
-* <a href="/user/getting-started/">Getting Started</a>
