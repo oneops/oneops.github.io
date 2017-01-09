@@ -12,7 +12,7 @@ developer activities are:
 
 Available resources for developers include:
 
-- [Key Concepts](/developer/key-concepts): Key concepts for OneOps administrators.
+- [Key Concepts](/developer/key-concepts): Key concepts for OneOps developers.
 - [Getting Started](/developer/getting-started): Installation instructions.
 - [Administrator Index](/developer/developer-index.html): Index of all relevant administrator documentation.
 - [All source code on GitHub]({{ site.github_url }})
