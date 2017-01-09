@@ -71,7 +71,7 @@ Define your application workload based on your architectural and application req
 
 ![Basic Introduction Transition Lifecycle Transition](/assets/docs/local/images/basic-introduction-continuous-lifecycle-transition.png)
 
-Transition is an area within an Assembly where the application Design is realized in an [Environment][#environment]. You can
+Transition is an area within an Assembly where the application Design is realized in an [Environment](#environment). You can
 have multiple Environments derived from a single Design.
 
 Provision environments by mapping the design output against operational requirements.
