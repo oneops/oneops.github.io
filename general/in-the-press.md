@@ -22,7 +22,7 @@ are looking for you  to contribute something here.
 
 # 2016
 
-January 9th, 2017 - Light Reading: [How Walmart Builds Open Source Culture] (http://www.lightreading.com/open-source/openstack/how-walmart-builds-open-source-culture-/d/d-id/729263) 
+January 9th, 2017 - Light Reading: [How Walmart Builds Open Source Culture](http://www.lightreading.com/open-source/openstack/how-walmart-builds-open-source-culture-/d/d-id/729263) 
 
 December 29th, 2016 - Tech Better (Audio): [Open Source Cloud at Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
 
