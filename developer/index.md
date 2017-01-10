@@ -23,41 +23,30 @@ knowledge is potentially required as well.
 
 
 <ul>
-  <li><a href="/developer/overview/">Overview</a></li>
-  <li><a href="/developer/key-concepts/" >Key Concepts</a></li>
-  <li><a href="/developer/prerequisites/" >Prerequisites</a></li>
-  <li><a href="/developer/getting-started/" >Getting Started</a></li>
-  <li>Typical Scenarios: 
+  <li><a href="/developer/">Overview</a></li>
+  <li><a href="/developer/general/key-concepts.html" >Key Concepts</a></li>
+  <li>Core Development: 
     <ul>
       {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/developer/typical-scenarios/" and currentpage.url != "/developer/typical-scenarios/" %}
+        {% if currentpage.url contains "/developer/core-development/" and currentpage.url != "/developer/core-development/" %}
         <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
   </li>
-  <li>Best Practices:
+  <li>Content Development:
     <ul>
       {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/developer/best-practices/" and currentpage.url != "/developer/best-practices/" %}
+        {% if currentpage.url contains "/developer/content-development/" and currentpage.url != "/developer/content-development/" %}
         <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
   </li>
-  <li>References:
+  <li>Integration Development:
     <ul>
       {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/developer/references/" and currentpage.url != "/developer/references/" %}
-        <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </li>
-  <li>How To:
-    <ul>
-      {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/developer/howto/" and currentpage.url != "/developer/howto/" %}
+        {% if currentpage.url contains "/developer/integration-development/" and currentpage.url != "/developer/integration-development/" %}
         <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
         {% endif %}
       {% endfor %}
