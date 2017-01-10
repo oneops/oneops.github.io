@@ -11,6 +11,16 @@ Linux system and to create a new component (cookbook) with its accompanying pack
 For both API and Circuit development you need access to a running OneOps deployment. To build your own deployment,
 start with the <a href="/admin/install/">Installation</a> section.
 
+# Resources
+
+<ul>
+{% for p in site.pages %}
+{% if p.url contains page.url and p.url != page.url %}
+  <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
 # API Developer
 
 For API development, refer to the documentation in the <a href="/developer/references/">Reference</a> section.
