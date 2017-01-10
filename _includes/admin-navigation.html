@@ -6,7 +6,7 @@
             <nav id="sidenav">
               <h2>ADMIN DOCS</h2>
               <ul class="nav">
-                <li{% if page.url contains "/admin/index" %} class="active" {% endif %}>
+                <li{% if page.url == "/admin/" %} class="active" {% endif %}>
                   <a href="/admin/index.html">Overview</a>
                 </li>
                 <li{% if page.url contains "/admin/general/key-concepts" %} class="active" {% endif %}>
@@ -16,10 +16,10 @@
                   <a onclick="$('#admin-install').toggleClass('hidden');">Install
                   <span class="caret"></span></a>
                   <ul id="admin-install"{% unless page.url contains "/admin/install/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/admin/install/index' %} active{% endif %}">
+                      <li class="sub-menu-item{% if page.url == '/admin/install/' %} active{% endif %}">
                         <a href="/admin/install/index.html">Installation</a>
                       </li>
-                      <li class="sub-menu-item{% if page.url == '/admin/install/install-with-vagrat' %} active{% endif %}">
+                      <li class="sub-menu-item{% if page.url == '/admin/install/install-with-vagrant' %} active{% endif %}">
                         <a href="/admin/install/install-with-vagrant.html">with Vagrant</a>
                       </li>
                       <li class="sub-menu-item{% if page.url == '/admin/install/install-with-ami' %} active{% endif %}">
