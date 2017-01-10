@@ -12,7 +12,7 @@ management__ with OneOps including design, deployment and operation of cloud-bas
 
 __Administrative users__ perform tasks in OneOps itself that __enable other users__ to manage their applications by 
 configuring security, clouds and other aspects of OneOps, potentially working 
-with [administrators](/admin/overview/index.html).
+with [administrators](/admin/index.html).
 
 Available resources for users include:
 
@@ -39,7 +39,7 @@ The following video provides an introduction:
 <iframe src="https://player.vimeo.com/video/44430261" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
 
 > If you don't have access to a OneOps installation you can get started with the installation instructions and more in 
-the [administrator documentation](/admin/overview).
+the [administrator documentation](/admin/index.html).
 
 
 

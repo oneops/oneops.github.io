@@ -28,8 +28,6 @@ gem install inductor-VERSION.gem
 
 # Configure
 
-For a configuration guide with screenshots, see [Getting Started](/admin/getting-started/).
-
 The inductor gem creates configuration files and directories when the `inductor add` command is run.
 
 For a private zone, the authorization key is specified when you create the zone from the UI.

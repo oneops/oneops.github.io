@@ -33,7 +33,7 @@ OneOps documentation is arranged by user type. To find the answers you seek, ple
     </div>
   </a>
 
-  <a href="/admin/overview/index.html" class="oo-documentation-links">
+  <a href="/admin/index.html" class="oo-documentation-links">
     <div class="col-md-3 document-bf-item">
       <div class="ti-image">
         <i class="icon-noun_69699_cc oo-content-icons icons-blue"></i>

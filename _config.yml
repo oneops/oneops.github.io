@@ -45,7 +45,7 @@ documentation:
  - title: user
    url: /user/overview/index.html
  - title: admin
-   url: /admin/overview/index.html
+   url: /admin/index.html
  - title: developer
    url: /developer/overview/index.html
 

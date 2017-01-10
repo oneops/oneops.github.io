@@ -7,6 +7,9 @@ The **Inductor** consumes WorkOrders (rfc / configuration change) or ActionOrder
 (`start`, `stop`, etc) from a queue by zone, executes them and posts a result
 message back to the **controller**.
 
+A WorkOrder is a request for change (RFC) of a configuration item (CI). An ActionOrder is request to perform an action that 
+is typically not associated to a configuration item. Example action are reboot, repair, snapshot, restore, etc.
+
 The `account.Cloud.location` is used by the controller to publish the order into a queue.  The inductors consume,
 does the work and publish the result back to the `controller.response queue`.
 

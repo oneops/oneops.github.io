@@ -1,9 +1,9 @@
 ---
 layout: admin-doc
-title: Administrator Best Practices
+title: Administrator Operation
 ---
 
-The admin best practices section includes the following topics:
+This documemtation section about operating aspects for OneOps administrators includes:
 
 <ul>
 {% for p in site.pages %}

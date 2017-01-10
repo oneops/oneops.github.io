@@ -68,7 +68,7 @@ account.
 
 # Next Steps
 
-- Checkout out the [troubleshooting section](/admin/testing/), if something went wrong.
+- Checkout out the [troubleshooting section](../operate/testing.html), if something went wrong.
 - Proceed with the [user configuration of an organization, clouds and more](/user/overview).
 
 # Managing the OneOps VM
@@ -101,7 +101,7 @@ vagrant up
 {% endhighlight %}
 
 In order to inspect the VM content itself, you can connect via SSH with vagrant. The following example connects
-and then checks the status of the [inductor](/admin/references/inductor.html) component of OneOps.
+and then checks the status of the [inductor](/admin/operate/inductor.html) component of OneOps.
 
 {% highlight shell %}
 vagrant ssh

@@ -1,6 +1,6 @@
 ---
 layout: admin-doc
-title: Getting Started with OneOps Public AMI
+title: Installing OneOps with Public AMI
 ---
 
 If you have an AWS account you can bring up a basic version of OneOps using the public AMI. (Right now it's available in US east region). This image has some basic configurations already in place.
@@ -71,7 +71,7 @@ While the deployment is in progress you can click on the steps to expand to work
 
 ## Troubleshooting
 
- * <a href="/admin/testing/index.html#ui-does-not-come-up">Trouble connecting to port 3000</a>
- * <a href="/admin/testing/index.html#deployment-fails">Deployment fails</a>
- * Not here, look <a href="/admin/testing/">here</a>
+ * <a href="../operate/testing.html#ui-does-not-come-up">Trouble connecting to port 3000</a>
+ * <a href="../operate/testing.html#deployment-fails">Deployment fails</a>
+ * Not here, look <a href="../operate/testing.html">here</a>
 

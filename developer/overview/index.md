@@ -18,6 +18,6 @@ Available resources for developers include:
 - [All source code on GitHub]({{ site.github_url }})
 
 At a minimum a developer needs to understand the basic concepts of [OneOps itself](/general/about.html) and
-for [OneOps users](/user/overview/). Depending on the development task, [OneOps administrator](/admin/overview)
+for [OneOps users](/user/overview/). Depending on the development task, [OneOps administrator](/admin/index.html)
 knowledge is potentially required as well.
 

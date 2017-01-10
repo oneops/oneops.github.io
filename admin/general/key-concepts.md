@@ -149,8 +149,8 @@ Inductor can be installed via oneops-admin gem  .
 
 See Also
 
-* <a href="/admin/howto/build-install-configure-an-inductor.html">Installing Inductor</a>
-* <a href="/admin/references/inductor.html">CookBook execution</a>
+* <a href="/admin/operate/build-install-configure-an-inductor.html">Installing Inductor</a>
+* <a href="/admin/operate/inductor.html">CookBook execution</a>
 
 ## Workorders
 

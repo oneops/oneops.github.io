@@ -7,7 +7,7 @@ id: "key-concepts"
 # OneOps System Architecture
 
 As a pack developer, you don't need to know the details of **system architecture**, but if you want to learn more 
-refer <a href="/admin/key-concepts/index.html#system-architecture">System Architecture</a>.
+refer <a href="/admin/general/key-concepts.html#system-architecture">System Architecture</a>.
 
 # Model Overview
 
@@ -116,7 +116,7 @@ A Component Class must have:
 * [Metadata:](#metadata) Model that describes attributes, help, default values
 * [Recipes:](#recipe) `add`, `update`, `delete`, `start`, `stop`, `restart`, `repair`
 
-For instructions on how to add a new component, see [Add a New Component.](/developer/howto/add-new-component.html)
+For instructions on how to add a new component, see [Add a New Component.](/developer/howto/add-a-new-component.html)
 
 ## Component Resource
 

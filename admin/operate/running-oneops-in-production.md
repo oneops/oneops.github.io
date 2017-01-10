@@ -28,7 +28,7 @@ You can deploy like
 |opsmq|OpsMQ|
 |daq|Cassandra|
 
-See also <a href="/admin/key-concepts/index.html">architecture-diagram</a>
+See also <a href="../general/key-concepts.html">architecture-diagram</a>
 
 
 ## Use Command Line Interface

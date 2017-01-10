@@ -65,7 +65,7 @@ Define your application workload based on your architectural and application req
 **See also**
 
  * **[Add a platform](/developer/howto/add-a-platform.html)**
-  * **[Add a component](/developer/howto/add-new-component.html)**
+  * **[Add a component](/developer/howto/add-a-new-component.html)**
 
 # Transition Phase in OneOps
 

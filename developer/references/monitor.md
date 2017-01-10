@@ -40,4 +40,4 @@ resource "tomcat",
        ...
 ~~~
 
-[Metric Data Source Type]:/admin/references/metric-data-source-type.html
+[Metric Data Source Type]:/admin/operate/metric-data-source-type.html
