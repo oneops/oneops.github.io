@@ -1,6 +1,6 @@
 ---
 layout: dev-doc
-title: Developer Getting Started
+title: Content Development
 ---
 
 Use this section to set up your environment for OneOps pack (circuits)/cookbook development on a Mac OS X or a
