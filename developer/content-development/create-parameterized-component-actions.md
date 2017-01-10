@@ -5,9 +5,11 @@ id: create-parameterized-component-actions
 ---
 
 # Summary
+
 As a cookbook or circuit developer, if you want to accept user inputs before executing any component actions and use those input values inside the action recipe, you need to specify those details in the `metadata.rb` of that cookbook as mentioned in the details below.
 
 # Details
+
 Let's say you need to add an action (or modify an existing action) to accept a text input called "path" and some more inputs from the user. You need to modify the metadata.rb of that cookbook and add "args" metadata to the action as shown below:
 
 ~~~ruby
