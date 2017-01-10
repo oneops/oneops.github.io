@@ -2,78 +2,53 @@
             <nav id="sidenav">
               <h2>DEV DOCS</h2>
               <ul class="nav">
-                <li{% if page.url contains "/developer/overview/" %} class="active" {% endif %}>
-                  <a href="/developer/overview/">Overview</a>
+                <li{% if page.url contains "/developer/" %} class="active" {% endif %}>
+                  <a href="/developer/index.html">Overview</a>
                 </li>
-                <li{% if page.url contains "/developer/developer-index.html" %} class="active" {% endif %}>
-                  <a href="/developer/developer-index.html">Index</a>
-                </li>
-                <li{% if page.url contains "/developer/key-concepts/" %} class="active" {% endif %}>
-                  <a href="/developer/key-concepts/">Key Concepts</a>
-                </li>
-                <li{% if page.url contains "/developer/prerequisites/" %} class="active" {% endif %}>
-                  <a href="/developer/prerequisites/">Prerequisites</a>
-                </li>
-                <li{% if page.url contains "/developer/getting-started/" %} class="active" {% endif %}>
-                  <a href="/developer/getting-started/">Getting Started</a>
+                <li{% if page.url contains "/developer/general/key-concepts/" %} class="active" {% endif %}>
+                  <a href="/developer/general/key-concepts.html">Key Concepts</a>
                 </li>
                 <li>
-                  <a onclick="$('#dev-typical-usage-scenarios').toggleClass('hidden');">Typical Scenarios
+                  <a onclick="$('#dev-core').toggleClass('hidden');">Core Development
                   <span class="caret"></span></a>
-                  <ul id="dev-typical-usage-scenarios"{% unless page.url contains "/developer/typical-scenarios/" %} class="hidden"{% endunless %}>
-                    <li class="sub-menu-item{% if page.url == '/developer/typical-scenarios/' %} active{% endif %}">
-                        <a href="/developer/typical-scenarios/index.html">Index</a>
-                      </li>  
+                  <ul id="dev-core"{% unless page.url contains "/developer/core-development/" %} class="hidden"{% endunless %}>
+                    <li class="sub-menu-item{% if page.url == '/developer/core-development/' %} active{% endif %}">
+                        <a href="/developer/core-development/index.html">Index</a>
+                    </li>
                     {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/developer/typical-scenarios/" and currentpage.url != "/developer/typical-scenarios/" %}
+                      {% if currentpage.url contains "/developer/core-development/" and currentpage.url != "/developer/core-development/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
-                  </ul> 
+                  </ul>
                 </li>
                 <li>
-                  <a onclick="$('#dev-best-practices').toggleClass('hidden');">Best Practices
+                  <a onclick="$('#dev-content').toggleClass('hidden');">Content Development
                   <span class="caret"></span></a>
-                  <ul id="dev-best-practices"{% unless page.url contains "/developer/best-practices/" %} class="hidden"{% endunless %}>
-                    <li class="sub-menu-item{% if page.url == '/developer/best-practices/' %} active{% endif %}">
-                        <a href="/developer/best-practices/index.html">Index</a>
-                      </li>  
+                  <ul id="dev-content"{% unless page.url contains "/developer/content-development/" %} class="hidden"{% endunless %}>
+                    <li class="sub-menu-item{% if page.url == '/developer/content-development/' %} active{% endif %}">
+                        <a href="/developer/content-development/index.html">Index</a>
+                    </li>
                     {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/developer/best-practices/" and currentpage.url != "/developer/best-practices/" %}
+                      {% if currentpage.url contains "/developer/content-development/" and currentpage.url != "/developer/content-development/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
-                  </ul> 
+                  </ul>
                 </li>
                 <li>
-                  <a onclick="$('#dev-references').toggleClass('hidden');">References
+                  <a onclick="$('#dev-integration').toggleClass('hidden');">Integration Development
                   <span class="caret"></span></a>
-                  <ul id="dev-references"{% unless page.url contains "/developer/references/" %} class="hidden"{% endunless %}>
-                     <li class="sub-menu-item{% if page.url == '/developer/references/' %} active{% endif %}">
-                        <a href="/developer/references/index.html">Index</a>
-                      </li>
+                  <ul id="dev-integration"{% unless page.url contains "/developer/integration-development/" %} class="hidden"{% endunless %}>
+                    <li class="sub-menu-item{% if page.url == '/developer/integration-development/' %} active{% endif %}">
+                        <a href="/developer/integration-development/index.html">Index</a>
+                    </li>
                     {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/developer/references/" and currentpage.url != "/developer/references/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
-                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
-                       </li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul> 
-                </li>
-                <li>
-                  <a onclick="$('#dev-how-to').toggleClass('hidden');">How To
-                  <span class="caret"></span></a>
-                  <ul id="dev-how-to"{% unless page.url contains "/developer/howto/" %} class="hidden"{% endunless %}>
-                    <li class="sub-menu-item{% if page.url == '/developer/howto/' %} active{% endif %}">
-                        <a href="/developer/howto/index.html">Index</a>
-                      </li>
-                    {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/developer/howto/" and currentpage.url != "/developer/howto/" %}
+                      {% if currentpage.url contains "/developer/integration-development/" and currentpage.url != "/developer/integration-development/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
