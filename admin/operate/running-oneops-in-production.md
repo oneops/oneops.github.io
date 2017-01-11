@@ -8,7 +8,7 @@ Use **OneOps to deploy OneOps in production**, so you get all the benefits of On
 
 See also:
 
-  * Follow these general prescribed <a href="/user/best-practices/design-best-practices.html">practices</a>
+  * Follow these general prescribed <a href="/user/design/design-best-practices.html">practices</a>
 
 ## Deploy in redundant mode.
 

@@ -50,7 +50,7 @@ To create an environment, follow these steps:
 
     ![User Create Environment](/assets/docs/local/images/user-create-environment2.png)
 
-8. Select one or more primary and secondary <a href="/user/howto/add-a-new-cloud.html">clouds</a> from the list of available options.
+8. Select one or more primary and secondary <a href="/user/account/add-a-new-cloud.html">clouds</a> from the list of available options.
 
     ![User Create Environment](/assets/docs/local/images/user-create-environment3.png)
 

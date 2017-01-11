@@ -53,15 +53,6 @@ the [administrator documentation](/admin/index.html).
       {% endfor %}
     </ul>
   </li>
-  <li>Best Practices:
-    <ul>
-      {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/user/best-practices/" and currentpage.url != "/user/best-practices/" %}
-        <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </li>
   <li>References:
     <ul>
       {% for currentpage in site.pages %}

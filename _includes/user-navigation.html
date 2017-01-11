@@ -46,7 +46,7 @@
                 <li>
                   <a onclick="$('#user-transition').toggleClass('hidden');">Transition
                   <span class="caret"></span></a>
-                  <ul id="user-transitiont"{% unless page.url contains "/user/transition/" %} class="hidden"{% endunless %}>
+                  <ul id="user-transition"{% unless page.url contains "/user/transition/" %} class="hidden"{% endunless %}>
                       <li class="sub-menu-item{% if page.url == '/user/transition/' %} active{% endif %}">
                         <a href="/user/transition/index.html">Index</a>
                       </li>
@@ -85,22 +85,6 @@
                       </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/user/typical-scenarios/" and currentpage.url != "/user/typical-scenarios/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
-                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
-                       </li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </li>
-                <li>
-                  <a onclick="$('#user-best-practices').toggleClass('hidden');">Best Practices
-                  <span class="caret"></span></a>
-                  <ul id="user-best-practices"{% unless page.url contains "/user/best-practices/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/user/best-practices/' %} active{% endif %}">
-                        <a href="/user/best-practices/index.html">Index</a>
-                      </li>
-                    {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/user/best-practices/" and currentpage.url != "/user/best-practices/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>

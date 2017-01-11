@@ -99,7 +99,7 @@ To learn about additional Account activities for assemblies, teams, users and no
 
 # OneOps Design Phase
 
-In the design phase, one can create <a href="/user/howto/add-a-platform-to-a-design.html">platforms</a> (building blocks) from existing available *packs*.
+In the design phase, one can create <a href="/user/design/add-a-platform-to-a-design.html">platforms</a> (building blocks) from existing available *packs*.
 In this example, we will create simple application (Tomcat) which talks to back end database.
 
 
@@ -121,8 +121,8 @@ In this example, we will create simple application (Tomcat) which talks to back 
 See also:
 
 * <a href="/user/general/key-concepts.html">Platforms</a>  
-* <a href="/user/howto/add-a-platform-to-a-design.html">Add a platform</a>
-* <a href="/user/howto/add-specific-component-to-a-design.html">Add a component</a>
+* <a href="/user/design/add-a-platform-to-a-design.html">Add a platform</a>
+* <a href="/user/design/add-specific-component-to-a-design.html">Add a component</a>
 * <a href="/user/references/platform-links-reference.html">Platform Dependency</a>
 * <a href="/user/references/platform-packs.html">Packs/Circuits</a>
 * <a href="/user/howto/view-design-releases.html">View Design Releases</a>
@@ -228,7 +228,7 @@ Before you start with OneOps, it is recommended that you read the following docu
 * **<a href="/user/">Overview:</a>** OneOps business-level description of main benefits versus alternative solutions
 * **<a href="/user/general/key-concepts.html">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
 * **<a href="/user/general/getting-started.html">Getting Started:</a>** How to start using OneOps (this section)
-* **<a href="/user/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
+* **<a href="/user/design/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
 
 ## What You Will Need When You Work with OneOps
 

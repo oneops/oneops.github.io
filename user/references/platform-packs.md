@@ -8,5 +8,5 @@ A Platform pack is a logical grouping of manageable software. Examples of this a
 
 # See Also
 
-* <a href="/user/howto/add-a-platform-to-a-design.html">Add a Platform to a Design</a>
+* <a href="/user/design/add-a-platform-to-a-design.html">Add a Platform to a Design</a>
 * <a href="/user/howto/create-an-environment.html">Create an Environment</a>
