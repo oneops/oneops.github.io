@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Add a Platform
-id: add-a-platform
 ---
 
 To create a new Platform type so it can be used via the UI, follow the steps listed below.

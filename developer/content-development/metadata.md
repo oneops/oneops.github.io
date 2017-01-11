@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Metadata
-id: metadata
 ---
 
 Metadata files model components and have several parts:

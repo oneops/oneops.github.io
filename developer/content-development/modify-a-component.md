@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Modify existing component
-id: modify-a-component
 ---
 
 # Scenario Context

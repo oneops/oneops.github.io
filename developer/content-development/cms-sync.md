@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: CMS Sync
-id: cms-sync
 ---
 
 To update the CMS database with new component metadata and/or platform management packs, we extended Chef's knife to load (model sync) the files in the directory to the database.

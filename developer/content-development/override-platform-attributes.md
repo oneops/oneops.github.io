@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Override Platform Attributes
-id: override-platform-attributes
 ---
 
 You can override the platform attributes like auto-replace or auto-scale at individual circuit (pack) level.

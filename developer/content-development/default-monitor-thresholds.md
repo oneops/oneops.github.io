@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Default Monitor Thresholds
-id: default-monitor-thresholds
 ---
 
 The tables below list all of the default monitor thresholds implicitly added in all environments. As an app owner, you should review and update these thresholds to what is best suited for your app.

@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Create Parameterized Component Actions
-id: create-parameterized-component-actions
 ---
 
 # Summary

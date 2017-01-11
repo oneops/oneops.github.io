@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Pack policy
-id: pack-policy
 ---
 
 Policies can also be specified as part of the pack definition.

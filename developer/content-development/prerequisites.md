@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Developer Prerequisites
-id: "developer-prerequisites"
 ---
 
 

@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Add a New Platform Pack
-id: add-new-platform-pack
 ---
 
 * Include_pack (inherit)

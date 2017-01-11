@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: OneOps API Documentation
-id: oneops-api-documentation
 ---
 
 Note: all calls will use the api token - see [Get Auth Token](#account-profile):

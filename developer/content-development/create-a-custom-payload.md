@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Create a Custom Payload
-id: create-a-custom-payload
 ---
 
 To get configuration data from other parts of your assembly, you can add a custom payload definition to the resource in a circuit.

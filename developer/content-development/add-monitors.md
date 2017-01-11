@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Add Monitors
-id: add-monitors
 ---
 
 Adding a monitor is specific to each component. These steps are very generic and only give an overview of what to do if a new monitor needs to be added to a component:

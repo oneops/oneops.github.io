@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Platform Management Pack
-id: platform-management-pack
 ---
 
 A platform is added to the system by creating a Platform Management Pack (`Pack`) file and loading it into the

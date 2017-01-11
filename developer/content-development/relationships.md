@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Relationships
-id: relationships
 ---
 
 Relationships have attributes like other objects modeled in OneOps. We are working on adding pages to visualize and explain all of them.

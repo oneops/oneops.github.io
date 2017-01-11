@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Pack Development
-id: "pack Development"
 ---
 
 # Good Defaults

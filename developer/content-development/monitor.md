@@ -1,7 +1,6 @@
 ---
 layout: dev-doc
 title: Monitor
-id: monitor
 ---
 
 An optional monitor within a Pack Component Resource contains:
