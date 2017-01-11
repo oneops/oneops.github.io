@@ -3,9 +3,10 @@ layout: dev-doc
 title: Core Development
 ---
 
-TBD - what is core development
+__Core development__ is all about development on any component of the __OneOps application__ stack itself.
+All source code for the various components is [available on GitHub]({{ site.github_url }}).
 
-and what content do we have about it
+Resources available for core development:
 
 <ul>
 {% for p in site.pages %}

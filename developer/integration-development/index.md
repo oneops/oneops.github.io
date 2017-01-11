@@ -3,11 +3,11 @@ layout: dev-doc
 title: Integration Development
 ---
 
-TBD - what is integration evelopment
+__Integrations development__ is all about using the various __OneOps APIs__ to create integrations with other 
+applications or workflows. These could be simple scripts to automate commonly performed actions or integration
+with other applications to support your specific use cases.
 
-and what content do we have about it
-
-API usage for integration with other tools or simple task automation with scripts and so on 
+Resources available for integration development:
 
 <ul>
 {% for p in site.pages %}
