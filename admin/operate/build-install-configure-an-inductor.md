@@ -6,25 +6,27 @@ id: build-install-configure-an-inductor
 
 # Build and Install
 
-~~~ bash
 #1. Build the jar file. It is in `target/inductor-VERSION.jar`.
 
-mvn clean package
 
+```
+mvn clean package
+```
 
 #2. Build the gem.
 
 
+```
 gem build inductor.gemspec
-
+```
 
 #It creates an `inductor-VERSION.gem` in the root directory.
 
 #3. Install the gem from the root directory.
 
-
+```
 gem install inductor-VERSION.gem
-~~~
+```
 
 # Configure
 

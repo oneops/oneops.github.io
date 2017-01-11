@@ -7,8 +7,8 @@ id: oneops-admin-gem
 Oneops-admin is a Ruby thor-based command-line to manage the inductor.  Jenkins copies the JAR built from the inductor repo into the gem. The oneops-admin gem installs an inductor command which has:
 
 
-~~~ bash
-mschwan@L-SB81K2FFT4-M:~ >inductor
+```
+$ inductor
 Commands:
 inductor add # Add cloud to the inductor
 inductor check # Inductor check
@@ -33,4 +33,4 @@ inductor stop NAME # Inductor stop (will finish processing active threads)
 inductor stop_agent NAME # Inductor log agent stop
 inductor stop_logstash_agent NAME # Inductor logstash agent stop
 inductor tail # Inductor log tail
-~~~
+```
