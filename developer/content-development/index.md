@@ -21,10 +21,6 @@ start with the <a href="/admin/install/">Installation</a> section.
 {% endfor %}
 </ul>
 
-# API Developer
-
-For API development, refer to the documentation in the <a href="/developer/references/">Reference</a> section.
-
 # Circuit Developer
 
 For Circuit development, follow the instructions below.
@@ -85,13 +81,13 @@ $ vi mypack.rb
 As in the case of chef recipes, a OneOps pack is also defined using a custom Ruby DSL with syntax like variable, 
 resource, relation, etc. Because the Pack DSL is a Ruby DSL, anything that can be done using Ruby can also be done 
 in a Pack, including if and case statements, using the include? Ruby method, etc. 
-For detailed information on how to develop a pack, see [Add a Platform](/developer/howto/add-a-platform.html).
+For detailed information on how to develop a pack, see [Add a Platform](/developer/content-development/add-a-platform.html).
 
 ## Create a Circuit
 
 To create a circuit, refer to:
 
-* [Add a New Component](/developer/howto/add-a-new-component.html)
+* [Add a New Component](/developer/content-development/add-a-new-component.html)
 
 # Confirming it Works
 
@@ -159,21 +155,3 @@ scp -r components/cookbooks/mycomp ooadmin@<your OneOps instance inductor>:/opt/
 3. Create a pull request.
      After you make sure that everything is working fine in the dev env, commit the code and create a pull request from your forked repo.
 
-
-# Before You Code
-
-Before you code, read the following documentation. It is the most essential information you need before you start.
-
-* **[Overview:](/developer/overview/index.html)** OneOps business-level description of its main benefits versus alternative solutions
-* **<a href="/developer/key-concepts/">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
-* **<a href="/developer/getting-started/">Getting Started:</a>** How to start using OneOps (this section)
-* **<a href="/developer/best-practices/pack-development.html">Best Practices:</a>** How you should develop for OneOps for best results
-
-# What You Will Need When You Code
-
-Refer to the following documentation as you work.
-
-* **<a href="/developer/typical-scenarios/modify-a-component.html">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios
-* **<a href="/developer/references/">References:</a>** Detailed code usage descriptions with code snippets
-* **<a href="/developer/howto/add-monitors.html">How To:</a>** Instructional articles that solve a specific problem or achieve a specific solution
-* **<a href="/general/contribute.html">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

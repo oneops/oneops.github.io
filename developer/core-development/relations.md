@@ -4,7 +4,8 @@ title: Relations
 id: relations
 ---
 
-The following model diagrams describe the relationships for Design, Transition, and Operations in the OneOps UI. [Relationships](/developer/key-concepts/index.html) also have attributes, some of which are used to scale.
+The following model diagrams describe the relationships for Design, Transition, and Operations in the OneOps UI.
+[Relationships](/developer/general/key-concepts.html) also have attributes, some of which are used to scale.
 
 # Design
 

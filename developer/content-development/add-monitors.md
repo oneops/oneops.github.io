@@ -80,4 +80,4 @@ fi
 
 # See Also
 
-* <a href="/developer/howto/add-new-chef-cookbook-pack.html">Add a New Chef Cookbook and Pack to OneOps</a>
+* <a href="/developer/content-development/add-new-chef-cookbook-pack.html">Add a New Chef Cookbook and Pack to OneOps</a>

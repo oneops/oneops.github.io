@@ -4,8 +4,8 @@ title: Add a New Component
 ---
 
 
-To add a new [Component](../key-concepts/index.html#component) Class to a model so it can be used by 
-[Platforms,](../key-concepts/index.html#platform) follow these steps:
+To add a new [Component](../general/key-concepts.html#component) Class to a model so it can be used by 
+[Platforms,](../general/key-concepts.html#platform) follow these steps:
 
 In this example, we use *Jboss* as an example of a new component.
 
@@ -21,7 +21,7 @@ In this example, we use *Jboss* as an example of a new component.
     cd cookbooks/Jboss
     ~~~
 
-2. Update <a href="/developer/references/metadata.html">metadata.rb</a>. You can reuse existing Jboss chef recipes and attributes by using the open source recipe, http://community.opscode.com/cookbooks/Jboss. For a list of these see the second Note below.
+2. Update <a href="/developer/content-development/metadata.html">metadata.rb</a>. You can reuse existing Jboss chef recipes and attributes by using the open source recipe, http://community.opscode.com/cookbooks/Jboss. For a list of these see the second Note below.
 
     ~~~bash
     cd recipes
@@ -31,7 +31,7 @@ In this example, we use *Jboss* as an example of a new component.
 4. Create an add.rb and update.rb that only has: include_recipe "Jboss::default". There is no delete recipe, that must be added.
 5. Update relationships metadata for: `depends_on`, `deployed_to`, `escorted_by`,`managed_via`, `realized_as`, `requires`, and `watched_by`.
 6. `cd ../<relationship>` and edit metadata.rb adding Jboss accordingly.
-7. <a href="/developer/howto/cms-sync.html">Sync</a> to CMS.
+7. <a href="/developer/content-development/cms-sync.html">Sync</a> to CMS.
 8. Add the Jboss image for the UI: kloopz-app repo `public/images/cms/Jboss.png`
 
 > new_component.rb Jboss output:
@@ -66,8 +66,8 @@ done.
 
 # See Also
 
-* <a href="/developer/key-concepts/index.html">Platforms</a> in Key Concepts
-* <a href="/developer/howto/add-a-platform.html">Add a Platform</a>
+* <a href="/developer/general/key-concepts.html">Platforms</a> in Key Concepts
+* <a href="/developer/content-development/add-a-platform.html">Add a Platform</a>
 
 # New Component Screens
 

@@ -57,7 +57,6 @@ recipe "repair", "Repair Apache"
 
 # See Also
 
-* <a href="/developer/key-concepts/index.html">Component</a>
-* <a href="/developer/key-concepts/index.html">Recipes</a>
+* <a href="/developer/general/key-concepts.html">Key Concepts </a>
 * <a href="/user/references/attachments.html">Attachments</a>
 

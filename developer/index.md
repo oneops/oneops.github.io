@@ -10,17 +10,13 @@ developer activities are:
 - __Content development__: Creation and maintenance of __OneOps packs__ and __circuits__.
 - __Integrations development__:  Usage of the __OneOps API__ to create integrations with other applications or workflows
 
-Available resources for developers include:
-
-- [Key Concepts](/developer/key-concepts): Key concepts for OneOps developers.
-- [Getting Started](/developer/getting-started): Installation instructions.
-- [Administrator Index](/developer/developer-index.html): Index of all relevant administrator documentation.
-- [All source code on GitHub]({{ site.github_url }})
-
 At a minimum a developer needs to understand the basic concepts of [OneOps itself](/general/about.html) and
-for [OneOps users](/user/overview/). Depending on the development task, [OneOps administrator](/admin/index.html)
+for [OneOps users](/user/). Depending on the development task, [OneOps administrator](/admin/index.html)
 knowledge is potentially required as well.
 
+Available resources for developers include:
+
+- [All source code on GitHub]({{ site.github_url }})
 
 <ul>
   <li><a href="/developer/">Overview</a></li>

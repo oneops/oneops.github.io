@@ -2,10 +2,10 @@
             <nav id="sidenav">
               <h2>DEV DOCS</h2>
               <ul class="nav">
-                <li{% if page.url contains "/developer/" %} class="active" {% endif %}>
+                <li{% if page.url == "/developer/" %} class="active" {% endif %}>
                   <a href="/developer/index.html">Overview</a>
                 </li>
-                <li{% if page.url contains "/developer/general/key-concepts/" %} class="active" {% endif %}>
+                <li{% if page.url contains "/developer/general/key-concepts" %} class="active" {% endif %}>
                   <a href="/developer/general/key-concepts.html">Key Concepts</a>
                 </li>
                 <li>
