@@ -40,14 +40,18 @@ navigation:
    url: /general/documentation.html
 
 documentation:
- - title: general
+ - title: GENERAL
    url: /general/about.html
- - title: user
+   section: /general
+ - title: USER
    url: /user/overview/index.html
- - title: admin
+   section: /user
+ - title: ADMIN
    url: /admin/index.html
- - title: developer
-   url: /developer/overview/index.html
+   section: /admin
+ - title: DEVELOPER
+   url: /developer/index.html
+   section: /developer
 
 authors:
   ooteam:
