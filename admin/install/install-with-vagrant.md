@@ -69,7 +69,7 @@ account.
 # Next Steps
 
 - Checkout out the [troubleshooting section](../operate/testing.html), if something went wrong.
-- Proceed with the [user configuration of an organization, clouds and more](/user/overview).
+- Proceed with the [user configuration of an organization, clouds and more](/user/).
 
 # Managing the OneOps VM
 

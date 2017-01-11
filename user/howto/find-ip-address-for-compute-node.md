@@ -19,4 +19,4 @@ CAUTION: A node's IP Address may change, so you need to make sure that you do no
 
 # See also
 
-* <a href="/user/testing/">Find the URL for Your App</a>
+* <a href="/user/general/testing.html">Find the URL for Your App</a>

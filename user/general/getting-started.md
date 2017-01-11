@@ -120,7 +120,7 @@ In this example, we will create simple application (Tomcat) which talks to back 
 
 See also:
 
-* <a href="/user/key-concepts/">Platforms</a>  
+* <a href="/user/general/key-concepts.html">Platforms</a>  
 * <a href="/user/howto/add-a-platform-to-a-design.html">Add a platform</a>
 * <a href="/user/howto/add-specific-component-to-a-design.html">Add a component</a>
 * <a href="/user/references/platform-links-reference.html">Platform Dependency</a>
@@ -135,7 +135,7 @@ Transition is where you define environment specific attributes as needed. The de
 1. Click environment (icon) from left nav or top nav or wizard.
 2. Click **New Environment** .
 3. Select availability mode for your environment either at platform.
-4. Modify any attributes of *<a href="/user/key-concepts/">components</a>* which may differ from design.
+4. Modify any attributes of *<a href="/user/general/key-concepts.html">components</a>* which may differ from design.
 
 For example *qa* environment compute size requirements may differ from **development/test** or **production** environment, in such scenario you may choose default compute size based on what matches most of the environment requirements.
 
@@ -189,7 +189,7 @@ The successful deployment will *create* actual instances of components (computes
 ## Control Environment
 
 
-1. Perform operational activities on <a href="/user/key-concepts/">components</a> level, like restart of all tomcats.
+1. Perform operational activities on <a href="/user/general/key-concepts.html">components</a> level, like restart of all tomcats.
 Some of the commonly used operations but not limited to these
     1. Replace of compute in case of hardware failures.
     2. Restart of services.(tomcat, Cassandra, elastic search)
@@ -225,9 +225,9 @@ state. see <a href="/user/references/monitoring-reference.html">Monitoring</a>
 
 Before you start with OneOps, it is recommended that you read the following documentation. It is the most essential information you need to begin well.
 
-* **<a href="/user/overview/">Overview:</a>** OneOps business-level description of main benefits versus alternative solutions
-* **<a href="/user/key-concepts/">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
-* **<a href="/user/getting-started/">Getting Started:</a>** How to start using OneOps (this section)
+* **<a href="/user/">Overview:</a>** OneOps business-level description of main benefits versus alternative solutions
+* **<a href="/user/general/key-concepts.html">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
+* **<a href="/user/general/getting-started.html">Getting Started:</a>** How to start using OneOps (this section)
 * **<a href="/user/best-practices/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
 
 ## What You Will Need When You Work with OneOps
@@ -237,5 +237,5 @@ Refer to the following documentation as you work.
 * **<a href="/user/typical-scenarios/">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios  
 * **<a href="/user/references/">Reference:</a>** Detailed code usage descriptions
 * **<a href="/user/howto/add-a-doc-url-to-a-monitor.html">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
-* **<a href="/user/testing/">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
+* **<a href="/user/general/testing.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
 * **<a href="/general/contribute.html/">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

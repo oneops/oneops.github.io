@@ -16,17 +16,15 @@ with [administrators](/admin/index.html).
 
 Available resources for users include:
 
-- [Key Concepts](/user/key-concepts): Key concepts for OneOps users.
-- [Getting Started](/user/getting-started): Installation instructions.
-- [User Index](/user/user-index.html): Index of all relevant user documentation.
-
+- [Key Concepts](/user/general/key-concepts.html): Key concepts for OneOps users.
+- [Getting Started](/user/general/getting-started.html): Installation instructions.
 
 OneOps enables continuous lifecycle management of complex, business-critical application workloads on any
 cloud-based infrastructure. You can expect:
 
 * Agility and speed
 * Faster SDLC due to consistency between environments ,see [Design Phase](#design-phase)
-* Improved end-to-end process, not just individual steps,see [lifecycle](/user/key-concepts/index.html#lifecycles)
+* Improved end-to-end process, not just individual steps,see [lifecycle](/user/general/key-concepts.html#lifecycles)
 * Operational Efficiency, see [Operations Phase](#operations-phase)
 * Platform re-usability via best practices, see [Packs/Circuits](/user/references/platform-packs.html)
 * Real-time resource utilization via auto-scale, see [auto-scale](/user/references/auto-scale.html)
@@ -43,9 +41,9 @@ the [administrator documentation](/admin/index.html).
 
 
 <ul>
-  <li><a href="/user/overview/">Overview</a></li>
-  <li><a href="/user/key-concepts/" >Key Concepts</a></li>
-  <li><a href="/user/getting-started/" >Getting Started</a></li>
+  <li><a href="/user/">Overview</a></li>
+  <li><a href="/user/general/key-concepts.html" >Key Concepts</a></li>
+  <li><a href="/user/general/getting-started.html" >Getting Started</a></li>
   <li>Typical Scenarios: 
     <ul>
       {% for currentpage in site.pages %}
@@ -82,7 +80,7 @@ the [administrator documentation](/admin/index.html).
       {% endfor %}
     </ul>
   </li>
-  <li><a href="/user/testing/">Testing & Debugging</a></li>
+  <li><a href="/user/general/testing.html">Testing & Debugging</a></li>
 </ul>
 
 

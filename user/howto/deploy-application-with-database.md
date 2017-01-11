@@ -22,7 +22,7 @@ database.
 
 1. Select the organization where the web application needs to be deployed.
 
-1. Create a [new assembly](/user/getting-started/).
+1. Create a [new assembly](/user/general/getting-started.html).
 
 1. Go to design tab and add a new platform for the database from list of available packs e.g. use the MySQL pack.
 

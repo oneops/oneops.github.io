@@ -30,4 +30,4 @@ To add an assembly, follow these steps:
 # See Also
 
 * <a href="/user/howto/add-a-platform-to-a-design.html">Add a Platform to a Design</a>
-* <a href="/user/key-concepts/index#assembly">More on the lifecycle of an Assembly</a>
+* <a href="/user/general/key-concepts.html#assembly">More on the lifecycle of an Assembly</a>
