@@ -122,10 +122,10 @@ First fetch the new service body content using:
 
 Then:
 
-~~~
+```
 POST: https://<your-server>/<ORGANIZATION-NAME>/clouds/<CLOUD-NAME>/services/
 Body: Take the response from new call and update all necessary fields/attributes to create body
-~~~
+```
 
 ## PUT Update to Service
 
@@ -135,10 +135,10 @@ First fetch the new service body content using:
 
 Then:
 
-~~~
+```
 PUT https://<your-server>/<ORGANIZATION-NAME>/clouds/<CLOUD-NAME>/services/<SERVICE-NAME>
 Body: Take the response from get call and update all necessary fields/attributes to create body
-~~~
+```
 
 ## GET Compute report
 
@@ -166,7 +166,7 @@ The response has two major sections:
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies`
 
-~~~
+```
 Body:
 
 {
@@ -179,7 +179,7 @@ Body:
         }
     }
 }
-~~~
+```
 
 ## PUT an updated assembly
 
@@ -203,7 +203,7 @@ TBD
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/design/platforms`
 
-~~~
+```
 Body:
 {
     "cms_dj_ci": {
@@ -218,14 +218,14 @@ Body:
         }
     }
 }
-~~~
+```
 
 ## PUT and updated design component attribute
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/design/platforms/<PLATFORM-NAME>/components`
 
 
-~~~
+```
 Body:
 
 {
@@ -248,7 +248,7 @@ Body:
         }
     }
 }
-~~~
+```
 
 > Attributes of component are very specific to each component.
 
@@ -257,7 +257,7 @@ Body:
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/design/platforms/<PLATFORM-NAME>/variables`
 
 
-~~~
+```
 Body:
 {
     "cms_dj_ci": {
@@ -275,7 +275,7 @@ Body:
         }
     }
 }
-~~~
+```
 
 ## DELETE a Platform
 
@@ -291,7 +291,7 @@ Body:
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>`
 
-~~~
+```
 Body:
 
 {
@@ -318,15 +318,15 @@ Body:
         }
     }
 }
-~~~
+```
 
 ## PUT Cloud configuration for environment platform
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/platforms/<PLATFORM_NAME>/cloud_configuration`
 
-~~~
 Body:
 
+```
 {
   "cloud_id": "<cloud ci-id>",
   "attributes": {
@@ -336,7 +336,7 @@ Body:
     "dpmt_order": ...
   }
 }
-~~~
+```
 
 All attributes are optional (pass in only what needs to be updated).
 
@@ -366,16 +366,16 @@ __Attributes:__
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/deployments/`
 
-~~~
 Body:
 
+```
 {
     "cms_deployment": {
         "releaseId": "<LATEST-RELEASE-BOM>",
         "nsPath": "/<ORGANIZATION-NAME>/<ASSEMBLY-NAME>/<ENVIRONMENT-NAME>/bom"
     }
 }
-~~~
+```
 
 ## GET deployment status
 
@@ -403,11 +403,12 @@ https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/instances/<INSTANCE_ID>/state`
 
-~~~
+
 Body:
 
+```
 { "state" : "replace" }
-~~~
+```
 
 ## GET All available actions
 
@@ -421,9 +422,10 @@ Body:
 
 `https://<your-server>/<ORGANIZATION-NAME>/operations/procedures`
 
-~~~
+
 Body:
 
+```
 {
     "cms_procedure": {
         "procedureCiId": "0",
@@ -433,11 +435,11 @@ Body:
         "definition": "{"flow":[{"targetIds":["<Instance_id>"],"relationName":"base.RealizedAs","direction":"from","actions":[{"actionName":"<Action-name>","stepNumber":1,"isCritical":true}]}],"name":"<Action-name>"}"
     }
 }
-~~~
+```
 
 For example:
 
-~~~
+```
 {
     "cms_procedure": {
         "procedureCiId": "0",
@@ -447,7 +449,7 @@ For example:
         "definition": "{"flow":[{"targetIds":["9277720"],"relationName":"base.RealizedAs","direction":"from","actions":[{"actionName":"reboot","stepNumber":1,"isCritical":true}]}],"name":"reboot"}"
     }
 }
-~~~
+```
 
 ## GET status
 

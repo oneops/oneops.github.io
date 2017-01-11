@@ -8,7 +8,7 @@ This enables policy evaluation on all CIs (components, attachments, platform var
 
 The policy definitions are added to the pack ".rb" file in a given circuit. Following are few examples of pack based policies.
 
-~~~ruby
+```
 policy "env-profile",
        :description => 'custom pack policy for env-profile',
        :query => 'ciClassName:manifest.Environment AND _missing_:ciAttributes.profile'
@@ -26,7 +26,7 @@ policy "env-automation",
        :query => 'ciClassName:manifest.Environment AND ciAttributes.profile:(PROD EBF STAGING) AND NOT (ciAttributes.autorepair:true AND ciAttributes.autoreplace:true)'
        :docUrl => '<document url link for the policy>'`
        :mode => 'passive'
-~~~ 
+```
  
 Brief description about each field in the policy definition is as follows
  

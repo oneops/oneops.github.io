@@ -12,23 +12,23 @@ Each attachment has a `:runs_on` attribute that allows for optional callback exe
 
 Get a list of attachments for a design component.
 
-~~~http
+```
 GET /assemblies/:assembly/design/platforms/:platform/components/:component/attachments
-~~~
+```
 
 ## Response
 
-~~~ruby
+```
 <%= headers 200 %> <%= json(:design_attachment) { |h| [h] } %>
-~~~
+```
 
 # Create
 
 Add a new attachment to this design component.
 
-~~~http
+```
 POST /assemblies/:assembly/design/platforms/:platform/components/:component/attachments
-~~~
+```
 
 ## Restrictions
 
@@ -36,7 +36,7 @@ Attachment names must be unique within a given platform namespace.
 
 ## Input
 
-~~~bash
+```
 cms_dj_ci : Required Hash
 
 ciName
@@ -78,47 +78,49 @@ ciAttributes
 
     priority
     : _Optional_ **String** - Specify priority of executions in case there are multiple attachments in the same callback event.
-~~~
+```
 
 
-~~~ruby
+Ruby:
+
+```
 <%= json %5C :cms_dj_ci => { :ciName => "myattachment", :comments => "These are your comments", :ciAttributes => { "content" => "Some file or script content here", "source" => "", "headers" => "", "basic_auth_user" => "", "basic_auth_password" => "", "checksum" => "", "path" => "/tmp/myattachment.sh",
 
 "exec_cmd" => "/tmp/myattachment.sh", "run_on" => "before-add,on-demand", "priority" => "1" } } %>
-~~~
+```
 
 
 ## Response
 
-~~~ruby
+```
 <%= headers 200 %> <%= json :design_attachment %>
-~~~
+```
 
 # Get
 
 Retrieve the requested attachment in this design component.
 
-~~~http
+```
 GET /assemblies/:assembly/design/platforms/:platform/components/:component/attachments/:attachment
-~~~
+```
 
 ## Response
 
-~~~ruby
+```
 <%= headers 200 %> <%= json :design_attachment %>
-~~~
+```
 
 # Update
 
 Update the specified attachment in this design component with new data.
 
-~~~http
+```
 PUT /assemblies/:assembly/design/platforms/:platform/components/:component/attachments/:attachment
-~~~
+```
 
 ## Input
 
-~~~bash
+```
 cms_dj_ci : Required Hash
 
 
@@ -158,30 +160,33 @@ ciAttributes
 
     priority
     : _Optional_ **String** - Specify priority of executions in case there are multiple attachments in the same callback event.
-~~~
+```
 
-~~~ruby
+Ruby:
+
+```
 <%= json %5C :cms_dj_ci => { :comments => "These are your comments", :ciAttributes => { "content" => "Some file or script content here", "source" => "", "headers" => "", "basic_auth_user" => "", "basic_auth_password" => "", "checksum" => "", "path" => "/tmp/myattachment.sh",
 
 "exec_cmd" => "/tmp/myattachment.sh", "run_on" => "before-add,on-demand", "priority" => "1" } } %>
-~~~
+```
+
 
 ## Response
 
-~~~ruby
+```
 <%= headers 200 %> <%= json :design_attachment %>
-~~~
+```
 
 # Delete
 
 Remove the specified attachment in this design component.
 
-~~~http
+```
 DELETE /assemblies/:assembly/design/platforms/:platform/components/:component/attachments/:attachment
-~~~
+```
 
 ## Response
 
-~~~ruby
+```
 <%= headers 200 %>
-~~~
+```

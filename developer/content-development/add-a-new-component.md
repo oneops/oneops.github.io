@@ -11,21 +11,21 @@ In this example, we use *Jboss* as an example of a new component.
 
 1. Clone the initial packer directory from git@github.com:kloopz/packer.git
 
-    ~~~bash
-    cd packer; util/new_component.rb Jboss
-    ~~~
+```
+cd packer; util/new_component.rb Jboss
+```
 
-     This generates the dirs and files with common values. See the sample output in the first Note below.
+his generates the dirs and files with common values. See the sample output in the first Note below.
 
-    ~~~bash
-    cd cookbooks/Jboss
-    ~~~
+```
+cd cookbooks/Jboss
+```
 
 2. Update <a href="/developer/content-development/metadata.html">metadata.rb</a>. You can reuse existing Jboss chef recipes and attributes by using the open source recipe, http://community.opscode.com/cookbooks/Jboss. For a list of these see the second Note below.
 
-    ~~~bash
-    cd recipes
-    ~~~
+```
+cd recipes
+```
 
 3. Copy recipes from the download on the page above, or use the Git [chef-Jboss.](https://github.com/bryanwb/chef-Jboss/tree/master/recipes) The cookbook does not have a recipe named add.rb. Their default.rb does the same function.
 4. Create an add.rb and update.rb that only has: include_recipe "Jboss::default". There is no delete recipe, that must be added.
@@ -36,7 +36,7 @@ In this example, we use *Jboss* as an example of a new component.
 
 > new_component.rb Jboss output:
 
-~~~bash
+```
 ##
 ## Creating new component: /Users/mike/oo/packer/cookbooks/Jboss
 ##
@@ -53,16 +53,16 @@ updating status.rb
 updating stop.rb
 updating update.rb
 done.
-~~~
+```
 
-> Jboss Attributes from open source cookbook:
+Jboss Attributes from open source cookbook:
 
-~~~bash
+```
 * Jboss_home -  location for Jboss
 * version - version to download
 * dl_url - download url  ...we can derive from the version tho, omitting
 * Jboss_user - default Jboss user
-~~~
+```
 
 # See Also
 

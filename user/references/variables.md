@@ -17,8 +17,8 @@ Variables are put to use when you have an attribute, as you saw above in the Tom
 
 Variable reference example syntax:
 
-~~~bash
+```
 $OO_CLOUD{cloudvarname1}
 $OO_GLOBAL{globalvarname2}
 $OO_LOCAL{localvarname3}
-~~~
+```

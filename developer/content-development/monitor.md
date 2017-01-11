@@ -15,7 +15,7 @@ For additional information about dstype, see [Metric Data Source Type][] in the 
 
 The following is a sample monitor definition from Tomcat's pack:
 
-~~~ruby
+```
 resource "tomcat",
   :cookbook => "tomcat",
   :design => true,
@@ -37,6 +37,6 @@ resource "tomcat",
                   }
                 },
        ...
-~~~
+```
 
 [Metric Data Source Type]:/admin/operate/metric-data-source-type.html

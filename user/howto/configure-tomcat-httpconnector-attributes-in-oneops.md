@@ -22,7 +22,7 @@ To add attributes to a connector element or change the default value of a connec
 
 3. Change the attributes that require tuning by using **Additional attributes needed for connector config.***
 
-~~~xml
+```
    <!-- A "Connector" represents an endpoint by which requests are received
          and responses are returned. Documentation at :
          Java HTTP Connector: /docs/config/http.html (blocking & non-blocking)
@@ -55,14 +55,13 @@ scheme="https" secure="true"
 clientAuth="false"  sslProtocol="TLSv1" sslEnabledProtocols="TLSv1,TLSv1.1,TLSv1.2"
  <!--  All additional Attributes go here eg below -->
  />
-~~~
+```
 
->Currently you can not add multiple connectors to Tomcat. It is important to test performance on these settings in the lower environment before you do it in production.
+Currently you can not add multiple connectors to Tomcat. It is important to test performance on these settings in the lower environment before you do it in production.
 
 The SSL connector is only configured if you have KeyStore and certificate optional component. For instructions on how to enable SSL, refer to <a href="/user/howto/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
 
 # See Also
-
 
 * <a href="/user/howto/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
 * <a href="/user/references/catalina-out-in-tomcat.html">catalina-out in Tomcat</a>

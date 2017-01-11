@@ -12,8 +12,10 @@ Metadata files model components and have several parts:
 
 The following is an example of a metadata file:
 
-~~~ruby
+
 # 1: base/required attributes
+
+```
 name             "Apache"
 description      "Installs/Configures Apache"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
@@ -21,15 +23,21 @@ version          "0.1"
 maintainer       "Kloopz, Inc."
 maintainer_email "dev@kloopz.com"
 license          "Copyright OneOps, All rights reserved."
+```
 
 # 2: grouping - sub-groups of attributes cms models
-# usually dont need to change this. Its for when different types 
-# can have different attributes. See the token metadata for example.
+
+Usually dont need to change this. Its for when different types can have different attributes. See the token metadata for example.
+
+```
 grouping 'default',
   :access => "global",
   :packages => [ 'base', .. 'manifest', 'bom' ]
+```
 
 # 3: attributes
+
+```
 attribute 'install_type',
   :description => "Installation Type",
   :required => "required",
@@ -43,16 +51,19 @@ attribute 'install_type',
                'options_for_select' => [['Repository package','repository'],
                                         ['Build from source','build']] }
   }
-...
+```
 
 # 4. recipes - default actions. 
-# Actions can also be added via UI in design mode as on-demand Attachments. 
+
+Actions can also be added via UI in design mode as on-demand Attachments. 
+
+```
 recipe "status", "Apache Status"
 recipe "start", "Start Apache"
 recipe "stop", "Stop Apache"
 recipe "restart", "Restart Apache"
 recipe "repair", "Repair Apache"
-~~~
+```
 
 # See Also
 

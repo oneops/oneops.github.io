@@ -17,7 +17,7 @@ For more detail regarding relations for Design, Transition and Operations, see
 
 List of relationships:
 
-~~~
+```
 authenticates
 binds_to
 composed_of
@@ -39,5 +39,5 @@ supplied_by
 utilizes
 value_for
 watched_by
-~~~
+```
 

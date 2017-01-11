@@ -115,9 +115,9 @@ cd /opt/oneops/inductor ; ln -s /home/oneops/build/circuit-oneops-1 .
 
 ## OS step fails
 
-~~~
+```
 # cmd out: service[named]: unable to locate the init.d script!
 # This is  fixed with latest code
-~~~
+```
 
 Refresh cookbooks following [this](#update-cookbooks)

@@ -63,10 +63,10 @@ This will guide you thru deploying a simple Apache HTTP Server site.
     * The content will be downloaded with root ownership and 600 permissions. The web server runs as user "apache" so it will be not able to read the content.
     * Example:
     
-    ~~~
-    chown app:app <file name>
-    chmod 644 <file name>
-    ~~~
+```
+chown app:app <file name>
+chmod 644 <file name>
+```
 
 8. Run on Events
     * When do you want the content downloaded?

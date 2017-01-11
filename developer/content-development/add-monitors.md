@@ -11,7 +11,7 @@ Go to the pack where you want to add the monitor.
 
 1. Let say we need to add the log monitor on resource. Since we already have check_logfiles script. We can use it.
 
-~~~ruby
+```
 :monitors => {  
     'Log' => {:description => 'Log',
           :source => '',
@@ -32,7 +32,7 @@ Go to the pack where you want to add the monitor.
            }
  },          
 }
-~~~
+```
 
 # Add a Monitors , Creating a new script.
 2. To create a new monitor, a new script needs to be created. This script can be placed in the **monitor** cookbook, or if it's specific to the component in question, it can be placed under the component's own cookbook.
@@ -43,20 +43,20 @@ For adding to existing directories :
 3. Create Directories `“template/default”` in Zookeeper Oneops pack in the zookeeper component and add your script file with the extension of `filename.extn.erb`
 4. Add the following code to your add.rb `"packer/components/cookbooks/zookeeper/recipes/add.rb"`. This is used to copy your `.erb` file in the `/opt/nagios/libexec` and nagios will read from there.
 
-~~~ruby
+```
 template "/opt/nagios/libexec/check_zk.py" do
   source "check_zk.py.erb"
   mode 0755
   owner "oneops"
   group "oneops"
 end
-~~~
+```
 
-> `check_zk.py` is the name of the script.
+`check_zk.py` is the name of the script.
 
 1. Add the monitor in the pack `"packs/platform/zookeeper.rb"`
 
-~~~ruby
+```
 'zookeepernode' => {:description => 'ZookeeperNode',
                        :source => '',
                        :chart => {'min' => '0', 'max' => '100', 'unit' => 'Percent'},
@@ -75,7 +75,7 @@ echo "$1 down |up=0"
 else
 echo "$1 up |up=100"
 fi
-~~~
+```
 
 # See Also
 

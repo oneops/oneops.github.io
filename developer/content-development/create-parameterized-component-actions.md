@@ -11,7 +11,7 @@ As a cookbook or circuit developer, if you want to accept user inputs before exe
 
 Let's say you need to add an action (or modify an existing action) to accept a text input called "path" and some more inputs from the user. You need to modify the metadata.rb of that cookbook and add "args" metadata to the action as shown below:
 
-~~~ruby
+```
 metadata.rb
 recipe "restart", "restart application"
 recipe "stop", "stop application"
@@ -27,8 +27,9 @@ recipe 'run-script',
     "dataType": "string"
   }
 }
-# Right now, only string (text field) is supported on gui. Rest of the types will be supported soon and this document will be updated then
-~~~
+```
+
+> Right now, only string (text field) is supported on gui. Rest of the types will be supported soon and this document will be updated then
 
 * The content of the "args" can be either Ruby hash or a plain JSON.
 

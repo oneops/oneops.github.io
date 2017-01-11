@@ -17,9 +17,9 @@ To add a Security Group, follow these steps:
 
 3. In the secgroup details page, specify the multiple inbound rules as required in the form:
 
-~~~
+```
 min max protocol cidr
-~~~
+```
 
 * Min/Max: Indicates the port range. For a single port, select both as the same value.
 * protocol: tcp/udp/icmp

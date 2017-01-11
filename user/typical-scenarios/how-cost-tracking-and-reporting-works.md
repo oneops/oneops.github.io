@@ -35,7 +35,8 @@ During the WorkOrder generation of a resource (for example when a Compute, Stora
 
 Cost Tracking results in the workorder index in ES having history with cost change events (workorders). However constructing a query/report for a specific time range aggregated over multiple cis will be too complex as it will require on-the-fly processing of the events timestamps against the requested range. To improve access to the cost information have a daily batch job that  uses the workorder index as input, read the cost changes from the workorder payload and construct a daily cost index with the exact cost for each CI for the given day. This will allow for simple ES queries that can retrieve the exact cost for a given time range using simple aggregations. The daily cost job is basically a ruby script which is based on the following cost calculation strategy.
 
-~~~for a given ci
+```
+for a given ci
      if the first WO is add
         if the add is AFTER the target day, then cost is 0
         if the add is DURING the target day, then calculate cost
@@ -46,28 +47,28 @@ Cost Tracking results in the workorder index in ES having history with cost chan
         if the delete is AFTER the target day, then lookup last known WO prior to target day and use that cost for the full day
         if the delete is DURING the target day, then lookup last known WO prior to target day and calculate cost
   end
-~~~  
+```
 
 
 A cost document in the daily cost index looks like this:
 
-~~~ruby
-    date: "2016-10-01T00:00:00Z",
-    packName: "<pack-name>",
-    unit: "USD",
-    nsPath: "<path to app>",
-    envProfile: "<env-profile>",
-    cloud: "<cloud-name>",
-    packVersion: "<version>",
-    manifestId: <manifestId>,
-    packSource: "oneops",
-    ciClassName: "bom.Compute",
-    organization: "<org-name>",
-    serviceType: "compute",
-    ts: "2016-10-02T09:00:28Z",
-    servicensPath: "<path to app>",
-    ciId: <ciId>,
-    cost: 1.44
-~~~                   
+```
+date: "2016-10-01T00:00:00Z",
+packName: "<pack-name>",
+unit: "USD",
+nsPath: "<path to app>",
+envProfile: "<env-profile>",
+cloud: "<cloud-name>",
+packVersion: "<version>",
+manifestId: <manifestId>,
+packSource: "oneops",
+ciClassName: "bom.Compute",
+organization: "<org-name>",
+serviceType: "compute",
+ts: "2016-10-02T09:00:28Z",
+servicensPath: "<path to app>",
+ciId: <ciId>,
+cost: 1.44
+```
 
 Using this data in the daily cost index the Cost Explorer widget on the UI gives the user a single barchart graph with a dynamic form fields allowing selection of daily time ranges and filters for: nspath, cloud, cloud service type (data query against new cost index in ES).

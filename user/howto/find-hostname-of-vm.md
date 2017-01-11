@@ -8,9 +8,10 @@ id: find-hostname-of-vm
 
 The hostname for each VM is dynamically composed in this format:
 
-~~~
+```
 <platform_name>-<cloud_id>-<compute_index>-<compute_id>
-~~~
+```
+
 
 where:
 

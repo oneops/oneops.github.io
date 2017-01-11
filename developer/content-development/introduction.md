@@ -37,19 +37,27 @@ it from scratch, follow the procedure described below:
 
 1. To create a cookbook, enter the following:
 
-~~~bash
-
 # Change to repo
+
+```
 $ cd circuit-oneops-1
+```
+
 # Create new component called "mycomp"
+
+```
 $ bundle exec knife cookbook create mycomp
 ** Creating cookbook mycomp
 ** Creating README for cookbook: mycomp
 ** Creating CHANGELOG for cookbook: mycomp
 ** Creating metadata for cookbook: mycomp
+```
+
 # Start defining the attributes
+
+```
 $ vi components/cookbooks/mycomp/metadata.rb
-~~~
+```
 
 3. Develop the recipes for your component (for example, `add`, `delete`, `update`, `replace`, `repair` lifecycle actions).
 4. After you complete the cookbook design, create the pack under the `/packs` directory.
@@ -60,13 +68,11 @@ $ vi components/cookbooks/mycomp/metadata.rb
 
 To create a pack, follow these steps:
 
-~~~bash
-# Change to packs directory
+```
 $ cd circuit-oneops-1/packs
 $ cp tomcat.rb mypack.rb
-# Create a new pack mypack.rb
 $ vi mypack.rb
-~~~
+```
 
 As in the case of chef recipes, a OneOps pack is also defined using a custom Ruby DSL with syntax like variable, 
 resource, relation, etc. Because the Pack DSL is a Ruby DSL, anything that can be done using Ruby can also be done 
@@ -88,36 +94,42 @@ To create a circuit, refer to:
 Before you start the testing, make sure you have access to your OneOps dev instance and have added your SSH keys
 to the Inductor.
 
-~~~bash
+```
 # Sync the metadata and packs.
 # This is only required if there are any changes in the metadata or pack:
 # Pack sync commands.
-    cd circuit-oneops-1/
+cd circuit-oneops-1/
+```
 
 # Export the OneOps CMS API.
 
- export CMSAPI=http://<your OneOps instance>:8080/
+```
+export CMSAPI=http://<your OneOps instance>:8080/
+```
 
 # Sync the mycomp metadata.
 
-   bundle exec knife model sync mycomp
+```
+bundle exec knife model sync mycomp
+```
 
 # Sync mypack
 
-   bundle exec knife pack sync packs/mypack --reload
+```
+bundle exec knife pack sync packs/mypack --reload
+```
 
 # Clear the Cache
 
-curl http://<your OneOps instance>:8080/transistor/rest/cache/md/clear      
-
-# Upload the cookbooks and packs to the Inductor.
-# Upload the cookbooks
-
-curl http://<yourOneOpsinstance>:8080/transistor/rest/cache/md/clear
+```
+curl http://<your OneOps instance>:8080/transistor/rest/cache/md/clear
+```
 
 # Select the Repo.
 
- cd circuit-oneops-1
+```
+cd circuit-oneops-1
+```
 
 # Copy the Cookbook to the Corresponding Repo in the Inductor (/opt/oneops)
 

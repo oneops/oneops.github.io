@@ -16,8 +16,8 @@ id: ssh-to-a-compute-node
 6. Deploy the changes. (Only the user-app step is executed again.)
 7. At a successful deploy, you can SSH to the VM by entering:
 
-~~~bash
+```
 $ ssh <user-name-you-chose>@<ip-of-vm>
-~~~
+```
 
 

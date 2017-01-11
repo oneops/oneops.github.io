@@ -48,25 +48,27 @@ Now you are ready to test your cookbook and pack. You need to push your model (c
 2. Do a Git pull to make sure you have pulled all the latest changes.
 3. Invoke the knife plugin by executing: `$ circuit install`.
 
-    > BE CARFEUL when you use this because you load everything and that impacts others that use the same dev server. This takes some time and pushes all the metadata as CI (configuration item) objects to the CMS. In general, if you are only working on a single cookbook/pack, use the individual commands, not ALL. Remember that if you are using a shared dev-packer CMS backend, that modifying model/packs from one dev environment will affect anybody using that dev-packer environment as a backend.
+> BE CARFEUL when you use this because you load everything and that impacts others that use the same dev server. This takes some time and pushes all the metadata as CI (configuration item) objects to the CMS. In general, if you are only working on a single cookbook/pack, use the individual commands, not ALL. Remember that if you are using a shared dev-packer CMS backend, that modifying model/packs from one dev environment will affect anybody using that dev-packer environment as a backend.
 
 4. Install a single platform and its cookbook 'cd <pack-directory>':
-    * To load a single cookbook as a model definition: `$ bundle exec knife model sync <cookbook-name>`
-    * To load a platform: `$ bundle exec knife pack sync platform/<platform-name> --reload`
 
-    OR
+* To load a single cookbook as a model definition: `$ bundle exec knife model sync <cookbook-name>`
+* To load a platform: `$ bundle exec knife pack sync platform/<platform-name> --reload`
+
+OR
 
 5. Install all cookbooks and packs in separate commands.
 
-    > BE CAREFUL when you use this because you impact others that use the same dev server!
-    * To reload ALL cookbooks from the packer repo: `$ circuit model`
-    * To load ALL packs: `$ circuit packs`
+> BE CAREFUL when you use this because you impact others that use the same dev server!
+
+* To reload ALL cookbooks from the packer repo: `$ circuit model`
+* To load ALL packs: `$ circuit packs`
 
 6. We cache the metadata model in the UI so any metadata model changes must be followed by cache clear:
 
-    ~~~bash
-    $ curl http://cms.<your-server>.com:8080/transistor/rest/cache/md/clear
-    ~~~
+```
+$ curl http://cms.<your-server>.com:8080/transistor/rest/cache/md/clear
+```
 
 7. Test the component configurations in the OneOps GUI 'https://web.dev.<your-server>.com/'  
 8. To make sure that your platform and cookbook are working.

@@ -45,18 +45,19 @@ Any deployment to the environment using clouds with support object would require
 
 Get list of deployment records to be approved for a given deployment
 
-~~~
+```
 Method: GET
 <OneOps-URL>/<ORG-NAME>/assemblies/<ASSEMBLIY-NAME>/transition/environments/<ENVIRONMENT-NAME>/deployments/<DEPLOYMENT-ID>/approvals
 Collect list of approvalIds to be approved, to form the body of next API call
-~~~
+```
 
 Approve list of deployment records
 
-~~~
-Method: PUT
+Method: `PUT`
 URL: <OneOps-URL>/<ORG-NAME>/assemblies/<ASSEMBLIY-NAME>/transition/environments/<ENVIRONMENT-NAME>/deployments/<DEPLOYMENT-ID>/approvals/settle
 Body:
+
+```
 {
   "approvals": [{
     "state": "approved",
@@ -70,4 +71,4 @@ Body:
     "comments": "approved by luke"
   }]
 }
-~~~
+```

@@ -63,7 +63,7 @@ below. You can copy/paste this template into the issue you are opening and edit 
 
 <a name="issuetemplate"></a>
 
-~~~
+```
 ### Version:
 [Version of the project installed]
 
@@ -81,7 +81,7 @@ below. You can copy/paste this template into the issue you are opening and edit 
 
 ### Actual Result:
 [What actually happens after the reproduction steps?]
-~~~
+```
 
 ## Useful GitHub Queries
 

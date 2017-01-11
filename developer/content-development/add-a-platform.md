@@ -14,7 +14,7 @@ For this example, JBoss is an example of a new platform. Before a pack can use J
 
 The following is a sample platform pack file for Tomcat:
 
-~~~ruby
+```
 # extends genericlb pack
 # genericlb extends base - where compute, storage, user, etc are modeled.
 include_pack "genericlb"
@@ -144,4 +144,4 @@ end
     :to_resource   => 'compute',
     :attributes    => { }
 end
-~~~
+```

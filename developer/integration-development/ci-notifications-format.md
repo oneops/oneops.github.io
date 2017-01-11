@@ -8,7 +8,8 @@ OneOps broadcasts the CI notifications to all configured sinks as well as to ema
 A CI notification json has a format like below sample:
 
 
-~~~javascript
+
+```
 {
     ts: "2016-01-01T15:51:42.183",
     cmsId: 1234,
@@ -38,7 +39,7 @@ A CI notification json has a format like below sample:
     adminStatus: "active",
     manifestCiId: 58108355
 }
-~~~
+```
 
 The new state of a ci (payload.newState) could be any of below :
 
@@ -61,7 +62,7 @@ There will be a matching "close" notification event with the same {ciId + payloa
 
 Here is the sample for a matching close event for above open event:
 
-~~~javascript
+```
 {
     ts: "2016-01-01T19:51:42.183",
     cmsId: 1234,
@@ -91,4 +92,5 @@ Here is the sample for a matching close event for above open event:
     adminStatus: "active",
     manifestCiId: 2345
 }
-~~~
+```
+

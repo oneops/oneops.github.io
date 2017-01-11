@@ -11,24 +11,25 @@ The prerequisites for pack development is same as creating a new [component](#co
 
 * Ruby
 
-~~~ruby
-# Install RVM
-\curl -sSL https://get.rvm.io | bash
-# Install Ruby
+Install RVM
+
+```
+curl -sSL https://get.rvm.io | bash
+```
+
+Install Ruby
+
+```
 rvm install ruby-1.9.3
 rvm use --default ruby-1.9.3
-
-~~~
-
+```
 
 * Get [circuit-oneops](https://github.com/oneops/circuit-oneops-1) source
 * Install <a href="//developer/general/key-concepts.html#circuit">circuit</a>
 
-~~~ruby
- gem install --local oneops-admin-1.0.0.gem
-~~~
-
-
+```
+gem install --local oneops-admin-1.0.0.gem
+```
 
 # Component Dependencies
 

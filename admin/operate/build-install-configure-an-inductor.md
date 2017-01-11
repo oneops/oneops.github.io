@@ -44,7 +44,7 @@ This is generated via the inductor gem when `inductor add` is run.
 
 The following are sample contents:
 
-~~~bash
+```
 # usually set by inductor gem or inductor_config_gen and based on zone
 amq.user =
 amq.pass =
@@ -58,4 +58,4 @@ scan_path = /opt/oneops/inductor/retry
 scan_period = 5
 data_dir = /opt/oneops/tmp
 mgmt_domain = changeme.oneops.com
-~~~
+```

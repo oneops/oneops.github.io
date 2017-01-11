@@ -9,7 +9,7 @@ This sync is shown in the Preload Configuration section below:
 
 ![Platform create flow](/assets/docs/local/images/platform-create-flow.png)
 
-~~~bash
+```
 # need to be in the root packer directory
 
 # full sync components, platforms, services, etc
@@ -34,4 +34,4 @@ bundle exec knife pack upload platform/<packname> --reload
 
 # providers only
 bundle exec rake providers
-~~~
+```
