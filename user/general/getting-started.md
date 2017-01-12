@@ -123,8 +123,8 @@ See also:
 * <a href="/user/general/key-concepts.html">Platforms</a>  
 * <a href="/user/design/add-a-platform-to-a-design.html">Add a platform</a>
 * <a href="/user/design/add-specific-component-to-a-design.html">Add a component</a>
-* <a href="/user/references/platform-links-reference.html">Platform Dependency</a>
-* <a href="/user/references/platform-packs.html">Packs/Circuits</a>
+* <a href="/user/design/platform-links-reference.html">Platform Dependency</a>
+* <a href="/user/general/platform-packs.html">Packs/Circuits</a>
 * <a href="/user/howto/view-design-releases.html">View Design Releases</a>
 
 # Transition Phase
@@ -204,7 +204,7 @@ See also:
 
 * <a href="/user/howto/assess-health-applications-platforms-clouds.html">Assess the Health of Applications, Platforms and Clouds</a>
 * <a href="/user/operation/operations-summary.html">Operations Summary</a>
-* <a href="/user/references/graph-colors.html">Graphs</a>
+* <a href="/user/general/graph-colors.html">Graphs</a>
 * <a href="/user/operation/control-environment.html">Control Environment</a>
 
 
@@ -212,7 +212,7 @@ See also:
 
 
 * OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify 
-state. see <a href="/user/references/monitoring-reference.html">Monitoring</a>
+state. see <a href="/user/operation/monitoring-reference.html">Monitoring</a>
 * If auto-repair is enabled, OneOps will auto-repair the instance. The actions taken to recover an instance are prescribed by `repair recipe` of the component. For example, if Compute is alerting for missing *heartbeat* by default Computes repair action involves the following
     * Check the ssh port  
     * If not able to connect after timeout, it will attempt *reboot*.
@@ -235,7 +235,6 @@ Before you start with OneOps, it is recommended that you read the following docu
 Refer to the following documentation as you work.
 
 * **<a href="/user/typical-scenarios/">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios  
-* **<a href="/user/references/">Reference:</a>** Detailed code usage descriptions
 * **<a href="/user/howto/add-a-doc-url-to-a-monitor.html">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
 * **<a href="/user/general/testing.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
 * **<a href="/general/contribute.html/">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

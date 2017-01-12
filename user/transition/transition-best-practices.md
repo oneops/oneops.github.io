@@ -11,7 +11,7 @@ In the Transition phase, use the following best practices:
 * When creating a new environment, DO NOT Use Debug Mode. This is strictly to be used by Ops for debugging purposes.
 * Configure <a href="/user/howto/configure-ecv-check-url-on-oneops.html">ECV</a> to check the LB component
 * If you don't want to accidentally override design values on pull, keep variables/attributes locked in the Transition phase.
-* Review <a href="/user/references/monitoring-reference.html">monitor thresholds</a>, to add or edit more alerts to be suitable for your application
+* Review <a href="/user/operation/monitoring-reference.html">monitor thresholds</a>, to add or edit more alerts to be suitable for your application
 * Add CEN to the individual monitors in your production environment
 * <a href="/user/howto/ensure-that-alerts-for-production-environment-are-sent-to-noc.html">Enable NOC alerts</a> for your production environment
 * Add your own <a href="/user/howto/add-cname.html">CNAME</a> to give to your customers

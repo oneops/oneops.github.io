@@ -26,9 +26,9 @@ cloud-based infrastructure. You can expect:
 * Faster SDLC due to consistency between environments ,see [Design Phase](#design-phase)
 * Improved end-to-end process, not just individual steps,see [lifecycle](/user/general/key-concepts.html#lifecycles)
 * Operational Efficiency, see [Operations Phase](#operations-phase)
-* Platform re-usability via best practices, see [Packs/Circuits](/user/references/platform-packs.html)
+* Platform re-usability via best practices, see [Packs/Circuits](/user/general/platform-packs.html)
 * Real-time resource utilization via auto-scale, see [auto-scale](/user/operation/auto-scale.html)
-and [Monitoring](/user/references/monitoring-reference.html)
+and [Monitoring](/user/operation/monitoring-reference.html)
 * Application-driven access control policies, see [Teams in Organization](/user/account/create-a-team-in-an-organization.html)
 * Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/account/cloud-providers.html)
 
@@ -48,15 +48,6 @@ the [administrator documentation](/admin/index.html).
     <ul>
       {% for currentpage in site.pages %}
         {% if currentpage.url contains "/user/typical-scenarios/" and currentpage.url != "/user/typical-scenarios/" %}
-        <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </li>
-  <li>References:
-    <ul>
-      {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/user/references/" and currentpage.url != "/user/references/" %}
         <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
         {% endif %}
       {% endfor %}

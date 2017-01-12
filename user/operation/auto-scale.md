@@ -4,7 +4,7 @@ title: Auto Scale
 id: auto-scale
 ---
 
-Use auto scale to automatically flex up or down computes based on some <a href="/user/references/threshold-definitions.html">Threshold</a> violation. Notifications are sent to the application owners at an auto scale action event trigger and recovery. Auto scaling is used to balance the load on computes for maximum utilization. The decision to flex up or down is completely at the discretion of application owner.
+Use auto scale to automatically flex up or down computes based on some <a href="/user/design/threshold-definitions.html">Threshold</a> violation. Notifications are sent to the application owners at an auto scale action event trigger and recovery. Auto scaling is used to balance the load on computes for maximum utilization. The decision to flex up or down is completely at the discretion of application owner.
 
 The scaling configuration definition provides the details on the step size for flexing along with boundary limits
 

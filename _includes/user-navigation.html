@@ -93,22 +93,6 @@
                   </ul>
                 </li>
                 <li>
-                  <a onclick="$('#user-references').toggleClass('hidden');">References
-                  <span class="caret"></span></a>
-                  <ul id="user-references"{% unless page.url contains "/user/references/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/user/references/' %} active{% endif %}">
-                        <a href="/user/references/index.html">Index</a>
-                      </li>
-                    {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/user/references/" and currentpage.url != "/user/references/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
-                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
-                       </li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </li>
-                <li>
                   <a onclick="$('#user-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
                   <ul id="user-how-to"{% unless page.url contains "/user/howto/" %} class="hidden"{% endunless %}>

@@ -17,7 +17,7 @@ Three possible scenarios are described below.
 1. Review the ports that are added as part of this component and ensure that all the ports that are needed for your application are added.
 2. If it is necessary to add or edit the ports, follow the steps in [Add or Delete a Security Group to Open or Close an Additional Port](/user/design/add-or-delete-a-security-group-to-open-or-close-an-additional-port.html).
     1. Make sure that port 22 is in the list or deployment will fail at the compute provisioning step.
-    2. The default ports for the Tomcat, Jboss, nodejs should be open if the configuration has not changed and should have these ports. For a complete list of platforms, see the [List of Ports by Platform](/user/references/ports-by-platform.html).
+    2. The default ports for the Tomcat, Jboss, nodejs should be open if the configuration has not changed and should have these ports. For a complete list of platforms, see the [List of Ports by Platform](/user/design/ports-by-platform.html).
 
 | Platform | Port Rule
 |----------|-----------

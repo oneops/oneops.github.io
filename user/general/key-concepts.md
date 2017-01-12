@@ -102,7 +102,7 @@ an Environment is deployed.
 * [Availability Modes](/user/transition/availability-modes.html)
 * [Transition](/user/transition/transition.html)
 * [Environment](/user/transition/environment.html)
-* [Monitoring](/user/references/monitoring-reference.html)
+* [Monitoring](/user/operation/monitoring-reference.html)
 
 
 # Operations Phase in OneOps
