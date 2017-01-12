@@ -100,8 +100,8 @@ an Environment is deployed.
 
 * [Environment Profiles](/user/references/environment-profiles.html)
 * [Availability Modes](/user/references/availability-modes.html)
-* [Detailed Transition](/user/references/transition.html)
-* [Detailed Environment](/user/references/environment.html)
+* [Transition](/user/transition/transition.html)
+* [Environment](/user/transition/environment.html)
 * [Monitoring](/user/references/monitoring-reference.html)
 
 

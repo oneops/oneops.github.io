@@ -70,5 +70,5 @@ To create an environment, follow these steps:
 # See Also
 
 * To get details for your instances, check logs and health, or for controls, go 
-to <a href="/user/references/operations-reference.html">Operations</a>.
+to <a href="/user/operation/operations-reference.html">Operations</a>.
 

@@ -27,10 +27,10 @@ cloud-based infrastructure. You can expect:
 * Improved end-to-end process, not just individual steps,see [lifecycle](/user/general/key-concepts.html#lifecycles)
 * Operational Efficiency, see [Operations Phase](#operations-phase)
 * Platform re-usability via best practices, see [Packs/Circuits](/user/references/platform-packs.html)
-* Real-time resource utilization via auto-scale, see [auto-scale](/user/references/auto-scale.html)
+* Real-time resource utilization via auto-scale, see [auto-scale](/user/operation/auto-scale.html)
 and [Monitoring](/user/references/monitoring-reference.html)
-* Application-driven access control policies, see [Teams in Organization](/user/howto/create-a-team-in-an-organization.html)
-* Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/references/cloud-providers.html)
+* Application-driven access control policies, see [Teams in Organization](/user/account/create-a-team-in-an-organization.html)
+* Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/account/cloud-providers.html)
 
 The following video provides an introduction:
 

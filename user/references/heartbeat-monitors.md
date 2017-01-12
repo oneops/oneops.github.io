@@ -15,4 +15,4 @@ The flag signifies collection of the metrics data for the given monitor. For any
 * Missing heartbeat event: If the heartbeat is not received by the OneOps collection system and the flag is turned ON, a missing heartbeat event is generated.
 * Bucket: Does not affect heartbeat
 
-The unhealthy event caused by missing heartbeat lead to execution of repair action on the instances marked as unhealthy. The automatic healing of instances using <a href="/user/references/auto-repair.html">Auto-Repair</a> helps in recovery of instances back to good state.
+The unhealthy event caused by missing heartbeat lead to execution of repair action on the instances marked as unhealthy. The automatic healing of instances using <a href="/user/operation/auto-repair.html">Auto-Repair</a> helps in recovery of instances back to good state.

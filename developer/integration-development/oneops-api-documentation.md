@@ -401,7 +401,7 @@ https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/
 
 ## PUT Replace Component Instance
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/instances/<INSTANCE_ID>/state`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operation/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/instances/<INSTANCE_ID>/state`
 
 
 Body:
@@ -412,15 +412,15 @@ Body:
 
 ## GET All available actions
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/actions`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operation/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/actions`
 
 ## GET Instance ids
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/instances?instances_state=all`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operation/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/instances?instances_state=all`
 
 ## POST Request to execute action
 
-`https://<your-server>/<ORGANIZATION-NAME>/operations/procedures`
+`https://<your-server>/<ORGANIZATION-NAME>/operation/procedures`
 
 
 Body:
@@ -455,8 +455,8 @@ For example:
 
 Use procedure_id from previous call:
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<Assembly-name>/operations/environments/<ENV-NAME>/platforms/<Platform-name>/procedures/<Procedure-id>`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<Assembly-name>/operation/environments/<ENV-NAME>/platforms/<Platform-name>/procedures/<Procedure-id>`
 
 ## GET Computes for a Platform
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV-NAME>/platforms/<PLATFORM-NAME>/components/compute/instances.json?instances_state=all`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operation/environments/<ENV-NAME>/platforms/<PLATFORM-NAME>/components/compute/instances.json?instances_state=all`

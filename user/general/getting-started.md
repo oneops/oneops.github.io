@@ -88,8 +88,8 @@ or towards the end of listing.
 
 To learn about additional Account activities for assemblies, teams, users and notifications refer to:
 
-* <a href="/user/howto/create-a-team-in-an-organization.html">Teams in Organization</a>
-    * <a href="/user/howto/add-user-to-team.html">Add a User to a Team</a>
+* <a href="/user/account/create-a-team-in-an-organization.html">Teams in Organization</a>
+    * <a href="/user/account/add-user-to-team.html">Add a User to a Team</a>
 * <a href="/user/howto/manage-assemblies.html">Manage Assemblies</a>
     * <a href="/user/howto/add-team-to-assembly.html">Adding a Team to an Assembly</a>
     * <a href="/user/howto/watch-a-notification.html">Watch Notification</a>
@@ -151,7 +151,7 @@ to be override from design pulls.
 
 See also:
 
-* <a href="/user/references/environment.html">Environment</a>
+* <a href="/user/transition/environment.html">Environment</a>
 * <a href="/user/howto/upgrade-application-version-in-environment.html">Upgrade an Application Version in an Environment</a>
 * <a href="/user/howto/environment-releases.html">Environment Releases</a>
 * <a href="/user/references/environment-profiles.html">Environment-profiles</a>
@@ -171,7 +171,7 @@ At this time One Ops is executing actual work orders on the cloud of your choice
 See also:
 
 * <a href="/user/howto/deploy-multiple-clouds-in-parallel.html">Multi Cloud deployment</a>
-* <a href="/user/howto/view-deployment-status.html">Check Deployment Status</a>
+* <a href="/user/operation/view-deployment-status.html">Check Deployment Status</a>
 * <a href="/user/howto/deploy-provision-application-environment-first-time.html">Deploy and Provision an Application and Environment for the First Time</a>
 * <a href="/user/howto/deploy-application-after-design-changes.html">Doing regular releases</a>
 * <a href="/user/howto/add-a-doc-url-to-a-monitor.html">Common Deployment errors</a>

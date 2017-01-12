@@ -28,7 +28,7 @@ In general, the LB (load balancer) determines the health of an individual instan
 
     ![ECV disable debug tomcat](/assets/docs/local/images/ecv-disable-debug-tomcat.png)
 
-9. The default jpda port is 8000. To open the ports, refer to <a href="/user/howto/add-or-delete-a-security-group-to-open-or-close-an-additional-port.html">Add or Delete a Security Group to Open or Close an Additional Port</a>.
+9. The default jpda port is 8000. To open the ports, refer to <a href="/user/design/add-or-delete-a-security-group-to-open-or-close-an-additional-port.html">Add or Delete a Security Group to Open or Close an Additional Port</a>.
 10. If you are using eclipse, conf. looks like this:
 
     ![ECV disable eclipse debug conf](/assets/docs/local/images/ecv-disable-eclipse-debug-conf.png)

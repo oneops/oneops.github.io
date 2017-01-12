@@ -41,7 +41,7 @@ Team is the way to manage access control for the users.
 * New teams can be added to an account under an organization /<org-name>/organization/edit#teams
 
 
-See <a href="/user/howto/create-a-team-in-an-organization.html">Create Team</a>
+See <a href="./create-a-team-in-an-organization.html">Create Team</a>
 
 # Frequently used team access scenarios
 
