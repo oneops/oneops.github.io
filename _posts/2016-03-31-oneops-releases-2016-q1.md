@@ -87,7 +87,7 @@ Circuit Updates:
 
 # Release 2016.02.03
 
-- [Cost Management](/user/typical-scenarios/cost-management.html)
+- [Cost Management](/user/account/cost-management.html)
 - [Auto-Scale](/user/operation/auto-scale.html) event severity update
 - Inactivity login session timeout pop-up is replaced with top warning bar
 

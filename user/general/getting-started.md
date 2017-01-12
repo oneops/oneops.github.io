@@ -90,11 +90,11 @@ To learn about additional Account activities for assemblies, teams, users and no
 
 * <a href="/user/account/create-a-team-in-an-organization.html">Teams in Organization</a>
     * <a href="/user/account/add-user-to-team.html">Add a User to a Team</a>
-* <a href="/user/howto/manage-assemblies.html">Manage Assemblies</a>
+* <a href="/user/design/manage-assemblies.html">Manage Assemblies</a>
     * <a href="/user/howto/add-team-to-assembly.html">Adding a Team to an Assembly</a>
     * <a href="/user/howto/watch-a-notification.html">Watch Notification</a>
     * <a href="/user/howto/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notification</a>
-    * <a href="/user/howto/create-assemblies-to-design-application.html">Create an Assembly -- Design an Application</a>
+    * <a href="/user/design/create-assemblies-to-design-application.html">Create an Assembly -- Design an Application</a>
 
 
 # OneOps Design Phase
@@ -142,7 +142,7 @@ For example *qa* environment compute size requirements may differ from **develop
 It's not uncommon to choose **development** environment compute size as default for design which allows you to create multiple test environments without changing design.
 
 This helps in creating environments faster without changing too many attributes at design level. As a best practice try 
-to have most used configuration in design. Also see <a href="/user/references/variables.html">variables</a>
+to have most used configuration in design. Also see <a href="/user/general/variables.html">variables</a>
 
 **Lock** any environment specific attributes to prevent the environment changes
 to be override from design pulls.
@@ -154,7 +154,7 @@ See also:
 * <a href="/user/transition/environment.html">Environment</a>
 * <a href="/user/howto/upgrade-application-version-in-environment.html">Upgrade an Application Version in an Environment</a>
 * <a href="/user/howto/environment-releases.html">Environment Releases</a>
-* <a href="/user/references/environment-profiles.html">Environment-profiles</a>
+* <a href="/user/account/environment-profiles.html">Environment-profiles</a>
 
 ## Deploy an Application
 
@@ -193,7 +193,7 @@ The successful deployment will *create* actual instances of components (computes
 Some of the commonly used operations but not limited to these
     1. Replace of compute in case of hardware failures.
     2. Restart of services.(tomcat, Cassandra, elastic search)
-    3. Some of <a href="/user/references/attachments.html">attachments</a> can be exposed as operations. Some of the
+    3. Some of <a href="/user/operation/attachments.html">attachments</a> can be exposed as operations. Some of the
     popular one used are taking nodes out of traffic.
     4. Redeploy artifacts.
     5. Log Searches on volume components.
@@ -203,9 +203,9 @@ Some of the commonly used operations but not limited to these
 See also:
 
 * <a href="/user/howto/assess-health-applications-platforms-clouds.html">Assess the Health of Applications, Platforms and Clouds</a>
-* <a href="/user/howto/operations-summary.html">Operations Summary</a>
+* <a href="/user/operation/operations-summary.html">Operations Summary</a>
 * <a href="/user/references/graph-colors.html">Graphs</a>
-* <a href="/user/howto/control-environment.html">Control Environment</a>
+* <a href="/user/operation/control-environment.html">Control Environment</a>
 
 
 ## Monitoring

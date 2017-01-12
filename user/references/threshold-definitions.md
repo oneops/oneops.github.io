@@ -25,7 +25,7 @@ A typical threshold definition looks like this:
     * **Duration:** Time window during which the collected metric value is evaluated
     * **Occurrences:** Number of repetitions for the trigger condition 
     
-    For example: The above image trigger condition can be read as, raise a trigger event when spaceUsed metric average value within 1min bucket size is >= 90% and this condition is met at least 2 times within 5mins interval. 
+For example: The above image trigger condition can be read as, raise a trigger event when spaceUsed metric average value within 1min bucket size is >= 90% and this condition is met at least 2 times within 5mins interval. 
      
 * **Reset:** The condition when met that resets the triggered event
     * **Operator:** >=, <=, >, <

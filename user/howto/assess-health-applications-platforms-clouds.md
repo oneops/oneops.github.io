@@ -53,5 +53,5 @@ To monitor the health of applications, platforms and clouds, follow these steps:
 
 # See Also
 
-* <a href="/user/howto/control-environment.html">Control Your Environment Through Operations Video</a>
+* <a href="/user/operation/control-environment.html">Control Your Environment Through Operations Video</a>
 

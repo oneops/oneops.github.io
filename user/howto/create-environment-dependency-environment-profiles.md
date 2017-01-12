@@ -19,5 +19,5 @@ Consider the following when creating environment dependencies with environment p
 
 # See Also
 
-* <a href="/user/references/environment-profiles.html">Environment Profiles</a>
-* <a href="/user/howto/create-an-environment.html">View, Add, or Edit Environment Profiles</a>
+* <a href="/user/account/environment-profiles.html">Environment Profiles</a>
+* <a href="/user/transition/create-an-environment.html">View, Add, or Edit Environment Profiles</a>

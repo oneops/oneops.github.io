@@ -98,8 +98,8 @@ an Environment is deployed.
 
 **See also**
 
-* [Environment Profiles](/user/references/environment-profiles.html)
-* [Availability Modes](/user/references/availability-modes.html)
+* [Environment Profiles](/user/account/environment-profiles.html)
+* [Availability Modes](/user/transition/availability-modes.html)
 * [Transition](/user/transition/transition.html)
 * [Environment](/user/transition/environment.html)
 * [Monitoring](/user/references/monitoring-reference.html)

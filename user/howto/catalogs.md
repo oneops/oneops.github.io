@@ -7,7 +7,7 @@ id: catalogs
 OneOps provides design catalogs for common commercial and open source applications. In addition, you can create custom designs and then save them in a catalog enabling you to share those designs to drive architectural consistency within your organization
 Catalogs are application templates. Catalogs allow you to design your Assembly more quickly or use them for examples.
 
-Catalogs are used at <a href="/user/howto/create-assemblies-to-design-application.html">Add Assembly</a> where user can select the design from the catalog to bootstrap their assembly with a popular design blueprint
+Catalogs are used at <a href="/user/design/create-assemblies-to-design-application.html">Add Assembly</a> where user can select the design from the catalog to bootstrap their assembly with a popular design blueprint
 
 Steps to create Catalogs:
 

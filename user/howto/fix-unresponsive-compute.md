@@ -13,7 +13,7 @@ To fix an unresponsive compute, follow these steps to reboot the compute:
   
     ![Reboot Compute](/assets/docs/local/images/reboot-compute.png)
   
-2. If the compute does not respond after the reboot, replace the compute. For instructions on how to replace a compute, go to <a href="/user/howto/replace-a-bad-vm.html">Replace a Bad VM</a>.
+2. If the compute does not respond after the reboot, replace the compute. For instructions on how to replace a compute, go to <a href="/user/operation/replace-a-bad-vm.html">Replace a Bad VM</a>.
 3. If it is not an option to replace the compute, contact your OneOps administrator for further assistance to bring the node up. 
 
 # See Also

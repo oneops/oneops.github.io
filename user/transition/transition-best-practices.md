@@ -16,7 +16,7 @@ In the Transition phase, use the following best practices:
 * <a href="/user/howto/ensure-that-alerts-for-production-environment-are-sent-to-noc.html">Enable NOC alerts</a> for your production environment
 * Add your own <a href="/user/howto/add-cname.html">CNAME</a> to give to your customers
 * Keep watch on your environment and compute usage. If an environment is not in use, 
-<a href="/user/howto/delete-an-environment.html">disable the environment</a>.
+<a href="./delete-an-environment.html">disable the environment</a>.
 * Tomcat Log Files: The location of log and access log should be `/log/apache-tomcat`.
 
 >* The computes *can not* be resized once provisioned. So, if you change the size to be different from the design, lock the attribute.

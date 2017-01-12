@@ -31,5 +31,5 @@ To manage assemblies, follow these steps:
 # See Also
 
 
-* <a href="/user/howto/create-assemblies-to-design-application.html">Create Assemblies to Design Applications</a>
+* <a href="/user/design/create-assemblies-to-design-application.html">Create Assemblies to Design Applications</a>
 * <a href="/user/howto/add-team-to-assembly.html">Add a Team to an Assembly</a>

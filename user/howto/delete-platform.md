@@ -19,5 +19,5 @@ To delete a platform, follow these steps:
 # See Also
 
 
-* <a href="/user/howto/manage-assemblies.html">Manage Assemblies Video</a>
+* <a href="/user/design/manage-assemblies.html">Manage Assemblies Video</a>
 * <a href="/user/howto/edit-a-platform.html">Edit or Delete a Platform Video</a>
