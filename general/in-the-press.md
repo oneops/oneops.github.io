@@ -16,15 +16,17 @@ And of course you should not forget to check out our own
 
 # 2017
 
-Its early in the year, but we got a 
-[new release out already]({{ site.baseurl }}/general/blog/2017-01-05-oneops-release-170105stable.html). Now we 
-are looking for you  to contribute something here.
+January 13, 2017 - Code Monkey Talks (Podcast): [WalmartLabs with Tim O'Brien](http://www.codemonkey.fm/2)
 
-# 2016
+January 12, 2017 - (Blog): It's early in the year, but we've got a 
+[new release out already]({{ site.baseurl }}/general/blog/2017-01-05-oneops-release-170105stable.html). Now we 
+are looking for you to contribute something here.
 
 January 9th, 2017 - Light Reading: [How Walmart Builds Open Source Culture](http://www.lightreading.com/open-source/openstack/how-walmart-builds-open-source-culture-/d/d-id/729263) 
 
-December 29th, 2016 - Tech Better (Audio): [Open Source Cloud at Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
+# 2016
+
+December 29th, 2016 - Tech Better (Podcast): [Open Source Cloud at Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
 
 December 25th, 2016 - eWeek: [How Walmart is Embracing the Open Source OpenStack Model](http://www.eweek.com/cloud/how-walmart-is-embracing-the-open-source-openstack-model.html)
 
