@@ -18,10 +18,6 @@ And of course you should not forget to check out our own
 
 January 13, 2017 - Code Monkey Talks (Podcast): [WalmartLabs with Tim O'Brien](http://www.codemonkey.fm/2)
 
-January 12, 2017 - (Blog): It's early in the year, but we've got a 
-[new release out already]({{ site.baseurl }}/general/blog/2017-01-05-oneops-release-170105stable.html). Now we 
-are looking for you to contribute something here.
-
 January 9th, 2017 - Light Reading: [How Walmart Builds Open Source Culture](http://www.lightreading.com/open-source/openstack/how-walmart-builds-open-source-culture-/d/d-id/729263) 
 
 # 2016
