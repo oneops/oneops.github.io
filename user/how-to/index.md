@@ -1,9 +1,9 @@
 ---
 layout: user-doc
-title: User Typical Scenarios
+title: How To
 ---
 
-The user typical scenarios section includes the following topics:
+The How To section documents use cases related to specific packs:
 
 <ul>
 {% for p in site.pages %}
