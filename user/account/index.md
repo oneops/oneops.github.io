@@ -3,7 +3,8 @@ layout: user-doc
 title: Account
 ---
 
-tbd
+Administrative users of OneOps typically manage the account configuration and related aspects in OneOps such as 
+security setup and cloud configuration:
 
 <ul>
 {% for p in site.pages %}

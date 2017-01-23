@@ -67,7 +67,7 @@ Define your application workload based on your architectural and application req
  * **[Add a platform](/developer/content-development/add-a-platform.html)**
   * **[Add a component](/developer/content-development/add-a-new-component.html)**
 
-# Transition Phase in OneOps
+# Transition in OneOps
 
 ![Basic Introduction Transition Lifecycle Transition](/assets/docs/local/images/basic-introduction-continuous-lifecycle-transition.png)
 
@@ -105,7 +105,7 @@ an Environment is deployed.
 * [Monitoring](/user/operation/monitoring-reference.html)
 
 
-# Operations Phase in OneOps
+# Operations in OneOps
 
 
 ![Basic Introduction Continuous Lifecycle Operations](/assets/docs/local/images/basic-introduction-continuous-lifecycle-operations.png)

@@ -3,7 +3,7 @@ layout: user-doc
 title: Design
 ---
 
-tbd
+Documentation about the __Design__ phase in OneOps includes:
 
 <ul>
 {% for p in site.pages %}

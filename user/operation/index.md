@@ -3,7 +3,7 @@ layout: user-doc
 title: Operation
 ---
 
-tbd
+Documentation about the __Operation__ phase in OneOps includes:
 
 <ul>
 {% for p in site.pages %}

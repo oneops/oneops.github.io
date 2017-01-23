@@ -3,7 +3,7 @@ layout: user-doc
 title: Transition
 ---
 
-tbd
+Documentation about the __Transition__ phase in OneOps includes:
 
 <ul>
 {% for p in site.pages %}
