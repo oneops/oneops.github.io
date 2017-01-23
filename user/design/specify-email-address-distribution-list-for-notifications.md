@@ -16,5 +16,5 @@ id: specify-email-address-distribution-list-for-notifications
 # See Also
 
 
-* <a href="/user/howto/watch-a-notification.html">Watch a Notification</a>
+* <a href="/user/design/watch-a-notification.html">Watch a Notification</a>
 * <a href="/user/design/manage-assemblies.html">Manage Assemblies Video</a>

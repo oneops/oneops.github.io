@@ -11,7 +11,7 @@ Attachments create files or perform custom actions with your code or command lin
 
 ![Attachment](/assets/docs/local/images/attachment.png)
 
-In addition, you can use Attachments to <a href="/user/howto/set-up-a-custom-action.html">set up custom actions</a> against components that you can execute by using the operations page.
+In addition, you can use Attachments to <a href="/user/operation/set-up-a-custom-action.html">set up custom actions</a> against components that you can execute by using the operations page.
 
 
 

@@ -91,9 +91,9 @@ To learn about additional Account activities for assemblies, teams, users and no
 * <a href="/user/account/create-a-team-in-an-organization.html">Teams in Organization</a>
     * <a href="/user/account/add-user-to-team.html">Add a User to a Team</a>
 * <a href="/user/design/manage-assemblies.html">Manage Assemblies</a>
-    * <a href="/user/howto/add-team-to-assembly.html">Adding a Team to an Assembly</a>
-    * <a href="/user/howto/watch-a-notification.html">Watch Notification</a>
-    * <a href="/user/howto/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notification</a>
+    * <a href="/user/design/add-team-to-assembly.html">Adding a Team to an Assembly</a>
+    * <a href="/user/design/watch-a-notification.html">Watch Notification</a>
+    * <a href="/user/design/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notification</a>
     * <a href="/user/design/create-assemblies-to-design-application.html">Create an Assembly -- Design an Application</a>
 
 
@@ -125,7 +125,7 @@ See also:
 * <a href="/user/design/add-specific-component-to-a-design.html">Add a component</a>
 * <a href="/user/design/platform-links-reference.html">Platform Dependency</a>
 * <a href="/user/general/platform-packs.html">Packs/Circuits</a>
-* <a href="/user/howto/view-design-releases.html">View Design Releases</a>
+* <a href="/user/design/view-design-releases.html">View Design Releases</a>
 
 # Transition Phase
 
@@ -147,13 +147,13 @@ to have most used configuration in design. Also see <a href="/user/general/varia
 **Lock** any environment specific attributes to prevent the environment changes
 to be override from design pulls.
 
-5. Click **review** and **commit and deploy** your changes. Next **<a href="/user/howto/deploy-multiple-clouds-in-parallel.html">Deploy</a>**.
+5. Click **review** and **commit and deploy** your changes. Next **<a href="/user/transition/deploy-multiple-clouds-in-parallel.html">Deploy</a>**.
 
 See also:
 
 * <a href="/user/transition/environment.html">Environment</a>
-* <a href="/user/howto/upgrade-application-version-in-environment.html">Upgrade an Application Version in an Environment</a>
-* <a href="/user/howto/environment-releases.html">Environment Releases</a>
+* <a href="/user/design/upgrade-application-version-in-environment.html">Upgrade an Application Version in an Environment</a>
+* <a href="/user/transition/environment-releases.html">Environment Releases</a>
 * <a href="/user/account/environment-profiles.html">Environment-profiles</a>
 
 ## Deploy an Application
@@ -170,11 +170,10 @@ At this time One Ops is executing actual work orders on the cloud of your choice
 
 See also:
 
-* <a href="/user/howto/deploy-multiple-clouds-in-parallel.html">Multi Cloud deployment</a>
-* <a href="/user/operation/view-deployment-status.html">Check Deployment Status</a>
-* <a href="/user/howto/deploy-provision-application-environment-first-time.html">Deploy and Provision an Application and Environment for the First Time</a>
-* <a href="/user/howto/deploy-application-after-design-changes.html">Doing regular releases</a>
-* <a href="/user/howto/add-a-doc-url-to-a-monitor.html">Common Deployment errors</a>
+* <a href="/user/transition/deploy-multiple-clouds-in-parallel.html">Multi Cloud deployment</a>
+* <a href="/user/transition/view-deployment-status.html">Check Deployment Status</a>
+* <a href="/user/transition/deploy-provision-application-environment-first-time.html">Deploy and Provision an Application and Environment for the First Time</a>
+* <a href="/user/transition/deploy-application-after-design-changes.html">Doing regular releases</a>
 
 # Operate Phase
 
@@ -202,7 +201,7 @@ Some of the commonly used operations but not limited to these
 
 See also:
 
-* <a href="/user/howto/assess-health-applications-platforms-clouds.html">Assess the Health of Applications, Platforms and Clouds</a>
+* <a href="/user/operation/assess-health-applications-platforms-clouds.html">Assess the Health of Applications, Platforms and Clouds</a>
 * <a href="/user/operation/operations-summary.html">Operations Summary</a>
 * <a href="/user/general/graph-colors.html">Graphs</a>
 * <a href="/user/operation/control-environment.html">Control Environment</a>
@@ -234,7 +233,6 @@ Before you start with OneOps, it is recommended that you read the following docu
 
 Refer to the following documentation as you work.
 
-* **<a href="/user/typical-scenarios/">Typical Usage Scenarios:</a>** How components work together to enable commonly implemented scenarios  
-* **<a href="/user/howto/add-a-doc-url-to-a-monitor.html">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
+* **<a href="/user/operation/add-a-doc-url-to-a-monitor.html">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
 * **<a href="/user/general/testing.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
 * **<a href="/general/contribute.html/">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

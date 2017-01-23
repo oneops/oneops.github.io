@@ -29,7 +29,7 @@ NOTE: All Kernel-related patch updates require a compute reboot. After the packa
  
 * <a href="./reboot-computes.html">Reboot Computes</a>
 * To query the Kernel pkgs that are installed as part of this activity, use the 
-<a href="/user/howto/grep-or-search-text-in-files-on-computes.html">Grep or Search Text in Files on Computes</a>.
+<a href="./grep-or-search-text-in-files-on-computes.html">Grep or Search Text in Files on Computes</a>.
 
 
 

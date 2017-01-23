@@ -59,9 +59,9 @@ clientAuth="false"  sslProtocol="TLSv1" sslEnabledProtocols="TLSv1,TLSv1.1,TLSv1
 
 Currently you can not add multiple connectors to Tomcat. It is important to test performance on these settings in the lower environment before you do it in production.
 
-The SSL connector is only configured if you have KeyStore and certificate optional component. For instructions on how to enable SSL, refer to <a href="/user/howto/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
+The SSL connector is only configured if you have KeyStore and certificate optional component. For instructions on how to enable SSL, refer to <a href="/user/design/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
 
 # See Also
 
-* <a href="/user/howto/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
-* <a href="/user/typical-scenarios/catalina-out-in-tomcat.html">catalina-out in Tomcat</a>
+* <a href="/user/design/add-certs-to-compute-to-enable-ssl.html">Add Certs to Compute to Enable SSL</a>
+* <a href="/user/how-to/catalina-out-in-tomcat.html">catalina-out in Tomcat</a>

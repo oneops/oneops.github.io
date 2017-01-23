@@ -4,7 +4,7 @@ title: Take a Node out of Traffic (ECV Disable)
 id: take-node-out-of-traffic-ecv-disable
 ---
 
-In general, the LB (load balancer) determines the health of an individual instance (back-end server) by monitoring a health URL that is configured for the app. If the health URL is an http monitor and it returns an HTTP 200 OK response, then the LB considers the instance to be healthy and traffic gets routed to the instance. Otherwise, no traffic goes to this instance. The standard ECV check in Tomcat is "/" which needs to be changed as prescribed in <a href="/user/howto/configure-ecv-check-url-on-oneops.html">Configure ECV Check URL on OneOpsa</a>. (See the diagram below.)
+In general, the LB (load balancer) determines the health of an individual instance (back-end server) by monitoring a health URL that is configured for the app. If the health URL is an http monitor and it returns an HTTP 200 OK response, then the LB considers the instance to be healthy and traffic gets routed to the instance. Otherwise, no traffic goes to this instance. The standard ECV check in Tomcat is "/" which needs to be changed as prescribed in <a href="/user/transition/configure-ecv-check-url-on-oneops.html">Configure ECV Check URL on OneOpsa</a>. (See the diagram below.)
 
 # Solution
 

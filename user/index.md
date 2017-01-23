@@ -44,19 +44,10 @@ the [administrator documentation](/admin/index.html).
   <li><a href="/user/">Overview</a></li>
   <li><a href="/user/general/key-concepts.html" >Key Concepts</a></li>
   <li><a href="/user/general/getting-started.html" >Getting Started</a></li>
-  <li>Typical Scenarios: 
-    <ul>
-      {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/user/typical-scenarios/" and currentpage.url != "/user/typical-scenarios/" %}
-        <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </li>
   <li>How To:
     <ul>
       {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/user/howto/" and currentpage.url != "/user/howto/" %}
+        {% if currentpage.url contains "/user/how-to/" and currentpage.url != "/user/how-to/" %}
         <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
         {% endif %}
       {% endfor %}

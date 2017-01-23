@@ -6,7 +6,7 @@ id: "add-cname"
 
 # Solution
 
-The hostname, by default, is provided by the OneOps system and follows a pattern that is described in [Find the Hostname of a VM](/user/howto/find-hostname-of-vm.html).
+The hostname, by default, is provided by the OneOps system and follows a pattern that is described in [Find the Hostname of a VM](/user/operation/find-hostname-of-vm.html).
 
 You can create your own endpoints by adding short or full CNAMEs.
 

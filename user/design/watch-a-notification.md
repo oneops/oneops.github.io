@@ -19,6 +19,6 @@ To watch a notification, follow these steps:
 
 # See Also
 
-* <a href="/user/howto/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notifications</a>
+* <a href="/user/design/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notifications</a>
 * <a href="/user/design/manage-assemblies.html">Manage Assemblies Video</a>
-* <a href="/user/howto/set-up-notifications.html">Set Up and Watch Notifications Video</a>
+* <a href="/user/account/set-up-notifications.html">Set Up and Watch Notifications Video</a>

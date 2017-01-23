@@ -45,4 +45,4 @@ There are 3 implicit variables available which can be directly used in any compo
 
 # See Also
 
-* <a href="/user/howto/avoid-override-variables.html">Variable Override</a>
+* <a href="./avoid-override-variables.html">Variable Override</a>
