@@ -64,10 +64,10 @@ Circuit release only
 
 # Release 2016.07.19
 
-- Ability to import from url in design [load](/user/references/load.html) yaml
+- Ability to import from url in design [load](/user/design/load.html) yaml
 - [OneOps Core release tag 16.07.19-RC1](https://github.com/oneops/display/releases/tag/16.07.19-RC1)
 
 # Release 2016.07.06
 
-- Ability to [edit propagation rule](/user/references/propagation.html) between dependent components
+- Ability to [edit propagation rule](/user/design/propagation.html) between dependent components
 - [OneOps Core release tag 16.07.06-RC1](https://github.com/oneops/display/releases/tag/16.07.06-RC1)

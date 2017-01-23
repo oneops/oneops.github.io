@@ -44,7 +44,7 @@ documentation:
    url: /general/about.html
    section: /general
  - title: USER
-   url: /user/overview/index.html
+   url: /user/index.html
    section: /user
  - title: ADMIN
    url: /admin/index.html

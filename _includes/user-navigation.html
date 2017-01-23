@@ -2,27 +2,35 @@
             <nav id="sidenav">
               <h2>USER DOCS</h2>
               <ul class="nav">
-                <li{% if page.url contains "/user/overview/" %} class="active" {% endif %}>
-                  <a href="/user/overview/">Overview</a>
-                </li>
-                <li{% if page.url contains "/user/user-index.html" %} class="active" {% endif %}>
-                  <a href="/user/user-index.html">Index</a>
-                </li>
-                <li{% if page.url contains "/user/key-concepts/" %} class="active" {% endif %}>
-                  <a href="/user/key-concepts/">Key Concepts</a>
-                </li>
-                <li{% if page.url contains "/user/getting-started/" %} class="active" {% endif %}>
-                  <a href="/user/getting-started/">Getting Started</a>
+                <li{% if page.url == "/user/" %} class="active" {% endif %}>
+                  <a href="/user/">Overview</a>
                 </li>
                 <li>
-                  <a onclick="$('#user-typical-usage-scenarios').toggleClass('hidden');">Typical Scenarios
+                  <a onclick="$('#user-general').toggleClass('hidden');">General
                   <span class="caret"></span></a>
-                  <ul id="user-typical-usage-scenarios"{% unless page.url contains "/user/typical-scenarios/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/user/typical-scenarios/' %} active{% endif %}">
-                        <a href="/user/typical-scenarios/index.html">Index</a>
+                  <ul id="user-general"{% unless page.url contains "/user/general/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/user/general/' %} active{% endif %}">
+                        <a href="/user/general/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/user/typical-scenarios/" and currentpage.url != "/user/typical-scenarios/" %}
+                      {% if currentpage.url contains "/user/general/" and currentpage.url != "/user/general/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+                <li>&nbsp;</li>
+                <li>
+                  <a onclick="$('#user-account').toggleClass('hidden');">Account
+                  <span class="caret"></span></a>
+                  <ul id="user-account"{% unless page.url contains "/user/account/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/user/account/' %} active{% endif %}">
+                        <a href="/user/account/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/user/account/" and currentpage.url != "/user/account/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
@@ -31,14 +39,14 @@
                   </ul>
                 </li>
                 <li>
-                  <a onclick="$('#user-best-practices').toggleClass('hidden');">Best Practices
+                  <a onclick="$('#user-design').toggleClass('hidden');">Design
                   <span class="caret"></span></a>
-                  <ul id="user-best-practices"{% unless page.url contains "/user/best-practices/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/user/best-practices/' %} active{% endif %}">
-                        <a href="/user/best-practices/index.html">Index</a>
+                  <ul id="user-design"{% unless page.url contains "/user/design/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/user/design/' %} active{% endif %}">
+                        <a href="/user/design/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/user/best-practices/" and currentpage.url != "/user/best-practices/" %}
+                      {% if currentpage.url contains "/user/design/" and currentpage.url != "/user/design/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
@@ -47,14 +55,14 @@
                   </ul>
                 </li>
                 <li>
-                  <a onclick="$('#user-references').toggleClass('hidden');">References
+                  <a onclick="$('#user-transition').toggleClass('hidden');">Transition
                   <span class="caret"></span></a>
-                  <ul id="user-references"{% unless page.url contains "/user/references/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/user/references/' %} active{% endif %}">
-                        <a href="/user/references/index.html">Index</a>
+                  <ul id="user-transition"{% unless page.url contains "/user/transition/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/user/transition/' %} active{% endif %}">
+                        <a href="/user/transition/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/user/references/" and currentpage.url != "/user/references/" %}
+                      {% if currentpage.url contains "/user/transition/" and currentpage.url != "/user/transition/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
@@ -62,24 +70,38 @@
                     {% endfor %}
                   </ul>
                 </li>
+                <li>
+                  <a onclick="$('#user-operation').toggleClass('hidden');">Operation
+                  <span class="caret"></span></a>
+                  <ul id="user-operation"{% unless page.url contains "/user/operation/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/user/operation/' %} active{% endif %}">
+                        <a href="/user/operation/index.html">Index</a>
+                      </li>
+                    {% for currentpage in site.pages %}
+                      {% if currentpage.url contains "/user/operation/" and currentpage.url != "/user/operation/" %}
+                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
+                        <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                       </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+                <li>&nbsp;</li>
                 <li>
                   <a onclick="$('#user-how-to').toggleClass('hidden');">How To
                   <span class="caret"></span></a>
-                  <ul id="user-how-to"{% unless page.url contains "/user/howto/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/user/howto/' %} active{% endif %}">
-                        <a href="/user/howto/index.html">Index</a>
+                  <ul id="user-how-to"{% unless page.url contains "/user/how-to/" %} class="hidden"{% endunless %}>
+                      <li class="sub-menu-item{% if page.url == '/user/how-to/' %} active{% endif %}">
+                        <a href="/user/how-to/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
-                      {% if currentpage.url contains "/user/howto/" and currentpage.url != "/user/howto/" %}
+                      {% if currentpage.url contains "/user/how-to/" and currentpage.url != "/user/how-to/" %}
                       <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
-                </li>
-                <li{% if page.url contains "/user/testing/" %} class="active" {% endif %}>
-                  <a href="/user/testing/">Testing & Debugging</a>
                 </li>
               </ul>
             </nav>

@@ -10,7 +10,7 @@ Once OneOps is running the administrator or administrateive users can configure 
 components with the OneOps application. This enables the creation of assemblies that contain applications and allow
 their deployment and management by other users.
 
-All these activities and concepts and the relevant terminology are described in the [user documentation](/user/overview/).
+All these activities and concepts and the relevant terminology are described in the [user documentation](/user/).
 
 Resources for OneOps administrators:
 
