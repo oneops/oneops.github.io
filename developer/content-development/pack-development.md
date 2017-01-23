@@ -21,5 +21,5 @@ Some of the use case for variables would be:
 
 See also:
 
-* <a href="/user/general/variables.html">Variables</a>
+* <a href="/user/design/variables.html">Variables</a>
  

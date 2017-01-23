@@ -103,7 +103,7 @@ curl -u API_TOKEN:  .../assemblies/:assembly/design/load.json -X PUT -d "preview
 
 # Global Variables
 
-Variables that can be used anywhere in the design and are referenced via `$OO_GLOBAL{...}` syntax. For additional information on global variables see <a href="/user/general/variables.html">variables</a> reference page.
+Variables that can be used anywhere in the design and are referenced via `$OO_GLOBAL{...}` syntax. For additional information on global variables see <a href="/user/design/variables.html">variables</a> reference page.
 
 ```
 variables:
@@ -150,7 +150,7 @@ links:
 
 ## platform variables
 
-Platform variables that can be used inside the specified platform in design and are referenced via `$OO_LOCAL{...}` syntax. For additional information on platform variables see <a href="/user/general/variables.html">variables</a> reference page.
+Platform variables that can be used inside the specified platform in design and are referenced via `$OO_LOCAL{...}` syntax. For additional information on platform variables see <a href="/user/design/variables.html">variables</a> reference page.
 
 ```
 variables:

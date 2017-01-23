@@ -11,7 +11,7 @@ In the Design phase, follow these best practices:
 * Be a "watcher" for your assembly
 * Add a "description" for each platform to help other users to understand the purpose of the platform
 * Make sure that VM (instance size on compute) and JVM sizes (max heap size on Tomcat) are consistent
-* Edit the default values of the <a href="/user/general/variables.html">variables</a> of each platform, as needed
+* Edit the default values of the <a href="/user/design/variables.html">variables</a> of each platform, as needed
 * Review the default values of each component
 * If an additional port support is required, add the secgroup component
 * To SSH into the VM, add the <a href="/user/operation/ssh-to-a-compute-node.html">SSH key</a> to the user component

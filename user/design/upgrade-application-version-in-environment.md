@@ -29,4 +29,4 @@ To upgrade an application version in an environment, follow these steps:
 
 # See Also
 
-<a href="/user/general/avoid-override-variables.html">Variables Override Prevention</a>
+<a href="./avoid-override-variables.html">Variables Override Prevention</a>

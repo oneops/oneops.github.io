@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Add a Variable
-id: add-a-variable
 ---
 
 Variables are a way to set key-value pair for easy referencing. They allow you to set one value and have it used across many Components. An example use for Variables would be to create a revision tag across your builds.

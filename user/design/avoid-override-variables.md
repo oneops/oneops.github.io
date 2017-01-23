@@ -4,7 +4,7 @@ title: Variables Override Prevention
 id: avoid-override-variables
 ---
 
-Variables can be edited anytime in design or transition phase. A <a href="/user/general/add-a-variable.html">new variable</a> can only be added in design and then can be pulled into the environment
+Variables can be edited anytime in design or transition phase. A <a href="/user/design/add-a-variable.html">new variable</a> can only be added in design and then can be pulled into the environment
 On design pull, any variable which were edited in environment (transition phase) are overridden by design values.
 
 To prevent any accidental transitional updates, a locking feature is available in the Transition phases.

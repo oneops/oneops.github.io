@@ -142,7 +142,7 @@ For example *qa* environment compute size requirements may differ from **develop
 It's not uncommon to choose **development** environment compute size as default for design which allows you to create multiple test environments without changing design.
 
 This helps in creating environments faster without changing too many attributes at design level. As a best practice try 
-to have most used configuration in design. Also see <a href="/user/general/variables.html">variables</a>
+to have most used configuration in design. Also see <a href="/user/design/variables.html">variables</a>
 
 **Lock** any environment specific attributes to prevent the environment changes
 to be override from design pulls.

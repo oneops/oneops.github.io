@@ -40,6 +40,6 @@ When you are done and ready to save the Design, click **Commit**.
 # See Also
 
 
-* <a href="/user/general/add-a-variable.html">Add a Variable</a>
+* <a href="/user/design/add-a-variable.html">Add a Variable</a>
 * <a href="/user/transition/deploy-application-for-first-time.html">Deploy an Application for the First Time</a>
 * <a href="/user/transition/deploy-multiple-clouds-in-parallel.html">Deploy Multiple Clouds in Parallel</a>
