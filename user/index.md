@@ -14,10 +14,15 @@ __Administrative users__ perform tasks in OneOps itself that __enable other user
 configuring security, clouds and other aspects of OneOps, potentially working 
 with [administrators](/admin/index.html).
 
-Available resources for users include:
+Available documentation resources for users include:
 
-- [Key Concepts](/user/general/key-concepts.html): Key concepts for OneOps users.
-- [Getting Started](/user/general/getting-started.html): Installation instructions.
+- [Key Concepts](./general/key-concepts.html)
+- [Getting Started](./general/getting-started.html)
+- [General Aspects for Users](./general/index.html)
+- [Account Configuration](./account/index.html)
+- [Design Phase-Related Documentation](./design/index.html)
+- [Transition Phase-Related Documentation](./design/index.html)
+- [Operation Phase-Related Documentation](./design/index.html)
 
 OneOps enables continuous lifecycle management of complex, business-critical application workloads on any
 cloud-based infrastructure. You can expect:
@@ -40,20 +45,5 @@ The following video provides an introduction:
 the [administrator documentation](/admin/index.html).
 
 
-<ul>
-  <li><a href="/user/">Overview</a></li>
-  <li><a href="/user/general/key-concepts.html" >Key Concepts</a></li>
-  <li><a href="/user/general/getting-started.html" >Getting Started</a></li>
-  <li>How To:
-    <ul>
-      {% for currentpage in site.pages %}
-        {% if currentpage.url contains "/user/how-to/" and currentpage.url != "/user/how-to/" %}
-        <li><a href="{{ currentpage.url }}">{{ currentpage.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </li>
-  <li><a href="/user/general/testing.html">Testing & Debugging</a></li>
-</ul>
 
 
