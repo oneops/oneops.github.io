@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  One Year OneOps as Open Source
-published: true
+published: false
 authors: [mmoser]
 ---
 
