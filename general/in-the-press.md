@@ -5,16 +5,22 @@ title: In The Press
 
 <h1 class="yellow">In The Press and Elsewhere</h1>
 
-<img src="/assets/img/in-the-press.jpg" align="right"/>
-
-Whether OneOps was mentioned in the press, another blog or a conference site - here is where we try to collect those references.
-You can also find audio, video and slide presentation related resources and links here.
-
-If you have a relevant link to be added - [let us know]({{ site.baseurl }}/general/contribute.html) or 
-<a href="https://github.com/oneops/oneops.github.io" target="_blank">send a pull request</a>!
-
-And of course you should not forget to check out our own 
-[OneOps Team Blog]({{ site.baseurl }}/general/blog/index.html).
+<div>
+  <div class="col-md-8">
+    <p>
+    Whether OneOps was mentioned in the press, another blog or a conference site - here is where we try to collect those
+    references. You can also find audio, video and slide presentation related resources and links here.
+    </p>
+    <p>
+    If you have a relevant link to be added - [let us know]({{ site.baseurl }}/general/contribute.html) or 
+    <a href="https://github.com/oneops/oneops.github.io" target="_blank">send a pull request</a>!
+    </p>
+    <p>
+    And of course you should not forget to check out our own <a href="/general/blog/index.html">OneOps Team Blog</a>.
+    </p>
+  </div>
+  <div class="col-md-4"><img src="/assets/img/in-the-press.jpg"/></div>
+</div>
 
 # 2017
 
