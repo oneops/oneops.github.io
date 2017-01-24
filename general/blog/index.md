@@ -4,7 +4,7 @@ title: Blog
 
 ---
 
-# OneOps Team Blog
+<h1 class="yellow">OneOps Team Blog</h1>
 
 Whether we are planning an event, make a new release available, present at a conference or user group meeting
 or have something cool to share. The OneOps Team Blog here is the place to be for the latest news and more on OneOps.
