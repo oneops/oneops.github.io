@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  One Year OneOps as Open Source
-published: false
+published: true
 authors: [mmoser]
 ---
 
@@ -30,20 +30,19 @@ Since the creation of OneOps in 2011 the team of developers and contributors has
 product shows that. OneOps has certainly achieved a lot for us. Just in sheer numbers here are a few interesting
 facts about our own usage of OneOps at Walmart:
 
+- Our deployment has been up and running for over 3 years now through lots of upgrades and changes.
 - Over 7500 OneOps users are spread over about 500 organizations.
 - Over 5000 assemblies are running in over 10.000 environments.
-- Another 50.000 deployments in January 2017 alone contributed to the total of over 750.000 deployments since the
-start of the deployment in 2013.
+- Another 50.000 deployments in January 2017 alone contributed to the total of over 750.000 deployments.
 - Hardware and other failures are no problem - OneOps performed over 50.000 automated repairs in our deployment.
-- Computes come and go! About 5000 per month are added and about the same amount is removed. Over 130.000 computes
-have been added over time!
+- Computes come and go! About 5000 per month are added and about the same amount is removed.
+- Over 130.000 computes have been added over time.
 - Our users pay attention with nearly 1.000.000 monitors.
 
 And thanks to the fact that OneOps is open source, you can leverage its features and benefits to free your cloud
-applications and empower your deveolopers across whatever cloud infrastructure and stack they use.
-
+applications and empower your developers across whatever cloud infrastructure and stack they use as well!
 
 So what is next you ask? We have a lot in our pipeline with another release just around the corner and lots of
-great improvements for OneOps on the roadmap. Updates to the website and other material for our users are rapidly
+great improvements for OneOps on the road-map. Updates to the website and other material for our users are rapidly
 moving along as well. So watch [this space](/general/blog/) for updates and
 [send your feedback our way](http://oneops.com/general/contribute.html).
