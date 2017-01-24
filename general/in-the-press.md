@@ -3,7 +3,9 @@ layout: general-doc
 title: In The Press
 ---
 
-# In The Press and Elsewhere
+<h1 class="yellow">In The Press and Elsewhere</h1>
+
+<img src="/assets/img/in-the-press.jpg" align="right"/>
 
 Whether OneOps was mentioned in the press, another blog or a conference site - here is where we try to collect those references.
 You can also find audio, video and slide presentation related resources and links here.
