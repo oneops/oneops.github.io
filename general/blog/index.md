@@ -5,15 +5,15 @@ title: Blog
 ---
 
 <h1 class="yellow">OneOps Team Blog</h1>
-
-Whether we are planning an event, make a new release available, present at a conference or user group meeting
-or have something cool to share. The OneOps Team Blog here is the place to be for the latest news and more on OneOps.
-
-You might also be curious about what happens [In The Press and Elsewhere](/general/in-the-press.html).
-
-But now, here is the latest from the OneOps team:
-
-<hr>
+<div>
+ <div class="col-md-8">
+ <p>Whether we are planning an event, make a new release available, present at a conference or user group meeting or
+ have something cool to share. The OneOps Team Blog here is the place to be for the latest news and more on OneOps.</p>
+ <p>You might also be curious about what happens <a href="/general/in-the-press.html">In The Press and Elsewhere</a>.</p>
+ <p>But now, here is the latest from the <em>OneOps team</em>:</p>
+ </div>
+ <div class="col-md-4"> <img src="/assets/img/blogging.jpg"/></div>
+</div>
 
 {% for post in site.posts %}
 {{ post.date | date: "%-d %B %Y" }} -
