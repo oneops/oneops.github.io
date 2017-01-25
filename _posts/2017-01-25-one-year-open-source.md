@@ -31,13 +31,13 @@ product shows that. OneOps has certainly achieved a lot for us. Just in sheer nu
 facts about our own usage of OneOps at Walmart:
 
 - Our deployment has been up and running for over 3 years now through lots of upgrades and changes.
-- Over 7500 OneOps users are spread over about 500 organizations.
-- Over 5000 assemblies are running in over 10.000 environments.
-- Another 50.000 deployments in January 2017 alone contributed to the total of over 750.000 deployments.
-- Hardware and other failures are no problem - OneOps performed over 50.000 automated repairs in our deployment.
-- Computes come and go! About 5000 per month are added and about the same amount is removed.
-- Over 130.000 computes have been added over time.
-- Our users pay attention with nearly 1.000.000 monitors.
+- Over 7,500 OneOps users are spread over about 500 organizations.
+- Over 5,000 assemblies are running in over 10,000 environments.
+- Another 50,000 deployments in January 2017 alone contributed to the total of over 750,000 deployments.
+- Hardware and other failures are no problem - OneOps performed over 50,000 automated repairs in our deployment.
+- Computes come and go! About 5,000 per month are added and about the same amount is removed.
+- Over 130,000 computes have been added over time.
+- Our users pay attention with nearly 1,000,000 monitors.
 
 And thanks to the fact that OneOps is open source, you can leverage its features and benefits to free your cloud
 applications and empower your developers across whatever cloud infrastructure and stack they use as well!
