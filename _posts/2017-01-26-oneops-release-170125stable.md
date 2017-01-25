@@ -6,7 +6,7 @@ authors: [klohia, ksaroya, mmoser]
 ---
 
 In addition to celebrating one year OneOps as open source project we are giving you another release. This time we
-focussed on polishing what we delivered with the large release earlier this month. But, as usual, we also added a few
+focused on polishing what we delivered with the large release earlier this month. But, as usual, we also added a few
 new things.
 
 <!--more-->
@@ -14,12 +14,18 @@ new things.
 
 # New Features
 
-- Added 
+- Added display of IP address with copy features to the compute instance operations page
+- Feature to roll back to prior deployment of an environment based on version controlled configuration
+- Added ability to copy deploymentId from deployment overlay
+- New _Stop on failure_ flag on deployment
+- Ability to lock monitor and prevent overrides on design pull
+- Added support for monitor configuration as part of design phase
 
 # Bug Fixes and Improvements
 
-# Source Release Tags
+- Various improvements related to the Windows compute support
 
+# Source Release Tags
 
 - [oneops-admin tag 17.01.25-STABLE](https://github.com/oneops/oneops-admin/tree/17.01.25-STABLE)
 - [db-schema tag 17.01.25-STABLE](https://github.com/oneops/db-schema/compare/17.01.25-STABLE)
