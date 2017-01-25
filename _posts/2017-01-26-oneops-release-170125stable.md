@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Following up with Polish - OneOps Release 17.01.25-STABLE
-published: true
+published: false
 authors: [klohia, ksaroya, mmoser]
 ---
 
