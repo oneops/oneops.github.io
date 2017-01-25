@@ -3,11 +3,15 @@ layout: user-doc
 title: Search
 ---
 
-The search feature allows you to locate entities such as users, assemblies, environments, computes and many others.
+The search feature allows you to locate entities such as users, assemblies, environments, computes and many others. It
+is available via the _Search_ icon in the shape of a magnifying glass in the top right corner or _Search_ item in the
+left hand navigation.
 
-The search feature is accessible via the Search icon in the top right corner or the left hand navigation.
+Search provides a number of input fields to control the search. Results are displayed on the right and further refined
+with the filter control above the list:
 
-![Search Sign Out](/assets/docs/local/images/search-sign-out.png)
+![Search](/assets/img/ui/search.png)
+
 
 
 Use the search feature to look up instances that are relevant to the filter criteria. The search result can be granulized using various levels of filtering conditions. For user convenience, there is support for auto completion of certain filters.
