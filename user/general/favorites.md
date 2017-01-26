@@ -24,5 +24,4 @@ Or by selecting _Mark favourite_ from the more functions button on the right sid
 
 # Favourites in Action
 
-<iframe width="640" height="360" src="https://youtu.be/ffBRWoRhrb8" frameborder="0"> </iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ffBRWoRhrb8" frameborder="0" allowfullscreen></iframe>
