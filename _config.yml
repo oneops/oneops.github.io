@@ -17,6 +17,8 @@ slack_channel: oneops
 slack_register: https://oneops.typeform.com/to/fudwo5
 twitter_url: https://twitter.com/One_Ops
 github_url: https://github.com/oneops
+oneops_training_url: https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U
+walmart_technology_community_url: https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww
 
 excerpt_separator: <!--more-->
 permalink: /general/blog/:year-:month-:day-:title.html
@@ -34,6 +36,8 @@ navigation:
    url: /general/integrations.html
  - title: Contribute
    url: /general/contribute.html
+ - title: Blog
+   url: /general/blog
  - title: About
    url: /general/about.html
  - title: Documentation
