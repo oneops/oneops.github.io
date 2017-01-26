@@ -67,7 +67,9 @@ This search allows you to locate a specific compute instance based on the IP num
 
 # Search in Action
 
+<div class="video">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/a_h7jFRpkw0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 # Advanced Search and Search API 
 

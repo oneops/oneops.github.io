@@ -22,6 +22,9 @@ Or by selecting _Mark favourite_ from the more functions button on the right sid
 ![Search](/assets/img/ui/favorites-more.png)
 
 
-# Favourites in Action
+# Favorites in Action
 
+<div class="video">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ffBRWoRhrb8" frameborder="0" allowfullscreen></iframe>
+</div>
+

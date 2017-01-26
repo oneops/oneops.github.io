@@ -160,3 +160,26 @@
 
 
 
+
+.video {
+overflow: hidden;
+position: relative;
+width:100%;
+}
+
+.video::after {
+padding-top: 56.25%;
+/* 16:9 ratio */
+display: block;
+content: '';
+}
+
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
