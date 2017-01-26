@@ -16,7 +16,13 @@ control above the list.
 
 ![Search](/assets/img/ui/search.png)
 
-# Search criteria
+# Search in Action
+
+<div class="video">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/a_h7jFRpkw0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+# Search Criteria
 
 ## Query
 
@@ -64,12 +70,6 @@ This search allows you to locate a specific compute instance based on the IP num
 1. Press the _Compute Instances by IP_ button.
 2. Enter the IP address in the _Query_ field. You can search for a range of addresses using an asterisk e.g. `192.168.1.*`
 3. Press _Run_.
-
-# Search in Action
-
-<div class="video">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/a_h7jFRpkw0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 # Advanced Search and Search API 
 

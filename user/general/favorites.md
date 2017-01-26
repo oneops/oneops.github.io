@@ -6,6 +6,12 @@ title: Favorites
 The favorites feature allows you to mark entities in the user interface. Subsequent navigation to them is cut short to
 a simple click on the item in the favourites drop down.
 
+# Favorites in Action
+
+<div class="video">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ffBRWoRhrb8" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Favorites are available in the navigation in the header on the right or in the navigation on the left.
 
 ![Search](/assets/img/ui/favorites.png)
@@ -21,10 +27,4 @@ Or by selecting _Mark favourite_ from the more functions button on the right sid
 
 ![Search](/assets/img/ui/favorites-more.png)
 
-
-# Favorites in Action
-
-<div class="video">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/ffBRWoRhrb8" frameborder="0" allowfullscreen></iframe>
-</div>
 
