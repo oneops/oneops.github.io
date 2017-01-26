@@ -12,6 +12,8 @@ a simple click on the item in the favourites drop down.
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ffBRWoRhrb8" frameborder="0" allowfullscreen></iframe>
 </div>
 
+# Using Favorites
+
 Favorites are available in the navigation in the header on the right or in the navigation on the left.
 
 ![Search](/assets/img/ui/favorites.png)
