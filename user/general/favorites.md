@@ -20,3 +20,9 @@ Entities can be marked as favorites with the bookmark icon to the right of the e
 Or by selecting _Mark favourite_ from the more functions button on the right side of any entity in a list. 
 
 ![Search](/assets/img/ui/favorites-more.png)
+
+
+# Favourites in Action
+
+<iframe width="640" height="360" src="https://youtu.be/ffBRWoRhrb8" frameborder="0"> </iframe>
+

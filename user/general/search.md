@@ -65,6 +65,10 @@ This search allows you to locate a specific compute instance based on the IP num
 2. Enter the IP address in the _Query_ field. You can search for a range of addresses using an asterisk e.g. `192.168.1.*`
 3. Press _Run_.
 
+# Search in Action
+
+<iframe width="640" height="360" src="https://youtu.be/a_h7jFRpkw0" frameborder="0"> </iframe>
+
 # Advanced Search and Search API 
 
 Further documentation covering advanced search and search API usage can be 
