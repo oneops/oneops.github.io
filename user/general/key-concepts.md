@@ -44,7 +44,7 @@ comprises of [platforms](#platforms) containing optional or required [components
 
 * Applications can be:
   * Designed from scratch by adding [platforms](#platforms)
-  * Bootstrapped from predefined Application templates called [catalogs](#catalogs)
+  * Bootstrapped from predefined Application templates called [catalogs](#catalog)
 * Multiple environments of application can share common design configuration (eg OS version would be common in
   dev, qa, prod environments).
 * Configuration changes are buffered in a **Release** and are not applied until the release is committed, making

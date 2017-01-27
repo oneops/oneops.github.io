@@ -22,7 +22,7 @@ and other events and presenting about OneOps and various use cases we encounter 
 In terms of the code we certainly did not keep still either over the year. We released nearly __40 new versions__
 of OneOps including many improvements on the user interface and the various core components of OneOps. We added
 many new packs for supporting new applications and frameworks and improved the existing ones. Check out the
-release notes in the [OneOps Team Blog](/blog) for more details. Just in this short month of January alone we
+release notes in the [OneOps Team Blog](/general/blog) for more details. Just in this short month of January alone we
 created two significant release adding things such as Google Cloud Platform beta support, Windows compute beta
 support and others - [17.01.05-STABLE](/general/blog/2017-01-05-oneops-release-170105stable.html).
 

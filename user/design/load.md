@@ -124,7 +124,7 @@ This section contains a list of all configuration options supported by a platfor
 
 ## pack
 
-A string in the form of `<source>/<name>:<version>` declaring the pack to be used for this platform. For additional information on packs see <a href="/user/general/platform-packs.html">platform packs</a>.
+A string in the form of `<source>/<name>:<version>` declaring the pack to be used for this platform. For additional information on packs see <a href="/user/design/platform-packs.html">platform packs</a>.
 
 ```
 pack: oneops/tomcat:1

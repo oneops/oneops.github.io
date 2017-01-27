@@ -124,7 +124,7 @@ See also:
 * <a href="/user/design/add-a-platform-to-a-design.html">Add a platform</a>
 * <a href="/user/design/add-specific-component-to-a-design.html">Add a component</a>
 * <a href="/user/design/platform-links-reference.html">Platform Dependency</a>
-* <a href="/user/general/platform-packs.html">Packs/Circuits</a>
+* <a href="/user/design/platform-packs.html">Packs/Circuits</a>
 * <a href="/user/design/view-design-releases.html">View Design Releases</a>
 
 # Transition Phase
