@@ -48,10 +48,14 @@ id: "getting-started"
 
 This section describes how to set up your account, organization, assemblies.
 
-1. Login/Register in OneOps to access/create your Organization.
-2. Not seeing your Organization? Lookup the Organization you are interested in. Ask Organization administrator to grant you access .
-3. To create a new Organization? Follow these steps.
+To set up your user account, follow these steps:
 
+1. Login/Register in OneOps to access/create your Organization.
+  - If necessary, ask an administrative user e.g. your manager,  whether your team already has an organization created
+    in OneOps and request to be added to the appropriate organization.
+  - If you are on-boarding as part of a new organization, ask your manager to add you to the appropriate team.
+  - Not seeing your Organization? Look up the Organization you are interested in and ask an administrator to grant you access .
+2. Accept the Terms and Conditions, if it is your first time using OneOps.
 
 ## Create Organization
 
