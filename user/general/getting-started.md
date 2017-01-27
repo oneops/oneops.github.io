@@ -203,7 +203,6 @@ See also:
 
 * <a href="/user/operation/assess-health-applications-platforms-clouds.html">Assess the Health of Applications, Platforms and Clouds</a>
 * <a href="/user/operation/operations-summary.html">Operations Summary</a>
-* <a href="/user/general/graph-colors.html">Graphs</a>
 * <a href="/user/operation/control-environment.html">Control Environment</a>
 
 
