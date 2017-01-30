@@ -45,16 +45,16 @@ navigation:
 
 documentation:
  - title: GENERAL
-   url: /general/about.html
+   url: /general/about
    section: /general
  - title: USER
-   url: /user/index.html
+   url: /user
    section: /user
  - title: ADMIN
-   url: /admin/index.html
+   url: /admin
    section: /admin
  - title: DEVELOPER
-   url: /developer/index.html
+   url: /developer
    section: /developer
 
 authors:
