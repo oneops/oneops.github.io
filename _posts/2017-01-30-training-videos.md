@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  OneOps Training Video Series Launched
-published: false
+published: true
 authors: [klohia, mmoser]
 ---
 
