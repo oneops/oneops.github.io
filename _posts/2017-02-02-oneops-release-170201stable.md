@@ -11,15 +11,12 @@ changes - good for the stability of your running instance. So let's see what we 
 
 <!--more-->
 
-# New Features
-
-- Support for automated creation of Windows images
-- SSL certificate management automation
+A focus on bug fixes for this release meant that there are no new features. 
 
 # Bug Fixes and Improvements
 
 - Fixed concurrency issue with deployment continueOnFailure and autopause update
-
+- Fixed regression bug from the last release on the pull design feature
 
 # Source Release Tags
 
