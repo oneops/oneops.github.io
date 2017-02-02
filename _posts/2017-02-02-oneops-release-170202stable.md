@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  On Schedule - OneOps Release 17.02.02-STABLE
-published: false
+published: true
 authors: [klohia, mmoser]
 ---
 
