@@ -25,3 +25,6 @@ In addition, the OneOps `artifact` component is now propagated to `tomcat`. This
 such an upgrade to the version from this release, affect the artifact. For example, the artifact could be your 
 web application deployed to Tomcat. A change to the `tomcat` pack automatically results in that web application to be
 re-deployed to the new application server location and hence also restarted.
+
+We recommend to all users of the `tomcat` pack to upgrade their usage to the latest version and roll out the upgrade to
+all affected assemblies and their compute nodes.
