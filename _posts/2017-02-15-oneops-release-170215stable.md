@@ -6,20 +6,20 @@ authors: [klohia, mmoser]
 ---
 
 We are on a roll! Just a week has passed and we are alreday giving you another release. This time with some significant
-features like support for Slack notifications and updated to the Tomcat pack.
+features like support for Slack notifications and updates to the Tomcat pack.
 
 
 <!--more-->
 
 # New Features
 
-* Support for Slack chat notifications
+* [Support for Slack as notification sink](/user/account/notifications-to-slack.html)
 
 
 
 # Bug Fixes and Improvements
 
-* Tomcat pack update
+* [tomcat pack update to Apache Tomcat 7.0.75](/general/blog/2017-02-15-tomcat-pack-update.html)
 
 
 # Source Release Tags
