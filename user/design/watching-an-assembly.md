@@ -1,7 +1,6 @@
 ---
 layout: user-doc
-title: Watch a Notification
-id: watch-notification
+title: Watching an Assembly
 ---
 
 # Solution

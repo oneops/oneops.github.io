@@ -1,7 +1,6 @@
 ---
 layout: user-doc
 title: Specify an Email Address or Distribution List for Notifications
-id: specify-email-address-distribution-list-for-notifications
 ---
 
 # Solution
@@ -16,5 +15,5 @@ id: specify-email-address-distribution-list-for-notifications
 # See Also
 
 
-* <a href="/user/design/watch-a-notification.html">Watch a Notification</a>
+* <a href="/user/design/watching-an-assembly.html">Watch a Notification</a>
 * <a href="/user/design/manage-assemblies.html">Manage Assemblies Video</a>

@@ -96,7 +96,7 @@ To learn about additional Account activities for assemblies, teams, users and no
     * <a href="/user/account/add-user-to-team.html">Add a User to a Team</a>
 * <a href="/user/design/manage-assemblies.html">Manage Assemblies</a>
     * <a href="/user/design/add-team-to-assembly.html">Adding a Team to an Assembly</a>
-    * <a href="/user/design/watch-a-notification.html">Watch Notification</a>
+    * <a href="/user/design/watching-an-assembly.html">Watching an Assembly</a>
     * <a href="/user/design/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notification</a>
     * <a href="/user/design/create-assemblies-to-design-application.html">Create an Assembly -- Design an Application</a>
 
