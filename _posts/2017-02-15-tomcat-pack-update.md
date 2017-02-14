@@ -7,7 +7,7 @@ authors: [bbourquin, klohia, mmoser]
 
 <img src="/assets/img/logos/integrations/tomcat.png" align="right"/>
 
-The `tomcat`  pack provides version 7.x of the popular [Apache Tomcat](http://tomcat.apache.org/) web application server
+The `tomcat`  pack provides version 7.x of the [Apache Tomcat](http://tomcat.apache.org/) web application server
 and is a very popular pack for OneOps users running Java-powered web applications. With the 
 [recent release](/general/blog/2017-02-15-oneops-release-170215stable.html) we are bringing you an important update to
 the pack.
