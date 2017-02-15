@@ -26,7 +26,7 @@ To enable auto scale for a platform, follow these steps:
     * **Over-utilized:** Used to scale up
     * **Under-utilized:** Used to scale down
     * **Unhealthy:** Used to repair and replace
-    * **Notify only:** Notifies only via your <a href="/user/account/set-up-notifications.html">notification settings</a>
+    * **Notify only:** Notifies only via your <a href="/user/account/notifications.html">notifications</a>
 
 >With each of these states, you receive notifications as long as you have notifications set up.
 
