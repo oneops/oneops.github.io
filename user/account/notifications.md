@@ -16,7 +16,8 @@ To set up and configure notifications, follow these steps:
 2. Select the _notifications_ tab.
 3. Press the _Add_ button on top of the list of notifications to create a new notification sink.
 4. Or click on the name of a specific notification sink in the list to access its configuration in the _Details_ section
-on the right. Pressing the _Edit_ button allows you to change the configuraiton.
+on the right. Pressing the _Edit_ button allows you to change the configuration.
+5. Provide all desired values and press _Save_.
 
 Each notification sink includes a number of generic as well as type-specific configuration settings.
 The type is selected as a first action when creating a new notification sink. 
@@ -48,3 +49,4 @@ Type-specific configuration and usage is explained in the the sink specific sect
 * [Notifications to Jabber](/user/account/notifications-to-jabber.html)
 * [Notifications to Slack](/user/account/notifications-to-slack.html)
 
+![SNS](/assets/docs/local/images/sns.png)
