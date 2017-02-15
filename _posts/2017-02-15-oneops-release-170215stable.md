@@ -14,12 +14,15 @@ features like support for Slack notifications and updates to the Tomcat pack.
 # New Features
 
 * [Support for Slack as notification sink](/user/account/notifications-to-slack.html)
-
+* Automated SSL certificate management
+* SSL certificate expiry tracking and monitoring
 
 
 # Bug Fixes and Improvements
 
 * [tomcat pack update to Apache Tomcat 7.0.75](/general/blog/2017-02-15-tomcat-pack-update.html)
+* Ability to apply security compliance to computes
+* Added IP number of compute node to notifications
 
 
 # Source Release Tags
