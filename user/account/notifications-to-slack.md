@@ -56,3 +56,4 @@ text. E.g., setting the _Key_ field to `critical` and _Value_ to `:fire: ${text}
 inserted before any occurrence of `critical`.
 4. If desired, enable _Include Notification Fields_.
 5. _Save_ the new notification sink.
+6. Ensure that the Slack bot user has access to the channel. For public channels, this is automatically the case. For private channels the bot user needs to be added to the channel users.
