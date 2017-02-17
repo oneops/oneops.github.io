@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Slack, Tomcat and More - OneOps Release 17.02.16-STABLE
+title:  Slack and More - OneOps Release 17.02.16-STABLE
 published: true
 authors: [klohia, mmoser]
 ---
 
 We are on a roll! Just a week has passed and we are alreday giving you another release. This time with some significant
-features like support for Slack notifications and updates to the Tomcat pack.
+features like support for Slack notifications.
 
 
 <!--more-->
