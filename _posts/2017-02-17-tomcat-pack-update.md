@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Tomcat Pack Update
-published: true
-authors: [bbourquin, klohia, mmoser]
+published: false
+authors: [bbourquin, mmoser]
 ---
 
 <img src="/assets/img/logos/integrations/tomcat.png" align="right"/>
