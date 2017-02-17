@@ -1,7 +1,6 @@
 ---
 layout: user-doc
-title: Watch a Notification
-id: watch-notification
+title: Watching an Assembly
 ---
 
 # Solution
@@ -19,6 +18,5 @@ To watch a notification, follow these steps:
 
 # See Also
 
-* <a href="/user/design/specify-email-address-distribution-list-for-notifications.html">Specify an Email Address or Distribution List for Notifications</a>
-* <a href="/user/design/manage-assemblies.html">Manage Assemblies Video</a>
-* <a href="/user/account/set-up-notifications.html">Set Up and Watch Notifications Video</a>
+* <a href="/user/design/manage-assemblies.html">Manage Assemblies</a>
+* <a href="/user/account/notifications.html">Notifications</a>

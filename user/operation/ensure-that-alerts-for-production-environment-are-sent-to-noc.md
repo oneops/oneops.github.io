@@ -21,4 +21,4 @@ If you want to enable NOC alerts for your production environment so that NOC can
 
 # See Also
 
-<a href="/user/design/watch-a-notification.html">Getting Alerts in OneOps Video</a>
+<a href="/user/design/watching-an-assembly.html">Watching an Assembly</a>
