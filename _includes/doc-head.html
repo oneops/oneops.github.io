@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!-->
-<html lang="en"> <!--<![endif]-->
+<html lang="en">
   <head>
     <title>{{site.name}} | {{page.title}}</title>
     <!-- Meta -->
@@ -21,7 +18,6 @@
     <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/style.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/prism.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="{{site.context}}/assets/docs/shared/css/oosteps.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="{{site.context}}/assets/css/oneops.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="{{site.context}}/assets/font/oo-icon-pack/oo-icon-pack.css">
@@ -34,9 +30,7 @@
     <script>
         window.CorpusSettings = {
             searchUrl: "{{ site.searchurl }}",
-            searchName: "{{ site.searchname }}",
-            feedbackUrl: "{{ site.feedbackurl }}",
-            authUrl: "{{ site.authurl }}"
+            searchName: "{{ site.searchname }}"
         };
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -54,11 +48,5 @@
 
       ga('create', '{{site.googleId}}', '{{site.domain}}');
       ga('send', 'pageview');
-
     </script>
-
-    <!--[if lt IE 9]>
-    <script src="{{site.context}}/assets/shared/js/html5.js"></script>
-    <![endif]-->
-    
   </head>

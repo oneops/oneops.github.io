@@ -26,8 +26,8 @@ permalink: /general/blog/:year-:month-:day-:title.html
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search
 searchname: 'site-oneops-'
-authurl: http://auth.oneops.com/auth
-feedbackurl: http://feedback.oneops.com/feedback
+#authurl: http://auth.oneops.com/auth
+#feedbackurl: http://feedback.oneops.com/feedback
 
 navigation:
  - title: Benefits
