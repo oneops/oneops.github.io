@@ -40,13 +40,21 @@ _External (Internet Facing)_: tbd
 _Domain Name_: tbd
 
 Once generated, the certificate is downloaded and its data is used for the values of the attributes _Key_,
-_Certificate_, _SSL CA Certificate Key_ and _Time remaining to expiry_. A Nagios monitoring script is generated for the
-time remaining until the expiry in each environment. The created monitoring data is available on the _monitors_ tab
-of the certificate component in the platform deployed in an environment.
+_Certificate_, _SSL CA Certificate Key_ and _Time remaining to expiry_.
+
+# Monitoring
+
+A Nagios monitoring script is generated for the time remaining until the expiry in each environment for certificates.
+The created monitoring data is available on the _monitors_ tab of the certificate component in the platform deployed in
+an environment.
 
 The monitoring triggers notifications when the expiry date is within the next month and alerts are raised about the
 expiry. If you change the monitor thresholds' _State_ from _Notify Only_ to _Defunct_, the certificate expiry triggers
 an automatic replacement of the certificate with a new auto-provisioned certificate.
+
+Monitoring and automatic replacement is not supported for non-managed certificates like the `lb-certificates`.
+
+
 
 # Example - Enable SSL on Tomcat
 
