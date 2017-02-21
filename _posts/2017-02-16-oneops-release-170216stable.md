@@ -8,21 +8,19 @@ authors: [klohia, mmoser]
 We are on a roll! Just a week has passed and we are alreday giving you another release. This time with some significant
 features like support for Slack notifications.
 
-
 <!--more-->
 
 # New Features
 
 * [Support for Slack as notification sink](/user/account/notifications-to-slack.html)
-* Automated SSL certificate management
-* SSL certificate expiry tracking and monitoring
+* Automated [SSL certificate management](/user/design/ssl-certificate-component.html)
+* SSL certificate [expiry tracking and monitoring](/user/design/ssl-certificate-component.html)
 
 
 # Bug Fixes and Improvements
 
 * Ability to apply security compliance to computes
 * Added IP number of compute node to notifications
-
 
 # Source Release Tags
 
