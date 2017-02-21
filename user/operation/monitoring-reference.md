@@ -8,7 +8,8 @@ Circuit developers can expose monitors for components. For eg  os components exp
 
 
 * OneOps provides 2 views of monitor
-* **Transition view**
+
+## Transition View
 
 1. Select the environment.
 2. Select the platform.

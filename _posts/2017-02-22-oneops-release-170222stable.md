@@ -13,13 +13,12 @@ tbd
 
 # New Features
 
-* revamped charting system and user interface for monitoring
-
+* Many improvements to the charting system and user interface for monitoring
 
 # Bug Fixes and Improvements
 
-* tbd
-
+* Better visibility for [favorites](/user/general/favorites.html) icon beside entities name
+* Improved ability to apply security compliance to computes
 
 # Source Release Tags
 
