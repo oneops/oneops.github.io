@@ -1,13 +1,10 @@
 ---
 layout: dev-doc
 title: CI Notification Format
-id: ci-notification-format
 ---
 
 OneOps broadcasts the CI notifications to all configured sinks as well as to email recipients configured.
 A CI notification json has a format like below sample:
-
-
 
 ```
 {
