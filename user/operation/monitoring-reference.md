@@ -5,8 +5,8 @@ title: Monitors
 
 # Overview
 
-Monitoring of numerous metrics is a powerful feature available to users. It includes support for aspects
-such as 
+Monitoring of numerous metrics about components is a powerful feature available to users. It includes support for
+aspects such as 
 
 - thresholds and notification via alerts
 - tracking of metrics over long time ranges
@@ -24,19 +24,37 @@ Metrics can be collected for numerous aspects for various levels of behavior of 
 
 # Configuration
 
-Monitors are configured for each speci
-## Transition View
+## Default Monitors
 
-1. Select the environment.
-2. Select the platform.
-3. Select the component.
-4. Go to the **monitors** tab. All monitors supported for that component are listed on left side.
-5. To view threshold definitions, select of any of these monitors (if any default ones are provided).
+Default monitors are automatically created from the component definition and can be configured in the transition view
+of a component: 
+
+1. Navigate to the desired assembly.
+1. Press _Transition_ in the left hand navigation.
+1. Select the environment by clicking on the name in the list.
+1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
+1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
+1. Go to the _monitors_ tab. 
+1. The monitors are listed on the left and can be configured individually.
+
+## Custom Monitors
+
+Custom monitors can be configured in the design view of a component: 
+
+1. Navigate to the desired assembly.
+1. Press _Design_ in the left hand navigation.
+1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
+1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
+1. Go to the _monitors_ tab. 
+1. Press _Add_ to start create a custom monitor.
+
+
+TBD
+
 
 # Usage
 
-
-## Operation View
+In  operation View
 
 The operation view provides the trending of metric values along with the health as per the defined threshold. The graphs per monitor can be viewed by following this path:
 
@@ -45,6 +63,9 @@ The operation view provides the trending of metric values along with the health 
 3. Select the component.
 4. Select the instance to be monitored.
 5. Go to the **monitors** tab.
+
+
+<i class="fa fa-video-camera fa-3x blue"></i>
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-operate-and-monitoring-0215_view-your-monitors_4668.webm?vpv=1" type="video/webm">
