@@ -10,8 +10,8 @@ body, p, li, a, input {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #4d4d4d;
-  line-height: 1.7em;
-  font-size: 14px;
+  line-height: 1.5em;
+  font-size: 16px;
   list-style-position: inside;
 }
 
@@ -33,12 +33,12 @@ img {
   max-width: 100%; }
 
 h1 {
-  font-size: 20px;
+  font-size: 38px;
   margin-bottom: 0.7em; }
 
 h1 a {
   color: #4d4d4d;
-  font-size: 20px;
+  font-size: 38px;
   font-weight: 500; }
 
 h1 a:hover {
@@ -46,12 +46,11 @@ h1 a:hover {
   text-decoration: none; }
 
 h2 {
-  font-size: 14px;
+  font-size: 32px;
   margin-bottom: 0.5em; }
 
 h2 a {
   color: #4d4d4d;
-  font-size: 16px;
   font-weight: 500; }
   
 h2 a:hover {
@@ -59,12 +58,20 @@ h2 a:hover {
   text-decoration: none; }
 
 h3, h3 a {
-  font-size: 16px;
+  font-size: 28px;
   margin-bottom: 0.5em; }
 
 h4, h4 a {
-  font-size: 12px;
-  text-transform: uppercase; }
+  font-size: 24px;
+}
+
+h4, h4 a {
+  font-size: 20px;
+}
+
+h4, h4 a {
+  font-size: 16px;
+}
 
 b {
   font-weight: 500; }
@@ -553,16 +560,17 @@ hr {
 
 /* Styles: menu and headings onebar-left */
 .leftbar aside h1 {
+  font-size: 18px; 
   color: #4d4d4d;
   margin-bottom: 0; }
 
 .leftbar aside h2 {
   color: #000;
   text-transform: uppercase;
-  font-size: 12px; }
+  font-size: 16px; }
 
 .leftbar aside h3 a {
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
   font-weight: 500; }
 
@@ -591,6 +599,8 @@ hr {
 
 #nav-container li a {
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.3em;
   color: #4d4d4d;
   cursor: pointer; }
 
@@ -1296,7 +1306,7 @@ th {
   padding: 0; }
 
 body.products #rightpage .primary {
-  font-size: 24px;
+  font-size: 38px;
   border-bottom: solid 1px #ddd;
   padding-bottom: 20px;
   color: #4d4d4d;
@@ -1308,20 +1318,6 @@ body.products #rightpage .secondary {
   padding-bottom: 20px;
   margin-top: 40px;
   border-bottom: solid 1px #ddd;}
-
-body.products #rightpage .reference article h1 {
-  font-size: 20px;
-  padding-top: 0;
-}
-
-body.products #rightpage .reference article h2 {
-  font-size: 16px; }
-
-body.products #rightpage .reference article h3 {
-  font-size: 14px; }
-
-body.products #rightpage .reference article h4 {
-  font-size: 12px; }
 
 /* Content layout: cardgrid for nobar */
 .cardgrid {
