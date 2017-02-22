@@ -1,14 +1,30 @@
 ---
 layout: user-doc
-title: Monitoring
-id: monitoring-reference
+title: Monitors
 ---
 
-Circuit developers can expose monitors for components. For eg  os components exposes cpu utilization.The app owner has the flexibility to receive alerts on assembly health or simply ignore them.
+# Overview
+
+Monitoring of numerous metrics is a powerful feature available to users. It includes support for aspects
+such as 
+
+- thresholds and notification via alerts
+- tracking of metrics over long time ranges
+- usage for compute heartbeat signal 
+- extensive charting for visual and interactive inspections
+
+Metrics can be collected for numerous aspects for various levels of behavior of your assembly in operations such as
+
+- memory
+- CPU
+- network 
+- processes
+- process specific aspects
 
 
-* OneOps provides 2 views of monitor
+# Configuration
 
+Monitors are configured for each speci
 ## Transition View
 
 1. Select the environment.
@@ -16,6 +32,9 @@ Circuit developers can expose monitors for components. For eg  os components exp
 3. Select the component.
 4. Go to the **monitors** tab. All monitors supported for that component are listed on left side.
 5. To view threshold definitions, select of any of these monitors (if any default ones are provided).
+
+# Usage
+
 
 ## Operation View
 
@@ -40,3 +59,55 @@ The operation view provides the trending of metric values along with the health 
 There is a predefined set of default <a href="/user/design/threshold-definitions.html">Thresholds</a> that is provided by OneOps which comes implicitly with any environment deployment. The app owner has the flexibility to add a new threshold definition that is suitable for the app or to edit an existing <a href="/user/design/threshold-definitions.html">threshold</a>.
 
 To review, add, or edit a threshold, go to your environment in the transition phase, select the specific component (e.g. compute/tomcat). Get more details on <a href="/developer/content-development/default-monitor-thresholds.html">Default Monitor Thresholds</a>
+
+
+
+
+
+
+
+
+# Charts
+
+Charting in monitors section
+
+heartbeat monitor with icon, one per compute
+
+for monitoring and alerting
+
+icon for threshold
+
+legend for lines acts a toggle
+
+y axis automatic to selction
+
+legend checkmark can add/remove chart
+
+
+https://stg.oneops.walmart.com/stgqe/assemblies/mahtest/operations/environments/dev3/platforms/cloudrdbmstest!1/instances/138123049#monitors/list_item/138120984
+
+threshold shows up as dotted line of same
+
+
+
+monitor thresholds changed in monitors in compute from packc in design
+
+notify - blue
+
+
+< > half a period nav
+<< >> full period nav
+
+mouse over chart shows value
+
+select range will zoom in
+
+double click to zoom out
+
+
+pop up window icon on top left
+
+
+can be multiple charts
+
+

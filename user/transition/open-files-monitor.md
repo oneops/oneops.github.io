@@ -4,6 +4,8 @@ title: Open Files Monitor
 id: open-files-monitor
 ---
 
+This should be moved to the monitors page .. TBD
+
 # Solution
 
 The Open Files Monitor monitors the open files on the process. OpenfileMonitor is created on javaws, artifact component and by default, the monitor is disabled.

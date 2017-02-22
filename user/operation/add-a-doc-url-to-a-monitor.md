@@ -4,6 +4,8 @@ title: Add a Doc URL to a Monitor
 id: add-a-doc-url-to-a-monitor
 ---
 
+This should be moved to the monitors page .. TBD
+
 # Solution
 
 Add the doc page URLs to the individual monitors in your production environment. You need to add the link for your doc page URL on the required monitors.

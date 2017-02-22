@@ -4,6 +4,8 @@ title: Configure App Version Monitor
 id: configure-app-version-monitor
 ---
 
+This should be moved to the monitors page .. TBD
+
 # Solution
 
 The App Version monitor is used to validate that Tomcat is restarted after all the artifacts are deployed. By default, the monitor is disabled.

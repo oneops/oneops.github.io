@@ -4,6 +4,10 @@ title: Heartbeat Monitors
 id: "heartbeat-monitors"
 ---
 
+
+This should be moved to the monitors page .. TBD
+
+
 The flag signifies collection of the metrics data for the given monitor. For any reason, if the data collection is stopped and this heartbeat flag is turned on then after the **heartbeat duration** time has passed, an unhealthy event is generated. This unhealthy event implies missing heartbeat for the given monitor. Heartbeat flag should ideally be turned ON only for one component monitor per platform.
 
 
