@@ -213,7 +213,7 @@ See also:
 
 
 * OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify 
-state. see <a href="/user/operation/monitoring-reference.html">Monitoring</a>
+state. see <a href="/user/operation/monitors.html">Monitors</a>
 * If auto-repair is enabled, OneOps will auto-repair the instance. The actions taken to recover an instance are prescribed by `repair recipe` of the component. For example, if Compute is alerting for missing *heartbeat* by default Computes repair action involves the following
     * Check the ssh port  
     * If not able to connect after timeout, it will attempt *reboot*.

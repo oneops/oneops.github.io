@@ -33,7 +33,7 @@ cloud-based infrastructure. You can expect:
 * Operational Efficiency, see [Operations Phase](#operations-phase)
 * Platform re-usability via best practices, see [Packs/Circuits](/user/design/platform-packs.html)
 * Real-time resource utilization via auto-scale, see [auto-scale](/user/operation/auto-scale.html)
-and [Monitoring](/user/operation/monitoring-reference.html)
+and [Monitors](/user/operation/monitors.html)
 * Application-driven access control policies, see [Teams in Organization](/user/account/create-a-team-in-an-organization.html)
 * Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/account/cloud-providers.html)
 
