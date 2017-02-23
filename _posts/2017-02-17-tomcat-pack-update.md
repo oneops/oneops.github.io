@@ -19,12 +19,13 @@ including the important mitigation of the security issue
 [CVE-2016-8745](https://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.75) 
 ([original announcement](http://mail-archives.apache.org/mod_mbox/tomcat-announce/201701.mbox/%3C04ead0cb-c989-1386-0fd1-a51ef80f7b57%40apache.org%3E)). 
 Check out
-[the changelog](http://tomcat.apache.org/tomcat-7.0-doc/changelog.html) for specific details about other changes.
+[the changelog](http://tomcat.apache.org/tomcat-7.0-doc/changelog.html) for specific details about other changes. You
+can find the new version in the build version drop down.
 
-In addition, the OneOps `artifact` component is now propagated to `tomcat`. This means that any updates to the tomcat pack,
-such an upgrade to the version from this release, affect the artifact. For example, the artifact could be your 
-web application deployed to Tomcat. A change to the `tomcat` pack automatically results in that web application to be
-re-deployed to the new application server location and hence also restarted.
+In addition, the OneOps component changes are now propagated between `artifact`, `tomcat` and `tomcat-daemon`. This means
+that any updates to one of these components triggers events in the others. E.g. an upgrade of the `tomcat` component to
+the new version from this release triggers the `artifact`, e.a.your web application deployed to Tomcat, to be re-deployed
+to the new application server. And the combination of daemon and server and application is restarted..
 
 We recommend to all users of the `tomcat` pack to upgrade their usage to the latest version and roll out the upgrade to
 all affected assemblies and their compute nodes.
