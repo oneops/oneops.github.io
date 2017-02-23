@@ -3,9 +3,6 @@ layout: user-doc
 title: Navigation to Monitors 
 ---
 
-
-# Video Demo
-
 This video shows how to navigate to [monitors](./monitors.html). 
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">

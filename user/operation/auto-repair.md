@@ -5,8 +5,7 @@ id: auto-repair
 ---
 
 Use auto repair to automatically heal instances which are marked unhealthy due to some
-[Threshold](/user/design/threshold-definitions) violation or missing
-[Heartbeat](/user/operation/heartbeat-monitors). Notifications are sent when an auto repair action is
+[Threshold violation or missing Heartbeat](/user/operation/monitors.html). Notifications are sent when an auto repair action is
 executed. Event component defined in a platform has an associated repair action specific to the component. The
 recipe for healing a component differs from one another. There are different set of instructions executed for
 compute repair then for tomcat repair

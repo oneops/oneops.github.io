@@ -15,14 +15,21 @@ aspects such as
 
 Metrics can be collected for numerous aspects for various levels of behavior of your assembly in operations such as
 
-- memory
-- CPU
+- memory usage
+- CPU utilization
 - network 
 - processes
-- process specific aspects
+- IO metrics like open files
+- process specific aspects e.g. JVM or database-specific aspects 
 
-Any component can be monitored and most components included a number of monitors by default.
+Any component can be monitored and most components included a number of monitors by default. Monitoring in OneOps scales
+for tracking thousands of metrics for long periods of time.
 
+* [Configuration](#configuraiton)
+  * Default Monitors
+  * Custom Monitors
+
+<a name="configuration>
 # Configuration
 
 ## Default Monitors
@@ -73,11 +80,29 @@ Display Group
 _Sample Interval (in sec)_:
 
 
+# Altering with Thresholds and Heartbeats
+
 Alerting
 
 _Heartbeat_:
 _Heartbeat Duration_:
 _Thresholds_
+
+
+The flag signifies collection of the metrics data for the given monitor. For any reason, if the data collection is stopped and this heartbeat flag is turned on then after the **heartbeat duration** time has passed, an unhealthy event is generated. This unhealthy event implies missing heartbeat for the given monitor. Heartbeat flag should ideally be turned ON only for one component monitor per platform.
+
+
+* OS components: SSH Port monitor has the Heartbeat flag turned ON by default.
+* Metrics collection: Collected every minute from all OneOps instances. Heartbeat is not affected by Sample Interval.
+* Heartbeat duration:
+    * Defines the wait time (in minutes) before marking an instance as unhealthy due to a missing heartbeat
+    * Only setting that is available to users
+* Missing heartbeat event: If the heartbeat is not received by the OneOps collection system and the flag is turned ON, a missing heartbeat event is generated.
+* Bucket: Does not affect heartbeat
+
+The unhealthy event caused by missing heartbeat lead to execution of repair action on the instances marked as unhealthy. The automatic healing of instances using <a href="/user/operation/auto-repair.html">Auto-Repair</a> helps in recovery of instances back to good state.
+
+
 
 Name 
 State
@@ -94,6 +119,41 @@ Advanced Configuration - not for custom
 _Receive Email Notifications only On state change_:
 _URL to a page having resolution or escalation details_:
 
+ A Threshold uses a metric and a set of conditions to change the state of a component. Depending on how the Thresholds are configured, OneOps Automation dispatches events, emails, auto scale, or auto repair.
+A typical threshold definition looks like this:
+
+
+![Threshold Low Disk Space](/assets/docs/local/images/threshold-low-disk-space.png)
+
+* **Name:** Name the threshold so that it is easy to understand what happened. For example: HighThreadUse implies thread count going too high. This name is seen as part of the alert message and should be intuitive enough to understand what happened.
+* **State:** Defines the state of the instance when the event is triggered. Depending on the state of instance, certain actions are performed implicitly by OneOps to recover it back to good health. The user can select a value to define the expected state of the threshold.
+    * **Notify-Only:** Use this state when no automated action is expected. When trigger condition is met, the state of the instances is flipped to notify and an event is triggered. The even could be seen on environment operation view. 
+    * **Unhealthy:** When a threshold is defined with an unhealthy state, the instances meeting trigger condition requires some repair action to fix their state. The repair action that is associated with the component is then executed. The automatic healing of instances using [Auto-Repair](/user/operation/auto-repair) helps in recovery of instances back to good state.
+    * **Over-utilized:** Use this state to define a threshold where the load is not sustainable and requires additional capacity to handle the traffic. To resolve the state back to healthy, all the clouds within the environment are scaled up as defined by the scaling configuration step-up count. After additional capacity is added, ideally the trigger should get reset as the load is now divided. If not, then auto scaling ([Auto-Scale](/user/operation/auto-scale)) continues to add more capacity to the cluster until the maximum limit of scaling configuration is reached.
+    * **Under-utilized:** This state signifies that the instance is not being used to its capacity and can be removed from the cluster. When this event is triggered, the instance is removed from all the clouds as per the defined scaling configuration step-down count. After additional capacity is removed, ideally the trigger gets reset as the load is now concise. If not, then flex down ([Auto-Scale](/user/operation/auto-scale)) continues to remove more instances from the cluster until the minimum limit of scaling configuration is reached.
+* **Bucket:** Time interval for metric collection
+* **Stat:** Choose the stat from average, min, max, count, etc. for the metric collection. If average is selected, the value is average for the bucket size.
+* **Metric:** Pre-defined set of metrics for the monitor
+* **Trigger:** The condition when met that raises an event
+    * **Operator:** >=, <=, >, <
+    * **Value:**
+    * **Duration:** Time window during which the collected metric value is evaluated
+    * **Occurrences:** Number of repetitions for the trigger condition 
+    
+For example: The above image trigger condition can be read as, raise a trigger event when spaceUsed metric average value within 1min bucket size is >= 90% and this condition is met at least 2 times within 5mins interval. 
+     
+* **Reset:** The condition when met that resets the triggered event
+    * **Operator:** >=, <=, >, <
+    * **Value:**
+    * **Duration:** Time window during which the metric collected value is evaluated
+    * **Occurrences:** Number of the repetitions required to reset the triggered condition
+    
+    For example: The attached image reset condition can be read as, reset the trigger when spaceUsed metric average value within 1min bucket size is <85% and this condition is met within 5mins at least once. 
+    
+* **Cool-off:** OneOps monitoring continuously gathers the metric data. When any trigger condition is met, a corresponding event is raised and notified. If the metric value is continuously satisfying the trigger condition, then the trigger is raised after the cool-off time. This is the time between 2 event notifications for the same threshold.
+* **Heartbeat**: The flag signifies collection of the metrics data for the given monitor. For any reason, if the data collection is stopped and this heartbeat flag is turned on then after the **heartbeat duration** time has passed, an unhealthy event is generated. This unhealthy event implies missing heartbeat for the given monitor. More details on [Heartbeat Monitor](/user/operation/heartbeat-monitors) 
+
+>An alert is generated for any state trigger. If you are watching the assembly, then you should expect an email notifying the event, otherwise the event can be viewed in the operation environment. The event could also be alerted on different forums, depending upon the available notification setting; more details on notification settings <a href="/user/account/notifications.html">Notifications</a>
  
 
 
@@ -116,10 +176,10 @@ The operation view provides the trending of metric values along with the health 
 
 
 
-* Users can set up <a href="/user/design/threshold-definitions.html">Threshold</a> on monitors to 
+* Users can set up Threshold on monitors to 
 <a href="/user/operation/auto-scale.html">scale</a>, <a href="/user/operation/auto-repair.html">repair</a> or <a href="/user/account/notifications.html">notify</a>.
 
-There is a predefined set of default <a href="/user/design/threshold-definitions.html">Thresholds</a> that is provided by OneOps which comes implicitly with any environment deployment. The app owner has the flexibility to add a new threshold definition that is suitable for the app or to edit an existing <a href="/user/design/threshold-definitions.html">threshold</a>.
+There is a predefined set of default Thresholds that is provided by OneOps which comes implicitly with any environment deployment. The app owner has the flexibility to add a new threshold definition that is suitable for the app or to edit an existing threshold.
 
 To review, add, or edit a threshold, go to your environment in the transition phase, select the specific component (e.g. compute/tomcat). Get more details on <a href="/developer/content-development/default-monitor-thresholds.html">Default Monitor Thresholds</a>
 
@@ -131,6 +191,9 @@ To review, add, or edit a threshold, go to your environment in the transition ph
 
 
 # Charts
+
+
+<img src="/assets/img/ui/monitors-chart.png"/> 
 
 Charting in monitors section
 
@@ -173,4 +236,20 @@ pop up window icon on top left
 
 can be multiple charts
 
+This is fantastic!   Thank you for putting this together,.
+A few quick points/corrections (though, I do not think they are critical enough to change the video unless you think it is an easy adjustment):
+
+1.  During “time scrolling” data availability for a given period is restricted not by the life-time of the instance but more by our TTL policies of storing data.  For example, for 1 min buckets (used for “hour” and “6 hours”) it is 2 days or it is 7days for 5 min bucket (“day”).
+2. You can select/toggle multiple metrics at the time if  you click on the “check” icon – this will toggle on/off a given metric without affecting the others.  So for example: you can click on a name of a given metric to select just this one and then click on “check” icons for other metrics to add those.
+3. Threshold level marker (round dot) is color coordinated with threshold state (blue for “notify”, red for “unhealthy” and etc.) and if you hover on it (the ones displayed along the Y-axis) it will show the threshold trigger short definition.i.e   “CpuHighUtil: notify @ 2x(cpuidle < 20)”
+
+Again, I do not suggest to re-record the video just to reflect these points  but rather just wanted to bring them up if case you can include this somewhere in the docs :)
+
+
+
+# Charts in Action
+
+<div class="video">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/mFeohNtc5Es" frameborder="0" allowfullscreen></iframe>
+</div>
 
