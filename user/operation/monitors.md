@@ -76,22 +76,22 @@ view of a component:
 
 The following _Global_ and _Collection_ related attributes can be configured for existing and new monitors:
 
-_Name_: simple name for the monitor as visible in the list.<br>
-_Description_: descriptive text about the behavior of the the monitor.<br>
-_Command_:  Nagios command that defines the metric gathering.<br>
-_Command Line Options Map_: map of key value pairs that are passed to the command line invocation.<br>
-_Command Line_: specific command line invocation for the metrics gathering.<br>
+_Name_: simple name for the monitor as visible in the list.<br/>
+_Description_: descriptive text about the behavior of the the monitor.<br/>
+_Command_:  Nagios command that defines the metric gathering.<br/>
+_Command Line Options Map_: map of key value pairs that are passed to the command line invocation.<br/>
+_Command Line_: specific command line invocation for the metrics gathering.<br/>
 
 Each monitor can include one or more _Metrics_ defined by:
 
-_Name_: simple name for the metric.<br>
-_Unit_: the unit used for data points, used in charts and notifications.<br>
-_Description_: descriptive text about the metric.<br>
+_Name_: simple name for the metric.<br/>
+_Unit_: the unit used for data points, used in charts and notifications.<br/>
+_Description_: descriptive text about the metric.<br/>
 _DS Type_: the data source type. _GAUGE_ signals that this metric gather as a measurement each time. _DERIVE_ on the
-other hand signals a rate of change from a prior measurement is tracked.<br>
-_Display_: flag to signal if the metric should be displayed.<br>
-_Display Group_: string to allow grouping of metrics.<br>
-_Sample Interval (in sec)_: Number of seconds between each metric measurement event.<br>
+other hand signals a rate of change from a prior measurement is tracked.<br/>
+_Display_: flag to signal if the metric should be displayed.<br/>
+_Display Group_: string to allow grouping of metrics.<br/>
+_Sample Interval (in sec)_: Number of seconds between each metric measurement event.<br/>
 
 In addition, aspects for alerting can be configured as documented in [the following section](#altering).
 
@@ -99,37 +99,33 @@ In addition, aspects for alerting can be configured as documented in [the follow
 
 # Alerting with Thresholds and Heartbeats
 
+## Heartbeats
+
 Configured in the _Alerting_ section the _Heartbeat_ flag and _Heartbeat Duration_ allow a metric to be used as a
-critical metric signaling the health of the component.
+critical metric signaling the health of the component itself.
 
-If 
+If the data collection fails for a metric with the heartbeat flag enabled and the heartbeat duration has passed, an
+_unhealthy event_ is generated. Ideally at least one metric per component is flagged as a heartbeat metric. Heartbeat
+metrics are automatically collected every minute from all components.
+
+_Heartbeat Duration_: defines the wait time (in minutes) before marking a component instance as unhealthy due to a
+missing heartbeat.<br/>
+
+The unhealthy event caused by missing heartbeat leads to execution of a repair action on the instances marked as
+unhealthy. The automatic healing of instances using [Auto Repair](/user/operation/auto-repair.html) enables the
+recovery of components instances back to a healthy state.
 
 
-_Thresholds_
-
-For any reason, if the data collection is stopped and this heartbeat flag is turned on then after the **heartbeat duration** time has passed, an unhealthy event is generated. This unhealthy event implies missing heartbeat for the given monitor. Heartbeat flag should ideally be turned ON only for one component monitor per platform.
-
-
-* OS components: SSH Port monitor has the Heartbeat flag turned ON by default.
-* Metrics collection: Collected every minute from all OneOps instances. Heartbeat is not affected by Sample Interval.
-* Heartbeat duration:
-    * Defines the wait time (in minutes) before marking an instance as unhealthy due to a missing heartbeat
-    * Only setting that is available to users
-* Missing heartbeat event: If the heartbeat is not received by the OneOps collection system and the flag is turned ON, a missing heartbeat event is generated.
+ * Missing heartbeat event: If the heartbeat is not received by the OneOps collection system and the flag is turned ON, a missing heartbeat event is generated.
 * Bucket: Does not affect heartbeat
 
-The unhealthy event caused by missing heartbeat lead to execution of repair action on the instances marked as unhealthy. The automatic healing of instances using <a href="/user/operation/auto-repair.html">Auto-Repair</a> helps in recovery of instances back to good state.
+## Threshold
 
+A _Threshold_ uses a metric and a set of conditions to change the state of a component. These changes can trigger events
+such as sending notifications, auto scale and auto repair.
 
+The following attributes define a threshold: 
 
-
-
-
- A Threshold uses a metric and a set of conditions to change the state of a component. Depending on how the Thresholds are configured, OneOps Automation dispatches events, emails, auto scale, or auto repair.
-A typical threshold definition looks like this:
-
-
-![Threshold Low Disk Space](/assets/docs/local/images/threshold-low-disk-space.png)
 
 * **Name:** Name the threshold so that it is easy to understand what happened. For example: HighThreadUse implies thread count going too high. This name is seen as part of the alert message and should be intuitive enough to understand what happened.
 * **State:** Defines the state of the instance when the event is triggered. Depending on the state of instance, certain actions are performed implicitly by OneOps to recover it back to good health. The user can select a value to define the expected state of the threshold.
