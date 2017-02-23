@@ -26,11 +26,20 @@ Any component can be monitored and most components included a number of monitors
 for tracking thousands of metrics for long periods of time.
 
 * [Configuration](#configuraiton)
-  * Default Monitors
-  * Custom Monitors
+  * [Default Monitors](#defaultmonitors)
+  * [Custom Monitors](#custommontiors)
+  * [Attributes](#attributes)
+* [Alerting with Thresholds and Heartbeats](#alerting)
+* [Usage in Operation](#usage)
+* [Charts](#charts)
+* [Charts in Action](#chartsinaction)
 
-<a name="configuration>
+<a name="configuration"/>
+
 # Configuration
+
+
+<a name="defaultmonitors"/>
 
 ## Default Monitors
 
@@ -45,6 +54,8 @@ of a component:
 1. Go to the _monitors_ tab. 
 1. The monitors are listed on the left and can be _Edit_ed individually.
 
+<a name="custommonitors"/>
+
 ## Custom Monitors
 
 Custom monitors can be configured in the design view of a component: 
@@ -56,6 +67,8 @@ Custom monitors can be configured in the design view of a component:
 1. Go to the _monitors_ tab. 
 1. Press _Add_ to start create a custom monitor
 1. Alternatively select an existing custom monitor and _Edit_ it as desired.
+
+<a name="attributes"/>
 
 ## Attributes
 
@@ -80,7 +93,9 @@ Display Group
 _Sample Interval (in sec)_:
 
 
-# Altering with Thresholds and Heartbeats
+<a name="altering"/>
+
+# Alerting with Thresholds and Heartbeats
 
 Alerting
 
@@ -156,8 +171,9 @@ For example: The above image trigger condition can be read as, raise a trigger e
 >An alert is generated for any state trigger. If you are watching the assembly, then you should expect an email notifying the event, otherwise the event can be viewed in the operation environment. The event could also be alerted on different forums, depending upon the available notification setting; more details on notification settings <a href="/user/account/notifications.html">Notifications</a>
  
 
+<a name="usage"/>
 
-# Usage
+# Usage in Operation
 
 In  operation View
 
@@ -189,6 +205,7 @@ To review, add, or edit a threshold, go to your environment in the transition ph
 
 
 
+<a name="charts"/>
 
 # Charts
 
@@ -246,6 +263,7 @@ A few quick points/corrections (though, I do not think they are critical enough 
 Again, I do not suggest to re-record the video just to reflect these points  but rather just wanted to bring them up if case you can include this somewhere in the docs :)
 
 
+<a name="chartsinaction"/>
 
 # Charts in Action
 
@@ -253,3 +271,55 @@ Again, I do not suggest to re-record the video just to reflect these points  but
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mFeohNtc5Es" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a name="examples"/>
+
+# Examples
+
+
+## Open Files Monitor
+
+The Open Files Monitor monitors the open files on the process. OpenfileMonitor is created on javaws, artifact component and by default, the monitor is disabled.
+
+
+1. Go to the environment and artifact component.
+2. Enable the openfiles monitor.
+3. Edit the monitor and enter the process name which you want to monitor.
+4. Save, commit and deploy.
+
+## App Version Monitor
+
+The App Version monitor is used to validate that Tomcat is restarted after all the artifacts are deployed. By default, the monitor is disabled.
+
+To configure the application version monitor, follow these steps:
+
+
+1. Go to the Transition phase of the environment.
+2. Select Tomcat.
+3. Select the **monitor** tab.
+4. Enable the AppVersion monitor.
+5. Save.
+6. Commit and deploy.
+
+Metrics: versionlatest (value=0  all versions are upto date. value >0 need to restart the tomcat)
+
+https://github.com/oneops/circuit-oneops-1/tree/master/components/cookbooks/tomcat/recipes/versionstatus.rb
+
+>The ValidateAppVersion action is the same as AppVersion, but it is on demand.
+
+
+## Use External Link for further info
+
+cna be any link, will show up in notifications from monitor
+
+Add the doc page URLs to the individual monitors in your production environment. You need to add the link for your doc page URL on the required monitors.
+
+
+1. Go to your environment.
+2. Click any platform.
+3. Click any component.
+4. Click any component instance.
+5. Click the **monitors** tab.
+6. Click any monitor.
+7. Look for the doc URL link at the bottom.
+8. Click **edit.**
+9. Enter your doc URL and save it.
