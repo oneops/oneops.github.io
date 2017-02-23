@@ -21,6 +21,7 @@ Metrics can be collected for numerous aspects for various levels of behavior of 
 - processes
 - process specific aspects
 
+Any component can be monitored and most components included a number of monitors by default.
 
 # Configuration
 
@@ -35,7 +36,7 @@ of a component:
 1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
 1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
 1. Go to the _monitors_ tab. 
-1. The monitors are listed on the left and can be configured individually.
+1. The monitors are listed on the left and can be _Edit_ed individually.
 
 ## Custom Monitors
 
@@ -46,10 +47,54 @@ Custom monitors can be configured in the design view of a component:
 1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
 1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
 1. Go to the _monitors_ tab. 
-1. Press _Add_ to start create a custom monitor.
+1. Press _Add_ to start create a custom monitor
+1. Alternatively select an existing custom monitor and _Edit_ it as desired.
+
+## Attributes
+
+The following attributes can be configured for existing and new monitors:
+
+_Name_: simple name for the monitor as visible in the list<br>
+_Description_: <br>
+_Command_: <br>
+
+_Command Line Options Map_:<br>
+_Command Line_:<br>
+
+Metrics 
+
+Name
+Unit
+Description
+DS Type
+Display
+Display Group
+
+_Sample Interval (in sec)_:
 
 
-TBD
+Alerting
+
+_Heartbeat_:
+_Heartbeat Duration_:
+_Thresholds_
+
+Name 
+State
+Bucket
+Stat
+Average
+Metric
+Trigger & Reset with Operator, Value, Duration, Occurrences
+Cool-Off
+
+
+
+Advanced Configuration - not for custom  
+_Receive Email Notifications only On state change_:
+_URL to a page having resolution or escalation details_:
+
+ 
 
 
 # Usage
@@ -64,16 +109,13 @@ The operation view provides the trending of metric values along with the health 
 4. Select the instance to be monitored.
 5. Go to the **monitors** tab.
 
+<i class="fa fa-video-camera fa-3x blue"></i>  Check out the [demo video showing how to navigate to monitors](./monitors-nav-video.html). 
 
-<i class="fa fa-video-camera fa-3x blue"></i>
 
-<video width="720" height="480" preload="metadata" controls="" class="grovo-video">
-    <source src="http://videos.grovo.com/walmart-oneops-operate-and-monitoring-0215_view-your-monitors_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video.
-</video>
 
-* Every component can be monitored
-* Out of the box, OneOps monitors the most important Components.
+
+
+
 * Users can set up <a href="/user/design/threshold-definitions.html">Threshold</a> on monitors to 
 <a href="/user/operation/auto-scale.html">scale</a>, <a href="/user/operation/auto-repair.html">repair</a> or <a href="/user/account/notifications.html">notify</a>.
 
