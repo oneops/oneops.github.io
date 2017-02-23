@@ -31,6 +31,8 @@ numerous checks supplied by it.
   * [Custom Monitors](#custommontiors)
   * [Attributes](#attributes)
 * [Alerting with Thresholds and Heartbeats](#alerting)
+  * [Heartbeats](#hearbeats)
+  * [Thresholds](#thresholds)
 * [Usage in Operation](#usage)
 * [Charts](#charts)
 * [Charts in Action](#chartsinaction)
@@ -95,9 +97,11 @@ _Sample Interval (in sec)_: Number of seconds between each metric measurement ev
 
 In addition, aspects for alerting can be configured as documented in [the following section](#altering).
 
-<a name="altering"/>
+<a name="alerting"/>
 
 # Alerting with Thresholds and Heartbeats
+
+<a name="heartbeats"/>
 
 ## Heartbeats
 
@@ -115,54 +119,57 @@ The unhealthy event caused by missing heartbeat leads to execution of a repair a
 unhealthy. The automatic healing of instances using [Auto Repair](/user/operation/auto-repair.html) enables the
 recovery of components instances back to a healthy state.
 
-
- * Missing heartbeat event: If the heartbeat is not received by the OneOps collection system and the flag is turned ON, a missing heartbeat event is generated.
-* Bucket: Does not affect heartbeat
+<a name="thresholds"/>
 
 ## Threshold
 
 A _Threshold_ uses a metric and a set of conditions to change the state of a component. These changes can trigger events
 such as sending notifications, auto scale and auto repair.
 
-The following attributes define a threshold: 
+The following attributes characterize a threshold: 
 
+_Name_: Name the threshold so that it is easy to understand what happened. For example: HighThreadUse implies thread 
+count going too high. This name is seen as part of the alert message and should be intuitive enough to understand
+what happened when the threshold was crossed.
 
-* **Name:** Name the threshold so that it is easy to understand what happened. For example: HighThreadUse implies thread count going too high. This name is seen as part of the alert message and should be intuitive enough to understand what happened.
-* **State:** Defines the state of the instance when the event is triggered. Depending on the state of instance, certain actions are performed implicitly by OneOps to recover it back to good health. The user can select a value to define the expected state of the threshold.
-    * **Notify-Only:** Use this state when no automated action is expected. When trigger condition is met, the state of the instances is flipped to notify and an event is triggered. The even could be seen on environment operation view. 
-    * **Unhealthy:** When a threshold is defined with an unhealthy state, the instances meeting trigger condition requires some repair action to fix their state. The repair action that is associated with the component is then executed. The automatic healing of instances using [Auto-Repair](/user/operation/auto-repair) helps in recovery of instances back to good state.
-    * **Over-utilized:** Use this state to define a threshold where the load is not sustainable and requires additional capacity to handle the traffic. To resolve the state back to healthy, all the clouds within the environment are scaled up as defined by the scaling configuration step-up count. After additional capacity is added, ideally the trigger should get reset as the load is now divided. If not, then auto scaling ([Auto-Scale](/user/operation/auto-scale)) continues to add more capacity to the cluster until the maximum limit of scaling configuration is reached.
-    * **Under-utilized:** This state signifies that the instance is not being used to its capacity and can be removed from the cluster. When this event is triggered, the instance is removed from all the clouds as per the defined scaling configuration step-down count. After additional capacity is removed, ideally the trigger gets reset as the load is now concise. If not, then flex down ([Auto-Scale](/user/operation/auto-scale)) continues to remove more instances from the cluster until the minimum limit of scaling configuration is reached.
-* **Bucket:** Time interval for metric collection
-* **Stat:** Choose the stat from average, min, max, count, etc. for the metric collection. If average is selected, the value is average for the bucket size.
-* **Metric:** Pre-defined set of metrics for the monitor
-* **Trigger:** The condition when met that raises an event
-    * **Operator:** >=, <=, >, <
-    * **Value:**
-    * **Duration:** Time window during which the collected metric value is evaluated
-    * **Occurrences:** Number of repetitions for the trigger condition 
-    
-For example: The above image trigger condition can be read as, raise a trigger event when spaceUsed metric average value within 1min bucket size is >= 90% and this condition is met at least 2 times within 5mins interval. 
-     
-* **Reset:** The condition when met that resets the triggered event
-    * **Operator:** >=, <=, >, <
-    * **Value:**
-    * **Duration:** Time window during which the metric collected value is evaluated
-    * **Occurrences:** Number of the repetitions required to reset the triggered condition
-    
-    For example: The attached image reset condition can be read as, reset the trigger when spaceUsed metric average value within 1min bucket size is <85% and this condition is met within 5mins at least once. 
-    
-* **Cool-off:** OneOps monitoring continuously gathers the metric data. When any trigger condition is met, a corresponding event is raised and notified. If the metric value is continuously satisfying the trigger condition, then the trigger is raised after the cool-off time. This is the time between 2 event notifications for the same threshold.
-* **Heartbeat**: The flag signifies collection of the metrics data for the given monitor. For any reason, if the data collection is stopped and this heartbeat flag is turned on then after the **heartbeat duration** time has passed, an unhealthy event is generated. This unhealthy event implies missing heartbeat for the given monitor. More details on [Heartbeat Monitor](/user/operation/heartbeat-monitors) 
+_State_: Defines the state of the instance when the threshold is crossed. Depending on the state of instance, certain
+actions are performed implicitly to recover the component back to good health. The user can select a value to define the
+expected state of the threshold.
 
->An alert is generated for any state trigger. If you are watching the assembly, then you should expect an email notifying the event, otherwise the event can be viewed in the operation environment. The event could also be alerted on different forums, depending upon the available notification setting; more details on notification settings <a href="/user/account/notifications.html">Notifications</a>
- 
- 
- 
- Advanced Configuration - not for custom  
-_Receive Email Notifications only On state change_:
-_URL to a page having resolution or escalation details_:
+The following states are available:
 
+_Notify-Only_: Use this state when no automated action is expected. When the trigger condition is met, the state of the
+instances is flipped to notify and an event is triggered. The event can be seen on the environment operation view. 
+
+_Unhealthy_: When a threshold is defined with an unhealthy state, the instances meeting trigger condition require some
+repair action to fix their state and the repair action associated with the component is executed. The automatic healing
+of instances using [Auto-Repair](/user/operation/auto-repair) helps in recovery of instances back to good state.
+
+_Over-utilized_: Use this state to define a threshold where the load is not sustainable and the component requires
+additional capacity. [Auto scale](/user/operation/auto-scale)) is used to add more capacity until the
+maximum limit of scaling configuration is reached.
+
+_Under-utilized_: This state signifies that the component instance is not being used to its capacity and can be removed.
+[Auto scale](/user/operation/auto-scale)) is used to remove capacity until the minimum limit of scaling configuration is
+reached.
+
+Further threshold configuration attributes are: 
+
+_Bucket_: Time interval used for each metric collection.
+
+_Stat_: Stat determines the value selection from the bucket for aggregation. Values are average, min, max, count, etc.
+
+_Metric_: The metric to use for the threshold.
+
+_Trigger_ and _Reset_ determine when an event is raised and subsequently removed. They are configured with an expression
+using and _Operator_ and _Value_ to create and expression. The _Duration_ defines the time window during which the
+collected metric value is evaluated. _Occurrences_ defines the number of repetitions needed to trigger 
+
+_Cool-off_: The time after which a repeated threshold crossing raises another event. Before that time repeated 
+violations do not raise additional events. 
+
+An alert is generated for any state trigger. If you are watching the assembly,  you can expect a 
+[notification](/user/account/notifications.html) about the event. The events can be viewed in the operation view. 
 
 <a name="usage"/>
 
