@@ -3,8 +3,6 @@ layout: user-doc
 title: Monitors
 ---
 
-# Overview
-
 Monitoring of numerous metrics about components is a powerful feature available to users. It includes support for
 aspects such as 
 
@@ -23,7 +21,10 @@ Metrics can be collected for numerous aspects for various levels of behavior of 
 - process specific aspects e.g. JVM or database-specific aspects 
 
 Any component can be monitored and most components included a number of monitors by default. Monitoring in OneOps scales
-for tracking thousands of metrics for long periods of time.
+for tracking thousands of metrics for long periods of time. 
+
+Under the cover OneOps facilitates the industry standard open source solution [Nagios](https://www.nagios.org/) and the
+numerous checks supplied by it.
 
 * [Configuration](#configuraiton)
   * [Default Monitors](#defaultmonitors)
@@ -33,11 +34,11 @@ for tracking thousands of metrics for long periods of time.
 * [Usage in Operation](#usage)
 * [Charts](#charts)
 * [Charts in Action](#chartsinaction)
+* [Examples](#examples)
 
 <a name="configuration"/>
 
 # Configuration
-
 
 <a name="defaultmonitors"/>
 
@@ -58,7 +59,8 @@ of a component:
 
 ## Custom Monitors
 
-Custom monitors can be configured in the design view of a component: 
+Custom monitors allow you to define additional metric monitoring for any component. They can be configured in the design
+view of a component: 
 
 1. Navigate to the desired assembly.
 1. Press _Design_ in the left hand navigation.
@@ -72,39 +74,40 @@ Custom monitors can be configured in the design view of a component:
 
 ## Attributes
 
-The following attributes can be configured for existing and new monitors:
+The following _Global_ and _Collection_ related attributes can be configured for existing and new monitors:
 
-_Name_: simple name for the monitor as visible in the list<br>
-_Description_: <br>
-_Command_: <br>
+_Name_: simple name for the monitor as visible in the list.<br>
+_Description_: descriptive text about the behavior of the the monitor.<br>
+_Command_:  Nagios command that defines the metric gathering.<br>
+_Command Line Options Map_: map of key value pairs that are passed to the command line invocation.<br>
+_Command Line_: specific command line invocation for the metrics gathering.<br>
 
-_Command Line Options Map_:<br>
-_Command Line_:<br>
+Each monitor can include one or more _Metrics_ defined by:
 
-Metrics 
+_Name_: simple name for the metric.<br>
+_Unit_: the unit used for data points, used in charts and notifications.<br>
+_Description_: descriptive text about the metric.<br>
+_DS Type_: the data source type. _GAUGE_ signals that this metric gather as a measurement each time. _DERIVE_ on the
+other hand signals a rate of change from a prior measurement is tracked.<br>
+_Display_: flag to signal if the metric should be displayed.<br>
+_Display Group_: string to allow grouping of metrics.<br>
+_Sample Interval (in sec)_: Number of seconds between each metric measurement event.<br>
 
-Name
-Unit
-Description
-DS Type
-Display
-Display Group
-
-_Sample Interval (in sec)_:
-
+In addition, aspects for alerting can be configured as documented in [the following section](#altering).
 
 <a name="altering"/>
 
 # Alerting with Thresholds and Heartbeats
 
-Alerting
+Configured in the _Alerting_ section the _Heartbeat_ flag and _Heartbeat Duration_ allow a metric to be used as a
+critical metric signaling the health of the component.
 
-_Heartbeat_:
-_Heartbeat Duration_:
+If 
+
+
 _Thresholds_
 
-
-The flag signifies collection of the metrics data for the given monitor. For any reason, if the data collection is stopped and this heartbeat flag is turned on then after the **heartbeat duration** time has passed, an unhealthy event is generated. This unhealthy event implies missing heartbeat for the given monitor. Heartbeat flag should ideally be turned ON only for one component monitor per platform.
+For any reason, if the data collection is stopped and this heartbeat flag is turned on then after the **heartbeat duration** time has passed, an unhealthy event is generated. This unhealthy event implies missing heartbeat for the given monitor. Heartbeat flag should ideally be turned ON only for one component monitor per platform.
 
 
 * OS components: SSH Port monitor has the Heartbeat flag turned ON by default.
@@ -119,20 +122,8 @@ The unhealthy event caused by missing heartbeat lead to execution of repair acti
 
 
 
-Name 
-State
-Bucket
-Stat
-Average
-Metric
-Trigger & Reset with Operator, Value, Duration, Occurrences
-Cool-Off
 
 
-
-Advanced Configuration - not for custom  
-_Receive Email Notifications only On state change_:
-_URL to a page having resolution or escalation details_:
 
  A Threshold uses a metric and a set of conditions to change the state of a component. Depending on how the Thresholds are configured, OneOps Automation dispatches events, emails, auto scale, or auto repair.
 A typical threshold definition looks like this:
@@ -170,6 +161,12 @@ For example: The above image trigger condition can be read as, raise a trigger e
 
 >An alert is generated for any state trigger. If you are watching the assembly, then you should expect an email notifying the event, otherwise the event can be viewed in the operation environment. The event could also be alerted on different forums, depending upon the available notification setting; more details on notification settings <a href="/user/account/notifications.html">Notifications</a>
  
+ 
+ 
+ Advanced Configuration - not for custom  
+_Receive Email Notifications only On state change_:
+_URL to a page having resolution or escalation details_:
+
 
 <a name="usage"/>
 
