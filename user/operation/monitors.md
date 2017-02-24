@@ -57,6 +57,8 @@ of a component:
 1. Go to the _monitors_ tab. 
 1. The monitors are listed on the left and can be _Edit_ed individually.
 
+<i class="fa fa-video-camera fa-3x blue"></i>  Check out the [demo video showing how to navigate to monitors](./monitors-nav-video.html). 
+
 <a name="custommonitors"/>
 
 ## Custom Monitors
@@ -124,7 +126,13 @@ recovery of components instances back to a healthy state.
 ## Threshold
 
 A _Threshold_ uses a metric and a set of conditions to change the state of a component. These changes can trigger events
-such as sending notifications, auto scale and auto repair.
+such that result in [notifications](/user/account/notifications.html), 
+[automatic scaling](/user/operation/auto-scale.html) or [automatic repair events](/user/operation/auto-repair.html).
+
+Components include a predefined set of default thresholds that are used implicitly with any environment deployment. 
+Users can add a new threshold definitions that are suitable for their operation or edit existing thresholds.
+
+Threshold are visible as part of the monitor configuration.
 
 The following attributes characterize a threshold: 
 
@@ -175,93 +183,73 @@ An alert is generated for any state trigger. If you are watching the assembly,  
 
 # Usage in Operation
 
-In  operation View
+The actual usage of monitors occurs in the operation view for each individual component:
 
-The operation view provides the trending of metric values along with the health as per the defined threshold. The graphs per monitor can be viewed by following this path:
-
-1. In the Operate phase, select the environment.
-2. Select the platform.
-3. Select the component.
-4. Select the instance to be monitored.
-5. Go to the **monitors** tab.
+1. Navigate to the desired assembly.
+1. Press _Operation_ in the left hand navigation.
+1. Select the environment by clicking on the name in the list.
+1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
+1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
+1. Go to the _monitors_ tab. 
+1. The monitors are listed on the left as a list.
+1. Click on an individual monitor name to view a [chart](#charts) visualizing the monitor data.
 
 <i class="fa fa-video-camera fa-3x blue"></i>  Check out the [demo video showing how to navigate to monitors](./monitors-nav-video.html). 
 
+The list of monitors shows the names of the monitors and additional icons that highlight heartbeat monitors and defined
+thresholds. You can also mark them as a [favorite](/user/general/favorites.html).
 
+The header includes a filter for the monitors, select/deselect all buttons, a sort features and well as the _Actions_
+button. If you select a few monitors in the list with the checkboxes beside the names, you can use the 
+_Compound charts_ action to merge all metrics from the selected monitors into one chart. The _Stack charts_ action
+triggers all selected charts to be displayed above each other.
 
-
-
-
-* Users can set up Threshold on monitors to 
-<a href="/user/operation/auto-scale.html">scale</a>, <a href="/user/operation/auto-repair.html">repair</a> or <a href="/user/account/notifications.html">notify</a>.
-
-There is a predefined set of default Thresholds that is provided by OneOps which comes implicitly with any environment deployment. The app owner has the flexibility to add a new threshold definition that is suitable for the app or to edit an existing threshold.
-
-To review, add, or edit a threshold, go to your environment in the transition phase, select the specific component (e.g. compute/tomcat). Get more details on <a href="/developer/content-development/default-monitor-thresholds.html">Default Monitor Thresholds</a>
-
-
-
-
-
-
+Threshold and heartbeat configuration for the monitor is displayed below the chart. 
 
 <a name="charts"/>
 
 # Charts
 
+Chart inspections can be used to visually analyze your component behavior over time. 
 
 <img src="/assets/img/ui/monitors-chart.png"/> 
 
-Charting in monitors section
+<i class="fa fa-video-camera fa-3x blue"></i> Enjoy our [demo video](#chartsinaction) showcasing usage of charts.
 
-heartbeat monitor with icon, one per compute
+A number of features are available in the chart display:
 
-for monitoring and alerting
+_Time range control_: The top left corner contains a control with buttons to select time range for the whole chart 
+displaying of one hour, six hours, one day, one week, one month or one year.
 
-icon for threshold
+_Time navigation_: The top right corner contains a control to navigate the chart time data by the size of the range. 
+`<<` navigates a full period back, `<` half a period back, `>` half a period forward, `>>` a full period forward. `Now`
+jumps to the current date and time.
 
-legend for lines acts a toggle
+_Read value_: Moving the mouse pointer over the chart triggers a marker that displays the metric value at the current
+location in the chart.
 
-y axis automatic to selction
+_Legend_: The legend beneath the chart shows the different metric names for the monitor. Clicking on a metric triggers
+the chart to display only that metric vs. all metrics.
 
-legend checkmark can add/remove chart
+_Threshhold display_: Threshold levels are displayed as horizontal lines in the chart using a dotted line of the same
+color as the metric with the threshold. The legend includes a dot beside the metric name. The color of the dot reflect 
+the state (blue for notify, red for unhealthy...). Hovering over the dot shows the threshold definition.
 
+_Zoom_: You can select a rectangle on the chart to enlarge a specific x/y region of the chart. This can be repeated
+multiple times until you see the region of interest. Double-click causes a zoom back out.
+
+_Standalong view_: The button on the top right corner in the chart title display triggers the current chart to be
+displayed in a new browser window without the rest of the user interface. 
+
+
+The data available in the chart depends on a few aspects:
+
+- Actual metrics taken successfully and component operational times e.g. there won't be any old data for a compute that 
+was just started today
+- TTL policies for storing the data.  One minute buckets are used for hour and 6 hours charts up to two days into the 
+past. Then metrics switch to 5 minute buckets.
 
 https://stg.oneops.walmart.com/stgqe/assemblies/mahtest/operations/environments/dev3/platforms/cloudrdbmstest!1/instances/138123049#monitors/list_item/138120984
-
-threshold shows up as dotted line of same
-
-
-
-monitor thresholds changed in monitors in compute from packc in design
-
-notify - blue
-
-
-< > half a period nav
-<< >> full period nav
-
-mouse over chart shows value
-
-select range will zoom in
-
-double click to zoom out
-
-
-pop up window icon on top left
-
-
-can be multiple charts
-
-This is fantastic!   Thank you for putting this together,.
-A few quick points/corrections (though, I do not think they are critical enough to change the video unless you think it is an easy adjustment):
-
-1.  During “time scrolling” data availability for a given period is restricted not by the life-time of the instance but more by our TTL policies of storing data.  For example, for 1 min buckets (used for “hour” and “6 hours”) it is 2 days or it is 7days for 5 min bucket (“day”).
-2. You can select/toggle multiple metrics at the time if  you click on the “check” icon – this will toggle on/off a given metric without affecting the others.  So for example: you can click on a name of a given metric to select just this one and then click on “check” icons for other metrics to add those.
-3. Threshold level marker (round dot) is color coordinated with threshold state (blue for “notify”, red for “unhealthy” and etc.) and if you hover on it (the ones displayed along the Y-axis) it will show the threshold trigger short definition.i.e   “CpuHighUtil: notify @ 2x(cpuidle < 20)”
-
-Again, I do not suggest to re-record the video just to reflect these points  but rather just wanted to bring them up if case you can include this somewhere in the docs :)
-
 
 <a name="chartsinaction"/>
 
