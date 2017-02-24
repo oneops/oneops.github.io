@@ -263,16 +263,11 @@ https://stg.oneops.walmart.com/stgqe/assemblies/mahtest/operations/environments/
 
 # Examples
 
-
 ## Open Files Monitor
 
-The Open Files Monitor monitors the open files on the process. OpenfileMonitor is created on javaws, artifact component and by default, the monitor is disabled.
-
-
-1. Go to the environment and artifact component.
-2. Enable the openfiles monitor.
-3. Edit the monitor and enter the process name which you want to monitor.
-4. Save, commit and deploy.
+The Open Files Monitor monitors the open files on the process and is includes in a number of components and disabled by
+default. You can simply activate it and enter the process name in the configuration if you want to montior files opened
+e.g. by your application as the `artifact` component.
 
 ## App Version Monitor
 
