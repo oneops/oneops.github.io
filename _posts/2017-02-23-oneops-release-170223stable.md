@@ -7,9 +7,9 @@ authors: [klohia, mmoser,]
 
 <img src="/assets/img/ui/monitors-chart.png" width="300" align="right"/> 
 
-Nothing beats charts full of monitoring data, when it comes to investigating problems with your application running in
-operation. And with this release we are bringing you a few key improvements to an already amazing monitoring system. 
-You got to check it out and to make that easy we even have a demo video for you.
+Nothing beats charts full of [monitoring data](/user/operation/monitors.html), when it comes to investigating problems
+with your application running in operation. And with this release we are bringing you a few key improvements to an
+already amazing monitoring system.  You got to check it out and to make that easy we even have a demo video for you.
 
 <!--more-->
 
