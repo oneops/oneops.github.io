@@ -28,10 +28,6 @@ video {
 iframe {
   width: 100%; }
 
-img {
-  width: auto;
-  max-width: 100%; }
-
 h1 {
   font-size: 38px;
   margin-bottom: 0.7em; }
