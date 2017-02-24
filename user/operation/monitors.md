@@ -99,6 +99,15 @@ _Sample Interval (in sec)_: Number of seconds between each metric measurement ev
 
 In addition, aspects for alerting can be configured as documented in [the following section](#altering).
 
+Additional options are available in the _Advanced Configuration_:
+
+_Receive email notifications only on state change_: enable this flag to reduce notifications to be sent only when the
+monitor state changes.
+
+_URL to a page having resolution or escalation details_: This allows you to add a URL to an external website or other 
+resource that provides further information for the user receiving notifications from this monitor. The URL is added to
+all notifications.
+
 <a name="alerting"/>
 
 # Alerting with Thresholds and Heartbeats
@@ -249,8 +258,6 @@ was just started today
 - TTL policies for storing the data.  One minute buckets are used for hour and 6 hours charts up to two days into the 
 past. Then metrics switch to 5 minute buckets.
 
-https://stg.oneops.walmart.com/stgqe/assemblies/mahtest/operations/environments/dev3/platforms/cloudrdbmstest!1/instances/138123049#monitors/list_item/138120984
-
 <a name="chartsinaction"/>
 
 # Charts in Action
@@ -271,38 +278,10 @@ e.g. by your application as the `artifact` component.
 
 ## App Version Monitor
 
-The App Version monitor is used to validate that Tomcat is restarted after all the artifacts are deployed. By default, the monitor is disabled.
+The App Version monitor is a monitor of the `tomcat` component  used to validate that the server is restarted after all
+artifacts are deployed. By default, the monitor is disabled.
 
-To configure the application version monitor, follow these steps:
-
-
-1. Go to the Transition phase of the environment.
-2. Select Tomcat.
-3. Select the **monitor** tab.
-4. Enable the AppVersion monitor.
-5. Save.
-6. Commit and deploy.
-
-Metrics: versionlatest (value=0  all versions are upto date. value >0 need to restart the tomcat)
-
-https://github.com/oneops/circuit-oneops-1/tree/master/components/cookbooks/tomcat/recipes/versionstatus.rb
-
->The ValidateAppVersion action is the same as AppVersion, but it is on demand.
+You can enable it in transition view of the component.  The ValidateAppVersion action can perform the same check as the
+monitor as an on demand action.
 
 
-## Use External Link for further info
-
-cna be any link, will show up in notifications from monitor
-
-Add the doc page URLs to the individual monitors in your production environment. You need to add the link for your doc page URL on the required monitors.
-
-
-1. Go to your environment.
-2. Click any platform.
-3. Click any component.
-4. Click any component instance.
-5. Click the **monitors** tab.
-6. Click any monitor.
-7. Look for the doc URL link at the bottom.
-8. Click **edit.**
-9. Enter your doc URL and save it.
