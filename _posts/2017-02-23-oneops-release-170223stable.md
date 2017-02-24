@@ -19,6 +19,8 @@ Of course, this release includes a bunch of other improvements and bug fixes, bu
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mFeohNtc5Es" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<br/><br/>
+
 And before you read ahead - a special shout out goes to [Lev](https://github.com/lkhusid) for his great work on the 
 charts and the CLI!
 
