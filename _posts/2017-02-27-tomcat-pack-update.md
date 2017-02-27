@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Tomcat Pack Update
-published: false
+published: true
 authors: [bbourquin, mmoser]
 ---
 
