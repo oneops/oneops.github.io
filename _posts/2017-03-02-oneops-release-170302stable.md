@@ -12,10 +12,10 @@ though, but you are going to have to stay tuned regarding those.
 
 # Bug Fixes and Improvements
 
-* Fixed volume step failure on Windows
-* Fixed artifact component failure on Windows
-* Improved regex support for environment profile filter
-* Updated domain join support for new as well as existing VM
+* Fixed volume step failure on Windows - [PR](https://github.com/oneops/oneops-admin/pull/167)
+* Fixed artifact component failure on Windows - [PR](https://github.com/oneops/circuit-oneops-1/pull/713)
+* Improved regex support for environment profile filter - [PR](https://github.com/oneops/antenna/pull/26/files)
+* Updated domain join support for new as well as existing VM - [PR](https://github.com/oneops/circuit-oneops-1/pull/706)
 * Allow setup of secondary and ignored clouds without a primary cloud
 
 # Source Release Tags
