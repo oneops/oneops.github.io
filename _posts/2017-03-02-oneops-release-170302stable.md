@@ -1,23 +1,22 @@
 ---
 layout: post
-title:  TBD - OneOps Release 17.03.02-STABLE
+title:  Bug Fixes - OneOps Release 17.03.02-STABLE
 published: false
 authors: [klohia, mmoser,]
 ---
 
-TBD
+This week we are following up with a few bug fixes only. Lots of other stuff is in the pipeline for future releases
+though, but you are going to have to stay tuned regarding those.
 
 <!--more-->
 
-
-# New Features
-
-* one
-
 # Bug Fixes and Improvements
 
-* one
-* two
+* Fixed volume step failure on Windows
+* Fixed artifact component failure on Windows
+* Improved regex support for environment profile filter
+* Updated domain join support for new as well as existing VM
+* Allow setup of secondary and ignored clouds without a primary cloud
 
 # Source Release Tags
 
