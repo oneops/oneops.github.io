@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Bug Fixes - OneOps Release 17.03.02-STABLE
-published: false
-authors: [klohia, mmoser,]
+published: true
+authors: [klohia, mmoser]
 ---
 
 This week we are following up with a few bug fixes only. Lots of other stuff is in the pipeline for future releases
