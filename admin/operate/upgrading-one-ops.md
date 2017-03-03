@@ -1,11 +1,7 @@
 ---
 layout: admin-doc
 title: Upgrading OneOps
-id: upgrading-one-ops
 ---
-
-
-# Upgrading OneOps in Production instance.
 
 Most of the times, **upgrading** OneOps is *just* deploying a latest build of source code in production. This typically involves
 

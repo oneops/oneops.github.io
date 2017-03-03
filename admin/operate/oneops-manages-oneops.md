@@ -3,6 +3,7 @@ layout: admin-doc
 title: OneOps Manages OneOps
 id: oneops-manages-oneops
 ---
+
 We have two separate instances of OneOps named **prod** and **admin**.
 They are in **different regions**, managing each other.
 

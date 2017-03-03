@@ -4,10 +4,11 @@ title: Metrics Collection
 id: metrics-collection
 ---
 
-# Overview
+## Overview
+
 OneOps uses *Logstash* and *Logstash-Forwarder* to collect performance metrics (like CPU, Memory, jvm metrics)
 
-# Logstash
+## Logstash
 
 * Log/Event processing engine written in jruby and runs as a jvm application
 * The log lines flow through 3 different stages:
@@ -19,7 +20,7 @@ OneOps uses *Logstash* and *Logstash-Forwarder* to collect performance metrics (
 * Logstash needs a simple config file in json format specify input, filters and outputs
 * Logstash  coexist on collector machine.
 
-# Logstash-Forwarder
+## Logstash-Forwarder
 
 * It is a “go” binary which tails log files and forwards the lines to downstream Logstash servers over “lumberjack” protocol
 * Main goals of this tool are:
@@ -29,11 +30,11 @@ OneOps uses *Logstash* and *Logstash-Forwarder* to collect performance metrics (
 * Runs on user VMs.
 * Gets installed as part of compute cookbook
 
-# How it all Works Together
+## How it all Works Together
 
 ![Logstash](/assets/docs/local/images/logstash-logstash.png)
 
-# Setup/Installation Details
+## Setup/Installation Details
 
 The Lumberjack protocol between the Logstash-Forwarder (Perf Agent running on each compute) and Logstash (Perf collector on server side) communicates over ssl and needs cert.
 This is how it is set up on OneOps Core and Gateway assemblies:

@@ -4,7 +4,6 @@ title: Administrator Testing and Debugging
 id: "testing-and-debugging"
 ---
 
-# Administrator Testing and Debugging
 
 Build a *test* environment where you can test any new OneOps code changes and also validate any or new *pack* changes 
 your organization might do.

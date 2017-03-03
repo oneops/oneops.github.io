@@ -1,8 +1,8 @@
 ---
 layout: admin-doc
 title: Running OneOps in Production
-id: "running-OneOps-In-Production"
 ---
+
 Use **OneOps to deploy OneOps in production**, so you get all the benefits of OneOps in managing your application refer this article.
 
 

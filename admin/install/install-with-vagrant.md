@@ -3,13 +3,13 @@ layout: admin-doc
 title: Installing OneOps with Vagrant
 ---
 
-# Introduction
+## Introduction
 
 OneOps installation with [Vagrant](http://www.vagrantup.com) is a convenient, automated process. Vagrant can be used to
 install OneOps on a variety of virtual machine runtime environments. The following instructions detail the
 process for an installation with [VirtualBox](https://www.virtualbox.org/) on your local machine.
 
-# Prerequisites
+## Prerequisites
 
 - <a href="https://www.virtualbox.org/" target="_blank">VirtualBox 5 or newer</a>
 - <a href="https://www.vagrantup.com/" target="_blank">Vagrant 1.7.4 or newer</a>
@@ -20,7 +20,7 @@ process for an installation with [VirtualBox](https://www.virtualbox.org/) on yo
 - Minimum of 4 CPU cores, 8 core or more recommended
 - Internet connection that allows access to GitHub and a number of repositories
 
-# Installation Process
+## Installation Process
 
 After you have installed the prerequisites, you can proceed with the installation process:
 
@@ -66,12 +66,12 @@ It is mapped to port 9090 on the host machine.
 Go to [http://localhost:9090](http://localhost:9090) to access the user interface and start by signing up for an
 account.
 
-# Next Steps
+## Next Steps
 
 - Checkout out the [troubleshooting section](../operate/testing.html), if something went wrong.
 - Proceed with the [user configuration of an organization, clouds and more](/user/).
 
-# Managing the OneOps VM
+## Managing the OneOps VM
 
 Vagrant can be used to manage the OneOps VM after the installation with executing commands in the
 `setup/vagrant-centos7` directory.
@@ -114,7 +114,7 @@ inductor tail
 Find further information about the vagrant command with ```vagrant help``` as well as in the
 [Vagrant documentation](https://www.vagrantup.com/docs/).
 
-# Demo
+## Demo
 
 The video below showcases a quick installation and initial configuration of OneOps:
 

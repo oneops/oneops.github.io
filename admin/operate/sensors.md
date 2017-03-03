@@ -8,7 +8,7 @@ Sensors wrap an Esper CEP engine with sharding logic to load EQL statements and 
 
 The sharding logic does a mod of the manifest ID and poolsize global var to load statements from sensor_ksp on DAQ/Cassandra and consume from an opsmq `perf-in-q-<shard>`.
 
-# re-shard
+## re-shard
  
 1. Change the `SENSORPOOLSIZE` global var.
 2. Disable opamp (soon to be: disable sensor heartbeat monitoring).
