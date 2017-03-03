@@ -1,10 +1,10 @@
 ---
 layout: general-doc
-title: Blog
+title: OneOps Team Blog
 
 ---
 
-<h1 class="yellow">OneOps Team Blog</h1>
+<h1 class="yellow">{{ page.title}}</h1>
 <div>
  <div class="col-md-8">
  <p>Whether we are planning an event, make a new release available, present at a conference or user group meeting or

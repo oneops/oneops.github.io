@@ -1,10 +1,10 @@
 ---
 layout: general-doc
-title: Blog
+title: OneOps Team Blog Archive
 
 ---
 
-<h1 class="yellow">OneOps Team Blog Archive</h1>
+<h1 class="yellow">{{ page.title }}</h1>
 
 <p>The complete list of posts from the <em>OneOps team</em>:</p>
 
