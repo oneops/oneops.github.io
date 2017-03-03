@@ -717,31 +717,6 @@ img.ti-img-chev {
 
 .wec-content {line-height: 28px;}
 
-.wec-about,
-.wec-quotes {
-    padding: 0 20px 0 70px;
-    font-size: 24px;
-    line-height: 38px;
-    margin-bottom: 30px;
-}
-
-.wec-quotes {text-transform: uppercase}
-
-.wec-about:before,
-.wec-quotes:before {
-    margin-left: -66px;
-    margin-right: 10px;
-    content: url(../img/hero/wcs/quote-start.png);
-}
-
-.wec-about:after,
-.wec-quotes:after {
-    content: url(../img/hero/wcs/quote-end.png);
-    margin-left: 20px;
-    margin-top: 8px;
-    position: absolute;
-}
-
 .circuits-table {margin-left: -25px;}
 
 

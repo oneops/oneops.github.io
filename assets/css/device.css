@@ -460,21 +460,6 @@
         margin-left: -17px;
     }
 
-    .wec-about, .wec-quotes {
-        padding: 0 0 0 30px;
-        font-size: 22px;
-        line-height: 28px;
-    }
-
-    .wec-about:before,
-    .wec-quotes:before {
-        margin-left: -46px;
-    }
-
-    .wec-about:after,
-    .wec-quotes:after {
-    }
-
     .wec-profile-container {
         margin-left: 0;
     }
@@ -534,21 +519,6 @@
         width: 130px;
         margin-top: -2px;
         margin-left: -17px;
-    }
-
-    .wec-about, .wec-quotes {
-        padding: 0 0 0 30px;
-        font-size: 22px;
-        line-height: 28px;
-    }
-
-    .wec-about:before,
-    .wec-quotes:before {
-        margin-left: -46px;
-    }
-
-    .wec-about:after,
-    .wec-quotes:after {
     }
 
     .wec-profile-container {
