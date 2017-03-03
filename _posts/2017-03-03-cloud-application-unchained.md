@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Your Cloud Application Needs to be Unchained
-published: false
+published: true
 authors: [mmoser]
 ---
 
