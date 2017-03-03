@@ -12,4 +12,5 @@ Learn more about clouds and their benefits with this video:
 <iframe width="640" height="360" src="https://www.youtube.com/embed/tmFguo76K90" frameborder="0" allowfullscreen></iframe>
 </div>
 
-
+Supported cloud providers are 
+[Amazon AWS, Google Cloud Platform, Microsoft Azure, OpenStack and Rackspace](/general/integrations.html#clouds).
