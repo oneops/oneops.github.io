@@ -230,11 +230,3 @@ Before you start with OneOps, it is recommended that you read the following docu
 * **<a href="/user/general/key-concepts.html">Key Concepts:</a>** Conceptual description and diagrams of how OneOps works
 * **<a href="/user/general/getting-started.html">Getting Started:</a>** How to start using OneOps (this section)
 * **<a href="/user/design/design-best-practices.html">Best Practices:</a>** How you should use OneOps for best results
-
-## What You Will Need When You Work with OneOps
-
-Refer to the following documentation as you work.
-
-* **<a href="/user/operation/add-a-doc-url-to-a-monitor.html">How To:</a>** 'How To' instructions that solve a specific problem or achieve a specific solution
-* **<a href="/user/general/testing.html">Testing & Debugging:</a>** Strategic overview description of how to test and debug OneOps
-* **<a href="/general/contribute.html/">Contribution:</a>** How to provide feedback, report issues, contribute to development, or contact us

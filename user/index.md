@@ -35,7 +35,7 @@ cloud-based infrastructure. You can expect:
 * Real-time resource utilization via auto-scale, see [auto-scale](/user/operation/auto-scale.html)
 and [Monitors](/user/operation/monitors.html)
 * Application-driven access control policies, see [Teams in Organization](/user/account/create-a-team-in-an-organization.html)
-* Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/account/cloud-providers.html)
+* Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/account/clouds.html)
 
 The following video provides an introduction:
 
