@@ -247,8 +247,6 @@ The OneOps Packer is a Ruby-based application that loads Component Classes, Rela
 
 # OneOps Clouds
 
-TBD add additional cloud information.
-
 A OneOps cloud can be defined as a logical group of [cloud services](#cloud-service-types) that enable resource allocation/usage. Typically a cloud contains:
 
 * Compute provisioning service: Openstack, Rakespace, etc.

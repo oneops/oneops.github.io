@@ -4,8 +4,6 @@ title: Add a Team to an Assembly
 id: "add-team-to-an-assembly"
 ---
 
-TBD -- Validate current permissions and steps below
-
 # Solution
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">

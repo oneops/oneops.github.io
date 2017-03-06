@@ -152,10 +152,6 @@ Body:
 }
 ```
 
-## PUT an updated assembly
-
-TBD
-
 ## DELETE An assembly by name
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>`

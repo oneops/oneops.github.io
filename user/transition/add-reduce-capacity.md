@@ -16,8 +16,6 @@ Two processes are required to change capacity:
 
 # Transition
 
-TBD Check Scaling Configuration follows pattern
-
 Transition > Environment > Platform > Summary > Scaling Configuration
 
 

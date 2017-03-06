@@ -86,7 +86,7 @@ A Platform is an instance of a pre-defined template design called a pack. Exampl
     * **appVersion:** Maven artifact version
     * **artifactId:** Maven artifactId. For example, for a Tomcat platform, the artifactId is the artifact id of the war artifact.
     * **groupId:** Maven artifact group id for your artifact
-    * **repository:** TBD
+    * **repository:** 
     * **shaVersion:** You can leave this empty
     * **deployContext:** Name of the Tomcat context when the app is deployed. (http://<server|vip>/<deployContext>).  
      

@@ -29,5 +29,5 @@ To work with the controls for an environment, follow these steps:
 * Configuration: Displays the latest configuration deployed on the compute. It is possible to Replace or Cancel the Active deployment here.
 * Monitors: Displays the graphs for the monitors that are associated with the component. Read more details at 
 [Monitors](/user/operation/monitors.html).
-* Logs: TBD
+* Logs: 
 * Procedures: Displays the procedures that are called from Operations.
