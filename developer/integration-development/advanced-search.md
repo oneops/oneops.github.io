@@ -30,13 +30,3 @@ the attribute name, value and a match with `equal`, `not equal` or `contains`.
 For example, the compute class has various attributes like public_ip, public_dns, osname and many others, which can be
 used to create a search condition to find a specific compute. 
 
-# Examples
-
-## Locate Artifacts within an Environment in an Assembly
-
-1. Enter the namespace composed like `/<organization-name>/<assembly-name>/<environment-name>` in the _Filters - Namespace_
-input.
-2. Select the design (`catalog*`) or transition phase (`manifest*`) as the scope.
-3. Set `artifact` as the class name
-4. To obtain the search results, click **run.**
-

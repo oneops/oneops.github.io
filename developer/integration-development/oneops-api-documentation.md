@@ -5,15 +5,7 @@ title: OneOps API Documentation
 
 Note: all calls will use the api token - see [Get Auth Token](#account-profile):
 
-
-- [Top Level](#top-level)
-  - [GET list of manifest (transition) Lb components](#get-list-of-manifest-transition-lb-components)
-  - [GET a list of bom (operations) Lb components](#get-a-list-of-bom-operations-lb-components)
-  - [GET a list of bom Fqdn components](#get-a-list-of-bom-fqdn-components)
-  - [GET a list of all bom Computes](#get-a-list-of-all-bom-computes)
-  - [GET a list of all environments](#get-a-list-of-all-environments)
 - [Account Profile](#account-profile)
-  - [GET Auth Token](#get-auth-token)
   - [GET all organizations](#get-all-organizations)
 - [Organization](#organization)
   - [GET clouds](#get-clouds)
@@ -58,27 +50,6 @@ Note: all calls will use the api token - see [Get Auth Token](#account-profile):
   - [POST Request to execute action](#post-request-to-execute-action)
   - [GET status](#get-status)
   - [GET Computes for a Platform](#get-computes-for-a-platform)
-
-# Top Level
-
-## GET list of manifest (transition) Lb components
-`https://<your-server>/services/organization/search.json?ns_path=/services&class_name=manifest.Lb`
-
-## GET a list of bom (operations) Lb components
-`https://<your-server>/services/organization/search.json?ns_path=/services&class_name=bom.Lb`
-
-## GET a list of bom Fqdn components
-`https://<your-server>/services/organization/search.json?ns_path=/services&class_name=bom.Fqdn`
-
-## GET a list of all bom Computes
-`https://<your-server>/services/organization/search.json?ns_path=/services&class_name=bom.Compute`
-
-## GET a Compute by IP Address
- `https://<your-server>/<ORGANIZATION-NAME>/organization/search.json?source=es&query=ciAttributes.private_ip:<IP>`
-
-## GET a list of all environments
-`https://<your-server>/services/organization/search.json?ns_path=/services&package=manifest&class_name=manifest.Environment`
-`Add: attr_name=<name>  and attr_value=<value>`
 
 # Account Profile
 
