@@ -14,6 +14,7 @@ TBD
 
 # Bug Fixes and Improvements
 
+* Replaces TBD remark in pack and component documentation with pointer to [oneops.com](http://oneops.com) - [PR](https://github.com/oneops/circuit-oneops-1/pull/726)
 
 # Source Release Tags
 
