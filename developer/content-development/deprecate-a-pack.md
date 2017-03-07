@@ -3,7 +3,7 @@ layout: dev-doc
 title: How to Deprecate a Pack
 ---
 
-There are two flags available that allow you to deprecate a specific pack version:
+There are two flags available that you use in `pack.rb` to deprecate a specific pack version:
 
 {% highlight ruby %}
 ignore true|false
