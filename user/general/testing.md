@@ -4,8 +4,6 @@ title: User Testing and Debugging
 id: "testing-and-debugging" 
 ---
 
-# User Testing and Debugging
-
 ## Find the URL for Your App
 
 The default URL for your webapp that is deployed in OneOps is made up of the deployment details.
