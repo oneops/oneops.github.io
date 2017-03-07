@@ -69,5 +69,5 @@ component could be `https://server/oneops/assemblies/31561093/design/platforms/6
 - [Assemblies API](./assemblies-api.html)
 - [CI Notifications API](./ci-notifications-format.html)
 - [Cloud Offerings API](./cloud-offerings-api.html)
-- [Design Attachments API](./design-attachements-api)
+- [Design Attachments API](./design-attachments-api.html)
 
