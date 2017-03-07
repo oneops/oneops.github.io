@@ -40,8 +40,12 @@ navigation:
    url: /general/blog
  - title: About
    url: /general/about.html
- - title: Documentation
-   url: /general/documentation.html
+ - title: User
+   url: /user/index.html
+ - title: Admin
+   url: /admin/index.html
+ - title: Developer
+   url: /developer/index.html
 
 documentation:
  - title: GENERAL
