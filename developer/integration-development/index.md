@@ -7,6 +7,11 @@ __Integrations development__ is all about using the various __OneOps APIs__ to c
 applications or workflows. These could be simple scripts to automate commonly performed actions or integration
 with other applications to support your specific use cases.
 
+- [Advanced Search](#advanced-search)
+- [REST API](#rest-api)
+  - [API Usage Examples](#api-usage-examples)
+  - [API Reference](#api-reference)
+
 ## Advanced Search
 
 One aspect of integration work is to find the correct resources and entities to work with. The usage of
@@ -54,11 +59,11 @@ The same pattern of a JSON equivalent for a user interface URL applies to specif
 component could be `https://server/oneops/assemblies/31561093/design/platforms/65971847/components/65971878/edit`. Appending
 `.json` to the URL so it ends in `.../edit.json` displays the data in raw JSON.
 
-### API Usage Examples: 
+### API Usage Examples
 
 - [Inspecting OneOps with the OneOps API](inspect-oneops-with-api.html)
 
-### API Reference:
+### API Reference
 
 - [OneOps API Overview](./oneops-api-documentation.html)
 - [Assemblies API](./assemblies-api.html)
