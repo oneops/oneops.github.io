@@ -1,10 +1,9 @@
 ---
 layout: user-doc
 title: Enable https for a Service (LB Certs)
-id: enable-https-for-service-lbcerts
 ---
 
-This assumes that you have an SSL certificate. (If you need one, contact InfoSec.)
+This assumes that you have an SSL certificate.
 
 # Solution
 
