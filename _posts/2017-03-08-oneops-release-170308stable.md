@@ -1,20 +1,24 @@
 ---
 layout: post
-title:  TBD - OneOps Release 17.03.08-STABLE
+title: Little One - OneOps Release 17.03.08-STABLE
 published: false
 authors: [klohia, mmoser]
 ---
 
-TBD
+Another weekly release with a few smaller fixes for you. 
 
 <!--more-->
 
 # New Features
 
+* Added Windows support to _storage_ and _volume_ components
 
 # Bug Fixes and Improvements
 
+* API endpoints in transistor for manifest import and export - [PR](https://github.com/oneops/transistor/pull/100)
+* Added further validation for the _continue on failure_ support - [PR](https://github.com/oneops/controller/pull/48)
 * Replaces TBD remark in pack and component documentation with pointer to [oneops.com](http://oneops.com) - [PR](https://github.com/oneops/circuit-oneops-1/pull/726)
+
 
 # Source Release Tags
 
