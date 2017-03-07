@@ -13,7 +13,7 @@ This assumes that you have an SSL certificate.
     
     ![LB certificate](/assets/docs/local/images/lb-certificate.png)
     
-2. Enter the certificate details obtained from InfoSec.
+2. Enter the certificate details:
     * Key Contents. 
     * Cert Contents.
     * Passphrase
