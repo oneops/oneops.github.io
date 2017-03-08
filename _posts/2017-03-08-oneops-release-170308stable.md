@@ -20,6 +20,7 @@ Another weekly release with a few smaller fixes for you from our diverse and dis
 * Added further validation for the _continue on failure_ support - [PR](https://github.com/oneops/controller/pull/48)
 * Replaces TBD remark in pack and component documentation with pointer to [oneops.com](http://oneops.com) - [PR](https://github.com/oneops/circuit-oneops-1/pull/726)
 * Deprecated tomcat-2 pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/728)
+* Added LXD sizes to compute component - [PR](https://github.com/oneops/circuit-oneops-1/pull/731)
 
 # Source Release Tags
 
@@ -41,7 +42,7 @@ Another weekly release with a few smaller fixes for you from our diverse and dis
 - [transmitter tag 17.03.08-STABLE](https://github.com/oneops/transmitter/tree/17.03.08-STABLE)
 - [transistor tag 17.03.08-STABLE](https://github.com/oneops/transistor/tree/17.03.08-STABLE)
 - [oneops-admin tag 17.03.08-STABLE](https://github.com/oneops/oneops-admin/tree/17.03.08-STABLE)
-- [circuit-oneops version 1-5.0.tbd](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.tbd)
+- [circuit-oneops version 1-5.0.582](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.582)
 
 Enjoy,
 
