@@ -10,8 +10,11 @@ Contributions are welcome and managed in the [same manner as code contributions]
 
 ## Technical Details
 
-The web site, including the documentation, is managed in the repository
-[https://github.com/oneops/oneops.github.io](https://github.com/oneops/oneops.github.io). It is a static web site
+The web site, including the documentation, is managed in the repository:
+
+<i class="fa fa-github fa-3x blue"></i>  <a href="https://github.com/oneops/oneops.github.io">https://github.com/oneops/oneops.github.io</a>
+
+It is a static web site
 generated from source using [Jekyll](https://jekyllrb.com/). All content is written using Markdown, specifically
 [GitHub Flavored Markdown](https://help.github.com/categories/writing-on-github/) parsed by
 [kramdown](https://kramdown.gettalong.org/index.html). More information about the site and documentation is available
