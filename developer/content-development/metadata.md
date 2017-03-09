@@ -65,8 +65,3 @@ recipe "restart", "Restart Apache"
 recipe "repair", "Repair Apache"
 ```
 
-# See Also
-
-* <a href="/developer/general/key-concepts.html">Key Concepts </a>
-* <a href="/user/operation/attachments.html">Attachments</a>
-
