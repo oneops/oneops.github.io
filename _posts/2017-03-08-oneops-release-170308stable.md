@@ -12,7 +12,7 @@ Another weekly release with a few smaller fixes for you from our diverse and dis
 # New Features
 
 * Added Windows support to _storage_ and _volume_ components
-* Improved quick navigation in the user interface with keyboard shortcuts
+* Improved quick navigation in the [user interface with keyboard shortcuts](/user/general/user-interface.html)
 
 # Bug Fixes and Improvements
 
