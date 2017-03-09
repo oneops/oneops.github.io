@@ -3,22 +3,57 @@ layout: user-doc
 title: Compute Nodes in Operation
 ---
 
-The [compute component](../design/compute-component.html) tralalalalala
+The [`compute` component](../design/compute-component.html) represents the virtual machine and operating system on
+which a platform runs in operation.
 
+You can locate computes by navigating to a platform of your assembly within an environment in the operation phase. A
+list of computes is displayed with specific information about the compute:
 
+- Hostname
+- Instance Name
+- Instance Id
+- Hypervisor
+- Availability Zone
+- OS Name
+- Server Image Name
+- Number of CPU Cores
+- Ram in MB
+- Private IP
+- Public IP
 
-## Find Compute by IP
+Alternatively you can use [search](../general/search.html] to access one or a list of computes, find a compute via a
+[keyboard short cut](../general/user-interface.html) or access a compute via a [favorite](../general/favorites.html).
 
-To find a VM IP address, follow these steps:
+You can select one or multiple computes and perform actions such as
 
-1. Click **Operate.**
-2. Select the environment.
-3. Select the platform.
-4. Select the compute component from the list.
-5. Select each compute to see the configuration tab and look for the public IP field.
+- reboot
+- repair
+- powercycle
+- apply-security-compliance
+- upgrade-os-security
+- upgrade-os-package
+- upgrade-os-all
+- status
+- list of IPs...
+- replace
+- undo replace
 
+Clicking on the name of a specific compute allows you to navigate to the details view. It contains tabs related to
 
-## Fix Unresponsive Compute
+- _summary_
+- configuration
+- monitors
+- notifications
+- procedures
+- logs
+
+## Example Use Case
+
+### Find IP Number of a Compute
+
+Locate the compute in operation and look at the _public ip_ value.
+
+### Fix Unresponsive Compute
 
 To fix an unresponsive compute, follow these steps to reboot the compute:
 
@@ -31,14 +66,7 @@ To fix an unresponsive compute, follow these steps to reboot the compute:
 3. If it is not an option to replace the compute, contact your OneOps administrator for further assistance to bring the node up. 
 
 
-## Use Operations for VM Tasks
 
-Use Operations for most of the tasks you need to perform on a VM.
-
-* Create an additional user in the design other than the app for the development team
-* View realized instances for your platforms
-* View graphs for monitors on defined metrics and thresholds
-* Perform single or bulk operations like restart/ start/ stop on Tomcats
 
 
 ## Replace a Bad VM
