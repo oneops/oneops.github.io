@@ -3,30 +3,36 @@ layout: user-doc
 title: Compute Component
 ---
 
+The [`compute` component](../design/compute-component.html) is of core importance and part of most platforms since it
+represents the virtual machine and operating system on which the platform runs.
 
-some intro - most platforms include a `compute` component, compute represents the VM OS running the platform
+You can configure the compute component as part of your platform in design phase and specific to an environment in the
+transition phase.
 
+Once your assembly is deployed in an environment you can access the [computes in operation](../operation/compute.html).
 
-## Compute Sizes
+## Configuration
 
-Compute Sizes are metadata driven
+Besides the global configuration available for any component such as _Name_ and _Description_, you can configure the
+following attributes:
 
-Refer EC2 https://github.com/oneops/circuit-oneops-1/blob/master/components/cookbooks/ec2/metadata.rb
+_Instance Size_: The instance size determines characteristics of the virtual machine created for operation in terms of
+processing power, memory size, networking bandwidth and operating system. The size values use clothing sizing values 
+of from extra small to extra large and beyond - XS, S, M, L, XL, XXL, 3XL, 4XL. Instance sizes optimized for compute
+performance, network performance, storage and memory are available. The generic values are mapped to 
+[cloud](../account/clouds.html) specific sizes.
 
-https://github.com/oneops/circuit-oneops-1/blob/master/components/cookbooks/compute/metadata.rb
+_Networking - PAT ports_: Configure the Port Address Translation PAT from internal ports (key) to external ports
+(value). <br/>
+_Networking - Require public IP_: Check if a public IP is required. Setting is used when the compute cloud service
+public networking type is interface or floating.<br/>
 
->Note that these are just defaults, you can change/overwrite it in the UI in the
-Size Map attribute in the cloud service in any given cloud
+The _Cloud Services_ configuration displays the services required by the component and provided by the cloud. Typically
+_compute_ and _dns_ are required, while others such as _mirrors_ or _ntp_ are optional and can be enabled or disabled
+as desired.
 
-also reference t-shirt sizes
+The _Compute Depends On_ and _Depend On Compute_ sections contain lists of related components.
 
+The _attachements_ tab allows the configuration of [attachments](./attachments.html) associated to the compute.
 
-## Enable NTP
-
-id: enable-ntp
-
-
-1. To enable NTP on an existing environment, go to the compute component in the design or transition phase.
-2. Select the NTP cloud service.
-3. If updated in design phase, pull latest changes to the environment and deploy.
-4. If updated in transition phase, touch compute component and deploy.
+The _monitors_ tab can be used to configure compute-related [monitors](../operation/monitors.html).
