@@ -83,9 +83,9 @@ item-specific action buttons on the right.
 ## Keyboard Shortcuts
 
 OneOps supports a number of keyboard shortcuts that enable an advanced user to navigate to specific components and other
-entities. These keyboard shortcuts trigger the appearance of an input control in a pop up dialog. You can type multiple
-values to narrow down the returned data to the desired results. Clicking on a result allows the user to navigate to the
-entity.
+entities within the context of the current organization. These keyboard shortcuts trigger the appearance of an input
+control in a pop up dialog. You can type multiple values to narrow down the returned data to the desired results. Up to
+20 results are displayed. Clicking on a result allows the user to navigate to the entity.
 
 `ALT-o`: navigate to a specific _organization_.<br/>
 `ALT-d`: navigate to an entity in the _design_ phase.<br/>
