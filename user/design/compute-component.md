@@ -42,18 +42,18 @@ The _monitors_ tab can be used to configure compute-related [monitors](../operat
 
 ### Update the Size of a Compute
 
-At this time, you can not update the size (Instance Types) of a compute from one type to other. There are two ways to do an update if you want to update the compute.
+Changing a compute in design, like any other design change, requires you to:
 
-If all of the computes in your environment are the wrong type for a platform, follow these steps:
+- Save the change and commit the overall design.
+- Pull the design to the environment.
+- Deploy the environment.
 
+If you are changing a compute configuration, the result is that you need to either disable and re-enable the whole 
+platform. This however means that the application will be unavailable during the procedure.
 
 1. Disable the entire platform.
 2. Commit and deploy.
 3. Enable the platform to commit and deploy.
 
-If some computes are deployed by means of a wrong selection or wrong commit, follow these steps:
-
-
-1. Go to the operation of the instance on the **configure** tab.
-2. Click **replace.**
-3. Commit and deploy.
+Alternatively you can change the configuration and _replace_ the [computes in operation](../operation/compute.html)
+with a step size of less than 100%, after you pulled the design changes to the environment
