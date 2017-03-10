@@ -3,11 +3,11 @@ layout: user-doc
 title: Computes in Operation
 ---
 
-The [`compute` component](../design/compute-component.html) represents the virtual machine and operating system on
+The [`compute` component](../design/compute-component.html) represents the virtual machine (VM) and operating system on
 which a platform runs in operation.
 
 You can locate computes by navigating to a platform of your assembly within an environment in the operation phase. A
-list of computes is displayed with specific information about the compute:
+list of computes is displayed with specific information about the compute including:
 
 - Hostname
 - Instance Name
@@ -30,23 +30,23 @@ You can select one or multiple computes and perform actions:
 - _repair_: attempts restart the monitoring of the compute that caused it to report as unhealthy. If unsuccessful,
 proceed with a reboot automatically.<br>
 - _powercycle_: perform a hard restart of the compute.<br>
-- _apply-security-compliance_: <br>
-- _upgrade-os-security_: <br>
-- _upgrade-os-package_: <br>
-- _upgrade-os-all_: <br>
-- _status_: <br>
-- _list of IPs..._: show a list of the IP numbers of the selected computes<br>
+- _apply-security-compliance_:  <br>
+- _upgrade-os-security_: apply security-related operating system package upgrades<br>
+- _upgrade-os-package_: upgrade a specific operating system package.<br>
+- _upgrade-os-all_: upgrade a specific operating system package.<br>
+- _status_: display the status in a dialog.<br>
+- _list of IPs..._: show a list of the IP numbers of the selected computes in a dialog.<br>
 - _replace_: mark the compute for replacement. The actual replacement needs to be forced via a new deployment.<br>
 - _undo replace_: remove the 
 
 Clicking on the name of a specific compute allows you to navigate to the details view. It contains tabs related to
 
-- _summary_: <br>
-- _configuration_: <br>
-- _monitors_: <br>
-- _notifications_: <br>
-- _procedures_: <br>
-- _logs_: <br>
+- _summary_: summary information about the compute including sections for _Status_, _Actions_, _Availability_ , Important Attributes_ and _Action History_.<br>
+- _configuration_: detailed view of the compute configuration attributes including a _replace_ feature.<br>
+- _monitors_: list of [monitors](./monitors.html) <br>
+- _notifications_: charts about the compute availability and notifications.<br>
+- _procedures_: list of procedures such as _status_ actions, that were performed on the compute<br>
+- _logs_: access to the logs.<br>
 
 ## Example Use Cases
 
@@ -57,7 +57,6 @@ Locate the compute in operation and look at the _public ip_ value.
 Note that a computes's IP Address may change. Avoid building any reliance on an IP address in your application or
 operations. Consider an IP Address transparent and changing like a process ID number PID. Whenever a compute goes
 through reboot, repair or replace activities, the compute may receive a new IP Address.
-
 
 ### Fix Unresponsive Computes
 
@@ -118,7 +117,7 @@ i
 8. At a successful deploy, you can log into the VM by doing ssh app@<ip-of-vm>.
   
 
-## SSH to a Compute Node
+## SSH to a Compute
 
 1. Go to your **Assembly** and select the **Edit the User** component (for example, `user_app`) to add your public keys to the Authorized Keys attribute.
 2. If your platform doesn’t have a user component, add one from the component panel on the right side by clicking the **+** next to the user.
