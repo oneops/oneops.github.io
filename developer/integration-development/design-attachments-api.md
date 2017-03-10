@@ -4,7 +4,9 @@ title: Design Attachments API
 id: design-attachments-api
 ---
 
-Use the Attachment API to store additional configuration entities for any component. You can use attachments to add configuration files, certificates, custom scripts etc. Attachment content can be specified directly in the request or from a specified remote URL location.
+Use the Attachment API to store additional configuration entities for any component. You can use 
+[attachments](/user/design/attachments.html) to add configuration files, certificates, custom scripts etc. Attachment
+content can be specified directly in the request or from a specified remote URL location.
 
 Each attachment has a `:runs_on` attribute that allows for optional callback executions *before* or *after* component lifecycle events of **add, update** and **delete.** In addition, you can specify the on-demand option in the `runs_on` list which makes the attachment with the associated execution command to be available as an on-demand component action to be invoked at any time during operations.
 

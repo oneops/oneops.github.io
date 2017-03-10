@@ -195,7 +195,7 @@ The successful deployment will *create* actual instances of components (computes
 Some of the commonly used operations but not limited to these
     1. Replace of compute in case of hardware failures.
     2. Restart of services.(tomcat, Cassandra, elastic search)
-    3. Some of <a href="/user/operation/attachments.html">attachments</a> can be exposed as operations. Some of the
+    3. Some of <a href="/user/design/attachments.html">attachments</a> can be exposed as operations. Some of the
     popular one used are taking nodes out of traffic.
     4. Redeploy artifacts.
     5. Log Searches on volume components.
