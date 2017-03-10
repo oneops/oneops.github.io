@@ -16,7 +16,7 @@ The default URL for your webapp that is deployed in OneOps is made up of the dep
 | testing        | organization name
 | OneOps QA Server | zone in Infoblox for the cloud
 
-See also [Find the IP Address for a Compute Node](/user/operation/find-ip-address-for-compute-node.html).
+More details are available in [Computes in Operation](../operation/compute.html)
 
 ## View the Number of VMs in Use
 
