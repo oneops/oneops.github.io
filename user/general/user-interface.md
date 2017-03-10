@@ -7,8 +7,9 @@ OneOps provides a very powerful user interface with numerous features to enable 
 efficiently:
 
 - [Overview](#overview)
-- [Navigation bar](#navigation-bar)
-- [Lists](#lists)
+- [Navigation Bar](#navigation-bar)
+- [Phases Wizard](#phases-wizard)
+- [Lists and Bulk Actions](#lists-and-bulk-actions)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Short URLs](#short-urls)
 - [Search](./search.html)
@@ -74,11 +75,24 @@ The phases wizard is displayed above the main content area and contains links to
 the  phases Design, Transition and Operate. The links are all context sensitive to the current organization and
 assembly. The current phase is highlighted in green. It can be disabled with the close button on the right.
 
-## Lists
+## Lists and Bulk Actions
 
-Lists consist of a powerful header and the line items. The header on lists includes feature to sort and filter the data
-as well as perform actions. It items display data and include a check box for bulk operation actions on the left and
+Lists consist of a powerful header and the line items. The header on lists numerous features: 
+
+- _Sort_ button, optionally with selection of field to use for sorting
+- Filter input with display of the number of records in the list
+- Select all and unselect all boxes
+- _New_ button to create new record
+- _Action_ button 
+
+It items in the list itself display data and include a check box for bulk operation actions on the left and
 item-specific action buttons on the right.
+
+Bulk actions can be performed by checking one or multiple of the select check boxes on the left of the records and then 
+pressing the _Action_ button in the header and selecting the desired action in the drop down.
+
+The available actions vary based on the records in the list and include actions such as save, edit, mark as favorite,
+reboot and many others.
 
 ## Keyboard Shortcuts
 
