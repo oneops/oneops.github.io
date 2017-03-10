@@ -3,7 +3,7 @@ layout: user-doc
 title: Computes in Operation
 ---
 
-The [`compute` component](../design/compute-component.html) represents the virtual machine (VM) and operating system on
+The [_compute_ component](../design/compute-component.html) represents the virtual machine (VM) and operating system on
 which a platform runs in operation. This section explains all the available data and features and explains some common 
 use cases: 
 
