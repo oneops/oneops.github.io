@@ -5,7 +5,8 @@ published: true
 authors: [mmoser]
 ---
 
-Another weekly release with a few smaller fixes for you from our diverse and distributed team.
+Another weekly release with a few smaller fixes for you from our diverse and distributed team and a gem of a new feature
+for our advanced users.
 
 <!--more-->
 
