@@ -13,6 +13,7 @@ use cases:
   - [Fix Unresponsive Computes](#fix-unresponsive-computes-with-reboot)
   - [Replace a Bad Compute](#replace-a-bad-compute)
   - [Upgrade OS Packages on a Compute](#upgrade-os-packages-on-a-compute)
+  - [Connect to Compute via SSH](#connect-to-compute-via-ssh)
 
 ## Overview
 
@@ -119,40 +120,11 @@ _upgrade-os-security_ to apply security-related upgrades only.
 All Kernel-related patch updates require a compute reboot. After the packages are installed, do a rolling reboot of
 computes.
 
+### Connect to Compute via SSH
 
+- Ensure that the platform for the compute you want to connect to includes a 
+[user component](../design/user-component.html) with the desired _Username_ and _Authorized Keys_.
+- If necessary, add the user component, pull the design in your environment and deploy.
+- Determine the _Public IP_ of the compute.
+- Connect with `ssh username@public_ip`.
 
-
-
-
-
-
-## ssh a VM
-i
-1. Go to your design.
-2. Modify the component user-app to add to the "Authorized Keys" attribute. 
-  
-    The value will be the public keys of the users (cat ~/.ssh/id_rsa.pub) who need to have ssh access to your VM. 
-  
-3. Add one key at a time and click plus sign to add for more users.
-4. Save the design changes and commit.
-5. Go to Transition.
-6. Click **pull the design** in the environment where the VM is.
-7. Deploy. (Only the user-app step is executed again.)
-8. At a successful deploy, you can log into the VM by doing ssh app@<ip-of-vm>.
-  
-
-## SSH to a Compute
-
-1. Go to your **Assembly** and select the **Edit the User** component (for example, `user_app`) to add your public keys to the Authorized Keys attribute.
-2. If your platform doesn’t have a user component, add one from the component panel on the right side by clicking the **+** next to the user.
-3. Get the public key of the user (`cat ~/.ssh/id_rsa.pub`) who needs to have SSH access to your compute (VM).
-4. Add one key at a time and click **+** to add more users.
-5. Save the design changes and click **Commit.** 
-6. Go to **Transition.** 
-7. In the environment where the VM is, click **Pull the design.** 
-6. Deploy the changes. (Only the user-app step is executed again.)
-7. At a successful deploy, you can SSH to the VM by entering:
-
-```
-$ ssh <user-name-you-chose>@<ip-of-vm>
-```
