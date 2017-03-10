@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Little One - OneOps Release 17.03.08-STABLE
-published: false
-authors: [klohia, mmoser]
+published: true 
+authors: [mmoser]
 ---
 
 Another weekly release with a few smaller fixes for you from our diverse and distributed team.
