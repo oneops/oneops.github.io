@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Compute Nodes in Operation
+title: Computes in Operation
 ---
 
 The [`compute` component](../design/compute-component.html) represents the virtual machine and operating system on
@@ -24,163 +24,82 @@ list of computes is displayed with specific information about the compute:
 Alternatively you can use [search](../general/search.html] to access one or a list of computes, find a compute via a
 [keyboard short cut](../general/user-interface.html) or access a compute via a [favorite](../general/favorites.html).
 
-You can select one or multiple computes and perform actions such as
+You can select one or multiple computes and perform actions:
 
-- reboot
-- repair
-- powercycle
-- apply-security-compliance
-- upgrade-os-security
-- upgrade-os-package
-- upgrade-os-all
-- status
-- list of IPs...
-- replace
-- undo replace
+- _reboot_: performs a software-based restart of the compute.<br>
+- _repair_: attempts restart the monitoring of the compute that caused it to report as unhealthy. If unsuccessful,
+proceed with a reboot automatically.<br>
+- _powercycle_: perform a hard restart of the compute.<br>
+- _apply-security-compliance_: <br>
+- _upgrade-os-security_: <br>
+- _upgrade-os-package_: <br>
+- _upgrade-os-all_: <br>
+- _status_: <br>
+- _list of IPs..._: show a list of the IP numbers of the selected computes<br>
+- _replace_: mark the compute for replacement. The actual replacement needs to be forced via a new deployment.<br>
+- _undo replace_: remove the 
 
 Clicking on the name of a specific compute allows you to navigate to the details view. It contains tabs related to
 
-- _summary_
-- configuration
-- monitors
-- notifications
-- procedures
-- logs
+- _summary_: <br>
+- _configuration_: <br>
+- _monitors_: <br>
+- _notifications_: <br>
+- _procedures_: <br>
+- _logs_: <br>
 
-## Example Use Case
+## Example Use Cases
 
 ### Find IP Number of a Compute
 
-Locate the compute in operation and look at the _public ip_ value.
+Locate the compute in operation and look at the _public ip_ value. 
 
-### Fix Unresponsive Compute
-
-To fix an unresponsive compute, follow these steps to reboot the compute:
-
-
-1. Issues a reboot action from the operations of the compute component.
-  
-    ![Reboot Compute](/assets/docs/local/images/reboot-compute.png)
-  
-2. If the compute does not respond after the reboot, replace the compute. For instructions on how to replace a compute, go to <a href="/user/operation/replace-a-bad-vm.html">Replace a Bad VM</a>.
-3. If it is not an option to replace the compute, contact your OneOps administrator for further assistance to bring the node up. 
+Note that a computes's IP Address may change. Avoid building any reliance on an IP address in your application or
+operations. Consider an IP Address transparent and changing like a process ID number PID. Whenever a compute goes
+through reboot, repair or replace activities, the compute may receive a new IP Address.
 
 
+### Fix Unresponsive Computes
 
+- Locate the computes of the desired platform in operation
+- Select the check boxes beside the names
+- Click on the _Action_ button on the right side on top of the list
+- Select _reboot_ in the dialog and confirm
 
+For a single compute you can:
 
-## Replace a Bad VM
+- Locate the compute 
+- Go to the _summary_ tab
+- Press on the _Choose Action to Execute_ button under the _Actions_ header
+- Select _Confirm_ in the dialog
+- If the compute does not respond after the reboot, try with a _repair_ action.
 
-Replacing a VM results in the loss of any data available with that VM, for example, log files etc. If you are replacing the VM for a Database or Cache, check with the respective teams before replacing the compute. Additionally, the IP address will change.
+![Reboot Compute](/assets/docs/local/images/reboot-compute.png)
 
-Below are the instructions to replace any VM instance when you need to. An example of when you might need to replace a bad VM would be if your team concludes that the failed VM instance cannot be restored for long time or ever. Replacements will generate new IP addresses so any time you do this you need to make sure the Nagios monitoring is adjusted.
+### Replace a Bad Compute
 
+Replacing a compute results in the loss of any data available with that VM, for example, log files etc. The new compute
+has new identifiers and attributes such as IP numbers are changed as well.
 
-1. Make sure that there is no active or pending deployment for the environment.
-2. Go to Operations and then to the compute instance that is unhealthy and needs to be replaced. 
-3. Select the **configuration** tab and click **Replace.** (Note that this only marks the VM for replacement in OneOps. It does not initiate the actual replacement immediately.)
-4. To replace multiple VMs at a time, repeat steps 2 and 3 for any VM you need to replace. Also, you can do step 5 and perform the replacements for some of them before doing others.
-  
-    **Bulk Replace:** As an alternative to repeating steps 2, 3, and 4, for every instance to be replaced, a multi-select bulk replace operation is available in the component (instance list). Any instance that is already marked for replacement has a purple marker. To do a replace for additional instances, multi-select the instances and then select **replace** from the top-right list menu. The process is exactly the same as selecting individual instances to be replaced. This step only marks/prepares the instances for replacements. The actual replacement is done with the steps below.
-  
-5. To generate a deployment plan with the replacements steps, go to Operations to the top of the environment summary page and click **Force Deploy.** (Items in the plan have the left green arrow icon in the deployment overlay.)
-6. Deploy.
+- Ensure that there is no active or pending deployment for the environment.
+- Follow the steps to fix unresponsive computes from above using the action _replace_.
+- Navigate to the environment's _summary_ tab.
+- Press the _Force Deploy_ button
+- Review the deploy plan in the dialog and press the _Deploy_ button.
 
->There is also an “Unreplace” button to unmark the VM should you change your mind before step (6). Once the deployment is kicked off, then it has to be completed.
-Obviously the success of the replacement depends on the state of the OpenStack cloud. If there is a bad hypervisor, the Elastic Cloud team needs to ensure that it is disabled so that any new VM replacements do not get allocated to it and fail.
+## Upgrade OS Packages on a Compute
 
+- Locate the compute in the list and select it 
+- Select the action _upgrade-os-package_ to upgrade a specific package.
+- Set the argument using the package name.
+- Press the _Start now_ button.
 
-
-
-
-## Update the Size of a Compute
-
-At this time, you can not update the size (Instance Types) of a compute from one type to other.  There are two ways to do an update if you want to update the compute.
-
-If all of the computes in your environment are the wrong type for a platform, follow these steps:
-
-
-1. Disable the entire platform.
-2. Commit and deploy.
-3. Enable the platform to commit and deploy.
-
-If some computes are deployed by means of a wrong selection or wrong commit, follow these steps:
-
-
-1. Go to the operation of the instance on the **configure** tab.
-2. Click **replace.**
-3. Commit and deploy.
-
-
-
-
-## Upgrade Specific OS Packages on a Compute
-
-
-To update Specific OS packages on a compute:
-
-1. Go to the operation phase of the OS component.
-2. Select the instance you want to update with the specific latest OS packages and click **Action**.
-    ![Upgrade Specific OS Package Compute](/assets/docs/local/images/upgrade-specific-os-package-on-compute.png)
-3. Select upgrade-os-package.
-4. Select the package that needs to be upgrade.
-5. Select the set size.
-6. Start the procedure.
-  
-    ![Upgrade Specific OS Package Compute New](/assets/docs/local/images/upgrade-specific-os-package-on-compute-new.png)
-
-**This will update the Specified OS packages to the new version available.**
-
-NOTE: All Kernel-related patch updates require a compute reboot. After the packages are installed, do a rolling reboot of computes.
-
-## See Also
-
-
-* <a href="/user/operation/reboot-computes.html">Reboot Computes</a>
-* To query the Kernel pkgs that are installed as part of this activity, use the 
-<a href="./grep-or-search-text-in-files-on-computes.html">Grep or Search Text in Files on Computes</a>
-
-
-## Update OS Packages on a Compute
-
-id: update-os-packages-on-a-compute
-
-To update OS packages on a compute:
+Alternatively select the _upgrade-os-all_ action to apply all upgrades and install any new required packages or 
+_upgrade-os-security_ to apply security-related upgrades only.
  
- 
-1. Go to the operation phase of the compute component.
-2. Select the computes you want to update with latest OS packages and click **Action.**
-  
-    ![Update OS Package Compute](/assets/docs/local/images/update-os-package-compute.png)
-  
-3. Select upgrade-os-all.
-4. Select the set size.
-5. Start the procedure.
-  
-    ![Update OS Package Compute New](/assets/docs/local/images/update-os-package-compute-new.png)
+All Kernel-related patch updates require a compute reboot. After the packages are installed, do a rolling reboot of
+computes.
 
-**This updates the existing OS packages to the new version available and also installs any new packages which are required.**
-
-NOTE: All Kernel-related patch updates require a compute reboot. After the packages are installed, do a rolling reboot of computes.
-
-
-## Update the Size of a Compute
-
-At this time, you can not update the size (Instance Types) of a compute from one type to other.  There are two ways to do an update if you want to update the compute.
-
-If all of the computes in your environment are the wrong type for a platform, follow these steps:
-
-
-1. Disable the entire platform.
-2. Commit and deploy.
-3. Enable the platform to commit and deploy.
-
-If some computes are deployed by means of a wrong selection or wrong commit, follow these steps:
-
-
-1. Go to the operation of the instance on the **configure** tab.
-2. Click **replace.**
-3. Commit and deploy.
 
 
 
@@ -233,24 +152,6 @@ where:
 * **compute_id:** Internal unique OneOps ciId of the compute instance
 
 Example:  portal-4349532-1-5107200
-
-
-
-## Find the IP Address for a Compute Node
-
-id: find-ip-address-for-compute-node
-
-To find the IP address of a compute node, follow these steps:
-
-
-1. Click **Operate.**
-2. Select the environment.
-3. Select the platform.
-4. Select the compute component from the list.
-5. To find the public IP field of each compute and select its **configuration** tab.
-
-CAUTION: A node's IP Address may change, so you need to make sure that you do not build in reliance on an IP address in your application or operations. Think of an IP Address in OneOps as a PID (a process ID number). Whenever a compute goes through repair or replace activities, the compute may come out with a new IP Address.
-
 
 
 ##  Fix Unresponsive Compute

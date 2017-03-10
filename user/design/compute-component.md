@@ -3,7 +3,7 @@ layout: user-doc
 title: Compute Component
 ---
 
-The [`compute` component](../design/compute-component.html) is of core importance and part of most platforms since it
+The `compute` component is of core importance and part of most platforms since it
 represents the virtual machine and operating system on which the platform runs.
 
 You can configure the compute component as part of your platform in design phase and specific to an environment in the
@@ -36,3 +36,24 @@ The _Compute Depends On_ and _Depend On Compute_ sections contain lists of relat
 The _attachements_ tab allows the configuration of [attachments](./attachments.html) associated to the compute.
 
 The _monitors_ tab can be used to configure compute-related [monitors](../operation/monitors.html).
+
+
+## Example Use Cases
+
+### Update the Size of a Compute
+
+At this time, you can not update the size (Instance Types) of a compute from one type to other. There are two ways to do an update if you want to update the compute.
+
+If all of the computes in your environment are the wrong type for a platform, follow these steps:
+
+
+1. Disable the entire platform.
+2. Commit and deploy.
+3. Enable the platform to commit and deploy.
+
+If some computes are deployed by means of a wrong selection or wrong commit, follow these steps:
+
+
+1. Go to the operation of the instance on the **configure** tab.
+2. Click **replace.**
+3. Commit and deploy.
