@@ -5,9 +5,9 @@ title: SSL Certificate Component
 
 # Introduction
 
-The _certificate_ component is part of every platform and can be used to add SSL support to the platform e.g. Tomcat,
-Apache or Elasticsearch. The _lb-certificate_ component is part of all platforms that provide redundancy via load
-balancing and adds SSL support for these scenarios.
+The _certificate_ [component](./components.html) is part of every platform and can be used to add SSL support to the
+platform e.g. Tomcat, Apache or Elasticsearch. The _lb-certificate_ component is part of all platforms that provide
+redundancy via load balancing and adds SSL support for these scenarios.
 
 Both components share the setup and allow you to configure a number of details about your SSL certificates. Locate the
 platform to which you want to add SSL certificate support and press the _+_ button beside the _certificate_ or the

@@ -3,7 +3,7 @@ layout: user-doc
 title: Java Component
 ---
 
-The _java_ [component](./components/html) represent the [Java](https://java.com/) environment available for platform
+The _java_ [component](./components.html) represent the [Java](https://java.com/) environment available for platform
 runtime usage.
 
 ## Attributes

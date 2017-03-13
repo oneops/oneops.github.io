@@ -3,7 +3,7 @@ layout: user-doc
 title: Cron Job Component
 ---
 
-The _job_ component is available in a number of platforms and can be used to execute specific
+The _job_ [component](./components.html) is available in a number of platforms and can be used to execute specific
 [cron](https://en.wikipedia.org/wiki/Cron) tasks on a regular schedule. Examples are _cassandra_, _es_ and many others.
 Typically it is configured as an optional component and can simply be activated by adding it with the _+_ button in the
 component list.
