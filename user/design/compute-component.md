@@ -40,7 +40,7 @@ The _monitors_ tab can be used to configure compute-related [monitors](../operat
 
 ## Example Use Cases
 
-### Update the Size of a Compute
+### Update the Size or OS of a Compute
 
 Changing a compute in design, like any other design change, requires you to:
 
@@ -55,5 +55,10 @@ platform. This however means that the application will be unavailable during the
 2. Commit and deploy.
 3. Enable the platform to commit and deploy.
 
-Alternatively you can change the configuration and _replace_ the [computes in operation](../operation/compute.html)
-with a step size of less than 100%, after you pulled the design changes to the environment
+Alternatively you can roll the change out via replacing computes:
+
+1. Change the configuration of the compute in design.
+2. Set the action to  _replace_ the [computes in operation](../operation/compute.html).
+3. Choose a step size of less than 100% for a rolling upgrade.
+4. Pull the design changes to the environment.
+5. Deploy to the environment.

@@ -14,6 +14,7 @@ use cases:
   - [Replace a Bad Compute](#replace-a-bad-compute)
   - [Upgrade OS Packages on a Compute](#upgrade-os-packages-on-a-compute)
   - [Connect to Compute via SSH](#connect-to-compute-via-ssh)
+  - [Update the Size or OS of a Compute](#update-the-size-or-os-of-a-compute)
 
 ## Overview
 
@@ -128,3 +129,7 @@ computes.
 - Determine the _Public IP_ of the compute.
 - Connect with `ssh username@public_ip`.
 
+### Update the Size or OS of a Compute
+
+An update to the compute configuration including size, OS and others needs to be done
+[in the design phase and then deployed](../design/compute-component).
