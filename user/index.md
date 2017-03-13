@@ -31,7 +31,7 @@ cloud-based infrastructure. You can expect:
 * Faster SDLC due to consistency between environments ,see [Design Phase](#design-phase)
 * Improved end-to-end process, not just individual steps,see [lifecycle](/user/general/key-concepts.html#lifecycles)
 * Operational Efficiency, see [Operations Phase](#operations-phase)
-* Platform re-usability via best practices, see [Packs/Circuits](/user/design/platform-packs.html)
+* Platform re-usability via best practices, see [Packs](/user/design/packs.html)
 * Real-time resource utilization via auto-scale, see [auto-scale](/user/operation/auto-scale.html)
 and [Monitors](/user/operation/monitors.html)
 * Application-driven access control policies, see [Teams in Organization](/user/account/create-a-team-in-an-organization.html)

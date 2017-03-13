@@ -179,7 +179,7 @@ Packs also contain configuration for:
     * `secured_by`
 
 Packs are used to define OneOps platforms. For example: 
-<a href="/user/design/platform-packs.html">Tomcat, Apache, NodeJS, Couchbase, Postgres,</a> etc.
+<a href="/user/design/packs.html">Tomcat, Apache, NodeJS, Couchbase, Postgres,</a> etc.
 
 ![Packs](/assets/docs/local/images/packs.png)
 
