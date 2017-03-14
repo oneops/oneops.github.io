@@ -49,7 +49,7 @@ Changing a compute in design, like any other design change, requires you to:
 - Deploy the environment.
 
 > <i class="fa fa-exclamation fa-5x orange"></i> If you are changing a compute configuration like size or a related
-setting all deployed instances [have to be flagged for __replace__ment](../operation/compute.html).
+setting all deployed instances [have to be flagged to be __replaced__](../operation/compute.html).
 
 To roll out a change you need to either disable and re-enable the whole platform perform a rolling replacment.
 
