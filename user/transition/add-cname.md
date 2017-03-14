@@ -16,7 +16,7 @@ You can create your own endpoints by adding short or full CNAMEs.
 The first approach is to add a short CNAME with the following steps:
 
 
-1. In the Transition view of your platform, go to the QDN component.
+1. In the Transition view of your platform, go to the FQDN component.
 2. Click **edit.**
 3. Enter a single word for a short CNAME alias.
 4. Save the change.
