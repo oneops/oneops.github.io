@@ -12,6 +12,6 @@ configures, and manages the software.
 
 Pack documentation beyond the components with specific details and use cases is available for the following packs:
 
-- [Apache HTTP Server Pack](./apacche-http-server-pack.html)
+- [Apache HTTP Server Pack](./apache-http-server-pack.html)
 - [Apache Tomcat Pack](./apache-tomcat-pack.html)
 
