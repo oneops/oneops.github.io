@@ -55,9 +55,11 @@ To roll out a change you need to either disable and re-enable the whole platform
 
 A platform wide approach means that the application will be unavailable during the procedure.
 
-1. Disable the entire platform.
-2. Commit and deploy.
-3. Enable the platform to commit and deploy.
+1. Change the configuration of the compute in design.
+2. Set the action to  _replace_ all the [computes in operation](../operation/compute.html).
+3. Disable the entire platform.
+4. Commit and deploy.
+5. Enable the platform to commit and deploy.
 
 Alternatively you can roll the change out via replacing computes:
 
