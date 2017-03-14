@@ -21,9 +21,11 @@ Any component additions or configuration changes need to be deployed to take eff
 
 Specific documentation is available for the following components:
 
+- [Apache HTTP Server Component](./apache-http-server-component.html)
 - [Compute Component](./compute-component.html)
 - [Cron Job Component](./cron-job-component.html)
 - [Java Component](./java-component.html)
 - [Keystore Component](./keystore-component.html)
 - [SSL Certificate Component](./ssl-certificate-component.html)
 - [User Component](./user-component.html)
+- [Website Component](./website-component.html)
