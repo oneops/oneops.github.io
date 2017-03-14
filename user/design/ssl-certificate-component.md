@@ -3,8 +3,6 @@ layout: user-doc
 title: SSL Certificate Component
 ---
 
-# Introduction
-
 The _certificate_ [component](./components.html) is part of every platform and can be used to add SSL support to the
 platform e.g. Tomcat, Apache or Elasticsearch. The _lb-certificate_ component is part of all platforms that provide
 redundancy via load balancing and adds SSL support for these scenarios.
@@ -14,7 +12,7 @@ platform to which you want to add SSL certificate support and press the _+_ butt
 _lb-certificate_ component as desired and provide the necessary details: 
 
 
-# Attributes
+## Attributes
 
 _Name_: name for the certificate<br>
 _Auto Generate_: flag to enable automatic certificate generation<br>
@@ -29,7 +27,7 @@ are alerted about upcoming certificate expiries.<br>
 _Directory path_: path where the certificate file is saved<br>
 
 
-# Automatic Certificate Generation
+## Automatic Certificate Generation
 
 Automatic generation and provisioning of certificates can be enabled with the _Auto Generate_ flag. It relies on the
 integration with a certificate management web service as a cloud service as part of the OneOps deployment modeled.
@@ -42,7 +40,7 @@ service so that it can be inserted into the certificate<br/>
 Once generated, the certificate is downloaded and its data is used for the values of the attributes _Key_,
 _Certificate_, _SSL CA Certificate Key_ and _Time remaining to expiry_.
 
-# Monitoring
+## Monitoring
 
 A Nagios monitoring script is generated for the time remaining until the expiry in each environment for certificates.
 The created monitoring data is available on the _monitors_ tab of the certificate component in the platform deployed in
@@ -54,10 +52,5 @@ an automatic replacement of the certificate with a new auto-provisioned certific
 
 Monitoring and automatic replacement is not supported for non-managed certificates like the `lb-certificates`.
 
-# Example - Enable SSL on Tomcat
 
-1. Locate your Tomcat platform in your assembly
-2. Add a _certficate_ component and configure it.
-3. Add a _keystore_ component and [configure it](./keystore-component.html).
-4. Configure the _SSL Port_ in your _tomcat_ component as needed. The default is 8443.
 

@@ -11,10 +11,12 @@ as a platform in their assembly.
 
 ## Examples
 
+### Configure Tomcat HttpConnector Attributes
 
-### Configure Tomcat HttpConnector Attributes in Oneops
+To add attributes to a connector element or change the default value of a connector attribute, follow the steps below.
+For additional details, refer to 
+[the Tomcat Connection documentation](http://tomcat.apache.org/tomcat-7.0-doc/config/http.html").
 
-To add attributes to a connector element or change the default value of a connector attribute, follow the steps below. For additional details, refer to <a href="http://tomcat.apache.org/tomcat-7.0-doc/config/http.html" target="_blank">Tomcat Connector</a>.
 
 
 1. Go to the Tomcat configuration in your design.
@@ -69,106 +71,39 @@ Currently you can not add multiple connectors to Tomcat. It is important to test
 
 The SSL connector is only configured, if you have KeyStore and certificate optional component. For instructions on how to enable SSL, refer to <a href="/user/design/ssl-certificate-component.html">SSL Certificate Component</a>
 
-### catalina.out in Tomcat
+### Log file catalina.out
 
-* System.out and System.err are both redirected to catalina.out by default, in the Tomcat container.
-* If the Console appender is on the log4j, the Console appender redirects the System.out to catalina.out.
-* The location of log files is determined by "LogFilesPath". (Check the value /assembly/ (design|transition)/<tomcatplatform>/tomcat.) By default, the location of catalina.out in the Tomcat pack, is/log/apache-tomcat. (It is not recommended to change this default.)
+The default log file for Tomcat is `catalina.out` and both `System.out` and `System.err`  are redirected to it. The location
+of the file is configured via _LogFilesPath_ and defaults to `/log/apache-tomcat`. The system logrotate is used to control
+the rotation and retention on the basis of eight days or 2GB per compute. 
 
-![Tomcat Logfiles Path](/assets/docs/local/images/tomcat-logfiles-path.png)
+Keep in mind that compute storage is ephemeral and log as therefore not kept. For all critical application logging and
+statistics gathering usage of _logmon_ is recommended.
 
+### SSL Termination for Tomcat 
 
-* The rotation/retention policy on the Tomcat catalina.out is controlled by logrotate. By default, the rotation is done on the basis of eight days or 2GB/VM.
-* Do not rely on the log files on the compute because the compute storage is ephemeral.
-* All application logging /stats should be done with the recommended logmon.
+SSL configuration for Tomcat is similar to the usage with the [apache pack](./apache-http-server-pack.html) relying on 
+the [certificate component](./ssl-certificate-component.html). As a Java application, Tomcat also requires configuration
+of the [keystore component](./keystore-component.html).
 
-### How to enable HTTPS on Tomcat in OneOps
+#### At Load Balancer
 
-This section summarizes steps to enable HTTPS on Tomcat in OneOps.
+In this method communication from client to the load balancer is encrypted (HTTPS), but the communication from load 
+balancer to Tomcat is server is in clear text (HTTP).
 
-Prerequisites:
+1. Add a new _lb-certificate_ component to the _tomcat_ platform design and configure the certificate details.
+2. Disable the _Enable TLSv1_ configuration on the _tomcat_ component.
+3. Add a load balancer _lb_ component and set the _Listeners_ to `https 443 http 8080`.
+4. Commit the design changes and proceed with [deployment as usual](./component.html).
 
-* Basic Understanding of OneOps
-* OneOps Access & Capacity
-* A Tomcat Design
-* A valid certificate
-    * Include Private Key
-    * Inclue Root Chain
-    * Chain Order: End-entity first
-    * Format: Base64 (OpenSSL)
-    * Password: create a password
-
-
-#### Option 1: SSL Termination at Load Balancer
-
-In this method communication from client to the load balancer is encrypted (HTTPS), but the communication from load balancer to Tomcat is server is in clear text (HTTP).
-
-#### Option 2:SSL Termination at Tomcat
+### Directly at Tomcat 
 
 In this method communication is encrypted from client to load balancer (HTTPS) and from load balancer to Tomcat (HTTPS).
 
-## Option 1 Instructions
-
-
-1. Login to OneOps
-2. Go to the Design phase of your Tomcat platform
-3. Add a new lb-certificate
-    * Save with the default values.
-    * Do not enter any certificate details here. You will enter that information in the Transition phase.
-4. Configure Tomcat Component
-    * Click on your Tomcat Component
-    * Press the Edit button
-    * Disable TLSv1(Enable TLSv1 = Disabled)
-5. Save & Commit
-6. Go to your environment in the Transition phase
-    * Note the steps in the transition phase will have to be performed for each environment used by this Tomcat platform.
-7. Click on your Tomcat platform
-8. Configure lb-certificate component
-    * Click on your lb-certificate component
-    * Open your certificate pem file you downloaded from Venafi in a text editor (Textpad, Notepad++, Atom, etc.)
-    * Fill in the lb-certificate fields as shown in the image.
-    * Press the lock icon beside each field you modified to prevent future design pulls from overwriting the values.
-    * Save 
-9. Configure lb-component
-    * Click on the lb-component
-    * Listeners = "https 443 http 8080"
-    * You must replace the existing listener settings for non-SSL. Do not add a 2nd listener. OneOps will allow you to deploy a lb component will multiple listeners, but the app will only respond on one of them.
-    * ECV = change your ECV to use port 8080
-    * Press the lock icon beside fields you modified to prevent future design pulls from overwriting the values.
-    * Save
-10. Deploy your application
-
-## Option 2 Instructions 
-
-
-1. Perform all the steps from Option 1 excluding step 9 "Configure lb-component".
-2. Go to Design phase of your Tomcat platform
-3. Add a new certificate component
-    * Save with the default values.
-    * Do not enter any certificate details here. You will enter that information in the Transition phase.
-4. Add a new keystore component
-    * Set a password. It does not have to match the password for your certificate.
-5. Configure Tomcat Component
-    * Click on your Tomcat Component
-    * Press the Edit button
-    * Disable HTTP Connector (Enable HTTP Connector = Disabled)
-6. Save and Commit
-7. Go to your environment in the Transition phase
-    * Note the steps in the transition phase will have to be performed for each environment used by this Tomcat platform.
-8. Pull your design
-9. Click on your Tomcat platform
-10. Configure certificate component
-    * Click on your certificate component
-    * Open your certificate pem file you downloaded from Venafi in a text editor (Textpad, Notepad++, Atom, etc.)
-    * Fill in the certificate fields in the same way you did for the lb-certificate in the Option 1. See the image in that section.
-    * Press the lock icon beside each field you modified to prevent future design pulls from overwriting the values.
-    * Save
-11. Configure lb-component
-    * Click on the lb-component
-    * Listeners = "ssl_bridge 443 ssl_bridge 8443"
-    * You must replace the existing listener settings for non-SSL. Do not add a 2nd listener. OneOps will allow you to deploy a lb component will multiple listeners, but the app will only respond on one of them.
-    * ECV = change your ECV to use port 8443
-    * Press the lock icon beside fields you modified to prevent future design pulls from overwriting the values.
-    * Save
-12. Deploy your application
+2. Add a new _certficate_ component to the _tomcat_ platform in design and configure the certificate.
+3. Add a _keystore_ component and [configure it](./keystore-component.html).
+4. Configure the _SSL Port_ in your _tomcat_ component as needed. The default is 8443.
+5. If desired, disable the _HTTP Connector_ in the _tomcat_ component.
+6. Add a load balancer _lb_ component and set the _Listeners_ to `ssl_bridge 443 ssl_bridge 8443`.
+7.Commit the design changes and proceed with [deployment as usual](./component.html).
 

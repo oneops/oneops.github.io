@@ -26,6 +26,6 @@ Specific documentation is available for the following components:
 - [Cron Job Component](./cron-job-component.html)
 - [Java Component](./java-component.html)
 - [Keystore Component](./keystore-component.html)
-- [SSL Certificate Component](./ssl-certificate-component.html)
+- [SSL CertificateComponent](./ssl-certificate-component.html)
 - [User Component](./user-component.html)
 - [Website Component](./website-component.html)
