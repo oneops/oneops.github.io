@@ -48,8 +48,13 @@ Changing a compute in design, like any other design change, requires you to:
 - Pull the design to the environment.
 - Deploy the environment.
 
-If you are changing a compute configuration, the result is that you need to either disable and re-enable the whole 
-platform. This however means that the application will be unavailable during the procedure.
+> <i class="fa fa-exclamation fa-5x orange"></i> If you are changing a compute configuration like size or a related
+setting like the operating system in the `os` component, all deployed instances
+[have to be flagged for replacement](../operation/compute.html)
+
+To roll out a change you need to either disable and re-enable the whole platform perform a rolling replacment.
+
+A platform wide approach means that the application will be unavailable during the procedure.
 
 1. Disable the entire platform.
 2. Commit and deploy.
@@ -58,7 +63,7 @@ platform. This however means that the application will be unavailable during the
 Alternatively you can roll the change out via replacing computes:
 
 1. Change the configuration of the compute in design.
-2. Set the action to  _replace_ the [computes in operation](../operation/compute.html).
+2. Set the action to  _replace_ all the [computes in operation](../operation/compute.html).
 3. Choose a step size of less than 100% for a rolling upgrade.
 4. Pull the design changes to the environment.
 5. Deploy to the environment.
