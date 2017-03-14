@@ -27,6 +27,15 @@ are alerted about upcoming certificate expiries.<br>
 _Directory path_: path where the certificate file is saved<br>
 
 
+These tips will help determining the correct certificate when receiving the certificate as a `pem` file:
+
+* Certificate is the first section from the certificate pem file.
+* SSL CA Certificate Key is comprised of section 2 and 3 from the certificate pem file.
+* _Key_ is the 4th section from your certificate pem file starting with `-----BEGIN CERTIFICATE-----` and ending with
+`-----END CERTIFICATE-----` inclusive.
+* Use `openSSL rsa -in filename.pem -out filename.key` to create a key file from the pem file to determine the
+_SSL Certificate Key_ field value.
+
 ## Automatic Certificate Generation
 
 Automatic generation and provisioning of certificates can be enabled with the _Auto Generate_ flag. It relies on the

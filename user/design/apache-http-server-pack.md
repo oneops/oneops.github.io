@@ -27,9 +27,10 @@ Running a website with Apache HTTP server can be implemented with a few simple s
   - Provide a _Source URL_ that points at an archive file with the contents of your website
   - The _Destination Path_ determines the temporary location of the archive.
   - Use _Execute Command_ to configure how to extract the archive file.
-  - The content is downloaded with root ownership and 600 permissions. 
+  - The content is downloaded with root ownership and 600 permissions.
   - Add commands to ensure the webserver user (typically `apache`) can access the files with `chown` and `chmod`.
-5 Configure the _Run on Events_ to determine, when the content should be downloaded. Recommended values are After Add, After Replace, After Update, On Demand.
+5 Configure the _Run on Events_ to determine, when the content should be downloaded. Recommended values are After Add,
+After Replace, After Update, On Demand.
 6.Commit the design changes and proceed with [deployment as usual](./components.html).
 
 Apache HTTP Server does not automatically restart if you make additional changes & deployments after the initial
@@ -43,7 +44,10 @@ encrypted to the load balancer and is clear text from load balancer to web serve
 
 The more advanced Option 2 encrypts the traffic all the way to the web server and its configuration follows below.
 
-After configuring the Apache HTTP Server platform you need to obatin a valid certificate with the following
+General tips about SSL certificate usage can be found in the
+[SSL certificate component documentation](./ssl-certificate-component.html).
+
+After configuring the Apache HTTP Server platform you need to obtain a valid certificate with the following
 characteristics:
 
 * Include Private Key: Enabled
@@ -52,20 +56,10 @@ characteristics:
 * Format: Base64 (OpenSSL)
 * Password: create a password
 
-
 1. Change the the _Listen Port_ on the _website_ component to 443 and enable _SSL_.
 2. Turn _Enable TLSv1_ the configuration of the _apache_ component off and remove 80 from the _Listen Ports_.
 3. Add the certificate details in design to use the same certificate for all environment, or in transition for each
 environment separate as desired. 
 5. Add a _lb-certificate_ and _certificate_ component and configure the certificate.
 6.Commit the design changes and proceed with [deployment as usual](./components.html).
-
-These tips will help determining the correct certificate related values:
-
-* Certificate si the first section from the certificate pem file.
-* SSL CA Certificate Key is comprised of section 2 and 3 from the certificate pem file.
-* _Key_ is the 4th section from your certificate pem file starting with `-----BEGIN CERTIFICATE-----` and ending with 
-`-----END CERTIFICATE-----` inclusive.
-* Use `openSSL rsa -in filename.pem -out filename.key` to create a key file from the pem file to determine the 
-_SSL Certificate Key_ field value.
 
