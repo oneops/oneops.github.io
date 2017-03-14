@@ -8,15 +8,17 @@ title: Apache HTTP Server Pack
 The _Apache_ [pack](./packs.html) provides the user with the ability to use the 
 [Apache HTTP Server](http://httpd.apache.org/) as a platform in their assembly.
 
+The main components involved are: 
+
+- the [website component](./website-component.html) for the actual content
+- the [Apache HTTP Server component](./apache-http-server-component.html) for the server configuration
 
 ## Examples
 
 ### Deploy a Website with Apache HTTP on OneOps
 
-# Scenario Context
-This will guide you thru deploying a simple Apache HTTP Server site.
+Prerequisites:
 
-# Prerequisites
 * Basic Understanding Of OneOps
 * OneOps Access & Capacity
 * Your site's content must be stored in a repository such as Nexus. OneOps will download the content during deployment.
@@ -105,9 +107,11 @@ Apache HTTP Server does not automatically restart if you make additional changes
 ### Enable HTTPS on Apache HTTP On OneOps
 
 
-With Apache HTTP Server in OneOps you have 2 options in configuring HTTPS. Options 1 terminates SSL at the load balancer. So the traffic is only encrypted to the load balancer and is clear test from load balancer to web server. Option 2 encrypts the traffic all the way to the web server.  This tutorial provides the steps for Option 2. 
+With Apache HTTP Server in OneOps you have 2 options in configuring HTTPS. Options 1 terminates SSL at the load
+balancer. So the traffic is only encrypted to the load balancer and is clear test from load balancer to web server.
+Option 2 encrypts the traffic all the way to the web server.  This tutorial provides the steps for Option 2. 
 
-# Prerequisites
+Prerequisites:
 
 * Basic Understanding Of OneOps
 * OneOps Access & Capacity
@@ -119,7 +123,7 @@ With Apache HTTP Server in OneOps you have 2 options in configuring HTTPS. Optio
     * Format: Base64 (OpenSSL)
     * Password: create a password
 
-# Enable HTTPS
+#### Enable HTTPS
 
 **These instructions assume you already have a working Apache HTTP Server platform and just need to enable HTTPS.**
 
