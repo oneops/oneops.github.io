@@ -947,7 +947,6 @@ blockquote {
 
 blockquote:before {
   padding-right: 0.5em;
-  content: "NOTE: ";
   color: #f75000;
   font-weight: 500;
   text-transform: uppercase; }
