@@ -30,7 +30,7 @@ Running a website with Apache HTTP server can be implemented with a few simple s
   - The content is downloaded with root ownership and 600 permissions. 
   - Add commands to ensure the webserver user (typically `apache`) can access the files with `chown` and `chmod`.
 5 Configure the _Run on Events_ to determine, when the content should be downloaded. Recommended values are After Add, After Replace, After Update, On Demand.
-6.Commit the design changes and proceed with [deployment as usual](./component.html).
+6.Commit the design changes and proceed with [deployment as usual](./components.html).
 
 Apache HTTP Server does not automatically restart if you make additional changes & deployments after the initial
 deployment. Ensure to restart the webserver in operations to load any content changes.
@@ -58,7 +58,7 @@ characteristics:
 3. Add the certificate details in design to use the same certificate for all environment, or in transition for each
 environment separate as desired. 
 5. Add a _lb-certificate_ and _certificate_ component and configure the certificate.
-6.Commit the design changes and proceed with [deployment as usual](./component.html).
+6.Commit the design changes and proceed with [deployment as usual](./components.html).
 
 These tips will help determining the correct certificate related values:
 
