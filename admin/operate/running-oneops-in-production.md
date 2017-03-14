@@ -28,8 +28,6 @@ You can deploy like
 |opsmq|OpsMQ|
 |daq|Cassandra|
 
-See also <a href="../general/key-concepts.html">architecture-diagram</a>
-
 
 ## Use Command Line Interface
 * Install OneOps CLI to perform any control actions from command line or search.

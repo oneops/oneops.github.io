@@ -19,7 +19,4 @@ Some of the use case for variables would be:
 
 > The variables are de-referenced during the deployment plan generation on OneOps and  by the time the attribute is passed to the cookbook (workorder) it’s already substituted
 
-See also:
-
-* <a href="/user/design/variables.html">Variables</a>
  

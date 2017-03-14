@@ -67,8 +67,5 @@ To create an environment, follow these steps:
 
 13. Review the deployment steps and then click **Deploy.**
 
-# See Also
 
-* To get details for your instances, check logs and health, or for controls, go 
-to <a href="/user/operation/operations-reference.html">Operations</a>.
 

@@ -145,12 +145,7 @@ href="http://docs.spring.io/spring-framework/docs/3.0.5.RELEASE/api/org/springfr
 target="_blank">Spring Listener Container</a> and <a href="https://commons.apache.org/proper/commons-exec/"
 target="_blank">Apache Commons Exec</a> for process execution.
 
-Inductor can be installed via oneops-admin gem  .
-
-See Also
-
-* <a href="/admin/operate/build-install-configure-an-inductor.html">Installing Inductor</a>
-* <a href="/admin/operate/inductor.html">CookBook execution</a>
+Inductor can be installed via oneops-admin gem.
 
 ## Workorders
 
