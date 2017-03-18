@@ -123,6 +123,9 @@ computes.
 
 ### Connect to Compute via SSH
 
+You can ssh into a compute VM once you have ensured that your certificate is trusted. This allows you to inspect the
+current state of the compute and investigate problems and other aspects of the compute configuration at runtime:
+
 - Ensure that the platform for the compute you want to connect to includes a 
 [user component](../design/user-component.html) with the desired _Username_ and _Authorized Keys_.
 - If necessary, add the user component, pull the design in your environment and deploy.
