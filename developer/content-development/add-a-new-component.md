@@ -1,5 +1,5 @@
 ---
-layout: admin-doc
+layout: dev-doc
 title: Add a New Component
 ---
 
