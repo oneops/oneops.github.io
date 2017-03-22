@@ -43,12 +43,12 @@ By default these .Net frameworks will be installed on the VM:
 
 ## mssql component
 This component configures the following attributes of MS SQL Server installation:
-*MS SQL Server version and edition - currently only 2014 Enterprise is supported
-*sa Password - make sure to specify a strong password, otherwise the installation will fail.
-*TempDB data directory - default is T:\MSSQL
-*TempDB log directory - default is T:\MSSQL
-*User db data directory - default is F:\MSSQL\UserData
-*User db data directory - default is F:\MSSQL\UserLog
+* MS SQL Server version and edition - currently only 2014 Enterprise is supported
+* sa Password - make sure to specify a strong password, otherwise the installation will fail.
+* TempDB data directory - default is T:\MSSQL
+* TempDB log directory - default is T:\MSSQL
+* User db data directory - default is F:\MSSQL\UserData
+* User db data directory - default is F:\MSSQL\UserLog
 
 Note: if OneOps deployment fails at mssql step most likely the error message will not be descriptive enough. 
 In that case please RDP or SSH to the VM and investigate the content of installation logs.
