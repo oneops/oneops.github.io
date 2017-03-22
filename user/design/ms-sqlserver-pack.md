@@ -8,8 +8,8 @@ the user with the ability to use [Microsoft SQL Server](https://www.microsoft.co
 assembly.
 
 ## Platform variables
-* data_drive - drive letter for persistent storage, used to hold user data and log files. Default is "F".
-* temp_drive - drive letter for ephemeral storage, used to hold tempdb data and log files. Default is "T".
+* data_drive - drive letter for persistent storage, used to hold user data and log files. Default is `F`.
+* temp_drive - drive letter for ephemeral storage, used to hold tempdb data and log files. Default is `T`.
 
 ## Secgroup component
 By default this component is configured to allow all incoming traffic to these TCP ports:
@@ -19,10 +19,10 @@ By default this component is configured to allow all incoming traffic to these T
 If you're planning to use custom ports for your Sql Server instance, please add them here.
 
 ## Compute component
-Default compute size is "M-Win"
+Default compute size is `M-Win`
 
 ## OS component
-Default OS Type is "Windows 2012 R2". 
+Default OS Type is `Windows 2012 R2`. 
 
 ## vol-temp component
 This is a volume component used to specify details for the ephemeral storage that comes with the VM.
@@ -43,12 +43,12 @@ By default these .Net frameworks will be installed on the VM:
 
 ## mssql component
 This component configures the following attributes of MS SQL Server installation:
-* MS SQL Server version and edition - currently only 2014 Enterprise is supported
-* sa Password - make sure to specify a strong password, otherwise the installation will fail.
-* TempDB data directory - default is T:\MSSQL
-* TempDB log directory - default is T:\MSSQL
-* User db data directory - default is F:\MSSQL\UserData
-* User db data directory - default is F:\MSSQL\UserLog
+* `MS SQL Server version and edition` - currently only 2014 Enterprise is supported
+* `sa Password` - make sure to specify a strong password, otherwise the installation will fail.
+* `TempDB data directory` - default is T:\MSSQL (via platform variable `temp_drive`)
+* `TempDB log directory` - default is T:\MSSQL (via platform variable `temp_drive`)
+* `User db data directory` - default is F:\MSSQL\UserData (via platform variable `data_drive`)
+* `User db data directory` - default is F:\MSSQL\UserLog (via platform variable `data_drive`)
 
 Note: if OneOps deployment fails at mssql step most likely the error message will not be descriptive enough. 
 In that case please RDP or SSH to the VM and investigate the content of installation logs.
@@ -57,5 +57,5 @@ Add `user` component to your design to create a local account with specified SSH
 
 ## database component
 This component creates a user database, login and a database user with db_owner rights in that database.
-Please note that `Instance Name` attribute is actually for specifying database name, not the instance name. 
-If creating a Sql Server login (not from Windows domain account), please specify strong password. 
+Please note that the `Instance Name` attribute is actually for specifying a database name. 
+If creating a Sql Server login (not from Windows domain account), please specify a strong password. 
