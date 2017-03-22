@@ -14,4 +14,5 @@ Pack documentation beyond the components with specific details and use cases is 
 
 - [Apache HTTP Server Pack](./apache-http-server-pack.html)
 - [Apache Tomcat Pack](./apache-tomcat-pack.html)
+- [Microsoft SQL Server Pack](./ms-sqlserver-pack.html)
 
