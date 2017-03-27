@@ -38,12 +38,12 @@ balancer to Tomcat is server is in clear text (HTTP).
 
 In this method communication is encrypted from client to load balancer (HTTPS) and from load balancer to Tomcat (HTTPS).
 
-2. Add a new _certficate_ component to the _tomcat_ platform in design and configure the certificate.
-3. Add a _keystore_ component and [configure it](./keystore-component.html).
-4. Configure the _SSL Port_ in your _tomcat_ component as needed. The default is 8443.
-5. If desired, disable the _HTTP Connector_ in the _tomcat_ component.
-6. Add a load balancer _lb_ component and set the _Listeners_ to `ssl_bridge 443 ssl_bridge 8443`.
-7.Commit the design changes and proceed with [deployment as usual](./components.html).
+1. Add a new _certficate_ component to the _tomcat_ platform in design and configure the certificate.
+2. Add a _keystore_ component and [configure it](./keystore-component.html).
+3. Configure the _SSL Port_ in your _tomcat_ component as needed. The default is 8443.
+4. If desired, disable the _HTTP Connector_ in the _tomcat_ component.
+5. Add a load balancer _lb_ component and set the _Listeners_ to `ssl_bridge 443 ssl_bridge 8443`.
+6. Commit the design changes and proceed with [deployment as usual](./components.html).
 
 ## Example - Configure Tomcat HttpConnector Attributes
 
@@ -52,9 +52,9 @@ For additional details, refer to
 [the Tomcat Connection documentation](http://tomcat.apache.org/tomcat-7.0-doc/config/http.html").
 
 1. Go to the Tomcat configuration in your design.
-2. Change the protocol to what is appropriate for your application or port. (Normally you would do this in design.) The default value is the same as the Tomcat default which is `'HTTP/1.1'`.
+2. Change the protocol to what is appropriate for your application or port - Normally done in design. The default value is the same as the Tomcat default which is `'HTTP/1.1'`.
 
-    |Key 'HTTP/1.1'                 | Value 'HTTP/1.1'                            |
+|Key 'HTTP/1.1'                 | Value 'HTTP/1.1'                            |
 |-------------------------------|---------------------------------------------|
 |Blocking Java connector        |   org.apache.coyote.http11.Http11Protocol   |
 |Non blocking Java connector    |   org.apache.coyote.http11.Http11NioProtocol|
