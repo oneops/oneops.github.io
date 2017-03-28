@@ -8,10 +8,18 @@ and provides the user with the ability to use [Microsoft IIS](https://www.iis.ne
 
 There are several main components of the IIS Pack and each are addressed below.
 
-## compute Component
+## compute Component and os Component
 
-The [compute component](./compute-component.html) is required to be use the Windows operating system. The compute defines
-the size e.g. to `M-WIN` as defined in your local instane of OneOps.
+The [_compute_ component](./compute-component.html) is required to be using the Windows operating system as defined in
+the _os_ component. The compute defines the size e.g. to `M-WIN` as defined in your local instance of OneOps. 
+
+The os component is used to configure operating system-level attributes like ntp service, installing required ruby gems
+and others. The main attribute is _OS type_, which defaults to _Windows 2012 R2_.
+
+## volume Component
+
+The volume component adds a volume/drive to the computes. Only _Size_ and _Mount Point_, equivalent to the drive letter,
+are the important attributes for Windows computes. Other attributes are ignored. The _Mount Point_ should be set to _E_.
 
 ## dotnetframework Component
 
@@ -139,17 +147,6 @@ Repository Nuget package name | This should be same as the name of package in th
 Identifier | Url of the nuget package in nexus | Eg: http://repo.xxx.com/service/local/repositories/nuget-snapshots/CCMSampleWebApp/1.0.0/CCMSampleWebApp-1.0.0.nupkg
 Version |The version of the nuget package. | Eg: 1.0.0
 Install Directory | Directory path where the artifact will be downloaded and versions will be kept | Default value: e:\platform_deployment
-
-## volume Component
-
-Used to add a volume/drive to your compute.
-Size and Mount Point(drive letter) are the important attributes for Windows VM's. The rest of the attributes are ignored.
-Mount Point should be set to E.
-
-## os Component
-
-Used to configure OS level attributes like ntp service, installing required ruby gems, etc.
-The important attribute of OS component is OS type. OS Type Default Value: Windows 2012 R2.
 
 ## Other optional components
 
