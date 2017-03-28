@@ -6,27 +6,28 @@ title: Microsoft IIS Pack
 The _iis_ [pack](./packs.html) is available as _Internet Information Services(IIS)_ in the _Web Application_ section
 and provides the user with the ability to use [Microsoft IIS](https://www.iis.net/) as a platform in their assembly.
 
-
 There are several main components of the IIS Pack and each are addressed below.
 
-### compute Component
-Used to define the Windows VM compute size.
-Default compute size: M-WIN (defined in your local instance of OneOps).
-Please refer to the [compute component](./compute-component.html) for additional info.
+## compute Component
 
-### dotnetframework Component
-Used to install different .net frameworks on windows compute/node.
-This component uses Chocolatey to install .net frameworks.
+The [compute component](./compute-component.html) is required to be use the Windows operating system. The compute defines
+the size e.g. to `M-WIN` as defined in your local instane of OneOps.
+
+## dotnetframework Component
+
+The dotnetframework component control the configuration and installation of one or multiple .Net frameworks. It uses
+Chocolatey for the installation.
 
 Attribute | Description | Notes
 --------- | ----------- | ---------------------
 Package url | Url of the chocolatey repository | Default Package URL: https://chocolatey.org/api/v2/.  Add the url of the chocolatey package source, this will be overridden if mirror cloud service has been defined.  In the mirror cloud service the key to used be is "chocorepo".
 Net Framework version | Add the .Net framework version details | Format: .Net framework version = chocolatey package name.  (Ex.  .Net 3.5 = dotnet3.5) Default Net Framework versions: .Net 3.5 = dotnet3.5,   .Net 4.5.2 = dotnet4.5.2
 
-### iis-framework Component
+## iis-framework Component
+
 Used to define the website, application pool and configure different attributes in IIS.
 
-##### IIS Website section
+### IIS Website section
 
 Attribute | Description | Notes
 --------- | ----------- | ---------------------
@@ -38,7 +39,7 @@ Binding Port | Set the binding port |
 Windows Authentication | Enable windows Authentication | Default value: true
 Anonymous authentication | Enable anonymous authentication | Default value: true
 
-##### IIS Application Pool section
+### IIS Application Pool section
 
 Attribute | Description | Notes
 --------- | ----------- | ---------------------
@@ -46,7 +47,7 @@ Attribute | Description | Notes
 Identity type | Select the built-in account which application pool will use | Default value: Application Pool Identity
 
 
-##### IIS Static Compression section
+### IIS Static Compression section
 
 Attribute | Description | Notes
 --------- | ----------- | ---------------------
@@ -60,7 +61,7 @@ Minimum file size to compression | The minimum file size (in bytes) for a file t
 Compression file directory | Location of the directory to store compressed files |
 
 
-##### IIS Dynamic Compression section
+### IIS Dynamic Compression section
 
 Attribute | Description | Notes
 --------- | ----------- | ---------------------
@@ -72,7 +73,7 @@ CPU usage re-enable | The percentage of CPU utilization (0-100) below which comp
 Dynamic compression before cache | Specifies whether the currently available response is dynamically compressed before it is put into the output cache. | Default value: false
 Compression file directory | Location of the directory to store compressed files | Default value: e:\logs\IISTemporaryCompressedFiles
 
-##### Session State section
+### Session State section
 
 Attribute | Description | Notes
 --------- | ----------- | ---------------------
@@ -81,7 +82,7 @@ Cookie name | Specifies the name of the cookie that stores the session identifie
 Time out | Specifies the number of minutes a session can be idle before it is abandoned. | Default value: 20
 
 
-##### Request filtering section
+### Request filtering section
 
 Attribute | Description | Notes
 --------- | ----------- | ---------------------
@@ -93,7 +94,7 @@ Maximum url length | Specifies the maximum length of the query string, in bytes.
 Maximum query string length | Specifies the maximum length of the URL, in bytes. | Default value: 2048 bytes
 File extension allow unlisted | Specifies whether the Web server should process files that have unlisted file name extensions. | Default value: true
 
-##### Windows Features
+### Windows Features
 
 Attribute | Description
 --------- | -----------
@@ -121,11 +122,13 @@ Management Service | Allows this Web server to be managed remotely from another 
 Application Initialization | Enables you to perform expensive Web application initialization tasks before serving Web pages.
 
 
-### lb Component
+## lb Component
+
 Used to define a what ports the web application will listen on and balance between multiple computes.
 Default Listeners: Ports 80 and 8080
 
-### nuget-package Component
+## nuget-package Component
+
 Used to provide an ability to download nuget packages on the windows machine.
 After download of the nuget package you can use Configure, Migrate and Restart fields post processing of your nuget package.
 Nuget-Package component expects http url of the nuget package hosted in nexus repo.
@@ -137,23 +140,22 @@ Identifier | Url of the nuget package in nexus | Eg: http://repo.xxx.com/service
 Version |The version of the nuget package. | Eg: 1.0.0
 Install Directory | Directory path where the artifact will be downloaded and versions will be kept | Default value: e:\platform_deployment
 
-### volume Component
+## volume Component
+
 Used to add a volume/drive to your compute.
 Size and Mount Point(drive letter) are the important attributes for Windows VM's. The rest of the attributes are ignored.
 Mount Point should be set to E.
 
-### os Component
+## os Component
+
 Used to configure OS level attributes like ntp service, installing required ruby gems, etc.
 The important attribute of OS component is OS type. OS Type Default Value: Windows 2012 R2.
 
+## Other optional components
 
-
-### *Other optional components
 ### chocolately-package Component
+
 Used to install additional packaged software.
 Must specify where the package is located, authentication to to repo and aftifact to install.
 Please refer to the [chocolaty-package component](./chocolately-package-component.html) for additional info.
 
-
-
-=======
