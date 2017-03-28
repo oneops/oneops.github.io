@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visibility - OneOps Release 17.03.29-STABLE
-published: true
+published: false
 authors: [mmoser]
 ---
 
