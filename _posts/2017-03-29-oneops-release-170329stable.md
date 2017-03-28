@@ -13,7 +13,30 @@ tbd
 
 # New Features
 
-* tbd
+* Pack visibility
+
+coming pack versioning
+
+
+as pack developer - pack only to certain organizations
+
+- license issues
+- pack for own org - nobody else should see, did not want to support other users
+- experimental pack
+
+
+?what about name collisions? 
+? override public pack
+
+idea of rating pack - to allow users to decide on usage
+
+pack statistics
+
+how many users, deployments.. 
+
+
+
+ticket for /support  and related super user grounp
 
 # Bug Fixes and Improvements
 
