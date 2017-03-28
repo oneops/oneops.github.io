@@ -59,7 +59,10 @@ Default Listeners: Ports 80 and 8080
 Used to provide an ability to download nuget packages on the windows machine.
 After download of the nuget package you can use Configure, Migrate and Restart fields post processing of your nuget package.
 Nuget-Package component expects http url of the nuget package hosted in nexus repo.
-1. Repository	Nuget package name, this should be same as the name of package in the Url	Eg: CCMSampleWebApp
+
+Attribute | Description | Example/Default
+--------- | ----------- | ---------------
+Repository |	Nuget package name, this should be same as the name of package in the Url	Eg: CCMSampleWebApp
 2. Identifier	Url of the nuget package in nexus
     Eg: http://repo.xxx.com/service/local/repositories/nuget-snapshots/CCMSampleWebApp/1.0.0/CCMSampleWebApp-1.0.0.nupkg
 3. Version	version of the nuget package.    Eg: 1.0.0
