@@ -1,46 +1,41 @@
 ---
 layout: post
 title: Visibility - OneOps Release 17.03.29-STABLE
-published: false
+published: true
 authors: [mmoser]
 ---
 
-tbd
+Visibility and control is theme that can be seen in our current release. Specifically we are adding visibility into some
+statistics about pack usage in operation.  This information is useful for pack users, authors and administrators.
+And we are adding control to restrict pack usage for authors.
 
 <!--more-->
 
-tbd 
+The operation statistics are visible to users when creating a pack and include information such as number of assemblings
+using the pack, number of computes and others.
+
+<img src="../../assets/img/ui/pack-operation-stats.png"/>
+
+As a pack developer or author you can restrict your pack to be used only in specified organizations. This allows you to
+e.g. restrict it to your own organization while you develop it and improve it.
+
+Beyond these changes we have a couple of other improvements for you:
 
 # New Features
 
-* Pack visibility
-
-coming pack versioning
-
-
-as pack developer - pack only to certain organizations
-
-- license issues
-- pack for own org - nobody else should see, did not want to support other users
-- experimental pack
-
-
-?what about name collisions? 
-? override public pack
-
-idea of rating pack - to allow users to decide on usage
-
-pack statistics
-
-how many users, deployments.. 
-
-
-
-ticket for /support  and related super user grounp
+* Display pack usage related operation statistics
+  * when adding platform in assembly creation screen for users
+  * in pack administration section
+  * see [Commit](https://github.com/oneops/display/commit/77a57fe6cb8231c3fc34e7667be739dfbc46d45c)
+* Support for Windows domain account usage with SQL server pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/750)
+* Ability for pack author/owner to restrict usage to specific organizations in a OneOps deployment - [Commit](https://github.com/oneops/display/commit/77a57fe6cb8231c3fc34e7667be739dfbc46d45c)
 
 # Bug Fixes and Improvements
 
-* tbd
+* Display specific threshold violation directly with unhealthy compute display - [Commit](https://github.com/oneops/display/pull/173/commits/2bac557cb5e86b677b7ee5777661ef73eff84df2)
+* Performance improvements for deployment plan generation - [PR](https://github.com/oneops/transistor/pull/101)
+* Changed default step size for compute replacements to use stepped roll out instead of 100%
+* Ensure master volume is correctly created for Elasticsearch pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/759)
 
 # Source Release Tags
 
