@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visibility - OneOps Release 17.03.30-STABLE
-published: false
+published: true
 authors: [mmoser]
 ---
 
@@ -57,7 +57,7 @@ Beyond these changes we have a couple of other improvements for you:
 - [transmitter tag 17.03.30-STABLE](https://github.com/oneops/transmitter/tree/17.03.30-STABLE)
 - [transistor tag 17.03.30-STABLE](https://github.com/oneops/transistor/tree/17.03.30-STABLE)
 - [oneops-admin tag 17.03.30-STABLE](https://github.com/oneops/oneops-admin/tree/17.03.30-STABLE)
-- [circuit-oneops version 1-5.0.tbd](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.tbd)
+- [circuit-oneops version 1-5.0.615](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.615)
 
 Enjoy,
 
