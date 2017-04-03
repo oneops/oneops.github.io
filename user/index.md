@@ -21,8 +21,8 @@ Available documentation resources for users include:
 - [General Aspects for Users](./general/index.html)
 - [Account Configuration](./account/index.html)
 - [Design Phase-Related Documentation](./design/index.html)
-- [Transition Phase-Related Documentation](./design/index.html)
-- [Operation Phase-Related Documentation](./design/index.html)
+- [Transition Phase-Related Documentation](./transition/index.html)
+- [Operation Phase-Related Documentation](./operation/index.html)
 
 OneOps enables continuous lifecycle management of complex, business-critical application workloads on any
 cloud-based infrastructure. You can expect:
