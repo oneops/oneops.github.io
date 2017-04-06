@@ -1,23 +1,24 @@
 ---
 layout: post
-title: TBD - OneOps Release 17.04.05-STABLE
+title: Fixer Upper - OneOps Release 17.04.05-STABLE
 published: false
 authors: [mmoser]
 ---
 
-TBD
+This week we are improving performance for plan generation, expanding the SQL Server support and fixing a few bugs.
 
 <!--more-->
 
-TBD
-
 # New Features
 
-* TBD
+* Support for _artifact_ component in SQL Server pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/778) 
 
 # Bug Fixes and Improvements
 
-* TBD
+* Performance improvements for complex deployment plan generation - [PR](https://github.com/oneops/transistor/pull/101)
+* Fix for loss of default monitors due to pull design - [PR](https://github.com/oneops/transistor/pull/104)
+* Fix for intermittent problem with expanding log tab for deployment overlay and timeline tab - [Commit](https://github.com/oneops/display/pull/178/commits/1c9c1f2b4f5a901da46ffd8a1897f289fbc14777)
+* Fix password creation problem for OneOps user on Windows compute - [PR](https://github.com/oneops/circuit-oneops-1/pull/780) 
 
 # Source Release Tags
 
@@ -39,7 +40,7 @@ TBD
 - [transmitter tag 17.04.05-STABLE](https://github.com/oneops/transmitter/tree/17.04.05-STABLE)
 - [transistor tag 17.04.05-STABLE](https://github.com/oneops/transistor/tree/17.04.05-STABLE)
 - [oneops-admin tag 17.04.05-STABLE](https://github.com/oneops/oneops-admin/tree/17.04.05-STABLE)
-- [circuit-oneops version 1-5.0.TBD](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.TBD)
+- [circuit-oneops version 1-5.0.620](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.620)
 
 Enjoy,
 
