@@ -11,7 +11,7 @@ This week we are improving performance for plan generation, expanding the SQL Se
 
 # New Features
 
-* Support for _artifact_ component in SQL Server pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/778) 
+* Support for _artifact_ component in [SQL Server pack](/user/design/ms-sqlserver-pack.html) - [PR](https://github.com/oneops/circuit-oneops-1/pull/778)
 
 # Bug Fixes and Improvements
 
