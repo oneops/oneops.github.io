@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixer Upper - OneOps Release 17.04.05-STABLE
-published: false
+published: true
 authors: [mmoser]
 ---
 
