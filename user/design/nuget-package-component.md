@@ -42,4 +42,4 @@ _Restart_: is used to specify any commands to be executed during a restart.<br>
 
 ### Attachments and Monitors Tabs
 In addition to the above configuration for this component, you can also specify [Attachments](./attachments.html) and
-[Monitors](./monitors.html) for this component.
+[Monitors](../operation/monitors.html) for this component.

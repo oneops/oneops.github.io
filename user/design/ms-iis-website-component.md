@@ -68,4 +68,4 @@ that have unlisted file name extensions.<br>
 
 ### Attachments and Monitors Tabs
 In addition to the above configuration for this component, you can also specify [Attachments](./attachments.html) and
-[Monitors](./monitors.html) for this component.
+[Monitors](../operation/monitors.html) for this component.
