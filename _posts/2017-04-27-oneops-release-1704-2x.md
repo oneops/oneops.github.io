@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Triplet - OneOps Releases 17.04.19, 17.04.21 and 17.04.26
-published: false
+published: true
 authors: [mmoser]
 ---
 
@@ -12,13 +12,14 @@ one.
 
 <!--more-->
 
-One of the main focus points of the performance improvements was the query performance on PostgreSQL. Changing to batch 
-mode for many operations yielded up to 10 percent improvements. Switching to inlined insert statements in batch mode
-boosted performance of some operations by a factor of 10x and more.
+One of the main focus points of the performance improvements was around improvements to compute updates. We now support
+certain specific simple changes to be carried out on an existing compute instead of recycling the compute and creating
+new fresh replacement. This removes the need for provisioning, OS and software installation and more that can typically
+take between 60 and 120 seconds and results in the necessary changes to be performed in a few seconds now.
 
-Besides these and other performance improvements we also implmented a few other changes and improvements:
+Besides these and other performance improvements we also implemented a few other changes and improvements:
 
-## Changes
+# Changes
 
 * Support for running compliance scripts on Windows - [PR](https://github.com/oneops/circuit-oneops-1/pull/806)
 and [PR](https://github.com/oneops/oneops-admin/pull/184)
@@ -26,7 +27,6 @@ and [PR](https://github.com/oneops/oneops-admin/pull/184)
 
 # Bug Fixes and Improvements
 
-* REST endpoint for sensore to return version at /sensore/rest/ecv/status
 * Improved error message for failing volume mount action [PR](https://github.com/oneops/circuit-oneops-1/pull/811)
 
 # Source Release Tags 17.04.19
