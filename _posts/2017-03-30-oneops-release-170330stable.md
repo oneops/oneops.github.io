@@ -21,7 +21,7 @@ e.g. restrict it to your own organization while you develop it and improve it.
 
 Beyond these changes we have a couple of other improvements for you:
 
-# New Features
+## New Features
 
 * Display pack usage related operation statistics
   * when adding platform in assembly creation screen for users
@@ -30,14 +30,14 @@ Beyond these changes we have a couple of other improvements for you:
 * Support for Windows domain account usage with SQL server pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/750)
 * Ability for pack author/owner to restrict usage to specific organizations in a OneOps deployment - [Commit](https://github.com/oneops/display/commit/77a57fe6cb8231c3fc34e7667be739dfbc46d45c)
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 * Display specific threshold violation directly with unhealthy compute display - [Commit](https://github.com/oneops/display/pull/173/commits/2bac557cb5e86b677b7ee5777661ef73eff84df2)
 * Performance improvements for deployment plan generation - [PR](https://github.com/oneops/transistor/pull/101)
 * Changed default step size for compute replacements to use stepped roll out instead of 100%
 * Ensure master volume is correctly created for Elasticsearch pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/759)
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.03.30-STABLE](https://github.com/oneops/oneops-admin/tree/17.03.30-STABLE)
 - [db-schema tag 17.03.30-STABLE](https://github.com/oneops/db-schema/tree/17.03.30-STABLE)

@@ -24,12 +24,12 @@ Of course, this release includes a bunch of other improvements and bug fixes, bu
 And before you read ahead - a special shout out goes to [Lev](https://github.com/lkhusid) for his great work on the 
 charts and the CLI!
 
-# New Features
+## New Features
 
 * Many improvements to the charting system and user interface for monitoring, specifically around zoom features, 
 pop-out, navigation and others. 
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 * Better visibility for [favorites](/user/general/favorites.html) icon beside entities name
 * Improved ability to apply security compliance to computes
@@ -45,7 +45,7 @@ pop-out, navigation and others.
   * `go` help and yaml example
   * Optional attribute locking  for `go` command flow.
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.02.23-STABLE](https://github.com/oneops/oneops-admin/tree/17.02.23-STABLE)
 - [db-schema tag 17.02.23-STABLE](https://github.com/oneops/db-schema/tree/17.02.23-STABLE)

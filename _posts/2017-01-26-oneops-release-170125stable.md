@@ -12,7 +12,7 @@ added a few new things.
 
 <!--more-->
 
-# New Features
+## New Features
 
 - Added display of IP address with copy features to the compute instance operations page
 - Feature to roll back to prior deployment of an environment based on version controlled configuration
@@ -21,11 +21,11 @@ added a few new things.
 - Ability to lock monitor and prevent overrides on design pull
 - Added support for monitor configuration as part of design phase
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 - Various improvements related to the Windows compute support
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.01.25-STABLE](https://github.com/oneops/oneops-admin/tree/17.01.25-STABLE)
 - [db-schema tag 17.01.25-STABLE](https://github.com/oneops/db-schema/tree/17.01.25-STABLE)

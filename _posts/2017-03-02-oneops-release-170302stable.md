@@ -10,7 +10,7 @@ though, but you are going to have to stay tuned regarding those.
 
 <!--more-->
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 * Fixed volume step failure on Windows - [PR](https://github.com/oneops/oneops-admin/pull/167)
 * Fixed artifact component failure on Windows - [PR](https://github.com/oneops/circuit-oneops-1/pull/713)
@@ -18,7 +18,7 @@ though, but you are going to have to stay tuned regarding those.
 * Updated domain join support for new as well as existing VM - [PR](https://github.com/oneops/circuit-oneops-1/pull/706)
 * Allow setup of secondary and ignored clouds without a primary cloud
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.03.02-STABLE](https://github.com/oneops/oneops-admin/tree/17.03.02-STABLE)
 - [db-schema tag 17.03.02-STABLE](https://github.com/oneops/db-schema/tree/17.03.02-STABLE)

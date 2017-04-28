@@ -9,18 +9,18 @@ This week we are improving performance for plan generation, expanding the SQL Se
 
 <!--more-->
 
-# New Features
+## New Features
 
 * Support for _artifact_ component in [SQL Server pack](/user/design/ms-sqlserver-pack.html) - [PR](https://github.com/oneops/circuit-oneops-1/pull/778)
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 * Performance improvements for complex deployment plan generation - [PR](https://github.com/oneops/transistor/pull/101)
 * Fix for loss of default monitors due to pull design - [PR](https://github.com/oneops/transistor/pull/104)
 * Fix for intermittent problem with expanding log tab for deployment overlay and timeline tab - [Commit](https://github.com/oneops/display/pull/178/commits/1c9c1f2b4f5a901da46ffd8a1897f289fbc14777)
 * Fix password creation problem for OneOps user on Windows compute - [PR](https://github.com/oneops/circuit-oneops-1/pull/780) 
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.04.05-STABLE](https://github.com/oneops/oneops-admin/tree/17.04.05-STABLE)
 - [db-schema tag 17.04.05-STABLE](https://github.com/oneops/db-schema/tree/17.04.05-STABLE)

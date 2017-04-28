@@ -13,12 +13,12 @@ changes - good for the stability of your running instance. So let's see what we 
 
 A focus on bug fixes for this release meant that there are no new features. 
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 - Fixed concurrency issue with deployment continueOnFailure and autopause update
 - Fixed regression bug from the last release on the pull design feature
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.02.02-STABLE](https://github.com/oneops/oneops-admin/tree/17.02.02-STABLE)
 - [db-schema tag 17.02.02-STABLE](https://github.com/oneops/db-schema/tree/17.02.02-STABLE)

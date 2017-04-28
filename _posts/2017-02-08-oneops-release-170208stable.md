@@ -9,7 +9,7 @@ Not even a week has passed and we are following up with a release with a number 
 
 <!--more-->
 
-# New Features
+## New Features
 
 * Extended the Health count API to support assembly, environment and platform scope in addition to the already existing organization scope.
 * Improvements to the compute node instance list on the operation platform view
@@ -17,13 +17,13 @@ Not even a week has passed and we are following up with a release with a number 
     * Ability to get a list of IPs for selected instances from the list, including a copy to clipboard functionality.
     * Ability to retrieve  all platform VM IPs by cloud, including copy to clipboard functionality.
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 * Fixes to import and export via yaml files with monitor information.
 * Ensure discard of relations on platform discard operation.
 * Fix to allow identical component and pack name.
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.02.08-STABLE](https://github.com/oneops/oneops-admin/tree/17.02.08-STABLE)
 - [db-schema tag 17.02.08-STABLE](https://github.com/oneops/db-schema/tree/17.02.08-STABLE)

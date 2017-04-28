@@ -10,19 +10,19 @@ features like support for Slack notifications.
 
 <!--more-->
 
-# New Features
+## New Features
 
 * [Support for Slack as notification sink](/user/account/notifications-to-slack.html)
 * Automated [SSL certificate management](/user/design/ssl-certificate-component.html)
 * SSL certificate [expiry tracking and monitoring](/user/design/ssl-certificate-component.html)
 
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 * Ability to apply security compliance to computes
 * Added IP number of compute node to notifications
 
-# Source Release Tags
+## Source Release Tags
 
 - [oneops-admin tag 17.02.16-STABLE](https://github.com/oneops/oneops-admin/tree/17.02.16-STABLE)
 - [db-schema tag 17.02.16-STABLE](https://github.com/oneops/db-schema/tree/17.02.16-STABLE)

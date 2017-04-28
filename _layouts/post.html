@@ -13,7 +13,7 @@
            {% include breadcrumbs.html %}
            <br>
            {{ page.date | date: "%-d %B %Y" }}
-           <div class="blogtitle">{{ page.title}}</div>
+           <h1 class="yellow">{{ page.title}}</h1>
            {% for author in page.authors %}
               {% assign current = site.authors[author] %}
               <a href="{{ current.web }}">{{ current.name }}</a>

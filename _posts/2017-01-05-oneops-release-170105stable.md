@@ -15,7 +15,7 @@ let's not get ahead of ourselves. Check out what is in the new  `17.01.05-STABLE
 <!--more-->
 
 
-# New Features
+## New Features
 
 - Auto-pause feature for deployment before deployment steps
 - New _Timeline_ tab in the _Design_ section showing releases
@@ -30,7 +30,7 @@ let's not get ahead of ourselves. Check out what is in the new  `17.01.05-STABLE
 - Proof of concept for support for Google Cloud Platform usage as cloud provider
 - API for cloud offerings
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 Numerous bug fixes made it into this release. Here is a list of the more significant ones: 
 
@@ -41,7 +41,7 @@ Numerous bug fixes made it into this release. Here is a list of the more signifi
 - Enable access to local platform variables in action recipes
 - Redis pack deployment and compute replacement fixes
 
-# Source Release Tags
+## Source Release Tags
 
 
 - [oneops-admin tag 17.01.05-STABLE](https://github.com/oneops/oneops-admin/tree/17.01.05-STABLE)

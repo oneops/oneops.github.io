@@ -12,7 +12,7 @@ the blog.
 
 <!--more-->
 
-# Release 2016.10.20
+## Release 2016.10.20
 
 - Sensor counter API revival to identify state change
 - Improve performance of CI delete by enabling aggressive caching to save huge DB calls
@@ -21,7 +21,7 @@ the blog.
 - UI bug fix for deployment overlay
 - [OneOps Core release tag 16.10.20-RC1](https://github.com/oneops/display/releases/tag/16.10.20-RC1)
 
-# Release 2016.10.12
+## Release 2016.10.12
 
 - Exponential delay for auto repair
 - Ability to highlight and share log lines

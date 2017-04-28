@@ -10,12 +10,12 @@ for our advanced users.
 
 <!--more-->
 
-# New Features
+## New Features
 
 * Added Windows support to _storage_ and _volume_ components
 * Improved quick navigation in the [user interface with keyboard shortcuts](/user/general/user-interface.html)
 
-# Bug Fixes and Improvements
+### Bug Fixes and Improvements
 
 * API endpoints in transistor for manifest import and export - [PR](https://github.com/oneops/transistor/pull/100)
 * Added further validation for the _continue on failure_ support - [PR](https://github.com/oneops/controller/pull/48)
@@ -23,7 +23,7 @@ for our advanced users.
 * Deprecated tomcat-2 pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/728)
 * Added LXD sizes to compute component - [PR](https://github.com/oneops/circuit-oneops-1/pull/731)
 
-# Source Release Tags
+### Source Release Tags
 
 - [oneops-admin tag 17.03.08-STABLE](https://github.com/oneops/oneops-admin/tree/17.03.08-STABLE)
 - [db-schema tag 17.03.08-STABLE](https://github.com/oneops/db-schema/tree/17.03.08-STABLE)

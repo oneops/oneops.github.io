@@ -19,17 +19,17 @@ take between 60 and 120 seconds and results in the necessary changes to be perfo
 
 Besides these and other performance improvements we also implemented a few other changes and improvements:
 
-# Changes
+## New Features
 
 * Support for running compliance scripts on Windows - [PR](https://github.com/oneops/circuit-oneops-1/pull/806)
 and [PR](https://github.com/oneops/oneops-admin/pull/184)
 * Support for domain accounts as users in Windows computes - [PR](https://github.com/oneops/circuit-oneops-1/pull/798)
 
-# Bug Fixes and Improvements
+## Bug Fixes and Improvements
 
 * Improved error message for failing volume mount action [PR](https://github.com/oneops/circuit-oneops-1/pull/811)
 
-# Source Release Tags 17.04.19
+## Source Release Tags 17.04.19
 
 - [oneops-admin tag 17.04.19-RC1](https://github.com/oneops/oneops-admin/tree/17.04.19-RC1)
 - [db-schema tag 17.04.19-RC1](https://github.com/oneops/db-schema/tree/17.04.19-RC1)
@@ -51,7 +51,7 @@ and [PR](https://github.com/oneops/oneops-admin/pull/184)
 - [oneops-admin tag 17.04.19-RC1](https://github.com/oneops/oneops-admin/tree/17.04.19-RC1)
 - [circuit-oneops version 1-5.0.636](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.636)
 
-# Source Release Tags 17.04.21
+## Source Release Tags 17.04.21
 
 - [oneops-admin tag 17.04.21-RC2](https://github.com/oneops/oneops-admin/tree/17.04.21-RC2)
 - [db-schema tag 17.04.21-RC2](https://github.com/oneops/db-schema/tree/17.04.21-RC2)
@@ -73,7 +73,7 @@ and [PR](https://github.com/oneops/oneops-admin/pull/184)
 - [oneops-admin tag 17.04.21-RC2](https://github.com/oneops/oneops-admin/tree/17.04.21-RC2)
 - [circuit-oneops version 1-5.0.645](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.645)
 
-# Source Release Tags 17.04.26
+## Source Release Tags 17.04.26
 
 - [oneops-admin tag 17.04.26-RC2](https://github.com/oneops/oneops-admin/tree/17.04.26-RC2)
 - [db-schema tag 17.04.26-RC2](https://github.com/oneops/db-schema/tree/17.04.26-RC2)
