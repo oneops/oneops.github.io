@@ -15,7 +15,7 @@ one.
 One of the main focus points of the performance improvements was around improvements to compute updates. We now support
 certain specific simple changes to be carried out on an existing compute instead of recycling the compute and creating
 new fresh replacement. This removes the need for provisioning, OS and software installation and more that can typically
-take between 60 and 120 seconds and results in the necessary changes to be performed in a few seconds now.
+take between 60 and 120 seconds and results in the necessary changes to be performed in 15-20 seconds now.
 
 Besides these and other performance improvements we also implemented a few other changes and improvements:
 
