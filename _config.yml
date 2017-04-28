@@ -97,4 +97,9 @@ kramddown:
   syntax_highlighter: rouge
   hard_wrap: false
 
-exclude: [jekyll.jar, jekyll.sh, jekyll-stage.sh, jekyll-stage-serve.sh, jekyll-stage-build.sh, linkcheck.sh, linkcheck-results.log, scripts]
+exclude: 
+  - "*.sh"
+  - linkcheck-results.log
+  - scripts
+
+

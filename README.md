@@ -13,12 +13,6 @@ To view and edit the website you can use standard Jekyll
 jekyll serve
 ```
 
-Or you can use the Java implementation included here which only requires a JVM be installed:
-
-```
-./jekyll.sh
-```
-
 This local build allows you to see the rendered site and access it at
 [http://localhost:4000](http://localhost:4000).
 
