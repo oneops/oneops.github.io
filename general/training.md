@@ -38,12 +38,12 @@ __Check out the [slides.](/oneops-training/user-1-beginner.html)__
 
 All modules are available as recorded videos:
 
-<a href="https://youtu.be/W2ND3QMIzZ0"><i class="fa fa-video-camera"></i>&nbsp;Training Overview</a><br>
-<a href="https://youtu.be/ct0lcoq5haQ"><i class="fa fa-video-camera"></i>&nbsp;Motivation</a><br>
-<a href=""><i class="fa fa-video-camera"></i>&nbsp;Introducing OneOps</a><br>
-<a href=""><i class="fa fa-video-camera"></i>&nbsp;Getting Started a.k.a Design</a><br>
-<a href=""><i class="fa fa-video-camera"></i>&nbsp;Moving a.k.a. Transition</a><br>
-<a href=""><i class="fa fa-video-camera"></i>&nbsp;In Business a.k.a. Operation</a><br>
-<a href=""><i class="fa fa-video-camera"></i>&nbsp;At Home in OneOps and Conclusion</a><br>
+<a href="https://youtu.be/W2ND3QMIzZ0" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;Training Overview</a><br>
+<a href="https://youtu.be/ct0lcoq5haQ" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;Motivation</a><br>
+<a href="https://youtu.be/u99Q0u8BTqw" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;Introducing OneOps</a><br>
+<a href="https://youtu.be/lTXpwa-yC8k" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;Getting Started a.k.a Design</a><br>
+<a href="https://youtu.be/7d4hBVSMZfY" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;Moving a.k.a. Transition</a><br>
+<a href="https://youtu.be/TpnFxUA1VxQ" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;In Business a.k.a. Operation</a><br>
+<a href="https://youtu.be/7bGN4Vxh0_E" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;At Home in OneOps and Conclusion</a><br>
 
 
