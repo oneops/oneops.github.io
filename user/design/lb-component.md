@@ -16,6 +16,10 @@ Once your assembly is deployed in an environment you can access the [computes in
 Besides the global configuration available for any component such as _Name_, you can configure the
 following attributes:
 
+_LB Service Type_: Defines type of LoadBalancing service to use. Two options available are described below:
+* _lb_: for physical loadbalancer service. eg: Netcalers.
+* _slb_: for Software loadbalancer service. eg: Octavia(openstack). <br>
+
 _Listeners_: Defines the ports that the LB will be listing on for incoming traffic.<br>
 
 _LB Method_: Defines the protocol used to forward traffic to balance the load to the servers. Two methods are available described below:
@@ -44,6 +48,7 @@ Please check for the available attributes for your lb's.<br>
 
 _Required Availability Zone_: Used to horizontally scale physical LB Devices.<br>
 
+_Connection Limit_: Applicable only for software loadbalancers. The maximum number of connections per second allowed for the vip. Valid values: a positive integer or -1 for unlimited (default). <br>
 
 ### Compute Related Attributes
 _ECV_: Used to define service monitors. (ex. 80 => GET /someservice/node). Port-available monitors are used for tcp(s) and udp.<br>
