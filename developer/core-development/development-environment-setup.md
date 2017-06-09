@@ -13,7 +13,7 @@ system usage.
 Must have:
 
 - Java Development Kit 8 from Oracle
-- Apache Maven 3.5.0
+- Apache Maven 3.5.0 (unless included Maven wrapper is used)
 - Ruby
 - Gems
 - Git
