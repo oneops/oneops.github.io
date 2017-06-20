@@ -25,7 +25,7 @@ Octavia and barbican service needs to be enabled in the openstack cloud to use t
     ![lb-component](/assets/docs/local/images/slb.png)
  
  
-##SLB listener options available:
+#SLB listener options available:
  
  Octavia SLB offers all three types of LB connections as available in Physical Netscalars.
  Listener configurations for each type is explained below,
