@@ -50,7 +50,7 @@ SLB listener options available are explained below.
   Fill up the certificate component referring here [ssl-certificate-component](http://oneops.com/user/design/ssl-certificate-component)
   Certificate is copied to the backend servers and certificate verification is done at the backend.
  
- #### Terminated HTTPS loadbalancer
+ ### Terminated HTTPS loadbalancer
   
   This type of connection allows ssl encryption between client and the loadbalancer. 
   Connectivity from lb to backend servers is unencrypted.
