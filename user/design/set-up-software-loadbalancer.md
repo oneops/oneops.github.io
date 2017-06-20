@@ -17,15 +17,14 @@ Octavia and barbican service needs to be enabled in the openstack cloud to use t
  The configuration options available earlier in lb-component which is applicable to physical netscalar still holds good for SLB too.
  There two new attributes added for SLB component, they are
  
+  ![lb-component](/assets/docs/local/images/slb.png)
+
  * lb service type - This is an drop down menu with two values "lb" and "slb" . Please select "lb" for physical netscalers and "slb" for octavia software LB.
  * connection limit - This connection limit attribute is applicable only for software loadbalancer.  
     This field takes a number which is the maximum number of connections per second allowed for the vip.
     Valid values: a positive integer or -1 for unlimited (default).
-    
-    ![lb-component](/assets/docs/local/images/slb.png)
- 
- 
-#SLB listener options available:
+
+##SLB listener options available:
  
  Octavia SLB offers all three types of LB connections as available in Physical Netscalars.
  Listener configurations for each type is explained below,
