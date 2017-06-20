@@ -24,7 +24,7 @@ Octavia and barbican service needs to be enabled in the openstack cloud to use t
     This field takes a number which is the maximum number of connections per second allowed for the vip.
     Valid values: a positive integer or -1 for unlimited (default).
 
-##SLB listener options available:
+##SLB listener options available
  
  Octavia SLB offers all three types of LB connections as available in Physical Netscalars.
  Listener configurations for each type is explained below,
