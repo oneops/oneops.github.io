@@ -22,17 +22,25 @@ Any component additions or configuration changes need to be deployed to take eff
 Specific documentation is available for the following components:
 
 - [Apache HTTP Server Component](./apache-http-server-component.html)
+- [Chocolatey Package Component](./chocolatey-package-component.html)
 - [Compute Component](./compute-component.html)
 - [Cron Job Component](./cron-job-component.html)
+- [DotNet Framework Component](./ms-dotnetframework-component.html)
+- [Fully Qualified Domain Name (fqdn) Component](./ms-dotnetframework-component.html)
+- [IIS Website Component](./ms-iis-website-component.html)
 - [Java Component](./java-component.html)
 - [Keystore Component](./keystore-component.html)
-- [SSL CertificateComponent](./ssl-certificate-component.html)
-- [User Component](./user-component.html)
-- [Website Component](./website-component.html)
-- [IIS Website Component](./ms-iis-website-component.html)
-- [DotNet Framework Component](./ms-dotnetframework-component.html)
-- [NuGet Package Component](./nuget-package-component.html)
-- [Chocolatey Package Component](./chocolatey-package-component.html)
 - [Load Balancer (lb) Component](./lb-component.html)
-- [Volume Component](./volume-component.html)
+- [NuGet Package Component](./nuget-package-component.html)
+- [SSL CertificateComponent](./ssl-certificate-component.html)
 - [Storage Component](./storage-component.html)
+- [User Component](./user-component.html)
+- [Volume Component](./volume-component.html)
+- [Website Component](./website-component.html)
+
+
+
+
+
+
+
