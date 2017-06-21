@@ -32,6 +32,7 @@ balancer to Tomcat is server is in clear text (HTTP).
 1. Add a new _lb-certificate_ component to the _tomcat_ platform design and configure the certificate details.
 2. Disable the _Enable TLSv1_ configuration on the _tomcat_ component.
 3. Add a load balancer _lb_ component and set the _Listeners_ to `https 443 http 8080`.
+   If using octavia software loadbalancers set the _Listeners_ to `terminated_https 443 http 8080`.
 4. Commit the design changes and proceed with [deployment as usual](./components.html).
 
 ### Directly at Tomcat 
@@ -43,6 +44,7 @@ In this method communication is encrypted from client to load balancer (HTTPS) a
 3. Configure the _SSL Port_ in your _tomcat_ component as needed. The default is 8443.
 4. If desired, disable the _HTTP Connector_ in the _tomcat_ component.
 5. Add a load balancer _lb_ component and set the _Listeners_ to `ssl_bridge 443 ssl_bridge 8443`.
+   If using octavia software loadbalancers set the _Listeners_ to `https 443 https 8443`.
 6. Commit the design changes and proceed with [deployment as usual](./components.html).
 
 ## Example - Configure Tomcat HttpConnector Attributes
