@@ -7,11 +7,12 @@ The _lb_ [component](./components.html) is of core importance and part of most
 platforms since it defines the load balancing of request being received by the
 platform.
 
-You can configure the compute component as part of your platform in design phase
+You can configure the lb component as part of your platform in design phase
 and specific to an environment in the transition phase.
 
-Once your assembly is deployed in an environment you can access the
-[computes in operation](../operation/compute.html).
+Once your assembly is deployed in an environment you can access the lb in
+operation.
+
 
 ## Configuration
 
@@ -20,8 +21,8 @@ can configure the following attributes:
 
 _LB Service Type_: Defines type of LoadBalancing service to use. Two options
 available are described below:
-* _lb_: for physical loadbalancer service. eg: Netcalers.
-* _slb_: for Software loadbalancer service. eg: Octavia(openstack). <br>
+* _lb_: for physical loadbalancer service e.g. [Citrix Netscaler](https://www.citrix.com/products/netscaler-adc/).
+* _slb_: for software loadbalancer service e.g. [Octavia](https://docs.openstack.org/developer/octavia/) from the openstack project. <br>
 
 _Listeners_: Defines the ports that the LB will be listing on for incoming
 traffic.<br>
