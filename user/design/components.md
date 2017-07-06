@@ -26,7 +26,7 @@ Specific documentation is available for the following components:
 - [Compute Component](./compute-component.html)
 - [Cron Job Component](./cron-job-component.html)
 - [DotNet Framework Component](./ms-dotnetframework-component.html)
-- [Fully Qualified Domain Name (fqdn) Component](./ms-dotnetframework-component.html)
+- [Fully Qualified Domain Name (fqdn) Component](./fqdn-component.html)
 - [IIS Website Component](./ms-iis-website-component.html)
 - [Java Component](./java-component.html)
 - [Keystore Component](./keystore-component.html)
