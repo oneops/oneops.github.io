@@ -21,7 +21,8 @@ Resources for OneOps administrators:
     <ul>
       <li><a href="/admin/install/index.html" >Installation</a></li>
       <li><a href="/admin/install/install-with-vagrant.html" >Installing with Vagrant</a></li>
-      <li><a href="/admin/install/install-with-ami.html" >Installing with AMI</a></li>
+      <!-- <li><a href="/admin/install/install-with-ami.html" >Installing with -->
+	  <!-- AMI</a></li> -->
     </ul>
   </li>
   <li>Operate:
