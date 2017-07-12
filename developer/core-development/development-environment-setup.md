@@ -10,11 +10,19 @@ system usage.
 
 # Prerequisites
 
-- Java
-- Apache Maven 3.1.1
+Must have:
+
+- Java Development Kit 8 from Oracle
+- Apache Maven 3.5.0 (unless included Maven wrapper is used)
 - Ruby
 - Gems
 - Git
+- Bundler
+- graphviz
+- PostgreSQL 9.2 development files (libpg)
+
+Nice to have:
+
 - Favorite IDE like EclipseIDE or STS
 - Create an `install` directory inside your home directory.
 - Download the following open-source softwares into the `install` directory:
@@ -27,43 +35,25 @@ system usage.
 
 # Get Sources
 
-Fork, clone and import the following projects into your favorite IDE. Use a common directory such as
-`~/work/projects/walmart`.
+Fork, clone and import the following projects into your favorite IDE.
 
-- [cmsdal - https://github.com/oneops/cmsdal](https://github.com/oneops/cmsdal)
-- [oo-commons - https://github.com/oneops/oo-commons](https://github.com/oneops/oo-commons)
-- [amq-plugin - https://github.com/oneops/amq-plugin](https://github.com/oneops/amq-plugin)
-- [adapter - https://github.com/oneops/adapter](https://github.com/oneops/adapter)
-- [antenna - https://github.com/oneops/antenna](https://github.com/oneops/antenna)
-- [cms-admin - https://github.com/oneops/cms-admin](https://github.com/oneops/cms-admin)
-- [controller - https://github.com/oneops/controller](https://github.com/oneops/controller)
-- [opamp - https://github.com/oneops/opamp](https://github.com/oneops/opamp)
-- [sensor - https://github.com/oneops/sensor](https://github.com/oneops/sensor)
-- [transistor - https://github.com/oneops/transistor](https://github.com/oneops/transistor)
-- [transmitter - https://github.com/oneops/transmitter](https://github.com/oneops/transmitter)
-- [inductor - https://github.com/oneops/inductor](https://github.com/oneops/inductor)
-- [search - https://github.com/oneops/search](https://github.com/oneops/search)
+- [oneops - https://github.com/oneops/oneops](https://github.com/oneops/oneops)
 - [circuit-oneops-1 - https://github.com/oneops/circuit-oneops-1](https://github.com/oneops/circuit-oneops-1)
-- [db-schema - https://github.com/oneops/db-schema](https://github.com/oneops/db-schema)
-- [display - https://github.com/oneops/display](https://github.com/oneops/display)
-- [oneops-admin - https://github.com/oneops/oneops-admin](https://github.com/oneops/oneops-admin)
 
 # Build Projects
 
-Run a build on the projects with `mvn clean install` in this specific order:
+Run a build in the `oneops` project:
 
-1. cmsdal
-1. oo-common
-1. amq-plugin
-1. adapter
-1. antenna
-1. cms-admin
-1. controller
-1. opamp
-1. sensor
-1. transistor
-1. transmitter
-1. inductor
+```
+./mvnw clean install
+````
+
+or 
+
+```
+mvn clean install
+```
+
 
 # Environment Setup
 
@@ -135,11 +125,11 @@ Now start ActivemqMQ server with
 
 {% highlight bash %}
 $ cd $AMQ_HOME/bin
-    
-# Based on OS environment, go to specific folder i.e macosx or linux-x86-64 or linux-x86-32 
 $ cd /macosx
 $ ./activemq restart && tail -100f ../../data/wrapper.log
 {% endhighlight %}
+
+Ensure to use the OS specific folder i.e macosx or linux-x86-64 or linux-x86-32. 
 
 Once the server started successfully, check the user interface at
  [http://localhost:8161/admin](http://localhost:8161/admin) and log in with the default credentials
