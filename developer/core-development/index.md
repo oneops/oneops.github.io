@@ -74,6 +74,10 @@ vagrant up
 Once the VM is up and running, you can access the OneOps user interface at 
 [http://localhost:9090](http://localhost:9090).
 
+Subsequently you can `suspend` or `halt` the VM with vagrant or use the
+VirtualBox user interface as desired. Refer to the Vagrant and VirtualBox
+documentation for further information.
+
 ## Database Schema
 
 OneOps uses a PostgreSQL database for model storage. Some information about the
