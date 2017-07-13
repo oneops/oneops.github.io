@@ -3,56 +3,9 @@ layout: dev-doc
 title: Development Environment Setup
 ---
 
-# Introduction
-
-This page details the steps to start development on OneOps. The instructions are aimed for OSX and Linux operating
-system usage.
-
-# Prerequisites
-
-Must have:
-
-- Java Development Kit 8 from Oracle
-- Apache Maven 3.5.0 (unless included Maven wrapper is used)
-- Ruby
-- Gems
-- Git
-- Bundler
-- graphviz
-- PostgreSQL 9.2 development files (libpg)
-
-Nice to have:
-
-- Favorite IDE like EclipseIDE or STS
-- Create an `install` directory inside your home directory.
-- Download the following open-source softwares into the `install` directory:
-    * [Active-MQ version 5.11.1](http://activemq.apache.org/activemq-5111-release.html)
-    * [Apache Tomcat 6](http://mirrors.gigenet.com/apache/tomcat/tomcat-6/v6.0.48/bin/apache-tomcat-6.0.48.tar.gz)
-    * [Apache Cassandra](http://archive.apache.org/dist/cassandra/1.2.6/apache-cassandra-1.2.6-bin.tar.gz)
-    * [PostgreSQL 9.2](https://www.postgresql.org/download/)
-    * [Elasticsearch 1.7.1](https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.zip)
-- [RVM](https://rvm.io/)
-
-# Get Sources
-
-Fork, clone and import the following projects into your favorite IDE.
-
-- [oneops - https://github.com/oneops/oneops](https://github.com/oneops/oneops)
-- [circuit-oneops-1 - https://github.com/oneops/circuit-oneops-1](https://github.com/oneops/circuit-oneops-1)
-
-# Build Projects
-
-Run a build in the `oneops` project:
-
-```
-./mvnw clean install
-````
-
-or 
-
-```
-mvn clean install
-```
+This document contains some older notes for the development environment setup
+and build. Refer to the
+[overview for building from source and running OneOps](./index.html). 
 
 
 # Environment Setup
