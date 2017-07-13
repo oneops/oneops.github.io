@@ -21,7 +21,7 @@ Available resources for developers include:
 <ul>
   <li><a href="/developer/">Overview</a></li>
   <li><a href="/developer/general/key-concepts.html" >Key Concepts</a></li>
-  <li>Core Development: 
+  <li><a href="/developer/core-development/index.html">Core Development:</a> 
     <ul>
       {% for currentpage in site.pages %}
         {% if currentpage.url contains "/developer/core-development/" and currentpage.url != "/developer/core-development/" %}

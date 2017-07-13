@@ -26,8 +26,8 @@ Must have:
 - [Bundler](http://bundler.io/)
 - [graphviz](http://www.graphviz.org/)
 - PostgreSQL 9.2 development file (libpg)
-- [Virtual Box](https://www.virtualbox.org/) | Virtual Box 5 or newer
-- [Vagrant](https://www.vagrantup.com/) | Vagrant 1.7.4 or newer
+- [Virtual Box](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/)
 
 Nice to have:
 
