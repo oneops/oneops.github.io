@@ -74,8 +74,6 @@ A Component is a basic building block of a OneOps platform. A OneOps component i
 components and actions defined in a cookbook's `metadata.rb`.  For example: Compute, Secgroup, Volume, User, Java, 
 Tomcat, Artifact, etc.
 
-![Components](/assets/docs/local/images/components.png)
-
 ## Model Directory Structure
 
 OneOps extends Chef's Ruby-based DSL and reuses their directory structure.
@@ -181,8 +179,6 @@ Packs also contain configuration for:
 Packs are used to define OneOps platforms. For example: 
 <a href="/user/design/packs.html">Tomcat, Apache, NodeJS, Couchbase, Postgres,</a> etc.
 
-![Packs](/assets/docs/local/images/packs.png)
-
 # Platform Management Pack
 
 A Platform Template is added to the system by creating a Platform Management Pack (Pack) file and loading it into the CMS. A Pack is a Ruby DSL file that models a platform with respect to each availability mode. It exists in the model directory structure.
@@ -194,15 +190,6 @@ The file contains three parts:
 * (Optional) Metrics and Thresholds
 
 The Platform Management Pack defines how corresponding Platforms should look, how they should be deployed, and how they function in different operational Environments. It defines required and optional [Component Classes](#component-class) for the Platform based on SLA requirements. It can also define the default values for [Component](#component) attributes. In OneOps terms, the Platform Management Pack is analogous to the Platform Factory definition. Management Packs are defined using OneOps’ proprietary Ruby-based DSL.
-
-## Sample New Platform Pack
-
-* Inherit: `include_pack`
-* Name, description, category
-* Resources: Named Components
-* Relations: `depends_on` `managed_via`
-
-![Sample platform pack](/assets/docs/local/images/sample-platform-pack.png)
 
 ## Pack Creation
 
