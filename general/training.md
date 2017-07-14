@@ -15,11 +15,11 @@ All slides are [available online](/oneops-training/) and with
 The currently available resources are:
 
 * [OneOps on the Walmart Technology Community YouTube channel](https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U) 
-* [OneOps User Training: Level 1 - Beginner](#oneops-user-training-leve-1---beginner)
+* [OneOps User Training: Level 1 - Beginner](#oneops-user-training-level-1---beginner)
+* [OneOps User Training: Level 2 - Advanced](#oneops-user-training-level-2---advanced)
 
 Upcoming material includes
 
-* OneOps User Training: Level 2 - Advanced 
 * OneOps Administrator Training
 * OneOps Developer Training
 
@@ -47,3 +47,15 @@ All modules are available as recorded videos:
 <a href="https://youtu.be/7bGN4Vxh0_E" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;At Home in OneOps and Conclusion</a><br>
 
 
+## OneOps User Training: Level 2 - Advanced
+
+This OneOps User training builds on the basis from the beginner class and
+covers the following topics:
+
+- assembly design with multiple platforms
+- more component knowledge including network aspects
+- in-depth understanding of cloud usage and configuration
+- scaling operations and release flows
+- integrating with OneOps
+
+__Check out the [slides.](/oneops-training/user-2-advanced.html)__
