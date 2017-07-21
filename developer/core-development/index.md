@@ -20,9 +20,10 @@ Must have:
 
 - [Java Development Kit 8 from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - [Apache Maven 3.5.0](http://maven.apache.org) (unless included Maven wrapper is used)
+- [Git](https://git-scm.com/downloads)
 - [Ruby](https://www.ruby-lang.org/en/downloads/)
 - [Gems](https://rubygems.org/pages/download)
-- [Git](https://git-scm.com/downloads)
+- [Packer](https://packer.io)
 - [Bundler](http://bundler.io/)
 - [graphviz](http://www.graphviz.org/)
 - PostgreSQL 9.2 development file (libpg)
