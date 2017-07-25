@@ -1,9 +1,9 @@
 ---
 layout: dev-doc
-title: Core Development
+title: Getting Started with Core Development
 ---
 
-## Introduction
+## {{ page.title }} 
 
 __Core development__ is all about development on any component of the 
 __OneOps application__ stack itself.
