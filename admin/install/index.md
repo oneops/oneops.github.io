@@ -9,6 +9,7 @@ process.
 
 The installation process is simplified by alternative methods to bootstrap you OneOps deployment: 
 
+- [Building OneOps from source including creation of VM via Vagrant](../../developer/core-development/index.html)
 - [Install OneOps on a VM installed by Vagrant](./install-with-vagrant.html)
 - [Install OneOps in Amazon EC2 via an Amazon Machine Image AMI](./install-with-ami.html)
 
