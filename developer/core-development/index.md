@@ -84,6 +84,24 @@ documentation for further information.
 OneOps uses a PostgreSQL database for model storage. Some information about the
 model is available in the [relations documentation](./relations.html).
 
+# Versioning And Releasing
+
+The OneOps project uses a version scheme of yy.mm.dd-enumerator, e.g. 
+17.08.02-01 and in development 17.08.02-01-SNAPSHOT.
+
+The version can be manually updated to a new value such as 
+`17.08.09-01-SNAPSHOT` with
+
+```
+mvn versions:set -DgenerateBackupPoms=false -DnewVersion="17.08.09-01-SNAPSHOT"
+```
+
+Automated CI builds increase the enumerator and are used to create releases with
+the Maven release plugin via
+
+```
+mvn release:prepare release:perform
+```
 
 
 
