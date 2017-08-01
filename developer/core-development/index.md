@@ -84,7 +84,7 @@ documentation for further information.
 OneOps uses a PostgreSQL database for model storage. Some information about the
 model is available in the [relations documentation](./relations.html).
 
-# Versioning And Releasing
+## Versioning And Releasing
 
 The OneOps project uses a version scheme of yy.mm.dd-enumerator, e.g. 
 17.08.02-01 and in development 17.08.02-01-SNAPSHOT.
