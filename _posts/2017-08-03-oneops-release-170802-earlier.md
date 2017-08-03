@@ -20,7 +20,7 @@ our users.
 
 - Most of the project is located in 
 [one source code repository](https://github.com/oneops/oneops)
-- [Build instructions](../developer/core-development/index.html) are much
+- [Build instructions](../../developer/core-development/index.html) are much
   simplified
 - Build can now produce a VM image to get OneOps up and running
 - CMS database upgrade to PostgreSQL 9.6 resulting in large performance gains
