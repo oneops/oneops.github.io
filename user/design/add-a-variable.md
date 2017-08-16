@@ -25,8 +25,8 @@ To add a variable, follow these steps:
 The three areas to store variables are: Cloud, Global and Local.
 
 
-* Cloud variables are defined for a particular Cloud and referenced as $OO_CLOUD{vairable-name}
-* Global variables are those set in a particular Assembly. Such variables are available across all platforms in an Assembly. These can be referred as $OO_GLOBAL{vairable-name}
+* Cloud variables are defined for a particular Cloud and referenced as $OO_CLOUD{variable-name}
+* Global variables are those set in a particular Assembly. Such variables are available across all platforms in an Assembly. These can be referred as $OO_GLOBAL{variable-name}
 * Local variables are those set in a particular Platform. The variable is available only to the components within the platform. Usage $OO_LOCAL{variable-name}
 
 At the time of deployment, these variables are substituted with the actual values.
