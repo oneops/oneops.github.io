@@ -18,8 +18,18 @@ The secrets are managed via the
 server. OneOps users can interact with the proxy to manage their secret files
 using the [Keywhiz Proxy CLI](#keywhiz-proxy-cli). 
 
-Secrets are synchronized to the computes every 30 seconds and can be accessed
-file normal filesystem operation in your application. 
+Secrets are synchronized to the computes every 30 seconds and can be [accessed
+file normal filesystem operation in your application](#secret-access).
+
+Typical step necessary are:
+
+- identify files that contain secrets
+- provision them to the Keywhiz server using the [Keywhiz Proxy CLI](#keywhiz-proxy-cli)
+- add the keywhiz client component to the relevant platform in design
+- pull the design changes to the desired environments
+- release and deploy the environments to operation
+- modify the [secret access](#secret-access) to load from the new location
+
 
 ## Keywhiz Proxy CLI
 
@@ -52,13 +62,85 @@ keywhiz-proxy-cli
 
 ### Authenticating and Access
 
-tbd, use your oneops user credentials, somehow detail the URL for the oneops
+TBD, use your oneops user credentials, somehow detail the URL for the oneops
 instance or the OneOps Keywhiz proxy server, 
 Explain who has access to what
 
 
 ### Adding, Updating and Deleting Secrets
 
-tbd, how to do that, how to specify org, assembly and env
+TBD, how to do that, how to specify org, assembly and env
 
 
+
+## Secret Access
+
+With the keywhiz client component in place all your secrets are available via
+standard filesystem operations.
+
+Typically applications load the secrets during their startup procedure. As a
+consequence, you need to restart the application after any relevant secret
+changes. Alternatively, you can implement a polling for secrets and automatic
+reloading.
+
+### Configuration Files
+
+If your application loads configuration files to access secrets, you can simply
+manage those files with the Keywhiz proxy and then update the reference to load
+those files. 
+
+For example, if the default location is configured to use 
+`/opt/myapp/conf/access.properties`, change it to e.g.
+`/secrets/access.properties`.
+
+### Java
+
+Java offers numerous ways to load files and secrets. The following example loads
+a properties file from `/opt/myapp/conf/access.properties`.
+
+```
+String configPath = "/opt/myapp/conf/access.properties"";
+ 
+Properties props = new Properties();
+props.load(new FileInputStream(configPath));
+```
+
+To change the loading to use the Keywhiz location simply change the configPath
+variable value to e.g. `/secrets/access.properties`.
+
+### NodeJS
+
+NodeJS can, for example, load JSON formatted properties file with the `require`
+function and you can simply change the path to the file. 
+
+For example with the `config.json` file of
+
+```
+{
+  username: "admin"
+  password: "mNQTic8mUtYLtdm"
+}
+```
+
+Loading the content can be achieved with
+
+```
+var config = require('./config/config.json');
+```
+
+and the values are avaiable at `config.username` and `config.password`.
+
+Changing this to use the secret storage, is as simple as changing the path:
+
+```
+var config = require('/secrets/config.json');
+```
+
+### Python
+
+Reading a secret file in Python can use the standard `open` function with the
+path to the `/secrets` mount.
+
+```
+open("/secrets/my-mysql-passwd").read()
+```
