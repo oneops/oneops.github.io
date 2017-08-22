@@ -30,6 +30,7 @@ Specific documentation is available for the following components:
 - [IIS Website Component](./ms-iis-website-component.html)
 - [Java Component](./java-component.html)
 - [Keystore Component](./keystore-component.html)
+- [Keywhiz Client Component](./keywhiz-client-component.html)
 - [Load Balancer (lb) Component](./lb-component.html)
 - [NuGet Package Component](./nuget-package-component.html)
 - [SSL CertificateComponent](./ssl-certificate-component.html)
