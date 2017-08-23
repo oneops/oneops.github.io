@@ -11,12 +11,12 @@ The default _Secrets mount_ point is `/secrets` and exposes the secret files on
 a normal filesystem. Access can be limited by configuring _User_ and _Group_
 ownership. 
 
-Currently on Linux-based computes are supported.
+Currently only Linux-based computes are supported.
 
 The secrets are managed via the
-[OneOps Secrets Proxy](../account/keywhiz-proxy.html) and stored in a Keywhiz
+[OneOps Secrets Proxy](../account/secrets-proxy.html) and stored in a Keywhiz
 server. OneOps users can interact with the proxy to manage their secret files
-using the [OneOps Secrets Proxy CLI](#keywhiz-proxy-cli). 
+using the [OneOps Secrets CLI](#oneops-secrets-cli). 
 
 Secrets are synchronized to the computes every 30 seconds and can be [accessed
 file normal filesystem operation in your application](#secret-access).
