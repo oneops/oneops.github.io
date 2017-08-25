@@ -252,11 +252,11 @@ Body:
 
 ## GET Transition by name
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>`
 
 ## POST a new transition
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>`
 
 ```
 Body:
@@ -289,7 +289,7 @@ Body:
 
 ## PUT Cloud configuration for environment platform
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/platforms/<PLATFORM_NAME>/cloud_configuration`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/platforms/<PLATFORM_NAME>/cloud_configuration`
 
 Body:
 
@@ -319,19 +319,19 @@ __Attributes:__
 
 ## POST a commit to an environment
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/commit`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/commit`
 
 ## GET Latest release id
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/releases/bom`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/releases/bom`
 
 ## Previous Path [DEPRECATED]
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/releases/latest`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/releases/latest`
 
 ## POST A new deploy
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/deployments/`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/deployments/`
 
 Body:
 
@@ -346,23 +346,23 @@ Body:
 
 ## GET deployment status
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/deployments/<DEPLOYMENT_ID>/status`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/deployments/<DEPLOYMENT_ID>/status`
 
 ## PUT Disable environment
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/disable`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/disable`
 
 ## GET Pull Latest
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/pull`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/pull`
 
 ## DELETE Environment
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>`
 
 ## POST Discard a release by ID
 
-https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/<ENVIRONMENT-NAME>/releases/<RELEASE-ID>/discard
+https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/releases/<RELEASE-ID>/discard
 
 # Operations
 
