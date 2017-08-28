@@ -25,7 +25,7 @@ you are contributing to.
 
 Once you sign this Contributor License Agreement (the “CLA”), we will  be able to merge your contributions and with only
 the friction that results from the usual technical back-and-forth of a vibrant open source project. More details are on
-the [Sign the CLA page](https://github.com/oneops/OneOps/blob/master/sign-cla.md).
+the [Sign the CLA page](https://github.com/oneops/oneops-cla/blob/master/sign-cla.md).
 
 Create [Pull-Requests](https://help.github.com/articles/creating-a-pull-request/) on your branch from master and we 
 will review and merge.
