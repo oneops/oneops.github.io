@@ -17,6 +17,8 @@ release we optimized design pull performance and a few other things.
 - Branch support and repository deletion support for build component [PR](https://github.com/oneops/circuit-oneops-1/pull/960)
 - Optimized auto repair performance
 - Avoid query usage for performance improvments [PR](https://github.com/oneops/oneops/pull/92)
+- Storage component with improved support for increased sizing [PR](https://github.com/oneops/circuit-oneops-1/pull/943)
+- Fixed touch operation for sshkey [PR](https://github.com/oneops/circuit-oneops-1/pull/946)
 
 ## Source Release Tags
 
