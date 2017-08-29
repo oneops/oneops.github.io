@@ -16,9 +16,12 @@ The source can be found at
 ## Installation
 
 Currently installation requires you to build the proxy from source and deploy it
-via a custom generated OneOps assembly.
+via a custom generated OneOps assembly using one customlb platform with the
+necessary configuration.
 
-In addition a Keywhiz server installation is required for the secret storage.
+In addition a Keywhiz server installation is required for the secret
+storage. This installation can be using OneOps via a customlb platform or a
+similar approach or use a separate deployment outside OneOps.
 
 ## Cloud Configuration
 
