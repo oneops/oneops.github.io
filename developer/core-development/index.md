@@ -77,6 +77,60 @@ Subsequently you can `suspend` or `halt` the VM with vagrant or use the
 VirtualBox user interface as desired. Refer to the Vagrant and VirtualBox
 documentation for further information.
 
+## Vagrant Setup
+
+If you want to make this Oneops instance use the circuit code on your host 
+machine then you need to create shared folders and setup inductor to use that 
+circuit code. You also need to install the circuit to update the CMS database.
+Below is a modified vagrant file to setup inductor to use our 
+[circuit-oneops-1](https://github.com/oneops/circuit-oneops-1) code and to install 
+the circuit. 
+
+```
+$script = <<SCRIPT
+  echo "configuring inductor to use circuit-oneops-1"
+  cd /opt/oneops/inductor
+
+  echo "removing existing circuit-oneops-1 and shared symlinks"
+  sudo unlink circuit-oneops-1
+  sudo rm -Rf shared
+
+  echo "creating symlinks to shared folders"
+  sudo ln -s /Some/Path/On/Vagrant/circuit-oneops-1 circuit-oneops-1
+
+  echo "circuit-oneops-1: circuit install"
+  cd /opt/oneops/inductor/circuit-oneops-1
+  circuit install
+
+  echo "script completed successfully"
+SCRIPT
+
+Vagrant.configure(2) do |config|
+
+ config.vm.box = "oneops"
+
+ # Use the vagrant-cachier plugin, if installed, to cache downloaded packages
+  if Vagrant.has_plugin?("vagrant-cachier")
+    config.cache.scope = :box
+  end
+
+  config.vm.network "forwarded_port", guest: 3001, host: 3003
+  config.vm.network "forwarded_port", guest: 3000, host: 9090
+  config.vm.network "forwarded_port", guest: 8080, host: 9091
+  config.vm.network "forwarded_port", guest: 8161, host: 8166
+
+ config.vm.provider "virtualbox" do |vb|
+   vb.gui = false
+   vb.memory = 6144
+   vb.customize ["modifyvm", :id, "--cpuexecutioncap", "70"]
+  end
+
+  config.vm.synced_folder "/Some/Path/On/Host/circuit-oneops-1", "/Some/Path/On/Vagrant/circuit-oneops-1",owner: "root",group: "root"
+
+  config.vm.provision "shell", inline: $script
+end
+```
+
 ## Database Schema
 
 OneOps uses a PostgreSQL database for model storage. Some information about the
@@ -100,6 +154,21 @@ the Maven release plugin via
 ```
 mvn release:prepare release:perform
 ```
+## Common Issues and Tips
 
+If you encounter problems installing postgresql on OSX you may need to use brew. 
 
+```
+brew update
+brew install postgresql
+gem install pg -v '0.17.0'
+```
+
+If the mvn commands above give you any trouble. Then make sure you are in the top 
+level folder of the [oneops source repository](https://github.com/oneops/oneops) clone 
+and run
+
+```
+./mvnw clean package -Pvagrant
+```
 
