@@ -6,20 +6,31 @@ title: Getting Started with Core Development
 __Core development__ is all about development on any component of the 
 __OneOps application__ stack itself.
 
-All source code for the various components is [available on GitHub]({{ site.github_url }}).
+All source code for the various components is [available on GitHub]({{
+site.github_url }}).
 
-The OneOps build relies on Unix scripts and should work on OSX and Linux operating systems versions.
+The OneOps build relies on Unix scripts and should work on OSX and Linux
+operating systems versions.
 
+- [Prerequisites](#prereqs)
+- [Building](#build)
+- [Vagrant Setup](#vagrant)
+- [Database Schema](#db)
+- [Versioning and Releasing](#release)
+- [Common Issues and Tips](#tips)
+
+<a name="prereqs"/>
 ## Prerequisites
 
-The following tools are required to build and run OneOps on a local developer machine.
+The following tools are required to build and run OneOps on a local developer
+machine.
 
 Must have:
 
 - [Java Development Kit 8 from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - [Apache Maven 3.5.0](http://maven.apache.org) (unless included Maven wrapper is used)
 - [Git](https://git-scm.com/downloads)
-- [Ruby](https://www.ruby-lang.org/en/downloads/)
+- [Ruby 2.2.3](https://www.ruby-lang.org/en/downloads/)
 - [Gems](https://rubygems.org/pages/download)
 - [Packer](https://packer.io)
 - [Bundler](http://bundler.io/)
@@ -34,10 +45,11 @@ Nice to have:
 - Some Git UI
 - And so on ...
 
+<a name="build"/>
 ## Building
 
 Fork and clone the [oneops source repository](https://github.com/oneops/oneops)
-and run a build with the Maven wrapper  in the created `oneops` directory:
+and run a build with the Maven wrapper in the created `oneops` directory:
 
 ```shell
 cd oneops
@@ -77,14 +89,19 @@ Subsequently you can `suspend` or `halt` the VM with vagrant or use the
 VirtualBox user interface as desired. Refer to the Vagrant and VirtualBox
 documentation for further information.
 
+<a name="vagrant"/>
 ## Vagrant Setup
 
-If you want to make this Oneops instance use the circuit code on your host 
-machine then you need to create shared folders and setup inductor to use that 
-circuit code. You also need to install the circuit to update the CMS database.
-Below is a modified vagrant file to setup inductor to use our 
-[circuit-oneops-1](https://github.com/oneops/circuit-oneops-1) code and to install 
-the circuit. 
+By default the Vagrant instance automatically includes all configuration of
+packs and more from
+[circuit-oneops-1](http://github.com/oneops/circuit-oneops-1).
+
+If you want to make this Oneops instance use a modified circuit code on your
+host machine then you need to create shared folders and set up the inductor
+component to use it instead. You also need to install the circuit to update the
+CMS database.  Below is a modified vagrant file to setup inductor to use our
+circuit-oneops-1 code and to install the circuit. A similar approach can be
+taken with other, potentially additional circuits.
 
 ```
 $script = <<SCRIPT
@@ -131,17 +148,19 @@ Vagrant.configure(2) do |config|
 end
 ```
 
+<a name="db"/>
 ## Database Schema
 
 OneOps uses a PostgreSQL database for model storage. Some information about the
 model is available in the [relations documentation](./relations.html).
 
+<a name="release"/>
 ## Versioning And Releasing
 
-The OneOps project uses a version scheme of yy.mm.dd-enumerator, e.g. 
+The OneOps project uses a version scheme of yy.mm.dd-enumerator, e.g.
 17.08.02-01 and in development 17.08.02-01-SNAPSHOT.
 
-The version can be manually updated to a new value such as 
+The version can be manually updated to a new value such as
 `17.08.09-01-SNAPSHOT` with
 
 ```
@@ -154,9 +173,11 @@ the Maven release plugin via
 ```
 mvn release:prepare release:perform
 ```
+
+<a name="tips"/>
 ## Common Issues and Tips
 
-If you encounter problems installing postgresql on OSX you may need to use brew. 
+If you encounter problems installing postgresql on OSX you may need to use brew.
 
 ```
 brew update
@@ -164,9 +185,9 @@ brew install postgresql
 gem install pg -v '0.17.0'
 ```
 
-If the mvn commands above give you any trouble. Then make sure you are in the top 
-level folder of the [oneops source repository](https://github.com/oneops/oneops) clone 
-and run
+If the mvn commands above give you any trouble. Then make sure you are in the
+top level folder of the
+[oneops source repository](https://github.com/oneops/oneops) clone and run
 
 ```
 ./mvnw clean package -Pvagrant
