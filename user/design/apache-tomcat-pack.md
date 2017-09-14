@@ -65,7 +65,7 @@ and from load balancer to Tomcat (HTTPS).
 
 To add attributes to a connector element or change the default value of a
 connector attribute, follow the steps below.  For additional details, refer to
-[the Tomcat Connection documentation](http://tomcat.apache.org/tomcat-7.0-doc/config/http.html").
+[the Tomcat Connection documentation](http://tomcat.apache.org/tomcat-8.0-doc/config/http.html).
 
 1. Go to the Tomcat configuration in your design.
 2. Change the protocol to what is appropriate for your application or port -
