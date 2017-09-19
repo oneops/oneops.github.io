@@ -352,6 +352,14 @@ Body:
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/disable`
 
+
+Body:
+
+```
+{ "platformCiIds" : ["<platformCiId>","<PlatformCiId>",...] }
+```
+
+
 ## GET Pull Latest
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/pull`
