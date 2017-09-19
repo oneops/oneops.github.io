@@ -30,7 +30,7 @@ Must have:
 - [Java Development Kit 8 from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - [Apache Maven 3.5.0](http://maven.apache.org) (unless included Maven wrapper is used)
 - [Git](https://git-scm.com/downloads)
-- [Ruby 2.2.3](https://www.ruby-lang.org/en/downloads/)
+- [Ruby 2.0.0](https://www.ruby-lang.org/en/downloads/), potentially via using [RVM](https://rvm.io/)
 - [Gems](https://rubygems.org/pages/download)
 - [Packer](https://packer.io)
 - [Bundler](http://bundler.io/)
