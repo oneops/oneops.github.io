@@ -136,7 +136,7 @@ balancer. Connectivity from the load balancer to the backend servers is
 unencrypted:
 
 ```
-terminated_https 443 http 8080
+https 443 http 8080
 ```
 
 This configuration takes incoming HTTPS requests on port 443 and forwards them
