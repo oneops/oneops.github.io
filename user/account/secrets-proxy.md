@@ -5,7 +5,18 @@ title: Secrets Proxy
 
 The OneOps Secrets Proxy is a proxy server that sits in front of a
 [Keywhiz server](https://square.github.io/keywhiz/)
-used for secrets storage. It understand the concepts and access configuration
+used for secrets storage. 
+
+Secrets are any file resources that contain information that needs to be kept
+private and secure. Examples are 
+
+- TLS/SSL certificate files/keys
+- property files and other files containing usernames, password or access tokens
+- API tokens
+- Java KeyStore files
+- and others
+
+The secrets proxy understand the concepts and access configuration
 of OneOps and allows a user to store secrets in Keywhiz and access them in
 their OneOps assemblies via the
 [secrets client component](../design/secrets-client-component.html).
@@ -25,6 +36,9 @@ similar approach or use a separate deployment outside OneOps.
 
 ## Cloud Configuration
 
-Once the Secrets Proxy is installed, the `secrets cloud service` has to be added
-to each cloud and configured to point at the secrets proxy. In addition, the
-`certificate cloud service` has to be configured on each cloud.
+Once the Secrets Proxy is installed and up and running, the cloud service with
+the type `secret` has to be added to each cloud and configured to point at the
+secrets proxy.
+
+In addition, a cloud service with the type `certificate` has to be configured on
+each cloud.
