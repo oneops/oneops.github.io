@@ -9,7 +9,7 @@ redundancy via load balancing and adds SSL support for these scenarios.
 
 Both components share the setup and allow you to configure a number of details about your SSL certificates. Locate the
 platform to which you want to add SSL certificate support and press the _+_ button beside the _certificate_ or the
-_lb-certificate_ component as desired and provide the necessary details: 
+_lb-certificate_ component as desired and provide the necessary details:
 
 
 ## Attributes
@@ -22,7 +22,7 @@ _SSL CA Certificate Key_: certificate of the certificate authority<br>
 _Pass Phrase_: pass phrase for the certificate<br>
 _Convert to PKCS12_: flag to determine if the certificate should be converted to the PKCS12 archive format<br>
 _Time remaining to expiry_: the time remaining until the certificate expires and needs renewal, supports y (year),
-m (month) and d (day) vaules such as `3m`, this data is taken into account for monitoring and notifications so users 
+m (month) and d (day) vaules such as `3m`, this data is taken into account for monitoring and notifications so users
 are alerted about upcoming certificate expiries.<br>
 _Directory path_: path where the certificate file is saved<br>
 
@@ -41,10 +41,14 @@ _SSL Certificate Key_ field value.
 Automatic generation and provisioning of certificates can be enabled with the _Auto Generate_ flag. It relies on the
 integration with a certificate management web service as a cloud service as part of the OneOps deployment modeled.
 
-_Common Name_: a single word string that is used as part of a unique identifier for the provisioned certificate<br/>
+_Common Name_: Full common name of the certificate to be provisioned.<br/>
+It should be maximum 64 characters<br/><br/>
 _Subject Alternative Name_: allows you to insert values into the certificates as subject alternative names<br/>
-_External (Internet Facing)_ and _Domain Name_: enable the setting and add a domain name and the value is passed to the 
+This is an optional attribute and accepts multiple SANs<br/><br/>
+_External (Internet Facing)_ and _Domain Name_: enable the setting and add a domain name and the value is passed to the
 service so that it can be inserted into the certificate<br/>
+example domain attribute value: "walmart.com"</br></br>
+_Pass Phrase_: certificate download password. </br> Must be minimum 12 and maximum 20 characters, At least 1 upper case and 1 lower case letter, special character and a number
 
 Once generated, the certificate is downloaded and its data is used for the values of the attributes _Key_,
 _Certificate_, _SSL CA Certificate Key_ and _Time remaining to expiry_.
@@ -60,6 +64,3 @@ expiry. If you change the monitor thresholds' _State_ from _Notify Only_ to _Def
 an automatic replacement of the certificate with a new auto-provisioned certificate.
 
 Monitoring and automatic replacement is not supported for non-managed certificates like the `lb-certificates`.
-
-
-
