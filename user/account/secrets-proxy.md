@@ -14,7 +14,8 @@ private and secure. Examples are
 - property files and other files containing usernames, password or access tokens
 - API tokens
 - Java KeyStore files
-- and others
+
+and others.
 
 The secrets proxy understand the concepts and access configuration
 of OneOps and allows a user to store secrets in Keywhiz and access them in

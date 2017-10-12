@@ -7,9 +7,8 @@ The _secrets client_ [component](./components.html) exposes files containing
 secrets such as property files with password, keystore files, ssh keys and 
 others on the filesytem of each compute of a platform.
 
-The default _Secrets mount_ point is `/secrets` and exposes the secret files on
-a normal filesystem. Access can be limited by configuring _User_ and _Group_
-ownership. 
+The mount point is `/secrets` and exposes the secret files on a tmpfs
+filesystem. Access can be limited by configuring _User_ and _Group_ ownership.
 
 Currently only Linux-based computes are supported.
 
@@ -18,15 +17,15 @@ The secrets are managed via the
 server. OneOps users can interact with the proxy to manage their secret files
 using the [OneOps Secrets CLI](#oneops-secrets-cli). 
 
-Secrets are synchronized to the computes every 30 seconds and can be [accessed
-file normal filesystem operation in your application](#secret-access).
+Secrets are synchronized to the computes every 30 seconds and can be
+[accessed via normal filesystem operation in your application](#secret-access).
 
-Typical step necessary are:
+Typical step necessary to start using the secrets client component are:
 
 - identify files that contain secrets
 - provision them to the Keywhiz server using the
 [OneOps Secrets CLI](#oneops-secrets-cli)
-- add the secrets client component to the relevant platform in design
+- add the `secrets client` component to the relevant platform in design
 - pull the design changes to the desired environments
 - release and deploy the environments to operation
 - modify the [secret access](#secret-access) to load from the new location
@@ -42,24 +41,49 @@ secret files in the [OneOps Secrets Proxy](../account/keywhiz-proxy.html).
 Download the latest version of the CLI from the Central Repository at
 [http://repo1.maven.org/maven2/com/oneops/secrets-cli](http://repo1.maven.org/maven2/com/oneops/secrets-cli)
 and locate the latest version in the above folder. Then download the file
-named `secrets-cli-*-uber.jar`, rename it to secrets-client and add it to
-your _PATH_.
+named `secrets-cli-*-executable.jar`, rename it to secrets and add it to your _PATH_.
 
 For example:
 
 ```
 mkdir ~/bin
 cd ~/bin
-curl -o secrets-cli http://repo1.maven.org/maven2/com/oneops/secrets-cli/1.0.0/secrets-cli-1.0.0-uber.jar
-chmod +x secrets-cli
+curl -o secrets http://repo1.maven.org/maven2/com/oneops/secrets-cli/1.0.3/secrets-cli-1.0.3-executable.jar
+chmod +x secrets
 export PATH=~/bin;$PATH
 ```
 
-Now you can run the application with
+Now you can run the application using the command. By default it will display
+the available options and commands:
 
 ```
-secrets-cli
+$ secrets 
+usage: secrets <command> [<args>]
+The most commonly used secrets commands are:
+    add        Add secret for an application.
+    clients    Show all clients for the application.
+    delete     Delete a secret.
+    details    Get a client/secret details of an application.
+    get        Retrieve secret from vault.
+    help       Display help information
+    info       Show OneOps Secrets CLI version info.
+    list       List all secrets for the application.
+    log        Tail (no-follow) secrets cli log file.
+    revert     Revert secret to the given version index.
+    update     Update an existing secret.
+    versions   Retrieve versions of a secret, sorted from newest to oldest update time.
+
+See 'secrets help <command>' for more information on a specific command.
 ```
+
+Note that if the secrets application does not work on your operating system, you
+can download the`secrets-cli-*-uber.jar` and use it with
+
+```
+java -jar secrets-cli-1.0.3-uber.jar 
+```
+
+Apart from the different invocation, the command behaves identically.
 
 ### Authenticating and Access
 
@@ -67,6 +91,8 @@ TBD, use your oneops user credentials, somehow detail the URL for the oneops
 instance or the OneOps Secrets Proxy, 
 Explain who has access to what
 
+login with oneops username/password
+configure parameters.
 
 ### Adding, Updating and Deleting Secrets
 
