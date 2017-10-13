@@ -32,6 +32,7 @@ Specific documentation is available for the following components:
 - [Keystore Component](./keystore-component.html)
 - [Load Balancer (lb) Component](./lb-component.html)
 - [NuGet Package Component](./nuget-package-component.html)
+- [Secrets Client Component](./secrets-client-component.html)
 - [SSL CertificateComponent](./ssl-certificate-component.html)
 - [Storage Component](./storage-component.html)
 - [User Component](./user-component.html)
