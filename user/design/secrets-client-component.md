@@ -4,21 +4,21 @@ title: Secrets Client Component
 ---
 
 The _secrets client_ [component](./components.html) exposes files containing
-secrets such as property files with password, keystore files, ssh keys and 
-others on the filesytem of each compute of a platform.
+secrets such as property files with password, keystore files, ssh keys and
+others on the file system of each compute of a platform.
 
-The mount point is `/secrets` and exposes the secret files on a tmpfs
-filesystem. Access can be limited by configuring _User_ and _Group_ ownership.
+The mount point is `/secrets` and exposes the secret files on a tmpfs file
+system. Access can be limited by configuring _User_ and _Group_ ownership.
 
 Currently only Linux-based computes are supported.
 
 The secrets are managed via the
 [OneOps Secrets Proxy](../account/secrets-proxy.html) and stored in a Keywhiz
 server. OneOps users can interact with the proxy to manage their secret files
-using the [OneOps Secrets CLI](#oneops-secrets-cli). 
+using the [OneOps Secrets CLI](#oneops-secrets-cli).
 
 Secrets are synchronized to the computes every 30 seconds and can be
-[accessed via normal filesystem operation in your application](#secret-access).
+[accessed via normal file system operation in your application](#secret-access).
 
 Typical step necessary to start using the secrets client component are:
 
@@ -51,8 +51,8 @@ secret files in the [OneOps Secrets Proxy](../account/keywhiz-proxy.html).
 
 Download the latest version of the CLI from the Central Repository at
 [http://repo1.maven.org/maven2/com/oneops/secrets-cli](http://repo1.maven.org/maven2/com/oneops/secrets-cli)
-and locate the latest version in the above folder. Then download the file
-named `secrets-cli-*-executable.jar`, rename it to secrets and add it to your _PATH_.
+and locate the latest version in the above folder. Then download the file named
+`secrets-cli-*-executable.jar`, rename it to secrets and add it to your _PATH_.
 
 For example:
 
@@ -64,7 +64,8 @@ chmod a+x secrets
 export PATH=~/bin;$PATH
 ```
 
-Now you can run the application using the command `secrets info` as a first test:
+Now you can run the application using the command `secrets info` as a first
+test:
 
 ```
 $ secrets info
@@ -109,9 +110,9 @@ the password.
 
 The `application` is the concatenated value from your organization name, the
 assembly name and the name of the environment separated by underscore -
-`orgname_assemblyname_envname`. E.g. for the `qa` environment in the `petstore` assembly
-within the `training` organization the application value to use is
-`training_petstore_qa`. 
+`orgname_assemblyname_envname`. E.g. for the `qa` environment in the `petstore`
+assembly within the `training` organization the application value to use is
+`training_petstore_qa`.
 
 
 ### Other Operations
@@ -159,17 +160,16 @@ OPTIONS
 <a name="assembly"/>
 ## Update OneOps Assembly
 
-Now that the secrets are available via the proxy and security configuration
-is completed, you can edit your assembly to access them:
+Now that the secrets are available via the proxy and security configuration is
+completed, you can edit your assembly to access them:
 
 - add the `secrets client` component to the relevant platform in design
 - pull the design changes to the desired environments
 - release and deploy the environments to operation
 
-Once the deployment is completed you can verify that everything is working
-by accessing a compute via SSH and checking the contents of the `/secrets` folder.
-It contains all the secrets added for the specific environment of the
-assembly.
+Once the deployment is completed you can verify that everything is working by
+accessing a compute via SSH and checking the contents of the `/secrets` folder.
+It contains all the secrets added for the specific environment of the assembly.
 
 ## Secret Access
 
@@ -185,9 +185,9 @@ reloading.
 
 If your application loads configuration files to access secrets, you can simply
 manage those files with the secrets proxy and then update the reference to load
-those files. 
+those files.
 
-For example, if the default location is configured to use 
+For example, if the default location is configured to use
 `/opt/myapp/conf/access.properties`, change it to e.g.
 `/secrets/access.properties`.
 
@@ -206,13 +206,13 @@ Properties props = new Properties();
 props.load(new FileInputStream(configPath));
 ```
 
-To change the loading to use the secrets location, simply change the configPath
+To change the loading to use the secrets location, simply change the `configPath`
 variable value to e.g. `/secrets/access.properties`.
 
 ### NodeJS
 
 NodeJS can, for example, load JSON formatted properties file with the `require`
-function and you can simply change the path to the file. 
+function and you can simply change the path to the file.
 
 For example with the `config.json` file of
 
