@@ -17,12 +17,14 @@ private and secure. Examples are
 
 and others.
 
+## Usage 
+
 The secrets proxy understand the concepts and access configuration
 of OneOps and allows a user to store secrets in Keywhiz and access them in
 their OneOps assemblies via the
 [secrets client component](../design/secrets-client-component.html).
 
-The source can be found at
+The source code and REST API documentation can be found on GitHub at
 [https://github.com/oneops/secrets-proxy](https://github.com/oneops/secrets-proxy).
 
 ## Installation
@@ -43,3 +45,5 @@ secrets proxy.
 
 In addition, a cloud service with the type `certificate` has to be configured on
 each cloud.
+
+
