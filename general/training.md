@@ -15,15 +15,16 @@ All slides are [available online](/oneops-training/) and with
 The currently available resources are:
 
 * [OneOps on the Walmart Technology Community YouTube channel](https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U) 
-* [OneOps User Training: Level 1 - Beginner](#oneops-user-training-level-1---beginner)
-* [OneOps User Training: Level 2 - Advanced](#oneops-user-training-level-2---advanced)
+* [OneOps User Training: Level 1 - Beginner](#user-1)
+* [OneOps User Training: Level 2 - Advanced](#user-2)
+* [OneOps User Training: Level 2 - Advanced Examples](#user-3)
 
 Upcoming material includes
 
 * OneOps Administrator Training
 * OneOps Developer Training
 
-
+<a name="user-1"/>
 ## OneOps User Training: Level 1 - Beginner
 
 This OneOps User training aims to cover the following topics:
@@ -34,7 +35,7 @@ This OneOps User training aims to cover the following topics:
 - ability to create a cloud application in OneOps
 - and manage it in multiple deployments
 
-__Check out the [slides.](/oneops-training/user-1-beginner.html)__
+__Check out the [slides.](../oneops-training/user-1-beginner.html)__
 
 All modules are available as recorded videos:
 
@@ -47,6 +48,7 @@ All modules are available as recorded videos:
 <a href="https://youtu.be/7bGN4Vxh0_E" target="_blank"><i class="fa fa-video-camera"></i>&nbsp;At Home in OneOps and Conclusion</a><br>
 
 
+<a name="user-2"/>
 ## OneOps User Training: Level 2 - Advanced
 
 This OneOps User training builds on the basis from the beginner class and
@@ -58,4 +60,14 @@ covers the following topics:
 - scaling operations and release flows
 - integrating with OneOps
 
-__Check out the [slides.](/oneops-training/user-2-advanced.html)__
+__Check out the [slides.](../oneops-training/user-2-advanced.html)__
+
+<a name="user-3"/>
+## OneOps User Training: Level 3 - Advanced Examples
+
+This OneOps User training is currently in development with modules for specific
+topics added on demand:
+
+- secrets management 
+
+__Check out the [slides.](../oneops-training/user-3-advanced.html)__
