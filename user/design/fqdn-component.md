@@ -1,5 +1,3 @@
-
-
 ---
 layout: user-doc
 title: Fully Qualified Domain Name FQDN

@@ -19,7 +19,7 @@ for our advanced users.
 
 * API endpoints in transistor for manifest import and export - [PR](https://github.com/oneops/transistor/pull/100)
 * Added further validation for the _continue on failure_ support - [PR](https://github.com/oneops/controller/pull/48)
-* Replaces TBD remark in pack and component documentation with pointer to [oneops.com](http://oneops.com) - [PR](https://github.com/oneops/circuit-oneops-1/pull/726)
+* Replaced TBD remark in pack and component documentation with pointer to [oneops.com](http://oneops.com) - [PR](https://github.com/oneops/circuit-oneops-1/pull/726)
 * Deprecated tomcat-2 pack - [PR](https://github.com/oneops/circuit-oneops-1/pull/728)
 * Added LXD sizes to compute component - [PR](https://github.com/oneops/circuit-oneops-1/pull/731)
 

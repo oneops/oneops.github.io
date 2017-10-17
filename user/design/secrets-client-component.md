@@ -47,7 +47,7 @@ _transition_.
 ## OneOps Secrets CLI
 
 The OneOps Secrets CLI is a command line tool that allows a user to manage their
-secret files in the [OneOps Secrets Proxy](../account/keywhiz-proxy.html).
+secret files in the [OneOps Secrets Proxy](../account/secrets-proxy.html).
 
 ### Downloading and Installing
 

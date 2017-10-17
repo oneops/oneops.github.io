@@ -105,8 +105,7 @@ Component Class is the lowest-level configuration entity of OneOps metadata and:
 * Has attributes and idempotent control code (chef recipes) to manage its lifecycle
 * Has control/recipes: `add`, `update`, `delete`, `start`, `stop`, `restart`, `status`, `repair`, `custom`
 
-Example components are: `cassandra`, `compute`, `rabbitmq`, `storage`, `php`. For more detail, view 
-[the full component list](/developer/content-development/component-list.html).
+Example components are: `cassandra`, `compute`, `rabbitmq`, `storage`, `php`. 
 
 A Component Class must have:
 
