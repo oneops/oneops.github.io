@@ -70,4 +70,4 @@ topics added on demand:
 
 - secrets management 
 
-__Check out the [slides.](../oneops-training/user-3-advanced.html)__
+__Check out the [slides.](../oneops-training/user-3-advanced-examples.html)__
