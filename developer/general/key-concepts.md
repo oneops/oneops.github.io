@@ -7,7 +7,7 @@ id: "key-concepts"
 # OneOps System Architecture
 
 As a pack developer, you don't need to know the details of **system architecture**, but if you want to learn more 
-refer <a href="/admin/general/key-concepts.html#system-architecture">System Architecture</a>.
+refer <a href="/admin/key-concepts.html#system-architecture">System Architecture</a>.
 
 # Model Overview
 

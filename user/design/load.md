@@ -73,7 +73,7 @@ The file can be loaded using any of the following:
 
 - **UI** page for design load by uploading the yaml file or posting the yaml content directly in the text area. To get 
 to the design load page in the UI go to the assembly design and click on the `Load` button in the header.
-- **CLI** command `oneops design load`. The defaults path for the Design file is `./oneops-design.yaml`. For additional information see <a href="/admin/general/key-concepts.html">CLI</a> section.
+- **CLI** command `oneops design load`. The defaults path for the Design file is `./oneops-design.yaml`. For additional information see <a href="/admin/key-concepts.html">CLI</a> section.
 - **API** request for design load. Some examples using _cURL_:
 
 GET request to extract design in YAML format:

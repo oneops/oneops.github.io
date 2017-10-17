@@ -9,7 +9,7 @@ Linux system and to create a new component (cookbook) with its accompanying pack
 # Prerequisite
 
 For both API and Circuit development you need access to a running OneOps deployment. To build your own deployment,
-start with the <a href="/admin/install/">Installation</a> section.
+start with the <a href="/admin/installation.html">Installation</a> section.
 
 # Circuit Developer
 
@@ -17,11 +17,8 @@ For Circuit development, follow the instructions below.
 
 # Installation
 
-There is two installation options.  
-
-* (Recommended) Use a pre-configured Vagrant image, described in the
-  [Installation](/admin/install/) section
-* Manually build from source
+Installation of OneOps is described in the
+[administration section](/admin/installation.html).
 
 # Setup and Configuration
 

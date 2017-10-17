@@ -3,7 +3,7 @@ layout: admin-doc
 title: Administrator Operation
 ---
 
-This documemtation section about operating aspects for OneOps administrators includes:
+This documentation section about operating aspects for OneOps administrators includes:
 
 <ul>
 {% for p in site.pages %}

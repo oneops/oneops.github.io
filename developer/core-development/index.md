@@ -86,8 +86,38 @@ Once the VM is up and running, you can access the OneOps user interface at
 [http://localhost:9090](http://localhost:9090).
 
 Subsequently you can `suspend` or `halt` the VM with vagrant or use the
-VirtualBox user interface as desired. Refer to the Vagrant and VirtualBox
-documentation for further information.
+VirtualBox user interface as desired.
+
+Suspend the VM
+
+{% highlight shell %}
+vagrant suspend
+{% endhighlight %}
+
+and subsequently start it again with
+
+{% highlight shell %}
+vagrant resume
+{% endhighlight %}
+
+Alternatively you can use `halt` and `up` for a clean shutdown:
+
+{% highlight shell %}
+vagrant halt
+{% endhighlight %}
+
+and later a reboot:
+
+{% highlight shell %}
+vagrant up
+{% endhighlight %}
+
+In order to inspect the VM content itself, you can connect via SSH with vagrant.
+
+Find further information about the vagrant command with ```vagrant help``` as well
+as in the [Vagrant documentation](https://www.vagrantup.com/docs/).
+
+The VirtualBox user interface can be used alternatively.
 
 <a name="vagrant"/>
 ## Vagrant Setup
