@@ -7,20 +7,22 @@ The _secrets client_ [component](./components.html) exposes files containing
 secrets such as property files with password, keystore files, ssh keys and
 others on the file system of each compute of a platform.
 
-The mount point is `/secrets` and exposes the secret files on a tmpfs file
-system. Access can be limited by configuring _User_ and _Group_ ownership.
+The default mount point is `/secrets` and exposes the secret files on a tmpfs
+file system. tempfs is a temporary storage facility intended to appear as a
+mounted file system that persists in memory rather than on disk. Access can be
+limited by configuring _User_ and _Group_ ownership.
 
 Currently only Linux-based computes are supported.
 
 The secrets are managed via the
-[OneOps Secrets Proxy](../account/secrets-proxy.html) and stored in a Keywhiz
-server. OneOps users can interact with the proxy to manage their secret files
+[OneOps Secrets Proxy](../account/secrets-proxy.html) and stored by
+Keywhiz. OneOps users can interact with the proxy to manage their secret files
 using the [OneOps Secrets CLI](#oneops-secrets-cli).
 
 Secrets are synchronized to the computes every 30 seconds and can be
 [accessed via normal file system operation in your application](#secret-access).
 
-Typical step necessary to start using the secrets client component are:
+Typical steps necessary to start using the secrets client component are:
 
 - identify files that contain secrets
 - prepare your [OneOps security configuration](#security-config)
@@ -31,7 +33,7 @@ Typical step necessary to start using the secrets client component are:
 <a name="security-config"/>
 ## OneOps Security Configuration
 
-Access to secrets for a particular organization or assembly in OneOps is managed
+Access to secrets for an assembly in OneOps is managed
 via membership in teams:
 
 - Create a team in your organization named `secrets-admin`, or for
@@ -69,7 +71,7 @@ test:
 
 ```
 $ secrets info
-OneOps Secrets CLI: v1.0.3 
+OneOps Secrets CLI: v1.0.3
 Built on 2017-10-04 11:12:57 PM UTC
 ```
 
@@ -77,7 +79,7 @@ Note that if the secrets application does not work on your operating system, you
 can download the`secrets-cli-*-uber.jar` and use it with
 
 ```
-java -jar secrets-cli-1.0.3-uber.jar 
+java -jar secrets-cli-1.0.3-uber.jar
 ```
 
 Apart from the different invocation, the command behaves identically.
@@ -121,7 +123,7 @@ The secrets CLI supports numerous other operations that are listed via a
 built-in help accessible via an invocation without parameters:
 
 ```
-$ secrets 
+$ secrets
 usage: secrets <command> [<args>]
 The most commonly used secrets commands are:
     add        Add secret for an application.
@@ -140,7 +142,7 @@ The most commonly used secrets commands are:
 See 'secrets help <command>' for more information on a specific command.
 ```
 
-Detailed help for each command is available via the help command e.g. 
+Detailed help for each command is available via the help command e.g.
 
 ```
 $ NAME
@@ -201,7 +203,7 @@ a properties file from `/opt/myapp/conf/access.properties`.
 
 ```java
 String configPath = "/opt/myapp/conf/access.properties"";
- 
+
 Properties props = new Properties();
 props.load(new FileInputStream(configPath));
 ```
