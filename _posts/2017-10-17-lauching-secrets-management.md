@@ -21,7 +21,7 @@ improvements and configuration and the OneOps-related improvements.
 And we ended up with a pretty impressive setup with the following components:
 
 - A large, fail-safe deployment of Keywhiz servers and backing database systems
-  for secrets storage
+  for secrets storage encrypted with HSMs
 - A deployment of the new [OneOps Secrets Proxy](../../user/account/secrets-proxy.html)
 - A pre-configured binary of the OneOps Secrets CLI for user convenience
 - Addition of the [secrets client component](../../user/design/secrets-client-component) 
