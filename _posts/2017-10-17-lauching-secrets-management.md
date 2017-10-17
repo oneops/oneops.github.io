@@ -40,3 +40,7 @@ To allow users to ramp up usage quickly, we have created a new training class -
 [OneOps User Training: Level 3 - Advanced Examples](../training.html#user-3)
 that adds secrets management as a first module.
 
+A special thank you has to go out to the team at
+[Square](https://square.github.io/). We look forward to further collaboration!
+
+_OneOps Team_
