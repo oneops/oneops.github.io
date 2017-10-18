@@ -3,7 +3,7 @@ layout: user-doc
 title: Compute Component
 ---
 
-The _compute_ [component](./components.html) is of core importance and part of most platforms since it
+The _compute_ [component](./components.html) is of core importance and all platforms since it
 represents the virtual machine and operating system on which the platform runs.
 
 You can configure the compute component as part of your platform in design phase and specific to an environment in the

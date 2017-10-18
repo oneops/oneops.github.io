@@ -3,7 +3,4 @@ layout: user-doc
 title: Sensuclient Component
 ---
 
-base component doc tbd
-
-## Attributes
-
+The _sensuclient_ [component](./components.html) is available for all platforms.

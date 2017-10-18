@@ -3,7 +3,4 @@ layout: user-doc
 title: Share Component
 ---
 
-base component doc tbd
-
-## Attributes
-
+The _share_ [component](./components.html) is available for all platforms.

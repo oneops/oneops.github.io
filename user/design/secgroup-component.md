@@ -3,7 +3,4 @@ layout: user-doc
 title: Security Group Component
 ---
 
-base component doc tbd
-
-## Attributes
-
+The _secgroup_ [component](./components.html) is available for all platforms.

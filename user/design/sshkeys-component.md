@@ -3,7 +3,4 @@ layout: user-doc
 title: SSH Keys Component
 ---
 
-base component doc tbd
-
-## Attributes
-
+The _sshkeys_ [component](./components.html) is available for all platforms.

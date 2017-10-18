@@ -3,7 +3,5 @@ layout: user-doc
 title: Operating System Component
 ---
 
-base component doc tbd
-
-## Attributes
-
+The _os_ [component](./components.html) is available for all platforms and
+configures the operating system.

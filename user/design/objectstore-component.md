@@ -3,7 +3,4 @@ layout: user-doc
 title: Objectstore Component
 ---
 
-base component doc tbd
-
-## Attributes
-
+The _objectstore_ [component](./components.html) is available for all platforms.

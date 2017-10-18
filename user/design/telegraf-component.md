@@ -1,9 +1,6 @@
 ---
 layout: user-doc
-title: SSH Keys Component
+title: Telegraf Component
 ---
 
-base component doc tbd
-
-## Attributes
-
+The _telegraf_ [component](./components.html) is available for all platforms.
