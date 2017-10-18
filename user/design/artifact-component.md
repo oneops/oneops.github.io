@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Filebeat Component
+title: Artfifact Component
 ---
 
 The _artifact_ [component](./components.html) is of core importance and

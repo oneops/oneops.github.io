@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Cron Job Component
+title: Job Component
 ---
 
 The _job_ [component](./components.html) is available in a number of platforms and can be used to execute specific

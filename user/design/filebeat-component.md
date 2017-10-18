@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: Fielbeat Component
+title: Filebeat Component
 ---
 
 The _filebeat_ [component](./components.html) is available on all platforms.
