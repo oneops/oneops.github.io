@@ -19,24 +19,44 @@ Any component additions or configuration changes need to be deployed to take eff
 6. Implement the changes in transition by pressing _Commit and Deploy_ 
 7. Observe the changes in operation of your chosen environment.
 
-Specific documentation is available for the following components:
+A number of base components are available in all platforms: 
+
+- [Artifact Component](./artifact-component.html)
+- [Certificate Component](./certificate-component.html)
+- [Compute Component](./compute-component.html)
+- [Daemon Component](./daemon-component.html)
+- [Download Component](./download-component.html)
+- [File Component](./file-component.html)
+- [Filebeat Component](./filebeat-component.html)
+- [Firewall Component](./firewall-component.html)
+- [Fully Qualified Domain Name (fqdn) Component](./fqdn-component.html)
+- [Hostname Component](./hostname-component.html)
+- [Job Component](./job-component.html)
+- [Library Component](./library-component.html)
+- [Logstash Component](./logstash-component.html)
+- [Objectstore Component](./objectstore-component.html)
+- [Operating System (os) Component](./os-component.html)
+- [Secrets Client Component](./secrets-client-component.html)
+- [Security Group (secgroup) Component](./secgroup-component.html)
+- [Sensu Client (sensuclient) Component](./sensuclient-component.html)
+- [Share Component](./share-component.html)
+- [SSHKeys Component](./sshkeys-component.html)
+- [Storage Component](./storage-component.html)
+- [Telegraf Component](./telegraf-component.html)
+- [User Component](./user-component.html)
+- [Volume Component](./volume-component.html)
+
+In addition specific components are available in various platforms and
+documentation is available for a limited subset:
 
 - [Apache HTTP Server Component](./apache-http-server-component.html)
 - [Chocolatey Package Component](./chocolatey-package-component.html)
-- [Compute Component](./compute-component.html)
-- [Cron Job Component](./cron-job-component.html)
 - [DotNet Framework Component](./ms-dotnetframework-component.html)
-- [Fully Qualified Domain Name (fqdn) Component](./fqdn-component.html)
 - [IIS Website Component](./ms-iis-website-component.html)
 - [Java Component](./java-component.html)
 - [Keystore Component](./keystore-component.html)
 - [Load Balancer (lb) Component](./lb-component.html)
 - [NuGet Package Component](./nuget-package-component.html)
-- [Secrets Client Component](./secrets-client-component.html)
-- [SSL CertificateComponent](./ssl-certificate-component.html)
-- [Storage Component](./storage-component.html)
-- [User Component](./user-component.html)
-- [Volume Component](./volume-component.html)
 - [Website Component](./website-component.html)
 
 

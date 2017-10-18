@@ -1,6 +1,6 @@
 ---
 layout: user-doc
-title: SSL Certificate Component
+title: Certificate Component
 ---
 
 The _certificate_ [component](./components.html) is part of every platform and

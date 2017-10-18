@@ -3,7 +3,7 @@ layout: user-doc
 title: Volume Component
 ---
 
-The _volume_ [component](./components.html) is of core importance and part of most platforms as it
+The _volume_ [component](./components.html) is of core importance and part of all platforms as it
 defines how the system will access the attached storage accessible to the virtual machine. The volume component
 defines the size and mount points.
 
