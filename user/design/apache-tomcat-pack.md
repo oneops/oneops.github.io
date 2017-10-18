@@ -25,7 +25,7 @@ _logmon_ is recommended.
 
 SSL configuration for Tomcat is similar to the usage with the
 [apache pack](./apache-http-server-pack.html) relying on the
-[certificate component](./ssl-certificate-component.html). As a Java
+[certificate component](./certificate-component.html). As a Java
 application, Tomcat also requires configuration of the
 [keystore component](./keystore-component.html).
 
@@ -122,4 +122,4 @@ production.
 
 The SSL connector is only configured, if you have KeyStore and certificate
 optional component. For instructions on how to enable SSL, refer to <a
-href="/user/design/ssl-certificate-component.html">SSL Certificate Component</a>
+href="/user/design/certificate-component.html">SSL Certificate Component</a>

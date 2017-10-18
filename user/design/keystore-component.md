@@ -4,7 +4,7 @@ title: Keystore Component
 ---
 
 The _keystore_ [component](./components.html) works together with the _certificate_ component of a platform to 
-[manage SSL certificates](./ssl-certificate-component.html) and uses the certificates in the Keystore used in the Java
+[manage SSL certificates](./certificate-component.html) and uses the certificates in the Keystore used in the Java
 platform and therefore platforms such as Tomcat, Kafka and others.
 
 # Attributes
@@ -15,4 +15,4 @@ component<br>
 
 # Example
 
-See a full example usage in [the certificate component documentation](./ssl-certificate-component.html)
+See a full example usage in [the certificate component documentation](./certificate-component.html)

@@ -13,8 +13,8 @@ features like support for Slack notifications.
 ## New Features
 
 * [Support for Slack as notification sink](/user/account/notifications-to-slack.html)
-* Automated [SSL certificate management](/user/design/ssl-certificate-component.html)
-* SSL certificate [expiry tracking and monitoring](/user/design/ssl-certificate-component.html)
+* Automated [SSL certificate management](/user/design/certificate-component.html)
+* SSL certificate [expiry tracking and monitoring](/user/design/certificate-component.html)
 
 
 ## Bug Fixes and Improvements

@@ -124,7 +124,7 @@ https 443 https 8443
 
 Any incoming requests on the default HTTPS port 443 are forwarded to the
 internal computes at 8443. It is necessary to configure the needed certificate
-in the [ssl-certificate-component](./ssl-certificate-component.html).
+in the [certificate component](./certificate-component.html).
 
 The certificate is copied to the backend servers and certificate verification is
 done at the backend.
@@ -144,7 +144,7 @@ as HTTP requests to port 8080. The advantage of this configuration is that it
 requires no certificate configuration on the computes.
 
 It is necessary to configure the certificate in the
-[ssl-certificate-component](./ssl-certificate-component.html). The certificate
+[certificate component](./certificate-component.html). The certificate
 is copied to the load balancer only and certificate verification is done at the
 load balancer.
 

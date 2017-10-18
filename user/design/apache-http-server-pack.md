@@ -45,7 +45,7 @@ encrypted to the load balancer and is clear text from load balancer to web serve
 The more advanced Option 2 encrypts the traffic all the way to the web server and its configuration follows below.
 
 General tips about SSL certificate usage can be found in the
-[SSL certificate component documentation](./ssl-certificate-component.html).
+[certificate component documentation](./certificate-component.html).
 
 After configuring the Apache HTTP Server platform you need to obtain a valid certificate with the following
 characteristics:
