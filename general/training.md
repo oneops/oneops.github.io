@@ -1,20 +1,19 @@
 ---
-layout: general-doc
+layout: wmt/project
 title: OneOps Training
 ---
 
-# OneOps Training
 
 The OneOps team provides training material and uses it regularly for internal
 training classes at Walmart. The material includes slides with speaker notes
 and videos.
 
-All slides are [available online](/oneops-training/) and with 
+All slides are [available online](/oneops-training/) and with
 [the source and usage instructions in GitHub](http://github.com/oneops/oneops-training).
 
 The currently available resources are:
 
-* [OneOps on the Walmart Technology Community YouTube channel](https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U) 
+* [OneOps on the Walmart Technology Community YouTube channel](https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U)
 * [OneOps User Training: Level 1 - Beginner](#user-1)
 * [OneOps User Training: Level 2 - Advanced](#user-2)
 * [OneOps User Training: Level 2 - Advanced Examples](#user-3)
@@ -68,6 +67,6 @@ __Check out the [slides.](../oneops-training/user-2-advanced.html)__
 This OneOps User training is currently in development with modules for specific
 topics added on demand:
 
-- secrets management 
+- secrets management
 
 __Check out the [slides.](../oneops-training/user-3-advanced-examples.html)__

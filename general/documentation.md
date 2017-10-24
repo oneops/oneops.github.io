@@ -1,22 +1,9 @@
 ---
-layout: general-doc
+layout: wmt/project
 title:  Documentation
 ---
 
-<!--HERO CONTAINER-->
-<div class="documentation-hero-unit">
-  <div class="hero-info hero-headline-one">
-    <br>
-    <br>
-    <div class="yellow">Documentation,</div>
-    <div class="white">written and maintained so you</div>
-    <div class="white">can get the most out of OneOps</div>
-  </div>
-  <div class="hero-overlay-darker"></div>
-</div>
-<br>
-
-OneOps documentation is arranged by user type. To find the answers you seek, please select a role:
+Written and maintained so you can get the most out of OneOps. The documentation is arranged by user type. To find the answers you seek, please select a role:
 
 <br>
 <br>
@@ -57,4 +44,3 @@ OneOps documentation is arranged by user type. To find the answers you seek, ple
     </div>
   </a>
 </div>
-

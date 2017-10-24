@@ -1,22 +1,13 @@
 ---
-layout: general-doc
+layout: wmt/project
 title: Integrations
 ---
 
-<!--HERO CONTAINER-->
-<div class="integrations-hero-unit">
-  <div class="hero-info hero-info-integrations hero-headline-one">
-    <br>
-    <div class="yellow">Integrations</div>
-    <div class="white">OneOps is a marketplace of</div>
-    <div class="white">cloud providers and software products</div>
-    <div class="white">designed for DevOps developers.</div>
-  </div>
-  <div class="hero-overlay-darker"></div>
-</div>
 
-<br><br>
-<div class="center-text headline-one bottom-spacer-small blue">Supported Clouds</div>
+OneOps is a marketplace of cloud providers and software products designed for DevOps developers.
+
+
+## Supported Clouds
 
 <!--Full Screen-->
 <table class="integrations-table">
@@ -75,30 +66,25 @@ title: Integrations
 </table>
 
 
+
 If your company is interested in integrating your cloud in to the OneOps product, then please ...
 
-<p class="center-text">
-  <a href="mailto:partners@oneops.com">
-    <button class="btn btn-help">Email Us</button>
-  </a>
-</p>
 
-<br><br>
-<div id="software"></div>
-<div class="center-text headline-one top-spacer bottom-spacer-small blue">
-    Supported Products
-</div>
 
-<p>
-    <strong>@WalmartLabs</strong> has many products integrated with <strong>OneOps</strong> which will
+<a class="btn-u yellow-bg" type="button" href="mailto:partners@oneops.com">Email Us</a>
+
+
+## Supported Products
+
+<strong>@WalmartLabs</strong> has many products integrated with <strong>OneOps</strong> which will
     be released  within the first few months after having made <strong>OneOps</strong> open source.
     We’ve launched <strong>OneOps</strong> with a verified capability to manage Node, Java and LAMP
     based applications on all the supported cloud providers. The other products included in this initial
     release are required for <strong>OneOps</strong> to be deployed and to manage itself. They’re part
-    of the building blocks of the <strong>OneOps</strong> technology. 
+    of the building blocks of the <strong>OneOps</strong> technology.
     The <a href="https://github.com/oneops/circuit-oneops-1">source of the circuit</a> is the
     authoritative reference for available integrations.
-</p>
+
 
 <table class="table table-partners">
     <!--TABLE HEADING-->
@@ -233,46 +219,40 @@ If your company is interested in integrating your cloud in to the OneOps product
     </tbody>
 </table>
 
-<div class="center-text">
-    If you or your company are interested in contributing support for a software product
-    or open source project to OneOps, then please ...
-</div>
-<p class="button-padding center-text">
-  <a href="mailto:partners@oneops.com"><button class="btn btn-help">Email Us</button></a>
-</p>
 
-<br><br>
-<div id="help"></div>
+If you or your company are interested in contributing support for a software product or open source project to OneOps, then please ...
 
-<!--Header-->
-<div class="center-text headline-one top-spacer bottom-spacer-small blue">
-    Getting Help
-</div>
-<p class="center-text">Consulting and Professional Services</p>
-<p class="center-text">
-  <span class="partner-image">
-  <a href="http://www.avalonconsult.com/" target="_blank">
-    <img src="/assets/img/logos/avalon.png" alt="Avalon Consulting"/></a>
-  </span>
-  <span class="partner-image">
-  <a href="http://www.nisum.com/" target="_blank">
-    <img src="/assets/img/logos/nisum.png" alt="Nisum Technologies"/></a>
-  </span>
-  <span class="partner-image">
-  <a href="http://www.developintelligence.com/catalog/devops/oneops/introduction-to-oneops" target="_blank">
-    <img src="/assets/img/logos/Develop-Intelligence-logo.png" alt="DevelopIntelligence LLC"/></a>
-  </span>
-</p>
-<!--Full Screen-->
-<div class="center-text">
-    If you’re interested in providing consulting or professional services to companies
-    interested in using OneOps, then please ...
-</div>
-<p class="button-padding center-text">
-    <a href="mailto:partners@oneops.com">
-        <button class="btn btn-help">
-            Email Us
-        </button>
-    </a>
-</p>
 
+
+<a class="btn-u yellow-bg" type="button" href="mailto:partners@oneops.com">Email Us</a>
+
+
+
+
+## Getting Help
+
+Consulting and Professional Services:
+
+
+<div class="row margin-bottom-30">
+  <div class="col-md-4" align="center">
+    <a href="http://www.avalonconsult.com/" target="_blank"><img src="/assets/img/logos/avalon.png" alt="Avalon Consulting"/></a>
+  </div>
+
+  <div class="col-md-4" align="center">
+    <a href="http://www.nisum.com/" target="_blank"><img src="/assets/img/logos/nisum.png" alt="Nisum Technologies" style="padding-right: 30px;float:left;"/></a>
+  </div>
+
+  <div class="col-md-4" align="center">
+    <a href="http://www.developintelligence.com/catalog/devops/oneops/introduction-to-oneops" target="_blank"><img src="/assets/img/logos/Develop-Intelligence-logo.png" alt="DevelopIntelligence LLC" style="padding-right: 30px;float:left;"/></a>
+  </div>
+</div>
+
+
+
+
+If you’re interested in providing consulting or professional services to companies interested in using OneOps, then please ...
+
+
+
+<a class="btn-u yellow-bg" type="button" href="mailto:partners@oneops.com">Email Us</a>

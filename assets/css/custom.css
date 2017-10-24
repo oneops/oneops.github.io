@@ -1,0 +1,28 @@
+/* ------------------------------ CUSTOM PROJECT STYLES ------------------------------ */
+
+/* All custom styles must be placed in this css file or they will risk being overwritten by updates with the base wmt.css file. */
+/* cross site nav styling */
+
+/* ------------------------------ HOMEPAGE STYLES ------------------------------ */
+
+.homeBanner {
+    background: #2f2951;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    padding: 0px; }
+
+    /* ------------------------------ SEARCH STYLES ------------------------------ */
+
+    #search-container input {
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+    #results-container {
+      text-align: left;
+    }
+
+    #results-container li {
+      list-style-type: none;
+      list-style: none;
+    }

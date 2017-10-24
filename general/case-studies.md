@@ -1,9 +1,9 @@
 ---
-layout: general-doc
+layout: wmt/project
 title: Case Studies
 ---
 
-<h1 class="yellow">Case Study: Walmart.com</h1>
+## Case Study: Walmart.com
 
 <img src="/assets/img/hero/wcs/wcs.png"/>
 
@@ -69,6 +69,3 @@ OneOps pulls these dimensions together seamlessly."
     </div>
   </div>
 </div>
-
-
-

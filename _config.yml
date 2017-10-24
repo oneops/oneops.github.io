@@ -19,6 +19,7 @@ twitter_url: https://twitter.com/One_Ops
 github_url: https://github.com/oneops
 oneops_training_url: https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U
 walmart_technology_community_url: https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww
+logo: /assets/img/logo.png
 
 excerpt_separator: <!--more-->
 permalink: /general/blog/:year-:month-:day-:title.html
@@ -30,23 +31,28 @@ searchname: 'site-oneops-'
 #feedbackurl: http://feedback.oneops.com/feedback
 
 navigation:
- - title: Benefits
-   url: /general/benefits.html
- - title: Integrations
-   url: /general/integrations.html
- - title: Contribute
-   url: /general/contribute.html
- - title: Blog
-   url: /general/blog
- - title: About
+ - title: OVERVIEW
    url: /general/about.html
- - title: User
+   context: /general/
+ - title: USER
    url: /user/index.html
- - title: Admin
+   context: /user/
+ - title: ADMIN
    url: /admin/index.html
- - title: Developer
+   context: /admin/
+ - title: DEVELOPER
    url: /developer/index.html
+   context: /developer/
+ - title: BLOG
+   url: /general/blog/index.html
+   context: /general/blog/
 
+cross-site:
+ - title: Strati
+   url: http://strati.walmart.com
+ - title: Software Delivery and Enablement SDE
+   url: http://sde.walmart.com
+   
 documentation:
  - title: GENERAL
    url: /general/about
@@ -60,6 +66,24 @@ documentation:
  - title: DEVELOPER
    url: /developer
    section: /developer
+
+projects:
+ - title: About OneOps
+   url: /general/about.html
+ - title: Benefits
+   url: /general/benefits.html
+ - title: Integrations
+   url: /general/integrations.html
+ - title: Case Studies
+   url: /general/case-studies.html
+ - title: In the Press
+   url: /general/in-the-press.html
+ - title: Training
+   url: /general/training.html
+ - title: Documentation
+   url: /general/documentation.html
+ - title: Contribute
+   url: /general/contribute.html
 
 authors:
   ooteam:
@@ -97,9 +121,7 @@ kramddown:
   syntax_highlighter: rouge
   hard_wrap: false
 
-exclude: 
+exclude:
   - "*.sh"
   - linkcheck-results.log
   - scripts
-
-

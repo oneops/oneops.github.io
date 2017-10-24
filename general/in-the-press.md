@@ -1,34 +1,34 @@
 ---
-layout: general-doc
+layout: wmt/project
 title: In The Press
 ---
 
-<h1 class="yellow">In The Press and Elsewhere</h1>
+<img src="/assets/img/in-the-press.jpg" style="float:right;padding-left:30px;"/>
 
-<div>
-  <div class="col-md-8">
-    <p>
-    Whether OneOps was mentioned in the press, another blog or a conference site - here is where we try to collect those
-    references. You can also find audio, video and slide presentation related resources and links here.
-    </p>
-    <p>
-    If you have a relevant link to be added - [let us know]({{ site.baseurl }}/general/contribute.html) or 
-    <a href="https://github.com/oneops/oneops.github.io" target="_blank">send a pull request</a>!
-    </p>
-    <p>
-    And of course you should not forget to check out our own <a href="/general/blog/index.html">OneOps Team Blog</a>.
-    </p>
-  </div>
-  <div class="col-md-4"><img src="/assets/img/in-the-press.jpg"/></div>
-</div>
+Whether OneOps was mentioned in the press, another blog or a conference site - here is where we try to collect those references. You can also find audio, video and slide presentation related resources and links here.
 
-# 2017
+
+If you have a relevant link to be added - [let us know]({{ site.baseurl }}/general/contribute.html) or <a href="https://github.com/oneops/oneops.github.io" target="_blank">send a pull request</a>!
+
+
+And of course you should not forget to check out our own <a href="/general/blog/index.html">OneOps Team Blog</a>.
+
+<br />
+<br />
+
+<hr />
+
+## 2017
 
 January 13, 2017 - Code Monkey Talks (Podcast): [WalmartLabs with Tim O'Brien](http://www.codemonkey.fm/2)
 
-January 9th, 2017 - Light Reading: [How Walmart Builds Open Source Culture](http://www.lightreading.com/open-source/openstack/how-walmart-builds-open-source-culture-/d/d-id/729263) 
+January 9th, 2017 - Light Reading: [How Walmart Builds Open Source Culture](http://www.lightreading.com/open-source/openstack/how-walmart-builds-open-source-culture-/d/d-id/729263)
 
-# 2016
+<br />
+<hr />
+<br />
+
+## 2016
 
 December 29th, 2016 - Tech Better (Podcast): [Open Source Cloud at Walmart: A Story of Scalability](http://www.techbetter.com/open-source-cloud-walmart-story-scalability/)
 
@@ -40,7 +40,7 @@ December 22nd, 2016 - Tech Better: [Open Source Innovation Delivers an Unforgett
 
 December 9, 2016 - WalmartLabs (Blog) [Kafka Ecosystem on Walmart’s Cloud](https://medium.com/walmartlabs/kafka-ecosystem-on-walmarts-cloud-983570dff1f2#.vcq9ubvhq)
 
-December 5, 2016 - DevOps in Walmart Meetup (Slides): [How We Do DevOps at Walmart: OneOps OSS Application Lifecycle Management Platform](http://www.slideshare.net/WalmartLabs/how-we-do-devops-at-walmart-oneops-oss-application-lifecycle-management-platform) 
+December 5, 2016 - DevOps in Walmart Meetup (Slides): [How We Do DevOps at Walmart: OneOps OSS Application Lifecycle Management Platform](http://www.slideshare.net/WalmartLabs/how-we-do-devops-at-walmart-oneops-oss-application-lifecycle-management-platform)
 
 November 30th, 2016 - Tech Better: [Four Things You Didn’t Know About Black Friday at Walmart Tech](http://www.techbetter.com/4-things-didnt-know-black-friday-walmart-tech/)
 
@@ -77,7 +77,7 @@ January 29th, 2016 - DevX.com: [Cloud and Hybrid Application Lifecycle Managemen
 January 29th, 2016 - The New Stack: [DevOps the Walmart Way, with the Newly-Released OneOps Cloud Platform](http://thenewstack.io/devops-walmart-way-newly-released-oneops-cloud-platform/)
 
 January 28th, 2016 - TechNewsWorld: [Walmart Opens OneOps Cloud Management to the Masses](http://www.technewsworld.com/story/Walmart-Opens-OneOps-Cloud-Management-to-the-Masses-83046.html)
-                  
+
 January 28th, 2016 - CloudPro: [Walmart's OneOps cloud management code comes to GitHub](http://www.cloudpro.co.uk/cloud-essentials/hybrid-cloud/5768/walmarts-oneops-cloud-management-code-comes-to-github)
 
 January 28th, 2016 - TechTarge: [Walmart shakes up application lifecycle management](http://searchcloudapplications.techtarget.com/blog/Head-in-the-Clouds-SaaS-PaaS-and-Cloud-Strategy/Walmart-shakes-up-application-lifecycle-management)
@@ -96,7 +96,11 @@ January 26th, 2016 - Fortune: [Walmart Says it Can Cut Your Cloud Costs](http://
 
 January 25th, 2016 - WalmartLabs: [OneOps Open-Source PaaS now available!](http://www.walmartlabs.com/2016/01/oneops-now-available/)
 
-# 2015 and Earlier
+<br />
+<hr />
+<br />
+
+## 2015 and Earlier
 
 October 16th, 2015 - GeekWire: [Walmart plans to release OneOps as open source, targeting AWS and Azure](http://www.geekwire.com/2015/walmart-plans-to-release-oneops-cloud-technology-as-open-source-targeting-aws-and-azure/)
 
@@ -113,4 +117,3 @@ October 14th, 2015 - CIO: [Walmart decries cloud lock-in, plans to open-source O
 October 14th, 2015 - WalmartLabs: [OneOps - We're Going Open Source](http://www.walmartlabs.com/2015/10/walmartlabs-oneops-open-source/)
 
 May 14th, 2013 - WalmartLabs: [OneOps is joining WalmartLabs](http://www.walmartlabs.com/2013/05/oneops-is-joining-walmartlabs/)
-

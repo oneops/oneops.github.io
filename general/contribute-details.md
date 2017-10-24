@@ -1,6 +1,7 @@
 ---
-layout: general-doc
+layout: wmt/icon
 title: Contribution
+icon: /assets/wmt/img/icons/light/icon-contribute.png
 ---
 
 # Contribution Details
@@ -16,7 +17,7 @@ We utilize GitHub for issue tracking and contributions. You can contribute in tw
 
 # Contributing Code or Documentation
 
-For small changes — little bug fixes, correcting typos, and the like — please submit pull requests to any of our 
+For small changes — little bug fixes, correcting typos, and the like — please submit pull requests to any of our
 projects. For larger changes, we have to ask you to electronically sign a statement that indicates two things:
 
 1. You are willingly licensing your contributions under the terms of the open source license of the project that
@@ -27,7 +28,7 @@ Once you sign this Contributor License Agreement (the “CLA”), we will  be ab
 the friction that results from the usual technical back-and-forth of a vibrant open source project. More details are on
 the [Sign the CLA page](https://github.com/oneops/oneops-cla/blob/master/sign-cla.md).
 
-Create [Pull-Requests](https://help.github.com/articles/creating-a-pull-request/) on your branch from master and we 
+Create [Pull-Requests](https://help.github.com/articles/creating-a-pull-request/) on your branch from master and we
 will review and merge.
 
 The website is the main documentation for OneOps and we welcome issues and pull requests for it as well. If you want to
@@ -37,11 +38,11 @@ help, check out our [documentation guideline](./doc-guideline.html).
 
 Each GitHub pull request will go through 3 step before merge:
 
-1. We will execute our automated test cases against the pull request. If the tests failed the pull request will be 
+1. We will execute our automated test cases against the pull request. If the tests failed the pull request will be
 rejected with comments provided on the failures.
 2. If tests pass, the OneOps engineering team member will do the review of the changes. Technical communication possible
 via github.com pull request page. When ready, your pull request will be tagged with label `Ready For Merge`.
-3. Your patch will be merged into `master` including necessary documentation updates and you will be included in 
+3. Your patch will be merged into `master` including necessary documentation updates and you will be included in
 `CHANGELOG.md`.
 
 # Apache 2.0 License
@@ -52,13 +53,13 @@ enhancements have to use the same license.
 # <a name="issues"></a> OneOps Issue Tracking in GitHub
 
 If you are familiar with OneOps and know the repository that is causing you a problem or if you have a feature request
-on a specific component, you can file an issue in the corresponding GitHub project. All of our Open Source Software 
+on a specific component, you can file an issue in the corresponding GitHub project. All of our Open Source Software
 can be found in our [GitHub organization](https://github.com/oneops/).
 
 Otherwise you can file your issue in the [OneOps project](https://github.com/oneops/oneops/issues) and we will make sure
 it gets filed against the appropriate project.
 
-To decrease the back and forth in issues, and to help us get to the bottom of them quickly, we use the issue template 
+To decrease the back and forth in issues, and to help us get to the bottom of them quickly, we use the issue template
 below. You can copy/paste this template into the issue you are opening and edit it accordingly.
 
 <a name="issuetemplate"></a>
@@ -98,5 +99,5 @@ acceptance of an [RFC](https://github.com/chef/chef-rfc). These queries help tra
 
 # Provide Feedback or Contact Us
 
-You can provide feedback or contact us by sending email to support@oneops.com or by using one of the corresponding 
+You can provide feedback or contact us by sending email to support@oneops.com or by using one of the corresponding
 [OneOps Slack channels]({{ site.slack_url}}) : #admin, #devel, or #user.

@@ -1,20 +1,9 @@
 ---
-layout: general-doc
+layout: wmt/project
 title: Benefits
 ---
 
-<!--HERO CONTAINER-->
-<div class="benefits-hero-unit">
-  <div class="hero-info hero-headline-one">
-    <br>
-    <br>
-    <div class="yellow">Benefits</div>
-    <div class="white">OneOps shortens time to market</div>
-    <div class="white">and fosters a true devops culture.</div>
-  </div>
-  <div class="hero-overlay"></div>
-</div>
-
+OneOps shortens time to market and fosters a true devops culture.
 
 <div id="business-benefits"></div>
 <div class="center-text headline-one top-spacer bottom-spacer-small blue">
@@ -197,7 +186,7 @@ requirements to the cloud.
           Monitoring
       </div>
       <div class="benefits-description">
-          Each integrated ISV product retains instrumentation 
+          Each integrated ISV product retains instrumentation
           enabling continuous tracking of metrics against thresholds. Auto-trigger
           healing, replacement, scaling, or escalation events.
       </div>
@@ -335,7 +324,7 @@ scalability, security, customer service or lower costs.
       </div>
       <div class="benefits-description">
           OneOps is the system of record for all aspects of deployed applications
-          system, environment and cloud infrastructure configuration. Gain visibility into cloud utilization, 
+          system, environment and cloud infrastructure configuration. Gain visibility into cloud utilization,
           and should a data center disappear, re-create your environments in minutes.
       </div>
   </div>
@@ -360,12 +349,12 @@ scalability, security, customer service or lower costs.
       </div>
       <div class="benefits-description">
           Understanding cloud usage and cost is a daunting problem the more complex
-          cloud-specific cost models are in play. OneOps delivers great insights by estimating the cost 
-          of utilized cloud resources across heterogeneous cost models/clouds by dimensions such as org, 
+          cloud-specific cost models are in play. OneOps delivers great insights by estimating the cost
+          of utilized cloud resources across heterogeneous cost models/clouds by dimensions such as org,
           team, product, provider, software type, etc.
       </div>
   </div>
-  
+
   <div class="col-md-4 bf-item">
       <div class="ti-image">
           <i class="icon-noun_67758_cc oo-content-icons icons-blue"></i>
@@ -375,7 +364,7 @@ scalability, security, customer service or lower costs.
       </div>
       <div class="benefits-description">
           Budgets are impossible to manage in a hybrid cloud architecture without controls
-          existing at the next higher level in the stack. OneOps is that layer and will soon use 
+          existing at the next higher level in the stack. OneOps is that layer and will soon use
           show data to ensure cloud costs are not just visible, but manageable.
       </div>
   </div>
@@ -414,8 +403,8 @@ scalability, security, customer service or lower costs.
           Cloud Migration Made Easy
       </div>
       <div class="benefits-description">
-          OneOps is a pure automation solution and remains outside of the application’s codebase. Applications 
-          needn't know they're being managed by OneOps, so moving legacy or proprietary applications to the cloud 
+          OneOps is a pure automation solution and remains outside of the application’s codebase. Applications
+          needn't know they're being managed by OneOps, so moving legacy or proprietary applications to the cloud
           is easy.
       </div>
   </div>
@@ -466,7 +455,7 @@ scalability, security, customer service or lower costs.
           SaaS-Ready at Birth
       </div>
       <div class="benefits-description">
-          OneOps was designed from the ground up as a SaaS product. You can run it as a publicly available 
+          OneOps was designed from the ground up as a SaaS product. You can run it as a publicly available
           product, or setup departments as independent organizations with their own cloud definitions, policies,
           and isolated workspaces.
       </div>
@@ -494,7 +483,7 @@ scalability, security, customer service or lower costs.
       </div>
       <div class="benefits-description">
           Very soon, all @WalmartLabs development will be done in our GitHub repositories and released regularly.
-          The only aspects of OneOps to remain proprietary will be integrations to proprietary components, 
+          The only aspects of OneOps to remain proprietary will be integrations to proprietary components,
           products or systems and therefore of no value to the community. This small portion of the codebase
           will continue to shrink.
       </div>
