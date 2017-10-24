@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  OneOps Releases 2016 Q2
 published: true
 authors: [klohia, ksaroya, mmoser]
@@ -54,7 +54,7 @@ so here are the releases of Q2
 
 ## Release 2016.05.11
 
-- Added support for viewing/browsing the public packs loaded in the OneOps instance 
+- Added support for viewing/browsing the public packs loaded in the OneOps instance
 - Additional filter for notification sink.
 - [OneOps Core 16.05.12-RC4](https://github.com/oneops/display/releases/tag/16.05.12-RC4)
 - [Circuit-oneops-1 5.0.273](https://github.com/oneops/circuit-oneops-1/releases/tag/circuit-oneops-1-5.0.273)

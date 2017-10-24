@@ -1,17 +1,17 @@
 ---
-layout: post
+layout: wmt/post
 title:  On Schedule - OneOps Release 17.02.02-STABLE
 published: true
 authors: [klohia, mmoser]
 ---
 
-We are definitely back to our release cycle of every two weeks. This means we bring you enhancements and fixes in a 
+We are definitely back to our release cycle of every two weeks. This means we bring you enhancements and fixes in a
 regular cadence and you get access to them faster. Keeping that in mind, every release is a bit smaller in terms of
 changes - good for the stability of your running instance. So let's see what we got this time.
 
 <!--more-->
 
-A focus on bug fixes for this release meant that there are no new features. 
+A focus on bug fixes for this release meant that there are no new features.
 
 ## Bug Fixes and Improvements
 

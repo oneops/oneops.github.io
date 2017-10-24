@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  OneOps Releases 2016 Q4
 published: true
 authors: [klohia, ksaroya, mmoser]

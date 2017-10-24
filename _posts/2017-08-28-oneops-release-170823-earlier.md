@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title: OneOps Releases 17.08.23 and Earlier
 published: true
 authors: [mmoser]

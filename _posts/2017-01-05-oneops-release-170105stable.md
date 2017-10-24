@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: wmt/post
 title:  It's a Big One - OneOps Release 17.01.05-STABLE
-published: true 
+published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
@@ -32,7 +32,7 @@ let's not get ahead of ourselves. Check out what is in the new  `17.01.05-STABLE
 
 ## Bug Fixes and Improvements
 
-Numerous bug fixes made it into this release. Here is a list of the more significant ones: 
+Numerous bug fixes made it into this release. Here is a list of the more significant ones:
 
 - Fixed nginx status action and website repair
 - Correction on state counter values in notification

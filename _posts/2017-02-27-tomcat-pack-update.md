@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  Tomcat Pack Update
 published: true
 authors: [bbourquin, mmoser]
@@ -8,7 +8,7 @@ authors: [bbourquin, mmoser]
 <img src="/assets/img/logos/integrations/tomcat.png" align="right"/>
 
 The `tomcat`  pack provides version 7.x of the [Apache Tomcat](http://tomcat.apache.org/) web application server
-and is a very popular pack for OneOps users running Java-powered web applications. With the 
+and is a very popular pack for OneOps users running Java-powered web applications. With the
 [recent release](/general/blog/2017-02-16-oneops-release-170216stable.html) we are bringing you an important update to
 the pack.
 
@@ -16,8 +16,8 @@ the pack.
 
 The pack is updated to Tomcat version 7.0.75 as the new default version from 7.0.70. The upgrade brings numerous fixes
 including the important mitigation of the security issue
-[CVE-2016-8745](https://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.75) 
-([original announcement](http://mail-archives.apache.org/mod_mbox/tomcat-announce/201701.mbox/%3C04ead0cb-c989-1386-0fd1-a51ef80f7b57%40apache.org%3E)). 
+[CVE-2016-8745](https://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.75)
+([original announcement](http://mail-archives.apache.org/mod_mbox/tomcat-announce/201701.mbox/%3C04ead0cb-c989-1386-0fd1-a51ef80f7b57%40apache.org%3E)).
 Check out
 [the changelog](http://tomcat.apache.org/tomcat-7.0-doc/changelog.html) for specific details about other changes. You
 can find the new version in the build version drop down.

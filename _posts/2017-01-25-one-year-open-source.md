@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  One Year OneOps as Open Source
 published: true
 authors: [mmoser]

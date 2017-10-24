@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title: Triplet - OneOps Releases 17.04.19, 17.04.21 and 17.04.26
 published: true
 authors: [mmoser]
@@ -8,7 +8,7 @@ authors: [mmoser]
 Since our last release we have continued to focus on performance improvements big and small, all across the various
 components of OneOps. A lot of them have just been in the background and have no user facing direct impact apart from
 actions completing faster and everything feeling a bit zippier. So this time we are rolling up three release notes into
-one. 
+one.
 
 <!--more-->
 

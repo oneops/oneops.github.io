@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  Slack and More - OneOps Release 17.02.16-STABLE
 published: true
 authors: [klohia, mmoser]

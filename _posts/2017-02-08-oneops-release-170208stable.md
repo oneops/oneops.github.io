@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  Following Up - OneOps Release 17.02.08-STABLE
 published: true
 authors: [klohia, mmoser]
