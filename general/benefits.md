@@ -5,10 +5,7 @@ title: Benefits
 
 OneOps shortens time to market and fosters a true devops culture.
 
-<div id="business-benefits"></div>
-<div class="center-text headline-one top-spacer bottom-spacer-small blue">
-<a name="Business"></a>Business Benefits
-</div>
+## Business Benefits
 
 __Application Lifecycle Management__ (__ALM__) products seek to alleviate the friction between business,
 technology and operations groups in organizations entering the Digital Economy and adopting cloud
@@ -39,231 +36,138 @@ integrations, or cobbling together multiple solutions, OneOps is the one-stop sh
 requirements to the cloud.
 
 
-<div id="developer-benefits"></div>
-<div class="center-text headline-one top-spacer bottom-spacer-small blue">
-<a name="Developer"></a>Developer Benefits
-</div>
+## Developer Benefits
 
-<div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_68229_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          One design – Any Cloud
-      </div>
-      <div class="benefits-description">
-          Works out of the box with multiple public and private cloud infrastructure
-          providers and technologies like OpenStack.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_74393_cc  oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          One design – All Environments
-      </div>
-      <div class="benefits-description">
-          OneOps enables repeatable deployments across all environments. Multiple test environments? A-B testing?
-          Spinning up additional production clusters? Easy!
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_68214_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Cloud Technology Agnostic
-      </div>
-      <div class="benefits-description">
-          Future-proof your automation and play nice with infrastructure! Works with
-          bare metal, virtualized, and containerized infrastructure.
-      </div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-cloud"></i> One design – Any Cloud</h2>
+    </div>
+    <p>Works out of the box with multiple public and private cloud infrastructure providers and technologies like OpenStack.</p>
   </div>
 
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_69359_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Manage Deployments
-      </div>
-      <div class="benefits-description">
-          Flexible deployment approaches with cancellation capabilities for when you need
-          to roll back. Phase by percent, by cloud. Do some instances in parallel, some sequentially.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_68887_cc  oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          High Availability
-      </div>
-      <div class="benefits-description">
-          So long as you have load balancing services defined for your cloud, creating High
-          Availability environments is as simple as setting how many instances should be in
-          the cluster.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_68389_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Design Catalog
-      </div>
-      <div class="benefits-description">
-          Create and share designs between teams or with others in the open source community
-          using the Design Catalog.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_69810_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Auto-healing
-      </div>
-      <div class="benefits-description">
-          If a monitor indicates a problem, healing operations are triggered targeting the specific
-          deployed software platform.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_67460_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Auto-replace
-      </div>
-      <div class="benefits-description">
-          When auto-healing isn’t enough, since OneOps is the system of record for the
-          configuration, it simply discards the old instance and creates a new one.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_69672_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Many software products supported
-      </div>
-      <div class="benefits-description">
-          OneOps comes out of the box supporting a long list of ISV products.
-      </div>
-  </div>
-
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_68790_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Auto-scaling
-      </div>
-      <div class="benefits-description">
-          When a monitor indicates a resource is being over- or under- utilized, OneOps
-          will adjust the size of the cluster automatically, keeping costs optimized.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_69649_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Application Programming Interface
-      </div>
-      <div class="benefits-description">
-          Every feature in the web interface is backed by a RESTful service.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_68913_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Monitoring
-      </div>
-      <div class="benefits-description">
-          Each integrated ISV product retains instrumentation
-          enabling continuous tracking of metrics against thresholds. Auto-trigger
-          healing, replacement, scaling, or escalation events.
-      </div>
-  </div>
-
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_69938_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Best practices are the default
-      </div>
-      <div class="benefits-description">
-          OneOps keeps it safe by coming with best practices automation and
-          configuration settings out of the box.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_69431_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          OneOps was Built to Scale
-      </div>
-      <div class="benefits-description">
-          Backed by @WalmartLabs, you can trust that OneOps will manage your
-          workload up to whatever size infrastructure your product requires.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_67558_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Continuous Delivery
-      </div>
-      <div class="benefits-description">
-          OneOps integrates with Maven/Jenkins to provide your team’s software
-          development lifecycle (SDLC) with Continuous Delivery capabilities.
-      </div>
-  </div>
-
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-          <i class="icon-noun_68512_cc oo-content-icons icons-blue"></i>
-      </div>
-      <div class="headline-two black">
-          Environment Profiles
-      </div>
-      <div class="benefits-description">
-          Do you configure your production environments with High
-          Availability and Disaster Recovery as defaults? Are your staging
-          environments always in the same cloud? Use profiles to so configure new environments with one click.
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-      </div>
-      <div class="headline-two black">
-      </div>
-      <div class="benefits-description">
-      </div>
-  </div>
-  <div class="col-md-4 di-item">
-      <div class="ti-image">
-      </div>
-      <div class="headline-two black">
-      </div>
-      <div class="benefits-description">
-      </div>
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-globe"></i> One design – All Environments</h2>
+    </div>
+    <p>OneOps enables repeatable deployments across all environments. Multiple test environments? A-B testing? Spinning up additional production clusters? Easy!</p>
   </div>
 </div>
 
-<div id="it-operations-benefits"></div>
-<div class="center-text headline-one top-spacer bottom-spacer-small blue">
-<a name="itops"></a>IT Operations Benefits
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-cloud"></i> Cloud Technology Agnostic</h2>
+    </div>
+    <p>Future-proof your automation and play nice with infrastructure! Works with bare metal, virtualized, and containerized infrastructure.</p>
+  </div>
+
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-arrows"></i> Manage Deployments</h2>
+    </div>
+    <p>Flexible deployment approaches with cancellation capabilities for when you need to roll back. Phase by percent, by cloud. Do some instances in parallel, some sequentially.</p>
+  </div>
 </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-dashboard"></i> High Availability</h2>
+    </div>
+    <p>So long as you have load balancing services defined for your cloud, creating High Availability environments is as simple as setting how many instances should be in the cluster.</p>
+  </div>
+
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-book"></i> Design Catalog</h2>
+    </div>
+    <p>Create and share designs between teams or with others in the open source community using the Design Catalog.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-medkit"></i> Auto-healing</h2>
+    </div>
+    <p>If a monitor indicates a problem, healing operations are triggered targeting the specific deployed software platform.</p>
+  </div>
+
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-refresh"></i> Auto-replace</h2>
+    </div>
+    <p>When auto-healing isn’t enough, since OneOps is the system of record for the configuration, it simply discards the old instance and creates a new one.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-"></i> Many software products supported</h2>
+    </div>
+    <p>OneOps comes out of the box supporting a long list of ISV products.</p>
+  </div>
+
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-line-chart"></i> Auto-scaling</h2>
+    </div>
+    <p>When a monitor indicates a resource is being over- or under- utilized, OneOps will adjust the size of the cluster automatically, keeping costs optimized.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-"></i> Application Programming Interface</h2>
+    </div>
+    <p>Every feature in the web interface is backed by a RESTful service.</p>
+  </div>
+
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-"></i> Monitoring</h2>
+    </div>
+    <p>Each integrated ISV product retains instrumentation enabling continuous tracking of metrics against thresholds. Auto-trigger healing, replacement, scaling, or escalation events.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-"></i> Best practices are the default</h2>
+    </div>
+    <p>OneOps keeps it safe by coming with best practices automation and configuration settings out of the box.</p>
+  </div>
+
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-"></i> OneOps was Built to Scale</h2>
+    </div>
+    <p>Backed by @WalmartLabs, you can trust that OneOps will manage your workload up to whatever size infrastructure your product requires.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-"></i> Continuous Delivery</h2>
+    </div>
+    <p>OneOps integrates with Maven/Jenkins to provide your team’s software development lifecycle (SDLC) with Continuous Delivery capabilities.</p>
+  </div>
+
+  <div class="col-md-6">
+    <div class="headline">
+      <h2><i class="fa fa-"></i> Environment Profiles</h2>
+    </div>
+    <p>Do you configure your production environments with High Availability and Disaster Recovery as defaults? Are your staging environments always in the same cloud? Use profiles to so configure new environments with one click.</p>
+  </div>
+</div>
+
+
+## IT Operations Benefits
 
 __Greater control of cloud environment__ means that instead of cloud providers dictating what proprietary tools
 and technologies we have to use, or how much bandwidth we can have, OneOps puts the control back into the hands of
