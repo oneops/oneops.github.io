@@ -105,7 +105,7 @@ requirements to the cloud.
 <div class="row">
   <div class="col-md-6">
     <div class="headline">
-      <h2><i class="fa fa-"></i> Many software products supported</h2>
+      <h2><i class="fa fa-life-ring"></i> Many supported products</h2>
     </div>
     <p>OneOps comes out of the box supporting a long list of ISV products.</p>
   </div>
@@ -121,14 +121,14 @@ requirements to the cloud.
 <div class="row">
   <div class="col-md-6">
     <div class="headline">
-      <h2><i class="fa fa-"></i> Application Programming Interface</h2>
+      <h2><i class="fa fa-desktop"></i> Application Programming Interface</h2>
     </div>
     <p>Every feature in the web interface is backed by a RESTful service.</p>
   </div>
 
   <div class="col-md-6">
     <div class="headline">
-      <h2><i class="fa fa-"></i> Monitoring</h2>
+      <h2><i class="fa fa-heartbeat"></i> Monitoring</h2>
     </div>
     <p>Each integrated ISV product retains instrumentation enabling continuous tracking of metrics against thresholds. Auto-trigger healing, replacement, scaling, or escalation events.</p>
   </div>
@@ -137,14 +137,14 @@ requirements to the cloud.
 <div class="row">
   <div class="col-md-6">
     <div class="headline">
-      <h2><i class="fa fa-"></i> Best practices are the default</h2>
+      <h2><i class="fa fa-bookmark"></i> Best practices are the default</h2>
     </div>
     <p>OneOps keeps it safe by coming with best practices automation and configuration settings out of the box.</p>
   </div>
 
   <div class="col-md-6">
     <div class="headline">
-      <h2><i class="fa fa-"></i> OneOps was Built to Scale</h2>
+      <h2><i class="fa fa-bar-chart"></i> OneOps was Built to Scale</h2>
     </div>
     <p>Backed by @WalmartLabs, you can trust that OneOps will manage your workload up to whatever size infrastructure your product requires.</p>
   </div>
@@ -153,14 +153,14 @@ requirements to the cloud.
 <div class="row">
   <div class="col-md-6">
     <div class="headline">
-      <h2><i class="fa fa-"></i> Continuous Delivery</h2>
+      <h2><i class="fa fa-refresh"></i> Continuous Delivery</h2>
     </div>
     <p>OneOps integrates with Maven/Jenkins to provide your team’s software development lifecycle (SDLC) with Continuous Delivery capabilities.</p>
   </div>
 
   <div class="col-md-6">
     <div class="headline">
-      <h2><i class="fa fa-"></i> Environment Profiles</h2>
+      <h2><i class="fa fa-cog"></i> Environment Profiles</h2>
     </div>
     <p>Do you configure your production environments with High Availability and Disaster Recovery as defaults? Are your staging environments always in the same cloud? Use profiles to so configure new environments with one click.</p>
   </div>
