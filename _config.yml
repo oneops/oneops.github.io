@@ -20,6 +20,7 @@ github_url: https://github.com/oneops
 oneops_training_url: https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U
 walmart_technology_community_url: https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww
 logo: /assets/img/logo.png
+cross-site: false
 
 excerpt_separator: <!--more-->
 permalink: /general/blog/:year-:month-:day-:title.html
@@ -33,7 +34,7 @@ searchname: 'site-oneops-'
 navigation:
  - title: OVERVIEW
    url: /general/about.html
-   context: /general/
+   context: /general
  - title: USER
    url: /user/index.html
    context: /user/
@@ -45,7 +46,7 @@ navigation:
    context: /developer/
  - title: BLOG
    url: /general/blog/index.html
-   context: /blog/
+   context: /general/blog/
 
 
 documentation:
