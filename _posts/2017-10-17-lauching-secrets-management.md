@@ -37,7 +37,7 @@ the largest Keywhiz production deployments. It is  scaled to handle well beyond
 100.000 computes with secret clients.
 
 To allow users to ramp up usage quickly, we have created a new training class -
-[OneOps User Training: Level 3 - Advanced Examples](../training.html#user-3)
+[OneOps User Training: Level 3 - Advanced Examples](../general/training.html#user-3)
 that adds secrets management as a first module.
 
 A special thank you has to go out to the team at
