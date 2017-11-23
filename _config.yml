@@ -45,7 +45,7 @@ navigation:
    context: /developer/
  - title: BLOG
    url: /general/blog/index.html
-   context: /general/blog/
+   context: /blog/
 
 
 documentation:
@@ -64,20 +64,28 @@ documentation:
 
 projects:
  - title: About OneOps
+   id: about
    url: /general/about.html
  - title: Benefits
+   id: benefits
    url: /general/benefits.html
  - title: Integrations
+   id: integrations
    url: /general/integrations.html
  - title: Case Studies
+   id: case-studies
    url: /general/case-studies.html
  - title: In the Press
+   id: in-the-press
    url: /general/in-the-press.html
  - title: Training
+   id: training
    url: /general/training.html
  - title: Documentation
+   id: documentation
    url: /general/documentation.html
  - title: Contribute
+   id: contribute
    url: /general/contribute.html
 
 authors:
