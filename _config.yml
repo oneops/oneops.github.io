@@ -24,7 +24,7 @@ cross-site: false
 display-search-in-header: true
 
 excerpt_separator: <!--more-->
-permalink: /general/blog/:year-:month-:day-:title.html
+permalink: /blog/:year-:month-:day-:title.html
 
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search
