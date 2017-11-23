@@ -13,16 +13,49 @@
 
     /* ------------------------------ SEARCH STYLES ------------------------------ */
 
-    #search-container input {
-      width: 100%;
-      padding: 5px 10px;
-      font-size: 14px;
-    }
-    #results-container {
-      text-align: left;
-    }
+    #search-container { margin-top: 15px; }
 
-    #results-container li {
-      list-style-type: none;
-      list-style: none;
+#search-input {
+  color: #999;
+  font-size: 14px;
+  height: 36px;
+  outline: none;
+  padding: 0px 10px;
+}
+#search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc;
+}
+#search-input::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc;
+}
+#search-input:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc;
+}
+#search-input:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;
+}
+
+#results-container {
+  z-index: 200;
+  position: absolute;
+  top: 55px;
+  right: 0px;
+  border: 0px solid #eaeaea ;
+  background: #fff;
+  padding: 0px;
+  width: 100%;
+}
+
+#results-container li { font-size:14px;padding:5px 0px; }
+
+.icon-search {
+  color: #ffc220 ;
+  margin-left: 5px;
+}
+
+@media (max-width: 767px) {
+    #search-container {
+        margin-left: 30px;
+    width: 100%;
     }
+}

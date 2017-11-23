@@ -3,18 +3,7 @@ layout: wmt/default
 title: OneOps Team Blog
 ---
 
-<div class="row blog-page margin-bottom-30">
-  <div class="col-md-2"><img src="/assets/wmt/img/icons/light/icon-blog.png" class="img-responsive"/></div>
-  <div class="col-md-10">
-    <!--{% include wmt/breadcrumbs.html %}-->
-    <h1>{{ page.title }}</h1>
 
-    <p>Whether we are planning an event, make a new release available, present at a conference or user group meeting or have something cool to share. The OneOps Team Blog here is the place to be for the latest news and more on OneOps.</p>
-    <p>You might also be curious about what happens <a href="/general/in-the-press.html">In The Press and Elsewhere</a>.</p>
-    <p>But now, here is the latest from the <em>OneOps team</em> - unless you want to see it all in the <a href="./archive.html">archive</a>:</p>
-  </div>
-</div>
-  <hr/>
 <div class="row blog-page">
   <div class="col-md-8">
     {% for post in site.posts limit: 10 %}
