@@ -9,7 +9,7 @@ authors: [bbourquin, mmoser]
 
 The `tomcat`  pack provides version 7.x of the [Apache Tomcat](http://tomcat.apache.org/) web application server
 and is a very popular pack for OneOps users running Java-powered web applications. With the
-[recent release](/general/blog/2017-02-16-oneops-release-170216stable.html) we are bringing you an important update to
+[recent release](./2017-02-16-oneops-release-170216stable.html) we are bringing you an important update to
 the pack.
 
 <!--more-->
