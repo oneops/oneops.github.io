@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Create a Team in an Organization
 id: create-a-team-in-an-organization
 ---
 
-# Solution
+# Create a Team in an Organization
+
+## Solution
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-0215_creating-teams-in-an-org_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video. 
+    Your browser does not implement HTML5 video.
 </video>
 
 Creating a team is the cleaner way to assign roles in OneOps.
@@ -21,7 +24,7 @@ Creating a team is the cleaner way to assign roles in OneOps.
 5. Click **Team.**
 6. Click **edit** and select the newly created Team.
 
-## About Team Fields
+### About Team Fields
 
 The following is some information about team fields:
 
@@ -42,7 +45,7 @@ Access Management
     * Add/update/delete component monitor thresholds
     * Update components and variables within the environment
     * Pull design
-    * Commit open releases 
+    * Commit open releases
     * Perform deployments
 * **Operations:** When checked and this team is added to an assembly, it allows team members to manage the operate phase allowing members access to execute any actions/procedures and mark any instance for replacement.
 * **User Members:** Add one or more individual users

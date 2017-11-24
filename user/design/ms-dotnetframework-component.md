@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: DotNet Framework Component
 ---
+
+# DotNet Framework Component
 
 The _dotnetframework_ [component](./components.html) gives the ability to install different
 [.NET Framework](https://msdn.microsoft.com/en-us/library/w0x726c2(v=vs.110).aspx) on windows

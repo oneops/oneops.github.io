@@ -1,18 +1,21 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Search
 ---
 
+# Search
+
 The search feature allows you to locate entities such as users, assemblies, environments, computes and many others. It
 is available via the _Search_ icon in the shape of a magnifying glass in the top right corner or _Search_ item in the
-left hand navigation. 
+left hand navigation.
 
 The _Organization Dashboard_ and the _Enviroment_ overview page both include dedicated search tab that automatically
 narrow the search results to the relevant context.
 
 Search provides a number of input fields to control the search and is started after pressing the _Run_ button. Results
 are displayed on the right and are limited to a specific organization. They can be further refined with the filter
-control above the list. 
+control above the list.
 
 ![Search](/assets/img/ui/search.png)
 
@@ -27,23 +30,23 @@ control above the list.
 ## Query
 
 The _Query_ input is used to provide the search criteria. In its simplest form it is a simple string, while you can
-refine the search using the 
+refine the search using the
 [Elasticsearch Query DSL](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
 
 ## Filters - Namespace
 
 Namespace allows you to define the hierarchical path that restricts the search result. By default the path is set to the
-current organization with `/<organization-name>`. Further restrictions can be achieved by appending assembly and 
-environment names and others in the syntax 
+current organization with `/<organization-name>`. Further restrictions can be achieved by appending assembly and
+environment names and others in the syntax
 `/<organization-name>/<assembly-name>/<environment-name>/[manifest/bom]/platform-name/platform-version`. `manifest` narrows the
 search to the transition phase, while `bom` sets the operations phase.
 
 ## Filters - Class
 
-Class enables fine-grained control to search only in specific entities and attributes. Available selections can be 
-determined with the auto-completion feature of the input. Simply start typing and inspect the list of available choices displayed. 
+Class enables fine-grained control to search only in specific entities and attributes. Available selections can be
+determined with the auto-completion feature of the input. Simply start typing and inspect the list of available choices displayed.
 
-Examples for available entities are: 
+Examples for available entities are:
 
 - `catalog.*`  equivalent to the design phase
 - `manifest.*` equivalent to the transition phase
@@ -107,7 +110,7 @@ Set the _Class_ to `manifest.Environment` and set the _Namespace_ to your organi
 
 Set the _Query_ to `ciAttributes.public_ip: 127.0.0.1` using the IP number you are looking for and press _Run_.
 
-# Advanced Search and Search API 
+# Advanced Search and Search API
 
-Further documentation covering advanced search and search API usage can be 
+Further documentation covering advanced search and search API usage can be
 [found in the developer section](/developer/integration-development/advanced-search).

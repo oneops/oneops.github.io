@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Fully Qualified Domain Name FQDN
 ---
+
+# Fully Qualified Domain Name FQDN
 
 The _fqdn_ [component](./components.html) is of core importance and part of most
 platforms since it defines the fully qualified domain that configuration used to

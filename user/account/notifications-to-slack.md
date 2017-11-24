@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Notifications to Slack
 ---
+
+# Notifications to Slack
 
 [Notifications](./notifications.html) can be configured to use [Slack](https://slack.com/)
 channels as a notification sink.

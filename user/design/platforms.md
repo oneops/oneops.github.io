@@ -1,8 +1,11 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Platforms
 id: platforms
 ---
+
+# Platforms
 
 Each Platform has a set of Components (optional and required) that are predefined by a Platform template.
 

@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: User Getting Started
 id: "getting-started"
 ---
+
+# User Getting Started
 
 <div id="wizard" class="rounded">
   <div class="inner rounded">
@@ -143,7 +146,7 @@ For example *qa* environment compute size requirements may differ from **develop
 
 It's not uncommon to choose **development** environment compute size as default for design which allows you to create multiple test environments without changing design.
 
-This helps in creating environments faster without changing too many attributes at design level. As a best practice try 
+This helps in creating environments faster without changing too many attributes at design level. As a best practice try
 to have most used configuration in design. Also see <a href="/user/design/variables.html">variables</a>
 
 **Lock** any environment specific attributes to prevent the environment changes
@@ -211,7 +214,7 @@ See also:
 ## Monitoring
 
 
-* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify 
+* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify
 state. see <a href="/user/operation/monitors.html">Monitors</a>
 * If auto-repair is enabled, OneOps will auto-repair the instance. The actions taken to recover an instance are prescribed by `repair recipe` of the component. For example, if Compute is alerting for missing *heartbeat* by default Computes repair action involves the following
     * Check the ssh port  

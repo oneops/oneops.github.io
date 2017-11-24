@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Microsoft IIS Pack
 ---
+
+# Microsoft IIS Pack
 
 The _iis_ [pack](./packs.html) is available as _Internet Information Services(IIS)_ in the _Web Application_ section
 and provides the user with the ability to use [Microsoft IIS](https://www.iis.net/) as a platform in their assembly.
@@ -34,5 +37,3 @@ The pack uses both common components and introduces new ones as listed below.
 - [dotnetframework](./ms-dotnetframework-component.html): Used to specify path of artifacts and framework version to use in the website deployment.
 - [nuget-package](./nuget-package-component.html): Used to specify where website artifacts are located and version to use in the deployment.
 - [chocolatey-package](./chocolatey-package-component.html): Used to define additional software packages to install on the server.
-
-

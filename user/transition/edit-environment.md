@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Edit an Environment
 id: edit-environment
 ---
 
-# Solution
+# Edit an Environment
+
+## Solution
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-transition-0215_understand-your-environment-editing-options_4668.webm?vpv=1" type="video/webm">

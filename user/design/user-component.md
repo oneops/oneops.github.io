@@ -1,13 +1,16 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: User Component
 ---
+
+# User Component
 
 The _user_ [component](./components.html) controls operating system user accounts and their creation on the
 [compute component](./compute-component.html) of the same platform and is typically an optional component. Adding a
 user for example allows you to connect to the [compute in operation](../operation/compute.html) via ssh.
 
-# Attributes
+## Attributes
 
 _Username_<br>
 _Description_<br>

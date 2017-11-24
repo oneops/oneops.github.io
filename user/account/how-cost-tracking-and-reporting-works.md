@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: How Cost Tracking and Reporting Works
 ---
+
+# How Cost Tracking and Reporting Works
 
 Key concepts involved here are:
 
@@ -31,7 +34,7 @@ During the WorkOrder generation of a resource (for example when a Compute, Stora
 
 
 
-# Cost Reporting
+## Cost Reporting
 
 Cost Tracking results in the workorder index in ES having history with cost change events (workorders). However constructing a query/report for a specific time range aggregated over multiple cis will be too complex as it will require on-the-fly processing of the events timestamps against the requested range. To improve access to the cost information have a daily batch job that  uses the workorder index as input, read the cost changes from the workorder payload and construct a daily cost index with the exact cost for each CI for the given day. This will allow for simple ES queries that can retrieve the exact cost for a given time range using simple aggregations. The daily cost job is basically a ruby script which is based on the following cost calculation strategy.
 

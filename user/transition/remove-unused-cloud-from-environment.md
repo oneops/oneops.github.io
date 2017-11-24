@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Remove an Unused Cloud from an Environment
 id: remove-unused-cloud-from-environment
 ---
+
+# Remove an Unused Cloud from an Environment
 
 Among other reasons, it is necessary to remove a cloud from an environment when there is:
 
@@ -11,7 +14,7 @@ Among other reasons, it is necessary to remove a cloud from an environment when 
 * Instability of one cloud over another
 * No longer support for the cloud by its infrastructure team
 
-# Solution
+## Solution
 
 To remove a cloud that is no longer required from an environment, follow the steps below:
 
@@ -23,7 +26,7 @@ To remove a cloud that is no longer required from an environment, follow the ste
 3. Check **not used** for the cloud and then click **Save.**
     * If all live instances are removed, the **Save** is successful.
     * If not, then a failure message appears and the cloud update is not saved.
-  
+
     Upon successful removal, the cloud is deleted from the environment and all of the platforms under it.
 
 >Removal of a cloud from an environment does not require deployment because the live instances are already deleted.

@@ -1,8 +1,12 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Variables
 id: variables
 ---
+
+# Variables
+
 Use Variables to externalize configuration attributes values which may change for an application at cloud , global( shared across platforms), or platform specific. You can create secure variables.
 
 The three areas to store variables are:

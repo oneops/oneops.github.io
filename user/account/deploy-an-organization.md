@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Deploy an Organization
 id: deploy-an-organization
 ---
 
-# Solution
+# Deploy an Organization
+
+## Solution
 
 To deploy an organization, follow these steps:
 
@@ -13,4 +16,3 @@ To deploy an organization, follow these steps:
 2. Select the **Deployment** tab.
     * The Deployment tab displays all the pending deployment for the organizations.
     * Deployment displays the status and progress for the deployment.
-

@@ -21,7 +21,7 @@ oneops_training_url: https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLV
 walmart_technology_community_url: https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww
 logo: /assets/img/logo.png
 cross-site: false
-collapseNavDocs: false
+collapseNavDocs: true
 display-search-in-header: true
 
 excerpt_separator: <!--more-->

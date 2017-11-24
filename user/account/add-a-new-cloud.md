@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add a New Cloud
 id: "add-a-new-cloud"
 ---
 
-# Solution
+# Add a New Cloud
+
+## Solution
 
 A cloud can be defined as a group of services which enables resource allocation/usage. It contains services such as Rackspace/AWS used for the compute creation, Nexus service is used to store the artifacts or repos, f5/citrix netscaler service is used for the load balancing and many more. OneOps creates multiple clouds per organization.
 

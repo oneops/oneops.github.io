@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Design
 ---
+
+# Design
 
 Documentation about the __Design__ phase in OneOps includes:
 

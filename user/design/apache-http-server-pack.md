@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Apache HTTP Server Pack
 ---
 
+# Apache HTTP Server Pack
+
 <img src="/assets/img/logos/integrations/apache.png" align="right"/>
 
-The _Apache_ [pack](./packs.html) provides the user with the ability to use the 
+The _Apache_ [pack](./packs.html) provides the user with the ability to use the
 [Apache HTTP Server](http://httpd.apache.org/) as a platform in their assembly.
 
-The main components involved are: 
+The main components involved are:
 
 - the [website component](./website-component.html) for the actual content
 - the [Apache HTTP Server component](./apache-http-server-component.html) for the server configuration
@@ -20,7 +23,7 @@ The main components involved are:
 
 Running a website with Apache HTTP server can be implemented with a few simple steps:
 
-1. Create a platform with the _apache_ pack. 
+1. Create a platform with the _apache_ pack.
 2. Inspect and optionally configure the _apache_ component of the platform.
 3. Configure the _website_ component
 4. Use the _attachments_ tab:
@@ -36,7 +39,7 @@ After Replace, After Update, On Demand.
 Apache HTTP Server does not automatically restart if you make additional changes & deployments after the initial
 deployment. Ensure to restart the webserver in operations to load any content changes.
 
-### Enable HTTPS 
+### Enable HTTPS
 
 
 There are two options for configuring HTTPS. Options 1 terminates SSL at the load balancer and the traffic is only
@@ -59,7 +62,6 @@ characteristics:
 1. Change the the _Listen Port_ on the _website_ component to 443 and enable _SSL_.
 2. Turn _Enable TLSv1_ the configuration of the _apache_ component off and remove 80 from the _Listen Ports_.
 3. Add the certificate details in design to use the same certificate for all environment, or in transition for each
-environment separate as desired. 
+environment separate as desired.
 5. Add a _lb-certificate_ and _certificate_ component and configure the certificate.
 6.Commit the design changes and proceed with [deployment as usual](./components.html).
-

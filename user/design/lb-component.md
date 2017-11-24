@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Load Balancer Component
 ---
+
+# Load Balancer Component
 
 The _lb_ [component](./components.html) is of core importance and part of most
 platforms since it defines the load balancing of request being received by the

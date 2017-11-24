@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Notifications to Jabber
 ---
+
+# Notifications to Jabber
 
 [Notifications](./notifications.html) can be configured to use the [open XMPP messaging standard](https://xmpp.org/)
 originally introduced by [Jabber](http://jabber.org) as notification sink.
@@ -18,4 +21,3 @@ Then follow these steps to configure and use an SNS notification sink.
     4. _User Account_ - account to authenticate to the server and use to post the notifications.
     5. _User Password_ - password of the user account.
 3. _Save_ the new notification sink.
-

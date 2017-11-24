@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Create Environment Dependency with Environment Profiles
 id: create-environment-dependency-environment-profiles
 ---
+
+# Create Environment Dependency with Environment Profiles
 
 Consider the following when creating environment dependencies with environment profiles:
 
@@ -17,7 +20,7 @@ Consider the following when creating environment dependencies with environment p
 
 > Changing the existing environment profile association does not mean that any of the newly associated profile attributes or settings overwrite any of the existing environment configuration values. The environment profile attribute “bootstrapping” is only applied during initial environment creation. It is not intended to be maintained as an active attribute value "mirroring" during any life-cycle changes to either a concrete environment or its underlying profile.
 
-# See Also
+## See Also
 
 * <a href="/user/account/environment-profiles.html">Environment Profiles</a>
 * <a href="/user/transition/create-an-environment.html">View, Add, or Edit Environment Profiles</a>

@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Create Assemblies to Design Applications
 id: create-assemblies-to-design-application
 ---
+
+# Create Assemblies to Design Applications
 
 Assembly design is the high-level representation of your business application. This is your Golden configuration which serves as a source for the realization of your applications in new or existing environments.
 
@@ -27,7 +30,7 @@ To add an assembly, follow these steps:
 
 ![Assembly New](/assets/docs/local/images/assembly-new.png)
 
-# See Also
+## See Also
 
 * <a href="/user/design/add-a-platform-to-a-design.html">Add a Platform to a Design</a>
 * <a href="/user/general/key-concepts.html#assembly">More on the lifecycle of an Assembly</a>

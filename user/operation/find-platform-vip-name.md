@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Find a Platform VIP Name
 id: find-platform-vip-name
 ---
 
-#  Solution
+# Find a Platform VIP Name
+
+##  Solution
 
 To find a platform VIP name, follow these steps:
 

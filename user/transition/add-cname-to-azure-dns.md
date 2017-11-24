@@ -1,17 +1,20 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add CNAME in Azure DNS
 id: "add-cname-azure"
 ---
 
-# Solution
+# Add CNAME in Azure DNS
+
+## Solution
 
 The hostname, by default, is provided by the OneOps system and follows a pattern that is described in the
 [Compute](/user/operation/compute.html) documentation.
 
 You can create your own endpoints by adding short or full CNAMEs.
 
-## Add a Short CNAME
+### Add a Short CNAME
 
 The first approach is to add a short CNAME with the following steps:
 
@@ -31,7 +34,7 @@ It is possible to add multiple short CNAMEs to have additional hostnames.
 In addition, the shortname will be used as the DNS Label Name to create the FQDN in the Azure public domain.</br>
 The result will be `<SHORT-NAME>.<AZURE-REGION>.cloudapp.azure.com`
 
-## Add a Full CNAME
+### Add a Full CNAME
 
 A second approach is to add a full CNAME with the following steps:
 

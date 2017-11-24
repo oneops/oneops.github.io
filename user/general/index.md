@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: General
 ---
+
+# General
 
 Documentation about general aspects and concepts in OneOps includes:
 

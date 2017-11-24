@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Delete a Platform
 id: delete-platform
 ---
 
-# Solution
+# Delete a Platform
+
+## Solution
 
 To delete a platform, follow these steps:
 
@@ -16,7 +19,7 @@ To delete a platform, follow these steps:
 5. Click **delete.**
 5. Commit.
 
-# See Also
+## See Also
 
 
 * <a href="/user/design/manage-assemblies.html">Manage Assemblies Video</a>

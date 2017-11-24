@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Design Best Practices
 ---
+
+# Design Best Practices
 
 In the Design phase, follow these best practices:
 

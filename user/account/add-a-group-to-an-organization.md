@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add a Group to an Organization
 id: add-a-group-to-an-organization
 ---
+
+# Add a Group to an Organization
 
 1. Log into your OneOps server.
 2. From the top navigation bar, select the organization.

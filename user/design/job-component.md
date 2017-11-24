@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Job Component
 ---
+
+# Job Component
 
 The _job_ [component](./components.html) is available in a number of platforms and can be used to execute specific
 [cron](https://en.wikipedia.org/wiki/Cron) tasks on a regular schedule. Examples are _cassandra_, _es_ and many others.
 Typically it is configured as an optional component and can simply be activated by adding it with the _+_ button in the
 component list.
 
-You can locate defined jobs with a [search](../general/search.html] using a _Class_ value of _manifest.Job_ for 
+You can locate defined jobs with a [search](../general/search.html] using a _Class_ value of _manifest.Job_ for
 configured jobs in the design phase or _bom.Job_ for deployed jobs in the operation phase.
 
 # Attributes

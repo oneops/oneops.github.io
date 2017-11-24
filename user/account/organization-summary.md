@@ -1,10 +1,14 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Organization Summary
 id: organization-summary
 ---
 
-# Solution
+# Organization Summary
+
+
+## Solution
 
 
 1. Select the organization.
@@ -15,4 +19,3 @@ id: organization-summary
     * Clouds associated with the organization
     * Assemblies associated or created in the organization
 4. Below the number of assemblies, list all the assemblies.
-

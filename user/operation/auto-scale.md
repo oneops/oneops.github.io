@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Auto Scale
 id: auto-scale
 ---
+
+# Auto Scale
 
 Use auto scale to automatically flex up or down computes based on some <a href="/user/operation/monitors.html">Threshold</a> violation. Notifications are sent to the application owners at an auto scale action event trigger and recovery. Auto scaling is used to balance the load on computes for maximum utilization. The decision to flex up or down is completely at the discretion of application owner.
 
 The scaling configuration definition provides the details on the step size for flexing along with boundary limits
 
-![Auto Scale](/assets/docs/local/images/auto-scale.png)
+<img src="/assets/docs/local/images/auto-scale.png" class="img-responsive" />
 
 
 * **Min:** Minimum number of computes to be present in the platform at all times. Flexing down will stop once the minimum number of instances has reached its limit
@@ -29,4 +32,3 @@ To enable auto scale for a platform, follow these steps:
     * **Notify only:** Notifies only via your <a href="/user/account/notifications.html">notifications</a>
 
 >With each of these states, you receive notifications as long as you have notifications set up.
-

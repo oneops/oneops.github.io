@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Packs
 ---
+
+# Packs
 
 A pack is a logical grouping of [components](./components.html) to provide a manageable software. Packs are used to
 define the platforms that define your assembly.

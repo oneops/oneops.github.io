@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Transition
 ---
+
+# Transition
 
 Documentation about the __Transition__ phase in OneOps includes:
 

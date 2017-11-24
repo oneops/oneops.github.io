@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Website Component
 ---
+
+# Website Component
 
 The _website_ [component](./components.html) represents the content of your website including HTML, CSS, JS and other
 resources and is a major component of the Apache HTTP Server pack](./apache-http-server-pack.html).
@@ -21,4 +24,3 @@ _Upstream_<br>
 _Upstream Proxies_<br>
 _Location Definitions_<br>
 _Additional Configuration Directives_<br>
-

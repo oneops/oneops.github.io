@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Secrets Client Component
 ---
+
+# Secrets Client Component
 
 The _secrets client_ [component](./components.html) exposes files containing
 secrets such as property files with password, keystore files, ssh keys and

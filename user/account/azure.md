@@ -1,11 +1,14 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Azure
 id: "azure"
 ---
 
+# Azure
+
 Only Azure Resource Manager (ARM) is supported in OneOps. Currently only Linux workloads are supported. Windows will come at a later date.  
- 
+
 
 If you are **not** using Express Routes, everything is dynamically created apart from the 4 pieces of information needed to communicate with Azure; Tenant Id, Subscription Id, Client Id, and Client Secret.  
 
@@ -17,9 +20,9 @@ During creation of the computes the NIC's, OS disk, VNETs, Subnets, and public I
 
 
 After the compute is created the rest of the deployment is the same as it would be for the other cloud providers, except DNS, LB, and GDNS.  
- 
+
 ## Azure DNS
- 
+
 OneOps creates DNS on Microsoft Azure as a resource by creating
 
 
@@ -30,20 +33,20 @@ Record-Sets are assembled together in a single zone and will use any of two valu
 
 
 * Record type **`A`** maps a hostname to an IP address.
-* Record type **`CNAME`** creates an Alias of another domain name 
+* Record type **`CNAME`** creates an Alias of another domain name
 
 As a result the deployment has a DNS created with hostname mapping and domain alias if configured.
 
 For more details on DNS see: <a href="/user/transition/add-cname-to-azure-dns.html">Azure DNS</a>  
- 
+
 ## Load Balancer
- 
+
 OneOps creates and configures following resources in resource group to create a load balancer:
 
 
 * **Front end IP configuration** - has public IP addresses for incoming network traffic.
 * **Back end address pool** - has network interfaces (NICs) for the virtual machines to receive network traffic from the load balancer.
-* **Load balancing rules** - has rules mapping a public port on the load balancer to port in the back end address pool. 
+* **Load balancing rules** - has rules mapping a public port on the load balancer to port in the back end address pool.
 * **Inbound NAT rules** - has rules mapping a public port on the load balancer to a port for a specific virtual machine in the back end address pool.
 * **Probes** - has health probes used to check availability of virtual machines instances in the back end address pool.
 * **Servers** - your server machines (virtual machines) to entertain your requests
@@ -51,15 +54,15 @@ OneOps creates and configures following resources in resource group to create a 
 Before creating a load balancer following steps are performed on Microsoft Azure
 
 
-* A *Virtual Network* is created with the specified subnet pool (for later use in backend IP pool) 
+* A *Virtual Network* is created with the specified subnet pool (for later use in backend IP pool)
 * A *Public IP* is devised that will be your internet facing IP for your servers
 * An *Availability-Set* is generated and all your back-end servers belong to that availability-set
 * And finally a *Load-Balancer* is set-up
 * Next `n` Virtual Machines are provisioned to run your servers (where ‘n’ is the number of servers you want to Set-Up) and for each machine a NIC (network interface card) is built.
- 
+
 ## Traffic Manager
 
-Before a traffic manager is created on Azure, it requires 
+Before a traffic manager is created on Azure, it requires
 
 
 * Deployed Azure cloud services, Azure websites, or other endpoints to production environment.
@@ -81,6 +84,6 @@ Based on above information OneOps creates Traffic Manager profile resource on Az
 3. Configuring endpoints
 4. Configuring monitoring settings
 
-As a last step when the Traffic Manager Profile is created on Azure, OneOps points company's domain name DNS resource record to the created profile. Traffic Manager is live after this last step. 
+As a last step when the Traffic Manager Profile is created on Azure, OneOps points company's domain name DNS resource record to the created profile. Traffic Manager is live after this last step.
 
 `Note: Please do not make any changes to the Traffic Manager configurations from the portal.`

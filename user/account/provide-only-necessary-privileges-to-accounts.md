@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Provide Only Necessary Privileges to Accounts
 ---
+
+# Provide Only Necessary Privileges to Accounts
 
 Provide only the necessary privileges to accounts with these best practices:
 

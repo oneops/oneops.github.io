@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Components
 ---
+
+# Components
 
 Components are the building blocks used to assemble [packs](./packs.html) and therefore the platforms, that define your
 assembly. Components in a pack can be required or optional and can depend on each other. Examples for components are
@@ -16,10 +19,10 @@ Any component additions or configuration changes need to be deployed to take eff
 3. Create a assembly design release by pressing _Commit Design_.
 4. Select the environment in transition.
 5. Retrieve the design changes with _Pull Design_.
-6. Implement the changes in transition by pressing _Commit and Deploy_ 
+6. Implement the changes in transition by pressing _Commit and Deploy_
 7. Observe the changes in operation of your chosen environment.
 
-A number of base components are available in all platforms: 
+A number of base components are available in all platforms:
 
 - [Artifact Component](./artifact-component.html)
 - [Certificate Component](./certificate-component.html)
@@ -58,10 +61,3 @@ documentation is available for a limited subset:
 - [Load Balancer (lb) Component](./lb-component.html)
 - [NuGet Package Component](./nuget-package-component.html)
 - [Website Component](./website-component.html)
-
-
-
-
-
-
-

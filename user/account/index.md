@@ -1,9 +1,12 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Account
 ---
 
-Administrative users of OneOps typically manage the account configuration and related aspects in OneOps such as 
+# Account
+
+Administrative users of OneOps typically manage the account configuration and related aspects in OneOps such as
 security setup and cloud configuration:
 
 <ul>

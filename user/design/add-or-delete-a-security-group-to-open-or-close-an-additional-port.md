@@ -1,12 +1,15 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add or Delete a Security Group to Open or Close an Additional Port
 id: "add-or-delete-a-security-group-to-open-or-close-an-additional-port"
 ---
 
+# Add or Delete a Security Group to Open or Close an Additional Port
+
 Security group is a mandatory component in all packs. It can be used to open up additional ports as required by the application.
 
-# Solution
+## Solution
 
 To add a Security Group, follow these steps:
 

@@ -1,17 +1,21 @@
 ---
-layout: user-doc
+layout: wmt/docs
 title: User Overview
+id: user-overview
+side-navigation: user-navigation.html
 ---
 
-A OneOps __user__ typically desires to __manage__ applications deployed to 
+# User Overview
+
+A OneOps __user__ typically desires to __manage__ applications deployed to
 [virtual environments](https://en.wikipedia.org/wiki/Virtual_environment_software), called __cloud applications__.
 The user interacts with __OneOps web application__ via the user interface and potentially via the API.
 
-Activities performed depend on the security access level and are typically focussed around __application lifecycle 
+Activities performed depend on the security access level and are typically focussed around __application lifecycle
 management__ with OneOps including design, deployment and operation of cloud-based applications.
 
-__Administrative users__ perform tasks in OneOps itself that __enable other users__ to manage their applications by 
-configuring security, clouds and other aspects of OneOps, potentially working 
+__Administrative users__ perform tasks in OneOps itself that __enable other users__ to manage their applications by
+configuring security, clouds and other aspects of OneOps, potentially working
 with [administrators](/admin/index.html).
 
 Available documentation resources for users include:
@@ -41,9 +45,5 @@ The following video provides an introduction:
 
 <iframe src="https://player.vimeo.com/video/44430261" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
 
-> If you don't have access to a OneOps installation you can get started with the installation instructions and more in 
+> If you don't have access to a OneOps installation you can get started with the installation instructions and more in
 the [administrator documentation](/admin/index.html).
-
-
-
-

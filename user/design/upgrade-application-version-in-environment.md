@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Upgrade an Application Version in an Environment
 id: upgrade-application-version-in-environment
 ---
+
+# Upgrade an Application Version in an Environment
 
 To upgrade an application version in an environment, follow these steps:
 
@@ -27,6 +30,6 @@ To upgrade an application version in an environment, follow these steps:
 
 >If the change is for all the environments it is better to do that in the design phase. If the change is environment-specific, update in transition phase and lock it.
 
-# See Also
+## See Also
 
 <a href="./avoid-override-variables.html">Variables Override Prevention</a>

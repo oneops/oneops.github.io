@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Certificate Component
 ---
+
+# Certificate Component
 
 The _certificate_ [component](./components.html) is part of every platform and
 can be used to add SSL support to the platform e.g. Tomcat, Apache or

@@ -1,12 +1,15 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Create an Environment
 id: create-an-environment
 ---
 
+# Create an Environment
+
 An Environment captures your operational requirements for an instance of your Assembly. Examples of Environments are dev, qa, or prod environments. Because all environments use the same base application model, the overall effort to maintain all of the environments is minimized.
 
-# Solution
+## Solution
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-transition-0215_creating-an-environment-in-oneops_4668.webm?vpv=1" type="video/webm">
@@ -66,6 +69,3 @@ To create an environment, follow these steps:
     The deployment plan is generated.
 
 13. Review the deployment steps and then click **Deploy.**
-
-
-

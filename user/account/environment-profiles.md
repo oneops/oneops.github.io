@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Environment Profiles
 id: environment-profiles
 ---
+
+# Environment Profiles
 
 Environment profiles are templates that are used to derive concrete environments based on pre-defined templates. Essentially, they are abstract environment definitions that allow environments to be categorized or classified by associating a given environment with an underlying environment profile. Typical examples of profiles are prod, QA, Test, etc.
 
@@ -19,7 +22,7 @@ To add a new Environment profiles, follow these steps:
 6. Save
 
 
-# Usage
+## Usage
 
 
 * Environment profiles enable support, operations, and DevOps teams to easily categorize an environment to determine its support level and/or its critical problem resolution parameters (for example, SLA levels).
@@ -28,11 +31,11 @@ To add a new Environment profiles, follow these steps:
 
 >For backward compatibility reasons, the profile association is not enforced:
 >
-* In situations where no profiles are defined for an organization 
+* In situations where no profiles are defined for an organization
 * For environments that existed prior to when the initial environment profile was added to an Organization
 
-# Environment Profile Association
+## Environment Profile Association
 
 
-* When appropriate, the concrete environment profile association tag is indicated by an explicit name label while navigating through environment, transition and operations pages. For example, this occurs in breadcrumb sections, page header sections and environment lists. 
+* When appropriate, the concrete environment profile association tag is indicated by an explicit name label while navigating through environment, transition and operations pages. For example, this occurs in breadcrumb sections, page header sections and environment lists.
 * Environment profiles help DevOps teams to quickly categorize an environment with a given support level, based on the defined line-up of environment profiles.
