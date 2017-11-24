@@ -1,13 +1,16 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Inductor
+side-navigation: admin-navigation.html
 ---
+
+# Inductor
 
 The **Inductor** consumes WorkOrders (rfc / configuration change) or ActionOrders
 (`start`, `stop`, etc) from a queue by zone, executes them and posts a result
 message back to the **controller**.
 
-A WorkOrder is a request for change (RFC) of a configuration item (CI). An ActionOrder is request to perform an action that 
+A WorkOrder is a request for change (RFC) of a configuration item (CI). An ActionOrder is request to perform an action that
 is typically not associated to a configuration item. Example action are reboot, repair, snapshot, restore, etc.
 
 The `account.Cloud.location` is used by the controller to publish the order into a queue.  The inductors consume,
@@ -19,7 +22,7 @@ Here is the logical flow from CMS:
 
 ![CMS order execution](/assets/docs/local/images/cms-order-execution.png)
 
-# Inductor Details
+## Inductor Details
 
 The inductor is Java core with Ruby for control. The Java side is standard maven + spring,basically a Spring `DefaultMessageListenerContainer` using Apache Commons DefaultExecutor
 to spawn either **local** chef-solo (for IaaS or non-managed via orders) or a **remote**
@@ -32,12 +35,12 @@ The image below shows a logical view of the classes in `com.oneops.inductor`.
 
 There is a ruby gem to simplify setup and control.
 
-# Source / Downloads
+## Source / Downloads
 
 * [Repo](https://github.com/oneops/inductor)
 * [Gem](https://github.com/oneops/oneops-admin)
 
-# Control
+## Control
 
 An Inductor runs using Java jar with a several arguments. There is a gem or bash script to make easier.
 
@@ -47,7 +50,7 @@ or
 
 Inductor control bash script located in the root dir of the repo: ./inductor start,stop,restart,status
 
-# Logs / Inductor Log Agent and Sink
+## Logs / Inductor Log Agent and Sink
 
 The Inductor will put logs where the conf.dir's log4j.xml specifies. The gem redirects to the relative log dir.
 
@@ -56,7 +59,7 @@ The inductor logs are shipped using logstash forwarder to backe end elastic sear
 The UI uses the daq api (Spring based) PerfController to get data.
 
 
-# Inductor Directory Structure
+## Inductor Directory Structure
 
 The directory structure after you have created inductor successfully will look like this,
 
@@ -80,5 +83,3 @@ cd /opt/oneops/inductor
     ├── exec-order.rb
     └── hiera.yaml
 ```
-
-

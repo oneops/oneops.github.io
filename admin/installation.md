@@ -1,7 +1,10 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Installation
+side-navigation: admin-navigation.html
 ---
+
+# Installation
 
 OneOps is a complex application with many components and interactions as you can see in the
 [key concepts documentation](./key-concepts.html). As a result installation is potentially a complicated
@@ -22,4 +25,3 @@ OneOps for your users including
 - [Running OneOps in Production](./operate/running-oneops-in-production.html)
 
 and others.
-

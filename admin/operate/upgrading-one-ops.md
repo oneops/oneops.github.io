@@ -1,7 +1,10 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Upgrading OneOps
+side-navigation: admin-navigation.html
 ---
+
+# Upgrading OneOps
 
 Most of the times, **upgrading** OneOps is *just* deploying a latest build of source code in production. This typically involves
 

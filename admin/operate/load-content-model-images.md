@@ -1,10 +1,13 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Load Content
 id: load-content-model-images
+side-navigation: admin-navigation.html
 ---
 
-# Circuit Overview
+# Load Content
+
+## Circuit Overview
 
 A circuit is a chef ruby-dsl based model of some application or service.  It contains the model of what resources / components are required, optional and how they relate to each other.  Two common relations are depends_on and managed_via.  An architect would usually design a pack to capture best practices for the different availablity modes / operational modes.
 
@@ -13,7 +16,7 @@ An example would be a tomcat circuit.  In the circuit file it would contain a co
 A prior name of a circuit was a pack.  Whenever you see the term pack in oneops, its the same thing as a circuit.
 
 
-# Circuit repo
+## Circuit repo
 
 The basic circuit repo is: https://github.com/oneops/circuit-oneops-1
 
@@ -24,7 +27,7 @@ It contains 3 primary directories for the models:
 3. /packs - the directory with all the packs/circuits
 
 
-# Load content
+## Load content
 
 There is a circuit command which is part of the oneops-admin gem. This circuit command is used to load content / the model.
 
@@ -36,7 +39,7 @@ advanced option to use object store backed images and docs, is to modify the cir
 object_store_provider 'OpenStack'
 object_store_user 'oneops'
 object_store_pass 'redacted'
-object_store_endpoint 
+object_store_endpoint
 environment_name 'int-1503'
 ```
 

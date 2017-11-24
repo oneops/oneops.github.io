@@ -1,11 +1,14 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Administrator Overview
+side-navigation: admin-navigation.html
 ---
+
+# Administrator Overview
 
 A OneOps **administrator** is responsible for
 **installing, updating and operating** the **OneOps** application and its
-components. 
+components.
 
 Once OneOps is running the administrator or administrative users can configure clouds, organizations and other
 components with the OneOps application. This enables the creation of assemblies that contain applications and allow

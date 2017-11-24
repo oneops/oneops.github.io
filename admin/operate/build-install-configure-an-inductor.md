@@ -1,8 +1,11 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Build, Install, and Configure an Inductor
 id: build-install-configure-an-inductor
+side-navigation: admin-navigation.html
 ---
+
+# Build, Install, and Configure an Inductor
 
 1. Build the jar file. It is in `target/inductor-VERSION.jar`.
 

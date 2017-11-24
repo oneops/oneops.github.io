@@ -1,8 +1,11 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: OneOps Manages OneOps
 id: oneops-manages-oneops
+side-navigation: admin-navigation.html
 ---
+
+# OneOps Manages OneOps
 
 We have two separate instances of OneOps named **prod** and **admin**.
 They are in **different regions**, managing each other.
