@@ -1,12 +1,15 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Developer - General Aspects
 ---
 
-Before you go about developing on OneOps itself - [Core Development](../core-development/index.html), on configuration 
+# Developer - General Aspects
+
+Before you go about developing on OneOps itself - [Core Development](../core-development/index.html), on configuration
 for OneOps - [Content Development](../content-development/index.html), or integrating OneOps with other tools via APIs
 - [Integration Development](../integration-development/index.html), you want to learn more about general aspects of
-OneOps-related development. 
+OneOps-related development.
 
 Here are a bunch of resources to do just that:
 

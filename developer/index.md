@@ -1,7 +1,10 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Developer Overview
 ---
+
+# Developer Overview
 
 A OneOps __developer__ carries out __modifications__ of existing aspects of OneOps __or adds new aspects__. Typical
 developer activities are:
@@ -21,7 +24,7 @@ Available resources for developers include:
 <ul>
   <li><a href="/developer/">Overview</a></li>
   <li><a href="/developer/general/key-concepts.html" >Key Concepts</a></li>
-  <li><a href="/developer/core-development/index.html">Core Development:</a> 
+  <li><a href="/developer/core-development/index.html">Core Development:</a>
     <ul>
       {% for currentpage in site.pages %}
         {% if currentpage.url contains "/developer/core-development/" and currentpage.url != "/developer/core-development/" %}
@@ -49,4 +52,3 @@ Available resources for developers include:
     </ul>
   </li>
 </ul>
-

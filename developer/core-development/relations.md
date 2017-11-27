@@ -1,22 +1,25 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Relations
 id: relations
 ---
 
+# Relations
+
 The following model diagrams describe the relationships for Design, Transition, and Operations in the OneOps UI.
 [Relationships](/developer/general/key-concepts.html) also have attributes, some of which are used to scale.
 
-# Design
+## Design
 
 In the Design aspect, we model the base application:
 
-* No environmental 
+* No environmental
 * No operational components
 
 ![Design relations](/assets/docs/local/images/design-relations.png)
 
-# Transition
+## Transition
 
 In the Transition aspect, we model two additional objects:
 
@@ -25,10 +28,8 @@ In the Transition aspect, we model two additional objects:
 
 ![Transition relations](/assets/docs/local/images/transition-relations.png)
 
-# Operations
+## Operations
 
 In the Operations aspect, we create `bom` components for the manifest components with relation to the Binding (cloud provider).
 
 ![Operations relations](/assets/docs/local/images/operations-relations.png)
-
-

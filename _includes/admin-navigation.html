@@ -38,6 +38,9 @@
             <div class="col-md-3">
 
               <div class="docs-navigation">
+                <h2><a href="/admin/index.html">Overview</a></h2>
+                <h2><a href="/admin/key-concepts.html">Key Concepts</a></h2>
+                <h2><a href="/admin/installation.html">Installation</a></h2>
                 {% for item in site.data.admin-navigation.nav %}
                 {% if site.collapseNavDocs == true %}
                 <h2><a onclick="toggleMenu(this, '#{{ item.id }}');"><i class="fa fa-chevron-right pale-blue"></i> {{ item.title }}</a></h2>

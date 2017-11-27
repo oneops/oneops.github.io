@@ -1,7 +1,10 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Metadata
 ---
+
+# Metadata
 
 Metadata files model components and have several parts:
 
@@ -13,7 +16,7 @@ Metadata files model components and have several parts:
 The following is an example of a metadata file:
 
 
-# 1: base/required attributes
+## 1: base/required attributes
 
 ```
 name             "Apache"
@@ -25,7 +28,7 @@ maintainer_email "dev@kloopz.com"
 license          "Copyright OneOps, All rights reserved."
 ```
 
-# 2: grouping - sub-groups of attributes cms models
+## 2: grouping - sub-groups of attributes cms models
 
 Usually dont need to change this. Its for when different types can have different attributes. See the token metadata for example.
 
@@ -35,7 +38,7 @@ grouping 'default',
   :packages => [ 'base', .. 'manifest', 'bom' ]
 ```
 
-# 3: attributes
+## 3: attributes
 
 ```
 attribute 'install_type',
@@ -47,15 +50,15 @@ attribute 'install_type',
     :help => 'Select the type of installation - standard OS '+
              'repository package or custom build from source code',
     :order => 1,
-    :form => { 'field' => 'select', 
+    :form => { 'field' => 'select',
                'options_for_select' => [['Repository package','repository'],
                                         ['Build from source','build']] }
   }
 ```
 
-# 4. recipes - default actions. 
+## 4. recipes - default actions. 
 
-Actions can also be added via UI in design mode as on-demand Attachments. 
+Actions can also be added via UI in design mode as on-demand Attachments.
 
 ```
 recipe "status", "Apache Status"
@@ -64,4 +67,3 @@ recipe "stop", "Stop Apache"
 recipe "restart", "Restart Apache"
 recipe "repair", "Repair Apache"
 ```
-

@@ -1,15 +1,18 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Pack Development
 ---
 
-# Good Defaults
+# Pack Development
+
+## Good Defaults
 
 * Have reasonable defaults for resources included in pack.
 * For example, What would be **default** value of **compute size** for tomcat.
 
 
-# Use Variables
+## Use Variables
 
 Some of the use case for variables would be:
 
@@ -18,5 +21,3 @@ Some of the use case for variables would be:
   3. attributes that the user ​*must*​ change, like name of the app or something like that
 
 > The variables are de-referenced during the deployment plan generation on OneOps and  by the time the attribute is passed to the cookbook (workorder) it’s already substituted
-
- 

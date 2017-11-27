@@ -1,14 +1,17 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Development Environment Setup
 ---
 
+# Development Environment Setup
+
 This document contains some older notes for the development environment setup
 and build. Refer to the
-[overview for building from source and running OneOps](./index.html). 
+[overview for building from source and running OneOps](./index.html).
 
 
-# Environment Setup
+## Environment Setup
 
 Configure the required environment variables as per your local setup.
 
@@ -23,7 +26,7 @@ export KLOOPZDB_HOME=$OO_HOME/db-schema/db
 
 Optionally configure these variables in a script or even in your shell startup in `~/.bash_profile` or
 `~/.profile`.
-  
+
 Add a number of host names for OneOps in your `etc/hosts` file in addition to `localhost`:
 
 {% highlight shell %}
@@ -34,7 +37,7 @@ Add a number of host names for OneOps in your `etc/hosts` file in addition to `l
 {% endhighlight %}
 
 
-# Database Schema
+## Database Schema
 
 Create the database schema:
 
@@ -60,7 +63,7 @@ Validate database setup by connecting to all 3 databases - `user`, `cms` and `ac
 | Activiti DB | jdbc:postgresql://127.0.0.1:5432/activitidb | activiti / activiti |
 {% endhighlight%}
 
-# ActiveMQ Setup
+## ActiveMQ Setup
 
 Copy the file `amqplugin-1.0.0-fat.jar` from `~/.m2/repository/com/oneops/amqplugin/1.0.0/` to ActiveMQ's `lib`
 folder.
@@ -82,14 +85,14 @@ $ cd /macosx
 $ ./activemq restart && tail -100f ../../data/wrapper.log
 {% endhighlight %}
 
-Ensure to use the OS specific folder i.e macosx or linux-x86-64 or linux-x86-32. 
+Ensure to use the OS specific folder i.e macosx or linux-x86-64 or linux-x86-32.
 
 Once the server started successfully, check the user interface at
  [http://localhost:8161/admin](http://localhost:8161/admin) and log in with the default credentials
  **admin/admin**.
 
 
-# Inductor Setup
+## Inductor Setup
 
 Setup the stub for inductor:
 
@@ -109,7 +112,7 @@ $ gem install oneops-admin-1.0.0.gem
 {% endhighlight %}
 
 This step might take 2-3 mins.
-  
+
 You can validate a successful install with the command `inductor help`.  In case of any errors, it can be helpful
 to provide complete permissions to rvm or rubies folder.
 
@@ -133,7 +136,7 @@ max_consumers = 10
 local_max_consumers = 10
 amq.authkey = awssecretkey
 amq.zone = /public/oneops/clouds:aws
-        
+
 # Following needs to be uncommented in case if we want to stub the cloud
 #stub.clouds=dev-dfwstg2 #This is the cloud we create through OneOps display UI.
 #stub.responseTimeInSeconds=1
@@ -162,7 +165,7 @@ $ inductor start
 
 You can check the status of Inductor with `inductor status` (or) `ps –ef | grep inductor`
 
-# Running the Applications on Tomcat
+## Running the Applications on Tomcat
 
 Start Cassandra.
 
@@ -242,7 +245,7 @@ $ mkdir -p /opt/oneops/opamp/search/retry
 
 Start the Tomcat server. All applications should be deployed without any error in console.
 
-# Circuit Setup
+## Circuit Setup
 
 Run below command to install the Circuit component after installing Inductor.
 
@@ -263,7 +266,7 @@ $ circuit install
 
 In case if you face any errors try `bundle exec circuit create` and ensure that Tomcat is running
 
-# Running OneOps
+## Running OneOps
 
 Add below environment variables to `~/.bash_profile`.
 
@@ -301,7 +304,7 @@ $ rails server
 Now, the OneOps UI is available at [http://localhost:3000](http://localhost:3000)
 
 
-# ElasticSearch
+## ElasticSearch
 
 As part of development environment setup Elasticsearch is already downloaded at `~/install/elasticsearch1.7.1`.
 
@@ -333,4 +336,3 @@ Run SearchListener
 {% highlight bash %}
 $ java -jar -Dnodes=localhost:9300 -Dindex.name=cms-all -Damq.user=system -Damq.pass=abcd -Dcluster.name=oneops target/search.jar -Dsun.net.spi.nameservice.provider.1=dns,sun -Dsun.net.spi.nameservice.provider.2=default
 {% endhighlight %}
-

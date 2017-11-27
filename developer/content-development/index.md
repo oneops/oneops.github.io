@@ -1,7 +1,10 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Content Development
 ---
+
+# Content Development
 
 __Content development__ is all about the creation and maintenance of __OneOps packs__ and __circuits__ and other
 configuration data in OneOps. The elements implement support for different cloud providers, operating system, application

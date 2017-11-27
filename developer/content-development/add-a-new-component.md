@@ -1,10 +1,12 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Add a New Component
 ---
 
+# Add a New Component
 
-To add a new [Component](../general/key-concepts.html#component) Class to a model so it can be used by 
+To add a new [Component](../general/key-concepts.html#component) Class to a model so it can be used by
 [Platforms,](../general/key-concepts.html#platform) follow these steps:
 
 In this example, we use *Jboss* as an example of a new component.

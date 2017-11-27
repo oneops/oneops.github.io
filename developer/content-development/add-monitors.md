@@ -1,7 +1,10 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Add Monitors
 ---
+
+# Add Monitors
 
 Adding a monitor is specific to each component. These steps are very generic and only give an overview of what to do if a new monitor needs to be added to a component:
 

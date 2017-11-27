@@ -1,14 +1,4 @@
 nav:
-  - title: Getting Started
-    id: getting-started
-    collapse: /admin/
-    subfolderitems:
-      - page: Administrator Overview
-        context: /admin/index
-      - page: Key Concepts
-        context: /admin/key-concepts
-      - page: Installation
-        context: /admin/installation
   - title: Operate
     id: operate
     collapse: /admin/operate
