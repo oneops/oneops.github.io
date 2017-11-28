@@ -94,7 +94,7 @@ OneOps adds `packs`, an extensible object-oriented management model, that contai
 
 To update the CMS database with new component metadata and/or platform management packs, we extended Chef's knife to load (model sync) the files in the directory to the database.
 
-![Platform flow](/assets/docs/local/images/platform-create-flow.png)
+<img alt="Platform flow" src="/assets/docs/local/images/platform-create-flow.png" class="img-responsive" />
 
 ### Component Class
 

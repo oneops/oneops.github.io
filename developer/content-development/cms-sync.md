@@ -10,7 +10,7 @@ To update the CMS database with new component metadata and/or platform managemen
 
 This sync is shown in the Preload Configuration section below:
 
-![Platform create flow](/assets/docs/local/images/platform-create-flow.png)
+<img src="/assets/docs/local/images/platform-create-flow.png" alt="Platform create flow" class="img-responsive" />
 
 ```
 # need to be in the root packer directory

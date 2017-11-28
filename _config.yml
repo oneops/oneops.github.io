@@ -35,8 +35,8 @@ searchname: 'site-oneops-'
 
 navigation:
  - title: OVERVIEW
-   url: /general/about.html
-   context: /general
+   url: /overview/about.html
+   context: /overview/
  - title: USER
    url: /user/index.html
    context: /user/
@@ -68,28 +68,28 @@ documentation:
 projects:
  - title: About OneOps
    id: about
-   url: /general/about.html
+   url: /overview/about.html
  - title: Benefits
    id: benefits
-   url: /general/benefits.html
+   url: /overview/benefits.html
  - title: Integrations
    id: integrations
-   url: /general/integrations.html
+   url: /overview/integrations.html
  - title: Case Studies
    id: case-studies
-   url: /general/case-studies.html
+   url: /overview/case-studies.html
  - title: In the Press
    id: in-the-press
-   url: /general/in-the-press.html
+   url: /overview/in-the-press.html
  - title: Training
    id: training
-   url: /general/training.html
+   url: /overview/training.html
  - title: Documentation
    id: documentation
-   url: /general/documentation.html
+   url: /overview/documentation.html
  - title: Contribute
    id: contribute
-   url: /general/contribute.html
+   url: /overview/contribute.html
 
 authors:
   ooteam:
