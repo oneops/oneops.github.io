@@ -1,5 +1,5 @@
 ---
-layout: general-doc
+layout: wmt/default
 title: OneOps Team Blog Archive
 
 ---
