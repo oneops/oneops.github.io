@@ -24,9 +24,6 @@ cross-site: false
 collapseNavDocs: true
 display-search-in-header: true
 
-excerpt_separator: <!--more-->
-permalink: /blog/:year-:month-:day-:title.html
-
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search
 searchname: 'site-oneops-'
@@ -67,28 +64,20 @@ documentation:
 
 projects:
  - title: About OneOps
-   id: about
    url: /overview/about.html
  - title: Benefits
-   id: benefits
    url: /overview/benefits.html
  - title: Integrations
-   id: integrations
    url: /overview/integrations.html
  - title: Case Studies
-   id: case-studies
    url: /overview/case-studies.html
  - title: In the Press
-   id: in-the-press
    url: /overview/in-the-press.html
  - title: Training
-   id: training
    url: /overview/training.html
  - title: Documentation
-   id: documentation
    url: /overview/documentation.html
  - title: Contribute
-   id: contribute
    url: /overview/contribute.html
 
 authors:
@@ -111,16 +100,24 @@ authors:
     name: Manfred Moser
     web: http://twitter.com/simpligility
 
-# ----------------------------------------------------------------------------------------------------------------------
-# Theme
-# ----------------------------------------------------------------------------------------------------------------------
-
-bootstrapVersion: 3.3.1
-#theme: walmart
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Jekyll
 # ----------------------------------------------------------------------------------------------------------------------
+defaults:
+  -
+   scope:
+     type: pages
+   values:
+     permalink: /:path/:basename:output_ext
+  -
+   scope:
+     type: posts
+   values:
+     permalink: /blog/:year-:month-:day-:title.html
+
+excerpt_separator: <!--more-->
+
 markdown: kramdown
 kramddown:
   input: GFM
