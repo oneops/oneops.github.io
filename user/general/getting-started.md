@@ -7,41 +7,33 @@ id: "getting-started"
 
 # User Getting Started
 
-<div id="wizard" class="rounded">
-  <div class="inner rounded">
-    <ul class="steps">
-      <li class="alert account alert-success">
-        <span class="step-title alert-heading">Account</span>
-        <ul class="tasks">
-          <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
-          <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
-        </ul>
-        <span class="step-number">1</span>
-      </li>
-      <li class="alert alert-info design">
-        <span class="step-title alert-heading">Design</span>
-        <ul class="tasks">
-          <li class="task"><a href="#create-a-platform">create platform</a></li>
-          <li class="task"><a href="#commit-a-design">commit design</a></li>
-        </ul>
-        <span class="step-number">2</span>
-      </li>
-      <li class="alert alert-info transition">
-        <span class="step-title alert-heading">Transition</span>
-        <ul class="tasks">
-          <li class="task"><a href="#create-an-environment">create environment</a></li>
-          <li class="task"><a href="#deploy-an-application">deploy to cloud</a></li>
-        </ul>
-        <span class="step-number">3</span>
-      </li>
-      <li class="alert alert-info operate">
-        <span class="step-title alert-heading">Operate</span>
-        <ul class="tasks">
-          <li class="task"><a href="#view-operations">view status</a></li>
-          <li class="task"><a href="#control-environment">control environment</a></li>
-        </ul>
-        <span class="step-number">4</span>
-      </li>
+<div class="row">
+  <div class="col-md-3 alert alert-success">
+    <h4>1 Account</h4>
+    <ul>
+      <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
+      <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
+    </ul>
+  </div>
+  <div class="col-md-3 alert alert-info">
+    <h4>2 Design</h4>
+    <ul>
+      <li class="task"><a href="#create-a-platform">create platform</a></li>
+      <li class="task"><a href="#commit-a-design">commit design</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 alert alert-info">
+    <h4>3 Transition</h4>
+    <ul>
+      <li class="task"><a href="#create-an-environment">create environment</a></li>
+      <li class="task"><a href="#deploy-an-application">deploy to cloud</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 alert alert-info">
+    <h4>4 Operate</h4>
+    <ul>
+      <li class="task"><a href="#view-operations">view status</a></li>
+      <li class="task"><a href="#control-environment">control environment</a></li>
     </ul>
   </div>
 </div>
@@ -78,7 +70,7 @@ To set up your user account, follow these steps:
 2. Click **clouds** link on left nav bar .
 3. Click **Add Cloud**  
 
-![Getting started OneOps](/assets/docs/local/images/create-clouds-orgs.gif)
+<img src="/assets/docs/local/images/create-clouds-orgs.gif" class="img-responsive" />
 
 Next **Create Assembly**
 
