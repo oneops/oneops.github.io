@@ -14,7 +14,7 @@ of improving everything for you all and getting better at working with everyone 
 what we have accomplished.
 
 Working up to the initial open source release and afterwards we get a lot of traction
-[in the press](/general/in-the-press.html). And we followed up on that with various team members attending conferences
+[in the press](/overview/in-the-press.html). And we followed up on that with various team members attending conferences
 and other events and presenting about OneOps and various use cases we encounter daily.
 
 <!--more-->
@@ -45,4 +45,4 @@ applications and empower your developers across whatever cloud infrastructure an
 So what is next you ask? We have a lot in our pipeline with another release just around the corner and lots of
 great improvements for OneOps on the road-map. Updates to the website and other material for our users are rapidly
 moving along as well. So watch [this space](./index.html) for updates and
-[send your feedback our way](http://oneops.com/general/contribute.html).
+[send your feedback our way](../overview/contribute.html).

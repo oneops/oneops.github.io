@@ -16,4 +16,4 @@ Learn more about clouds and their benefits with this video:
 </div>
 
 Supported cloud providers are
-[Amazon AWS, Google Cloud Platform, Microsoft Azure, OpenStack and Rackspace](/general/integrations.html#clouds).
+[Amazon AWS, Google Cloud Platform, Microsoft Azure, OpenStack and Rackspace](/overview/integrations.html#clouds).

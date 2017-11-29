@@ -13,7 +13,7 @@ developer activities are:
 - __Content development__: Creation and maintenance of __OneOps packs__ and __circuits__.
 - __Integrations development__:  Usage of the __OneOps API__ to create integrations with other applications or workflows
 
-At a minimum a developer needs to understand the basic concepts of [OneOps itself](/general/about.html) and
+At a minimum a developer needs to understand the basic concepts of [OneOps itself](/overview/about.html) and
 for [OneOps users](/user/). Depending on the development task, [OneOps administrator](/admin/index.html)
 knowledge is potentially required as well.
 
