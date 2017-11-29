@@ -41,9 +41,5 @@ and [Monitors](/user/operation/monitors.html)
 * Application-driven access control policies, see [Teams in Organization](/user/account/create-a-team-in-an-organization.html)
 * Abstraction and dynamic modeling of the demand and supply, see [clouds](/user/account/clouds.html)
 
-The following video provides an introduction:
-
-<iframe src="https://player.vimeo.com/video/44430261" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
-
 > If you don't have access to a OneOps installation you can get started with the installation instructions and more in
 the [administrator documentation](/admin/index.html).
