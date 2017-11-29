@@ -23,6 +23,7 @@ logo: /assets/img/logo.png
 cross-site: false
 collapseNavDocs: true
 display-search-in-header: true
+custom-footer: true
 
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search

@@ -472,7 +472,7 @@ ul.top-nav li a {
     width: 100%;
     }
     }
-    
+
 /* ------------------------------ HOMEPAGE STYLES ------------------------------ */
 
 .homeBanner {
@@ -930,7 +930,8 @@ a.list-group-item-success.active:focus {
 /* ------------------------------ FOOTER STYLES ------------------------------ */
 
 .footer {
-    color: #cccccc;
+    color: #ffffff;
+    opacity: 0.6;
     margin-top: 40px;
     padding: 20px 0 30px;
     background: #2f2951;
@@ -949,8 +950,14 @@ a.list-group-item-success.active:focus {
 .footer p,.copyright p {
     color: #cccccc; }
 
+.footer a {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
 .footer a:hover {
-    color: #a8f85f;
+    color: #ffffff;
+    opacity: 1.0;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -984,14 +991,17 @@ a.list-group-item-success.active:focus {
     margin-top: 12px; }
 
 .copyright p {
-    color: #ffffff; }
+    color: #ffffff;
+  opacity: 0.6; }
 
 .copyright a {
     margin: 0 5px;
-    color: #007dc6; }
+    color: #fff;
+  opacity: 0.6; }
 
 .copyright a:hover {
-    color: #a8f85f; }
+    color: #ffffff;
+  opacity: 1.0;}
 
 /* ------------------------------ STICKY FOOTER ------------------------------ */
 

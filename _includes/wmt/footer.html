@@ -2,7 +2,10 @@
 
       <div class="copyright">
         <div class="container">
-          <div class="row">
+          {% if site.custom-footer-info == true %}
+            {% include custom-footer.html %}
+          {% endif %}
+          <div class="row margin-bottom-30">
             <div class="col-md-8">
               <p class="copyright-space">
                 2016 - {{ 'now' | date: "%Y" }} &copy;

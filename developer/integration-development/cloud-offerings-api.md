@@ -1,12 +1,13 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Cloud Offerings and Services API
 ---
 
-The Cloud Offerings and Cloud Services APIs allow you to access a list of the different offerings and services of the 
-configured clouds. 
+The Cloud Offerings and Cloud Services APIs allow you to access a list of the different offerings and services of the
+configured clouds.
 
-Offerings includes information about DNS, storage and computes and others. Services includes information about NTP, 
+Offerings includes information about DNS, storage and computes and others. Services includes information about NTP,
 mirrors, computes, load balancing, storage, filestores, logstreams, DNS and others
 The data is available via
 
