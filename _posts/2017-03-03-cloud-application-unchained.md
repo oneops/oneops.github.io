@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  Your Cloud Application Needs to be Unchained
 published: true
 authors: [mmoser]
@@ -39,5 +39,3 @@ around the globe using a number of internal OpenStack systems as well as externa
 should work for you too.
 
 So go ahead and check out some more resources on the site, give OneOps a whirl and contact us for help!
-
-

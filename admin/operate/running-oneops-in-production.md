@@ -1,7 +1,10 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Running OneOps in Production
+side-navigation: admin-navigation.html
 ---
+
+# Running OneOps in Production
 
 Use **OneOps to deploy OneOps in production**, so you get all the benefits of OneOps in managing your application refer this article.
 

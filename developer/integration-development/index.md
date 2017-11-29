@@ -1,9 +1,12 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Integration Development
 ---
 
-__Integrations development__ is all about using the various __OneOps APIs__ to create integrations with other 
+# Integration Development
+
+__Integrations development__ is all about using the various __OneOps APIs__ to create integrations with other
 applications or workflows. These could be simple scripts to automate commonly performed actions or integration
 with other applications to support your specific use cases.
 
@@ -23,7 +26,7 @@ OneOps includes a very comprehensive REST-based API. Most URLs in OneOps that re
 modified to return JSON data for the same entity.
 
 For example the configured clouds in your organization `example` in your OneOps instance are available as user interface
-URL via `http://server/example/clouds`. On the other hand you can retrieve this list of clouds in JSON format with a 
+URL via `http://server/example/clouds`. On the other hand you can retrieve this list of clouds in JSON format with a
 HTTP GET call of `http://server/example/clouds.json` and it would look similar to:
 
 
@@ -70,4 +73,3 @@ component could be `https://server/oneops/assemblies/31561093/design/platforms/6
 - [CI Notifications API](./ci-notifications-format.html)
 - [Cloud Offerings API](./cloud-offerings-api.html)
 - [Design Attachments API](./design-attachments-api.html)
-

@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add a User To a Group
 id: "add-a-user-to-a-group"
 ---
+
+# Add a User to a Group
 
 1. Log into your OneOps server.
 2. Select your user name at the top of the page.
@@ -12,4 +15,3 @@ id: "add-a-user-to-a-group"
 6. Select the user and click **Save.**
 
 ![Add User Group](/assets/docs/local/images/add-user-group.png)
-

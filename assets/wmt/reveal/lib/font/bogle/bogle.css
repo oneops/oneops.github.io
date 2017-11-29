@@ -1,0 +1,18 @@
+/* bogle regular */
+@font-face {
+    font-family: 'Bogle';
+    font-style: normal;
+    font-weight: normal;
+    src: url('bogle-web-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('bogle-web-regular.woff') format('woff'), /* Modern Browsers */
+         url('bogle-web-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/* bogle bold */
+@font-face {
+    font-family: 'Bogle';
+    font-style: normal;
+    font-weight: bold;
+    src: url('bogle-web-bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('bogle-web-bold.woff') format('woff'), /* Modern Browsers */
+         url('bogle-web-bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}

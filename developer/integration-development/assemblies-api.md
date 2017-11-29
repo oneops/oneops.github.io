@@ -1,5 +1,6 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Assemblies API
 id: assemblies-api
 ---
@@ -47,7 +48,7 @@ ciAttributes
     : _Optional_ **String**
 ```
 
-In Ruby: 
+In Ruby:
 
 ```
 <%= json %5C :cms_ci => { :ciName => "myassembly", :comments => "These are your comments", :ciAttributes => { :description => "This is your assembly description" } } %>

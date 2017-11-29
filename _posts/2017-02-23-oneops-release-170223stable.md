@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: wmt/post
 title:  Glorious Charts - OneOps Release 17.02.23-STABLE
 published: true
 authors: [klohia, mmoser,]
 ---
 
-<img src="/assets/img/ui/monitors-chart.png" width="300" align="right"/> 
+<img src="/assets/img/ui/monitors-chart.png" width="300" align="right"/>
 
 Nothing beats charts full of [monitoring data](/user/operation/monitors.html), when it comes to investigating problems
 with your application running in operation. And with this release we are bringing you a few key improvements to an
@@ -13,7 +13,7 @@ already amazing monitoring system.  You got to check it out and to make that eas
 
 <!--more-->
 
-Of course, this release includes a bunch of other improvements and bug fixes, but first .. have a look at this: 
+Of course, this release includes a bunch of other improvements and bug fixes, but first .. have a look at this:
 
 <div class="video">
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mFeohNtc5Es" frameborder="0" allowfullscreen></iframe>
@@ -21,13 +21,13 @@ Of course, this release includes a bunch of other improvements and bug fixes, bu
 
 <br/><br/>
 
-And before you read ahead - a special shout out goes to [Lev](https://github.com/lkhusid) for his great work on the 
+And before you read ahead - a special shout out goes to [Lev](https://github.com/lkhusid) for his great work on the
 charts and the CLI!
 
 ## New Features
 
-* Many improvements to the charting system and user interface for monitoring, specifically around zoom features, 
-pop-out, navigation and others. 
+* Many improvements to the charting system and user interface for monitoring, specifically around zoom features,
+pop-out, navigation and others.
 
 ## Bug Fixes and Improvements
 

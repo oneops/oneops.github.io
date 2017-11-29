@@ -1,11 +1,14 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Computes in Operation
 ---
 
+# Computes in Operation
+
 The [_compute_ component](../design/compute-component.html) represents the virtual machine (VM) and operating system on
-which a platform runs in operation. This section explains all the available data and features and explains some common 
-use cases: 
+which a platform runs in operation. This section explains all the available data and features and explains some common
+use cases:
 
 - [Overview](#overview)
 - [Example Use Cases](#example-use-cases)
@@ -22,7 +25,7 @@ You can locate computes by navigating to a platform of your assembly within an e
 
 - _Assemblies_ item in the left navigation bar
 - Click on the name of your assembly
-- Click on the name of the desired environment 
+- Click on the name of the desired environment
 - Click on the name of the platform that contains the compute
 - Click on the _compute_ component
 
@@ -71,7 +74,7 @@ Clicking on the name of a specific compute allows you to navigate to the details
 
 ### Find IP Number of a Compute
 
-Locate the compute in operation and look at the _public ip_ value. 
+Locate the compute in operation and look at the _public ip_ value.
 
 Note that a computes's IP Address may change. Avoid building any reliance on an IP address in your application or
 operations. Consider an IP Address transparent and changing like a process ID number PID. Whenever a compute goes
@@ -110,14 +113,14 @@ has new identifiers and attributes such as IP numbers are changed as well.
 
 ### Upgrade OS Packages on a Compute
 
-- Locate the compute in the list and select it 
+- Locate the compute in the list and select it
 - Select the action _upgrade-os-package_ to upgrade a specific package.
 - Set the argument using the package name.
 - Press the _Start now_ button.
 
-Alternatively select the _upgrade-os-all_ action to apply all upgrades and install any new required packages or 
+Alternatively select the _upgrade-os-all_ action to apply all upgrades and install any new required packages or
 _upgrade-os-security_ to apply security-related upgrades only.
- 
+
 All Kernel-related patch updates require a compute reboot. After the packages are installed, do a rolling reboot of
 computes.
 
@@ -126,7 +129,7 @@ computes.
 You can ssh into a compute VM once you have ensured that your certificate is trusted. This allows you to inspect the
 current state of the compute and investigate problems and other aspects of the compute configuration at runtime:
 
-- Ensure that the platform for the compute you want to connect to includes a 
+- Ensure that the platform for the compute you want to connect to includes a
 [user component](../design/user-component.html) with the desired _Username_ and _Authorized Keys_.
 - If necessary, add the user component, pull the design in your environment and deploy.
 - Determine the _Public IP_ of the compute.

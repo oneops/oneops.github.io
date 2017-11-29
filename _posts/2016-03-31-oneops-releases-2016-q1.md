@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  OneOps Releases 2016 Q1
 published: true
 authors: [klohia, ksaroya, mmoser]
@@ -30,12 +30,12 @@ Circuit Updates:
 
 Circuit Updates:
 
-- Added configurable repo path for main source Apache pack. 
+- Added configurable repo path for main source Apache pack.
 - Added Dependency download to user
 
 ## Release 2016.03.09
 
-- Ability to define pack level defaults for platform attributes like auto replace or auto scale configuration. 
+- Ability to define pack level defaults for platform attributes like auto replace or auto scale configuration.
 
 Circuit Updates:
 
@@ -121,7 +121,7 @@ Auto healing flags moved from environment configuration in transition to platfor
 
 UI additions/improvements:
 
-- Security: User session inactivity timeout of 30mins 
+- Security: User session inactivity timeout of 30mins
 - Security: Only one simultaneous session is allowed
 - Notification graph now available on assembly, environment operation pages along with notification report page
 - Improved performance of page loading
@@ -129,10 +129,10 @@ UI additions/improvements:
 
 Circuit updates:
 
-- Added new 'oneops' source. 
+- Added new 'oneops' source.
   - Users now have option to choose from 3 sources(main, oneops and walmartlabs) while creating new platform
-  - The new 'oneops' source is the only source available to OneOps opensource 
-  - This source will eventually replace entire 'main' source. 
+  - The new 'oneops' source is the only source available to OneOps opensource
+  - This source will eventually replace entire 'main' source.
   - Migration plan from main to oneops source will be announced separately
 - added Ruby component to jenkinsslave pack
 - new php version 5.5.30 available

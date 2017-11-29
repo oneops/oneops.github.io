@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  Bug Fixes - OneOps Release 17.03.02-STABLE
 published: true
 authors: [klohia, mmoser]

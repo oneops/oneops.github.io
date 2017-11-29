@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Deployment Approval Process
 id: deployment-approval-process
 ---
+
+# Deployment Approval Process
 
 Deployment approval is a mechanism by which a team can govern deployment of environment attributed with approval flag
 

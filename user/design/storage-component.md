@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Storage Component
 ---
+
+# Storage Component
 
 The _storage_ [component](./components.html) is of core importance and part of most platforms since it
 defines any attached "block" storage accessible to the compute.

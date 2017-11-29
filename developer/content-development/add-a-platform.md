@@ -1,11 +1,14 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Add a Platform
 ---
 
+# Add a Platform
+
 To create a new Platform type so it can be used via the UI, follow the steps listed below.
 
-For this example, JBoss is an example of a new platform. Before a pack can use JBoss, a 
+For this example, JBoss is an example of a new platform. Before a pack can use JBoss, a
 <a href="/developer/general/key-concepts.html">component</a> for JBoss must be added. Since Tomcat is an application server like JBoss, we can use that as a template.
 
 1. `cd packer/packs/platform ; cp tomcat.rb JBoss.rb`

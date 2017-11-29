@@ -1,11 +1,14 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Naming Conventions
 ---
 
+# Naming Conventions
+
 Follow these naming conventions for assemblies, platforms and environments.
 
-# Assembly Name
+## Assembly Name
 
 The name of the assembly should represent the name of your product or the service that you are offering. Keep it short and relevant.
 
@@ -13,7 +16,7 @@ Use: `wms`
 
 Do not use: warehouse management system
 
-# Platform Name
+## Platform Name
 
 The name of the platform should be the name of the tier that you are adding. For example: if you are adding a web tier, call it tomcat or jboss. For a database tier, call it db.
 
@@ -21,7 +24,7 @@ Use: `tomcat`, `jboss`, `db`, `cache`
 
 Do not use: cache-app, dal-schema-common-app, tomcat-prod
 
-# Environment Name
+## Environment Name
 
 The environment name should represent the environment where the design is deployed.
 

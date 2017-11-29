@@ -1,7 +1,10 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Create a Custom Payload
 ---
+
+# Create a Custom Payload
 
 To get configuration data from other parts of your assembly, you can add a custom payload definition to the resource in a circuit.
 

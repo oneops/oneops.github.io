@@ -1,7 +1,10 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Administrator Operation
+side-navigation: admin-navigation.html
 ---
+
+# Administrator Operation
 
 This documentation section about operating aspects for OneOps administrators includes:
 

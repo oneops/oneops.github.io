@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title: One Source - OneOps Releases 17.08.02 and Earlier
 published: true
 authors: [mmoser]
@@ -11,14 +11,14 @@ number of repositories is greatly reduced now. The refactoring necessary to
 get about a dozen repositories merged and the related changes to release
 processes and more needed to be taken care of so our public releases dropped
 a bit. We still did a bunch of them internally and released numerous changes to
-our users. 
+our users.
 
 <!--more-->
 
 
 ## New Features and Signficant Changes
 
-- Most of the project is located in 
+- Most of the project is located in
 [one source code repository](https://github.com/oneops/oneops)
 - [Build instructions](../../developer/core-development/index.html) are much
   simplified

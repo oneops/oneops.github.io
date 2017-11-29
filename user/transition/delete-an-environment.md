@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Delete an Environment
 id: delete-environment
 ---
 
-# Solution
+# Delete an Environment
+
+## Solution
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-transition-0215_deleting-an-environment_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video. 
+    Your browser does not implement HTML5 video.
 </video>
 
 
@@ -20,4 +23,3 @@ id: delete-environment
 6. Commit and Deploy
 
 >This disables all the Platforms and deletes the environment.
-

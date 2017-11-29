@@ -1,17 +1,20 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add a User to a Team
 id: "add-user-to-team"
 ---
 
-# Solution
+# Add a User to a Team
+
+## Solution
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-0215_adding-users-to-a-team_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video. 
+    Your browser does not implement HTML5 video.
 </video>
 
-## User
+### User
 
 If you are user without the required admin permissions to add a user to team, follow these steps to add a user to a team:
 
@@ -20,7 +23,7 @@ If you are user without the required admin permissions to add a user to team, fo
 2. Accept the terms and conditions.
 3. Ask your Manager or Team admin to add you in the organization (correct team).
 
-## Admin
+### Admin
 
 If you are a user with the appropriate admin permissions, follow these steps to add a user to a team.
 

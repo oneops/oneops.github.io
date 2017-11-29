@@ -1,15 +1,18 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Manage Assemblies
 id: manage-assemblies
 ---
 
-# Solution
+# Manage Assemblies
+
+## Solution
 
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-0215_managing-assemblies_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video. 
+    Your browser does not implement HTML5 video.
 </video>
 
 To manage assemblies, follow these steps:
@@ -29,7 +32,7 @@ To manage assemblies, follow these steps:
     * **Copy:** prompts you to provide a new Assembly Name and Description for a new copy of the Assembly you selected.
     * **Save to Catalog:** prompts you to provide a Catalog Name and Description.
 
-# See Also
+## See Also
 
 
 * <a href="/user/design/create-assemblies-to-design-application.html">Create Assemblies to Design Applications</a>

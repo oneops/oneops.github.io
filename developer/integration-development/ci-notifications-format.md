@@ -1,5 +1,6 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: CI Notification Format
 ---
 
@@ -90,4 +91,3 @@ Here is the sample for a matching close event for above open event:
     manifestCiId: 2345
 }
 ```
-

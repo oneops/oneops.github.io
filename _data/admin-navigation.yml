@@ -1,0 +1,33 @@
+nav:
+  - title: Operate
+    id: operate
+    collapse: /admin/operate
+    subfolderitems:
+      - page: Index
+        context: /admin/operate/index
+      - page: Build, Install, and Configure an Inductor
+        context: /admin/operate/build-install-configure-an-inductor
+      - page: Client-Side Aggregations
+        context: /admin/operate/client-side-aggregations
+      - page: Inductor
+        context: /admin/operate/inductor
+      - page: Load Content
+        context: /admin/operate/load-content-model-images
+      - page: Metric Data Source Type
+        context: /admin/operate/metric-data-source-type
+      - page: Metrics Collection
+        context: /admin/operate/metrics-collection
+      - page: oneops-admin gem
+        context: /admin/operate/oneops-admin-gem
+      - page: OneOps Manages OneOps
+        context: /admin/operate/oneops-manages-oneops
+      - page: Running OneOps in Production
+        context: /admin/operate/running-oneops-in-production
+      - page: Sensors
+        context: /admin/operate/sensors
+      - page: Set Up Log Forwarding to ES with Logstash
+        context: /admin/operate/set-up-log-forwarding-to-es-with-logstash
+      - page: Testing and Debugging
+        context: /admin/operate/testing
+      - page: Upgrading OneOps
+        context: /admin/operate/upgrading-one-ops

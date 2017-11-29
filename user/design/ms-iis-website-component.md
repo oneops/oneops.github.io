@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: IIS Website Component
 ---
+
+# IIS Website Component
 
 The _iis-website_ [component](./components.html) is used to configure attributes for deploying and running
 [Internet Information Services (IIS) for Windows® Server](https://www.iis.net/).

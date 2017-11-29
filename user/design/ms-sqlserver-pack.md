@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Microsoft SQL Server Pack
 ---
+
+# Microsoft SQL Server Pack
 
 The _mssql_ [pack](./packs.html) is available as _MS SQL Server_ in the _Database Relational SQL_ section and provides
 the user with the ability to use [Microsoft SQL Server](https://www.microsoft.com/sql-server/) as a platform in their
@@ -22,7 +25,7 @@ If you're planning to use custom ports for your Sql Server instance, please add 
 Default compute size is `M-Win`
 
 ## OS component
-Default OS Type is `Windows 2012 R2`. 
+Default OS Type is `Windows 2012 R2`.
 
 ## vol-temp component
 This is a volume component used to specify details for the ephemeral storage that comes with the VM.
@@ -50,12 +53,12 @@ This component configures the following attributes of MS SQL Server installation
 * `User db data directory` - default is F:\MSSQL\UserData (via platform variable `data_drive`)
 * `User db data directory` - default is F:\MSSQL\UserLog (via platform variable `data_drive`)
 
-Note: if OneOps deployment fails at mssql step most likely the error message will not be descriptive enough. 
+Note: if OneOps deployment fails at mssql step most likely the error message will not be descriptive enough.
 In that case please RDP or SSH to the VM and investigate the content of installation logs.
 For MS SQL Server 2014 version the log is located at `C:\Program Files\Microsoft SQL Server\120\Setup Bootstrap\Log\summary.txt`
 Add `user` component to your design to create a local account with specified SSH keys and\or password (for RDP connections).
 
 ## database component
 This component creates a user database, login and a database user with db_owner rights in that database.
-Please note that the `Instance Name` attribute is actually for specifying a database name. 
-If creating a Sql Server login (not from Windows domain account), please specify a strong password. 
+Please note that the `Instance Name` attribute is actually for specifying a database name.
+If creating a Sql Server login (not from Windows domain account), please specify a strong password.

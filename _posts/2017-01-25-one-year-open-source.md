@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  One Year OneOps as Open Source
 published: true
 authors: [mmoser]
@@ -14,7 +14,7 @@ of improving everything for you all and getting better at working with everyone 
 what we have accomplished.
 
 Working up to the initial open source release and afterwards we get a lot of traction
-[in the press](/general/in-the-press.html). And we followed up on that with various team members attending conferences
+[in the press](/overview/in-the-press.html). And we followed up on that with various team members attending conferences
 and other events and presenting about OneOps and various use cases we encounter daily.
 
 <!--more-->
@@ -22,9 +22,9 @@ and other events and presenting about OneOps and various use cases we encounter 
 In terms of the code we certainly did not keep still either over the year. We released nearly __40 new versions__
 of OneOps including many improvements on the user interface and the various core components of OneOps. We added
 many new packs for supporting new applications and frameworks and improved the existing ones. Check out the
-release notes in the [OneOps Team Blog](/general/blog) for more details. Just in this short month of January alone we
+release notes in the [OneOps Team Blog](./index.html) for more details. Just in this short month of January alone we
 created two significant release adding things such as Google Cloud Platform beta support, Windows compute beta
-support and others - [17.01.05-STABLE](/general/blog/2017-01-05-oneops-release-170105stable.html).
+support and others - [17.01.05-STABLE](./2017-01-05-oneops-release-170105stable.html).
 
 Since the creation of OneOps in 2011 the team of developers and contributors has grown to over 100 and we hope the
 product shows that. OneOps has certainly achieved a lot for us. Just in sheer numbers here are a few interesting
@@ -44,5 +44,5 @@ applications and empower your developers across whatever cloud infrastructure an
 
 So what is next you ask? We have a lot in our pipeline with another release just around the corner and lots of
 great improvements for OneOps on the road-map. Updates to the website and other material for our users are rapidly
-moving along as well. So watch [this space](/general/blog/) for updates and
-[send your feedback our way](http://oneops.com/general/contribute.html).
+moving along as well. So watch [this space](./index.html) for updates and
+[send your feedback our way](../overview/contribute.html).

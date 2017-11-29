@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Set Up Multiple Ports/Protocols in Load Balancer
 id: set-up-multiple-ports-protocols-load-balancer
 ---
+
+# Set Up Multiple Ports/Protocols in Load Balancer
 
 There is a syntax to declare the virtual port/protocol and the instance port/protocols for the LB component. Each vport/vprotocol and iport/iprotocol combination is encapsulated in a single listener array as shown in the screenshot below. For a single listener, the syntax is `"vprotocol vport iprotocol iport"`. For multiple ports/protocols, it is possible to have multiple entries of listeners to be configured in the LB component.
 

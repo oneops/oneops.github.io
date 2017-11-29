@@ -1,13 +1,16 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: CMS Sync
 ---
+
+# CMS Sync
 
 To update the CMS database with new component metadata and/or platform management packs, we extended Chef's knife to load (model sync) the files in the directory to the database.
 
 This sync is shown in the Preload Configuration section below:
 
-![Platform create flow](/assets/docs/local/images/platform-create-flow.png)
+<img src="/assets/docs/local/images/platform-create-flow.png" alt="Platform create flow" class="img-responsive" />
 
 ```
 # need to be in the root packer directory

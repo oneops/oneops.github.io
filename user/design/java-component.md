@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Java Component
 ---
+
+# {{ page.title }}
 
 The _java_ [component](./components.html) represent the
 [Java](https://java.com/) environment available for platform runtime usage.
@@ -19,6 +22,7 @@ _Version_: The major version of Java to use.  <br>
 _Update_: The optional update version of Java to use. An empty value defaults to
 the version configure in the Java component. To use, for example, Java 8u144,
 the update value has to be set to 144. <br>
+
 
 _Binary Package_: Optional path for downloading the package.<br>
 
@@ -41,9 +45,8 @@ A Java Development Kit JDK is suitable for Java development tasks. It includes
 the JRE and server JRE components as well as development tools such as compiler,
 debugger, monitoring tools and others.
 
-### JRE 
+### JRE
 
 A Java Runtime Environment JRE is suitable for end users running Java on a
 desktop and is suitable for most end-user needs.
-
 

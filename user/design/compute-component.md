@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Compute Component
 ---
+
+# Compute Component
 
 The _compute_ [component](./components.html) is of core importance and all platforms since it
 represents the virtual machine and operating system on which the platform runs.
@@ -17,9 +20,9 @@ Besides the global configuration available for any component such as _Name_ and 
 following attributes:
 
 _Instance Size_: The instance size determines characteristics of the virtual machine created for operation in terms of
-processing power, memory size, networking bandwidth and operating system. The size values use clothing sizing values 
+processing power, memory size, networking bandwidth and operating system. The size values use clothing sizing values
 of from extra small to extra large and beyond - XS, S, M, L, XL, XXL, 3XL, 4XL. Instance sizes optimized for compute
-performance, network performance, storage and memory are available. The generic values are mapped to 
+performance, network performance, storage and memory are available. The generic values are mapped to
 [cloud](../account/clouds.html) specific sizes.
 
 _Networking - PAT ports_: Configure the Port Address Translation PAT from internal ports (key) to external ports

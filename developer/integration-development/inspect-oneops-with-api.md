@@ -1,5 +1,6 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Inspecting OneOps with the OneOps API
 ---
 

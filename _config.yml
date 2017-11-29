@@ -17,11 +17,14 @@ slack_channel: oneops
 slack_register: https://oneops.typeform.com/to/fudwo5
 twitter_url: https://twitter.com/One_Ops
 github_url: https://github.com/oneops
+source_url: https://github.com/oneops/oneops.github.io/tree/master/
 oneops_training_url: https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U
 walmart_technology_community_url: https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww
-
-excerpt_separator: <!--more-->
-permalink: /general/blog/:year-:month-:day-:title.html
+logo: /assets/img/logo.png
+cross-site: false
+collapseNavDocs: true
+display-search-in-header: true
+custom-footer: true
 
 # Parameters for CorpusSearch
 searchurl: http://search.oneops.com/search
@@ -30,22 +33,22 @@ searchname: 'site-oneops-'
 #feedbackurl: http://feedback.oneops.com/feedback
 
 navigation:
- - title: Benefits
-   url: /general/benefits.html
- - title: Integrations
-   url: /general/integrations.html
- - title: Contribute
-   url: /general/contribute.html
- - title: Blog
-   url: /general/blog
- - title: About
-   url: /general/about.html
- - title: User
+ - title: OVERVIEW
+   url: /overview/about.html
+   context: /overview/
+ - title: USER
    url: /user/index.html
- - title: Admin
+   context: /user/
+ - title: ADMIN
    url: /admin/index.html
- - title: Developer
+   context: /admin/
+ - title: DEVELOPER
    url: /developer/index.html
+   context: /developer/
+ - title: BLOG
+   url: /blog/index.html
+   context: /blog/
+
 
 documentation:
  - title: GENERAL
@@ -60,6 +63,24 @@ documentation:
  - title: DEVELOPER
    url: /developer
    section: /developer
+
+projects:
+ - title: About OneOps
+   url: /overview/about.html
+ - title: Benefits
+   url: /overview/benefits.html
+ - title: Integrations
+   url: /overview/integrations.html
+ - title: Case Studies
+   url: /overview/case-studies.html
+ - title: In the Press
+   url: /overview/in-the-press.html
+ - title: Training
+   url: /overview/training.html
+ - title: Documentation
+   url: /overview/documentation.html
+ - title: Contribute
+   url: /overview/contribute.html
 
 authors:
   ooteam:
@@ -81,25 +102,31 @@ authors:
     name: Manfred Moser
     web: http://twitter.com/simpligility
 
-# ----------------------------------------------------------------------------------------------------------------------
-# Theme
-# ----------------------------------------------------------------------------------------------------------------------
-
-bootstrapVersion: 3.3.1
-#theme: walmart
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Jekyll
 # ----------------------------------------------------------------------------------------------------------------------
+defaults:
+  -
+   scope:
+     type: pages
+   values:
+     permalink: /:path/:basename:output_ext
+  -
+   scope:
+     type: posts
+   values:
+     permalink: /blog/:year-:month-:day-:title.html
+
+excerpt_separator: <!--more-->
+
 markdown: kramdown
 kramddown:
   input: GFM
   syntax_highlighter: rouge
   hard_wrap: false
 
-exclude: 
+exclude:
   - "*.sh"
   - linkcheck-results.log
   - scripts
-
-

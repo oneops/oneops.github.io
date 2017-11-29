@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Enable Platform to Auto Replace Unhealthy Components
 id: enable-platform-auto-replace-unhealthy-components
 ---
+
+# Enable Platform to Auto Replace Unhealthy Components
 
 To enable your platform to auto replace unhealthy components, follow these steps:
 

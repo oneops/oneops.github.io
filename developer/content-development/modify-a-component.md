@@ -1,9 +1,12 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Modify existing component
 ---
 
-# Scenario Context
+# Modify Existing Component
+
+## Scenario Context
 
 Adding a new *attribute* to component is done routinely. For example you want to add support for *pre shut down* command in *apache* webserver.  You can do by the following
 

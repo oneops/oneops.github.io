@@ -1,8 +1,11 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Metrics Collection
 id: metrics-collection
+side-navigation: admin-navigation.html
 ---
+
+# Metrics Collection
 
 ## Overview
 

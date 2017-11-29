@@ -1,10 +1,11 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Design Attachments API
 id: design-attachments-api
 ---
 
-Use the Attachment API to store additional configuration entities for any component. You can use 
+Use the Attachment API to store additional configuration entities for any component. You can use
 [attachments](/user/design/attachments.html) to add configuration files, certificates, custom scripts etc. Attachment
 content can be specified directly in the request or from a specified remote URL location.
 

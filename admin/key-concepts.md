@@ -1,15 +1,18 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Administrator Key Concepts
 id: key-concepts
+side-navigation: admin-navigation.html
 ---
+
+# Key Concepts
 
 >OneOps is a multi-cloud application orchestrator. It lets you design your application in a cloud agnostic way (by
 >abstracting multiple cloud providers) and manages your application's design, deployments, operations &
->monitoring.  Check out the [list of supported cloud providers](/general/integrations.html#clouds).
+>monitoring.  Check out the [list of supported cloud providers](/overview/integrations.html#clouds).
 
 
-# Architecture Overview
+## Architecture Overview
 
 OneOps includes a **self service portal** for users to administer the applications, has a back end **automation
 engine** to support complete application life cycle management.
@@ -19,15 +22,15 @@ engine** to support complete application life cycle management.
 OneOps has a **back end loop** to **monitor** resources and can trigger **auto-repairs**, **auto-scales** or
 **notifications**
 
-# System Architecture
+## System Architecture
 
 The diagram below depicts a detailed system architecture .
 
-![System Architecture](/assets/docs/local/images/architecture-diagram.png)
+<img src="/assets/docs/local/images/architecture-diagram.png" class="img-responsive" />
 
 
 
-## Web App aka *display*
+### Web App aka *display*
 
 * Self service portal for managing **applications, clouds, organization,services**.
 * Rest based API's to do almost anything which can be done on UI.
@@ -35,69 +38,69 @@ The diagram below depicts a detailed system architecture .
 
 * [source](https://github.com/oneops/display)
 
-## CLI
+### CLI
 
 Command line *ruby gem* for managing almost all aspects of OneOps.
 
 * [source](https://github.com/oneops/cli)
 
-## User DB
+### User DB
 
 *User schema* to manage users, organization.
 
-## Packer/Circuit
+### Packer/Circuit
 
 Its a ruby based gem which is responsible for loading packs.
 
 *  [source](https://github.com/oneops/oneops-admin)
 
-## CMS API aka adapter
+### CMS API aka adapter
 
 Java based rest api to manage model, assemblies, environment.
 
 *  [source](https://github.com/oneops/adapter)
 
-## Transistor
+### Transistor
 
 Transistor is core web application responsible for creating design, *deployment* plan, comparing whats *deployed* to
 whats **intended** conforming to pack, user changes to configuration on design or Transistor..
 
 *  [source](https://github.com/oneops/transistor)
 
-## DAQ
+### DAQ
 
 DAQ provides rest apis to get data collected via collectors. Used for graphing monitor details in UI.
 
 *  [source](https://github.com/oneops/daq)
 
-## Antenna
+### Antenna
 
 Antenna is responsible for persisiting/serving OneOps notifications into Cassandra db and distribute them to the
 configured **Notification Sinks**.
 
 *  [source](https://github.com/oneops/antenna)
 
-## Configuration Management Database
+### Configuration Management Database
 
 * System of records for all assemblies,enviroments,deployments.
 
 *  [source](https://github.com/oneops/db-schema)
 
-## Transmitter (Publisher)
+### Transmitter (Publisher)
 
 This component tracks the CMS changes and post the events on the messaging bus.
 
 * [source](https://github.com/oneops/transmitter)
 
-## Perfdata
+### Perfdata
 
 We store metrics collected from back end into Cassandra
 
-## Elastic Search
+### Elastic Search
 
 Elastic search is used to store notifications generated from OneOps and *deployment logs* are stored.
 
-## Search
+### Search
 
 All **cms**,*controller* events and notifications are fed
 into elastic search which helps in implementing
@@ -108,36 +111,36 @@ into elastic search which helps in implementing
 
 *  [source](https://github.com/oneops/search)
 
-## Message Bus
+### Message Bus
 
 OneOps uses apache active mq as messaging layer for internal  internal communication between components.
 
-## Sensor
+### Sensor
 
 Sensor consumes metrics coming from collector and generate events if thresholds violations are detected and
 generate Ops events.  [Esper](http://www.espertech.com/) based CEP to detect monitor thresholds violations
 
 *  [source](https://github.com/oneops/sensor)
 
-## Opamp
+### Opamp
 
 Its an OneOps **event processor** to trigger auto-healing, auto-replace,or generate notifications.
 
 *  [source](https://github.com/oneops/opamp)
 
-## Collector
+### Collector
 
 Its a Logstash collector which **collect metrics** from managed instances in OneOps.
 
 *  [source](https://github.com/oneops/daq)
 
-## Controller
+### Controller
 
 Its an **activiti** based workflow engine responsible for *distributing* OneOps **work orders and action orders**.
 
 *  [source](https://github.com/oneops/controller)
 
-# Inductor
+## Inductor
 
 The Inductor *consumes WorkOrders or ActionOrders* from a queue by zone, executes them and posts a *result*
 message back to the *controller*.  It is written in Java and uses a <a
@@ -147,11 +150,11 @@ target="_blank">Apache Commons Exec</a> for process execution.
 
 Inductor can be installed via oneops-admin gem.
 
-## Workorders
+### Workorders
 
 A WorkOrder is a collection of managed objects that are used to add, update or delete a component.
 
-## ActionOrders
+### ActionOrders
 
 An ActionOrder is almost identical to a workorder, but instead of an rfcCi, it has only a CI. An ActionOrder is
 dispatched by the controller to run some action such as: reboot, repair, snapshot, restore, etc.

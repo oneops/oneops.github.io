@@ -1,9 +1,12 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Getting Started with Core Development
 ---
 
-__Core development__ is all about development on any component of the 
+# Getting Started with Core Development
+
+__Core development__ is all about development on any component of the
 __OneOps application__ stack itself.
 
 All source code for the various components is [available on GitHub]({{
@@ -63,7 +66,7 @@ cd oneops
 mvn clean install
 ```
 
-The build compiles, tests and builds all packages. 
+The build compiles, tests and builds all packages.
 
 If you want to run OneOps after a build, you can use the `vagrant` profile
 during a build. It creates all necessary configuration for Vagrant to spin up
@@ -73,7 +76,7 @@ the newly built OneOps in a VirtualBox virtual machine.
 mvn install -P vagrant
 ```
 
-After a successful build with the profile you can find the necessary files for 
+After a successful build with the profile you can find the necessary files for
 starting a VM with OneOps running in the `~/.oneops/vagrant` directory and start
 the VM from there.
 
@@ -82,7 +85,7 @@ cd ~/.oneops/vagrant/
 vagrant up
 ```
 
-Once the VM is up and running, you can access the OneOps user interface at 
+Once the VM is up and running, you can access the OneOps user interface at
 [http://localhost:9090](http://localhost:9090).
 
 Subsequently you can `suspend` or `halt` the VM with vagrant or use the
@@ -222,4 +225,3 @@ top level folder of the
 ```
 ./mvnw clean package -Pvagrant
 ```
-

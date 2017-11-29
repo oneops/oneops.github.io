@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: NuGet Package Component
 ---
+
+# NuGet Package Component
 
 The _nuget-package_ [component](./components.html) gives the ability to download [NuGet](https://www.nuget.org/) packages
 on the Windows machine. After downloading the NuGet package, you can use Configure, Migrate and Restart attributes for post processing of your NuGet

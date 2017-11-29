@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Reports Summary
 id: reports-summary
 ---
 
-The Reports Summary offers an overall report of all environments. 
+# Reports Summary
+
+The Reports Summary offers an overall report of all environments.
 
 To view the Reports Summary, follow these steps:
 

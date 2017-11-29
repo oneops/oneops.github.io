@@ -1,7 +1,10 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Override Platform Attributes
 ---
+
+# Override Platform Attributes
 
 You can override the platform attributes like auto-replace or auto-scale at individual circuit (pack) level.
 

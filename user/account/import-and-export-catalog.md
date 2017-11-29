@@ -1,12 +1,15 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Import and Export Catalog
 id: import-export-catalog
 ---
 
-# Solution
+# Import and Export Catalog
 
-## Provide the Catalog
+## Solution
+
+### Provide the Catalog
 
 
 1. Log into OneOps.
@@ -14,19 +17,19 @@ id: import-export-catalog
 3. Select **Provides catalogs.**
 4. Save the changes.
 
-## Export the Catalog
+### Export the Catalog
 
 
 1. In the top Navigation, select **Catalog.**
 2. Select **Manage Catalog.**
 3. Select the Catalog you want to export.
-  
+
     ![Export Catalog](/assets/docs/local/images/export-catalog.png)
-  
-4. Click **Export.** 
+
+4. Click **Export.**
 5. Save the file on file system.
 
-## Import the Catalog
+### Import the Catalog
 
 
 1. In the top Navigation, select the Catalog.

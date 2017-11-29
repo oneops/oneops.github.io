@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Chocolatey Package Component
 ---
+
+# Chocolatey Package Component
 
 The _chocolatey-package_ [component](./components.html) is used to install additional software artifacts on
 computes from Chocolatey Repos. [Chocolatey](http://chocolatey.org) is a machine level package manager that is built on

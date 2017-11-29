@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add a New Azure Cloud
 id: "add-a-new-azure-cloud"
 ---
 
-# Solution
+# Add a New Azure Cloud
+
+## Solution
 
 To add a new cloud for Azure, follow these steps:  
 
@@ -48,4 +51,3 @@ To add a new cloud for Azure, follow these steps:
 * Enter the Resource Group in Azure that has the VNET which is connected to the express route.  
 * Enter the VNET name  
 * The Resource Group and VNETs are things that need to be setup prior to configuring this cloud.  If you are using Express Routes you already know you will be using a specific address space and that will need to be configured on the VNET/Subnets in this resource group.
-  

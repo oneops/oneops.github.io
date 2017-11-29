@@ -1,9 +1,12 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Operation
 ---
 
-Operations is where you <a href="/user/operation/monitors.html">monitor</a> and 
+# Operation
+
+Operations is where you <a href="/user/operation/monitors.html">monitor</a> and
 control your environments. On the summary tab, you can drill down by using the right navigation bar.
 
 From the top level, with the graph tab, you can visualize the entire health of an environment. On the graph, you can

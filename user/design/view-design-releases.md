@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: View Design Releases
 id: view-design-releases
 ---
 
-# Solution
+# View Design Releases
+
+## Solution
 
 <video width="720" height="480" preload="metadata" controls="">
     <source src="http://videos.grovo.com/walmart-oneops-design-0215_view-your-design-releases_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video. 
+    Your browser does not implement HTML5 video.
 </video>
 
 To view design releases, follow these steps:

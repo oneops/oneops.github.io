@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: wmt/post
 title: Little One - OneOps Release 17.03.08-STABLE
-published: true 
+published: true
 authors: [mmoser]
 ---
 

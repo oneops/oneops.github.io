@@ -1,6 +1,7 @@
 ---
-layout: dev-doc
-title: Advanced Search and Search API 
+layout: wmt/docs
+side-navigation: dev-navigation.html
+title: Advanced Search and Search API
 ---
 
 By default, [search](/user/general/search) runs against Elasticsearch indices that are generated based on the actual
@@ -24,9 +25,8 @@ The class input allows you to define a specific entity class to be searched and 
 
 ## Attribute
 
-Once a class is selected, the attribute control aloows you to compose a entity-specific condition for the search with 
+Once a class is selected, the attribute control aloows you to compose a entity-specific condition for the search with
 the attribute name, value and a match with `equal`, `not equal` or `contains`.
 
 For example, the compute class has various attributes like public_ip, public_dns, osname and many others, which can be
-used to create a search condition to find a specific compute. 
-
+used to create a search condition to find a specific compute.

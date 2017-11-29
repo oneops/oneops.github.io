@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  OneOps Training Video Series Launched
 published: true
 authors: [klohia, mmoser]
@@ -32,4 +32,3 @@ The episodes are added to the website in the appropriate places and they are ava
 All this is just the start however, we are going to talk about managing computes, designing assemblies,
 configuring notifications and many other aspects in future episodes. What those will be in detail however, depends
 on you. So contact us to give us an idea for an episode, one made especially for you.
-

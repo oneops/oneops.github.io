@@ -1,17 +1,17 @@
             <!--left sub navigation-->
-            <nav id="sidenav">
-              <h2>USER DOCS</h2>
-              <ul class="nav">
-                <li{% if page.url == "/user/" %} class="active" {% endif %}>
-                  <a href="/user/">Overview</a>
-                </li>
-                <li{% if page.url contains "/user/general/key-concepts" %} class="active" {% endif %}>
-                  <a href="/user/general/key-concepts.html">Key Concepts</a>
-                </li>
-                <li>
-                  <a onclick="$('#user-general').toggleClass('hidden');">General
-                  <span class="caret"></span></a>
-                  <ul id="user-general"{% unless page.url contains "/user/general/" %} class="hidden"{% endunless %}>
+            <div class="col-md-3">
+            <div class="docs-navigation">
+
+                <h2><a href="/user/index.html">Overview</a></h2>
+                <h2><a href="/user/general/key-concepts.html">Key Concepts</a></h2>
+
+                  {% if site.collapseNavDocs == true %}
+                  <h2><a onclick="toggleMenu(this, '#user-general');"><i class="fa fa-chevron-right pale-blue"></i> General</a></h2>
+                  <ul id="user-general" {% unless page.url contains "/user/general/" %}class="hidden"{% endunless %}>
+                  {% else %}
+                  <h2><i class="fa fa-chevron-right pale-blue"></i> General</h2>
+                  <ul id="user-general">
+                  {% endif %}
                       <li class="sub-menu-item{% if page.url == '/user/general/' %} active{% endif %}">
                         <a href="/user/general/index.html">Index</a>
                       </li>
@@ -23,12 +23,14 @@
                       {% endif %}
                     {% endfor %}
                   </ul>
-                </li>
-                <li>&nbsp;</li>
-                <li>
-                  <a onclick="$('#user-account').toggleClass('hidden');">Account
-                  <span class="caret"></span></a>
-                  <ul id="user-account"{% unless page.url contains "/user/account/" %} class="hidden"{% endunless %}>
+
+                  {% if site.collapseNavDocs == true %}
+                  <h2><a onclick="toggleMenu(this, '#user-account');"><i class="fa fa-chevron-right pale-blue"></i> Account</a></h2>
+                  <ul id="user-account" {% unless page.url contains "/user/account/" %}class="hidden"{% endunless %}>
+                  {% else %}
+                  <h2><i class="fa fa-chevron-right pale-blue"></i> Account</h2>
+                  <ul id="user-account">
+                  {% endif %}
                       <li class="sub-menu-item{% if page.url == '/user/account/' %} active{% endif %}">
                         <a href="/user/account/index.html">Index</a>
                       </li>
@@ -40,11 +42,14 @@
                       {% endif %}
                     {% endfor %}
                   </ul>
-                </li>
-                <li>
-                  <a onclick="$('#user-design').toggleClass('hidden');">Design
-                  <span class="caret"></span></a>
-                  <ul id="user-design"{% unless page.url contains "/user/design/" %} class="hidden"{% endunless %}>
+
+                  {% if site.collapseNavDocs == true %}
+                  <h2><a onclick="toggleMenu(this, '#user-design');"><i class="fa fa-chevron-right pale-blue"></i> Design</a></h2>
+                  <ul id="user-design" {% unless page.url contains "/user/design/" %}class="hidden"{% endunless %}>
+                  {% else %}
+                  <h2><i class="fa fa-chevron-right pale-blue"></i> Design</h2>
+                  <ul id="user-design">
+                  {% endif %}
                       <li class="sub-menu-item{% if page.url == '/user/design/' %} active{% endif %}">
                         <a href="/user/design/index.html">Index</a>
                       </li>
@@ -56,11 +61,14 @@
                       {% endif %}
                     {% endfor %}
                   </ul>
-                </li>
-                <li>
-                  <a onclick="$('#user-transition').toggleClass('hidden');">Transition
-                  <span class="caret"></span></a>
-                  <ul id="user-transition"{% unless page.url contains "/user/transition/" %} class="hidden"{% endunless %}>
+
+                {% if site.collapseNavDocs == true %}
+                <h2><a onclick="toggleMenu(this, '#user-transition');"><i class="fa fa-chevron-right pale-blue"></i> Transition</a></h2>
+                <ul id="user-transition" {% unless page.url contains "/user/transition/" %}class="hidden"{% endunless %}>
+                {% else %}
+                <h2><i class="fa fa-chevron-right pale-blue"></i> Transition</h2>
+                <ul id="user-transition">
+                {% endif %}
                       <li class="sub-menu-item{% if page.url == '/user/transition/' %} active{% endif %}">
                         <a href="/user/transition/index.html">Index</a>
                       </li>
@@ -72,22 +80,24 @@
                       {% endif %}
                     {% endfor %}
                   </ul>
-                </li>
-                <li>
-                  <a onclick="$('#user-operation').toggleClass('hidden');">Operation
-                  <span class="caret"></span></a>
-                  <ul id="user-operation"{% unless page.url contains "/user/operation/" %} class="hidden"{% endunless %}>
-                      <li class="sub-menu-item{% if page.url == '/user/operation/' %} active{% endif %}">
+
+                    {% if site.collapseNavDocs == true %}
+                    <h2><a onclick="toggleMenu(this, '#user-operation');"><i class="fa fa-chevron-right pale-blue"></i> Operation</a></h2>
+                    <ul id="user-operation" {% unless page.url contains "/user/operation/" %}class="hidden"{% endunless %}>
+                    {% else %}
+                    <h2><i class="fa fa-chevron-right pale-blue"></i> Operation</h2>
+                    <ul id="user-operation">
+                    {% endif %}
+                      <li class="{% if page.url == '/user/operation/' %} active{% endif %}">
                         <a href="/user/operation/index.html">Index</a>
                       </li>
                     {% for currentpage in site.pages %}
                       {% if currentpage.url contains "/user/operation/" and currentpage.url != "/user/operation/" %}
-                      <li class="sub-menu-item{% if page.url == currentpage.url %} active{% endif %}">
+                      <li class="{% if page.url == currentpage.url %} active{% endif %}">
                         <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
                        </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
-                </li>
-              </ul>
-            </nav>
+                </div>
+            </div>

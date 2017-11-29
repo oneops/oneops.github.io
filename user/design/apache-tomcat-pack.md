@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Apache Tomcat Pack
 ---
+
+# Apache Tomcat Pack
 
 <img src="/assets/img/logos/integrations/tomcat.png" align="right"/>
 
@@ -21,7 +24,7 @@ Keep in mind that compute storage is ephemeral and log as therefore not
 kept. For all critical application logging and statistics gathering usage of
 _logmon_ is recommended.
 
-## Example - SSL Termination for Tomcat 
+## Example - SSL Termination for Tomcat
 
 SSL configuration for Tomcat is similar to the usage with the
 [apache pack](./apache-http-server-pack.html) relying on the
@@ -44,7 +47,7 @@ clear text (HTTP).
 4. Commit the design changes and proceed with
    [deployment as usual](./components.html).
 
-### Directly at Tomcat 
+### Directly at Tomcat
 
 In this method communication is encrypted from client to load balancer (HTTPS)
 and from load balancer to Tomcat (HTTPS).

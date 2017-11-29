@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title:  OneOps Releases 2016 Q3
 published: true
 authors: [klohia, ksaroya, mmoser]
@@ -14,7 +14,7 @@ Despite summer holidays and the desire to be outside, we kept improving OneOps f
 - Provide support for multi-zone services in cloud
 - Support to perform Pack refresh for platforms in design
 - Implemented "Pending deletion" for pack components
-- Deleted pack Monitors deletion issue fixed for optional components 
+- Deleted pack Monitors deletion issue fixed for optional components
 - [OneOps Core release tag 16.09.29-RC1](https://github.com/oneops/display/releases/tag/16.09.29-RC1)
 
 ## Release 2016.09.21

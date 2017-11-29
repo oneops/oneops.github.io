@@ -1,10 +1,13 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Shutdown a Cloud
 id: shutdown-cloud
 ---
 
-# Solution
+# Shutdown a Cloud
+
+## Solution
 
 CAUTION: **Shutdown** removes the deployed instance from a particular cloud. Be careful when using this feature.
 
@@ -14,4 +17,3 @@ CAUTION: **Shutdown** removes the deployed instance from a particular cloud. Be 
 3. Under Cloud Status, click **Shutdown.**
 4. Complete the previous steps for all of the Platforms that are to be shut down.
 5. Go back to **View** environment and **Commit & Deploy** the pending release.
-

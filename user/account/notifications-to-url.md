@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Notifications to URL
 ---
+
+# Notifications to URL
 
 [Notifications](./notifications.html) can be configured to use a custom URL as notification sink.
 
@@ -14,4 +17,3 @@ Then follow these steps to configure and use a URL notification sink.
 3. If the URL is protected from anonymous posts, provide _Service Username_ and _Service Password_ in the _Credentials_
 section.
 4. _Save_ the new notification sink.
-

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wmt/post
 title: Visibility - OneOps Release 17.03.30-STABLE
 published: true
 authors: [mmoser]

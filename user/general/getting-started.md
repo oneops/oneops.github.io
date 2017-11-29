@@ -1,44 +1,39 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: User Getting Started
 id: "getting-started"
 ---
 
-<div id="wizard" class="rounded">
-  <div class="inner rounded">
-    <ul class="steps">
-      <li class="alert account alert-success">
-        <span class="step-title alert-heading">Account</span>
-        <ul class="tasks">
-          <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
-          <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
-        </ul>
-        <span class="step-number">1</span>
-      </li>
-      <li class="alert alert-info design">
-        <span class="step-title alert-heading">Design</span>
-        <ul class="tasks">
-          <li class="task"><a href="#create-a-platform">create platform</a></li>
-          <li class="task"><a href="#commit-a-design">commit design</a></li>
-        </ul>
-        <span class="step-number">2</span>
-      </li>
-      <li class="alert alert-info transition">
-        <span class="step-title alert-heading">Transition</span>
-        <ul class="tasks">
-          <li class="task"><a href="#create-an-environment">create environment</a></li>
-          <li class="task"><a href="#deploy-an-application">deploy to cloud</a></li>
-        </ul>
-        <span class="step-number">3</span>
-      </li>
-      <li class="alert alert-info operate">
-        <span class="step-title alert-heading">Operate</span>
-        <ul class="tasks">
-          <li class="task"><a href="#view-operations">view status</a></li>
-          <li class="task"><a href="#control-environment">control environment</a></li>
-        </ul>
-        <span class="step-number">4</span>
-      </li>
+# User Getting Started
+
+<div class="row">
+  <div class="col-md-3 alert alert-success">
+    <h4>1 Account</h4>
+    <ul>
+      <li class="task"> <span><a href="#create-cloud">create clouds</a></span></li>
+      <li class="task"> <span><a href="#create-an-assembly">create assembly</a></span></li>
+    </ul>
+  </div>
+  <div class="col-md-3 alert alert-info">
+    <h4>2 Design</h4>
+    <ul>
+      <li class="task"><a href="#create-a-platform">create platform</a></li>
+      <li class="task"><a href="#commit-a-design">commit design</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 alert alert-info">
+    <h4>3 Transition</h4>
+    <ul>
+      <li class="task"><a href="#create-an-environment">create environment</a></li>
+      <li class="task"><a href="#deploy-an-application">deploy to cloud</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 alert alert-info">
+    <h4>4 Operate</h4>
+    <ul>
+      <li class="task"><a href="#view-operations">view status</a></li>
+      <li class="task"><a href="#control-environment">control environment</a></li>
     </ul>
   </div>
 </div>
@@ -75,7 +70,7 @@ To set up your user account, follow these steps:
 2. Click **clouds** link on left nav bar .
 3. Click **Add Cloud**  
 
-![Getting started OneOps](/assets/docs/local/images/create-clouds-orgs.gif)
+<img src="/assets/docs/local/images/create-clouds-orgs.gif" class="img-responsive" />
 
 Next **Create Assembly**
 
@@ -143,7 +138,7 @@ For example *qa* environment compute size requirements may differ from **develop
 
 It's not uncommon to choose **development** environment compute size as default for design which allows you to create multiple test environments without changing design.
 
-This helps in creating environments faster without changing too many attributes at design level. As a best practice try 
+This helps in creating environments faster without changing too many attributes at design level. As a best practice try
 to have most used configuration in design. Also see <a href="/user/design/variables.html">variables</a>
 
 **Lock** any environment specific attributes to prevent the environment changes
@@ -211,7 +206,7 @@ See also:
 ## Monitoring
 
 
-* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify 
+* OneOps by default will send emails (default notification mechanism) if any of components are in unhealthy or notify
 state. see <a href="/user/operation/monitors.html">Monitors</a>
 * If auto-repair is enabled, OneOps will auto-repair the instance. The actions taken to recover an instance are prescribed by `repair recipe` of the component. For example, if Compute is alerting for missing *heartbeat* by default Computes repair action involves the following
     * Check the ssh port  

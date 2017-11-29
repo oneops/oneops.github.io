@@ -1,7 +1,10 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Monitor
 ---
+
+# Monitor
 
 An optional monitor within a Pack Component Resource contains:
 

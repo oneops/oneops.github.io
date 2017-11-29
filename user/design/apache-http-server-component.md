@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Apache HTTP Server Component
 ---
+
+# Apache HTTP Server Component
 
 The _apache_ [component](./components.html) represent the [Apache HTTP Server](https://java.com/) application itself and
 is a major component of the [Apache HTTP Server pack](./apache-http-server-pack.html).
@@ -30,4 +33,3 @@ _DSO Modules_<br>
 _Prefork Parameters_<br>
 _Worker Parameters_<br>
 _Custom Server Configuration_<br>
-

@@ -1,8 +1,11 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: Client-Side Aggregations
 id: client-side-aggregations
+side-navigation: admin-navigation.html
 ---
+
+# Client-Side Aggregations
 
 To minimize complexity and maximize scalability metrics are aggregated and time-aligned on the source.  
 

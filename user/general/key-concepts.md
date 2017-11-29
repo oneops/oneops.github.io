@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: User Key Concepts
 id: "key-concepts"
 ---
+
+# Key Concepts
 
 The OneOps process uses the following phases:
 

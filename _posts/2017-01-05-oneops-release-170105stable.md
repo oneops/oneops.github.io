@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: wmt/post
 title:  It's a Big One - OneOps Release 17.01.05-STABLE
-published: true 
+published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
-We are kicking off the year 2017 with a release that brings a host of new features and bug fixes after slowing down a bit in [Q4 2016](/general/blog/2016-12-28-oneops-releases-2016-q4.html). And there are
+We are kicking off the year 2017 with a release that brings a host of new features and bug fixes after slowing down a bit in [Q4 2016](./2016-12-28-oneops-releases-2016-q4.html). And there are
 some significant ones like PoC-type support for the [Google Cloud Platform](https://cloud.google.com/), various
 improvements for Windows computes and a number of UI enhancements.
 
@@ -32,7 +32,7 @@ let's not get ahead of ourselves. Check out what is in the new  `17.01.05-STABLE
 
 ## Bug Fixes and Improvements
 
-Numerous bug fixes made it into this release. Here is a list of the more significant ones: 
+Numerous bug fixes made it into this release. Here is a list of the more significant ones:
 
 - Fixed nginx status action and website repair
 - Correction on state counter values in notification

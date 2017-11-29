@@ -1,13 +1,16 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Add ELK Stack to an Application
 ---
+
+# Add ELK Stack to an Application
 
 This page details how to add [Elasticsearch](https://www.elastic.co/products/elasticsearch),
 [Logstash](https://www.elastic.co/products/logstash) and [Kibana](https://www.elastic.co/products/kibana)
 - the Elastic stack or ELK stack - to an application.
 
-# Elasticsearch Setup
+## Elasticsearch Setup
 
 1. Add a new platform for Elasticsearch using the 'Elasticsearch with LB' pack.
 
@@ -19,7 +22,7 @@ replicas used or other parameters as desired.
 1. Once Elasticsearch deployed successfully, you can access the user interface at http://ipaddress:9200
 
 
-# Kibana Setup
+## Kibana Setup
 
 1. Add a new platform for Kibana and a dependency to the Elasticsearch platform.
 
@@ -30,7 +33,7 @@ replicas used or other parameters as desired.
 1. Verify Kibana by accessing the user interface at http://ipaddress:5601/app/kibana
 
 
-# Logstash Setup
+## Logstash Setup
 
 The following steps are an example on how to configure Logstash to collect the Tomcat access log.
 
@@ -47,10 +50,10 @@ Inputs : file {path => "/opt/tomcat7/logs/access*.log" sincedb_path => "/opt/log
 1. Verify Logstash started successfully without errors by inspecting the log on the VM running Tomcat and Logstash.
 
 
-# Validation
+## Validation
 
 1. After the Logstash deployment, verify that indices are created on Elasticsearch at http://ipaddress:9200/_cat/indices
 and that the status is green.
 
-1. Now that logs are parsed and stored in Elasticsearch, you can configure Kibana to generate reports as required 
+1. Now that logs are parsed and stored in Elasticsearch, you can configure Kibana to generate reports as required
 and detailed in the [Kibana documentation](https://www.elastic.co/guide/en/kibana/current/createvis.html).

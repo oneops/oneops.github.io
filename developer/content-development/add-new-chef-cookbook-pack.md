@@ -1,9 +1,12 @@
 ---
-layout: dev-doc
+layout: wmt/docs
+side-navigation: dev-navigation.html
 title: Add a New Chef Cookbook and Pack to OneOps
 ---
 
-# Design Considerations
+# Add a New Chef Cookbook and Pack to OneOps
+
+## Design Considerations
 
 Plan how you want your component to work. The following are some questions regarding design. Although there are others, hopefully these help. Always refer to existing examples like Tomcat.
 
@@ -17,7 +20,7 @@ Plan how you want your component to work. The following are some questions regar
 * Where are the log files going to be configured to go?
 
 
-# Add a New Component (Cookbook) and a Pack
+## Add a New Component (Cookbook) and a Pack
 
 The existing <a href="https://github.com/oneops/circuit-oneops-1/tree/master/components/cookbooks/tomcat" target="_blank">Tomcat cookbook</a> is used as an example here.
 
@@ -40,7 +43,7 @@ The existing <a href="https://github.com/oneops/circuit-oneops-1/tree/master/com
   * `ManagedVia` Define the manage-via relation. See the Tomcat pack for an example.
 
 
-## Test the Cookbook and Pack
+### Test the Cookbook and Pack
 
 Now you are ready to test your cookbook and pack. You need to push your model (cookbook and pack metadata) to the CMS DB. This is done by calling a knife plugin developed by OneOps. This plugin can parse the cookbook metadata and pack and push it to CMS. Follow these steps:
 
@@ -76,6 +79,6 @@ $ curl http://cms.<your-server>.com:8080/transistor/rest/cache/md/clear
 10. Do a deployment.
 11. Commit the pack code, the cookbook code, and the icons files.
 
-# See Also
+## See Also
 
 Need a jump start on Ruby coding? Check out the [Chef Ruby reference page](https://docs.chef.io/ruby.html).

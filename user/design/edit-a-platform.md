@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Edit a Platform
 id: edit-a-platform
 ---
 
-# Solution
+# Edit a Platform
+
+## Solution
 
 <video width="720" height="480" preload="metadata" controls="" class="grovo-video">
     <source src="http://videos.grovo.com/walmart-oneops-design-0215_editing-and-deleting-your-platform_4668.webm?vpv=1" type="video/webm">
-    Your browser does not implement HTML5 video. 
+    Your browser does not implement HTML5 video.
 </video>
 
 To edit a platform, follow these steps:
@@ -23,4 +26,3 @@ To edit a platform, follow these steps:
 7. Click **Edit** at the top of the screen.
 8. Modify the values as per the requirement.
 9. Click **Save.**
-

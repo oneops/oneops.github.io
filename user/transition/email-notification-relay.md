@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Email Notification Relay
 ---
+
+# Email Notification Relay
 
 OneOps introduced notification relays at environment level. A notification relay allows notification filtering and routing configuration for a given environment. All notification for a given environment will be matched against existing environment relays for filtering based on source, severity, subject/text and ns path to specified list destination addresses.
 
@@ -37,4 +40,3 @@ edit environment->relay tab
     * For repair action execution
 
 Relay configuration management is available as "relays" tab on the environment transition edit page.
-

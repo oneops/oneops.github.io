@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: User Interface
 ---
+
+# User Interface
 
 OneOps provides a very powerful user interface with numerous features to enable the user to perform their tasks
 efficiently:
@@ -15,7 +18,7 @@ efficiently:
 - [Search](./search.html)
 - [Favorites](./favorites.html)
 
-> Explore the various features to save time in your usage of OneOps. 
+> Explore the various features to save time in your usage of OneOps.
 
 ## Overview
 
@@ -35,7 +38,7 @@ The top bar includes the following control and segments:
 - Sign out button
 
 Clicking on the the navigation bar toogle replaces the top bar with the more powerful navigation bar resulting in
-display similar to the following example. 
+display similar to the following example.
 
 <img src="/assets/img/ui/ui-overview.png"/>
 
@@ -48,10 +51,10 @@ The main navigation bar visible on the left includes the following features (top
 
 - OneOps logo
 - Water drop icon to change color scheme used for the navigation bar
-- Pin icon to prevent automatic collapse of navigation bar and keep it expanded 
+- Pin icon to prevent automatic collapse of navigation bar and keep it expanded
 - X icon to close the navigation bar
 - Display of current organization and search button to change organization
-- Catalogs access link 
+- Catalogs access link
 - Clouds access link
 - Assemblies access link
 - [Search](./search.html) access link
@@ -65,7 +68,7 @@ The main navigation bar visible on the left includes the following features (top
 - Sign out button
 
 The navigation aid for the current assembly includes links to the design, transition and operate phases and the
-applicable entities. Some items can be expanded and contracted. 
+applicable entities. Some items can be expanded and contracted.
 
 The navigation bar adapts to the current user privileges and the current context.
 
@@ -77,18 +80,18 @@ assembly. The current phase is highlighted in green. It can be disabled with the
 
 ## Lists and Bulk Actions
 
-Lists consist of a powerful header and the line items. The header on lists numerous features: 
+Lists consist of a powerful header and the line items. The header on lists numerous features:
 
 - _Sort_ button, optionally with selection of field to use for sorting
 - Filter input with display of the number of records in the list
 - Select all and unselect all boxes
 - _New_ button to create new record
-- _Action_ button 
+- _Action_ button
 
 It items in the list itself display data and include a check box for bulk operation actions on the left and
 item-specific action buttons on the right.
 
-Bulk actions can be performed by checking one or multiple of the select check boxes on the left of the records and then 
+Bulk actions can be performed by checking one or multiple of the select check boxes on the left of the records and then
 pressing the _Action_ button in the header and selecting the desired action in the drop down.
 
 The available actions vary based on the records in the list and include actions such as save, edit, mark as favorite,
@@ -110,7 +113,7 @@ transition or operation phases.<br/>
 
 ## Short URLs
 
-OneOps supports some short URLs. A user can type these URLs faster and navigate to the entity with a known identifier. 
+OneOps supports some short URLs. A user can type these URLs faster and navigate to the entity with a known identifier.
 
 Deployment:
 
@@ -130,4 +133,4 @@ Procedure:
 Instance:
 
 * UI access at `/r/instances/<instance_id>`  or shorter `/r/i/<instance_id>`
-* JSON at `/l/i/<instance_id>` 
+* JSON at `/l/i/<instance_id>`

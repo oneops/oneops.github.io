@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Catalogs
 id: catalogs
 ---
+
+# Catalogs
 
 OneOps provides design catalogs for common commercial and open source applications. In addition, you can create custom designs and then save them in a catalog enabling you to share those designs to drive architectural consistency within your organization
 Catalogs are application templates. Catalogs allow you to design your Assembly more quickly or use them for examples.

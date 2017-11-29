@@ -1,8 +1,11 @@
 ---
-layout: admin-doc
+layout: wmt/docs
 title: oneops-admin gem
 id: oneops-admin-gem
+side-navigation: admin-navigation.html
 ---
+
+# oneops-admin gem
 
 Oneops-admin is a Ruby thor-based command-line to manage the inductor.  Jenkins copies the JAR built from the inductor repo into the gem. The oneops-admin gem installs an inductor command which has:
 

@@ -1,14 +1,16 @@
 ---
-layout: post
+layout: wmt/post
 title:  Following up with Polish - OneOps Release 17.01.25-STABLE
 published: true
 authors: [klohia, ksaroya, mmoser]
 ---
 
-In addition to celebrating [one year OneOps as open source project](/general/blog/2017-01-25-one-year-open-source.html)
-we are giving you another release. This time we focused on polishing what we delivered with the
-[large release earlier this month](/general/blog/2017-01-05-oneops-release-170105stable.html). But, as usual, we also
-added a few new things.
+In addition to celebrating 
+[one year OneOps as open source project](./2017-01-25-one-year-open-source.html)
+we are giving you another release. This time we focused on polishing what we
+delivered with the
+[large release earlier this month](./2017-01-05-oneops-release-170105stable.html).
+But, as usual, we also added a few new things.
 
 <!--more-->
 

@@ -1,14 +1,17 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Secrets Proxy
 ---
 
+# Secrets Proxy
+
 The OneOps Secrets Proxy is a proxy server that sits in front of a
 [Keywhiz server](https://square.github.io/keywhiz/)
-used for secrets storage. 
+used for secrets storage.
 
 Secrets are any file resources that contain information that needs to be kept
-private and secure. Examples are 
+private and secure. Examples are
 
 - TLS/SSL certificate files/keys
 - property files and other files containing usernames, password or access tokens
@@ -17,7 +20,7 @@ private and secure. Examples are
 
 and others.
 
-## Usage 
+## Usage
 
 The secrets proxy understand the concepts and access configuration
 of OneOps and allows a user to store secrets in Keywhiz and access them in
@@ -45,5 +48,3 @@ secrets proxy.
 
 In addition, a cloud service with the type `certificate` has to be configured on
 each cloud.
-
-

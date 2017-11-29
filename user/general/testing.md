@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: User Testing and Debugging
-id: "testing-and-debugging" 
+id: "testing-and-debugging"
 ---
+
+# User Testing and Debugging
 
 ## Find the URL for Your App
 
@@ -62,7 +65,3 @@ Transition > environment > deployment tab
 >The logs display in chronological order, newest to oldest and are stated in Chef coding language.
 
 ![Troubleshoot Logs](/assets/docs/local/images/troubleshoot-logs.png)
-
-
-
-

@@ -1,7 +1,10 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Notifications to Amazon SNS
 ---
+
+# Notifications to Amazon SNS
 
 [Notifications](./notifications.html) can be configured to use the
 [Amazon Simple Notification Service](https://aws.amazon.com/sns/) as a notification sink.

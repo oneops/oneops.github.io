@@ -1,13 +1,5 @@
             <!--left sub navigation-->
-            <nav id="sidenav">
-              <h2>DEV DOCS</h2>
-              <ul class="nav">
-                <li{% if page.url == "/developer/" %} class="active" {% endif %}>
-                  <a href="/developer/index.html">Overview</a>
-                </li>
-                <li{% if page.url contains "/developer/general/key-concepts" %} class="active" {% endif %}>
-                  <a href="/developer/general/key-concepts.html">Key Concepts</a>
-                </li>
+            <!--<nav id="sidenav">
                 <li>
                   <a onclick="$('#dev-core').toggleClass('hidden');">Core Development
                   <span class="caret"></span></a>
@@ -40,8 +32,53 @@
                     {% endfor %}
                   </ul>
                 </li>
-                <li{% if page.url contains "/developer/integration-development/" %} class="active" {% endif %}>
-                  <a href="/developer/integration-development/index.html">Integration Development</a>
-                </li>
               </ul>
-            </nav>
+            </nav>-->
+
+            <!----- Docs Navigation ----->
+            <div class="col-md-3">
+
+              <div class="docs-navigation">
+                <h2><a href="/developer/index.html">Overview</a></h2>
+                <h2><a href="/developer/general/key-concepts.html">Key Concepts</a></h2>
+
+                {% if site.collapseNavDocs == true %}
+                <h2><a onclick="toggleMenu(this, '#dev-core');"><i class="fa fa-chevron-right pale-blue"></i> Core Development</a></h2>
+                <ul id="dev-core" {% unless page.url contains item.collapse %}class="hidden"{% endunless %}>
+                {% else %}
+                <h2><i class="fa fa-chevron-right pale-blue"></i> Core Development</h2>
+                <ul id="dev-core">
+                {% endif %}
+                    <li class="{% if page.url == '/developer/core-development/' %} active{% endif %}">
+                      <a href="/developer/core-development/index.html">Index</a>
+                    </li>
+                  {% for currentpage in site.pages %}
+                    {% if currentpage.url contains "/developer/core-development/" and currentpage.url != "/developer/core-development/" and currentpage.url != "/developer/core-development/" %}
+                    <li class="{% if page.url == currentpage.url %} active{% endif %}">
+                      <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                     </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+
+                {% if site.collapseNavDocs == true %}
+                <h2><a onclick="toggleMenu(this, '#dev-content');"><i class="fa fa-chevron-right pale-blue"></i> Content Development</a></h2>
+                <ul id="dev-content" {% unless page.url contains item.collapse %}class="hidden"{% endunless %}>
+                {% else %}
+                <h2><i class="fa fa-chevron-right pale-blue"></i> Content Development</h2>
+                <ul id="dev-content">
+                {% endif %}
+                    <li class="{% if page.url == '/developer/content-development/' %} active{% endif %}">
+                      <a href="/developer/content-development/index.html">Index</a>
+                    </li>
+                  {% for currentpage in site.pages %}
+                    {% if currentpage.url contains "/developer/content-development/" and currentpage.url != "/developer/content-development/" and currentpage.url != "/developer/content-development/" %}
+                    <li class="{% if page.url == currentpage.url %} active{% endif %}">
+                      <a href="{{ currentpage.url }}">{{ currentpage.title }}</a>
+                     </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+                <h2><a href="/developer/integration-development/index.html">Integration Development</a></h2>
+              </div>
+            </div><!-- END col-md-3 docs-navigation -->

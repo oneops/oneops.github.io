@@ -1,27 +1,30 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Monitors
 ---
 
+# Monitors
+
 Monitoring of numerous metrics about components is a powerful feature available to users. It includes support for
-aspects such as 
+aspects such as
 
 - thresholds and notification via alerts
 - tracking of metrics over long time ranges
-- usage for compute heartbeat signal 
+- usage for compute heartbeat signal
 - extensive charting for visual and interactive inspections
 
 Metrics can be collected for numerous aspects for various levels of behavior of your assembly in operations such as
 
 - memory usage
 - CPU utilization
-- network 
+- network
 - processes
 - IO metrics like open files
-- process specific aspects e.g. JVM or database-specific aspects 
+- process specific aspects e.g. JVM or database-specific aspects
 
 Any component can be monitored and most components included a number of monitors by default. Monitoring in OneOps scales
-for tracking thousands of metrics for long periods of time. 
+for tracking thousands of metrics for long periods of time.
 
 Under the cover OneOps facilitates the industry standard open source solution [Nagios](https://www.nagios.org/) and the
 numerous checks supplied by it.
@@ -47,30 +50,30 @@ numerous checks supplied by it.
 ## Default Monitors
 
 Default monitors are automatically created from the component definition and can be configured in the transition view
-of a component: 
+of a component:
 
 1. Navigate to the desired assembly.
 1. Press _Transition_ in the left hand navigation.
 1. Select the environment by clicking on the name in the list.
 1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
 1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
-1. Go to the _monitors_ tab. 
+1. Go to the _monitors_ tab.
 1. The monitors are listed on the left and can be _Edit_ed individually.
 
-<i class="fa fa-video-camera fa-3x blue"></i>  Check out the [demo video showing how to navigate to monitors](./monitors-nav-video.html). 
+<i class="fa fa-video-camera fa-3x blue"></i>  Check out the [demo video showing how to navigate to monitors](./monitors-nav-video.html).
 
 <a name="custommonitors"/>
 
 ## Custom Monitors
 
 Custom monitors allow you to define additional metric monitoring for any component. They can be configured in the design
-view of a component: 
+view of a component:
 
 1. Navigate to the desired assembly.
 1. Press _Design_ in the left hand navigation.
 1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
 1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
-1. Go to the _monitors_ tab. 
+1. Go to the _monitors_ tab.
 1. Press _Add_ to start create a custom monitor
 1. Alternatively select an existing custom monitor and _Edit_ it as desired.
 
@@ -104,7 +107,7 @@ Additional options are available in the _Advanced Configuration_:
 _Receive email notifications only on state change_: enable this flag to reduce notifications to be sent only when the
 monitor state changes.
 
-_URL to a page having resolution or escalation details_: This allows you to add a URL to an external website or other 
+_URL to a page having resolution or escalation details_: This allows you to add a URL to an external website or other
 resource that provides further information for the user receiving notifications from this monitor. The URL is added to
 all notifications.
 
@@ -135,17 +138,17 @@ recovery of components instances back to a healthy state.
 ## Threshold
 
 A _Threshold_ uses a metric and a set of conditions to change the state of a component. These changes can trigger events
-such that result in [notifications](/user/account/notifications.html), 
+such that result in [notifications](/user/account/notifications.html),
 [automatic scaling](/user/operation/auto-scale.html) or [automatic repair events](/user/operation/auto-repair.html).
 
-Components include a predefined set of default thresholds that are used implicitly with any environment deployment. 
+Components include a predefined set of default thresholds that are used implicitly with any environment deployment.
 Users can add a new threshold definitions that are suitable for their operation or edit existing thresholds.
 
 Threshold are visible as part of the monitor configuration.
 
-The following attributes characterize a threshold: 
+The following attributes characterize a threshold:
 
-_Name_: Name the threshold so that it is easy to understand what happened. For example: HighThreadUse implies thread 
+_Name_: Name the threshold so that it is easy to understand what happened. For example: HighThreadUse implies thread
 count going too high. This name is seen as part of the alert message and should be intuitive enough to understand
 what happened when the threshold was crossed.
 
@@ -156,7 +159,7 @@ expected state of the threshold.
 The following states are available:
 
 _Notify-Only_: Use this state when no automated action is expected. When the trigger condition is met, the state of the
-instances is flipped to notify and an event is triggered. The event can be seen on the environment operation view. 
+instances is flipped to notify and an event is triggered. The event can be seen on the environment operation view.
 
 _Unhealthy_: When a threshold is defined with an unhealthy state, the instances meeting trigger condition require some
 repair action to fix their state and the repair action associated with the component is executed. The automatic healing
@@ -170,7 +173,7 @@ _Under-utilized_: This state signifies that the component instance is not being 
 [Auto scale](/user/operation/auto-scale)) is used to remove capacity until the minimum limit of scaling configuration is
 reached.
 
-Further threshold configuration attributes are: 
+Further threshold configuration attributes are:
 
 _Bucket_: Time interval used for each metric collection.
 
@@ -180,13 +183,13 @@ _Metric_: The metric to use for the threshold.
 
 _Trigger_ and _Reset_ determine when an event is raised and subsequently removed. They are configured with an expression
 using and _Operator_ and _Value_ to create and expression. The _Duration_ defines the time window during which the
-collected metric value is evaluated. _Occurrences_ defines the number of repetitions needed to trigger 
+collected metric value is evaluated. _Occurrences_ defines the number of repetitions needed to trigger
 
-_Cool-off_: The time after which a repeated threshold crossing raises another event. Before that time repeated 
-violations do not raise additional events. 
+_Cool-off_: The time after which a repeated threshold crossing raises another event. Before that time repeated
+violations do not raise additional events.
 
-An alert is generated for any state trigger. If you are watching the assembly,  you can expect a 
-[notification](/user/account/notifications.html) about the event. The events can be viewed in the operation view. 
+An alert is generated for any state trigger. If you are watching the assembly,  you can expect a
+[notification](/user/account/notifications.html) about the event. The events can be viewed in the operation view.
 
 <a name="usage"/>
 
@@ -199,38 +202,38 @@ The actual usage of monitors occurs in the operation view for each individual co
 1. Select the environment by clicking on the name in the list.
 1. Select the platform in the list on the right by clicking on the name - e.g. `tomcat`.
 1. Select the component in the list on the right by clicking on the name - e.g. `compute`.
-1. Go to the _monitors_ tab. 
+1. Go to the _monitors_ tab.
 1. The monitors are listed on the left as a list.
 1. Click on an individual monitor name to view a [chart](#charts) visualizing the monitor data.
 
-<i class="fa fa-video-camera fa-3x blue"></i>  Check out the [demo video showing how to navigate to monitors](./monitors-nav-video.html). 
+<i class="fa fa-video-camera fa-3x blue"></i>  Check out the [demo video showing how to navigate to monitors](./monitors-nav-video.html).
 
 The list of monitors shows the names of the monitors and additional icons that highlight heartbeat monitors and defined
 thresholds. You can also mark them as a [favorite](/user/general/favorites.html).
 
 The header includes a filter for the monitors, select/deselect all buttons, a sort features and well as the _Actions_
-button. If you select a few monitors in the list with the checkboxes beside the names, you can use the 
+button. If you select a few monitors in the list with the checkboxes beside the names, you can use the
 _Compound charts_ action to merge all metrics from the selected monitors into one chart. The _Stack charts_ action
 triggers all selected charts to be displayed above each other.
 
-Threshold and heartbeat configuration for the monitor is displayed below the chart. 
+Threshold and heartbeat configuration for the monitor is displayed below the chart.
 
 <a name="charts"/>
 
 # Charts
 
-Chart inspections can be used to visually analyze your component behavior over time. 
+Chart inspections can be used to visually analyze your component behavior over time.
 
-<img src="/assets/img/ui/monitors-chart.png"/> 
+<img src="/assets/img/ui/monitors-chart.png"/>
 
 <i class="fa fa-video-camera fa-3x blue"></i> Enjoy our [demo video](#chartsinaction) showcasing usage of charts.
 
 A number of features are available in the chart display:
 
-_Time range control_: The top left corner contains a control with buttons to select time range for the whole chart 
+_Time range control_: The top left corner contains a control with buttons to select time range for the whole chart
 displaying of one hour, six hours, one day, one week, one month or one year.
 
-_Time navigation_: The top right corner contains a control to navigate the chart time data by the size of the range. 
+_Time navigation_: The top right corner contains a control to navigate the chart time data by the size of the range.
 `<<` navigates a full period back, `<` half a period back, `>` half a period forward, `>>` a full period forward. `Now`
 jumps to the current date and time.
 
@@ -241,21 +244,21 @@ _Legend_: The legend beneath the chart shows the different metric names for the 
 the chart to display only that metric vs. all metrics.
 
 _Threshhold display_: Threshold levels are displayed as horizontal lines in the chart using a dotted line of the same
-color as the metric with the threshold. The legend includes a dot beside the metric name. The color of the dot reflect 
+color as the metric with the threshold. The legend includes a dot beside the metric name. The color of the dot reflect
 the state (blue for notify, red for unhealthy...). Hovering over the dot shows the threshold definition.
 
 _Zoom_: You can select a rectangle on the chart to enlarge a specific x/y region of the chart. This can be repeated
 multiple times until you see the region of interest. Double-click causes a zoom back out.
 
 _Standalong view_: The button on the top right corner in the chart title display triggers the current chart to be
-displayed in a new browser window without the rest of the user interface. 
+displayed in a new browser window without the rest of the user interface.
 
 
 The data available in the chart depends on a few aspects:
 
-- Actual metrics taken successfully and component operational times e.g. there won't be any old data for a compute that 
+- Actual metrics taken successfully and component operational times e.g. there won't be any old data for a compute that
 was just started today
-- TTL policies for storing the data.  One minute buckets are used for hour and 6 hours charts up to two days into the 
+- TTL policies for storing the data.  One minute buckets are used for hour and 6 hours charts up to two days into the
 past. Then metrics switch to 5 minute buckets.
 
 <a name="chartsinaction"/>
@@ -283,5 +286,3 @@ artifacts are deployed. By default, the monitor is disabled.
 
 You can enable it in transition view of the component.  The ValidateAppVersion action can perform the same check as the
 monitor as an on demand action.
-
-

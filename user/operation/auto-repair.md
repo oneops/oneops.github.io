@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Auto Repair
 id: auto-repair
 ---
+
+# Auto Repair
 
 Use auto repair to automatically heal instances which are marked unhealthy due to some
 [Threshold violation or missing Heartbeat](/user/operation/monitors.html). Notifications are sent when an auto repair action is

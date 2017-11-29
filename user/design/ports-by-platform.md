@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Ports by Platform
 id: ports-by-platform
 ---
+
+# Ports by Platform
 
 | Pack Name                                     | Versions                  | Port Numbers   |
 |-----------------------------------------------|---------------------------|----------------|

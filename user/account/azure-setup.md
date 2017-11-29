@@ -1,8 +1,11 @@
 ---
-layout: user-doc
+layout: wmt/docs
+side-navigation: user-navigation.html
 title: Azure Setup
 id: "azure-setup"
 ---
+
+# Azure Setup
 
 How to Set Up Azure for OneOps
 
@@ -76,4 +79,3 @@ azure role assignment create --objectId {SP_ID} -o Contributor -c /subscriptions
 ## Setup OneOps
 
 You can now use the Client ID (App ID) and Client Secret (password) when configuring your Azure cloud.
-
