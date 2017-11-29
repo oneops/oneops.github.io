@@ -3,7 +3,15 @@ layout: wmt/project
 title: Benefits
 ---
 
-OneOps shortens time to market and fosters a true devops culture.
+OneOps shortens time to market and fosters a true devops culture with benefits
+for 
+
+- [Business](#business)
+- [Developer](#developer)
+- [Operation](#operation)
+
+
+<a name="business"/>
 
 ## Business Benefits
 
@@ -35,6 +43,8 @@ providers dictating what proprietary tools and technologies have to be used, suf
 integrations, or cobbling together multiple solutions, OneOps is the one-stop shop to bring the application’s
 requirements to the cloud.
 
+
+<a name="developer"/>
 
 ## Developer Benefits
 
@@ -166,6 +176,8 @@ requirements to the cloud.
   </div>
 </div>
 
+
+<a name="operation"/>
 
 ## IT Operations Benefits
 
