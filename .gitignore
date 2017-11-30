@@ -5,7 +5,7 @@ _content/
 Gemfile.lock
 .project
 linkcheck-results.log
-
+.jekyll-metadata
 
 # Created by https://www.gitignore.io/api/macos
 
