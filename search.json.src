@@ -1,14 +1,13 @@
 ---
 layout: null
 ---
-[ {% for page in site.pages %}
-{% if page.title != nil and page.searchindex != false %} { 
+[{% for page in site.pages %}
+{% if page.title != nil and page.searchindex != false %} {
   "title": "{{ page.title | escape }}",
   "url": "{{ site.baseurl }}{{ page.url }}",
   "content": "{{ page.content | strip_html | strip_newlines | remove_chars | escape }}" 
- } {% unless forloop.last %},{% endunless %} {% endif %}{% endfor %}
-,
-{% for post in site.posts %} {
+ }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+,{% for post in site.posts %} {
   "title": "{{ post.title | escape }}",
   "url": "{{ site.baseurl }}{{ post.url }}",
   "date": "{{ post.date }}",
