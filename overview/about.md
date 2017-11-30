@@ -1,7 +1,9 @@
 ---
 layout: wmt/project
-title: About OneOps <br> Cloud Application Lifecycle Management
+title: About OneOps
 ---
+
+## Cloud Application Lifecycle Management
 
 OneOps is a cloud management and application lifecycle management platform that
 developers use to both develop and launch new products faster, and to more
@@ -11,7 +13,6 @@ developers to code their products in a hybrid, multi-cloud environment.
 This means developers can switch between different cloud providers to take
 advantage of better pricing, technology or scalability – without being locked
 into one cloud provider.
-
 
 ## Mission
 
