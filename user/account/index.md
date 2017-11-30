@@ -2,6 +2,7 @@
 layout: wmt/docs
 side-navigation: user-navigation.html
 title: Account
+searchindex: false
 ---
 
 # Account

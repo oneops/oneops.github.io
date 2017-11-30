@@ -1,6 +1,7 @@
 ---
 layout: wmt/default
 title: OneOps Team Blog
+searchindex: false
 ---
 
 

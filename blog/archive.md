@@ -1,7 +1,7 @@
 ---
 layout: wmt/default
 title: OneOps Team Blog Archive
-
+searchindex: false
 ---
 
 <h1 class="yellow">{{ page.title }}</h1>

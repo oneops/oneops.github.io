@@ -2,6 +2,7 @@
 layout: wmt/docs
 title: Administrator Operation
 side-navigation: admin-navigation.html
+searchindex: false
 ---
 
 # Administrator Operation
