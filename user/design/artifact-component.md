@@ -8,10 +8,13 @@ title: Artifact Component
 
 The _artifact_ [component](./components.html) is of core importance and
 available for all platforms. It allows the download of files from a remote
-repository managers or other URL, subsequent extraction and exeuction of scripts.
+repository managers or other URLs, subsequent extraction of archive files and
+execution of scripts.
 
 Typically use cases are:
 
 - download of an application to deploy on an application server
-- download of an application installer to subsequently install and start it
-- retrieval of required binary resources in archives or as plain files
+- download of an application installer to subsequently run the installer to
+  install the application and potentially also start it
+- retrieval of required binary resources in archives or as plain files and their
+  extraction and usage
