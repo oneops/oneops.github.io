@@ -361,7 +361,7 @@ Body:
 ```
 
 
-## GET Pull Latest
+## PUT Pull Latest
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/pull`
 
