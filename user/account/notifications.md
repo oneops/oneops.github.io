@@ -87,7 +87,28 @@ _Service Password_ in the _Credentials_ section.
 
 ## Notfications to Concord
 
-TBD
+The workflow orchestration system Concord is an example of a system that can be
+configured as a [URL sink](#notifications-to-url) to receive notifications from
+OneOps.
+
+The _Endpoint URL_ needs to be configured to use the oneops event endpoint of
+the Concord API e.g. at `https://concord.example.com/api/v1/events/oneops`.
+
+Typically credentials are required and need to be configured with a service
+username and password.
+
+To enable Concord triggers for compute replacements filtering is setup with:
+
+- Event Type set to Deployment
+- Severity Level set to All
+- NS Path to / to send events for all assemblies in the org
+- Include Ci enabled with the class patterns bom.Compute, bom.oneops.1.Compute
+  and bom.main.2.Compute to capture all computes
+- Include Ci on Replace enabled
+
+This allows a Concord project to configure a trigger that can react to the 
+replace compute events in OneOps by calling a workflow. This can for example be
+used to run an Ansible playbook against a replaced compute.
 
 <a name="notifications-to-amazon-sns"/>
 
