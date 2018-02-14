@@ -12,6 +12,8 @@ events include deployments, monitors, scale and repair actions.
 Notifications can be sent to a number of receiving _notification sinks_
 including simple URLs, Jabber, Amazon SNS and Slack.
 
+## Configuration
+
 To set up and configure notifications, follow these steps:
 
 1. Access the settings for the desired organization
@@ -73,7 +75,8 @@ on a specific URL.
 
 Then follow these steps to configure and use a URL notification sink.
 
-1. Create a new notification sink with the type `account.notification.url.sink`.
+1. [Create a new notification sink](#notification) with the type
+   `account.notification.url.sink`.
 
 2. Configure the _Endpoint URL_ of the server in the _Endpoint_ section.
 
@@ -85,7 +88,7 @@ _Service Password_ in the _Credentials_ section.
 
 <a name="notifications-to-concord"/>
 
-## Notfications to Concord
+## Notifications to Concord
 
 The workflow orchestration system Concord is an example of a system that can be
 configured as a [URL sink](#notifications-to-url) to receive notifications from
@@ -121,7 +124,7 @@ notification sink.
 In preparation you need to create an Amazon SNS account and an access key. Then
 follow these steps to configure and use an SNS notification sink.
 
-1. Create a new notification sink with the type
+1. [Create a new notification sink](#notification) with the type
    `account.notification.sns.sink`.
 
 2. Provide your SNS credentials in _Credentials_ section including the _Access
@@ -149,7 +152,7 @@ Notifications can be configured to use the
 In preparation you need to get access details for the XMPP/Jabber server. Then
 follow these steps to configure and use an SNS notification sink.
 
-1. Create a new notification sink with the type
+1. [Create a new notification sink](#notification) with the type
    `account.notification.jabber.sink`.
 
 2. Configure the connection to the XMPP/Jabber server in _Settings_ section.
@@ -225,7 +228,7 @@ Tomcat instance running Antenna.
 With the administrator setup completed you can create your Slack notification
 sinks:
 
-1. Create a new notification sink with the type
+1. [Create a new notification sink](#notification) with the type
    `account.notification.slack.sink`.
 
 2. Add the desired _Channels_ to receive notifications in the _Slack Config_
