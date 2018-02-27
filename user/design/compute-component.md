@@ -44,8 +44,8 @@ disabled as desired.
 The _Compute Depends On_ and _Depend On Compute_ sections contain lists of
 related components.
 
-The _attachements_ tab allows the configuration of
-[attachments](./attachments.html) associated to the compute.
+The _attachments_ tab should not be used on computes components as attachments
+are not functional when associated to a compute.
 
 The _monitors_ tab can be used to configure compute-related
 [monitors](../operation/monitors.html).
