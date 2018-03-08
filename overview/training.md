@@ -64,9 +64,8 @@ __Check out the [slides.](../oneops-training/user-2-advanced.html)__
 <a name="user-3"/>
 ## OneOps User Training: Level 3 - Advanced Examples
 
-This OneOps User training is currently in development with modules for specific
-topics added on demand:
+This OneOps User training covers advanced topics of OneOps usage in more detail:
 
-- secrets management
+- Secrets management with secret proxy and client component
 
 __Check out the [slides.](../oneops-training/user-3-advanced-examples.html)__
