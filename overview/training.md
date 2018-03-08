@@ -16,7 +16,7 @@ The currently available resources are:
 * [OneOps on the Walmart Technology Community YouTube channel](https://www.youtube.com/playlist?list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U)
 * [OneOps User Training: Level 1 - Beginner](#user-1)
 * [OneOps User Training: Level 2 - Advanced](#user-2)
-* [OneOps User Training: Level 2 - Advanced Examples](#user-3)
+* [OneOps User Training: Level 3 - Advanced Examples](#user-3)
 
 Upcoming material includes
 
