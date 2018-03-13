@@ -83,5 +83,5 @@ below. You can copy/paste this template into the issue you are opening and edit 
 
 ## Provide Feedback or Contact Us
 
-You can provide feedback or contact us by sending email to support@oneops.com or by using one of the corresponding
+You can provide feedback or contact us by sending email to opensource@walmartlabs.com or by using one of the corresponding
 [OneOps Slack channels]({{ site.slack_url}}) : #admin, #devel, or #user.

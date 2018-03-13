@@ -71,7 +71,7 @@ If your company is interested in integrating your cloud in to the OneOps product
 
 
 
-<a class="btn-u yellow-bg" type="button" href="mailto:partners@oneops.com">Email Us</a>
+<a class="btn-u yellow-bg" type="button" href="mailto:opensource@walmartlabs.com">Email Us</a>
 
 
 ## Supported Products
@@ -224,7 +224,7 @@ If you or your company are interested in contributing support for a software pro
 
 
 
-<a class="btn-u yellow-bg" type="button" href="mailto:partners@oneops.com">Email Us</a>
+<a class="btn-u yellow-bg" type="button" href="mailto:opensource@walmartlabs.com">Email Us</a>
 
 
 
@@ -255,4 +255,4 @@ If you’re interested in providing consulting or professional services to compa
 
 
 
-<a class="btn-u yellow-bg" type="button" href="mailto:partners@oneops.com">Email Us</a>
+<a class="btn-u yellow-bg" type="button" href="mailto:opensource@walmartlabs.com">Email Us</a>

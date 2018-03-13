@@ -12,9 +12,8 @@ and we welcome [contributions](./contribute.html).
 
 ## <i class="fa fa-slack"></i> OneOps Slack 
 
-We use our <a href="{{ site.slack_url }}">OneOps Slack</a> as chat platform. You
-can <a href="mailto:slack@oneops.com">request an invite</a> or 
-<a href="{{ site.slack_register }}" target="_blank">sign up yourself</a>.
+We use our <a href="{{ site.slack_url }}">OneOps Slack</a> as chat platform.
+Simply <a href="{{ site.slack_register }}" target="_blank">sign up yourself.</a>
 
 ## <i class="fa fa-twitter"></i> Twitter
 
@@ -27,4 +26,4 @@ our <a href="{{ site.twitter_url }}" target="_blank">One_Ops</a> on Twitter.
 If you are a cloud provider, infrastructure hardware vendor, software vendor, 
 represent an open source product or are a consultancy, we’d enjoy hearing from
 you. Please reach out to us via email at
-<a href="mailto:partner@oneops.com">partner@oneops.com</a>.
+<a href="mailto:opensource@walmartlabs.com">opensource@walmartlabs.com</a>.
