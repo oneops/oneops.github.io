@@ -91,129 +91,103 @@ If your company is interested in integrating your cloud in to the OneOps product
     <tbody>
     <tr>
         <td></td>
-        <td>Supported Versions</td>
         <td>>Supported By</td>
     </tr>
     <!--END - TABLE HEADING-->
     <tr>
         <td><img src="/assets/img/logos/integrations/couchbase.png"/></td>
-        <td>2.2.0, 2.5.2, 4.0</td>
         <td>Couchbase</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/node.png"/></td>
-        <td> 0.10.17, 0.10.26, 0.10.33, 0.10.35 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/docker.png"/></td>
-        <td> 1.9 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/cassandra.png"/></td>
-        <td> 1.2, 2.0, 2.1, 2.2 </td>
         <td> @WalmartLabs </td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/postgresql.png"/></td>
-        <td> 9.1, 9.4.* </td>
         <td> @WalmartLabs </td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/tomcat.png"/></td>
-        <td> 6, 7 </td>
         <td> @WalmartLabs </td>
    </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/ubuntu.png"/></td>
-        <td> 14.04 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/centos.png"/></td>
-        <td> 7 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/ruby.png"/></td>
-        <td> 1.8.7, 1.9.3, 2.0.0 <br> 2.2.* with Rails 4.2.*</td>
         <td> @WalmartLabs </td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/php.png"/></td>
-        <td>5.6.* </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/apache.png"/></td>
-         <td> 2.2.21, 2.4.* </td>
          <td> @WalmartLabs </td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/elastic-search.png"/></td>
-        <td> 1.1.1, 1.3.2, 1.4.1, 1.4.4 </td>
         <td> @WalmartLabs </td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/play-framework.png"/></td>
-        <td> 2.1.0 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/zoo-keeper.png"/> <br>Apache ZooKeeper</td>
-        <td> 3.4.5 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/mySQL.png"/></td>
-        <td> 5.1.73, 5.7.* </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/redis.png"/></td>
-        <td> 2.6.16, 3.0.1 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/squid-cache.png"/></td>
-        <td> 2.6.16, 3.0.1 </td>
         <td>@WalmartLabs</td>
     </tr>
-    <!--ROW -->
     <tr>
         <td><img src="/assets/img/logos/integrations/RabbitMQ-new.png"/></td>
-        <td> 2.8.5, 3.4.2, 3.4.2 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/active-mq.png"/></td>
-        <td> 5.5.1, 5.9.1, 5.10.0, 5.12.* </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/java.png"/></td>
-        <td> 6, 7, 8 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/jboss.png"/></td>
-        <td> 5.1.2 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img  src="/assets/img/logos/integrations/solr.png"/></td>
-        <td> 4.10.3 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/go-gopher-A.png"/></td>
-        <td> 1.1.2 </td>
         <td>@WalmartLabs</td>
     </tr>
     <tr>
         <td><img src="/assets/img/logos/integrations/hap-roxy.png"/></td>
-        <td> </td>
         <td>@WalmartLabs</td>
     </tr>
     </tbody>
