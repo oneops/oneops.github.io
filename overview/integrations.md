@@ -219,40 +219,7 @@ If your company is interested in integrating your cloud in to the OneOps product
     </tbody>
 </table>
 
-
 If you or your company are interested in contributing support for a software product or open source project to OneOps, then please ...
 
-
-
 <a class="btn-u yellow-bg" type="button" href="mailto:opensource@walmartlabs.com">Email Us</a>
 
-
-
-
-## Getting Help
-
-Consulting and Professional Services:
-
-
-<div class="row margin-bottom-30">
-  <div class="col-md-4" align="center">
-    <a href="http://www.avalonconsult.com/" target="_blank"><img src="/assets/img/logos/avalon.png" alt="Avalon Consulting"/></a>
-  </div>
-
-  <div class="col-md-4" align="center">
-    <a href="http://www.nisum.com/" target="_blank"><img src="/assets/img/logos/nisum.png" alt="Nisum Technologies" style="padding-right: 30px;float:left;"/></a>
-  </div>
-
-  <div class="col-md-4" align="center">
-    <a href="http://www.developintelligence.com/catalog/devops/oneops/introduction-to-oneops" target="_blank"><img src="/assets/img/logos/Develop-Intelligence-logo.png" alt="DevelopIntelligence LLC" style="padding-right: 30px;float:left;"/></a>
-  </div>
-</div>
-
-
-
-
-If you’re interested in providing consulting or professional services to companies interested in using OneOps, then please ...
-
-
-
-<a class="btn-u yellow-bg" type="button" href="mailto:opensource@walmartlabs.com">Email Us</a>
