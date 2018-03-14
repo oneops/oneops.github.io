@@ -16,51 +16,26 @@ OneOps is a marketplace of cloud providers and software products designed for De
     <tr>
         <td></td>
         <td>Supported By</td>
-        <td>Notes</td>
     </tr>
-    <!--END - TABLE HEADING-->
-    <!--ROW -->
     <tr>
         <td><img src="/assets/img/logos/integrations/openstack.png"/></td>
         <td>@WalmartLabs</td>
-        <td>Private Cloud
-            <br><br>
-            Nova, Neutron, Swift, Cinder, Glance
-            <br><br>
-            Liberty, Kilo and Juno Releases
-        </td>
     </tr>
-    <!--ROW -->
     <tr>
         <td><img src="/assets/img/logos/integrations/rackspace.png"/></td>
         <td>Rackspace</td>
-        <td>Public & Private Cloud
-            <br><br>
-            Cloud Servers, Cloud Images, Cloud Load Balancers, Cloud DNS, Cloud Network
-        </td>
     </tr>
-    <!--ROW -->
     <tr>
         <td><img src="/assets/img/logos/integrations/azure.png"/></td>
         <td>@WalmartLabs & Microsoft</td>
-        <td>Public & Private Cloud
-            <br><br>
-            Virtual Machines, Storage, ExpressRoute, Azure DNS, Virtual Network, Load Balancer
-        </td>
     </tr>
-    <!--ROW -->
     <tr>
         <td><img src="/assets/img/logos/integrations/amazon.png"/></td>
         <td>@WalmartLabs</td>
-        <td>Public Cloud
-            <br><br>
-            EC2, ELB, EBS, Route 53
-        </td>
     </tr>
      <tr>
         <td><img src="/assets/img/logos/integrations/google-cloud-platform.png"/></td>
         <td>@WalmartLabs & Google</td>
-        <td>Public Cloud</td>
     </tr>
     </tbody>
 </table>
