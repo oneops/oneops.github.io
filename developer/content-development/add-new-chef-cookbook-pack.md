@@ -48,7 +48,7 @@ Now you are ready to test your cookbook and pack. You need to push your model (c
 2. Do a Git pull to make sure you have pulled all the latest changes.
 3. Invoke the knife plugin by executing: `$ circuit install`.
 
-> BE CARFEUL when you use this because you load everything and that impacts others that use the same dev server. This takes some time and pushes all the metadata as CI (configuration item) objects to the CMS. In general, if you are only working on a single cookbook/pack, use the individual commands, not ALL. Remember that if you are using a shared dev-packer CMS backend, that modifying model/packs from one dev environment will affect anybody using that dev-packer environment as a backend.
+> BE CAREFUL when you use this because you load everything and that impacts others that use the same dev server. This takes some time and pushes all the metadata as CI (configuration item) objects to the CMS. In general, if you are only working on a single cookbook/pack, use the individual commands, not ALL. Remember that if you are using a shared dev-packer CMS backend, that modifying model/packs from one dev environment will affect anybody using that dev-packer environment as a backend.
 
 4. Install a single platform and its cookbook 'cd <pack-directory>':
 
