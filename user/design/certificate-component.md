@@ -27,8 +27,8 @@ _SSL CA Certificate Key_: certificate of the certificate authority<br>
 _Pass Phrase_: pass phrase for the certificate<br>
 _Convert to PKCS12_: flag to determine if the certificate should be converted to the PKCS12 archive format<br>
 _Time remaining to expiry_: the time remaining until the certificate expires and needs renewal, supports y (year),
-m (month) and d (day) vaules such as `3m`, this data is taken into account for monitoring and notifications so users
-are alerted about upcoming certificate expiries.<br>
+m (month) and d (day) values such as `3m`, this data is taken into account for monitoring and notifications so users
+are alerted about upcoming certificate expiration.<br>
 _Directory path_: path where the certificate file is saved<br>
 
 
