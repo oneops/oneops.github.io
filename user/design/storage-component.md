@@ -10,7 +10,7 @@ The _storage_ [component](./components.html) is of core importance and part of m
 defines any attached "block" storage accessible to the compute.
 
 Once you define your storage configuration using the below information, you would continue the persistent storage
-setup using the [volume compnent](./volume-component.html).
+setup using the [volume component](./volume-component.html).
 
 ## Configuration
 
