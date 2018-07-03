@@ -18,14 +18,17 @@ To flip an existing platform's secondary cloud to a primary cloud within an envi
 4. Click Commit & Deploy, select the platform and click Ok
 5. Review the deployment plan and click Deploy
 
-To change a secondary cloud to a primary cloud for an existing environment, follow these steps (This change only impacts new platforms that are created after the environment has been edited):
+To change a secondary cloud to a primary cloud for an existing environment, follow these steps:
+
 
 1. In the transition phase, select the environment
 2. Click on configuration and click edit
 3. In the cloud section, locate the appropriate cloud and select the checkbox for primary
 4. Click Save
 5. Click Commit & Deploy, select the platform and click Ok
-6. Review the deployment plan and click Deploy 
+6. Review the deployment plan and click Deploy
+
+>This change only impacts new platforms that are created after the environment has been edited
 
 ## Change a Primary Cloud to a Secondary Cloud in an Existing Platform/Environment
 
@@ -38,14 +41,17 @@ To flip an existing platform's primary cloud to a secondary cloud within a given
 4. Click Commit & Deploy, select the platform and click Ok
 5. Review the deployment plan and click Deploy
 
-To change a primary cloud to a secondary cloud for an existing environment, follow these steps (This change only impacts new platforms that are created after the environment has been edited):
+To change a primary cloud to a secondary cloud for an existing environment, follow these steps:
+
 
 1. In the transition phase, select the environment
 2. Click on configuration and click edit
 3. In the cloud section, locate the appropriate cloud and select the checkbox for secondary
 4. Click Save
 5. Click Commit & Deploy, select the platform and click Ok
-6. Review the deployment plan and click Deploy 
+6. Review the deployment plan and click Deploy
+
+>This change only impacts new platforms that are created after the environment has been edited
 
 ## Add a Primary or Secondary Cloud to an Existing Platform/Environment
 
