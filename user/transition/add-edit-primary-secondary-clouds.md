@@ -79,7 +79,7 @@ To remove a primary or secondary cloud from an existing platform/environment, fo
 5. Review the deployment plan and click Deploy
 6. In the transition phase, select the environment 
 7. Click on configuration and click edit
-8. In the cloud section, locate the appropriate cloud and select the checkbox for ‘Not Used’ 
+8. In the cloud section, locate the appropriate cloud and select the checkbox for Not Used 
 9. Click Save and the cloud will no longer be present in your environment and platform
 
 >An existing cloud can only be removed from an environment (i.e. select 'Not Used') when it has no deployed instances, the environment has no open releases and no new deployments have been generated, are pending or are in-progress. If a cloud is deployed across multiple platforms within an environment, then it must be shutdown on all platforms before it can be removed from the environment
