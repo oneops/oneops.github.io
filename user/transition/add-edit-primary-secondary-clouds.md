@@ -59,7 +59,7 @@ To add a primary or secondary cloud to an existing platform/environment, follow 
 5. Click Commit & Deploy, select the platform and click Ok
 6. Review the deployment plan and click Deploy
 
-During the deployment, you have the option to select which platforms to deploy the new cloud to. During this stage, if you don’t select certain platforms, then the cloud will still get deployed to those platforms, but will have no deployed instances. To create instances on the new cloud for those platforms, go to your environment and click on Force Deploy, select the platform(s) to update and click deploy.
+>During the deployment, you have the option to select which platforms to deploy the new cloud to. During this stage, if you don’t select certain platforms, then the cloud will still get deployed to those platforms, but will have no deployed instances. To create instances on the new cloud for those platforms, go to your environment and click on Force Deploy, select the platform(s) to update and click deploy.
 
 ## Remove a Primary or Secondary Cloud from an Existing Platform/Environment
 
