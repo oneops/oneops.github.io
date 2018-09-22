@@ -43,6 +43,10 @@ active connections.
 are attached to it. When the virtual server receives a request, it assigns the
 connection to the first service in the list, and then moves that service to the
 bottom of the list.
+* _Source IP Hash_: Generates a unique hash key using a clients source and the
+destination servers IP's which then allocates the client to a particular server.
+If the session is terminated the key can be recreated to ensure the client is
+sent to the same server used previously.
 
 _Session Persistence_: Directs the LB to send related requests to the same
 server. Additional attributes described below if session persistence is checked.
