@@ -11,7 +11,7 @@ Use auto repair to automatically heal instances which are marked unhealthy due t
 [Threshold violation or missing Heartbeat](/user/operation/monitors.html). Notifications are sent when an auto repair action is
 executed. Event component defined in a platform has an associated repair action specific to the component. The
 recipe for healing a component differs from one another. There are different set of instructions executed for
-compute repair then for tomcat repair
+compute repair than for Tomcat repair.
 
 
 For example: if a Tomcat instance has become unhealthy, then a Tomcat repair action is triggered which eventually
