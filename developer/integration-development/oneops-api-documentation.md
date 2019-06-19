@@ -575,6 +575,7 @@ https://baseurl/testorg/operations/procedures/123456789
   </code>
   </pre>
 </details>
+
 ## GET Computes for a Platform
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV-NAME>/platforms/<PLATFORM-NAME>/components/compute/instances.json?instances_state=all`
