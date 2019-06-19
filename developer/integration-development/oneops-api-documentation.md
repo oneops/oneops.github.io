@@ -384,18 +384,17 @@ This can be used to get the ciId of the component for use in procedures to perfo
 
 Sample  url
 ```
-https://baseoneopsurl/testorg/assemblies/testassembly/operations/environments/testenvironment/platforms/testplatform/components/compute
+https://baseurl/testorg/assemblies/testassembly/operations/environments/testenv/platforms/testplat/components/compute
 ```
 
 <details><summary>Sample Response:</summary>
  <pre>
  <code>
-  ```
   {
     "rfcId": 0,
     "releaseId": 0,
     "ciId": 12345678,
-    "nsPath": "/testorg/testassembly/testenvironment/manifest/testplatform/1",
+    "nsPath": "/testorg/testassembly/testenv/manifest/testplatf/1",
     "ciClassName": "manifest.testorg.1.Compute",
     "impl": null,
     "ciName": "compute",
@@ -426,7 +425,6 @@ https://baseoneopsurl/testorg/assemblies/testassembly/operations/environments/te
     "ciBaseAttributes": {},
     "ciAttrProps": {}
 }
-  ```
 </code>
 </pre>
 </details>
