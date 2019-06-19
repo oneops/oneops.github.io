@@ -380,12 +380,11 @@ https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/
 
 This can be used to get the ciId of the component for use in procedures to perform actions on components
 
-`https://<your-server>/<ORGANIZATION-NAME/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>`
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>`
 
 Sample  url
-```
-https://baseurl/testorg/assemblies/testassembly/operations/environments/testenv/platforms/testplat/components/compute
-```
+`https://baseurl/testorg/assemblies/testassembly/operations/environments/testenv/platforms/testplat/components/compute
+`
 
 <details><summary>Sample Response:</summary>
  <pre>
