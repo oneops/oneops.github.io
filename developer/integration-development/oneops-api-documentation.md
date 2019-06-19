@@ -45,6 +45,7 @@ Note: all calls will use the api token - see [Get Auth Token](#account-profile):
   - [DELETE Environment](#delete-environment)
   - [POST Discard a release by ID](#post-discard-a-release-by-id)
 - [Operations](#operations)
+  - [GET Component Details](#get-component-details)
   - [PUT Replace Component Instance](#put-replace-component-instance)
   - [GET All available actions](#get-all-available-actions)
   - [GET Instance ids](#get-instance-ids)
@@ -374,6 +375,59 @@ Body:
 https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/environments/<ENVIRONMENT-NAME>/releases/<RELEASE-ID>/discard
 
 # Operations
+
+## GET Component Details
+
+This can be used to get the ciId of the component for use in procedures to perform actions on components
+
+`https://<your-server>/<ORGANIZATION-NAME/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>`
+
+Sample  url
+```
+https://baseoneopsurl/testorg/assemblies/testassembly/operations/environments/testenvironment/platforms/testplatform/components/compute
+```
+
+<details><summary>Sample Response:</summary>
+<p>
+  ```
+  {
+    "rfcId": 0,
+    "releaseId": 0,
+    "ciId": 12345678,
+    "nsPath": "/testorg/testassembly/testenvironment/manifest/testplatform/1",
+    "ciClassName": "manifest.testorg.1.Compute",
+    "impl": null,
+    "ciName": "compute",
+    "ciGoid": "12345678-12345-1234557665",
+    "ciState": "default",
+    "rfcAction": null,
+    "releaseType": null,
+    "createdBy": "testuser",
+    "updatedBy": null,
+    "rfcCreatedBy": null,
+    "rfcUpdatedBy": null,
+    "execOrder": 0,
+    "lastAppliedRfcId": 123456789,
+    "comments": null,
+    "isActiveInRelease": false,
+    "rfcCreated": null,
+    "rfcUpdated": null,
+    "created": 1527673973525,
+    "updated": 1527673973525,
+    "hint": null,
+    "ciAttributes": {
+        "required_availability_zone": null,
+        "size": "M-WIN",
+        "accelerated_flag": "false",
+        "require_public_ip": "false",
+        "ports": "{}"
+    },
+    "ciBaseAttributes": {},
+    "ciAttrProps": {}
+}
+  ```
+</p>
+</details>
 
 ## PUT Replace Component Instance
 
