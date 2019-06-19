@@ -467,6 +467,8 @@ Body:
 ```
 
 For example:
+Sample Url
+`https://baseurl/testorg/operations/proceudres`
 
 ```
 {
@@ -526,8 +528,53 @@ The procedureid property can be used to get the status of the procedure.
 
 Use procedure_id from previous call:
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<Assembly-name>/operations/environments/<ENV-NAME>/platforms/<Platform-name>/procedures/<Procedure-id>`
+`https://<your-server>/<ORGANIZATION-NAME>/operations/procedures/<Procedure-id>`
 
+Sample Url
+```
+https://baseurl/testorg/operations/procedures/123456789
+```
+
+<details>
+  <summary>Sample Response</summary>
+  <pre>
+  <code>
+  {
+    "procedureId": 123456789,
+    "procedureName": "reboot",
+    "ciId": 372632818,
+    "procedureState": "complete",
+    "maxExecOrder": 1,
+    "arglist": "",
+    "createdBy": "testuser",
+    "definition": null,
+    "procedureCiId": 0,
+    "created": 12345678907656,
+    "updated": 23455766788886,
+    "nsPath": null,
+    "forceExecution": false,
+    "actions": [
+        {
+            "actionId": 1223455667565,
+            "actionName": "reboot",
+            "ciId": 372633437,
+            "actionState": "complete",
+            "execOrder": 1,
+            "isCritical": true,
+            "extraInfo": null,
+            "arglist": "",
+            "payLoadDef": null,
+            "createdBy": null,
+            "created": 12345678907656,
+            "updated": 12345678907656,
+            "procedureId": 123456789
+        }
+    ],
+    "currentStep": 0
+}
+  </code>
+  </pre>
+</details>
 ## GET Computes for a Platform
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV-NAME>/platforms/<PLATFORM-NAME>/components/compute/instances.json?instances_state=all`
