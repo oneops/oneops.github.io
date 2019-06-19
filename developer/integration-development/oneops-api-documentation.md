@@ -388,7 +388,8 @@ https://baseoneopsurl/testorg/assemblies/testassembly/operations/environments/te
 ```
 
 <details><summary>Sample Response:</summary>
-<p>
+ <pre>
+ <code>
   ```
   {
     "rfcId": 0,
@@ -426,7 +427,8 @@ https://baseoneopsurl/testorg/assemblies/testassembly/operations/environments/te
     "ciAttrProps": {}
 }
   ```
-</p>
+</code>
+</pre>
 </details>
 
 ## PUT Replace Component Instance
