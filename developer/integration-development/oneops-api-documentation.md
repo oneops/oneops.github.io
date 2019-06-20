@@ -45,6 +45,7 @@ Note: all calls will use the api token - see [Get Auth Token](#account-profile):
   - [DELETE Environment](#delete-environment)
   - [POST Discard a release by ID](#post-discard-a-release-by-id)
 - [Operations](#operations)
+  - [GET Component Details](#get-component-details)
   - [PUT Replace Component Instance](#put-replace-component-instance)
   - [GET All available actions](#get-all-available-actions)
   - [GET Instance ids](#get-instance-ids)
@@ -375,6 +376,58 @@ https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/transition/
 
 # Operations
 
+## GET Component Details
+
+This can be used to get the ciId of the component for use in procedures to perform actions on components
+
+`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>`
+
+Sample  url
+`https://baseurl/testorg/assemblies/testassembly/operations/environments/testenv/platforms/testplat/components/compute
+`
+
+<details><summary>Sample Response:</summary>
+ <pre>
+ <code>
+  {
+    "rfcId": 0,
+    "releaseId": 0,
+    "ciId": 12345678,
+    "nsPath": "/testorg/testassembly/testenv/manifest/testplatf/1",
+    "ciClassName": "manifest.testorg.1.Compute",
+    "impl": null,
+    "ciName": "compute",
+    "ciGoid": "12345678-12345-1234557665",
+    "ciState": "default",
+    "rfcAction": null,
+    "releaseType": null,
+    "createdBy": "testuser",
+    "updatedBy": null,
+    "rfcCreatedBy": null,
+    "rfcUpdatedBy": null,
+    "execOrder": 0,
+    "lastAppliedRfcId": 123456789,
+    "comments": null,
+    "isActiveInRelease": false,
+    "rfcCreated": null,
+    "rfcUpdated": null,
+    "created": 1527673973525,
+    "updated": 1527673973525,
+    "hint": null,
+    "ciAttributes": {
+        "required_availability_zone": null,
+        "size": "M-WIN",
+        "accelerated_flag": "false",
+        "require_public_ip": "false",
+        "ports": "{}"
+    },
+    "ciBaseAttributes": {},
+    "ciAttrProps": {}
+}
+</code>
+</pre>
+</details>
+
 ## PUT Replace Component Instance
 
 `https://<your-server>/<ORGANIZATION-NAME>/assemblies/<ASSEMBLY-NAME>/operations/environments/<ENV_NAME>/platforms/<PLATFORM-NAME>/components/<COMPONENT-NAME>/instances/<INSTANCE_ID>/state`
@@ -408,12 +461,14 @@ Body:
         "procedureName": "<Name>",
         "ciId": "<Component_id>",
         "procedureState": "active",
-        "definition": "{"flow":[{"targetIds":["<Instance_id>"],"relationName":"base.RealizedAs","direction":"from","actions":[{"actionName":"<Action-name>","stepNumber":1,"isCritical":true}]}],"name":"<Action-name>"}"
+        "definition": "{\"flow\":[{\"targetIds\":[\"<Instance_id>\"],\"relationName\":\"base.RealizedAs\",\"direction\":\"from\",\"actions\":[{\"actionName\":\"<Action-name>\",\"stepNumber\":1,\"isCritical\":true}]}],\"name\":\"<Action-name>\"}"
     }
 }
 ```
 
 For example:
+Sample Url
+`https://baseurl/testorg/operations/proceudres`
 
 ```
 {
@@ -422,16 +477,104 @@ For example:
         "procedureName": "reboot",
         "ciId": "9277281",
         "procedureState": "active"
-        "definition": "{"flow":[{"targetIds":["9277720"],"relationName":"base.RealizedAs","direction":"from","actions":[{"actionName":"reboot","stepNumber":1,"isCritical":true}]}],"name":"reboot"}"
+        "definition": "{\"flow\":[{\"targetIds\":[\"9277720\"],\"relationName\":\"base.RealizedAs\",\"direction\":\"from\",\"actions\":[{\"actionName\":\"reboot\",\"stepNumber\":1,\"isCritical\":true}]}],\"name\":\"reboot\"}"
     }
 }
 ```
+<details>
+  <summary>Sample Response</summary>
+  <pre>
+  <code>
+  {
+    "ciId": 123456789,
+    "procedureCiId": 0,
+    "procedureState": "active",
+    "arglist": "",
+    "definition": null,
+    "procedureName": "reboot",
+    "procedureId": 123456789,
+    "maxExecOrder": 1,
+    "createdBy": "testuser",
+    "created": 1560845775523,
+    "updated": 1560845775523,
+    "nsPath": null,
+    "forceExecution": false,
+    "actions": [
+        {
+            "actionId": 12345678,
+            "actionName": "reboot",
+            "ciId": 372633437,
+            "actionState": "pending",
+            "execOrder": 1,
+            "isCritical": true,
+            "extraInfo": null,
+            "arglist": "",
+            "payLoadDef": null,
+            "createdBy": null,
+            "created": 1560845775523,
+            "updated": 1560845775523,
+            "procedureId": 123456789
+        }
+    ],
+    "currentStep": 0
+}
+  </code>
+  </pre>
+</details>
+
+The procedureid property can be used to get the status of the procedure.
 
 ## GET status
 
 Use procedure_id from previous call:
 
-`https://<your-server>/<ORGANIZATION-NAME>/assemblies/<Assembly-name>/operations/environments/<ENV-NAME>/platforms/<Platform-name>/procedures/<Procedure-id>`
+`https://<your-server>/<ORGANIZATION-NAME>/operations/procedures/<Procedure-id>`
+
+Sample Url
+```
+https://baseurl/testorg/operations/procedures/123456789
+```
+
+<details>
+  <summary>Sample Response</summary>
+  <pre>
+  <code>
+  {
+    "procedureId": 123456789,
+    "procedureName": "reboot",
+    "ciId": 372632818,
+    "procedureState": "complete",
+    "maxExecOrder": 1,
+    "arglist": "",
+    "createdBy": "testuser",
+    "definition": null,
+    "procedureCiId": 0,
+    "created": 12345678907656,
+    "updated": 23455766788886,
+    "nsPath": null,
+    "forceExecution": false,
+    "actions": [
+        {
+            "actionId": 1223455667565,
+            "actionName": "reboot",
+            "ciId": 372633437,
+            "actionState": "complete",
+            "execOrder": 1,
+            "isCritical": true,
+            "extraInfo": null,
+            "arglist": "",
+            "payLoadDef": null,
+            "createdBy": null,
+            "created": 12345678907656,
+            "updated": 12345678907656,
+            "procedureId": 123456789
+        }
+    ],
+    "currentStep": 0
+}
+  </code>
+  </pre>
+</details>
 
 ## GET Computes for a Platform
 
