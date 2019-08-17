@@ -6,9 +6,10 @@ title: Telegraf Component
 
 # Telegraf Component
 
-The _telegraf_ [component](./components.html) is available for all
-platforms. Telegraf is an agent for collecting, processing, aggregating, and
-writing metrics. It is available as a standalone binary and is written in Go.
+The _telegraf_ [component](./components.html) is available for all platforms.
+[Telegraf](https://github.com/influxdata/telegraf) is an agent for collecting,
+processing, aggregating, and writing metrics. It is available as a standalone
+binary and is written in Go.
 
 Design goals are to have a minimal memory footprint with a plugin system so that
 developers in the community can easily add support for collecting metrics .
@@ -24,5 +25,4 @@ Telegraf is plugin-driven and has the concept of 4 distinct plugins:
 - _Aggregator Plugins_ create aggregate metrics and calculate values such as
   mean, min, max, quantiles and others.
 - _Output Plugins_ write metrics to various destinations.
-
 
