@@ -6,7 +6,7 @@ title: Apache HTTP Server Component
 
 # Apache HTTP Server Component
 
-The _apache_ [component](./components.html) represent the [Apache HTTP Server](https://java.com/) application itself and
+The _apache_ [component](./components.html) represent the [Apache HTTP Server](https://httpd.apache.org/) application itself and
 is a major component of the [Apache HTTP Server pack](./apache-http-server-pack.html).
 
 ## Attributes
