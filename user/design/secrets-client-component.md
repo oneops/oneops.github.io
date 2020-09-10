@@ -66,7 +66,7 @@ mkdir ~/bin
 cd ~/bin
 curl -o secrets http://repo1.maven.org/maven2/com/oneops/secrets-cli/1.0.3/secrets-cli-1.0.3-executable.jar
 chmod a+x secrets
-export PATH=~/bini:$PATH
+export PATH=~/bin:$PATH
 ```
 
 Now you can run the application using the command `secrets info` as a first
