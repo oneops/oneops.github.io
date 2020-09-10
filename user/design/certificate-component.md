@@ -18,31 +18,31 @@ _lb-certificate_ component as desired and provide the necessary details:
 
 
 ## Attributes
-
-_Name_: name for the certificate<br>
-_Auto Generate_: flag to enable automatic certificate generation<br>
-_Key_: certificate key, `.key` file content<br>
-_Certificate_: certificate content, `.crt` file content<br>
-_SSL CA Certificate Key_: certificate of the certificate authority<br>
-_Pass Phrase_: pass phrase for the certificate<br>
-_Convert to PKCS12_: flag to determine if the certificate should be converted to the PKCS12 archive format<br>
-_Time remaining to expiry_: the time remaining until the certificate expires and needs renewal, supports y (year),
-m (month) and d (day) values such as `3m`, this data is taken into account for monitoring and notifications so users
-are alerted about upcoming certificate expiration.<br>
-_Directory path_: path where the certificate file is saved<br>
-
+* _Auto Generate_: Flag to enable automatic certificate generation.
+* _Key_: Certificate key. The `.key` file contents.
+* _Certificate_: Certificate content. The `.crt` file contents.
+* _SSL CA Certificate Key_: Certificate of the certificate authority.
+* _Pass Phrase_: Pass phrase for the certificate.
+* _Convert to PKCS12_: Flag to determine if the certificate should be converted to the PKCS12 archive format.
+* _Time remaining to expiry_: The time remaining until the certificate expires and needs renewal. Supports `y` (year),
+`m` (month) and `d` (day) values such as `3m`. This data is taken into account for monitoring and notifications so users
+are alerted about upcoming certificate expirations.
+* _Directory path_: path where the certificate file is saved
+* _SSL Certificate (PFX)_: Enables the certificate as a `.pfx` file for application gateway/certificate store.
 
 These tips will help determining the correct certificate when receiving the
 certificate as a `pem` file:
 
-* Certificate is the first section from the certificate pem file.
-* SSL CA Certificate Key is comprised of section 2 and 3 from the certificate
-  pem file.
-* _Key_ is the 4th section from your certificate pem file starting with
-`-----BEGIN CERTIFICATE-----` and ending with `-----END CERTIFICATE-----`
-inclusive.
-* Use `openSSL rsa -in filename.pem -out filename.key` to create a key file from
-the pem file to determine the _SSL Certificate Key_ field value.
+* _Key_: The `filename.key` file contents.
+  * Use
+  ```bash
+  openssl rsa -in certificate.pem -out filename.key
+  ```
+  to create a key file from the pem file. This requires entering a pass phrase.
+* _Certificate_: The first section of the `certificate.pem` file.
+* _SSL CA Certificate Key_: Sections 2 and 3 from the `certificate.pem` file.
+* _Pass Phrase_: The pass phrase entered in the `openssl` command.
+
 
 ## Automatic Certificate Generation
 
